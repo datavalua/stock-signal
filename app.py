@@ -301,7 +301,11 @@ def show_search():
                     )
                 except AttributeError:
                     # Fallback for older Streamlit versions (< 1.23.0)
-                    st.dataframe(df_view, use_container_width=True)
+                    try:
+                        st.dataframe(df_view, use_container_width=True)
+                    except TypeError:
+                        # Fallback for extremely old Streamlit versions (< 1.10.0)
+                        st.dataframe(df_view)
                 
                 if len(df) > 200:
                     st.caption("※ 성능을 위해 상위 200개 종목만 상세 정보를 매핑하여 표시합니다.")
