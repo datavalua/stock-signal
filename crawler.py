@@ -449,7 +449,7 @@ def select_impactful_article(stock_name, articles, change_val):
             executor = ThreadPoolExecutor(max_workers=1)
             future = executor.submit(
                 client.models.generate_content,
-                model='gemini-1.5-flash',
+                model='gemini-2.5-flash-lite',
                 contents=prompt
             )
             response = future.result(timeout=10)
@@ -549,7 +549,7 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
             executor = ThreadPoolExecutor(max_workers=1)
             future = executor.submit(
                 client.models.generate_content,
-                model='gemini-1.5-flash',
+                model='gemini-2.5-flash-lite',
                 contents=prompt
             )
             response = future.result(timeout=10)
