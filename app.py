@@ -111,6 +111,13 @@ def load_data(date_str):
         except: return None
     return None
 
+@st.cache(ttl=3600, show_spinner=False)
+def get_stock_listing_cached(idx):
+    try:
+        return fdr.StockListing(idx)
+    except:
+        return pd.DataFrame()
+
 @st.cache(ttl=600, show_spinner=False)
 def load_stock_metadata():
     if os.path.exists(STOCK_METADATA_FILE):
@@ -224,10 +231,47 @@ def show_signals(market, date_str):
 
 def show_search():
     st.header("🔍 관련 주식 조회")
+    st.info("각 지수별 상장 종목 리스트와 상세 정보(산업군, 경쟁사)를 조회합니다.")
     idx = st.selectbox("시장 지수 선택", ["S&P500", "NASDAQ", "KOSPI", "KOSDAQ"])
+    
     if st.button("조회 시작"):
-        df = fdr.StockListing(idx)
-        st.dataframe(df)
+        with st.spinner(f"{idx} 종목 리스트를 불러오는 중..."):
+            try:
+                meta = load_stock_metadata()
+                market_key = "US" if idx in ["S&P500", "NASDAQ"] else "KR"
+                market_meta = meta.get(market_key, {})
+                
+                df = get_stock_listing_cached(idx)
+                
+                # Standardize columns: Symbol, Name
+                if "Symbol" in df.columns:
+                    df = df.rename(columns={"Symbol": "티커"})
+                elif "Code" in df.columns:
+                    df = df.rename(columns={"Code": "티커"})
+                
+                if "Name" in df.columns:
+                    df = df.rename(columns={"Name": "종목명"})
+                
+                # Enrichment: Add Industrial/Peers from our metadata
+                def get_extra(row):
+                    ticker = str(row["티커"])
+                    m = market_meta.get(ticker, {})
+                    industry = ", ".join(m.get("industry", [])) if m.get("industry") else "-"
+                    peers = ", ".join(m.get("peers", [])) if m.get("peers") else "-"
+                    return pd.Series([industry, peers])
+
+                # Apply enrichment only to first 200 rows for performance
+                df_view = df.head(200).copy()
+                df_view[["산업분류", "관련종목(Peers)"]] = df_view.apply(get_extra, axis=1)
+                
+                st.success(f"조회 완료 (총 {len(df)}개 중 상위 200개 표시)")
+                st.dataframe(df_view)
+                
+                if len(df) > 200:
+                    st.caption("※ 성능을 위해 상위 200개 종목만 상세 정보를 매핑하여 표시합니다.")
+                    
+            except Exception as e:
+                st.error(f"조회 중 오류 발생: {e}")
 
 def show_admin():
     st.header("⚙️ 관리자 도구")
