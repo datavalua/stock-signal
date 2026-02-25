@@ -194,7 +194,7 @@ def format_rate(rate_str):
         return f"🔵 {rate_str}"
     return rate_str
 
-@st.cache_data(ttl=600)
+@st.cache(ttl=600, show_spinner=False)
 def load_stock_metadata():
     if os.path.exists(STOCK_METADATA_FILE):
         with open(STOCK_METADATA_FILE, "r", encoding="utf-8") as f:
@@ -473,7 +473,8 @@ def render_admin_view():
     st.markdown("크롤링 데이터 생성 트래거 및 JSON 타겟 스키마(KR/US 시장)를 직접 관리할 수 있습니다.")
     
     if st.button("🔄 종목 스키마 수동 업데이트 (Reload Metadata)"):
-        st.cache_data.clear()
+        import streamlit.legacy_caching
+        streamlit.legacy_caching.clear_cache()
         st.success("메타데이터 캐시가 초기화되었습니다. 최신 정보를 불러옵니다.")
         st.experimental_rerun()
     
