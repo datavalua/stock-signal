@@ -287,17 +287,21 @@ def show_search():
                 
                 st.success(f"조회 완료 (총 {len(df)}개 중 상위 {len(df_view)}개 표시)")
                 
-                # Fixed column widths for consistent size
-                st.dataframe(
-                    df_view,
-                    column_config={
-                        "Symbol": st.column_config.TextColumn("Symbol", width="small"),
-                        "Name": st.column_config.TextColumn("Name", width="medium"),
-                        "Industry": st.column_config.TextColumn("Industry", width="medium"),
-                        "Peers": st.column_config.TextColumn("Peers", width="large")
-                    },
-                    use_container_width=True
-                )
+                # Fixed column widths for consistent size (Requires Streamlit >= 1.23.0)
+                try:
+                    st.dataframe(
+                        df_view,
+                        column_config={
+                            "Symbol": st.column_config.TextColumn("Symbol", width="small"),
+                            "Name": st.column_config.TextColumn("Name", width="medium"),
+                            "Industry": st.column_config.TextColumn("Industry", width="medium"),
+                            "Peers": st.column_config.TextColumn("Peers", width="large")
+                        },
+                        use_container_width=True
+                    )
+                except AttributeError:
+                    # Fallback for older Streamlit versions (< 1.23.0)
+                    st.dataframe(df_view, use_container_width=True)
                 
                 if len(df) > 200:
                     st.caption("※ 성능을 위해 상위 200개 종목만 상세 정보를 매핑하여 표시합니다.")
