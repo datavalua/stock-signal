@@ -228,11 +228,11 @@ def render_overlay_modals():
         """, unsafe_allow_html=True)
         _, col_login, _ = st.columns([1, 2, 1])
         with col_login:
-            pwd_input = st.text_input("Password", type="password", key="modal_login_pwd", label_visibility="collapsed", placeholder="비밀번호 입력")
+            pwd_input = st.text_input("비밀번호", type="password", key="modal_login_pwd")
             st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
             col_l1, col_l2 = st.columns(2)
             with col_l1:
-                if st.button("로그인", use_container_width=True):
+                if st.button("로그인"):
                     if pwd_input == ADMIN_PASSWORD:
                         st.session_state["admin_logged_in"] = True
                         st.session_state["login_time"] = datetime.datetime.now()
@@ -243,7 +243,7 @@ def render_overlay_modals():
                     else:
                         st.error("비밀번호 불일치")
             with col_l2:
-                if st.button("취소", use_container_width=True):
+                if st.button("취소"):
                     st.session_state["show_login_modal"] = False
                     st.rerun()
 
