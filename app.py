@@ -405,7 +405,7 @@ def render_header_nav():
             label = f"🟢 {option}" if current_opt == option else f"{option}"
             if st.button(label, key=f"nav_{option}"):
                 st.session_state["current_view"] = option
-                st.experimental_rerun()
+                st.rerun()
 
     st.markdown("---")
 
@@ -430,7 +430,7 @@ def main():
         render_admin_view()
     else:
         st.session_state["current_view"] = "주식 시그널"
-        st.experimental_rerun()
+        st.rerun()
         
     # Auto-refresh logic (ONLY if we are in the main User view)
     if view == "주식 시그널":
