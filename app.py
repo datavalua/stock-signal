@@ -252,7 +252,7 @@ def render_user_view():
     st.subheader("📊 오늘의 시그널")
     
     # Margin above controls
-    st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
+    st.markdown("<div style='height: 15px;'></div>", unsafe_allow_html=True)
     
     # Controls
     col_date, col_market, col_info = st.columns([1.5, 2, 3.5])
@@ -601,12 +601,16 @@ def main():
         st.session_state["current_view"] = "주식 시그널"
         st.experimental_rerun()
         
-    # Auto-refresh logic (ONLY if we are in the main User view)
+    # Auto-refresh & Focus Top logic
     if view == "주식 시그널":
         import streamlit.components.v1 as components
         components.html(
             """
             <script>
+            // Force scroll to top on load
+            window.parent.scrollTo(0, 0);
+            
+            // Auto-refresh every 20 minutes
             setTimeout(function(){
                 window.parent.location.reload();
             }, 1200000);
