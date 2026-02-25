@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-02-26 02:34:14",
+  "last_updated": "2026-02-26 03:04:37",
   "signals": [
     {
       "id": "sig_20260225_US_001",
       "theme": "##반도체",
-      "short_reason": "Company, News",
-      "summary": "AMD은(는) Company News for Feb 25, 2026 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "SMCI, Doubles",
+      "summary": "AMD은(는) SMCI Doubles Down on DCBBS: Is it the Next Growth Engine? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "AMD",
         "symbol": "AMD",
@@ -14,9 +14,16 @@
       },
       "news_articles": [
         {
-          "title": "Company News for Feb 25, 2026",
-          "url": "https://finance.yahoo.com/news/company-news-feb-25-2026-130400672.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:04:00 +0000",
+          "title": "SMCI Doubles Down on DCBBS: Is it the Next Growth Engine?",
+          "url": "https://finance.yahoo.com/news/smci-doubles-down-dcbbs-next-134800856.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:48:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Advanced Micro Devices, Meta Deal Could Add $100B in Revenue",
+          "url": "https://finance.yahoo.com/news/advanced-micro-devices-meta-deal-175113999.html?.tsrc=rss",
+          "date": "02.26 02:51",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -45,6 +52,13 @@
           "title": "META deal sets AMD up for  another hundred billion in revenue over next 5 years",
           "url": "https://finance.yahoo.com/news/meta-deal-sets-amd-another-144729389.html?.tsrc=rss",
           "date": "02.25 23:47",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Company News for Feb 25, 2026",
+          "url": "https://finance.yahoo.com/news/company-news-feb-25-2026-130400672.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:04:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -82,13 +96,6 @@
           "date": "Wed, 25 Feb 2026 14:00:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "SMCI Doubles Down on DCBBS: Is it the Next Growth Engine?",
-          "url": "https://finance.yahoo.com/news/smci-doubles-down-dcbbs-next-134800856.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:48:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -105,13 +112,13 @@
           "change_rate": "+4.2%"
         }
       ],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     },
     {
       "id": "sig_20260225_US_002",
       "theme": "##글로벌시황",
-      "short_reason": "Prediction:, Rivian",
-      "summary": "오늘 인텔 주가는 Prediction: Rivian Stock Is a Buy Before 2027 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Forget, Tilray:",
+      "summary": "인텔은(는) Forget Tilray: This Steady Income Stock Beats Wild Cannabis Swings Every Time 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "인텔",
         "symbol": "INTC",
@@ -120,9 +127,23 @@
       },
       "news_articles": [
         {
-          "title": "Prediction: Rivian Stock Is a Buy Before 2027",
-          "url": "https://www.fool.com/investing/2026/02/25/prediction-rivian-stock-is-a-buy-before-2027/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:20:00 +0000",
+          "title": "Forget Tilray: This Steady Income Stock Beats Wild Cannabis Swings Every Time",
+          "url": "https://www.fool.com/investing/2026/02/25/forget-tilray-this-steady-income-stock-beats-wild/?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 14:40:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Did Micron Stock Pop Today?",
+          "url": "https://www.fool.com/investing/2026/02/25/why-did-micron-stock-pop-today/?.tsrc=rss",
+          "date": "02.26 02:37",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Lumen Technologies vs. Nokia: Which Stock Will Make You Richer?",
+          "url": "https://www.fool.com/investing/2026/02/25/lumen-technologies-vs-nokia-stock-make-richer/?.tsrc=rss",
+          "date": "02.26 02:35",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -144,6 +165,13 @@
           "title": "'Black Swan' author warns investors to brace for bankruptcies",
           "url": "https://www.thestreet.com/crypto/markets/black-swan-author-warns-investors-to-brace-for-bankruptcies?.tsrc=rss",
           "date": "02.26 01:38",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Prediction: Rivian Stock Is a Buy Before 2027",
+          "url": "https://www.fool.com/investing/2026/02/25/prediction-rivian-stock-is-a-buy-before-2027/?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 14:20:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -202,13 +230,6 @@
           "date": "Wed, 25 Feb 2026 14:50:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Forget Tilray: This Steady Income Stock Beats Wild Cannabis Swings Every Time",
-          "url": "https://www.fool.com/investing/2026/02/25/forget-tilray-this-steady-income-stock-beats-wild/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:40:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -229,7 +250,7 @@
           "change_rate": "+0.5%"
         }
       ],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     },
     {
       "id": "sig_20260225_US_003",
@@ -314,13 +335,13 @@
           "change_rate": "+5.7%"
         }
       ],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     },
     {
       "id": "sig_20260225_US_004",
       "theme": "##글로벌시황",
-      "short_reason": "Salesforce, Earnings",
-      "summary": "세일즈포스은(는) Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Stock, market",
+      "summary": "세일즈포스은(는) Stock market today: Dow, S&P 500, Nasdaq rise with Nvidia earnings looming as gut check for AI trade 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "세일즈포스",
         "symbol": "CRM",
@@ -329,9 +350,23 @@
       },
       "news_articles": [
         {
-          "title": "Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI",
-          "url": "https://finance.yahoo.com/news/salesforce-earnings-due-today-wall-132153355.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:21:53 +0000",
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rise with Nvidia earnings looming as gut check for AI trade",
+          "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rise-with-nvidia-earnings-looming-as-gut-check-for-ai-trade-143448982.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 14:34:48 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Workday Shares Drop 9% as CEO Says OpenAI, Google Use Its Software",
+          "url": "https://finance.yahoo.com/news/workday-shares-drop-9-ceo-174643941.html?.tsrc=rss",
+          "date": "02.26 02:46",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "5 industries that have gotten rocked by the AI 'scare trade' defining markets this year",
+          "url": "https://finance.yahoo.com/news/5-industries-that-have-gotten-rocked-by-the-ai-scare-trade-defining-markets-this-year-164746958.html?.tsrc=rss",
+          "date": "02.26 02:33",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -357,9 +392,9 @@
           "has_name": true
         },
         {
-          "title": "5 industries that have gotten rocked by the AI 'scare trade' defining markets this year",
-          "url": "https://finance.yahoo.com/news/5-industries-that-have-gotten-rocked-by-the-ai-scare-trade-defining-markets-this-year-164746958.html?.tsrc=rss",
-          "date": "02.26 02:33",
+          "title": "Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI",
+          "url": "https://finance.yahoo.com/news/salesforce-earnings-due-today-wall-132153355.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:21:53 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -425,13 +460,6 @@
           "date": "Wed, 25 Feb 2026 15:00:01 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq rise with Nvidia earnings looming as gut check for AI trade",
-          "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rise-with-nvidia-earnings-looming-as-gut-check-for-ai-trade-143448982.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:34:48 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -448,13 +476,13 @@
           "change_rate": "-0.2%"
         }
       ],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     },
     {
       "id": "sig_20260225_US_005",
       "theme": "##글로벌시황",
-      "short_reason": "Workday, Stock",
-      "summary": "오라클은(는) Workday Stock Slumps. Why Its Strong Earnings Won’t Ease the Market’s Software Fears. 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "KleanNara, Partners",
+      "summary": "오늘 오라클 주가는 KleanNara Partners with Rimini Street to Accelerate Digital Transformation 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "오라클",
         "symbol": "ORCL",
@@ -463,9 +491,23 @@
       },
       "news_articles": [
         {
-          "title": "Workday Stock Slumps. Why Its Strong Earnings Won’t Ease the Market’s Software Fears.",
-          "url": "https://finance.yahoo.com/m/c7c6d6c0-c095-3e95-bdbc-f79d1181a303/workday-stock-slumps.-why-its.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 11:42:00 +0000",
+          "title": "KleanNara Partners with Rimini Street to Accelerate Digital Transformation",
+          "url": "https://finance.yahoo.com/news/kleannara-partners-rimini-street-accelerate-140000638.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 14:00:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Oracle Upgraded to Buy at Oppenheimer After Selloff",
+          "url": "https://finance.yahoo.com/news/oracle-upgraded-buy-oppenheimer-selloff-175248722.html?.tsrc=rss",
+          "date": "02.26 02:52",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Oracle's Projected Earnings Growth Likely to Drive Positive Sentiment Shift, Oppenheimer Says",
+          "url": "https://finance.yahoo.com/news/oracle-apos-projected-earnings-growth-173340905.html?.tsrc=rss",
+          "date": "02.26 02:33",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -487,6 +529,13 @@
           "title": "Oracle Lawsuit Puts AI Infrastructure Spending And Disclosure Risks In Focus",
           "url": "https://finance.yahoo.com/news/oracle-lawsuit-puts-ai-infrastructure-161255808.html?.tsrc=rss",
           "date": "02.26 01:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Workday Stock Slumps. Why Its Strong Earnings Won’t Ease the Market’s Software Fears.",
+          "url": "https://finance.yahoo.com/m/c7c6d6c0-c095-3e95-bdbc-f79d1181a303/workday-stock-slumps.-why-its.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 11:42:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -552,13 +601,6 @@
           "date": "Wed, 25 Feb 2026 14:04:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "KleanNara Partners with Rimini Street to Accelerate Digital Transformation",
-          "url": "https://finance.yahoo.com/news/kleannara-partners-rimini-street-accelerate-140000638.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:00:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -579,7 +621,7 @@
           "change_rate": "+5.7%"
         }
       ],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     },
     {
       "id": "sig_20260225_US_006",
@@ -643,13 +685,13 @@
           "change_rate": "-1.6%"
         }
       ],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     },
     {
       "id": "sig_20260225_US_007",
       "theme": "##글로벌시황",
-      "short_reason": "Netflix, Stock",
-      "summary": "오늘 넷플릭스 주가는 Netflix Stock Is the Cheapest It Has Been in 3 Years Following Its 41% Plunge -- But Is It a Buy? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Warner, Bros.",
+      "summary": "넷플릭스은(는) Warner Bros. Says $31-Per-Share Paramount Bid May Surpass Netflix Deal 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "넷플릭스",
         "symbol": "NFLX",
@@ -658,9 +700,9 @@
       },
       "news_articles": [
         {
-          "title": "Netflix Stock Is the Cheapest It Has Been in 3 Years Following Its 41% Plunge -- But Is It a Buy?",
-          "url": "https://www.fool.com/investing/2026/02/25/netflix-stock-cheapest-been-3-years-41-plunge-buy/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 11:14:00 +0000",
+          "title": "Warner Bros. Says $31-Per-Share Paramount Bid May Surpass Netflix Deal",
+          "url": "https://finance.yahoo.com/news/warner-bros-says-31-per-121247314.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 12:12:47 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -700,6 +742,13 @@
           "has_name": true
         },
         {
+          "title": "Netflix Stock Is the Cheapest It Has Been in 3 Years Following Its 41% Plunge -- But Is It a Buy?",
+          "url": "https://www.fool.com/investing/2026/02/25/netflix-stock-cheapest-been-3-years-41-plunge-buy/?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 11:14:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "2 Nasdaq 100 Stocks Worth Your Attention and 1 We Question",
           "url": "https://finance.yahoo.com/news/2-nasdaq-100-stocks-worth-121135536.html?.tsrc=rss",
           "date": "Wed, 25 Feb 2026 12:11:35 +0000",
@@ -726,13 +775,6 @@
           "date": "Wed, 25 Feb 2026 15:01:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Warner Bros. Says $31-Per-Share Paramount Bid May Surpass Netflix Deal",
-          "url": "https://finance.yahoo.com/news/warner-bros-says-31-per-121247314.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 12:12:47 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -753,13 +795,13 @@
           "change_rate": "-0.2%"
         }
       ],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     },
     {
       "id": "sig_20260225_US_008",
       "theme": "##전기차",
-      "short_reason": "Has, Tesla's",
-      "summary": "오늘 테슬라 주가는 Has Tesla's 'iPhone Moment' Arrived? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Tesla, Stock",
+      "summary": "오늘 테슬라 주가는 Tesla Stock Wobbles. This Analyst Calls the Robot Opportunity a ‘Delusion.’ 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "테슬라",
         "symbol": "TSLA",
@@ -768,9 +810,9 @@
       },
       "news_articles": [
         {
-          "title": "Has Tesla's 'iPhone Moment' Arrived?",
-          "url": "https://www.fool.com/investing/2026/02/25/has-teslas-iphone-moment-arrived/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 10:35:00 +0000",
+          "title": "Tesla Stock Wobbles. This Analyst Calls the Robot Opportunity a ‘Delusion.’",
+          "url": "https://finance.yahoo.com/m/0ab0a309-9fde-3530-9193-94c7f6f32a43/tesla-stock-wobbles.-this.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 14:52:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -810,6 +852,13 @@
           "has_name": true
         },
         {
+          "title": "Has Tesla's 'iPhone Moment' Arrived?",
+          "url": "https://www.fool.com/investing/2026/02/25/has-teslas-iphone-moment-arrived/?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 10:35:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Prediction: Rivian Stock Is a Buy Before 2027",
           "url": "https://www.fool.com/investing/2026/02/25/prediction-rivian-stock-is-a-buy-before-2027/?.tsrc=rss",
           "date": "Wed, 25 Feb 2026 14:20:00 +0000",
@@ -836,23 +885,16 @@
           "date": "Wed, 25 Feb 2026 14:55:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Tesla Stock Wobbles. This Analyst Calls the Robot Opportunity a ‘Delusion.’",
-          "url": "https://finance.yahoo.com/m/0ab0a309-9fde-3530-9193-94c7f6f32a43/tesla-stock-wobbles.-this.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:52:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     },
     {
       "id": "sig_20260225_US_009",
       "theme": "##빅테크",
-      "short_reason": "Amazon, Shares",
-      "summary": "애플은(는) Amazon Shares Crash This Year 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Spain, Ramps",
+      "summary": "오늘 애플 주가는 Spain Ramps Up Pressure on Apple, Amazon in Yearslong Antitrust Case 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "애플",
         "symbol": "AAPL",
@@ -861,9 +903,30 @@
       },
       "news_articles": [
         {
-          "title": "Amazon Shares Crash This Year",
-          "url": "https://247wallst.com/technology-3/2026/02/25/amazon-shares-crash-this-year/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:23:01 +0000",
+          "title": "Spain Ramps Up Pressure on Apple, Amazon in Yearslong Antitrust Case",
+          "url": "https://finance.yahoo.com/m/79195dca-1481-3a58-9942-67d21d0e6744/spain-ramps-up-pressure-on.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:48:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Samsung's new Galaxy S27 smartphone line up goes big on AI as Apple works to catch up",
+          "url": "https://finance.yahoo.com/news/samsungs-new-galaxy-s27-smartphone-line-up-goes-big-on-ai-as-apple-works-to-catch-up-180029639.html?.tsrc=rss",
+          "date": "02.26 03:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Apple Investors Reject China Supply Chain Proposal",
+          "url": "https://finance.yahoo.com/news/apple-investors-reject-china-supply-171023659.html?.tsrc=rss",
+          "date": "02.26 02:10",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "What I Saw Inside Apple’s Effort to Rebuild the U.S. Chip Supply Chain",
+          "url": "https://finance.yahoo.com/m/ac6a625c-33e1-3fe5-afe6-09d8407ba41b/what-i-saw-inside-apple%E2%80%99s.html?.tsrc=rss",
+          "date": "02.26 02:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -878,6 +941,13 @@
           "title": "Analysts say Apple is an AI 'survivor.' Here's why.",
           "url": "https://finance.yahoo.com/video/analysts-apple-ai-survivor-heres-155850224.html?.tsrc=rss",
           "date": "02.26 00:58",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Amazon Shares Crash This Year",
+          "url": "https://247wallst.com/technology-3/2026/02/25/amazon-shares-crash-this-year/?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:23:01 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -908,13 +978,6 @@
           "date": "Wed, 25 Feb 2026 14:05:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Spain Ramps Up Pressure on Apple, Amazon in Yearslong Antitrust Case",
-          "url": "https://finance.yahoo.com/m/79195dca-1481-3a58-9942-67d21d0e6744/spain-ramps-up-pressure-on.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:48:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -935,13 +998,13 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     },
     {
       "id": "sig_20260225_US_010",
       "theme": "##글로벌시황",
-      "short_reason": "Earnings, live:",
-      "summary": "오늘 홈디포 주가는 Earnings live: Circle stock soars, First Solar and Lowe's fall on guidance misses 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Lowe’s, Stock",
+      "summary": "오늘 홈디포 주가는 Lowe’s Stock Drops After Earnings Beat. Why Guidance Is a Big Worry. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "홈디포",
         "symbol": "HD",
@@ -950,9 +1013,16 @@
       },
       "news_articles": [
         {
-          "title": "Earnings live: Circle stock soars, First Solar and Lowe's fall on guidance misses",
-          "url": "https://finance.yahoo.com/news/live/earnings-live-circle-stock-soars-first-solar-and-lowes-fall-on-guidance-misses-133211905.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:32:11 +0000",
+          "title": "Lowe’s Stock Drops After Earnings Beat. Why Guidance Is a Big Worry.",
+          "url": "https://finance.yahoo.com/m/d1348d4c-1774-3a28-8b47-ea174f2aaa11/lowe%E2%80%99s-stock-drops-after.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:10:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Housing Stocks Hit Hard by Gloomy Outlooks, Trump’s Snub",
+          "url": "https://finance.yahoo.com/news/housing-stocks-hit-hard-gloomy-174005784.html?.tsrc=rss",
+          "date": "02.26 02:40",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -971,9 +1041,23 @@
           "has_name": true
         },
         {
+          "title": "Lowe's Slips as Company Offers Mixed Guidance Despite Double-Beat Report",
+          "url": "https://finance.yahoo.com/news/lowes-slips-company-offers-mixed-155400290.html?.tsrc=rss",
+          "date": "02.26 00:54",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Lowe’s Says Homeowners Remain Reluctant to Remodel",
           "url": "https://finance.yahoo.com/m/5de7fd26-f95c-3a22-9d67-c12bee93531a/lowe%E2%80%99s-says-homeowners-remain.html?.tsrc=rss",
           "date": "02.26 00:48",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Earnings live: Circle stock soars, First Solar and Lowe's fall on guidance misses",
+          "url": "https://finance.yahoo.com/news/live/earnings-live-circle-stock-soars-first-solar-and-lowes-fall-on-guidance-misses-133211905.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:32:11 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -1011,13 +1095,6 @@
           "date": "Wed, 25 Feb 2026 14:05:05 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Lowe’s Stock Drops After Earnings Beat. Why Guidance Is a Big Worry.",
-          "url": "https://finance.yahoo.com/m/d1348d4c-1774-3a28-8b47-ea174f2aaa11/lowe%E2%80%99s-stock-drops-after.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:10:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -1030,7 +1107,7 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-26 02:34:14"
+      "timestamp": "2026-02-26 03:04:37"
     }
   ]
 }
