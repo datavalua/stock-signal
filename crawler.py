@@ -511,16 +511,16 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                 )
             else:
                 prompt = (
-                    f"전문 금융 분석가로서 한국 주식 {stock_name}의 주가 {direction} 핵심 원인을 분석하세요.\n"
-                    f"**아래 뉴스/공시 정보들을 바탕으로 작성하세요 (첫 번째 기사가 가장 중요함):**\n\n"
-                )
+                f"당신은 금융 시장을 분석하는 전문 AI 리포터입니다. 다음 주식 {stock_name} ({direction})에 관한 최신 기사들을 읽고 분석 리포트를 작성하세요.\n\n"
+                f"**분석용 뉴스 데이터:**\n"
+            )
             
             # Determine slice limit based on market
             limit = 5
             for i, article in enumerate(reordered[:limit]):
                 title = article.get("title", "")
                 content = article.get("content", "")
-                prompt += f"기사 {i+1}: {title}\n내용: {content[:1000]}\n\n"
+                prompt += f"기사 {i+1}: {title}\n내용: {content[:1500]}\n\n"
                 
             if market == "KR" and investor_data:
                 time_ctx = "장중 실시간(크롤링 시점)" if investor_data.get('is_realtime') else "장 마감(종가)"
@@ -530,26 +530,26 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                 prompt += f"- 기관: {investor_data['기관']}\n\n"
                 
             prompt += (
-                f"**작성 규칙:**\n"
-                f"1. **기사 선별 및 번역**: 정보가 없거나 모호한 기사 제목은 배제하고, 핵심적인 기사들만 종합하여 요약하세요. 영문 기사일 경우 반드시 매끄러운 한국어로 번역하여 요약해야 합니다.\n"
-                f"2. **짧은 이유 (short_reason) 필독**: 주가 {direction}의 단편적인 핵심 이유를 **반드시 '단어 단위'의 명사형 키워드 2~3개**로만 작성하세요. (예: '깜짝 실적, 목표가 상향', '금리 인하 기대, 신제품', '외국인 매도세, 실적 쇼크'). 문장형으로 작성하면 안 됩니다.\n"
-                f"3. **요약 (summary)**: 주가 변동에 영향을 미친 기사 내용을 2~3줄로 종합하여 설명하세요."
+                f"**작성 가이드라인 (반드시 준수):**\n"
+                f"1. **한국어 번역 및 종합 요약 (summary)**: 모든 영문 뉴스 내용은 반드시 먼저 자연스러운 한국어로 번역하세요. 이후 기사들의 핵심 내용을 2~3문장 문체로 종합하여 요약하세요. 단순 번역체가 아닌, 한국 독자가 읽기 편한 전문가적 어조를 사용하십시오.\n"
+                f"2. **키워드 요약 (short_reason)**: 위에서 작성한 '요약(summary)'의 핵심 내용을 **2~3개의 명사형 어절/단어**로만 압축하세요. (예: '매출 성장세 지속, 실적 기대감', '신제품 출시 효과, 점유율 확대', '글로벌 경기 침체, 매출 둔화 우려'). 문장이나 마침표를 사용하지 말고 명사형으로 딱 끊어서 작성하세요.\n"
+                f"3. **카테고리 분류 (category)**: 제공된 뉴스 성격에 따라 '실적', '수급', '이슈', '거시경제', '빅테크' 중 가장 적절한 하나를 선택하세요."
             )
             
             if market == "KR" and investor_data:
-                prompt += " 제공된 개인, 외국인, 기관의 매수/매도 수급 동향 흐름을 요약문 안에 자연스럽게 한 문장으로라도 포함해 주세요."
+                prompt += " 제공된 외국인/기관의 수급 동향이 주가에 미친 영향(매수세/매도세 중심)을 요약문 속에 자연스럽게 녹여내세요."
                 
             prompt += (
-                f"\n4. **정형화된 문구 금지**: '주가가 상승 마감했습니다' 같은 기계적인 문구로 시작하지 마세요.\n"
-                f"5. **출력 형식**: 반드시 아래 JSON 형식으로만 답변하세요. 마크다운(`)이나 다른 설명은 절대 붙이지 마세요.\n"
-                f"{{\"category\": \"실적|수급|이슈|거시경제|빅테크\", \"short_reason\": \"단어 단위 키워드 나열\", \"summary\": \"규칙에 맞춘 번역본 및 기사 종합 요약\"}}"
+                f"\n4. **금지 사항**: '주가가 올랐습니다' 같은 뻔한 결과 나열은 피하고, '왜' 변동했는지 뉴스에 기반한 구체적 근거를 제시하세요.\n"
+                f"5. **출력 형식**: 아래 JSON 구조로만 답변하세요. 마크다운 기호(```json)나 다른 텍스트는 일체 포함하지 마세요.\n"
+                f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 키워드 어절 (2~3개)\", \"summary\": \"규칙을 준수한 자연스러운 한글 요약\"}}"
             )
             
             from concurrent.futures import ThreadPoolExecutor, TimeoutError
             executor = ThreadPoolExecutor(max_workers=1)
             future = executor.submit(
                 client.models.generate_content,
-                model='gemini-2.5-flash-lite',
+                model='gemini-2.0-flash',
                 contents=prompt
             )
             response = future.result(timeout=10)
