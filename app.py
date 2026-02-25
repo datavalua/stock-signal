@@ -244,6 +244,20 @@ def show_admin():
             if crawler.generate_daily_json(c_d.strftime("%Y-%m-%d"), market=c_m):
                 st.success("데이터 생성 완료!")
             else: st.error("데이터 생성 중 오류가 발생했습니다.")
+            
+    st.markdown("---")
+    st.subheader("🌐 글로벌 종목 정보 자동 확장 (AI Bootstrap)")
+    st.info("S&P500, NASDAQ, KOSPI, KOSDAQ 종목의 산업군 및 경쟁사 정보를 AI가 자동으로 수집합니다. (API 할당량 준수를 위해 인덱스별 상위 20개씩 우선 처리)")
+    if st.button("🚀 전체 종목 정보 확장 시작"):
+        import bootstrap_metadata
+        with st.spinner("AI가 전 세계 종목 정보를 분석 중입니다... (약 1~2분 소요)"):
+            try:
+                bootstrap_metadata.run_bootstrap(limit_per_index=20)
+                st.success("종목 정보 확장이 완료되었습니다! 이제 풍부한 관련 주식 정보를 보실 수 있습니다.")
+                # Reload metadata after update
+                safe_clear_cache()
+            except Exception as e:
+                st.error(f"확장 중 오류 발생: {e}")
 
 # --- Main App Flow ---
 def main():

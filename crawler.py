@@ -642,37 +642,20 @@ def get_related_stocks(symbol, name, date_str, theme=None, market="KR"):
                     related_candidates.append(s)
                     seen_symbols.add(s['symbol'])
     
-    # --- Tier 3: Theme-based Fallback (If still empty or fewer than 3) ---
-    if theme and len(related_candidates) < 3:
-        clean_theme = theme.replace("#", "")
-        # Common theme keywords to stock mappings (Cross-market support)
-        theme_map = {
-            "반도체": ["005930", "000660", "042700", "007660", "009150"] if market == "KR" else ["NVDA", "AMD", "TSM", "AVGO", "INTC", "QCOM", "TXN", "MU"],
-            "AI반도체": ["NVDA", "AMD", "TSM", "AVGO"],
-            "빅테크": ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "NFLX"],
-            "전기차": ["TSLA", "RIVN", "LCID"],
-            "바이오": ["LLY", "NVO"],
-            "헬스케어": ["UNH", "JNJ", "PFE", "ABBV"],
-            "결제": ["V", "MA", "PYPL", "AXP"],
-            "이차전지": ["373220", "051910", "003670", "086520", "247540"],
-            "금융": ["105560", "055550", "032830", "000810", "138040"] if market == "KR" else ["JPM", "BAC", "WFC", "C", "GS", "MS"],
-            "정유": ["010950", "096770"] if market == "KR" else ["XOM", "CVX", "COP"],
-            "에너지": ["015760", "034020"],
-            "조선": ["010140", "329180", "042660"],
-            "방산": ["012450", "079550"] if market == "KR" else ["LMT", "RTX", "NOC", "GD"],
-            "지주사": ["000660", "034730", "003550", "028260"],
-            "게임": ["036570", "259960", "251270"],
-            "화학": ["051910", "011170", "011780"],
-            "자동차": ["005380", "000270", "012330"] if market == "KR" else ["TSLA", "F", "GM"],
-        }
-        if clean_theme in theme_map:
-            for t_code in theme_map[clean_theme]:
-                if t_code not in seen_symbols:
-                    t_info = next((s for s in stocks_list if s['symbol'] == t_code), None)
-                    if t_info:
-                        related_candidates.append(t_info)
-                        seen_symbols.add(t_code)
-
+    # --- Tier 3: Sector-based Fallback (If still empty or fewer than 3) ---
+    # Use industry information from metadata if available
+    if not related_candidates:
+        stock_info = market_data.get(symbol, {})
+        industries = stock_info.get("industry", [])
+        if industries:
+            main_industry = industries[0]
+            # Simple fallback: Find other stocks in the same main industry
+            for s_code, s_info in market_data.items():
+                if s_code != symbol and main_industry in s_info.get("industry", []):
+                    related_candidates.append({"symbol": s_code, "name": s_info.get("name", s_code)})
+                    if len(related_candidates) >= 5:
+                        break
+                        
     final_related = []
     
     # 4. Attach prefix labels to the related stock names
