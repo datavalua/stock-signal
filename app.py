@@ -279,7 +279,13 @@ def show_search():
                     df_view["산업분류"] = "-"
                     df_view["관련종목(Peers)"] = "-"
                 
-                st.success(f"조회 완료 (총 {len(df)}개 중 상위 200개 표시)")
+                # Unify layout: only show core columns
+                display_cols = ["티커", "종목명", "산업분류", "관련종목(Peers)"]
+                # Safety check for column existence
+                actual_cols = [c for c in display_cols if c in df_view.columns]
+                df_view = df_view[actual_cols]
+                
+                st.success(f"조회 완료 (총 {len(df)}개 중 상위 {len(df_view)}개 표시)")
                 st.dataframe(df_view)
                 
                 if len(df) > 200:
