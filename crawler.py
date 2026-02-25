@@ -449,7 +449,7 @@ def select_impactful_article(stock_name, articles, change_val):
             executor = ThreadPoolExecutor(max_workers=1)
             future = executor.submit(
                 client.models.generate_content,
-                model='gemini-2.5-flash',
+                model='gemini-1.5-flash',
                 contents=prompt
             )
             response = future.result(timeout=10)
@@ -549,7 +549,7 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
             executor = ThreadPoolExecutor(max_workers=1)
             future = executor.submit(
                 client.models.generate_content,
-                model='gemini-2.5-flash',
+                model='gemini-1.5-flash',
                 contents=prompt
             )
             response = future.result(timeout=10)
@@ -710,23 +710,44 @@ def get_related_stocks(symbol, name, date_str, theme=None, market="KR"):
         })
     return final_related
 
-def get_last_trading_day(target_date_str=None):
+def get_last_trading_day(target_date_str=None, market="KR"):
+    """
+    Find the most recent trading day. 
+    For US market, if it's currently early morning KST (before 9 AM), 
+    the 'current' active or recently closed session is from 'yesterday'.
+    """
+    kst_now = datetime.datetime.utcnow() + timedelta(hours=9)
+    
     if target_date_str is None:
-        target_date = datetime.datetime.now()
+        target_date = kst_now
+        # US market attribution logic:
+        # Sessions run roughly 23:30 to 06:00 KST.
+        # If we crawl at 3 AM KST on the 26th, it's actually the 25th session.
+        if market == "US" and kst_now.hour < 9:
+            target_date = kst_now - timedelta(days=1)
     else:
         target_date = datetime.datetime.strptime(target_date_str, "%Y-%m-%d")
     
-    start_date = target_date - timedelta(days=7)
+    # Simple weekday check if market data check fails
+    base_date = target_date
+    while base_date.weekday() > 4: # Sat=5, Sun=6
+        base_date -= timedelta(days=1)
+        
+    # Optional: Verify with fdr (can be flaky/slow, so use as secondary)
     try:
-        df = fdr.DataReader('KS11', start_date.strftime("%Y-%m-%d"), target_date.strftime("%Y-%m-%d"))
-        if not df.empty: return df.index[-1].strftime("%Y-%m-%d")
-    except: pass
-    
-    while target_date.weekday() > 4: target_date -= timedelta(days=1)
-    return target_date.strftime("%Y-%m-%d")
+        symbol = 'KS11' if market == "KR" else 'IXIC'
+        start_search = base_date - timedelta(days=5)
+        df = fdr.DataReader(symbol, start_search.strftime("%Y-%m-%d"), base_date.strftime("%Y-%m-%d"))
+        if not df.empty: 
+            return df.index[-1].strftime("%Y-%m-%d")
+    except:
+        pass
+        
+    return base_date.strftime("%Y-%m-%d")
 
 def generate_daily_json(date_str=None, market="KR"):
-    if date_str is None: date_str = get_last_trading_day()
+    if date_str is None: 
+        date_str = get_last_trading_day(market=market)
     print(f"Generating data for {date_str} ({market} market)...")
     
     kst_now = datetime.datetime.utcnow() + timedelta(hours=9)
