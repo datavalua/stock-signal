@@ -10,9 +10,11 @@ from bs4 import BeautifulSoup
 import traceback
 
 try:
-    import google.generativeai as genai
+    from google import genai
     GENAI_AVAILABLE = True
 except ImportError:
+    GENAI_AVAILABLE = False
+    print("Warning: google-genai package not found. AI summaries will be disabled.")
     GENAI_AVAILABLE = False
     print("google.generativeai module not found or broken. AI summaries will be mocked.")
 except Exception as e:
@@ -25,178 +27,101 @@ dotenv.load_dotenv()
 # Constants
 DATA_DIR = "data"
 
-# Standard list of major stocks to monitor (KOSPI 50 approx)
-MAJOR_STOCKS = [
-    {"symbol": "005930", "name": "삼성전자"},
-    {"symbol": "000660", "name": "SK하이닉스"},
-    {"symbol": "373220", "name": "LG에너지솔루션"},
-    {"symbol": "207940", "name": "삼성바이오로직스"},
-    {"symbol": "005380", "name": "현대차"},
-    {"symbol": "000270", "name": "기아"},
-    {"symbol": "068270", "name": "셀트리온"},
-    {"symbol": "005490", "name": "POSCO홀딩스"},
-    {"symbol": "035420", "name": "NAVER"},
-    {"symbol": "035720", "name": "카카오"},
-    {"symbol": "051910", "name": "LG화학"},
-    {"symbol": "105560", "name": "KB금융"},
-    {"symbol": "055550", "name": "신한지주"},
-    {"symbol": "003550", "name": "LG"},
-    {"symbol": "032830", "name": "삼성생명"},
-    {"symbol": "000810", "name": "삼성화재"},
-    {"symbol": "012330", "name": "현대모비스"},
-    {"symbol": "066570", "name": "LG전자"},
-    {"symbol": "003670", "name": "포스코퓨처엠"},
-    {"symbol": "086520", "name": "에코프로"},
-    {"symbol": "247540", "name": "에코프로비엠"},
-    {"symbol": "323410", "name": "카카오뱅크"},
-    {"symbol": "377300", "name": "카카오페이"},
-    {"symbol": "042700", "name": "한미반도체"},
-    {"symbol": "007660", "name": "이수페타시스"},
-    {"symbol": "010140", "name": "삼성중공업"},
-    {"symbol": "028260", "name": "삼성물산"},
-    {"symbol": "009150", "name": "삼성전기"},
-    {"symbol": "011200", "name": "HMM"},
-    {"symbol": "015760", "name": "한국전력"},
-    {"symbol": "034730", "name": "SK"},
-    {"symbol": "017670", "name": "SK텔레콤"},
-    {"symbol": "011170", "name": "롯데케미칼"},
-    {"symbol": "036570", "name": "엔씨소프트"},
-    {"symbol": "259960", "name": "크래프톤"},
-    {"symbol": "251270", "name": "넷마블"},
-    {"symbol": "011780", "name": "금호석유"},
-    {"symbol": "005830", "name": "DB손해보험"},
-    {"symbol": "001450", "name": "현대해상"},
-    {"symbol": "138040", "name": "메리츠금융지주"},
-    {"symbol": "096770", "name": "SK이노베이션"},
-    {"symbol": "010950", "name": "S-Oil"},
-    {"symbol": "329180", "name": "HD현대중공업"},
-    {"symbol": "042660", "name": "한화오션"},
-    {"symbol": "012450", "name": "한화에어로스페이스"},
-    {"symbol": "079550", "name": "LIG넥스원"},
-    {"symbol": "034020", "name": "두산에너빌리티"},
-    {"symbol": "018260", "name": "삼성SDS"},
-]
+def load_stock_metadata():
+    """Load stock metadata from JSON file."""
+    metadata_path = os.path.join(DATA_DIR, "stock_metadata.json")
+    if os.path.exists(metadata_path):
+        with open(metadata_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"KR": {}, "US": {}}
 
-US_MAJOR_STOCKS = [
-    {"symbol": "AAPL", "name": "애플"},
-    {"symbol": "MSFT", "name": "마이크로소프트"},
-    {"symbol": "NVDA", "name": "엔비디아"},
-    {"symbol": "GOOGL", "name": "알파벳"},
-    {"symbol": "AMZN", "name": "아마존"},
-    {"symbol": "META", "name": "메타"},
-    {"symbol": "TSLA", "name": "테슬라"},
-    {"symbol": "BRK-B", "name": "버크셔해서웨이"},
-    {"symbol": "LLY", "name": "일라이릴리"},
-    {"symbol": "TSM", "name": "TSMC"},
-    {"symbol": "AVGO", "name": "브로드컴"},
-    {"symbol": "JPM", "name": "JPMorgan"},
-    {"symbol": "V", "name": "비자"},
-    {"symbol": "UNH", "name": "유나이티드헬스"},
-    {"symbol": "XOM", "name": "엑슨모빌"},
-    {"symbol": "MA", "name": "마스터카드"},
-    {"symbol": "JNJ", "name": "존슨앤존슨"},
-    {"symbol": "PG", "name": "P&G"},
-    {"symbol": "HD", "name": "홈디포"},
-    {"symbol": "MRK", "name": "머크"},
-    {"symbol": "COST", "name": "코스트코"},
-    {"symbol": "AMD", "name": "AMD"},
-    {"symbol": "CVX", "name": "셰브론"},
-    {"symbol": "KO", "name": "코카콜라"},
-    {"symbol": "PEP", "name": "펩시코"},
-    {"symbol": "CRM", "name": "세일즈포스"},
-    {"symbol": "NFLX", "name": "넷플릭스"},
-    {"symbol": "WMT", "name": "월마트"},
-    {"symbol": "BAC", "name": "뱅크오브아메리카"},
-    {"symbol": "MCD", "name": "맥도날드"},
-    {"symbol": "CSCO", "name": "시스코"},
-    {"symbol": "INTC", "name": "인텔"},
-    {"symbol": "ORCL", "name": "오라클"},
-    {"symbol": "DIS", "name": "디즈니"},
-    {"symbol": "PFE", "name": "화이자"},
-]
+# Global configuration loaded once
+STOCK_METADATA = load_stock_metadata()
+
+# Reconstruct MAJOR_STOCKS and US_MAJOR_STOCKS lists for backwards compatibility within crawler.py
+MAJOR_STOCKS = [{"symbol": k, "name": v["name"]} for k, v in STOCK_METADATA.get("KR", {}).items()]
+US_MAJOR_STOCKS = [{"symbol": k, "name": v["name"]} for k, v in STOCK_METADATA.get("US", {}).items()]
 
 def get_investor_data(symbol, date_str):
     """
-    Fetch daily net purchases (개인, 외국인, 기관) using pykrx.
-    If today, and pykrx is empty, use Daum Finance API for real-time provisional data.
+    Fetch daily net purchases (개인, 외국인, 기관) from Naver Finance.
     """
-    # Try importing pykrx inside to avoid breaking if not installed
     try:
-        from pykrx import stock
-        import pandas as pd
+        url = f"https://finance.naver.com/item/frgn.naver?code={symbol}"
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        res = requests.get(url, headers=headers)
+        res.raise_for_status()
         
-        # date_str format is YYYY-MM-DD, pykrx needs YYYYMMDD
-        krx_date = date_str.replace("-", "")
+        soup = BeautifulSoup(res.text, 'html.parser')
         
-        df = stock.get_market_net_purchases_of_equities_by_ticker(krx_date, krx_date, "KOSPI", "개인")
-        df_inst = stock.get_market_net_purchases_of_equities_by_ticker(krx_date, krx_date, "KOSPI", "기관합계")
-        df_foreign = stock.get_market_net_purchases_of_equities_by_ticker(krx_date, krx_date, "KOSPI", "외국인")
+        # Find the table containing the investor data
+        # Note: Depending on market time, top row could be today or yesterday.
+        # We will just grab the top row of the investor trend table.
+        table = soup.select_one('table.type2')
+        if not table:
+            return None
+            
+        rows = table.select('tr')
+        target_row = None
+        for row in rows:
+            # Skip headers and empty rows
+            if not row.select_one('td.tc'):
+                continue
+            
+            # Extract date from the first column
+            row_date = row.select_one('td.tc span.tah').text.strip()
+            # Naver shows YYYY.MM.DD
+            formatted_date_str = date_str.replace("-", ".")
+            if row_date == formatted_date_str:
+                target_row = row
+                break
+            # If we don't find exact date, just take the first available data row (most recent trading day)
+            elif target_row is None:
+                target_row = row
         
-        individual = df.loc[symbol]['순매수거래대금'] if not df.empty and symbol in df.index else None
-        institution = df_inst.loc[symbol]['순매수거래대금'] if not df_inst.empty and symbol in df_inst.index else None
-        foreign = df_foreign.loc[symbol]['순매수거래대금'] if not df_foreign.empty and symbol in df_foreign.index else None
-        
-        if individual is not None or institution is not None or foreign is not None:
+        if not target_row:
+            return None
+            
+        cols = target_row.select('td')
+        if len(cols) >= 7:
+            # Indices for Naver Finance table:
+            # 0: Date, 1: 종가, 2: 전일비, 3: 등락률, 4: 거래량
+            # 5: 기관 순매매량, 6: 외인 순매매량, 7: 외국인 보유주수 (sometimes column structure changes slightly)
+            # It's safer to just pick them by their known indices:
+            
+            # On the 'frgn' tab:
+            # 5th index = 기관 (Institution)
+            # 6th index = 외국인 (Foreigner)
+            inst = cols[5].text.strip()
+            foreign = cols[6].text.strip()
+            
+            # Since Naver doesn't explicitly show '개인(Retail)' on this specific summary table easily, 
+            # we can infer it broadly, or we just scrape the basic ones available.
+            # Let's format them:
+            # Gather up to 7 days
+            recent_data = []
+            count = 0
+            for row in rows:
+                if count >= 7:
+                    break
+                if not row.select_one('td.tc'):
+                    continue
+                cols = row.select('td')
+                if len(cols) >= 7:
+                    date_val = row.select_one('td.tc span.tah').text.strip()
+                    inst = cols[5].text.strip()
+                    foreign = cols[6].text.strip()
+                    recent_data.append(f"[{date_val}] 기관: {inst}주, 외국인: {foreign}주")
+                    count += 1
+            
             return {
-                "개인": f"{individual:,}원" if individual is not None else "데이터 없음",
-                "기관": f"{institution:,}원" if institution is not None else "데이터 없음",
-                "외국인": f"{foreign:,}원" if foreign is not None else "데이터 없음",
+                "최근_동향": " | ".join(recent_data),
                 "is_realtime": False
             }
+            
     except Exception as e:
-        print(f"PyKrx error: {e}")
+        print(f"Error scraping Naver investor data: {e}")
         
-    # Real-time fallback (Daum Finance)
-    try:
-        url = f"https://finance.daum.net/api/investor/days?symbolCode=A{symbol}&page=1&perPage=1"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-            'Referer': f'https://finance.daum.net/quotes/A{symbol}#influential_investors'
-        }
-        res = requests.get(url, headers=headers)
-        if res.status_code == 200:
-            data = res.json()
-            if data and 'data' in data and len(data['data']) > 0:
-                item = data['data'][0]
-                # Daum API provides volume for provisional intraday
-                inst_vol = item.get('institutionStraightPurchaseVolume')
-                for_vol = item.get('foreignStraightPurchaseVolume')
-                return {
-                    "개인": "장중 미집계",
-                    "기관": f"{inst_vol:,}주 (잠정)" if inst_vol is not None else "데이터 없음",
-                    "외국인": f"{for_vol:,}주 (잠정)" if for_vol is not None else "데이터 없음",
-                    "is_realtime": True
-                }
-    except Exception as e:
-        print(f"Daum API fallback error: {e}")
-        
-    return None
-
-def get_us_analyst_ratings(symbol):
-    """
-    Fetch Analyst Recommendations using yfinance for US stocks.
-    Returns a dict with 'strongBuy', 'buy', 'hold', 'sell', 'strongSell' counts or None.
-    """
-    try:
-        import yfinance as yf
-        ticker = yf.Ticker(symbol)
-        rec = ticker.recommendations_summary
-        
-        if rec is not None and not rec.empty:
-            # rec usually has periods like '0m' (current), '-1m', etc.
-            # We want the '0m' row
-            current = rec[rec['period'] == '0m']
-            if not current.empty:
-                return {
-                    "strongBuy": int(current.iloc[0].get('strongBuy', 0)),
-                    "buy": int(current.iloc[0].get('buy', 0)),
-                    "hold": int(current.iloc[0].get('hold', 0)),
-                    "sell": int(current.iloc[0].get('sell', 0)),
-                    "strongSell": int(current.iloc[0].get('strongSell', 0))
-                }
-    except Exception as e:
-        print(f"Error fetching US analyst ratings for {symbol}: {e}")
-    
     return None
 
 def get_stock_change(symbol, date_str):
@@ -436,7 +361,7 @@ def scrape_naver_news(symbol, name, target_date_str, max_articles=20):
             with_name.sort(key=lambda x: x['date'], reverse=True)
             without_name.sort(key=lambda x: x['date'], reverse=True)
             
-            articles = (with_name + without_name)[:3]
+            articles = (with_name + without_name)[:max_articles]
             break
 
     if not articles:
@@ -470,6 +395,17 @@ def scrape_us_news(symbol, name, target_date_str, max_articles=5):
             link = link_el.text if link_el is not None else ""
             pub_date = pub_date_el.text if pub_date_el is not None else ""
             
+            # Format pub_date to KST (e.g. 02.24 10:30)
+            if pub_date:
+                try:
+                    import email.utils
+                    from datetime import timezone
+                    dt = email.utils.parsedate_to_datetime(pub_date)
+                    dt_kst = dt.astimezone(timezone(timedelta(hours=9)))
+                    pub_date = dt_kst.strftime("%m.%d %H:%M")
+                except Exception as e:
+                    pass
+            
             if title and link:
                 articles.append({
                     "title": title,
@@ -495,8 +431,7 @@ def select_impactful_article(stock_name, articles, change_val):
     api_key = os.getenv("GEMINI_API_KEY")
     if api_key and api_key != "your_api_key_here" and GENAI_AVAILABLE:
         try:
-            genai.configure(api_key=api_key, transport='rest')
-            model = genai.GenerativeModel('gemini-flash-latest')
+            client = genai.Client(api_key=api_key)
             
             prompt = (
                 f"{stock_name}의 주가가 오늘 {direction}했습니다. 다음 뉴스 헤드라인 중 "
@@ -512,7 +447,11 @@ def select_impactful_article(stock_name, articles, change_val):
             # Using ThreadPoolExecutor without 'with' to avoid blocking on timeout
             from concurrent.futures import ThreadPoolExecutor, TimeoutError
             executor = ThreadPoolExecutor(max_workers=1)
-            future = executor.submit(model.generate_content, prompt)
+            future = executor.submit(
+                client.models.generate_content,
+                model='gemini-2.5-flash',
+                contents=prompt
+            )
             response = future.result(timeout=10)
                 
             if response and response.text:
@@ -557,8 +496,7 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
     api_key = os.getenv("GEMINI_API_KEY")
     if api_key and api_key != "your_api_key_here" and GENAI_AVAILABLE:
         try:
-            genai.configure(api_key=api_key)
-            model = genai.GenerativeModel('gemini-flash-latest')
+            client = genai.Client(api_key=api_key)
             
             # Re-order articles to put the "best" one first for Gemini
             reordered = list(articles)
@@ -591,32 +529,29 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                 prompt += f"- 외국인: {investor_data['외국인']}\n"
                 prompt += f"- 기관: {investor_data['기관']}\n\n"
                 
-            # Remove analyst data section for US market
-
-            if market == "US":
-                prompt += (
-                    f"**작성 규칙:**\n"
-                    f"1. **최우선 기사 선정**: 제공된 {limit}개의 기사 중 {stock_name} 주가에 가장 큰 영향을 미친 기사 1~2개를 선정하세요.\n"
-                    f"2. **짧은 이유 (short_reason)**: 주가 {direction}의 단편적인 핵심 이유를 명사형 어절이나 아주 짧은 문구로 작성하세요. (예: '깜짝 실적 발표', '빅테크 규제 우려')\n"
-                    f"3. **요약 (summary) 및 기사 번역**: 선정된 영어 기사 내용을 한국어로 매끄럽게 번역하여 인과관계를 2~3줄로 설명하세요.\n"
-                    f"4. **정형화된 기계적 문구 금지**: 기계적인 번역투 문장이나 '~~하여 상승 마감했습니다'로 시작하지 마세요.\n"
-                    f"5. **출력 형식**: 반드시 아래 JSON 형식으로만 답변하세요. 마크다운(`)이나 다른 설명은 절대 붙이지 마세요.\n"
-                    f"{{\"short_reason\": \"명사형 어절 이유\", \"summary\": \"작성 규칙에 맞춘 기사 번역 및 요약문\"}}"
-                )
-            else:
-                prompt += (
-                    f"**작성 규칙:**\n"
-                    f"1. **핵심 기사 분석**: 제공된 뉴스 중 가장 큰 영향을 미친 내용을 중심으로 분석하세요.\n"
-                    f"2. **짧은 이유 (short_reason)**: 주가 {direction}의 단편적인 핵심 이유를 명사형 어절이나 아주 짧은 문구로 작성하세요. (예: '대규모 수주 계약', '경영권 분쟁', '외국인 대량 매도')\n"
-                    f"3. **요약 (summary) 및 수급 동향**: 기사 요약과 함께, 수급 데이터(매수/매도 주체)를 요약문 안에 한 문장으로라도 자연스럽게 포함하세요. (예: '개인과 기관의 쌍끌이 매수세 속에...')\n"
-                    f"4. **정형화된 문구 금지**: '주가가 상승 마감했습니다' 같은 뻔한 문장으로 시작하지 마세요.\n"
-                    f"5. **출력 형식**: 반드시 아래 JSON 형식으로만 답변하세요. 마크다운(`)이나 다른 설명은 절대 붙이지 마세요.\n"
-                    f"{{\"short_reason\": \"명사형 어절 이유\", \"summary\": \"작성 규칙에 맞춘 기사 요약 및 수급 동향 설명 포함\"}}"
-                )
+            prompt += (
+                f"**작성 규칙:**\n"
+                f"1. **기사 선별 및 번역**: 정보가 없거나 모호한 기사 제목은 배제하고, 핵심적인 기사들만 종합하여 요약하세요. 영문 기사일 경우 반드시 매끄러운 한국어로 번역하여 요약해야 합니다.\n"
+                f"2. **짧은 이유 (short_reason) 필독**: 주가 {direction}의 단편적인 핵심 이유를 **반드시 '단어 단위'의 명사형 키워드 2~3개**로만 작성하세요. (예: '깜짝 실적, 목표가 상향', '금리 인하 기대, 신제품', '외국인 매도세, 실적 쇼크'). 문장형으로 작성하면 안 됩니다.\n"
+                f"3. **요약 (summary)**: 주가 변동에 영향을 미친 기사 내용을 2~3줄로 종합하여 설명하세요."
+            )
+            
+            if market == "KR" and investor_data:
+                prompt += " 제공된 개인, 외국인, 기관의 매수/매도 수급 동향 흐름을 요약문 안에 자연스럽게 한 문장으로라도 포함해 주세요."
+                
+            prompt += (
+                f"\n4. **정형화된 문구 금지**: '주가가 상승 마감했습니다' 같은 기계적인 문구로 시작하지 마세요.\n"
+                f"5. **출력 형식**: 반드시 아래 JSON 형식으로만 답변하세요. 마크다운(`)이나 다른 설명은 절대 붙이지 마세요.\n"
+                f"{{\"short_reason\": \"단어 단위 키워드 나열\", \"summary\": \"규칙에 맞춘 번역본 및 기사 종합 요약\"}}"
+            )
             
             from concurrent.futures import ThreadPoolExecutor, TimeoutError
             executor = ThreadPoolExecutor(max_workers=1)
-            future = executor.submit(model.generate_content, prompt)
+            future = executor.submit(
+                client.models.generate_content,
+                model='gemini-2.5-flash',
+                contents=prompt
+            )
             response = future.result(timeout=10)
                 
             if response and response.text:
@@ -644,31 +579,34 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
     if change_val >= 0:
         templates = [
             f"{stock_name}은(는) {main_news} 소식이 전해지며 매수세가 강화되었습니다.",
-            f"오늘 {stock_name} 주가는 {main_news} 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
-            f"{stock_name}의 상승세는 {main_news}에 따른 업황 기대감이 반영된 결과로 풀이됩니다."
+            f"오늘 {stock_name} 주가는 {main_news} 등이 호재로 작용하며 긍정적인 흐름을 보였습니다."
         ]
     else:
         templates = [
             f"{stock_name}은(는) {main_news} 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
-            f"{stock_name} 주가는 {main_news} 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
-            f"오늘 {stock_name}의 하락은 {main_news}와 관련된 불확실성이 시장에 반영된 영향이 큽니다."
+            f"{stock_name} 주가는 {main_news} 등에 따른 투자 심리 위축으로 하락 마감했습니다."
         ]
     
     import random
     fallback_text = random.choice(templates)
     
-    short_reason_fallback = f"{main_news[:30]}..." if main_news != "시장 수급 변화" else f"시장 수급 변화에 따른 {direction}"
-    return {"short_reason": short_reason_fallback, "summary": fallback_text}
+    
+
+    # Keyword extraction fallback logic
+    keyword_fallback = "수급 변화, 업황 변동"
+    if has_valid_news:
+        words = [w for w in main_news.split() if len(w) > 1]
+        if len(words) >= 2:
+            keyword_fallback = f"{words[0]}, {words[1]}"
+            
+    return {"short_reason": keyword_fallback, "summary": fallback_text}
 
 def generate_short_reason(stock_name, articles, change_val, best_idx=0, translated_title=None):
     if translated_title:
-        return f"{translated_title[:30]}..."
+        words = [w for w in translated_title.split() if len(w) > 1]
+        return f"{words[0]}, {words[1]}" if len(words) >= 2 else "업황 변동, 수급 변화"
     
-    direction = "상승" if change_val >= 0 else "하락"
-    idx = best_idx if (articles and 0 <= best_idx < len(articles)) else 0
-    if articles and "title" in articles[idx]:
-        return f"{articles[idx]['title'][:30]}..."
-    return f"시장 수급 및 업황 변화에 따른 {direction}"
+    return "업황 변동, 수급 변화"
 
 def get_related_stocks(symbol, name, date_str, theme=None, market="KR"):
     """
@@ -683,82 +621,17 @@ def get_related_stocks(symbol, name, date_str, theme=None, market="KR"):
     # Select the correct stock list based on market
     stocks_list = US_MAJOR_STOCKS if market == "US" else MAJOR_STOCKS
     
-    # --- Tier 1: Strategic Peer Mapping (Highest Priority for Context) ---
-    kr_peer_map = {
-        # Semiconductors
-        "005930": ["000660", "042700", "041510", "009150", "007660"],
-        "000660": ["005930", "042700", "041510", "009150", "007660"],
-        "042700": ["005930", "000660", "007660"],
-        "007660": ["005930", "000660", "042700"],
-        # Battery / EV
-        "373220": ["051910", "003670", "086520", "247540", "005490"],
-        "086520": ["247540", "373220", "003670", "051910"],
-        "247540": ["086520", "373220", "003670", "051910"],
-        "003670": ["005490", "086520", "247540", "373220"],
-        # Auto
-        "005380": ["000270", "012330", "005930"],
-        "000270": ["005380", "012330", "005930"],
-        "012330": ["005380", "000270"],
-        # Finance / Banking
-        "105560": ["055550", "323410", "377300"],
-        "055550": ["105560", "323410", "377300"],
-        "323410": ["035720", "105560", "055550"],
-        # Insurance
-        "032830": ["000810", "005830", "001450", "138040"], # 삼성생명 -> 보험사들
-        "000810": ["032830", "005830", "001450", "138040"], # 삼성화재 -> 보험사들
-        "005830": ["000810", "032830", "001450", "138040"], # DB손보 -> 보험사들
-        "001450": ["000810", "032830", "005830", "138040"], # 현대해상 -> 보험사들
-        # Gaming
-        "036570": ["259960", "251270", "035420"], # 엔씨 -> 크래프톤, 넷마블
-        "259960": ["036570", "251270", "035420"], # 크래프톤 -> 엔씨, 넷마블
-        # Chemicals
-        "011170": ["051910", "011780", "005490"], # 롯데케미칼 -> 화학주
-    }
+    # --- Tier 1: Strategic Peer Mapping from JSON Config ---
+    market_data = STOCK_METADATA.get(market, {})
+    peer_list = market_data.get(symbol, {}).get("peers", [])
     
-    us_peer_map = {
-        "AAPL": ["MSFT", "GOOGL", "AMZN", "META"],
-        "MSFT": ["AAPL", "GOOGL", "AMZN", "META", "ORCL"],
-        "GOOGL": ["MSFT", "AAPL", "META", "AMZN"],
-        "AMZN": ["MSFT", "GOOGL", "AAPL", "WMT", "NFLX"],
-        "META": ["GOOGL", "AAPL", "SNAP", "PINS"],
-        "NFLX": ["DIS", "AAPL", "AMZN", "GOOGL"],
-        "DIS": ["NFLX", "AAPL", "AMZN"],
-        "ORCL": ["MSFT", "CRM", "CSCO", "INTC"],
-        "CRM": ["ORCL", "MSFT", "GOOGL"],
-        "CSCO": ["ORCL", "MSFT", "INTC", "AVGO"],
-        "NVDA": ["AMD", "TSM", "AVGO", "INTC"],
-        "AMD": ["NVDA", "INTC", "TSM"],
-        "TSM": ["NVDA", "AMD", "ASML", "INTC"],
-        "AVGO": ["NVDA", "QCOM", "TXN", "CSCO"],
-        "INTC": ["AMD", "NVDA", "TSM", "CSCO"],
-        "TSLA": ["RIVN", "LCID", "F", "GM"],
-        "LLY": ["NVO", "JNJ", "PFE", "MRK"],
-        "JNJ": ["PFE", "MRK", "LLY"],
-        "PFE": ["JNJ", "MRK", "LLY"],
-        "MRK": ["JNJ", "PFE", "LLY"],
-        "JPM": ["BAC", "WFC", "C", "GS", "MS"],
-        "BAC": ["JPM", "WFC", "C"],
-        "V": ["MA", "AXP", "PYPL"],
-        "MA": ["V", "AXP", "PYPL"],
-        "WMT": ["TGT", "COST", "AMZN", "HD"],
-        "COST": ["WMT", "TGT", "HD"],
-        "HD": ["WMT", "COST"],
-        "KO": ["PEP", "MCD"],
-        "PEP": ["KO", "MCD"],
-        "MCD": ["KO", "PEP"],
-        "UNH": ["JNJ", "PFE", "LLY"]
-    }
-    
-    peer_map = us_peer_map if market == "US" else kr_peer_map
-    
-    if symbol in peer_map:
-        for p_code in peer_map[symbol]:
-            if p_code not in seen_symbols:
-                # Find the stock info from the correct predefined list
-                peer_info = next((s for s in stocks_list if s['symbol'] == p_code), None)
-                if peer_info:
-                    related_candidates.append(peer_info)
-                    seen_symbols.add(p_code)
+    for p_code in peer_list:
+        if p_code not in seen_symbols:
+            # Find the stock info from the correct predefined list
+            peer_info = next((s for s in stocks_list if s['symbol'] == p_code), None)
+            if peer_info:
+                related_candidates.append(peer_info)
+                seen_symbols.add(p_code)
                     
     # --- Tier 2: Conglomerate Group (Prefix Match) (KR Market Only really) ---
     if market == "KR":
@@ -800,12 +673,40 @@ def get_related_stocks(symbol, name, date_str, theme=None, market="KR"):
                         related_candidates.append(t_info)
                         seen_symbols.add(t_code)
 
-    # Final cleanup: limit to 5 related stocks and fetch change rates
     final_related = []
+    
+    # 4. Attach prefix labels to the related stock names
+    # Rules: 
+    # - If same primary industry -> [Industry Name]
+    # - If name starts with same 2 chars (KR) -> [그룹사]
+    # - Otherwise -> [경쟁사]
+    main_industry_list = STOCK_METADATA.get(market, {}).get(symbol, {}).get("industry", [])
+    main_industry = main_industry_list[0] if main_industry_list else None
+
     for rc in related_candidates[:5]:
+        r_symbol = rc['symbol']
+        r_name = rc['name']
+        
+        # Determine prefix
+        prefix_tag = "[관련주]"
+        
+        # Check stock_metadata.json for peer industry
+        peer_meta = STOCK_METADATA.get(market, {}).get(r_symbol, {})
+        peer_industry_list = peer_meta.get("industry", [])
+        peer_industry = peer_industry_list[0] if peer_industry_list else None
+
+        if main_industry and peer_industry == main_industry:
+            prefix_tag = f"[{main_industry}]"
+        elif market == "KR" and len(name) >= 2 and r_name.startswith(name[:2]):
+            prefix_tag = "[그룹사]"
+        elif peer_industry:
+            prefix_tag = f"[{peer_industry}]"
+        else:
+            prefix_tag = "[경쟁사]"
+
         final_related.append({
-            "name": rc['name'],
-            "change_rate": f"{get_stock_change(rc['symbol'], date_str):+.1f}%"
+            "name": f"{prefix_tag} {r_name}",
+            "change_rate": f"{get_stock_change(r_symbol, date_str):+.1f}%"
         })
     return final_related
 
@@ -889,19 +790,15 @@ def generate_daily_json(date_str=None, market="KR"):
             print(f"No sufficiently impactful/relevant news found for {name}.")
         
         # 5. Determine Theme
-        industry_names = {
-            "005930": "반도체", "000660": "반도체", "042700": "반도체", "007660": "반도체",
-            "373220": "이차전지", "051910": "이차전지", "003670": "이차전지", "086520": "이차전지", "247540": "이차전지",
-            "032830": "금융", "000810": "금융", "005830": "금융", "001450": "금융", "105560": "금융", "055550": "금융",
-            "138040": "금융",
-            "036570": "게임", "259960": "게임", "251270": "게임",
-            "011170": "화학",
-            "005380": "자동차", "000270": "자동차", "012330": "자동차",
-            "AAPL": "빅테크", "MSFT": "빅테크", "NVDA": "AI반도체", "GOOGL": "빅테크", "AMZN": "빅테크",
-            "TSLA": "전기차", "META": "빅테크", "TSM": "반도체", "AVGO": "반도체", "AMD": "반도체",
-            "LLY": "바이오", "UNH": "헬스케어", "JPM": "금융", "V": "결제"
-        }
-        theme_name = industry_names.get(symbol, "글로벌시황" if market == "US" else "실적/수급")
+        market_data = STOCK_METADATA.get(market, {})
+        stock_info = market_data.get(symbol, {})
+        industry_list = stock_info.get("industry", [])
+        
+        if industry_list:
+            theme_name = industry_list[0] # Use the primary industry
+        else:
+            theme_name = "글로벌시황" if market == "US" else "실적/수급"
+            
         theme = f"#{theme_name}"
         
         # 4. Related (Pass theme & market for fallback)
@@ -909,21 +806,15 @@ def generate_daily_json(date_str=None, market="KR"):
         
         # 5. Fetch Additional Data
         investor_data = None
-        analyst_data = None
         
         if market == "KR":
             try:
                 investor_data = get_investor_data(symbol, date_str)
             except Exception as e:
                 print(f"Error fetching investor data: {e}")
-        elif market == "US":
-            try:
-                analyst_data = get_us_analyst_ratings(symbol)
-            except Exception as e:
-                print(f"Error fetching analyst ratings: {e}")
             
         # 6. Generate Summary (dict containing short_reason, summary)
-        summary_obj = generate_summary(name, articles, change_val, best_idx, investor_data=investor_data, analyst_data=analyst_data, market=market)
+        summary_obj = generate_summary(name, articles, change_val, best_idx, investor_data=investor_data, market=market)
         
         short_reason = summary_obj.get("short_reason", f"업황 변화에 따른 상승" if change_val >= 0 else f"업황 변화에 따른 하락")
         summary_text = summary_obj.get("summary", "")
@@ -943,9 +834,6 @@ def generate_daily_json(date_str=None, market="KR"):
             "related_stocks": related,
             "timestamp": kst_now.strftime("%Y-%m-%d %H:%M:%S")
         }
-        
-        if analyst_data and market == "US": # Only include analyst data for US market
-            signal_data["analyst_data"] = analyst_data
             
         signals.append(signal_data)
 
