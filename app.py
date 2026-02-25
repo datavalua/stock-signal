@@ -152,6 +152,27 @@ st.markdown("""
         color: #111 !important;
         background-color: #f9fafb !important;
     }
+
+    /* Tag Styling */
+    .signal-tag {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    .tag-industry {
+        background-color: #f1f5f9;
+        color: #475569;
+        border: 1px solid #e2e8f0;
+    }
+    .tag-type {
+        background-color: #fff7ed;
+        color: #c2410c;
+        border: 1px solid #fed7aa;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -173,6 +194,7 @@ def format_rate(rate_str):
         return f"🔵 {rate_str}"
     return rate_str
 
+@st.cache_data(ttl=600)
 def load_stock_metadata():
     if os.path.exists(STOCK_METADATA_FILE):
         with open(STOCK_METADATA_FILE, "r", encoding="utf-8") as f:
@@ -283,6 +305,7 @@ def render_user_view(data, date_str, selected_market):
         m_rate = main_stock.get("change_rate", "0.0%")
         m_symbol = main_stock.get("symbol", "")
         m_url = main_stock.get("news_url", "#")
+        signal_type = signal.get("signal_type", "이슈")
 
         # Custom CSS for card-like styling
         st.markdown("""
@@ -359,6 +382,17 @@ def render_user_view(data, date_str, selected_market):
             
             with st.expander(expander_label, expanded=False):
                 st.markdown(f"<span class='time-tag'>{time_ago}</span>", unsafe_allow_html=True)
+                
+                # Render Tags (Industry & Signal Type)
+                tag_html = ""
+                if theme:
+                    tag_html += f"<span class='signal-tag tag-industry'>{theme}</span>"
+                if signal_type:
+                    tag_html += f"<span class='signal-tag tag-type'>{signal_type}</span>"
+                
+                if tag_html:
+                    st.markdown(tag_html, unsafe_allow_html=True)
+
                 st.markdown(f"### <a href='{m_url}' target='_blank' style='text-decoration: none; color: inherit;'>{m_name}</a>", unsafe_allow_html=True)
                 
                 # Display the AI-generated short reason as a sub-headline
@@ -437,6 +471,11 @@ def render_admin_view():
     st.markdown('<div class="content-card">', unsafe_allow_html=True)
     st.subheader("⚙️ 관리자 화면")
     st.markdown("크롤링 데이터 생성 트래거 및 JSON 타겟 스키마(KR/US 시장)를 직접 관리할 수 있습니다.")
+    
+    if st.button("🔄 종목 스키마 수동 업데이트 (Reload Metadata)"):
+        st.cache_data.clear()
+        st.success("메타데이터 캐시가 초기화되었습니다. 최신 정보를 불러옵니다.")
+        st.experimental_rerun()
     
     # 1. Crawler trigger
     st.markdown("### 1. 시그널 데이터 생성 (수동 크롤링)")

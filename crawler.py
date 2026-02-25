@@ -542,7 +542,7 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
             prompt += (
                 f"\n4. **정형화된 문구 금지**: '주가가 상승 마감했습니다' 같은 기계적인 문구로 시작하지 마세요.\n"
                 f"5. **출력 형식**: 반드시 아래 JSON 형식으로만 답변하세요. 마크다운(`)이나 다른 설명은 절대 붙이지 마세요.\n"
-                f"{{\"short_reason\": \"단어 단위 키워드 나열\", \"summary\": \"규칙에 맞춘 번역본 및 기사 종합 요약\"}}"
+                f"{{\"category\": \"실적|수급|이슈|거시경제|빅테크\", \"short_reason\": \"단어 단위 키워드 나열\", \"summary\": \"규칙에 맞춘 번역본 및 기사 종합 요약\"}}"
             )
             
             from concurrent.futures import ThreadPoolExecutor, TimeoutError
@@ -562,10 +562,10 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                     # Clean up markdown code blocks if any
                     json_str = re.sub(r'```(?:json)?', '', response.text).strip()
                     parsed = json.loads(json_str)
-                    return parsed # Return dict for BOTH
+                    return parsed # Return dict containing category, short_reason, summary
                 except Exception as e:
                     print(f"Failed to parse Gemini JSON: {e}, text: {response.text}")
-                    return {"short_reason": f"시장 수급 및 업황 변화에 따른 {direction}", "summary": response.text.strip()} # fallback
+                    return {"category": "이슈", "short_reason": f"시장 수급 및 업황 변화에 따른 {direction}", "summary": response.text.strip()} # fallback
         except TimeoutError:
             print(f"Gemini API timed out for {stock_name}")
         except Exception as e:
@@ -599,7 +599,7 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
         if len(words) >= 2:
             keyword_fallback = f"{words[0]}, {words[1]}"
             
-    return {"short_reason": keyword_fallback, "summary": fallback_text}
+    return {"category": "이슈", "short_reason": keyword_fallback, "summary": fallback_text}
 
 def generate_short_reason(stock_name, articles, change_val, best_idx=0, translated_title=None):
     if translated_title:
@@ -815,28 +815,31 @@ def generate_daily_json(date_str=None, market="KR"):
         stock_info = market_data.get(symbol, {})
         industry_list = stock_info.get("industry", [])
         
-        if industry_list:
-            theme_name = industry_list[0] # Use the primary industry
-        else:
-            theme_name = "글로벌시황" if market == "US" else "실적/수급"
-            
-        theme = f"#{theme_name}"
+        # 4. Determine Theme
+        market_data = STOCK_METADATA.get(market, {})
+        stock_info = market_data.get(symbol, {})
+        industry_list = stock_info.get("industry", [])
         
-        # 4. Related (Pass theme & market for fallback)
+        if industry_list:
+            theme = f"#{industry_list[0]}"
+        else:
+            theme = "" # No industry tag if not defined
+            
+        # 5. Related (Pass theme & market for fallback)
         related = get_related_stocks(symbol, name, date_str, theme=theme, market=market)
         
-        # 5. Fetch Additional Data
+        # 6. Fetch Additional Data
         investor_data = None
-        
         if market == "KR":
             try:
                 investor_data = get_investor_data(symbol, date_str)
             except Exception as e:
                 print(f"Error fetching investor data: {e}")
             
-        # 6. Generate Summary (dict containing short_reason, summary)
+        # 7. Generate Summary (dict containing category, short_reason, summary)
         summary_obj = generate_summary(name, articles, change_val, best_idx, investor_data=investor_data, market=market)
         
+        signal_cat = summary_obj.get("category", "이슈")
         short_reason = summary_obj.get("short_reason", f"업황 변화에 따른 상승" if change_val >= 0 else f"업황 변화에 따른 하락")
         summary_text = summary_obj.get("summary", "")
         
@@ -844,7 +847,8 @@ def generate_daily_json(date_str=None, market="KR"):
         
         signal_data = {
             "id": f"sig_{date_str.replace('-','')}_{market}_{idx+1:03d}",
-            "theme": f"#{theme}",
+            "theme": theme,
+            "signal_type": signal_cat,
             "short_reason": short_reason,
             "summary": summary_text,
             "main_stock": {

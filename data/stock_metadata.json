@@ -41,9 +41,7 @@
         },
         "207940": {
             "name": "삼성바이오로직스",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "005380": {
@@ -70,30 +68,22 @@
         },
         "068270": {
             "name": "셀트리온",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "005490": {
             "name": "POSCO홀딩스",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "035420": {
             "name": "NAVER",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "035720": {
             "name": "카카오",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "051910": {
@@ -127,9 +117,7 @@
         },
         "003550": {
             "name": "LG",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "032830": {
@@ -168,9 +156,7 @@
         },
         "066570": {
             "name": "LG전자",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "003670": {
@@ -211,9 +197,7 @@
         },
         "323410": {
             "name": "카카오뱅크",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": [
                 "035720",
                 "105560",
@@ -222,9 +206,7 @@
         },
         "377300": {
             "name": "카카오페이",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "042700": {
@@ -251,51 +233,37 @@
         },
         "010140": {
             "name": "삼성중공업",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "028260": {
             "name": "삼성물산",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "009150": {
             "name": "삼성전기",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "011200": {
             "name": "HMM",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "015760": {
             "name": "한국전력",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "034730": {
             "name": "SK",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "017670": {
             "name": "SK텔레콤",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "011170": {
@@ -340,9 +308,7 @@
         },
         "011780": {
             "name": "금호석유",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "005830": {
@@ -378,51 +344,37 @@
         },
         "096770": {
             "name": "SK이노베이션",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "010950": {
             "name": "S-Oil",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "329180": {
             "name": "HD현대중공업",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "042660": {
             "name": "한화오션",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "012450": {
             "name": "한화에어로스페이스",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "079550": {
             "name": "LIG넥스원",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "034020": {
             "name": "두산에너빌리티",
-            "industry": [
-                "실적/수급"
-            ],
+            "industry": [],
             "peers": []
         },
         "018260": {
@@ -522,9 +474,7 @@
         },
         "BRK-B": {
             "name": "버크셔해서웨이",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": []
         },
         "LLY": {
@@ -600,16 +550,12 @@
         },
         "XOM": {
             "name": "엑슨모빌",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": []
         },
         "MA": {
             "name": "마스터카드",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "V",
                 "AXP",
@@ -618,9 +564,7 @@
         },
         "JNJ": {
             "name": "존슨앤존슨",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "PFE",
                 "MRK",
@@ -629,16 +573,12 @@
         },
         "PG": {
             "name": "P&G",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": []
         },
         "HD": {
             "name": "홈디포",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "WMT",
                 "COST"
@@ -646,9 +586,7 @@
         },
         "MRK": {
             "name": "머크",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "JNJ",
                 "PFE",
@@ -657,9 +595,7 @@
         },
         "COST": {
             "name": "코스트코",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "WMT",
                 "TGT",
@@ -679,16 +615,12 @@
         },
         "CVX": {
             "name": "셰브론",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": []
         },
         "KO": {
             "name": "코카콜라",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "PEP",
                 "MCD"
@@ -696,9 +628,7 @@
         },
         "PEP": {
             "name": "펩시코",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "KO",
                 "MCD"
@@ -706,9 +636,7 @@
         },
         "CRM": {
             "name": "세일즈포스",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "ORCL",
                 "MSFT",
@@ -717,9 +645,7 @@
         },
         "NFLX": {
             "name": "넷플릭스",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "DIS",
                 "AAPL",
@@ -729,9 +655,7 @@
         },
         "WMT": {
             "name": "월마트",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "TGT",
                 "COST",
@@ -741,9 +665,7 @@
         },
         "BAC": {
             "name": "뱅크오브아메리카",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "JPM",
                 "WFC",
@@ -752,9 +674,7 @@
         },
         "MCD": {
             "name": "맥도날드",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "KO",
                 "PEP"
@@ -762,9 +682,7 @@
         },
         "CSCO": {
             "name": "시스코",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "ORCL",
                 "MSFT",
@@ -774,9 +692,7 @@
         },
         "INTC": {
             "name": "인텔",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "AMD",
                 "NVDA",
@@ -786,9 +702,7 @@
         },
         "ORCL": {
             "name": "오라클",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "MSFT",
                 "CRM",
@@ -798,9 +712,7 @@
         },
         "DIS": {
             "name": "디즈니",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "NFLX",
                 "AAPL",
@@ -809,9 +721,7 @@
         },
         "PFE": {
             "name": "화이자",
-            "industry": [
-                "글로벌시황"
-            ],
+            "industry": [],
             "peers": [
                 "JNJ",
                 "MRK",

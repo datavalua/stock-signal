@@ -1,11 +1,12 @@
 {
-  "last_updated": "2026-02-24 02:04:37",
+  "last_updated": "2026-02-26 03:20:53",
   "signals": [
     {
-      "id": "sig_20260220_001",
-      "theme": "##금융",
-      "short_reason": "[애프터마켓 브리핑] SK하이닉스, 장중 신고가 경신…...",
-      "summary": "현대해상의 상승세는 [애프터마켓 브리핑] SK하이닉스, 장중 신고가 경신…NXT서 움직임은...에 따른 업황 기대감이 반영된 결과로 풀이됩니다.",
+      "id": "sig_20260220_KR_001",
+      "theme": "#금융",
+      "signal_type": "이슈|거시경제",
+      "short_reason": "상법 개정, 자사주 보유, 보험주 강세",
+      "summary": "현대해상은 상법 개정 기대감과 높은 자사주 보유 비중으로 인해 주가 강세를 보이고 있습니다. 또한, 전반적인 보험주의 강세 흐름 속에 '증권주 다음은 보험주'라는 인식 확산으로 순환매 수혜를 받고 있습니다.",
       "main_stock": {
         "name": "현대해상",
         "symbol": "001450",
@@ -14,19 +15,75 @@
       },
       "news_articles": [
         {
-          "title": "\"증권株 다음은 보험株\" … 순환매 속 무더기 상한가",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005639630&office_id=009&code=001450&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.20 18:01",
-          "source": "매일경제",
-          "has_name": false
-        },
-        {
           "title": "[애프터마켓 브리핑] SK하이닉스, 장중 신고가 경신…NXT서 움직임은...",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0000493408&office_id=374&code=001450&page=2&sm=title_entity_id.basic",
           "date": "2026.02.20 16:42",
           "source": "SBS Biz",
           "has_name": false,
           "content": "■ 머니쇼+ '애프터마켓 브리핑' - 김유민\n애프터마켓 브리핑입니다.\n오늘(20일) 코스피는 이란의 지정학적 리스크와 AI 우려에도 불구하고, 2% 넘게 오른 5,808선에서 마감했습니다.\n반면 코스닥은 0.58% 떨어지며 1,154선에서 거래 마쳤는데요.\n애프터마켓 분위기는 어떤지 시세부터 짚어보겠습니다.\n우선 시가총액 순위권 종목들입니다.\n반도체 투톱은 정규장에서는 엇갈린 흐름 보였는데, 애프터마켓에서는 모두 상승 흐름 보여주고 있습니다.\n삼성전자는 19만 원 탈환하며 0.11% 오름세 보여주고 있습니다.\nSK하이닉스는 5.93% 오르며 현재가 947,000원입니다.\n현대차는 0.78% 밀리며 509,000원, LG에너지솔루션은 0.62% 하락한 401,000원에 거래되고 있습니다.\n다음으로 상승률 1위에서 5위 종목들 보겠습니다.\n그간 상대적으로 눌려있던 보험주가 강세입니다.\n정규장에서는 상한가를 찍은 종목들이 속출했죠.\n미래에셋생명은 12,400원에 거래되고 있습니다.\n그리고 현대해상은 자사주 보유 비중이 높아서 상법 개정 기대감 안고 강세 이어가고 있죠.\n정규장 마감 후 더 뜨거운 시세 보여주고 있습니다.\n또 대미 투자 프로젝트를 위해 실무단이 미국으로 향한 가운데, 키워드는 조선과 원전으로 보이죠.\n조선기자재주인 현대힘스, 현재 13% 넘게 오르며 20,050원에 거래되고 있습니다.\n그리고 애경산업은 태광그룹과 매각 합의에 성공했고, 또 인공피부 연구도 성과를 내면서 주가도 올라갑니다.\n더블 모멘텀으로 정규장 마감 이후 주가 더 뛰고 있는데, 움직임 계속 지켜봐야겠습니다.\n현재 순위권에서 밀려난 에스엘은 삼성증권이 \"배당도 많이 주는 로봇주\"로 평가하며 상승세 이어가고 있습니다.\n이어서 하락률 순위권 종목들도 함께 보겠습니다.\n한화솔루션은 최근 10일간 100% 넘게 오른 종목인데 오늘은 빠집니다.\n현재 8.89% 빠지며 53,300원에 거래되고 있습니다.\n하나증권에서는 한화솔루션 실적 턴어라운드가 본격화될 거라고 했지만요.\n확실한 주가 상승을 위해서는 텐덤 셀 양산 계획, 태양광 모듈 asp의 상승폭이 구체화될 때까지 지켜보셔야겠습니다.\n이외에도 정규장 마감 후에는 코스메카코리아가 크게 밀리고 있습니다.\n오늘 실적 발표 후에 91,000원대까지 빠졌는데, 어닝쇼크 영향을 받았습니다.\n마지막으로 거래량 동반해서 움직이는 종목들도 체크해보겠습니다.\n현대차증권, 어제(19일)는 크게 올랐는데 1.81% 내린 13,550원에 거래되고 있습니다.\n그리고 두산에너빌리티는 10만 원 굳히기 이어가고 있습니다.\n이렇게 애프터마켓 흐름부터 특징주까지 살펴봤습니다.\n오늘 밤 열리는 뉴욕증시는 안자은 캐스터와 함께 대비해보시죠.\n지금까지 애프터마켓 브리핑이었습니다.\n당신의 제보가 뉴스로 만들어집니다.\nSBS Biz는 여러분의 제보를 기다리고 있습니다.\n홈페이지 = https://url.kr/9pghjn"
+        },
+        {
+          "title": "\"증권株 다음은 보험株\" … 순환매 속 무더기 상한가",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005639630&office_id=009&code=001450&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.20 18:01",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "[애프터마켓 브리핑] SK하이닉스, 장중 신고가 경신…NXT서 움직임은...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000493408&office_id=374&code=001450&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.20 16:42",
+          "source": "SBS Biz",
+          "has_name": false
+        },
+        {
+          "title": "[속보] 코스피, 첫 5800선 마감…'육천피' 얼마 안 남았다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005253025&office_id=015&code=001450&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.20 15:34",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "보험도 상법 개정 수혜株?…미래에셋생명 ‘上’ [줍줍리포트]",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004591719&office_id=011&code=001450&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.20 14:51",
+          "source": "서울경제",
+          "has_name": false
+        },
+        {
+          "title": "[특징주] 보험주 잇단 상한가…자사주 의무소각 기대 덕분?",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015914185&office_id=001&code=001450&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.20 13:58",
+          "source": "연합뉴스",
+          "has_name": false
+        },
+        {
+          "title": "순환매 흐름 속 보험주 '급등'…미래에셋생명 '上'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005252918&office_id=015&code=001450&page=5&sm=title_entity_id.basic",
+          "date": "2026.02.20 10:42",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "순환매 장세, 증권 다음은 보험?…한화손해보험 16% 오름세 [특징주]",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003061197&office_id=119&code=001450&page=5&sm=title_entity_id.basic",
+          "date": "2026.02.20 09:48",
+          "source": "데일리안",
+          "has_name": false
+        },
+        {
+          "title": "[단독] 현대차·카카오모빌리티도 참전…판 커지는 광주 자율주행 실...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004591591&office_id=011&code=001450&page=5&sm=title_entity_id.basic",
+          "date": "2026.02.20 07:20",
+          "source": "서울경제",
+          "has_name": false
+        },
+        {
+          "title": "\"증권株 다음은 보험株\" … 순환매 속 무더기 상한가",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005639630&office_id=009&code=001450&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.20 18:01",
+          "source": "매일경제",
+          "has_name": false
         },
         {
           "title": "[속보] 코스피, 첫 5800선 마감…'육천피' 얼마 안 남았다",
@@ -38,33 +95,34 @@
       ],
       "related_stocks": [
         {
-          "name": "삼성화재",
+          "name": "[금융] 삼성화재",
           "change_rate": "+8.4%"
         },
         {
-          "name": "삼성생명",
+          "name": "[금융] 삼성생명",
           "change_rate": "+4.8%"
         },
         {
-          "name": "DB손해보험",
+          "name": "[금융] DB손해보험",
           "change_rate": "+4.9%"
         },
         {
-          "name": "메리츠금융지주",
+          "name": "[금융] 메리츠금융지주",
           "change_rate": "+7.3%"
         },
         {
-          "name": "현대차",
+          "name": "[그룹사] 현대차",
           "change_rate": "-0.8%"
         }
       ],
-      "timestamp": "2026-02-24 02:04:14"
+      "timestamp": "2026-02-26 03:20:53"
     },
     {
-      "id": "sig_20260220_002",
-      "theme": "##금융",
-      "short_reason": "삼성화재, 작년 순이익 2조203억원…전년比 2.7%↓...",
-      "summary": "삼성화재의 상승세는 삼성화재, 작년 순이익 2조203억원…전년比 2.7%↓에 따른 업황 기대감이 반영된 결과로 풀이됩니다.",
+      "id": "sig_20260220_KR_002",
+      "theme": "#금융",
+      "signal_type": "실적|이슈",
+      "short_reason": "순이익 우상향, 주주환원율 확대, 2조 클럽",
+      "summary": "삼성화재는 2025년 결산 컨퍼런스콜에서 2028년까지 주주환원율 50% 달성을 약속하며 순이익 우상향에 대한 자신감을 내비쳤습니다. 지난해 2조원 이상의 순이익을 2년 연속 달성하며 손해보험업계 악재 속에서도 견조한 실적을 이어갔으며, 캐노피우스 지분법 이익 증가와 본업 경쟁력 강화를 통해 이익 성장을 지속할 것으로 전망됩니다. 삼성전자 주식 매각 이익도 배당 재원에 반영되어 주주환원율 확대에 긍정적인 영향을 줄 것으로 예상됩니다.",
       "main_stock": {
         "name": "삼성화재",
         "symbol": "000810",
@@ -72,6 +130,98 @@
         "news_url": "https://finance.naver.com/item/news.naver?code=000810"
       },
       "news_articles": [
+        {
+          "title": "삼성화재 “순이익 우상향 자신…2028년 주주환원율 50% 약속 지키겠...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002602843&office_id=016&code=000810&page=6&sm=title_entity_id.basic",
+          "date": "2026.02.20 19:51",
+          "source": "헤럴드경제",
+          "has_name": true,
+          "content": "삼성화재 2025년 결산 실적 컨퍼런스콜\n“지난해 손해율 고점 예상…본업 수익성 회복”\n서울 서초구 삼성화재 본사 전경. [삼성화재 제공]\n[헤럴드경제=박성준 기자] 삼성화재가 배당 성향 확대 수준이 시장 기대치에 미치지 못했다는 지적에 대해 올해 외형 성장 대신 내실 경영을 통해 순이익 성장과 배당 성향 확대를 동시에 추진하기로 했다. 오는 2028년까지 주주환원율 50%를 달성하겠다는 목표도 재확인했다. 아울러 사업부문별 자기자본이익률(ROE) 측정과 자본 배분 계획을 구체화해 공유하겠다고 약속했다.\n삼성화재는 20일 진행된 2025년 결산 컨퍼런스콜에서 이같이 밝혔다. 앞서 삼성화재는 2025년 주당배당금(DPS)을 1만9500원으로 확정, 전년(1만9000원) 대비 2.6% 올렸다. 배당 성향은 39%에서 41.1%로 높아졌지만, 이날 시장에서는 기대 수준에 미치지 못했다는 평가가 잇따랐다.\n조번형 삼성화재 경영지원팀장은 2028년 배당 성향 50%를 기준으로 보면 향후 3년간 주당배당금(DPS)이 연평균 7% 이상 성장해야 한다는 지적에 대해 “DPS가 시장 기대 수준까지 올라가려면 당기순이익 확대가 전제돼야 한다”면서 “확답은 어렵지만, 캐노피우스 지분법 이익 증가와 본업 경쟁력 강화를 통해 순이익 우상향 모습을 계속 보여드리겠다”고 답했다. 배당 성향 역시 50%를 향해 점진적으로 높여가겠다는 계획도 덧붙였다.\n삼성전자 주식 매각이익의 배당 반영 여부에 관한 질문에는 “삼성전자 매각이익은 손익에는 인식되지 않지만, 이익잉여금에 바로 반영되는 구조”라며 “배당 재원을 이익잉여금 기준으로 산정했기 때문에 자연스럽게 포함됐다”고 설명했다. 올해 추가 매각이 발생하더라도 동일한 방식으로 배당에 반영할 것이라고 덧붙였다.\n자본 배분 전략의 구체화를 요구하는 목소리도 거셌다. 밸류업의 핵심은 ROE의 구조적 개선인데, 지급여력비율(K-ICS·킥스) 220% 목표를 언제 맞출 수 있는지 타임라인을 줘야 한다는 지적도 있었다.\n구영민 삼성화재 경영지원실(CFO)는 이에 대해 “밸류업 발표 이후 시장과 직접 소통하지 못한 부분이 있다”고 인정하면서 “현재 사업부문별 ROE를 정교하게 측정하고 자본 배분 관련 부분을 준비 중”이라고 답했다. 그러면서 “자본 효율을 통한 주주가치 제고가 우선순위”라고 강조했다.\n삼성화재는 올해 보험업계 수익성 악화 흐름이 예상되는 가운데 내실 경영을 강조하기도 했다. 장기보험 손해율이 97.2%까지 치솟은 데 대해 조진만 삼성화재 장기보험전략팀장은 “미보고발생손해액(IBNR) 제도 변경 기저효과를 제외하면 92.6%”라면서도 “실손의료보험과 영남권 산불 등 고액 사고의 영향이 컸다”고 설명했다. 다만 “2분기부터 수익성 중심 전략으로 전환해 일부 높은 손해율 담보 영업을 중단했다”면서 “연간 손해율은 2025년을 고점으로 점차 낮아질 전망”이라고 내다봤다. 올해 들어 보험료 인상과 과잉청구 관리 조치도 시행 중이라고 설명했다.\n4분기에는 교육세 인상(과세표준 대비 0.5%→1%)에 따른 약 3000억원 규모의 일회성 보험계약마진(CSM) 조정이 발생했다. 조 팀장은 “일회성 요인을 제외하면 CSM 조정 폭은 전년 대비 안정화 추세”라며 “올해 CSM 순증 극대화를 목표로 가치사슬 전반을 CSM 중심으로 재정비하고, 근본적인 체질 개선에 집중할 것”이라고 말했다.\n자동차보험도 지난해 1590억원 적자로 전환됐으나, 회사 측은 우량 계약 중심 포트폴리오 재편과 보상 프로세스 자동화를 통해 흑자 구조 정착을 추진하기로 했다. 구 CFO는 “본업 기반을 견고히 하고 시장의 판을 바꾸는 도전을 통해 새로운 성장 기반을 구축하겠다”고 말했다."
+        },
+        {
+          "title": "삼성화재 작년 순익 2조183억원… 2년 연속 2조원",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001143405&office_id=366&code=000810&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 16:14",
+          "source": "조선비즈",
+          "has_name": true
+        },
+        {
+          "title": "삼성화재, 작년 순이익 2조203억원…전년比 2.7%↓",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003400569&office_id=030&code=000810&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 15:08",
+          "source": "전자신문",
+          "has_name": true
+        },
+        {
+          "title": "삼성화재, 2년 연속 '2조 클럽' 달성... \"2028년 배당성향 ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002378092&office_id=123&code=000810&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 14:21",
+          "source": "조세일보",
+          "has_name": true
+        },
+        {
+          "title": "삼성화재, 손보업계 악재속 2년 연속 '2조 클럽'…해외투자가 비결",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005320015&office_id=008&code=000810&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 13:40",
+          "source": "머니투데이",
+          "has_name": true
+        },
+        {
+          "title": "삼성화재 \"2028년 배당성향 50% 달성 목표…본업 경쟁력 강화\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008782963&office_id=421&code=000810&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 12:04",
+          "source": "뉴스1",
+          "has_name": true
+        },
+        {
+          "title": "삼성화재 순이익 2년 연속 '2조원대'…\"본업 경쟁력 강화\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000835700&office_id=422&code=000810&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 11:40",
+          "source": "연합뉴스TV",
+          "has_name": true
+        },
+        {
+          "title": "삼성화재·한화손해보험 장 초반 '급등'…보험주 동반 강세",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000493300&office_id=374&code=000810&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 10:26",
+          "source": "SBS Biz",
+          "has_name": true
+        },
+        {
+          "title": "삼성화재, 지난해 순이익 2조203억원…4분기 이익 개선세 뚜렷",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000473929&office_id=629&code=000810&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 09:51",
+          "source": "더팩트",
+          "has_name": true
+        },
+        {
+          "title": "삼성화재, 4분기 영업익 3913억…전년비 54.8% ↑",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002602469&office_id=016&code=000810&page=9&sm=title_entity_id.basic",
+          "date": "2026.02.20 08:16",
+          "source": "헤럴드경제",
+          "has_name": true
+        },
+        {
+          "title": "\"증권株 다음은 보험株\" … 순환매 속 무더기 상한가",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005639630&office_id=009&code=000810&page=6&sm=title_entity_id.basic",
+          "date": "2026.02.20 18:01",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "보험업계 나홀로 '활짝 웃은' 삼성생명",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005639573&office_id=009&code=000810&page=6&sm=title_entity_id.basic",
+          "date": "2026.02.20 17:41",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "[단독] 현대차·카카오모빌리티도 참전…판 커지는 광주 자율주행 실...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004591591&office_id=011&code=000810&page=9&sm=title_entity_id.basic",
+          "date": "2026.02.20 07:20",
+          "source": "서울경제",
+          "has_name": false
+        },
         {
           "title": "삼성화재 “순이익 우상향 자신…2028년 주주환원율 50% 약속 지키겠...",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0002602843&office_id=016&code=000810&page=4&sm=title_entity_id.basic",
@@ -97,33 +247,34 @@
       ],
       "related_stocks": [
         {
-          "name": "삼성생명",
+          "name": "[금융] 삼성생명",
           "change_rate": "+4.8%"
         },
         {
-          "name": "DB손해보험",
+          "name": "[금융] DB손해보험",
           "change_rate": "+4.9%"
         },
         {
-          "name": "현대해상",
+          "name": "[금융] 현대해상",
           "change_rate": "+10.5%"
         },
         {
-          "name": "메리츠금융지주",
+          "name": "[금융] 메리츠금융지주",
           "change_rate": "+7.3%"
         },
         {
-          "name": "삼성전자",
+          "name": "[그룹사] 삼성전자",
           "change_rate": "+0.1%"
         }
       ],
-      "timestamp": "2026-02-24 02:04:16"
+      "timestamp": "2026-02-26 03:20:53"
     },
     {
-      "id": "sig_20260220_003",
-      "theme": "##실적/수급",
-      "short_reason": "[ET특징주] 미국·이란 전면전 우려에 유가 상승… 석...",
-      "summary": "오늘 S-Oil 주가는 [ET특징주] 미국·이란 전면전 우려에 유가 상승… 석유주 강세 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "id": "sig_20260220_KR_003",
+      "theme": "",
+      "signal_type": "이슈",
+      "short_reason": "유가 상승, 지정학적 리스크",
+      "summary": "미국과 이란 간 군사적 충돌 긴장감이 고조되면서 국제 유가 상승에 대한 기대감이 S-Oil을 비롯한 정유주 급등의 핵심 원인으로 작용했습니다. 특히 도널드 트럼프 미국 대통령의 이란 공격 가능성 시사 발언은 지정학적 리스크를 부각시키며 S-Oil이 연이틀 52주 신고가를 경신하는 데 영향을 미쳤습니다.",
       "main_stock": {
         "name": "S-Oil",
         "symbol": "010950",
@@ -136,7 +287,64 @@
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0001130701&office_id=417&code=010950&page=2&sm=title_entity_id.basic",
           "date": "2026.02.20 16:59",
           "source": "동행미디어 시대",
+          "has_name": true,
+          "content": "트럼프 미국 대통령 \"15일 내 이란 공격할 것\" 엄포에 주가 껑충\n미국과 이란의 군사적 충돌 긴장감이 최고조에 달하며 글로벌 증시가 요동칠 것이란 전망이 나온 가운데 20일 장을 마친 국내 증시에서는 이 같은 분위기가 호재로 작용하며 방위산업과 정유산업 관련 주가가 껑충 뛰었다.\n이날 한국거래소에 따르면 한화에어로스페이스는 전 거래일 대비 9만3000원(8.09%) 오른 124만2000원으로 장을 마쳤고 ▲한화시스템(11만6500원, 9.49%) ▲LIG넥스원(48만6500원, 5.08%) ▲현대로템(22만원, 4.76%) 등 주요 방산주도 급등했다.\n정유·가스 업종도 큰 폭으로 올랐다. S-Oil은 9100원(8.21%) 오른 12만원으로 장을 마치며 연이틀 52주 신고가를 찍었다.\nS-Oil 외에도 ▲흥구석유(1만9040원, 24.36%) ▲중앙에너비스(2만400원, 17.31%) ▲SK이노베이션(12만7600원, 7.59%) ▲SK(38만1500원, 7.31%) ▲SK디스커버리(6만2300원, 5.41%) ▲GS(7만5700원, 3.42%) 등 관련 주요 종목의 상승세도 가팔랐다.\n이날 국내 증시의 이 같은 흐름은 미국과 이란의 군사적 충돌 우려가 커지면서 무기 수요 증가와 유가 상승 등의 기대감이 반영된 결과로 분석된다.\n미국은 이란의 우라늄 농축 완전 중단과 탄도미사일 프로그램 제한 등을 요구하지만 이란은 핵무기 개발 의혹을 부인하며 제한적 양보만을 제시해 협상은 난항을 겪고 있다.\n도널드 트럼프 미국 대통령은 19일(현지시간) 워싱턴DC에서 열린 가자지구 '평화위원회'(Board of Peace) 창립회의에서 이란에 협상 참여를 촉구하며 협상이 이뤄지지 않을 경우 \"매우 다른 길이 될 것\"이라고 경고했다.\n트럼프 대통령은 대통령 전용기 에어포스 원에서 기자들에게 이란은 핵 합의까지 시간이 10~15일 남아 있다며 이 기간 안에 공격을 할 수 있음을 시사하기도 했다.\n현재 미국은 중동에서 22년 만에 최대 규모로 병력을 증강했다. 세계 최첨단 항공모함인 제럴드 R. 포드함이 다음 주 동지중해로 향할 예정이다. F-35와 F-22 스텔스 전투기와 공중급유기 등 공군 자산도 중동 인근으로 재배치되며 이란을 압박하고 있다.\n이란도 미국의 공격 가능성에 맞서 자위권을 행사해 대응하겠다고 밝히며 긴장감이 높아진 상황이다.\n국제 유가는 일제히 급등했다. 19일 기준 국제 유가 기준인 브렌트유는 1.86%(1.31달러·약 1898원) 상승한 71.66달러(약 1만4000원)에 마감돼 6개월 만에 최고치를 찍었다.\n미국 서부텍사스산중질유(WTI)는 전 거래일 대비 배럴당 1.9%(1.24달러·약 1797원) 오른 66.43달러(약 9만6000원)에 마쳤다."
+        },
+        {
+          "title": "'전쟁=호재' 인식되는 방산·정유주… 한화에어로·S-Oil 등 급등 마...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001130701&office_id=417&code=010950&page=5&sm=title_entity_id.basic",
+          "date": "2026.02.20 16:59",
+          "source": "동행미디어 시대",
           "has_name": true
+        },
+        {
+          "title": "매일 역사 쓰는 코스피…\"글로벌 수익률 압도적 1위\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005253145&office_id=015&code=010950&page=5&sm=title_entity_id.basic",
+          "date": "2026.02.20 17:53",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "[ET특징주] 미국·이란 전면전 우려에 유가 상승… 석유주 강세",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003400558&office_id=030&code=010950&page=5&sm=title_entity_id.basic",
+          "date": "2026.02.20 14:46",
+          "source": "전자신문",
+          "has_name": false
+        },
+        {
+          "title": "이란發 리스크에 국제유가 강세…정유 '웃고' 화학 '울고'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013778041&office_id=003&code=010950&page=5&sm=title_entity_id.basic",
+          "date": "2026.02.20 13:38",
+          "source": "뉴시스",
+          "has_name": false
+        },
+        {
+          "title": "[특징주]미국·이란 전면전 우려에 정유주 강세…흥구석유 14%대↑",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005723554&office_id=277&code=010950&page=5&sm=title_entity_id.basic",
+          "date": "2026.02.20 10:33",
+          "source": "아시아경제",
+          "has_name": false
+        },
+        {
+          "title": "\"열흘 안에 결정해라\" 트럼프 압박에 유가 급등…정유주 '강세'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005252870&office_id=015&code=010950&page=6&sm=title_entity_id.basic",
+          "date": "2026.02.20 09:52",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "대산부터 닻 올린 석화 구조개편…정부 지원안 발표 초읽기",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001006726&office_id=031&code=010950&page=6&sm=title_entity_id.basic",
+          "date": "2026.02.20 07:20",
+          "source": "아이뉴스24",
+          "has_name": false
+        },
+        {
+          "title": "정유 4사, '정제마진 반등·원가 경쟁력 확보'로 실적 기지개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001130527&office_id=417&code=010950&page=6&sm=title_entity_id.basic",
+          "date": "2026.02.20 06:00",
+          "source": "동행미디어 시대",
+          "has_name": false
         },
         {
           "title": "매일 역사 쓰는 코스피…\"글로벌 수익률 압도적 1위\"",
@@ -155,13 +363,14 @@
         }
       ],
       "related_stocks": [],
-      "timestamp": "2026-02-24 02:04:17"
+      "timestamp": "2026-02-26 03:20:53"
     },
     {
-      "id": "sig_20260220_004",
-      "theme": "##실적/수급",
-      "short_reason": "\"열흘 안에 결판\" 트럼프 한마디에…주가 들썩이는 종목...",
-      "summary": "한화에어로스페이스은(는) \"열흘 안에 결판\" 트럼프 한마디에…주가 들썩이는 종목 [종목+] 소식이 전해지며 매수세가 강화되었습니다.",
+      "id": "sig_20260220_KR_004",
+      "theme": "",
+      "signal_type": "이슈",
+      "short_reason": "지정학적 긴장, 방산주 급등",
+      "summary": "미국과 이란 간 지정학적 긴장 고조 가능성에 따라 한화에어로스페이스를 포함한 국내 방산주들이 일제히 상승세를 보였습니다. 특히 미국 대통령이 이란에 군사 작전 가능성을 시사하며 투자 심리가 방산주로 몰린 것이 주가 상승의 핵심 원인으로 분석됩니다.",
       "main_stock": {
         "name": "한화에어로스페이스",
         "symbol": "012450",
@@ -174,7 +383,14 @@
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005639434&office_id=009&code=012450&page=8&sm=title_entity_id.basic",
           "date": "2026.02.20 14:37",
           "source": "매일경제",
-          "has_name": true
+          "has_name": true,
+          "content": "미국이 중동에 군사력을 집결시키는 등 이란 공습이 임박했다는 전망이 나오는 가운데, 지정학적 긴장감이 커지며 20일 방산주가 일제히 오르고 있다.\n이날 오후 1시 48분 기준 한화에어로스페이스는 전일 대비 10만2000원(8.79%) 오른 125만원에 거래되고 있다. 같은 시간 LIG넥스원은 전일 대비 2만3000원(4.86%) 오른 48만6000원을 보이고 있다.\n이밖에 현대로템도 전일 대비 8500원(4.29%) 오른 21만8500원을, 한국항공우주는 전일 대비 900원(0.51%) 오른 17만6200원에 거래되고 있다.\n최근 미국과 이란이 핵 협상을 벌였지만, 난항을 겪으며 미군이 이르면 이번 주말에 이란 공습을 감행할 수 있다는 관측이 나오고 있다. 미군은 지난 2003년 이라크 침공 이후 최대 규모의 공군력을 중동에 집결시켰다.\n간밤 도널드 트럼프 미국 대통령은 이란에 핵 합의 시한을 최대 ‘보름’으로 제시했다. 다만 트럼프 대통령은 지난해 6월 이란의 핵시설을 공습하기 직전에도 ‘2주일’이라는 시한을 언급했지만, 그보다 일찍 기습 작전을 감행한 적이 있다. 이에 트럼프가 제시한 보름이라는 기간 전에 군사작전 명령을 내릴 가능성도 완전히 배제할 수 없다는 관측도 나온다.\n한편 이란은 핵 협상이 결렬되면서 미국의 선제공격이 발생할 가능성에 대비해 국가 시스템을 전시 체제로 전환하며 항전 의지를 보이고 있다."
+        },
+        {
+          "title": "한화에어로스페이스, 시장 흐름 및 관련 테마 분석",
+          "url": "https://finance.naver.com/item/news.naver?code=012450",
+          "date": "2026.02.20 09:00",
+          "source": "증권정보"
         },
         {
           "title": "2월 12일 옵션 만기의 폭풍 속에서도 기관의 강력한 드라이브가 포착....",
@@ -194,17 +410,18 @@
       ],
       "related_stocks": [
         {
-          "name": "한화오션",
+          "name": "[그룹사] 한화오션",
           "change_rate": "+6.6%"
         }
       ],
-      "timestamp": "2026-02-24 02:04:20"
+      "timestamp": "2026-02-26 03:20:53"
     },
     {
-      "id": "sig_20260220_005",
-      "theme": "##실적/수급",
-      "short_reason": "SK이노베이션, 3.3조원 규모 베트남 LNG발전 사업...",
-      "summary": "SK이노베이션의 상승세는 SK이노베이션, 3.3조원 규모 베트남 LNG발전 사업 수주에 따른 업황 기대감이 반영된 결과로 풀이됩니다.",
+      "id": "sig_20260220_KR_005",
+      "theme": "",
+      "signal_type": "이슈",
+      "short_reason": "대형 수주, LNG 사업 확대",
+      "summary": "SK이노베이션이 베트남 꿘랍 LNG 발전 프로젝트 사업자로 선정되어 약 3.3조원 규모의 대형 수주를 확보했습니다. 이는 SK이노베이션의 통합 LNG 밸류체인 모델을 해외에 첫 적용하는 사례로, 안정적인 연료 수급 경쟁력을 바탕으로 베트남 내 LNG 사업을 확대하고 글로벌 LNG 포트폴리오를 늘릴 계획입니다. 또한, AI 발 전력 수요 증가 및 선진국 규제 완화가 사업 기회로 작용할 것으로 분석됩니다.",
       "main_stock": {
         "name": "SK이노베이션",
         "symbol": "096770",
@@ -219,6 +436,104 @@
           "source": "조선일보",
           "has_name": true,
           "content": "발전소·LNG터미널·항만 건설\nSK이노베이션은 베트남 현지 기업들과 만든 컨소시엄이 베트남 중북부 응에안성의 ‘꿘랍 액화천연가스(LNG) 발전 프로젝트’ 사업자로 선정됐다고 19일 밝혔다. 하노이 남쪽으로 약 220㎞ 떨어진 꿘랍 지역에 1500메가와트(MW)급 가스복합화력발전소와 LNG터미널, 전용 항만을 건설하는 사업으로, 약 23억달러(약 3조3000억원) 규모다. 2027년 착공해 2030년 준공할 예정이다.\nSK이노베이션은 국영 석유가스그룹(PVN) 산하 발전회사 PV파워 등과 구성한 컨소시엄을 통해 이 사업을 수주했다. SK이노베이션의 통합 LNG 밸류체인 모델을 해외에 적용하는 첫 사례가 될 전망이다. SK이노베이션의 해외 사업장에서 생산한 LNG를 들여와 전력을 생산하는 구조로, 안정적으로 연료를 수급할 수 있어 LNG 가격 변동에도 대응하기 수월해 경쟁력을 높일 수 있다고 한다.\n베트남은 산업화와 인구 증가로 전력 수요가 급증하고 있지만 환경오염 등 문제로 석탄·수력 중심의 발전 사업 구조를 변화시켜야 할 상황이다. SK이노베이션은 이번 프로젝트를 계기로 베트남 내 LNG 사업을 확대하고, 현재 연간 약 600만t 수준인 글로벌 LNG 포트폴리오를 2030년까지 1000만t 규모로 확대해 베트남 전력난에 기여할 계획이다. 장기적으로는 태양광, 풍력 등 재생에너지로의 전환도 지원하기로 했다."
+        },
+        {
+          "title": "SK이노베이션, 3.3조원 규모 베트남 LNG발전 사업 수주",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003959950&office_id=023&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 00:34",
+          "source": "조선일보",
+          "has_name": true
+        },
+        {
+          "title": "“AI발 전력수요 크게 늘어 선진국 규제가 되레 기회”",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005639669&office_id=009&code=096770&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 21:35",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "\"AI발 전력수요 크게 늘어 선진국 규제가 되레 기회\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005639617&office_id=009&code=096770&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 18:00",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "SK온, 희망퇴직·무급휴직 실시…EV 캐즘 대응 조직 효율화",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006221639&office_id=018&code=096770&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 17:53",
+          "source": "이데일리",
+          "has_name": false
+        },
+        {
+          "title": "SK온, 희망퇴직·무급휴직 실시…경영 효율화 차원",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000493414&office_id=374&code=096770&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 16:58",
+          "source": "SBS Biz",
+          "has_name": false
+        },
+        {
+          "title": "EV 캐즘 탈출구 ESS…K배터리 3사, 중국 편중 구조 넘을까",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006221525&office_id=018&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 15:06",
+          "source": "이데일리",
+          "has_name": false
+        },
+        {
+          "title": "[ET특징주] 미국·이란 전면전 우려에 유가 상승… 석유주 강세",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003400558&office_id=030&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 14:46",
+          "source": "전자신문",
+          "has_name": false
+        },
+        {
+          "title": "포스코홀딩스, 이사진 재정비 '본업·글로벌 역량' 강화 방점",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000079649&office_id=293&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 13:58",
+          "source": "블로터",
+          "has_name": false
+        },
+        {
+          "title": "블랙록도 샀다…‘또 최고가’ SK하이닉스 순매수 1위 [주식 초고수는....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004591674&office_id=011&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 11:39",
+          "source": "서울경제",
+          "has_name": false
+        },
+        {
+          "title": "[특징주]미국·이란 전면전 우려에 정유주 강세…흥구석유 14%대↑",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005723554&office_id=277&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 10:33",
+          "source": "아시아경제",
+          "has_name": false
+        },
+        {
+          "title": "포스코홀딩스, 자사주 2% 더 태운다…3년 소각 계획 마무리",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044617&office_id=648&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 09:42",
+          "source": "비즈워치",
+          "has_name": false
+        },
+        {
+          "title": "포스코홀딩스, 신임 사외이사 후보에 김주연 전 한국P&G부회장",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003061159&office_id=119&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 08:39",
+          "source": "데일리안",
+          "has_name": false
+        },
+        {
+          "title": "“3.3조 베트남 사업 따냈습니다”…최태원 회장까지 현장 지원 나섰....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005639173&office_id=009&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 06:15",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "SK이노 'LNG 풀밸류체인' 베트남 간다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005319839&office_id=008&code=096770&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 04:11",
+          "source": "머니투데이",
+          "has_name": false
         },
         {
           "title": "“AI발 전력수요 크게 늘어 선진국 규제가 되레 기회”",
@@ -237,25 +552,26 @@
       ],
       "related_stocks": [
         {
-          "name": "SK하이닉스",
+          "name": "[그룹사] SK하이닉스",
           "change_rate": "+6.2%"
         },
         {
-          "name": "SK",
+          "name": "[그룹사] SK",
           "change_rate": "+7.3%"
         },
         {
-          "name": "SK텔레콤",
+          "name": "[그룹사] SK텔레콤",
           "change_rate": "-0.9%"
         }
       ],
-      "timestamp": "2026-02-24 02:04:22"
+      "timestamp": "2026-02-26 03:20:53"
     },
     {
-      "id": "sig_20260220_006",
-      "theme": "##금융",
-      "short_reason": "이제 눈높이는 ‘7000피’?···5800 넘기고 ‘6...",
-      "summary": "메리츠금융지주은(는) 이제 눈높이는 ‘7000피’?···5800 넘기고 ‘6000피’ 코앞까... 소식이 전해지며 매수세가 강화되었습니다.",
+      "id": "sig_20260220_KR_006",
+      "theme": "#금융",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "메리츠금융지주은(는) 시장 수급 변화 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "메리츠금융지주",
         "symbol": "138040",
@@ -263,6 +579,48 @@
         "news_url": "https://finance.naver.com/item/news.naver?code=138040"
       },
       "news_articles": [
+        {
+          "title": "매일 역사 쓰는 코스피…\"글로벌 수익률 압도적 1위\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005253145&office_id=015&code=138040&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.20 17:53",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "5800선 뚫은 코스피, ‘불장’ 언제까지 갈까… SK하이닉스 95만원...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000134098&office_id=310&code=138040&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.20 16:18",
+          "source": "여성신문",
+          "has_name": false
+        },
+        {
+          "title": "이제 눈높이는 ‘7000피’?···5800 넘기고 ‘6000피’ 코앞까...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003428728&office_id=032&code=138040&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.20 15:44",
+          "source": "경향신문",
+          "has_name": false
+        },
+        {
+          "title": "“삼성전자 빠져도 가네?” 코스피 6000 눈앞 주도주 바뀌나",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000102586&office_id=050&code=138040&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.20 11:05",
+          "source": "한경비즈니스",
+          "has_name": false
+        },
+        {
+          "title": "‘6000피까지 300포인트’…코스피, 5700도 뚫었다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001143278&office_id=366&code=138040&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.20 09:04",
+          "source": "조선비즈",
+          "has_name": false
+        },
+        {
+          "title": "홈플러스 사태 1년…지속 경영이냐 청산이냐 '운명의 날' 임박",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013776859&office_id=003&code=138040&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.20 05:00",
+          "source": "뉴시스",
+          "has_name": false
+        },
         {
           "title": "매일 역사 쓰는 코스피…\"글로벌 수익률 압도적 1위\"",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005253145&office_id=015&code=138040&page=1&sm=title_entity_id.basic",
@@ -288,29 +646,30 @@
       ],
       "related_stocks": [
         {
-          "name": "KB금융",
+          "name": "[금융] KB금융",
           "change_rate": "+1.4%"
         },
         {
-          "name": "신한지주",
+          "name": "[금융] 신한지주",
           "change_rate": "+1.7%"
         },
         {
-          "name": "삼성생명",
+          "name": "[금융] 삼성생명",
           "change_rate": "+4.8%"
         },
         {
-          "name": "삼성화재",
+          "name": "[금융] 삼성화재",
           "change_rate": "+8.4%"
         }
       ],
-      "timestamp": "2026-02-24 02:04:24"
+      "timestamp": "2026-02-26 03:20:53"
     },
     {
-      "id": "sig_20260220_007",
-      "theme": "##실적/수급",
-      "short_reason": "SK온, 희망퇴직 및 무급휴직 실시…2024년 이어 두...",
-      "summary": "SK의 상승세는 SK온, 희망퇴직 및 무급휴직 실시…2024년 이어 두 번째에 따른 업황 기대감이 반영된 결과로 풀이됩니다.",
+      "id": "sig_20260220_KR_007",
+      "theme": "",
+      "signal_type": "이슈",
+      "short_reason": "SK온,, 희망퇴직",
+      "summary": "SK은(는) SK온, 희망퇴직 및 무급휴직 실시…2024년 이어 두 번째 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "SK",
         "symbol": "034730",
@@ -325,6 +684,12 @@
           "source": "머니투데이",
           "has_name": false,
           "content": "SK온이 희망퇴직과 무급휴직을 실시한다.\n20일 관련 업계에 따르면 SK온은 이같은 내용을 담은 공지를 사내에 게재했다. 2025년 이전에 입사한 본사 직원이 대상이다. 근속 연수와 나이에 따라 최소 월 급여의 6개월분, 최대 30개월분을 지급할 것으로 알려졌다.\nSK온의 희망퇴직 실시는 2024년 9월에 이어 두 번째다. 전기차 수요 둔화가 지속된 영향으로 풀이된다. SK온의 지난해 연간 영업손실은 9319억원이었다.\nSK온은 리밸런싱과 OI(운영개선)를 지속하면서, 동시에 고객사 및 포트폴리오 확대에 나서고 있다. 최근에는 정부가 실시한 ESS(에너지저장장치) 2차 입찰에서 50%에 달하는 물량을 쓸어담는 성과를 거뒀다."
+        },
+        {
+          "title": "SK, 시장 흐름 및 관련 테마 분석",
+          "url": "https://finance.naver.com/item/news.naver?code=034730",
+          "date": "2026.02.20 09:00",
+          "source": "증권정보"
         },
         {
           "title": "배터리 쇼크에 SK온 2년 만에 ‘희망퇴직’",
@@ -343,25 +708,26 @@
       ],
       "related_stocks": [
         {
-          "name": "SK하이닉스",
+          "name": "[그룹사] SK하이닉스",
           "change_rate": "+6.2%"
         },
         {
-          "name": "SK텔레콤",
+          "name": "[그룹사] SK텔레콤",
           "change_rate": "-0.9%"
         },
         {
-          "name": "SK이노베이션",
+          "name": "[그룹사] SK이노베이션",
           "change_rate": "+7.6%"
         }
       ],
-      "timestamp": "2026-02-24 02:04:27"
+      "timestamp": "2026-02-26 03:20:53"
     },
     {
-      "id": "sig_20260220_008",
-      "theme": "##실적/수급",
-      "short_reason": "60조 캐나다 잠수함 수주 위해…한화오션·HD현대에 범...",
-      "summary": "한화오션의 상승세는 60조 캐나다 잠수함 수주 위해…한화오션·HD현대에 범정부 지원 확약에 따른 업황 기대감이 반영된 결과로 풀이됩니다.",
+      "id": "sig_20260220_KR_008",
+      "theme": "",
+      "signal_type": "이슈",
+      "short_reason": "60조, 캐나다",
+      "summary": "한화오션은(는) 60조 캐나다 잠수함 수주 위해…한화오션·HD현대에 범정부 지원 확약 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "한화오션",
         "symbol": "042660",
@@ -376,6 +742,111 @@
           "source": "머니투데이",
           "has_name": true,
           "content": "[the300]\n방위사업청은 20일 최대 60조원 규모의 캐나다 잠수함 사업(CPSP) 수주를 추진 중인 한화오션·HD현대중공업 '원팀'에 대한 정부 지원과 산업협력(ITB) 이행 의지를 담은 확약서 서명식을 열었다.\n방사청 과천청사에서 이뤄진 서명식에는 방사청, 국방부, 해군, 외교부, 산업통상부, 과학기술정보통신부, 기후에너지환경부 등이 참여했다.\n확약서에는 CPSP 수주 지원을 위해 청와대를 중심으로 관계부처가 함께 발굴해 제안서에 반영한 산업 협력 과제를 범정부 차원에서 지원한다는 내용이 담겼다.\n한화오션·HD현대중공업 컨소시엄과 독일 티센크루프 마린 시스템즈(TKMS)가 최종 결선에서 경쟁 중인 이번 수주전에서는 성능·납기·가격 등과 함께 캐나다 산업에 대한 실질적 기여가 중요한 평가 기준으로 반영된다.\n컨소시엄은 이를 고려해 제안서를 준비해 왔으며, 청와대를 중심으로 관계부처들도 협업을 통해 산업 협력 과제를 발굴하고 구체화해 제안서에 포함했다.\n이용철 방사청장은 \"캐나다 잠수함 사업은 정부 차원의 신뢰와 이행 능력을 종합적으로 담아내야 하는 산업협력 패키지 사업\"이라며 \"정부는 기업이 책임 있게 제안을 완수할 수 있도록 필요한 지원을 체계적으로 제공하겠다\"고 말했다.\n한편 캐나다는 1980~90년대 도입한 노후 잠수함을 대체하기 위한 최대 60조원 규모의 초계 잠수함 사업 발주 사업을 준비 중이다. 캐나다는 내달 초에 최종 제안서를 받아 상반기 중 우선 협상자를 선정할 예정으로 전해졌다."
+        },
+        {
+          "title": "60조 캐나다 잠수함 수주 위해…한화오션·HD현대에 범정부 지원 확약",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005320053&office_id=008&code=042660&page=9&sm=title_entity_id.basic",
+          "date": "2026.02.20 14:52",
+          "source": "머니투데이",
+          "has_name": true
+        },
+        {
+          "title": "한화오션, 사업목적에 신재생 대거 추가…해상풍력 밸류체인 전방위 ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013778039&office_id=003&code=042660&page=9&sm=title_entity_id.basic",
+          "date": "2026.02.20 13:37",
+          "source": "뉴시스",
+          "has_name": true
+        },
+        {
+          "title": "2월 12일 옵션 만기의 폭풍 속에서도 기관의 강력한 드라이브가 포착....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001242470&office_id=215&code=042660&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 23:20",
+          "source": "한국경제TV",
+          "has_name": false
+        },
+        {
+          "title": "코스피, 사상 첫 5800 돌파...‘6000피’ 다가왔다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000093376&office_id=243&code=042660&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 18:01",
+          "source": "이코노미스트",
+          "has_name": false
+        },
+        {
+          "title": "매일 역사 쓰는 코스피…\"글로벌 수익률 압도적 1위\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005253145&office_id=015&code=042660&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 17:53",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "[서울데이터랩]마감 직후 인기 검색 종목 20選",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003619421&office_id=081&code=042660&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 16:24",
+          "source": "서울신문",
+          "has_name": false
+        },
+        {
+          "title": "“어디까지 오르는 거예요” 코스피, 5800선 마감...7870 전망도",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004591738&office_id=011&code=042660&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 15:41",
+          "source": "서울경제",
+          "has_name": false
+        },
+        {
+          "title": "“조·방·원이 돌아왔다”…파죽지세 코스피, 5760선 넘어 5800 넘...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001143342&office_id=366&code=042660&page=9&sm=title_entity_id.basic",
+          "date": "2026.02.20 12:02",
+          "source": "조선비즈",
+          "has_name": false
+        },
+        {
+          "title": "'60조 원 규모' 캐나다 잠수함 수주 정부 지원 확약서 서명식",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000835697&office_id=422&code=042660&page=9&sm=title_entity_id.basic",
+          "date": "2026.02.20 11:36",
+          "source": "연합뉴스TV",
+          "has_name": false
+        },
+        {
+          "title": "“美 해양행동계획(MAP), 현실적이지 않다”-카토연구소",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005723530&office_id=277&code=042660&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 10:12",
+          "source": "아시아경제",
+          "has_name": false
+        },
+        {
+          "title": "[서울데이터랩]개장 직후 인기 검색 종목 20選",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003619235&office_id=081&code=042660&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 09:37",
+          "source": "서울신문",
+          "has_name": false
+        },
+        {
+          "title": "[기업이슈] 코스피 사상 최고치 랠리…증권주, 또 불기둥 세웠다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000493275&office_id=374&code=042660&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 08:25",
+          "source": "SBS Biz",
+          "has_name": false
+        },
+        {
+          "title": "K-조선, 사업 포트폴리오 확장 속도…풍력·교육서비스업 추가",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008782255&office_id=421&code=042660&page=9&sm=title_entity_id.basic",
+          "date": "2026.02.20 07:20",
+          "source": "뉴스1",
+          "has_name": false
+        },
+        {
+          "title": "GE·월풀 뒤쫓는 LG전자…“연말 美 주방가전 빅3 오른다”",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004591582&office_id=011&code=042660&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 06:58",
+          "source": "서울경제",
+          "has_name": false
+        },
+        {
+          "title": "[경제 단신] 호남권 첫 ‘롯데호텔’ 리브랜딩 오픈 외",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004107029&office_id=022&code=042660&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.20 05:02",
+          "source": "세계일보",
+          "has_name": false
         },
         {
           "title": "한화오션, 사업목적에 신재생 대거 추가…해상풍력 밸류체인 전방위 ...",
@@ -394,17 +865,18 @@
       ],
       "related_stocks": [
         {
-          "name": "한화에어로스페이스",
+          "name": "[그룹사] 한화에어로스페이스",
           "change_rate": "+8.1%"
         }
       ],
-      "timestamp": "2026-02-24 02:04:29"
+      "timestamp": "2026-02-26 03:20:53"
     },
     {
-      "id": "sig_20260220_009",
-      "theme": "##반도체",
-      "short_reason": "SK하이닉스, 시장 흐름 및 관련 테마 분석...",
-      "summary": "오늘 SK하이닉스 주가는 SK하이닉스, 시장 흐름 및 관련 테마 분석 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "id": "sig_20260220_KR_009",
+      "theme": "#반도체",
+      "signal_type": "이슈",
+      "short_reason": "SK하이닉스,, 시장",
+      "summary": "SK하이닉스은(는) SK하이닉스, 시장 흐름 및 관련 테마 분석 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "SK하이닉스",
         "symbol": "000660",
@@ -422,33 +894,34 @@
       ],
       "related_stocks": [
         {
-          "name": "삼성전자",
+          "name": "[반도체] 삼성전자",
           "change_rate": "+0.1%"
         },
         {
-          "name": "한미반도체",
+          "name": "[반도체] 한미반도체",
           "change_rate": "-0.5%"
         },
         {
-          "name": "삼성전기",
+          "name": "[경쟁사] 삼성전기",
           "change_rate": "+5.3%"
         },
         {
-          "name": "이수페타시스",
+          "name": "[반도체] 이수페타시스",
           "change_rate": "-1.2%"
         },
         {
-          "name": "SK",
+          "name": "[그룹사] SK",
           "change_rate": "+7.3%"
         }
       ],
-      "timestamp": "2026-02-24 02:04:35"
+      "timestamp": "2026-02-26 03:20:53"
     },
     {
-      "id": "sig_20260220_010",
-      "theme": "##실적/수급",
-      "short_reason": "\"삼성전기, AI MLCC 가격 인상 가능성 높아…목표...",
-      "summary": "삼성전기의 상승세는 \"삼성전기, AI MLCC 가격 인상 가능성 높아…목표가↑\"-삼성에 따른 업황 기대감이 반영된 결과로 풀이됩니다.",
+      "id": "sig_20260220_KR_010",
+      "theme": "",
+      "signal_type": "이슈",
+      "short_reason": "\"삼성전기,, AI",
+      "summary": "오늘 삼성전기 주가는 \"삼성전기, AI MLCC 가격 인상 가능성 높아…목표가↑\"-삼성 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "삼성전기",
         "symbol": "009150",
@@ -463,6 +936,55 @@
           "source": "한국경제",
           "has_name": true,
           "content": "삼성증권은 20일 삼성전기에 대해 \"인공지능(AI) 적층세라믹콘덴서(MLCC)의 가격 인상 가능성이 높다\"며 목표주가를 기존 35만원에서 45만원으로 상향하고 투자의견 '매수'를 유지했다.\n이 증권사 이종욱 연구원은 \"지난해 하반기부터 일본 무라타제작소와 삼성전기 등 1티어 공급사들의 가동률이 95%에 육박해 올해 타이트한 수급이 예고됐었다\"고 말했다.\n이어 \"VR200 NVL72 서버의 MLCC 탑재량은 GB300 대비 30% 이상 증가한 약 60만개로 추정된다\"며 \"고가 MLCC의 장기 수요 증가가 새로운 믹스(Mix) 개선의 원동력\"이라고 강조했다.\n서버 고객사들은 고용량, 초소형, 내열 특성과 함께 높은 신뢰성을 요구하는 만큼, 1티어 MLCC 공급사의 의존도가 80% 이상으로 높은 편이라고 이 연구원은 설명했다. 그는 \"가격 인상과 하이엔드 MLCC 공장 증설이 동반된다면 가격 저항은 크지 않을 것\"이라고 봤다."
+        },
+        {
+          "title": "\"삼성전기, AI MLCC 가격 인상 가능성 높아…목표가↑\"-삼성",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005252778&office_id=015&code=009150&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 08:55",
+          "source": "한국경제",
+          "has_name": true
+        },
+        {
+          "title": "5800 뚫은 코스피, 진짜 ‘육천피’ 가나…美 한파에도 SK하이닉스 ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002602869&office_id=016&code=009150&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 20:06",
+          "source": "헤럴드경제",
+          "has_name": false
+        },
+        {
+          "title": "5700·5800 단숨에 뚫은 코스피…글로벌 수익률 '압도적 1위'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005253126&office_id=015&code=009150&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 17:43",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "코스피 2.31% 급등, 사상 첫 5800선 돌파…‘육천피’ 현실화 ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003504132&office_id=025&code=009150&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.20 16:46",
+          "source": "중앙일보",
+          "has_name": false
+        },
+        {
+          "title": "솔루엠, 독일 '유로샵 2026' 참가",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002411211&office_id=092&code=009150&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 15:14",
+          "source": "지디넷코리아",
+          "has_name": false
+        },
+        {
+          "title": "LG전자 2년만에 ‘이사 보수한도’ 또 삭감",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002602707&office_id=016&code=009150&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 11:35",
+          "source": "헤럴드경제",
+          "has_name": false
+        },
+        {
+          "title": "솔루엠 유로샵 2026 참가…유럽 공략 본격화",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001256620&office_id=382&code=009150&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.20 10:17",
+          "source": "스포츠동아",
+          "has_name": false
         },
         {
           "title": "5800 뚫은 코스피, 진짜 ‘육천피’ 가나…美 한파에도 SK하이닉스 ...",
@@ -481,27 +1003,27 @@
       ],
       "related_stocks": [
         {
-          "name": "삼성전자",
+          "name": "[그룹사] 삼성전자",
           "change_rate": "+0.1%"
         },
         {
-          "name": "삼성바이오로직스",
+          "name": "[그룹사] 삼성바이오로직스",
           "change_rate": "+0.9%"
         },
         {
-          "name": "삼성생명",
+          "name": "[그룹사] 삼성생명",
           "change_rate": "+4.8%"
         },
         {
-          "name": "삼성화재",
+          "name": "[그룹사] 삼성화재",
           "change_rate": "+8.4%"
         },
         {
-          "name": "삼성중공업",
+          "name": "[그룹사] 삼성중공업",
           "change_rate": "+2.1%"
         }
       ],
-      "timestamp": "2026-02-24 02:04:37"
+      "timestamp": "2026-02-26 03:20:53"
     }
   ]
 }
