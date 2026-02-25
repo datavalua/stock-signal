@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26 05:42:32",
+  "last_updated": "2026-02-26 06:06:21",
   "signals": [
     {
       "id": "sig_20260225_US_001",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "Instinct, GPUs",
-      "summary": "오늘 AMD 주가는 Instinct GPUs Anchor AMD-META Deal: What's Ahead for AMD Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Company, News",
+      "summary": "오늘 AMD 주가는 Company News for Feb 25, 2026 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "AMD",
         "symbol": "AMD",
@@ -15,9 +15,9 @@
       },
       "news_articles": [
         {
-          "title": "Instinct GPUs Anchor AMD-META Deal: What's Ahead for AMD Stock?",
-          "url": "https://finance.yahoo.com/news/instinct-gpus-anchor-amd-meta-143900728.html?.tsrc=rss",
-          "date": "02.25 23:39",
+          "title": "Company News for Feb 25, 2026",
+          "url": "https://finance.yahoo.com/news/company-news-feb-25-2026-130400672.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:04:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -53,6 +53,13 @@
           "title": "Meta AMD AI Chip Pact Ties Capacity Spending And Equity Exposure",
           "url": "https://finance.yahoo.com/news/meta-amd-ai-chip-pact-181528136.html?.tsrc=rss",
           "date": "02.26 03:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Instinct GPUs Anchor AMD-META Deal: What's Ahead for AMD Stock?",
+          "url": "https://finance.yahoo.com/news/instinct-gpus-anchor-amd-meta-143900728.html?.tsrc=rss",
+          "date": "02.25 23:39",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -132,13 +139,6 @@
           "date": "Wed, 25 Feb 2026 13:48:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Company News for Feb 25, 2026",
-          "url": "https://finance.yahoo.com/news/company-news-feb-25-2026-130400672.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:04:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -163,7 +163,7 @@
           "change_rate": "+1.2%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     },
     {
       "id": "sig_20260225_US_002",
@@ -182,6 +182,13 @@
           "title": "PayPal Surges on Stripe Acquisition Interest",
           "url": "https://finance.yahoo.com/news/paypal-surges-stripe-acquisition-interest-185917213.html?.tsrc=rss",
           "date": "02.26 03:59",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Palantir Billionaire Peter Thiel Dumped Nvidia, Tesla, Microsoft, and Apple. What Stocks Does He Own for 2026?",
+          "url": "https://www.fool.com/investing/2026/02/25/palantir-billionaire-peter-thiel-dumped-nvidia-tes/?.tsrc=rss",
+          "date": "02.26 05:46",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -232,7 +239,7 @@
           "change_rate": "+1.1%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     },
     {
       "id": "sig_20260225_US_003",
@@ -308,14 +315,14 @@
           "change_rate": "+6.4%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     },
     {
       "id": "sig_20260225_US_004",
       "theme": "#Nuclear",
       "signal_type": "이슈",
       "short_reason": "Constellation, Energy",
-      "summary": "오늘 Constellation Energy 주가는 Constellation Energy sees surging power, capacity prices in 2025 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Constellation Energy은(는) Constellation Energy sees surging power, capacity prices in 2025 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Constellation Energy",
         "symbol": "CEG",
@@ -381,7 +388,7 @@
           "change_rate": "+2.0%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     },
     {
       "id": "sig_20260225_US_005",
@@ -450,14 +457,14 @@
           "change_rate": "+2.0%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     },
     {
       "id": "sig_20260225_US_006",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "BC-Most, Active",
-      "summary": "Intel은(는) BC-Most Active Stocks 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Think, It's",
+      "summary": "Intel은(는) Think It's Too Late to Buy Berkshire Hathaway Stock? Here's the 1 Reason Why There's Still Time. 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Intel",
         "symbol": "INTC",
@@ -466,9 +473,16 @@
       },
       "news_articles": [
         {
-          "title": "BC-Most Active Stocks",
-          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017209.html?.tsrc=rss",
-          "date": "02.26 00:30",
+          "title": "Think It's Too Late to Buy Berkshire Hathaway Stock? Here's the 1 Reason Why There's Still Time.",
+          "url": "https://www.fool.com/investing/2026/02/25/think-its-too-late-to-buy-berkshire-hathaway-stock/?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:50:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "4 Things Retail Investors Need to Know About President Trump's Latest Tariff Moves",
+          "url": "https://www.fool.com/investing/2026/02/25/4-things-retail-investors-need-to-know-about-presi/?.tsrc=rss",
+          "date": "02.26 05:53",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -497,6 +511,13 @@
           "title": "Western City Retirees Choose When They Want Sunshine Without the Resort Feel",
           "url": "https://www.fool.com/retirement/2026/02/25/a-western-city-retirees-choose-when-they-want-suns/?.tsrc=rss",
           "date": "02.26 04:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "BC-Most Active Stocks",
+          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017209.html?.tsrc=rss",
+          "date": "02.26 00:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -653,13 +674,6 @@
           "date": "02.26 00:36",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Think It's Too Late to Buy Berkshire Hathaway Stock? Here's the 1 Reason Why There's Still Time.",
-          "url": "https://www.fool.com/investing/2026/02/25/think-its-too-late-to-buy-berkshire-hathaway-stock/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:50:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -684,7 +698,7 @@
           "change_rate": "-3.0%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     },
     {
       "id": "sig_20260225_US_007",
@@ -745,14 +759,14 @@
           "change_rate": "+0.2%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     },
     {
       "id": "sig_20260225_US_008",
       "theme": "#Foundry",
       "signal_type": "이슈",
       "short_reason": "TSMC, Overseas",
-      "summary": "오늘 TSMC 주가는 TSMC Overseas Build Out Reshapes AI Supply Chain And Valuation Debate 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "TSMC은(는) TSMC Overseas Build Out Reshapes AI Supply Chain And Valuation Debate 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "TSMC",
         "symbol": "TSM",
@@ -853,14 +867,14 @@
           "change_rate": "+1.2%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     },
     {
       "id": "sig_20260225_US_009",
       "theme": "#SaaS",
       "signal_type": "이슈",
-      "short_reason": "Salesforce’s, Earnings",
-      "summary": "오늘 Salesforce 주가는 Salesforce’s Earnings Are Here. How Agentforce Could Check the Software Slump. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Salesforce, Earnings",
+      "summary": "Salesforce은(는) Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Salesforce",
         "symbol": "CRM",
@@ -869,23 +883,23 @@
       },
       "news_articles": [
         {
-          "title": "Salesforce’s Earnings Are Here. How Agentforce Could Check the Software Slump.",
-          "url": "https://finance.yahoo.com/m/388f18db-bc68-32bb-a4e6-ec17324183a2/salesforce%E2%80%99s-earnings-are.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 15:56:00 +0000",
+          "title": "Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI",
+          "url": "https://finance.yahoo.com/news/salesforce-earnings-due-today-wall-132153355.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:21:53 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rally on tech jolt as Nvidia earnings loom",
+          "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rally-on-tech-jolt-as-nvidia-earnings-loom-210052281.html?.tsrc=rss",
+          "date": "02.26 06:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
           "title": "Nasdaq makes strides as Nvidia and Salesforce prepare to report",
           "url": "https://www.proactiveinvestors.com/companies/news/1087910/nasdaq-tipped-to-lead-gains-ahead-of-nvidia-and-salesforce-earnings-1087910.html?.tsrc=rss",
-          "date": "02.26 04:23",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq rise with Nvidia earnings looming as gut check for AI trade",
-          "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rise-with-nvidia-earnings-looming-as-gut-check-for-ai-trade-143448982.html?.tsrc=rss",
-          "date": "02.26 04:12",
+          "date": "02.26 05:23",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -897,6 +911,13 @@
           "has_name": true
         },
         {
+          "title": "1 Picture-Perfect Short Iron Condor Trade Returning 35% on Adobe Stock Now",
+          "url": "https://www.barchart.com/story/news/420822/1-picture-perfect-short-iron-condor-trade-returning-35-on-adobe-stock-now?.tsrc=rss",
+          "date": "02.26 02:57",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Workday Shares Drop 9% as CEO Says OpenAI, Google Use Its Software",
           "url": "https://finance.yahoo.com/news/workday-shares-drop-9-ceo-174643941.html?.tsrc=rss",
           "date": "02.26 02:46",
@@ -904,16 +925,23 @@
           "has_name": true
         },
         {
-          "title": "5 industries that have gotten rocked by the AI 'scare trade' defining markets this year",
-          "url": "https://finance.yahoo.com/news/5-industries-that-have-gotten-rocked-by-the-ai-scare-trade-defining-markets-this-year-164746958.html?.tsrc=rss",
-          "date": "02.26 02:33",
+          "title": "Salesforce’s Earnings Are Here. How Agentforce Could Check the Software Slump.",
+          "url": "https://finance.yahoo.com/m/388f18db-bc68-32bb-a4e6-ec17324183a2/salesforce%E2%80%99s-earnings-are.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 15:56:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI",
-          "url": "https://finance.yahoo.com/news/salesforce-earnings-due-today-wall-132153355.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:21:53 +0000",
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rise with Nvidia earnings looming as gut check for AI trade",
+          "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rise-with-nvidia-earnings-looming-as-gut-check-for-ai-trade-143448982.html?.tsrc=rss",
+          "date": "02.26 04:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "5 industries that have gotten rocked by the AI 'scare trade' defining markets this year",
+          "url": "https://finance.yahoo.com/news/5-industries-that-have-gotten-rocked-by-the-ai-scare-trade-defining-markets-this-year-164746958.html?.tsrc=rss",
+          "date": "02.26 02:33",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -1006,14 +1034,14 @@
           "change_rate": "+3.4%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     },
     {
       "id": "sig_20260225_US_010",
       "theme": "#IP",
       "signal_type": "이슈",
       "short_reason": "ARM, vs.",
-      "summary": "ARM은(는) ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now? 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 ARM 주가는 ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "ARM",
         "symbol": "ARM",
@@ -1071,7 +1099,7 @@
           "change_rate": "+3.1%"
         }
       ],
-      "timestamp": "2026-02-26 05:42:32"
+      "timestamp": "2026-02-26 06:06:21"
     }
   ]
 }
