@@ -18,6 +18,26 @@ def safe_rerun():
     except:
         pass
 
+def safe_clear_cache():
+    """Support clearing cache across Streamlit versions."""
+    try:
+        if hasattr(st, "cache_data"):
+            st.cache_data.clear()
+            st.cache_resource.clear()
+        
+        # Legacy clearing
+        try:
+            from streamlit.legacy_caching import clear_cache
+            clear_cache()
+        except ImportError:
+            try:
+                import streamlit.runtime.legacy_caching as lc
+                lc.clear_cache()
+            except:
+                pass
+    except:
+        pass
+
 # --- Initialization ---
 load_dotenv()
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "HIDDEN_PASSWORD")
@@ -212,8 +232,7 @@ def show_search():
 def show_admin():
     st.header("⚙️ 관리자 도구")
     if st.button("🔄 종목 메타데이터 캐시 초기화"):
-        from streamlit.legacy_caching import clear_cache
-        clear_cache()
+        safe_clear_cache()
         st.success("캐시가 초기화되었습니다.")
     
     st.markdown("---")
