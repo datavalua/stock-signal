@@ -262,30 +262,26 @@ def show_search():
                 if "Name" in df.columns:
                     df = df.rename(columns={"Name": "Name"})
                 
-                # Enrichment: Add Industrial/Peers from our metadata
-                def get_extra(row):
-                    ticker = str(row["Symbol"])
-                    m = market_meta.get(ticker, {})
-                    industry = ", ".join(m.get("industry", [])) if m.get("industry") else "-"
-                    peers = ", ".join(m.get("peers", [])) if m.get("peers") else "-"
-                    return pd.Series([industry, peers])
-
-                # Apply enrichment only to first 200 rows for performance
-                df_view = df.head(200).copy()
-                if not df_view.empty:
-                    # Using result_type='expand' ensures we get a DataFrame that matches the 2-column key
-                    df_view[["Industry", "Peers"]] = df_view.apply(get_extra, axis=1, result_type='expand')
-                else:
-                    df_view["Industry"] = "-"
-                    df_view["Peers"] = "-"
+                # Optimized Enrichment: Add Industrial/Peers from our metadata
+                tickers = df["Symbol"].astype(str).tolist()
+                industries = []
+                peers_list = []
+                
+                for t in tickers:
+                    m = market_meta.get(t, {})
+                    industries.append(", ".join(m.get("industry", [])) if m.get("industry") else "-")
+                    peers_list.append(", ".join(m.get("peers", [])) if m.get("peers") else "-")
+                
+                df["Industry"] = industries
+                df["Peers"] = peers_list
                 
                 # Unify layout: only show core columns (US Standard)
                 display_cols = ["Symbol", "Name", "Industry", "Peers"]
                 # Safety check for column existence
-                actual_cols = [c for c in display_cols if c in df_view.columns]
-                df_view = df_view[actual_cols]
+                actual_cols = [c for c in display_cols if c in df.columns]
+                df_view = df[actual_cols].copy()
                 
-                st.success(f"조회 완료 (총 {len(df)}개 중 상위 {len(df_view)}개 표시)")
+                st.success(f"조회 완료 (총 {len(df)}개 전수 표시)")
                 
                 # Fixed column widths for consistent size (Requires Streamlit >= 1.23.0)
                 try:
@@ -306,9 +302,6 @@ def show_search():
                     except TypeError:
                         # Fallback for extremely old Streamlit versions (< 1.10.0)
                         st.dataframe(df_view)
-                
-                if len(df) > 200:
-                    st.caption("※ 성능을 위해 상위 200개 종목만 상세 정보를 매핑하여 표시합니다.")
                     
             except Exception as e:
                 st.error(f"조회 중 오류 발생: {e}")
