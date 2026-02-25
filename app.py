@@ -28,41 +28,39 @@ st.markdown("""
     footer {visibility: hidden;}
     
     /* Global Background */
-    .stApp { background-color: #f2f4f6 !important; }
+    .stApp { background-color: #f7f9fb !important; }
 
-    /* Sticky Header Container */
+    /* Hide default streamlit header */
     [data-testid="stHeader"] {
         display: none;
     }
     
-    .sticky-header {
+    /* Unified Sticky Header */
+    .unified-sticky-header {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        height: 70px;
         background-color: white;
         z-index: 1000;
         border-bottom: 1px solid #e5e7eb;
-        padding: 0 20px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    }
+    
+    .top-bar {
+        height: 65px;
+        padding: 0 25px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
     
-    /* Nav Tab Styling - Overriding Streamlit Defaults */
-    .main-nav-container {
-        position: fixed;
-        top: 70px;
-        left: 0;
-        right: 0;
-        background-color: white;
-        z-index: 999;
-        border-bottom: 1px solid #e5e7eb;
-        padding-top: 10px;
+    .nav-bar {
+        height: 50px;
+        border-top: 1px solid #f3f4f6;
+        padding: 0 25px;
     }
-    
+
     /* Modal / Alert Overlay */
     .overlay-container {
         position: fixed;
@@ -70,8 +68,8 @@ st.markdown("""
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.4);
-        backdrop-filter: blur(4px);
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(8px);
         z-index: 9999;
         display: flex;
         justify-content: center;
@@ -80,42 +78,54 @@ st.markdown("""
     
     .modal-box {
         background-color: white;
-        padding: 30px;
-        border-radius: 16px;
+        padding: 40px;
+        border-radius: 20px;
         width: 90%;
-        max-width: 400px;
-        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        max-width: 420px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
         text-align: center;
+        animation: fadeIn 0.3s ease-out;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
     }
     
     /* Card Styling */
     .content-card {
         background-color: white;
-        padding: 20px;
-        border-radius: 16px;
-        border: 1px solid #e5e7eb;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        margin-bottom: 20px;
+        padding: 30px;
+        border-radius: 20px;
+        border: 1px solid #eef2f6;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+        margin-bottom: 30px;
+        transition: transform 0.2s ease;
+    }
+    .content-card:hover {
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
     }
     
     /* Custom spacing for fixed header */
     .fixed-header-spacer {
-        height: 140px;
+        height: 150px;
     }
     
     /* Button Styling */
     .stButton > button {
-        border-radius: 8px !important;
+        border-radius: 12px !important;
+        font-weight: 600 !important;
     }
     
-    /* Override tab-like buttons */
+    /* Nav Tab Styling */
     .nav-btn > div > button {
         border: none !important;
         background-color: transparent !important;
         border-radius: 0 !important;
         border-bottom: 3px solid transparent !important;
-        font-weight: 600 !important;
-        height: 45px !important;
+        color: #6b7280 !important;
+        height: 50px !important;
+        font-size: 1rem !important;
     }
     .nav-btn-active > div > button {
         border-bottom: 3px solid #0070f3 !important;
@@ -181,18 +191,16 @@ def render_overlay_modals():
         st.markdown(f"""
             <div class="overlay-container">
                 <div class="modal-box">
-                    <h3>💡 알림</h3>
-                    <p style="margin: 20px 0; font-size: 1.1rem;">{st.session_state['alert_message']}</p>
+                    <div style="font-size: 3rem; margin-bottom: 10px;">💡</div>
+                    <h3 style="color: #111; margin-bottom: 15px;">알림</h3>
+                    <p style="margin: 0 0 30px 0; font-size: 1.1rem; color: #444; line-height: 1.5;">{st.session_state['alert_message']}</p>
                 </div>
             </div>
         """, unsafe_allow_html=True)
-        # We need a streamlit button to actually trigger a state change
-        # Using a column trick to center the button in the modal via Streamlit
-        _, col_btn, _ = st.columns([1, 1, 1])
+        
+        _, col_btn, _ = st.columns([1.2, 1, 1.2])
         with col_btn:
-            # This button is invisible but handles the 'Close' click logically
-            # We use a real button for interactivity
-            if st.button("확인", key="close_alert_btn"):
+            if st.button("확인", key="close_alert_btn", use_container_width=True, type="primary"):
                 st.session_state["show_alert"] = False
                 st.rerun()
 
@@ -201,14 +209,16 @@ def render_overlay_modals():
         st.markdown("""
             <div class="overlay-container">
                 <div class="modal-box">
-                    <h3>🔑 관리자 로그인</h3>
-                    <p style="color: #666; margin-bottom: 20px;">비밀번호를 입력해주세요.</p>
+                    <div style="font-size: 3rem; margin-bottom: 10px;">🔑</div>
+                    <h3 style="color: #111; margin-bottom: 5px;">관리자 로그인</h3>
+                    <p style="color: #666; margin-bottom: 25px;">서비스 관리를 위해 비밀번호를 입력해주세요.</p>
                 </div>
             </div>
         """, unsafe_allow_html=True)
         _, col_login, _ = st.columns([1, 2, 1])
         with col_login:
-            pwd_input = st.text_input("Password", type="password", key="modal_login_pwd", label_visibility="collapsed")
+            pwd_input = st.text_input("Password", type="password", key="modal_login_pwd", label_visibility="collapsed", placeholder="비밀번호 입력")
+            st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
             col_l1, col_l2 = st.columns(2)
             with col_l1:
                 if st.button("로그인", use_container_width=True, type="primary"):
@@ -494,47 +504,47 @@ def render_admin_view():
 
 
 def render_header_nav():
-    # 1. Sticky Top Bar
-    st.markdown(f"""
-        <div class="sticky-header">
+    """Render consolidated sticky header and navigation"""
+    # 1. Unified Sticky Header Wrapper
+    st.markdown('<div class="unified-sticky-header">', unsafe_allow_html=True)
+    
+    # 1a. Top Bar (Logo & Auth)
+    st.markdown("""
+        <div class="top-bar">
             <div style="display: flex; align-items: center; gap: 15px;">
-                <h2 style="margin:0; font-size: 1.5rem;">📈 시그널</h2>
-                <span style="color: #666; font-size: 0.9rem; margin-top: 5px;">실시간 AI 주식 분석</span>
+                <h2 style="margin:0; font-size: 1.6rem; color: #111;">📈 시그널</h2>
+                <span style="color: #6b7280; font-size: 0.95rem; margin-top: 4px; font-weight: 500;">실시간 AI 주식 분석</span>
             </div>
             <div id="auth-section"></div>
         </div>
     """, unsafe_allow_html=True)
     
-    # Auth Buttons in the header via absolute positioning or columns
-    # Streamlit doesn't easily allow putting components inside raw HTML strings, 
-    # so we use a container with a specific key and float it.
-    
-    # Container for Top-Right Auth
+    # Position Auth Buttons in the top-right
     auth_container = st.container()
     with auth_container:
-        # We use columns to push it to the right within the fixed header area
         _, col_auth = st.columns([8, 2])
         with col_auth:
-            st.markdown("<div style='height: 15px;'></div>", unsafe_allow_html=True)
+            # Shift up slightly to fit in the top-bar height
+            st.markdown("<div style='margin-top: -55px;'></div>", unsafe_allow_html=True)
             if not st.session_state["admin_logged_in"]:
-                if st.button("🔑 로그인", key="header_login_btn"):
+                if st.button("🔑 로그인", key="header_login_btn", use_container_width=True):
                     st.session_state["show_login_modal"] = True
                     st.rerun()
             else:
-                if st.button("👤 로그아웃", key="header_logout_btn"):
+                if st.button("👤 로그아웃", key="header_logout_btn", use_container_width=True):
                     st.session_state["admin_logged_in"] = False
                     st.session_state["current_view"] = "주식 시그널"
                     st.session_state["alert_message"] = "로그아웃되었습니다."
                     st.session_state["show_alert"] = True
                     st.rerun()
 
-    # 2. Sticky Navigation Tabs
-    st.markdown('<div class="main-nav-container">', unsafe_allow_html=True)
+    # 1b. Navigation Bar
+    st.markdown('<div class="nav-bar">', unsafe_allow_html=True)
     menu_options = ["주식 시그널", "관련 주식 조회/검색"]
     if st.session_state["admin_logged_in"]:
         menu_options.append("관리자 화면")
         
-    cols = st.columns(len(menu_options))
+    cols = st.columns(len(menu_options) + 5) # Pad to keep them left-aligned
     current_opt = st.session_state["current_view"]
     
     for i, option in enumerate(menu_options):
@@ -546,9 +556,8 @@ def render_header_nav():
                 st.session_state["current_view"] = option
                 st.rerun()
             st.markdown('</div>', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
-
-    st.markdown("---")
+    st.markdown('</div>', unsafe_allow_html=True) # close nav-bar
+    st.markdown('</div>', unsafe_allow_html=True) # close unified-sticky-header
 
 # --- Main Flow ---
 def main():
