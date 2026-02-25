@@ -111,12 +111,18 @@ def load_data(date_str):
         except: return None
     return None
 
-@st.cache(ttl=3600, show_spinner=False)
+@st.cache(ttl=3600, show_spinner=False, allow_output_mutation=True)
 def get_stock_listing_cached(idx):
     try:
-        return fdr.StockListing(idx)
+        # Use KRX for more stable domestic stock listings
+        if idx in ["KOSPI", "KOSDAQ"]:
+            df = fdr.StockListing("KRX")
+            return df[df["Market"] == idx]
+        
+        df = fdr.StockListing(idx)
+        return df
     except:
-        return pd.DataFrame()
+        return None
 
 @st.cache(ttl=600, show_spinner=False)
 def load_stock_metadata():
@@ -242,6 +248,10 @@ def show_search():
                 market_meta = meta.get(market_key, {})
                 
                 df = get_stock_listing_cached(idx)
+                
+                if df is None or df.empty:
+                    st.warning("종목 리스트를 가져오는 데 실패했습니다. 잠시 후 다시 시도해 주세요.")
+                    return
                 
                 # Standardize columns: Symbol, Name
                 if "Symbol" in df.columns:
