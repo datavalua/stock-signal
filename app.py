@@ -47,8 +47,8 @@ st.markdown("""
     }
     
     .top-bar {
-        height: 55px;
-        padding: 0 25px;
+        height: 45px;
+        padding: 0 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -56,8 +56,8 @@ st.markdown("""
     }
     
     .nav-bar {
-        height: 45px;
-        padding: 0 25px;
+        height: 38px;
+        padding: 0 20px;
         display: flex;
         align-items: center;
     }
@@ -109,7 +109,7 @@ st.markdown("""
     
     /* Custom spacing for fixed header */
     .fixed-header-spacer {
-        height: 100px;
+        height: 85px;
     }
     
     /* Button Styling */
@@ -128,9 +128,9 @@ st.markdown("""
         border-radius: 0 !important;
         border-bottom: 3px solid transparent !important;
         color: #6b7280 !important;
-        height: 45px !important;
-        font-size: 0.95rem !important;
-        padding: 0 15px !important;
+        height: 38px !important;
+        font-size: 0.9rem !important;
+        padding: 0 12px !important;
         transition: all 0.2s ease !important;
     }
     .nav-btn-active > div > button {
@@ -213,7 +213,7 @@ def render_overlay_modals():
         with col_btn:
             if st.button("확인", key="close_alert_btn"):
                 st.session_state["show_alert"] = False
-                st.rerun()
+                st.experimental_rerun()
 
     # 2. Login Modal
     if st.session_state.get("show_login_modal"):
@@ -239,20 +239,23 @@ def render_overlay_modals():
                         st.session_state["show_login_modal"] = False
                         st.session_state["alert_message"] = "로그인되었습니다."
                         st.session_state["show_alert"] = True
-                        st.rerun()
+                        st.experimental_rerun()
                     else:
                         st.error("비밀번호 불일치")
             with col_l2:
                 if st.button("취소"):
                     st.session_state["show_login_modal"] = False
-                    st.rerun()
+                    st.experimental_rerun()
 
 # --- Views ---
 def render_user_view():
     st.subheader("📊 오늘의 시그널")
     
+    # Margin above controls
+    st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
+    
     # Controls
-    col_date, col_market, col_info = st.columns([1.5, 2, 4])
+    col_date, col_market, col_info = st.columns([1.5, 2, 3.5])
 
     with col_date:
         kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
@@ -517,9 +520,9 @@ def render_header_nav():
     # 1a. Top Bar (Logo & Auth)
     st.markdown("""
         <div class="top-bar">
-            <div style="display: flex; align-items: baseline; gap: 12px;">
-                <h2 style="margin:0; font-size: 1.4rem; color: #111;">📈 시그널</h2>
-                <span style="color: #6b7280; font-size: 0.85rem; font-weight: 500;">AI 주식 분석</span>
+            <div style="display: flex; align-items: baseline; gap: 10px;">
+                <h2 style="margin:0; font-size: 1.25rem; color: #111; letter-spacing: -0.5px;">📈 시그널</h2>
+                <span style="color: #6b7280; font-size: 0.8rem; font-weight: 500;">AI 주식 분석</span>
             </div>
             <div id="auth-section"></div>
         </div>
@@ -530,19 +533,19 @@ def render_header_nav():
     with auth_container:
         _, col_auth = st.columns([8.2, 1.8])
         with col_auth:
-            # Shift up to fit in the 55px top-bar height
-            st.markdown("<div style='margin-top: -48px;'></div>", unsafe_allow_html=True)
+            # Shift up further to fit in the 45px top-bar height
+            st.markdown("<div style='margin-top: -38px;'></div>", unsafe_allow_html=True)
             if not st.session_state["admin_logged_in"]:
                 if st.button("🔑 로그인", key="header_login_btn"):
                     st.session_state["show_login_modal"] = True
-                    st.rerun()
+                    st.experimental_rerun()
             else:
                 if st.button("👤 로그아웃", key="header_logout_btn"):
                     st.session_state["admin_logged_in"] = False
                     st.session_state["current_view"] = "주식 시그널"
                     st.session_state["alert_message"] = "로그아웃되었습니다."
                     st.session_state["show_alert"] = True
-                    st.rerun()
+                    st.experimental_rerun()
 
     # 1b. Navigation Bar
     st.markdown('<div class="nav-bar">', unsafe_allow_html=True)
@@ -560,7 +563,7 @@ def render_header_nav():
             st.markdown(f'<div class="{btn_class}">', unsafe_allow_html=True)
             if st.button(option, key=f"nav_{option}"):
                 st.session_state["current_view"] = option
-                st.rerun()
+                st.experimental_rerun()
             st.markdown('</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True) # close nav-bar
     st.markdown('</div>', unsafe_allow_html=True) # close unified-sticky-header
@@ -596,7 +599,7 @@ def main():
         render_admin_view()
     else:
         st.session_state["current_view"] = "주식 시그널"
-        st.rerun()
+        st.experimental_rerun()
         
     # Auto-refresh logic (ONLY if we are in the main User view)
     if view == "주식 시그널":
