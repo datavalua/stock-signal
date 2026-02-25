@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26 04:17:29",
+  "last_updated": "2026-02-26 04:57:07",
   "signals": [
     {
       "id": "sig_20260225_US_001",
-      "theme": "#반도체",
+      "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "ETFs, to",
-      "summary": "AMD은(는) ETFs to Buy as META-AMD Sign $100 Billion Worth AI Chip Deal 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Dow, Jones",
+      "summary": "AMD은(는) Dow Jones Futures Rise After Trump Speech; Nvidia Earnings Loom 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "AMD",
         "symbol": "AMD",
@@ -15,9 +15,9 @@
       },
       "news_articles": [
         {
-          "title": "ETFs to Buy as META-AMD Sign $100 Billion Worth AI Chip Deal",
-          "url": "https://finance.yahoo.com/news/etfs-buy-meta-amd-sign-130700777.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:07:00 +0000",
+          "title": "Dow Jones Futures Rise After Trump Speech; Nvidia Earnings Loom",
+          "url": "https://finance.yahoo.com/m/bdeb1df7-ae4f-357c-a6ee-1963c3acdf10/dow-jones-futures-rise-after.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:13:09 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -53,6 +53,13 @@
           "title": "The Eye-Catching Yield on This AMD Options ETF Comes With a Serious Catch",
           "url": "https://247wallst.com/investing/2026/02/25/the-eye-catching-yield-on-this-amd-options-etf-comes-with-a-serious-catch/?.tsrc=rss",
           "date": "02.26 02:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "ETFs to Buy as META-AMD Sign $100 Billion Worth AI Chip Deal",
+          "url": "https://finance.yahoo.com/news/etfs-buy-meta-amd-sign-130700777.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:07:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -118,48 +125,357 @@
           "date": "02.25 23:39",
           "source": "Yahoo Finance",
           "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "+0.7%"
         },
         {
-          "title": "Dow Jones Futures Rise After Trump Speech; Nvidia Earnings Loom",
-          "url": "https://finance.yahoo.com/m/bdeb1df7-ae4f-357c-a6ee-1963c3acdf10/dow-jones-futures-rise-after.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:13:09 +0000",
+          "name": "[Semiconductors] Intel",
+          "change_rate": "+5.7%"
+        },
+        {
+          "name": "[IP] ARM",
+          "change_rate": "+3.5%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "+4.2%"
+        },
+        {
+          "name": "[Software] Microsoft",
+          "change_rate": "+1.2%"
+        }
+      ],
+      "timestamp": "2026-02-26 04:57:07"
+    },
+    {
+      "id": "sig_20260225_US_002",
+      "theme": "#Payments",
+      "signal_type": "이슈",
+      "short_reason": "PayPal, Surges",
+      "summary": "오늘 PayPal 주가는 PayPal Surges on Stripe Acquisition Interest 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "PayPal",
+        "symbol": "PYPL",
+        "change_rate": "+6.7%",
+        "news_url": "https://finance.yahoo.com/quote/PYPL"
+      },
+      "news_articles": [
+        {
+          "title": "PayPal Surges on Stripe Acquisition Interest",
+          "url": "https://finance.yahoo.com/news/paypal-surges-stripe-acquisition-interest-185917213.html?.tsrc=rss",
+          "date": "02.26 03:59",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stripe Said to Express Interest in Rival PayPal",
+          "url": "https://finance.yahoo.com/video/stripe-said-express-interest-rival-173417170.html?.tsrc=rss",
+          "date": "02.26 02:34",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stripe weighs acquisition of PayPal, Bloomberg reports",
+          "url": "https://www.proactiveinvestors.com/companies/news/1087929/stripe-weighs-acquisition-of-paypal-bloomberg-reports-1087929.html?.tsrc=rss",
+          "date": "02.26 01:47",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stripe May Be Looking to Buy PayPal. What It Means for the Stock.",
+          "url": "https://finance.yahoo.com/m/0c789fd6-a8bf-3dd6-8021-32c40b44f9cd/stripe-may-be-looking-to-buy.html?.tsrc=rss",
+          "date": "02.26 00:48",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "HP Earnings Beat Expectations. Why the Stock Is Dropping.",
+          "url": "https://finance.yahoo.com/m/4b0ba4a9-d009-3b66-a380-0acc73f2c82e/hp-earnings-beat.html?.tsrc=rss",
+          "date": "02.25 23:07",
           "source": "Yahoo Finance",
           "has_name": true
         }
       ],
       "related_stocks": [
         {
-          "name": "[AI반도체] 엔비디아",
-          "change_rate": "+0.7%"
+          "name": "[Payments] Block",
+          "change_rate": "+0.0%"
         },
         {
-          "name": "[경쟁사] 인텔",
-          "change_rate": "+5.7%"
+          "name": "[Payments] Visa",
+          "change_rate": "+0.2%"
         },
         {
-          "name": "[반도체] TSMC",
-          "change_rate": "+4.2%"
+          "name": "[Payments] Mastercard",
+          "change_rate": "+0.4%"
+        },
+        {
+          "name": "[Financials] Coinbase",
+          "change_rate": "+1.1%"
         }
       ],
-      "timestamp": "2026-02-26 04:17:29"
+      "timestamp": "2026-02-26 04:57:07"
     },
     {
-      "id": "sig_20260225_US_002",
-      "theme": "",
+      "id": "sig_20260225_US_003",
+      "theme": "#SMR",
       "signal_type": "이슈",
-      "short_reason": "Have, $1,000?",
-      "summary": "인텔은(는) Have $1,000? These 2 Stocks Could Be Bargain Buys for 2026 and Beyond 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Battle, Royale:",
+      "summary": "NuScale Power은(는) Battle Royale: NuScale vs. Plug Power. Only One Can Make You Rich. 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
-        "name": "인텔",
+        "name": "NuScale Power",
+        "symbol": "SMR",
+        "change_rate": "+6.6%",
+        "news_url": "https://finance.yahoo.com/quote/SMR"
+      },
+      "news_articles": [
+        {
+          "title": "Battle Royale: NuScale vs. Plug Power. Only One Can Make You Rich.",
+          "url": "https://www.fool.com/investing/2026/02/24/battle-royale-nuscale-vs-plug-power/?.tsrc=rss",
+          "date": "02.25 07:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Here's Why NuScale Power Stock Is a Buy Before Earnings",
+          "url": "https://www.fool.com/investing/2026/02/25/heres-why-nuscale-power-stock-is-a-buy-before-earn/?.tsrc=rss",
+          "date": "02.25 17:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "How The NuScale Power (SMR) Investment Story Is Shifting As Analysts Rework Forecasts",
+          "url": "https://finance.yahoo.com/news/nuscale-power-smr-investment-story-070749251.html?.tsrc=rss",
+          "date": "02.25 16:07",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "NuScale Legal Challenges And AI Fuel Work Shape Risk Reward Profile",
+          "url": "https://finance.yahoo.com/news/nuscale-legal-challenges-ai-fuel-060939055.html?.tsrc=rss",
+          "date": "02.25 15:09",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Analysts See 140% Upside in NuScale Power After Implosion",
+          "url": "https://247wallst.com/investing/2026/02/24/analysts-see-140-upside-in-nuscale-power-after-implosion/?.tsrc=rss",
+          "date": "02.25 08:01",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[SMR] Oklo",
+          "change_rate": "+3.1%"
+        },
+        {
+          "name": "[Nuclear] BWX Tech",
+          "change_rate": "+2.9%"
+        },
+        {
+          "name": "[Energy] Cameco",
+          "change_rate": "+2.0%"
+        },
+        {
+          "name": "[Nuclear] Constellation Energy",
+          "change_rate": "+6.4%"
+        }
+      ],
+      "timestamp": "2026-02-26 04:57:07"
+    },
+    {
+      "id": "sig_20260225_US_004",
+      "theme": "#Nuclear",
+      "signal_type": "이슈",
+      "short_reason": "Constellation, Energy",
+      "summary": "오늘 Constellation Energy 주가는 Constellation Energy sees surging power, capacity prices in 2025 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "Constellation Energy",
+        "symbol": "CEG",
+        "change_rate": "+6.4%",
+        "news_url": "https://finance.yahoo.com/quote/CEG"
+      },
+      "news_articles": [
+        {
+          "title": "Constellation Energy sees surging power, capacity prices in 2025",
+          "url": "https://www.utilitydive.com/news/constellation-energy-power-capacity-prices-earnings/813065/?.tsrc=rss",
+          "date": "02.25 19:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "How Investors May Respond To Constellation Energy (CEG) Calpine Deal And AI-Linked Power Contracts",
+          "url": "https://finance.yahoo.com/news/investors-may-respond-constellation-energy-181255734.html?.tsrc=rss",
+          "date": "02.26 03:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nuclear Giant Constellation Closes Calpine Deal While Retail Investors Lose Faith",
+          "url": "https://247wallst.com/investing/2026/02/25/nuclear-giant-constellation-closes-calpine-deal-while-retail-investors-lose-faith/?.tsrc=rss",
+          "date": "02.25 21:01",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Home Depot's mixed Q4, Planet Fitness outlook drags stock lower",
+          "url": "https://finance.yahoo.com/video/home-depots-mixed-q4-planet-210500388.html?.tsrc=rss",
+          "date": "02.25 06:05",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Sector Update: Energy Stocks Mixed Late Afternoon",
+          "url": "https://finance.yahoo.com/news/sector-energy-stocks-mixed-afternoon-210159178.html?.tsrc=rss",
+          "date": "02.25 06:01",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Utilities] Vistra",
+          "change_rate": "+2.3%"
+        },
+        {
+          "name": "[Utilities] NextEra Energy",
+          "change_rate": "+1.7%"
+        },
+        {
+          "name": "[SMR] NuScale Power",
+          "change_rate": "+6.6%"
+        },
+        {
+          "name": "[SMR] Oklo",
+          "change_rate": "+3.1%"
+        },
+        {
+          "name": "[Energy] Cameco",
+          "change_rate": "+2.0%"
+        }
+      ],
+      "timestamp": "2026-02-26 04:57:07"
+    },
+    {
+      "id": "sig_20260225_US_005",
+      "theme": "#Energy",
+      "signal_type": "이슈",
+      "short_reason": "GE, Vernova",
+      "summary": "GE Vernova은(는) GE Vernova Growth Supercycle Tied To AI Power And Payouts 소식이 전해지며 매수세가 강화되었습니다.",
+      "main_stock": {
+        "name": "GE Vernova",
+        "symbol": "GEV",
+        "change_rate": "+5.8%",
+        "news_url": "https://finance.yahoo.com/quote/GEV"
+      },
+      "news_articles": [
+        {
+          "title": "GE Vernova Growth Supercycle Tied To AI Power And Payouts",
+          "url": "https://finance.yahoo.com/news/ge-vernova-growth-supercycle-tied-190726912.html?.tsrc=rss",
+          "date": "02.25 04:07",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Zacks Investment Ideas feature highlights: Bloom Energy, Excelerate Energy and GE Vernova",
+          "url": "https://finance.yahoo.com/news/zacks-investment-ideas-feature-highlights-150100749.html?.tsrc=rss",
+          "date": "02.26 00:01",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "1 Brilliant Energy Stock to Buy Now and Hold for the Long Term",
+          "url": "https://www.fool.com/investing/2026/02/25/1-brilliant-energy-stock-to-buy-now-and-hold-for/?.tsrc=rss",
+          "date": "02.25 23:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "The Stock That Didn’t Get Crushed by the AI Doomsday Essay",
+          "url": "https://finance.yahoo.com/m/d883cb34-99d0-3abe-b9a6-d3d89f15bcaf/the-stock-that-didn%E2%80%99t-get.html?.tsrc=rss",
+          "date": "02.25 06:16",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "AI Power Play Bloom Energy Stock Breaking Out Now",
+          "url": "https://finance.yahoo.com/news/ai-power-play-bloom-energy-175700948.html?.tsrc=rss",
+          "date": "02.25 02:57",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Infrastructure] Eaton",
+          "change_rate": "+3.5%"
+        },
+        {
+          "name": "[Infrastructure] Vertiv",
+          "change_rate": "+3.1%"
+        },
+        {
+          "name": "[Utilities] NextEra Energy",
+          "change_rate": "+1.7%"
+        },
+        {
+          "name": "[Aerospace] GE Aerospace",
+          "change_rate": "+2.0%"
+        }
+      ],
+      "timestamp": "2026-02-26 04:57:07"
+    },
+    {
+      "id": "sig_20260225_US_006",
+      "theme": "#Semiconductors",
+      "signal_type": "이슈",
+      "short_reason": "Walmart, Stock",
+      "summary": "오늘 Intel 주가는 Walmart Stock Falls 1.4% on Solid Earnings and Cautious Guidance 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "Intel",
         "symbol": "INTC",
         "change_rate": "+5.7%",
         "news_url": "https://finance.yahoo.com/quote/INTC"
       },
       "news_articles": [
         {
-          "title": "Have $1,000? These 2 Stocks Could Be Bargain Buys for 2026 and Beyond",
-          "url": "https://www.fool.com/investing/2026/02/25/have-1000-these-2-stocks-could-be-bargain-buys-for/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 15:24:00 +0000",
+          "title": "Walmart Stock Falls 1.4% on Solid Earnings and Cautious Guidance",
+          "url": "https://www.fool.com/investing/2026/02/25/walmart-stock-falls-on-strong-earnings/?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 14:15:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "American Express Stock Has Fallen 12% in 2026. Time to Buy?",
+          "url": "https://www.fool.com/investing/2026/02/25/american-express-stock-has-fallen-12-in-2026-time/?.tsrc=rss",
+          "date": "02.26 04:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Billionaire David Tepper Is Calling For Massive Changes at Whirlpool. Here's What Investors Need to Know.",
+          "url": "https://www.fool.com/investing/2026/02/25/billionaire-david-tepper-is-calling-for-massive-ch/?.tsrc=rss",
+          "date": "02.26 04:28",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Western City Retirees Choose When They Want Sunshine Without the Resort Feel",
+          "url": "https://www.fool.com/retirement/2026/02/25/a-western-city-retirees-choose-when-they-want-suns/?.tsrc=rss",
+          "date": "02.26 04:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Prediction: This Custom AI Chip Stock Will Outperform Nvidia in 2026",
+          "url": "https://www.fool.com/investing/2026/02/25/prediction-this-ai-chip-stock-will-outperform/?.tsrc=rss",
+          "date": "02.26 04:20",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -167,6 +483,13 @@
           "title": "Should You Forget IonQ and Buy These 2 Tech Stocks Instead?",
           "url": "https://www.fool.com/investing/2026/02/25/should-you-forget-ionq-and-buy-these-2-tech-stocks/?.tsrc=rss",
           "date": "02.26 04:05",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Have $1,000? These 2 Stocks Could Be Bargain Buys for 2026 and Beyond",
+          "url": "https://www.fool.com/investing/2026/02/25/have-1000-these-2-stocks-could-be-bargain-buys-for/?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 15:24:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -309,38 +632,96 @@
           "date": "02.26 00:30",
           "source": "Yahoo Finance",
           "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] AMD",
+          "change_rate": "+8.8%"
         },
         {
-          "title": "Walmart Stock Falls 1.4% on Solid Earnings and Cautious Guidance",
-          "url": "https://www.fool.com/investing/2026/02/25/walmart-stock-falls-on-strong-earnings/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:15:00 +0000",
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "+0.7%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "+4.2%"
+        },
+        {
+          "name": "[Semiconductors] Qualcomm",
+          "change_rate": "+3.1%"
+        },
+        {
+          "name": "[Semiconductors] Texas Instruments",
+          "change_rate": "-3.0%"
+        }
+      ],
+      "timestamp": "2026-02-26 04:57:07"
+    },
+    {
+      "id": "sig_20260225_US_007",
+      "theme": "#Retail",
+      "signal_type": "이슈",
+      "short_reason": "Booking’s, (BKNG)",
+      "summary": "오늘 Booking 주가는 Booking’s (BKNG) Long-Term Growth Outlook Drives Upgrade from Morgan Stanley 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "Booking",
+        "symbol": "BKNG",
+        "change_rate": "+5.1%",
+        "news_url": "https://finance.yahoo.com/quote/BKNG"
+      },
+      "news_articles": [
+        {
+          "title": "Booking’s (BKNG) Long-Term Growth Outlook Drives Upgrade from Morgan Stanley",
+          "url": "https://finance.yahoo.com/news/booking-bkng-long-term-growth-164140287.html?.tsrc=rss",
+          "date": "02.26 01:41",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "KAYAK reveals the UK’s top breaks for Slow Travel with a dog",
+          "url": "https://finance.yahoo.com/news/kayak-reveals-uk-top-breaks-140100296.html?.tsrc=rss",
+          "date": "02.25 23:01",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is Trending Stock Booking Holdings Inc. (BKNG) a Buy Now?",
+          "url": "https://finance.yahoo.com/news/trending-stock-booking-holdings-inc-140003440.html?.tsrc=rss",
+          "date": "02.25 23:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "The 5 Most Interesting Analyst Questions From Booking’s Q4 Earnings Call",
+          "url": "https://finance.yahoo.com/news/5-most-interesting-analyst-questions-102635039.html?.tsrc=rss",
+          "date": "02.25 19:26",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Should Booking’s Stock Split, Dividend and New Revenue Streams Reframe How BKNG Investors View Its Cash Engine?",
+          "url": "https://finance.yahoo.com/news/booking-stock-split-dividend-revenue-081253167.html?.tsrc=rss",
+          "date": "02.25 17:12",
           "source": "Yahoo Finance",
           "has_name": true
         }
       ],
       "related_stocks": [
         {
-          "name": "[반도체] AMD",
-          "change_rate": "+8.8%"
+          "name": "[Retail] Airbnb",
+          "change_rate": "+2.2%"
         },
         {
-          "name": "[AI반도체] 엔비디아",
-          "change_rate": "+0.7%"
-        },
-        {
-          "name": "[반도체] TSMC",
-          "change_rate": "+4.2%"
-        },
-        {
-          "name": "[경쟁사] 시스코",
-          "change_rate": "+0.5%"
+          "name": "[Retail] Marriott",
+          "change_rate": "+0.2%"
         }
       ],
-      "timestamp": "2026-02-26 04:17:29"
+      "timestamp": "2026-02-26 04:57:07"
     },
     {
-      "id": "sig_20260225_US_003",
-      "theme": "#반도체",
+      "id": "sig_20260225_US_008",
+      "theme": "#Foundry",
       "signal_type": "이슈",
       "short_reason": "TSMC, Overseas",
       "summary": "오늘 TSMC 주가는 TSMC Overseas Build Out Reshapes AI Supply Chain And Valuation Debate 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
@@ -359,6 +740,13 @@
           "has_name": true
         },
         {
+          "title": "Nvidia Rallies 2% Ahead Of AI Giant's Report (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/c43fa37f-0aa8-3b64-bc3d-490061ab6c19/nvidia-rallies-2%25-ahead-of-ai.html?.tsrc=rss",
+          "date": "02.26 04:21",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Global Money Makes 20-Year Taiwan Bet",
           "url": "https://finance.yahoo.com/news/global-money-makes-20-taiwan-190049744.html?.tsrc=rss",
           "date": "02.26 04:00",
@@ -366,16 +754,16 @@
           "has_name": true
         },
         {
-          "title": "Why Taiwan Semiconductor Expects More Good Times in 2026",
-          "url": "https://www.fool.com/investing/2026/02/25/why-taiwan-semiconductor-expects-more-good-times-i/?.tsrc=rss",
-          "date": "02.26 02:29",
+          "title": "TSMC Raises Dividend 28% While 38% Revenue Growth Reframes the Geopolitical Risk",
+          "url": "https://247wallst.com/investing/2026/02/25/tsmc-raises-dividend-28-while-38-revenue-growth-reframes-the-geopolitical-risk/?.tsrc=rss",
+          "date": "02.26 03:33",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Nvidia Rallies 2% Ahead Of AI Giant's Report (Live Coverage)",
-          "url": "https://finance.yahoo.com/m/c43fa37f-0aa8-3b64-bc3d-490061ab6c19/nvidia-rallies-2%25-ahead-of-ai.html?.tsrc=rss",
-          "date": "02.26 01:46",
+          "title": "Why Taiwan Semiconductor Expects More Good Times in 2026",
+          "url": "https://www.fool.com/investing/2026/02/25/why-taiwan-semiconductor-expects-more-good-times-i/?.tsrc=rss",
+          "date": "02.26 02:29",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -417,37 +805,45 @@
       ],
       "related_stocks": [
         {
-          "name": "[AI반도체] 엔비디아",
+          "name": "[Semiconductors] Intel",
+          "change_rate": "+5.7%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
           "change_rate": "+0.7%"
         },
         {
-          "name": "[반도체] AMD",
+          "name": "[Semiconductors] AMD",
           "change_rate": "+8.8%"
         },
         {
-          "name": "[경쟁사] 인텔",
-          "change_rate": "+5.7%"
+          "name": "[Semiconductor Equipment] ASML",
+          "change_rate": "+0.8%"
+        },
+        {
+          "name": "[Semiconductor Equipment] Applied Materials",
+          "change_rate": "+1.2%"
         }
       ],
-      "timestamp": "2026-02-26 04:17:29"
+      "timestamp": "2026-02-26 04:57:07"
     },
     {
-      "id": "sig_20260225_US_004",
-      "theme": "",
+      "id": "sig_20260225_US_009",
+      "theme": "#SaaS",
       "signal_type": "이슈",
-      "short_reason": "AI, Stocks",
-      "summary": "세일즈포스은(는) AI Stocks At Crossroads As Nvidia, Snowflake, CoreWeave, Salesforce Step Into Spotlight 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Salesforce, Earnings",
+      "summary": "오늘 Salesforce 주가는 Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
-        "name": "세일즈포스",
+        "name": "Salesforce",
         "symbol": "CRM",
         "change_rate": "+4.1%",
         "news_url": "https://finance.yahoo.com/quote/CRM"
       },
       "news_articles": [
         {
-          "title": "AI Stocks At Crossroads As Nvidia, Snowflake, CoreWeave, Salesforce Step Into Spotlight",
-          "url": "https://finance.yahoo.com/m/dfce46f1-9661-3cb0-951a-90da2c45fff9/ai-stocks-at-crossroads-as.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 15:07:06 +0000",
+          "title": "Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI",
+          "url": "https://finance.yahoo.com/news/salesforce-earnings-due-today-wall-132153355.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:21:53 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -483,6 +879,13 @@
           "title": "5 industries that have gotten rocked by the AI 'scare trade' defining markets this year",
           "url": "https://finance.yahoo.com/news/5-industries-that-have-gotten-rocked-by-the-ai-scare-trade-defining-markets-this-year-164746958.html?.tsrc=rss",
           "date": "02.26 02:33",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "AI Stocks At Crossroads As Nvidia, Snowflake, CoreWeave, Salesforce Step Into Spotlight",
+          "url": "https://finance.yahoo.com/m/dfce46f1-9661-3cb0-951a-90da2c45fff9/ai-stocks-at-crossroads-as.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 15:07:06 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -529,13 +932,6 @@
           "has_name": true
         },
         {
-          "title": "Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI",
-          "url": "https://finance.yahoo.com/news/salesforce-earnings-due-today-wall-132153355.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:21:53 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
           "title": "AssetView Launches Privacy-First Personal Investment Dashboard with Advisor-Grade Analytics and Optional AI Portfolio Insights",
           "url": "https://finance.yahoo.com/news/assetview-launches-privacy-first-personal-141800783.html?.tsrc=rss",
           "date": "Wed, 25 Feb 2026 14:18:00 +0000",
@@ -566,740 +962,88 @@
       ],
       "related_stocks": [
         {
-          "name": "[경쟁사] 오라클",
+          "name": "[Software] Microsoft",
+          "change_rate": "+1.2%"
+        },
+        {
+          "name": "[Database] Oracle",
           "change_rate": "+3.4%"
         },
         {
-          "name": "[빅테크] 마이크로소프트",
-          "change_rate": "+1.2%"
+          "name": "[SaaS] ServiceNow",
+          "change_rate": "+1.7%"
         },
         {
-          "name": "[빅테크] 알파벳",
-          "change_rate": "-0.2%"
+          "name": "[Software] Adobe",
+          "change_rate": "+3.4%"
         }
       ],
-      "timestamp": "2026-02-26 04:17:29"
-    },
-    {
-      "id": "sig_20260225_US_005",
-      "theme": "",
-      "signal_type": "이슈",
-      "short_reason": "Is, Oracle",
-      "summary": "오늘 오라클 주가는 Is Oracle Stock a Millionaire Maker? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
-      "main_stock": {
-        "name": "오라클",
-        "symbol": "ORCL",
-        "change_rate": "+3.4%",
-        "news_url": "https://finance.yahoo.com/quote/ORCL"
-      },
-      "news_articles": [
-        {
-          "title": "Is Oracle Stock a Millionaire Maker?",
-          "url": "https://www.fool.com/investing/2026/02/25/oracle-stock-millionaire-maker-buy-dip/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 12:25:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Buy Oracle Stock, Analyst Says. Here’s Why.",
-          "url": "https://finance.yahoo.com/m/9289ce00-bbac-37ae-968c-3c703ed6441b/buy-oracle-stock%2C-analyst.html?.tsrc=rss",
-          "date": "02.26 03:29",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "US Equity Indexes Rise Ahead of AI Bellwether Nvidia's Results",
-          "url": "https://finance.yahoo.com/news/us-equity-indexes-rise-ahead-182812050.html?.tsrc=rss",
-          "date": "02.26 03:28",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oracle Stock Jumps on Top Analyst Ugrade -- Oppenheimer Sees $185 Target",
-          "url": "https://finance.yahoo.com/news/oracle-stock-jumps-top-analyst-182523578.html?.tsrc=rss",
-          "date": "02.26 03:25",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oracle Upgraded to Buy at Oppenheimer After Selloff",
-          "url": "https://finance.yahoo.com/news/oracle-upgraded-buy-oppenheimer-selloff-175248722.html?.tsrc=rss",
-          "date": "02.26 02:52",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oracle's Projected Earnings Growth Likely to Drive Positive Sentiment Shift, Oppenheimer Says",
-          "url": "https://finance.yahoo.com/news/oracle-apos-projected-earnings-growth-173340905.html?.tsrc=rss",
-          "date": "02.26 02:33",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oracle upgraded, Workday downgraded: Wall Street's top analyst calls",
-          "url": "https://finance.yahoo.com/news/oracle-upgraded-workday-downgraded-wall-143205044.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:32:05 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Workday Earnings Beat Estimates. Why the Stock Is Tanking.",
-          "url": "https://finance.yahoo.com/m/c7c6d6c0-c095-3e95-bdbc-f79d1181a303/workday-earnings-beat.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:04:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oracle Stock Upgraded To Buy As Analyst Sees Upside Following Sell Off",
-          "url": "https://finance.yahoo.com/m/9698e775-929b-331e-bd06-a834f95ef633/oracle-stock-upgraded-to-buy.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:50:37 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Today's Stock Market: S&P 500 Gains, Nasdaq Surges 1% as Tech Leads Market Bounce",
-          "url": "https://finance.yahoo.com/news/todays-stock-market-p-500-165551891.html?.tsrc=rss",
-          "date": "02.26 01:55",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oracle's Risk-Reward Attractive After Stock's Multiples Halved, Oppenheimer Says",
-          "url": "https://finance.yahoo.com/news/oracle-apos-risk-reward-attractive-164625868.html?.tsrc=rss",
-          "date": "02.26 01:46",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oracle Lawsuit Puts AI Infrastructure Spending And Disclosure Risks In Focus",
-          "url": "https://finance.yahoo.com/news/oracle-lawsuit-puts-ai-infrastructure-161255808.html?.tsrc=rss",
-          "date": "02.26 01:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "KleanNara Partners with Rimini Street to Accelerate Digital Transformation",
-          "url": "https://finance.yahoo.com/news/kleannara-partners-rimini-street-accelerate-140000638.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:00:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Workday Stock Slumps. Why Its Strong Earnings Won’t Ease the Market’s Software Fears.",
-          "url": "https://finance.yahoo.com/m/c7c6d6c0-c095-3e95-bdbc-f79d1181a303/workday-stock-slumps.-why-its.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 11:42:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oracle’s AI Pain May Be Over. Buy the Stock, Analysts Say.",
-          "url": "https://finance.yahoo.com/m/9289ce00-bbac-37ae-968c-3c703ed6441b/oracle%E2%80%99s-ai-pain-may-be-over..html?.tsrc=rss",
-          "date": "02.26 01:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "HSBC defends enterprise software with valuations at ‘historic lows’",
-          "url": "https://finance.yahoo.com/news/hsbc-defends-enterprise-software-valuations-152559808.html?.tsrc=rss",
-          "date": "02.26 00:25",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oracle lifted to Buy at Oppenheimer as risk-reward turns favorable post-selloff",
-          "url": "https://finance.yahoo.com/news/oracle-lifted-buy-oppenheimer-risk-134259618.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:42:59 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Here Are Wednesday’s Top Wall Street Analyst Research Calls: AbbVie, Angel Studios, First Solar, IBM, Kroger, Molson Coors, Oracle, Workday, and More",
-          "url": "https://247wallst.com/investing/2026/02/25/here-are-wednesdays-top-wall-street-analyst-research-calls-abbvie-angel-studios-first-solar-ibm-kroger-molson-coors-oracle-workday-and-more/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 12:57:47 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "The Stock Market Wants an Earnings Blowout From Nvidia. It Could Make Things Worse.",
-          "url": "https://finance.yahoo.com/m/7c8695bc-28b7-3acb-9dd8-d873d6bfd24e/the-stock-market-wants-an.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 15:07:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[빅테크] 마이크로소프트",
-          "change_rate": "+1.2%"
-        },
-        {
-          "name": "[경쟁사] 세일즈포스",
-          "change_rate": "+4.1%"
-        },
-        {
-          "name": "[경쟁사] 시스코",
-          "change_rate": "+0.5%"
-        },
-        {
-          "name": "[경쟁사] 인텔",
-          "change_rate": "+5.7%"
-        }
-      ],
-      "timestamp": "2026-02-26 04:17:29"
-    },
-    {
-      "id": "sig_20260225_US_006",
-      "theme": "#헬스케어",
-      "signal_type": "이슈",
-      "short_reason": "UnitedHealth, Group",
-      "summary": "유나이티드헬스은(는) UnitedHealth Group (UNH) Dips More Than Broader Market: What You Should Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
-      "main_stock": {
-        "name": "유나이티드헬스",
-        "symbol": "UNH",
-        "change_rate": "-3.0%",
-        "news_url": "https://finance.yahoo.com/quote/UNH"
-      },
-      "news_articles": [
-        {
-          "title": "UnitedHealth Group (UNH) Dips More Than Broader Market: What You Should Know",
-          "url": "https://finance.yahoo.com/news/unitedhealth-group-unh-dips-more-224503994.html?.tsrc=rss",
-          "date": "02.24 07:45",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Acadia Healthcare Q4 Earnings Beat Estimates on Rising Admissions",
-          "url": "https://finance.yahoo.com/news/acadia-healthcare-q4-earnings-beat-171400370.html?.tsrc=rss",
-          "date": "02.26 02:14",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "UnitedHealth Group Board Authorizes Payment of Quarterly Dividend",
-          "url": "https://finance.yahoo.com/news/unitedhealth-group-board-authorizes-payment-115000793.html?.tsrc=rss",
-          "date": "02.25 20:50",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is UnitedHealth Stock Underperforming the Dow?",
-          "url": "https://www.barchart.com/story/news/390889/is-unitedhealth-stock-underperforming-the-dow?.tsrc=rss",
-          "date": "02.25 00:06",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "UnitedHealthcare Under Pressure: Can UNH's Core Business Rebound?",
-          "url": "https://finance.yahoo.com/news/unitedhealthcare-under-pressure-unhs-core-134500574.html?.tsrc=rss",
-          "date": "02.24 22:45",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "A Look At UnitedHealth Group’s Valuation After Prolonged Share Price Weakness",
-          "url": "https://finance.yahoo.com/news/look-unitedhealth-group-valuation-prolonged-021222390.html?.tsrc=rss",
-          "date": "02.24 11:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[경쟁사] 존슨앤존슨",
-          "change_rate": "+0.2%"
-        },
-        {
-          "name": "[경쟁사] 화이자",
-          "change_rate": "+0.3%"
-        },
-        {
-          "name": "[바이오] 일라이릴리",
-          "change_rate": "-1.6%"
-        }
-      ],
-      "timestamp": "2026-02-26 04:17:29"
-    },
-    {
-      "id": "sig_20260225_US_007",
-      "theme": "",
-      "signal_type": "이슈",
-      "short_reason": "Nasdaq, 100",
-      "summary": "넷플릭스은(는) 2 Nasdaq 100 Stocks Worth Your Attention and 1 We Question 소식이 전해지며 매수세가 강화되었습니다.",
-      "main_stock": {
-        "name": "넷플릭스",
-        "symbol": "NFLX",
-        "change_rate": "+2.7%",
-        "news_url": "https://finance.yahoo.com/quote/NFLX"
-      },
-      "news_articles": [
-        {
-          "title": "2 Nasdaq 100 Stocks Worth Your Attention and 1 We Question",
-          "url": "https://finance.yahoo.com/news/2-nasdaq-100-stocks-worth-121135536.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 12:11:35 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Co-CEO Sarandos to visit White House to discuss Warner Bros bid, Politico reports",
-          "url": "https://finance.yahoo.com/news/netflix-co-ceo-sarandos-visit-190519943.html?.tsrc=rss",
-          "date": "02.26 04:05",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Paramount Skydance's Higher Bid for Warner Bros. Has Netflix Shareholders Cheering. Here's Why.",
-          "url": "https://www.fool.com/investing/2026/02/25/paramount-skydances-higher-bid-for-warner-bros-has/?.tsrc=rss",
-          "date": "02.26 03:49",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Stock Gains. The Market Is Betting It Loses Warner to Paramount",
-          "url": "https://finance.yahoo.com/m/796105cf-e6e3-3c56-bb42-995d6f44b565/netflix-stock-gains.-the.html?.tsrc=rss",
-          "date": "02.26 03:15",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Paramount Skydance Just Raised its Bid for Warner Bros. -- Is the Netflix Deal Dead?",
-          "url": "https://www.fool.com/investing/2026/02/25/paramount-skydance-just-raised-its-bid-for-warner/?.tsrc=rss",
-          "date": "02.26 02:16",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix CFO to Participate in a Q&A session at the Morgan Stanley Technology, Media & Telecom Conference",
-          "url": "https://finance.yahoo.com/news/netflix-cfo-participate-q-session-170000248.html?.tsrc=rss",
-          "date": "02.26 02:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Market AI Fears Ease. Nvidia, DeepSeek, Anthropic Could Reignite the Panic.",
-          "url": "https://finance.yahoo.com/m/25d6374c-a622-326e-947f-77faff9fb8c8/market-ai-fears-ease.-nvidia%2C.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 11:26:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid",
-          "url": "https://finance.yahoo.com/m/fccf14b2-e44f-3495-8594-69dcb55850c8/netflix-stock-has-best-day-in.html?.tsrc=rss",
-          "date": "02.26 01:44",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Eleven US states urge DOJ to thoroughly probe Netflix-Warner Bros. deal",
-          "url": "https://ca.finance.yahoo.com/news/11-us-states-urge-doj-161504964.html?.tsrc=rss",
-          "date": "02.26 01:28",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Stocks to Watch Wednesday: HP, Lowe’s, TJX, Netflix",
-          "url": "https://finance.yahoo.com/m/380aafdf-cd80-3e9e-beed-c5f4044689dc/stocks-to-watch-wednesday%3A.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 15:16:21 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’",
-          "url": "https://finance.yahoo.com/m/88b36006-60b3-364e-a904-a8b0b480c5e1/netflix%E2%80%99s-warner-deal-may-be.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 15:01:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Paramount Skydance to Report Earnings Amid Merger Fight",
-          "url": "https://finance.yahoo.com/m/0b135bdb-2b2f-3e26-8b7f-5341d650dece/paramount-skydance-to-report.html?.tsrc=rss",
-          "date": "02.26 01:27",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner Bros. Says $31-Per-Share Paramount Bid May Surpass Netflix Deal",
-          "url": "https://finance.yahoo.com/news/warner-bros-says-31-per-121247314.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 12:12:47 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Stock Is the Cheapest It Has Been in 3 Years Following Its 41% Plunge -- But Is It a Buy?",
-          "url": "https://www.fool.com/investing/2026/02/25/netflix-stock-cheapest-been-3-years-41-plunge-buy/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 11:14:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[경쟁사] 디즈니",
-          "change_rate": "+1.6%"
-        },
-        {
-          "name": "[빅테크] 애플",
-          "change_rate": "+2.2%"
-        },
-        {
-          "name": "[빅테크] 아마존",
-          "change_rate": "+1.6%"
-        },
-        {
-          "name": "[빅테크] 알파벳",
-          "change_rate": "-0.2%"
-        }
-      ],
-      "timestamp": "2026-02-26 04:17:29"
-    },
-    {
-      "id": "sig_20260225_US_008",
-      "theme": "#전기차",
-      "signal_type": "이슈",
-      "short_reason": "Prediction:, Rivian",
-      "summary": "테슬라은(는) Prediction: Rivian Stock Is a Buy Before 2027 소식이 전해지며 매수세가 강화되었습니다.",
-      "main_stock": {
-        "name": "테슬라",
-        "symbol": "TSLA",
-        "change_rate": "+2.4%",
-        "news_url": "https://finance.yahoo.com/quote/TSLA"
-      },
-      "news_articles": [
-        {
-          "title": "Prediction: Rivian Stock Is a Buy Before 2027",
-          "url": "https://www.fool.com/investing/2026/02/25/prediction-rivian-stock-is-a-buy-before-2027/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:20:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Tesla European sales, Lucid Q4 earnings, Lamborghini: EV latest",
-          "url": "https://finance.yahoo.com/video/tesla-european-sales-lucid-q4-182110884.html?.tsrc=rss",
-          "date": "02.26 03:21",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "The Tesla Robot Opportunity Is a ‘Delusion.’ The Stock Rises Anyway.",
-          "url": "https://finance.yahoo.com/m/0ab0a309-9fde-3530-9193-94c7f6f32a43/the-tesla-robot-opportunity.html?.tsrc=rss",
-          "date": "02.26 00:42",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Trump Trade: FedEx files suit to recoup tariff duties",
-          "url": "https://finance.yahoo.com/news/trump-trade-fedex-files-suit-151022986.html?.tsrc=rss",
-          "date": "02.26 00:10",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Elon Musk Says Aging Can Be 'Fixed' Once You Find The Hidden Clock — But 'The Real Question is Whether It Should Be'",
-          "url": "https://finance.yahoo.com/news/elon-musk-says-aging-fixed-150054285.html?.tsrc=rss",
-          "date": "02.26 00:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Nvidia Earnings Slam Into Market With No Patience for AI Hiccups",
-          "url": "https://finance.yahoo.com/news/nvidia-earnings-slam-market-no-150001431.html?.tsrc=rss",
-          "date": "02.26 00:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Update: Tesla Reportedly Sues California DMV to Reverse FSD Advertising-Related Ruling",
-          "url": "https://finance.yahoo.com/news/tesla-reportedly-sues-california-dmv-120952664.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 12:09:52 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Teetering US tech trade puts anchor on market as Nvidia test looms",
-          "url": "https://finance.yahoo.com/news/teetering-us-tech-trade-puts-110201090.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 11:02:01 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Nasdaq lead gains as tech stocks resurgent ahead of Nvidia and Salesforce earnings",
-          "url": "https://www.proactiveinvestors.com/companies/news/1087910/nasdaq-tipped-to-lead-gains-ahead-of-nvidia-and-salesforce-earnings-1087910.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:55:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Michael Burry Says Palantir Is Worth $46. The Stock Trades at $130. Who’s Right?",
-          "url": "https://247wallst.com/investing/2026/02/25/michael-burry-says-palantir-is-worth-46-the-stock-trades-at-130-whos-right/?.tsrc=rss",
-          "date": "02.25 23:27",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Tesla Stock Wobbles. This Analyst Calls the Robot Opportunity a ‘Delusion.’",
-          "url": "https://finance.yahoo.com/m/0ab0a309-9fde-3530-9193-94c7f6f32a43/tesla-stock-wobbles.-this.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:52:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Has Tesla's 'iPhone Moment' Arrived?",
-          "url": "https://www.fool.com/investing/2026/02/25/has-teslas-iphone-moment-arrived/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 10:35:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [],
-      "timestamp": "2026-02-26 04:17:29"
-    },
-    {
-      "id": "sig_20260225_US_009",
-      "theme": "#빅테크",
-      "signal_type": "이슈",
-      "short_reason": "Nvidia, Earnings",
-      "summary": "애플은(는) Nvidia Earnings Slam Into Market With No Patience for AI Hiccups 소식이 전해지며 매수세가 강화되었습니다.",
-      "main_stock": {
-        "name": "애플",
-        "symbol": "AAPL",
-        "change_rate": "+2.2%",
-        "news_url": "https://finance.yahoo.com/quote/AAPL"
-      },
-      "news_articles": [
-        {
-          "title": "Nvidia Earnings Slam Into Market With No Patience for AI Hiccups",
-          "url": "https://finance.yahoo.com/news/nvidia-earnings-slam-market-no-150001431.html?.tsrc=rss",
-          "date": "02.26 00:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Global Money Makes 20-Year Taiwan Bet",
-          "url": "https://finance.yahoo.com/news/global-money-makes-20-taiwan-190049744.html?.tsrc=rss",
-          "date": "02.26 04:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Why the Nasdaq Is Beating the Dow and S&P 500 Today",
-          "url": "https://www.fool.com/investing/2026/02/25/why-the-nasdaq-is-beating-the-dow-and-sp-500-today/?.tsrc=rss",
-          "date": "02.26 03:59",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Samsung unveils Galaxy S26; lifts prices in key markets amid chip price surge",
-          "url": "https://finance.yahoo.com/news/samsung-unveils-galaxy-s26-lifts-180159906.html?.tsrc=rss",
-          "date": "02.26 03:01",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Samsung's new Galaxy S26 smartphone lineup goes big on AI as Apple works to catch up",
-          "url": "https://finance.yahoo.com/news/samsungs-new-galaxy-s26-smartphone-lineup-goes-big-on-ai-as-apple-works-to-catch-up-180029904.html?.tsrc=rss",
-          "date": "02.26 03:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Apple Investors Reject China Supply Chain Proposal",
-          "url": "https://finance.yahoo.com/news/apple-investors-reject-china-supply-171023659.html?.tsrc=rss",
-          "date": "02.26 02:10",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "RiverFront Sells 1.2 Million Shares of iShares MSCI Europe Financials ETF",
-          "url": "https://www.fool.com/coverage/filings/2026/02/25/riverfront-sells-1-2-million-shares-ishares-msci-europe-financials-etf/?.tsrc=rss",
-          "date": "02.25 23:16",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "What I Saw Inside Apple’s Effort to Rebuild the U.S. Chip Supply Chain",
-          "url": "https://finance.yahoo.com/m/ac6a625c-33e1-3fe5-afe6-09d8407ba41b/what-i-saw-inside-apple%E2%80%99s.html?.tsrc=rss",
-          "date": "02.26 02:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "As Demand for Human Connection Increases, RWS Global Chooses Box to Power AI-Ready Content for Live Experiences",
-          "url": "https://finance.yahoo.com/news/demand-human-connection-increases-rws-160000689.html?.tsrc=rss",
-          "date": "02.26 01:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "MSPs and Enterprise IT Leaders Accelerate Adoption of Addigy to Secure Apple Fleets at Scale",
-          "url": "https://finance.yahoo.com/news/msps-enterprise-leaders-accelerate-adoption-140500228.html?.tsrc=rss",
-          "date": "02.25 23:05",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Maxio Adds Apple Pay to Accelerate Cash Collection for B2B SaaS and AI Companies",
-          "url": "https://finance.yahoo.com/news/maxio-adds-apple-pay-accelerate-140500275.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:05:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Samsung's new Galaxy S27 smartphone line up goes big on AI as Apple works to catch up",
-          "url": "https://finance.yahoo.com/news/samsungs-new-galaxy-s27-smartphone-line-up-goes-big-on-ai-as-apple-works-to-catch-up-180029639.html?.tsrc=rss",
-          "date": "02.26 03:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Spain Ramps Up Pressure on Apple, Amazon in Yearslong Antitrust Case",
-          "url": "https://finance.yahoo.com/m/79195dca-1481-3a58-9942-67d21d0e6744/spain-ramps-up-pressure-on.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:48:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Analysts say Apple is an AI 'survivor.' Here's why.",
-          "url": "https://finance.yahoo.com/video/analysts-apple-ai-survivor-heres-155850224.html?.tsrc=rss",
-          "date": "02.26 00:58",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Amazon Shares Crash This Year",
-          "url": "https://247wallst.com/technology-3/2026/02/25/amazon-shares-crash-this-year/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:23:01 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[빅테크] 마이크로소프트",
-          "change_rate": "+1.2%"
-        },
-        {
-          "name": "[빅테크] 알파벳",
-          "change_rate": "-0.2%"
-        },
-        {
-          "name": "[빅테크] 아마존",
-          "change_rate": "+1.6%"
-        },
-        {
-          "name": "[빅테크] 메타",
-          "change_rate": "+0.3%"
-        }
-      ],
-      "timestamp": "2026-02-26 04:17:29"
+      "timestamp": "2026-02-26 04:57:07"
     },
     {
       "id": "sig_20260225_US_010",
-      "theme": "",
+      "theme": "#IP",
       "signal_type": "이슈",
-      "short_reason": "Lowe’s, Earnings",
-      "summary": "오늘 홈디포 주가는 Lowe’s Earnings Beat Expectations. Why the Stock Is Dropping. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "ARM, vs.",
+      "summary": "오늘 ARM 주가는 ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
-        "name": "홈디포",
-        "symbol": "HD",
-        "change_rate": "+2.0%",
-        "news_url": "https://finance.yahoo.com/quote/HD"
+        "name": "ARM",
+        "symbol": "ARM",
+        "change_rate": "+3.5%",
+        "news_url": "https://finance.yahoo.com/quote/ARM"
       },
       "news_articles": [
         {
-          "title": "Lowe’s Earnings Beat Expectations. Why the Stock Is Dropping.",
-          "url": "https://finance.yahoo.com/m/d1348d4c-1774-3a28-8b47-ea174f2aaa11/lowe%E2%80%99s-earnings-beat.html?.tsrc=rss",
-          "date": "02.25 23:48",
+          "title": "ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now?",
+          "url": "https://finance.yahoo.com/news/arm-vs-app-ai-exposed-133000213.html?.tsrc=rss",
+          "date": "02.25 22:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Housing Stocks Hit Hard by Gloomy Outlooks, Trump’s Snub",
-          "url": "https://finance.yahoo.com/news/housing-stocks-hit-hard-gloomy-174005784.html?.tsrc=rss",
-          "date": "02.26 02:40",
+          "title": "Bank of America drops a surprising Nvidia warning before earnings",
+          "url": "https://www.thestreet.com/investing/bank-of-america-drops-a-surprising-nvidia-warning-before-earnings?.tsrc=rss",
+          "date": "02.26 03:33",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "How To Earn $500 A Month From Home Depot Stock Ahead Of Q4 Earnings",
-          "url": "https://finance.yahoo.com/news/earn-500-month-home-depot-163103809.html?.tsrc=rss",
-          "date": "02.26 01:31",
+          "title": "Amazon Just Delivered Great News for This Top AI Stock",
+          "url": "https://www.fool.com/investing/2026/02/25/amazon-just-delivered-great-news-for-this-top-ai-s/?.tsrc=rss",
+          "date": "02.25 16:50",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Home Builder Stocks Slide as Lowe’s, Home Depot Give Cautious Outlook. That’s a Bad Omen for the Spring Season",
-          "url": "https://finance.yahoo.com/m/977f923d-bd27-3fc4-918d-92a433e500df/home-builder-stocks-slide-as.html?.tsrc=rss",
-          "date": "02.26 01:15",
+          "title": "Nvidia Just Sold Its Stake in Applied Digital and Arm Holdings and Piled Into a New Artificial Intelligence GPU Player Up Over 7,200% Since Its IPO",
+          "url": "https://www.fool.com/investing/2026/02/24/nvidia-sold-stake-applied-digital-arm-ai-gpu/?.tsrc=rss",
+          "date": "02.25 05:40",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Lowe's Slips as Company Offers Mixed Guidance Despite Double-Beat Report",
-          "url": "https://finance.yahoo.com/news/lowes-slips-company-offers-mixed-155400290.html?.tsrc=rss",
-          "date": "02.26 00:54",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Lowe’s Says Homeowners Remain Reluctant to Remodel",
-          "url": "https://finance.yahoo.com/m/5de7fd26-f95c-3a22-9d67-c12bee93531a/lowe%E2%80%99s-says-homeowners-remain.html?.tsrc=rss",
-          "date": "02.26 00:48",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "A Look At Home Depot’s (HD) Valuation After Resilient Q4 Earnings And 2026 Outlook",
-          "url": "https://finance.yahoo.com/news/look-home-depot-hd-valuation-131102257.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:11:02 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Company News for Feb 25, 2026",
-          "url": "https://finance.yahoo.com/news/company-news-feb-25-2026-130400672.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:04:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Home Depot sees mixed Q4 results amid steady housing demand",
-          "url": "https://finance.yahoo.com/video/home-depot-tops-q4-estimates-140505910.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:05:05 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Lowe’s Stock Drops After Earnings Beat. Why Guidance Is a Big Worry.",
-          "url": "https://finance.yahoo.com/m/d1348d4c-1774-3a28-8b47-ea174f2aaa11/lowe%E2%80%99s-stock-drops-after.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:10:00 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Earnings live: Circle stock soars, First Solar and Lowe's fall on guidance misses",
-          "url": "https://finance.yahoo.com/news/live/earnings-live-circle-stock-soars-first-solar-and-lowes-fall-on-guidance-misses-133211905.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:32:11 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Home Depot reports weaker Q4 profit, lifts dividend",
-          "url": "https://www.retail-insight-network.com/news/home-depot-weaker-q4-profit/?.tsrc=rss",
-          "date": "02.25 23:56",
+          "title": "AI Stocks Jump as AMD Ignites New AI Spending Wave",
+          "url": "https://finance.yahoo.com/news/ai-stocks-jump-amd-ignites-194941039.html?.tsrc=rss",
+          "date": "02.25 04:49",
           "source": "Yahoo Finance",
           "has_name": true
         }
       ],
       "related_stocks": [
         {
-          "name": "[경쟁사] 월마트",
+          "name": "[Semiconductors] NVIDIA",
           "change_rate": "+0.7%"
         },
         {
-          "name": "[경쟁사] 코스트코",
-          "change_rate": "+1.3%"
+          "name": "[Semiconductors] AMD",
+          "change_rate": "+8.8%"
+        },
+        {
+          "name": "[Semiconductors] Qualcomm",
+          "change_rate": "+3.1%"
         }
       ],
-      "timestamp": "2026-02-26 04:17:29"
+      "timestamp": "2026-02-26 04:57:07"
     }
   ]
 }
