@@ -44,21 +44,22 @@ st.markdown("""
         background-color: white;
         z-index: 1000;
         border-bottom: 1px solid #e5e7eb;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
     }
     
     .top-bar {
-        height: 65px;
+        height: 55px;
         padding: 0 25px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border-bottom: 1px solid #f3f4f6;
     }
     
     .nav-bar {
-        height: 50px;
-        border-top: 1px solid #f3f4f6;
+        height: 45px;
         padding: 0 25px;
+        display: flex;
+        align-items: center;
     }
 
     /* Modal / Alert Overlay */
@@ -108,7 +109,7 @@ st.markdown("""
     
     /* Custom spacing for fixed header */
     .fixed-header-spacer {
-        height: 150px;
+        height: 100px;
     }
     
     /* Button Styling */
@@ -117,19 +118,29 @@ st.markdown("""
         font-weight: 600 !important;
     }
     
-    /* Nav Tab Styling */
+    /* Nav Tab Styling - Streamlit button overrides */
+    .nav-bar div[data-testid="stVerticalBlock"] > div {
+        margin-top: -10px;
+    }
     .nav-btn > div > button {
         border: none !important;
         background-color: transparent !important;
         border-radius: 0 !important;
         border-bottom: 3px solid transparent !important;
         color: #6b7280 !important;
-        height: 50px !important;
-        font-size: 1rem !important;
+        height: 45px !important;
+        font-size: 0.95rem !important;
+        padding: 0 15px !important;
+        transition: all 0.2s ease !important;
     }
     .nav-btn-active > div > button {
         border-bottom: 3px solid #0070f3 !important;
         color: #0070f3 !important;
+        background-color: rgba(0, 112, 243, 0.05) !important;
+    }
+    .nav-btn > div > button:hover {
+        color: #111 !important;
+        background-color: #f9fafb !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -200,7 +211,7 @@ def render_overlay_modals():
         
         _, col_btn, _ = st.columns([1.2, 1, 1.2])
         with col_btn:
-            if st.button("확인", key="close_alert_btn", use_container_width=True, type="primary"):
+            if st.button("확인", key="close_alert_btn"):
                 st.session_state["show_alert"] = False
                 st.rerun()
 
@@ -221,7 +232,7 @@ def render_overlay_modals():
             st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
             col_l1, col_l2 = st.columns(2)
             with col_l1:
-                if st.button("로그인", use_container_width=True, type="primary"):
+                if st.button("로그인", use_container_width=True):
                     if pwd_input == ADMIN_PASSWORD:
                         st.session_state["admin_logged_in"] = True
                         st.session_state["login_time"] = datetime.datetime.now()
@@ -264,16 +275,13 @@ def render_user_view():
             
     st.markdown("---")
 
-    st.markdown('<div class="content-card">', unsafe_allow_html=True)
     if not data:
         st.info(f"{date_str}의 시그널 데이터가 아직 없습니다.")
-        st.markdown('</div>', unsafe_allow_html=True)
         return
 
     signals = data.get("signals", [])
     if not signals:
         st.warning("수집된 시그널 정보가 없습니다.")
-        st.markdown('</div>', unsafe_allow_html=True)
         return
 
     # --- Render each signal as a horizontal row (Copy-pasted from original app.py) ---
@@ -420,8 +428,6 @@ def render_user_view():
                     st.markdown(f"• **{r_name}** {format_rate(r_rate)}")
 
         st.markdown("---")
-    st.markdown('</div>', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 
 
 def render_search_view():
@@ -511,9 +517,9 @@ def render_header_nav():
     # 1a. Top Bar (Logo & Auth)
     st.markdown("""
         <div class="top-bar">
-            <div style="display: flex; align-items: center; gap: 15px;">
-                <h2 style="margin:0; font-size: 1.6rem; color: #111;">📈 시그널</h2>
-                <span style="color: #6b7280; font-size: 0.95rem; margin-top: 4px; font-weight: 500;">실시간 AI 주식 분석</span>
+            <div style="display: flex; align-items: baseline; gap: 12px;">
+                <h2 style="margin:0; font-size: 1.4rem; color: #111;">📈 시그널</h2>
+                <span style="color: #6b7280; font-size: 0.85rem; font-weight: 500;">AI 주식 분석</span>
             </div>
             <div id="auth-section"></div>
         </div>
@@ -522,16 +528,16 @@ def render_header_nav():
     # Position Auth Buttons in the top-right
     auth_container = st.container()
     with auth_container:
-        _, col_auth = st.columns([8, 2])
+        _, col_auth = st.columns([8.2, 1.8])
         with col_auth:
-            # Shift up slightly to fit in the top-bar height
-            st.markdown("<div style='margin-top: -55px;'></div>", unsafe_allow_html=True)
+            # Shift up to fit in the 55px top-bar height
+            st.markdown("<div style='margin-top: -48px;'></div>", unsafe_allow_html=True)
             if not st.session_state["admin_logged_in"]:
-                if st.button("🔑 로그인", key="header_login_btn", use_container_width=True):
+                if st.button("🔑 로그인", key="header_login_btn"):
                     st.session_state["show_login_modal"] = True
                     st.rerun()
             else:
-                if st.button("👤 로그아웃", key="header_logout_btn", use_container_width=True):
+                if st.button("👤 로그아웃", key="header_logout_btn"):
                     st.session_state["admin_logged_in"] = False
                     st.session_state["current_view"] = "주식 시그널"
                     st.session_state["alert_message"] = "로그아웃되었습니다."
@@ -552,7 +558,7 @@ def render_header_nav():
             is_active = (current_opt == option)
             btn_class = "nav-btn-active" if is_active else "nav-btn"
             st.markdown(f'<div class="{btn_class}">', unsafe_allow_html=True)
-            if st.button(option, key=f"nav_{option}", use_container_width=True):
+            if st.button(option, key=f"nav_{option}"):
                 st.session_state["current_view"] = option
                 st.rerun()
             st.markdown('</div>', unsafe_allow_html=True)
