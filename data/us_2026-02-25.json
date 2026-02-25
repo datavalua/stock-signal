@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26 04:57:07",
+  "last_updated": "2026-02-26 05:42:32",
   "signals": [
     {
       "id": "sig_20260225_US_001",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "Dow, Jones",
-      "summary": "AMD은(는) Dow Jones Futures Rise After Trump Speech; Nvidia Earnings Loom 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Instinct, GPUs",
+      "summary": "오늘 AMD 주가는 Instinct GPUs Anchor AMD-META Deal: What's Ahead for AMD Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "AMD",
         "symbol": "AMD",
@@ -15,9 +15,23 @@
       },
       "news_articles": [
         {
-          "title": "Dow Jones Futures Rise After Trump Speech; Nvidia Earnings Loom",
-          "url": "https://finance.yahoo.com/m/bdeb1df7-ae4f-357c-a6ee-1963c3acdf10/dow-jones-futures-rise-after.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:13:09 +0000",
+          "title": "Instinct GPUs Anchor AMD-META Deal: What's Ahead for AMD Stock?",
+          "url": "https://finance.yahoo.com/news/instinct-gpus-anchor-amd-meta-143900728.html?.tsrc=rss",
+          "date": "02.25 23:39",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Exclusive-DeepSeek withholds latest AI model from US chipmakers including Nvidia, sources say",
+          "url": "https://finance.yahoo.com/news/exclusive-deepseek-withholds-latest-ai-203145413.html?.tsrc=rss",
+          "date": "02.26 05:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Meta-AMD AI deal boosts scale but extends high capex cycle, analysts say",
+          "url": "https://www.proactiveinvestors.com/companies/news/1087937/meta-amd-ai-deal-boosts-scale-but-extends-high-capex-cycle-analysts-say-1087937.html?.tsrc=rss",
+          "date": "02.26 05:07",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -39,6 +53,13 @@
           "title": "Meta AMD AI Chip Pact Ties Capacity Spending And Equity Exposure",
           "url": "https://finance.yahoo.com/news/meta-amd-ai-chip-pact-181528136.html?.tsrc=rss",
           "date": "02.26 03:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Dow Jones Futures Rise After Trump Speech; Nvidia Earnings Loom",
+          "url": "https://finance.yahoo.com/m/bdeb1df7-ae4f-357c-a6ee-1963c3acdf10/dow-jones-futures-rise-after.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:13:09 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -118,13 +139,6 @@
           "date": "Wed, 25 Feb 2026 13:04:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Instinct GPUs Anchor AMD-META Deal: What's Ahead for AMD Stock?",
-          "url": "https://finance.yahoo.com/news/instinct-gpus-anchor-amd-meta-143900728.html?.tsrc=rss",
-          "date": "02.25 23:39",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -149,14 +163,14 @@
           "change_rate": "+1.2%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     },
     {
       "id": "sig_20260225_US_002",
       "theme": "#Payments",
       "signal_type": "이슈",
       "short_reason": "PayPal, Surges",
-      "summary": "오늘 PayPal 주가는 PayPal Surges on Stripe Acquisition Interest 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "PayPal은(는) PayPal Surges on Stripe Acquisition Interest 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "PayPal",
         "symbol": "PYPL",
@@ -218,14 +232,14 @@
           "change_rate": "+1.1%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     },
     {
       "id": "sig_20260225_US_003",
       "theme": "#SMR",
       "signal_type": "이슈",
       "short_reason": "Battle, Royale:",
-      "summary": "NuScale Power은(는) Battle Royale: NuScale vs. Plug Power. Only One Can Make You Rich. 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 NuScale Power 주가는 Battle Royale: NuScale vs. Plug Power. Only One Can Make You Rich. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "NuScale Power",
         "symbol": "SMR",
@@ -237,6 +251,13 @@
           "title": "Battle Royale: NuScale vs. Plug Power. Only One Can Make You Rich.",
           "url": "https://www.fool.com/investing/2026/02/24/battle-royale-nuscale-vs-plug-power/?.tsrc=rss",
           "date": "02.25 07:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Should You Buy NuScale Power While It's Below $15?",
+          "url": "https://www.fool.com/investing/2026/02/25/should-you-buy-nuscale-while-its-below-15/?.tsrc=rss",
+          "date": "02.26 05:05",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -287,7 +308,7 @@
           "change_rate": "+6.4%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     },
     {
       "id": "sig_20260225_US_004",
@@ -360,7 +381,7 @@
           "change_rate": "+2.0%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     },
     {
       "id": "sig_20260225_US_005",
@@ -429,14 +450,14 @@
           "change_rate": "+2.0%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     },
     {
       "id": "sig_20260225_US_006",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "Walmart, Stock",
-      "summary": "오늘 Intel 주가는 Walmart Stock Falls 1.4% on Solid Earnings and Cautious Guidance 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "BC-Most, Active",
+      "summary": "Intel은(는) BC-Most Active Stocks 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Intel",
         "symbol": "INTC",
@@ -445,9 +466,16 @@
       },
       "news_articles": [
         {
-          "title": "Walmart Stock Falls 1.4% on Solid Earnings and Cautious Guidance",
-          "url": "https://www.fool.com/investing/2026/02/25/walmart-stock-falls-on-strong-earnings/?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 14:15:00 +0000",
+          "title": "BC-Most Active Stocks",
+          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017209.html?.tsrc=rss",
+          "date": "02.26 00:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Prediction: The Quantum Computing Hype Could Cool Off in 2026 -- Here's Why",
+          "url": "https://www.fool.com/investing/2026/02/25/predict-quantum-computing-hype-cool-off-2026-why/?.tsrc=rss",
+          "date": "02.26 05:35",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -476,6 +504,13 @@
           "title": "Prediction: This Custom AI Chip Stock Will Outperform Nvidia in 2026",
           "url": "https://www.fool.com/investing/2026/02/25/prediction-this-ai-chip-stock-will-outperform/?.tsrc=rss",
           "date": "02.26 04:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Walmart Stock Falls 1.4% on Solid Earnings and Cautious Guidance",
+          "url": "https://www.fool.com/investing/2026/02/25/walmart-stock-falls-on-strong-earnings/?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 14:15:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -625,13 +660,6 @@
           "date": "Wed, 25 Feb 2026 13:50:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "BC-Most Active Stocks",
-          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017209.html?.tsrc=rss",
-          "date": "02.26 00:30",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -656,7 +684,7 @@
           "change_rate": "-3.0%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     },
     {
       "id": "sig_20260225_US_007",
@@ -717,7 +745,7 @@
           "change_rate": "+0.2%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     },
     {
       "id": "sig_20260225_US_008",
@@ -825,14 +853,14 @@
           "change_rate": "+1.2%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     },
     {
       "id": "sig_20260225_US_009",
       "theme": "#SaaS",
       "signal_type": "이슈",
-      "short_reason": "Salesforce, Earnings",
-      "summary": "오늘 Salesforce 주가는 Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Salesforce’s, Earnings",
+      "summary": "오늘 Salesforce 주가는 Salesforce’s Earnings Are Here. How Agentforce Could Check the Software Slump. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Salesforce",
         "symbol": "CRM",
@@ -841,9 +869,16 @@
       },
       "news_articles": [
         {
-          "title": "Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI",
-          "url": "https://finance.yahoo.com/news/salesforce-earnings-due-today-wall-132153355.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:21:53 +0000",
+          "title": "Salesforce’s Earnings Are Here. How Agentforce Could Check the Software Slump.",
+          "url": "https://finance.yahoo.com/m/388f18db-bc68-32bb-a4e6-ec17324183a2/salesforce%E2%80%99s-earnings-are.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 15:56:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nasdaq makes strides as Nvidia and Salesforce prepare to report",
+          "url": "https://www.proactiveinvestors.com/companies/news/1087910/nasdaq-tipped-to-lead-gains-ahead-of-nvidia-and-salesforce-earnings-1087910.html?.tsrc=rss",
+          "date": "02.26 04:23",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -862,13 +897,6 @@
           "has_name": true
         },
         {
-          "title": "Nasdaq lead gains as tech stocks resurgent ahead of Nvidia and Salesforce earnings",
-          "url": "https://www.proactiveinvestors.com/companies/news/1087910/nasdaq-tipped-to-lead-gains-ahead-of-nvidia-and-salesforce-earnings-1087910.html?.tsrc=rss",
-          "date": "02.26 03:33",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
           "title": "Workday Shares Drop 9% as CEO Says OpenAI, Google Use Its Software",
           "url": "https://finance.yahoo.com/news/workday-shares-drop-9-ceo-174643941.html?.tsrc=rss",
           "date": "02.26 02:46",
@@ -879,6 +907,13 @@
           "title": "5 industries that have gotten rocked by the AI 'scare trade' defining markets this year",
           "url": "https://finance.yahoo.com/news/5-industries-that-have-gotten-rocked-by-the-ai-scare-trade-defining-markets-this-year-164746958.html?.tsrc=rss",
           "date": "02.26 02:33",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI",
+          "url": "https://finance.yahoo.com/news/salesforce-earnings-due-today-wall-132153355.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:21:53 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -914,13 +949,6 @@
           "title": "Nvidia Earnings Slam Into Market With No Patience for AI Hiccups",
           "url": "https://finance.yahoo.com/news/nvidia-earnings-slam-market-no-150001431.html?.tsrc=rss",
           "date": "Wed, 25 Feb 2026 15:00:01 +0000",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Salesforce’s Earnings Are Here. How Agentforce Could Check the Software Slump.",
-          "url": "https://finance.yahoo.com/m/388f18db-bc68-32bb-a4e6-ec17324183a2/salesforce%E2%80%99s-earnings-are.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 15:56:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -978,14 +1006,14 @@
           "change_rate": "+3.4%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     },
     {
       "id": "sig_20260225_US_010",
       "theme": "#IP",
       "signal_type": "이슈",
       "short_reason": "ARM, vs.",
-      "summary": "오늘 ARM 주가는 ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "ARM은(는) ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "ARM",
         "symbol": "ARM",
@@ -1043,7 +1071,7 @@
           "change_rate": "+3.1%"
         }
       ],
-      "timestamp": "2026-02-26 04:57:07"
+      "timestamp": "2026-02-26 05:42:32"
     }
   ]
 }
