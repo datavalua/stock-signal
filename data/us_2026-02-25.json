@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26 06:06:21",
+  "last_updated": "2026-02-26 06:46:04",
   "signals": [
     {
       "id": "sig_20260225_US_001",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "Company, News",
-      "summary": "오늘 AMD 주가는 Company News for Feb 25, 2026 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "AMD, and",
+      "summary": "오늘 AMD 주가는 AMD and Nutanix Announce Strategic Partnership to Advance an Open and Scalable Platform for Enterprise AI 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "AMD",
         "symbol": "AMD",
@@ -15,9 +15,16 @@
       },
       "news_articles": [
         {
-          "title": "Company News for Feb 25, 2026",
-          "url": "https://finance.yahoo.com/news/company-news-feb-25-2026-130400672.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 13:04:00 +0000",
+          "title": "AMD and Nutanix Announce Strategic Partnership to Advance an Open and Scalable Platform for Enterprise AI",
+          "url": "https://finance.yahoo.com/news/amd-nutanix-announce-strategic-partnership-211100945.html?.tsrc=rss",
+          "date": "02.26 06:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "NuScale Power Bets on Small Modular Reactors as AI Drives a New Wave of Electricity Demand",
+          "url": "https://www.fool.com/coverage/filings/2026/02/25/nuscale-power-bets-on-small-modular-reactors-as-ai-drives-a-new-wave-of-electricity-demand/?.tsrc=rss",
+          "date": "02.26 06:24",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -39,6 +46,13 @@
           "title": "Global Money Makes 20-Year Taiwan Bet",
           "url": "https://finance.yahoo.com/news/global-money-makes-20-taiwan-190049744.html?.tsrc=rss",
           "date": "02.26 04:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Company News for Feb 25, 2026",
+          "url": "https://finance.yahoo.com/news/company-news-feb-25-2026-130400672.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 13:04:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -163,14 +177,14 @@
           "change_rate": "+1.2%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     },
     {
       "id": "sig_20260225_US_002",
       "theme": "#Payments",
       "signal_type": "이슈",
       "short_reason": "PayPal, Surges",
-      "summary": "PayPal은(는) PayPal Surges on Stripe Acquisition Interest 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 PayPal 주가는 PayPal Surges on Stripe Acquisition Interest 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "PayPal",
         "symbol": "PYPL",
@@ -239,14 +253,14 @@
           "change_rate": "+1.1%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     },
     {
       "id": "sig_20260225_US_003",
       "theme": "#SMR",
       "signal_type": "이슈",
-      "short_reason": "Battle, Royale:",
-      "summary": "오늘 NuScale Power 주가는 Battle Royale: NuScale vs. Plug Power. Only One Can Make You Rich. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "NuScale, Power",
+      "summary": "오늘 NuScale Power 주가는 NuScale Power Bets on Small Modular Reactors as AI Drives a New Wave of Electricity Demand 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "NuScale Power",
         "symbol": "SMR",
@@ -255,9 +269,9 @@
       },
       "news_articles": [
         {
-          "title": "Battle Royale: NuScale vs. Plug Power. Only One Can Make You Rich.",
-          "url": "https://www.fool.com/investing/2026/02/24/battle-royale-nuscale-vs-plug-power/?.tsrc=rss",
-          "date": "02.25 07:31",
+          "title": "NuScale Power Bets on Small Modular Reactors as AI Drives a New Wave of Electricity Demand",
+          "url": "https://www.fool.com/coverage/filings/2026/02/25/nuscale-power-bets-on-small-modular-reactors-as-ai-drives-a-new-wave-of-electricity-demand/?.tsrc=rss",
+          "date": "02.26 06:24",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -290,6 +304,13 @@
           "has_name": true
         },
         {
+          "title": "Battle Royale: NuScale vs. Plug Power. Only One Can Make You Rich.",
+          "url": "https://www.fool.com/investing/2026/02/24/battle-royale-nuscale-vs-plug-power/?.tsrc=rss",
+          "date": "02.25 07:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Analysts See 140% Upside in NuScale Power After Implosion",
           "url": "https://247wallst.com/investing/2026/02/24/analysts-see-140-upside-in-nuscale-power-after-implosion/?.tsrc=rss",
           "date": "02.25 08:01",
@@ -315,14 +336,14 @@
           "change_rate": "+6.4%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     },
     {
       "id": "sig_20260225_US_004",
       "theme": "#Nuclear",
       "signal_type": "이슈",
       "short_reason": "Constellation, Energy",
-      "summary": "Constellation Energy은(는) Constellation Energy sees surging power, capacity prices in 2025 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Constellation Energy 주가는 Constellation Energy sees surging power, capacity prices in 2025 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Constellation Energy",
         "symbol": "CEG",
@@ -388,7 +409,7 @@
           "change_rate": "+2.0%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     },
     {
       "id": "sig_20260225_US_005",
@@ -457,14 +478,14 @@
           "change_rate": "+2.0%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     },
     {
       "id": "sig_20260225_US_006",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "Think, It's",
-      "summary": "Intel은(는) Think It's Too Late to Buy Berkshire Hathaway Stock? Here's the 1 Reason Why There's Still Time. 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Why, Intuitive",
+      "summary": "Intel은(는) Why Intuitive Machines Stock Crashed Today 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Intel",
         "symbol": "INTC",
@@ -472,6 +493,48 @@
         "news_url": "https://finance.yahoo.com/quote/INTC"
       },
       "news_articles": [
+        {
+          "title": "Why Intuitive Machines Stock Crashed Today",
+          "url": "https://www.fool.com/investing/2026/02/25/why-intuitive-machines-stock-crashed-today/?.tsrc=rss",
+          "date": "02.26 00:36",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Clear Secure Stock Was Crushing it on Wednesday",
+          "url": "https://www.fool.com/investing/2026/02/25/why-clear-secure-stock-was-crushing-it-on-wednesda/?.tsrc=rss",
+          "date": "02.26 06:33",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Molson Coors Plunged Today",
+          "url": "https://www.fool.com/investing/2026/02/25/why-molson-coors-plunged-today/?.tsrc=rss",
+          "date": "02.26 06:29",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "USA Rare Earth Has Tumbled From All-Time Highs in 2025. Here's What's Next.",
+          "url": "https://www.fool.com/investing/2026/02/25/usa-rare-earth-has-tumbled-from-all-time-highs/?.tsrc=rss",
+          "date": "02.26 06:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Cannes Lions Grand Prix Winner Justin Kramm Launches Shitshow Creative to Turn LOL Into ROI for Bold Brands",
+          "url": "https://finance.yahoo.com/news/cannes-lions-grand-prix-winner-211500551.html?.tsrc=rss",
+          "date": "02.26 06:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is It Too Late to Buy Signet Jewelers Stock?",
+          "url": "https://www.fool.com/investing/2026/02/25/is-it-too-late-to-buy-signet-jewelers-stock/?.tsrc=rss",
+          "date": "02.26 06:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "Think It's Too Late to Buy Berkshire Hathaway Stock? Here's the 1 Reason Why There's Still Time.",
           "url": "https://www.fool.com/investing/2026/02/25/think-its-too-late-to-buy-berkshire-hathaway-stock/?.tsrc=rss",
@@ -667,13 +730,6 @@
           "date": "02.26 00:39",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Why Intuitive Machines Stock Crashed Today",
-          "url": "https://www.fool.com/investing/2026/02/25/why-intuitive-machines-stock-crashed-today/?.tsrc=rss",
-          "date": "02.26 00:36",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -698,7 +754,7 @@
           "change_rate": "-3.0%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     },
     {
       "id": "sig_20260225_US_007",
@@ -759,14 +815,14 @@
           "change_rate": "+0.2%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     },
     {
       "id": "sig_20260225_US_008",
       "theme": "#Foundry",
       "signal_type": "이슈",
       "short_reason": "TSMC, Overseas",
-      "summary": "TSMC은(는) TSMC Overseas Build Out Reshapes AI Supply Chain And Valuation Debate 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 TSMC 주가는 TSMC Overseas Build Out Reshapes AI Supply Chain And Valuation Debate 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "TSMC",
         "symbol": "TSM",
@@ -782,9 +838,23 @@
           "has_name": true
         },
         {
-          "title": "Nvidia Rallies 2% Ahead Of AI Giant's Report (Live Coverage)",
-          "url": "https://finance.yahoo.com/m/c43fa37f-0aa8-3b64-bc3d-490061ab6c19/nvidia-rallies-2%25-ahead-of-ai.html?.tsrc=rss",
-          "date": "02.26 04:21",
+          "title": "Pinnacle West Capital Corporation Q4 2025 Earnings Call Summary",
+          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-pinnacle-west-capital-corporation-q4-2025-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+          "date": "02.26 06:33",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nvidia Closes With 1% Gain. Report Out Soon. (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/c43fa37f-0aa8-3b64-bc3d-490061ab6c19/nvidia-closes-with-1%25-gain..html?.tsrc=rss",
+          "date": "02.26 06:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Assessing Taiwan Semiconductor Manufacturing’s Valuation After A Strong Multi‑Period Share Price Run",
+          "url": "https://finance.yahoo.com/news/assessing-taiwan-semiconductor-manufacturing-valuation-211104148.html?.tsrc=rss",
+          "date": "02.26 06:11",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -799,6 +869,13 @@
           "title": "TSMC Raises Dividend 28% While 38% Revenue Growth Reframes the Geopolitical Risk",
           "url": "https://247wallst.com/investing/2026/02/25/tsmc-raises-dividend-28-while-38-revenue-growth-reframes-the-geopolitical-risk/?.tsrc=rss",
           "date": "02.26 03:33",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nvidia Rallies 2% Ahead Of AI Giant's Report (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/c43fa37f-0aa8-3b64-bc3d-490061ab6c19/nvidia-rallies-2%25-ahead-of-ai.html?.tsrc=rss",
+          "date": "02.26 04:21",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -867,14 +944,14 @@
           "change_rate": "+1.2%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     },
     {
       "id": "sig_20260225_US_009",
       "theme": "#SaaS",
       "signal_type": "이슈",
-      "short_reason": "Salesforce, Earnings",
-      "summary": "Salesforce은(는) Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Salesforce’s, Earnings",
+      "summary": "Salesforce은(는) Salesforce’s Earnings Are Here. How Agentforce Could Check the Software Slump. 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Salesforce",
         "symbol": "CRM",
@@ -882,6 +959,48 @@
         "news_url": "https://finance.yahoo.com/quote/CRM"
       },
       "news_articles": [
+        {
+          "title": "Salesforce’s Earnings Are Here. How Agentforce Could Check the Software Slump.",
+          "url": "https://finance.yahoo.com/m/388f18db-bc68-32bb-a4e6-ec17324183a2/salesforce%E2%80%99s-earnings-are.html?.tsrc=rss",
+          "date": "Wed, 25 Feb 2026 15:56:00 +0000",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Salesforce Stock Falls Amid Weaker-Than-Expected Fiscal 2027 Revenue Outlook",
+          "url": "https://finance.yahoo.com/m/80b5b972-194e-367e-b02d-accc4ecce52b/salesforce-stock-falls-amid.html?.tsrc=rss",
+          "date": "02.26 06:22",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Salesforce’s (NYSE:CRM) Q4 CY2025 Earnings Results: Revenue In Line With Expectations, Growth To Accelerate Next Year",
+          "url": "https://finance.yahoo.com/news/salesforce-nyse-crm-q4-cy2025-211912755.html?.tsrc=rss",
+          "date": "02.26 06:19",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Technology Leads US Equities Higher Ahead of Nvidia's Results",
+          "url": "https://finance.yahoo.com/news/technology-leads-us-equities-higher-211903658.html?.tsrc=rss",
+          "date": "02.26 06:19",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Salesforce: Fiscal Q4 Earnings Snapshot",
+          "url": "https://finance.yahoo.com/news/salesforce-fiscal-q4-earnings-snapshot-211728775.html?.tsrc=rss",
+          "date": "02.26 06:17",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Salesforce forecasts annual revenue below estimates, shares fall",
+          "url": "https://finance.yahoo.com/news/salesforce-forecasts-quarterly-revenue-above-210704630.html?.tsrc=rss",
+          "date": "02.26 06:07",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "Salesforce Earnings Are Due Today -- Wall Street Betting on Agentforce AI",
           "url": "https://finance.yahoo.com/news/salesforce-earnings-due-today-wall-132153355.html?.tsrc=rss",
@@ -921,13 +1040,6 @@
           "title": "Workday Shares Drop 9% as CEO Says OpenAI, Google Use Its Software",
           "url": "https://finance.yahoo.com/news/workday-shares-drop-9-ceo-174643941.html?.tsrc=rss",
           "date": "02.26 02:46",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Salesforce’s Earnings Are Here. How Agentforce Could Check the Software Slump.",
-          "url": "https://finance.yahoo.com/m/388f18db-bc68-32bb-a4e6-ec17324183a2/salesforce%E2%80%99s-earnings-are.html?.tsrc=rss",
-          "date": "Wed, 25 Feb 2026 15:56:00 +0000",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -1034,14 +1146,14 @@
           "change_rate": "+3.4%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     },
     {
       "id": "sig_20260225_US_010",
       "theme": "#IP",
       "signal_type": "이슈",
       "short_reason": "ARM, vs.",
-      "summary": "오늘 ARM 주가는 ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "ARM은(는) ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "ARM",
         "symbol": "ARM",
@@ -1053,6 +1165,13 @@
           "title": "ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now?",
           "url": "https://finance.yahoo.com/news/arm-vs-app-ai-exposed-133000213.html?.tsrc=rss",
           "date": "02.25 22:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Time to Target This Chip Stock After \"Buy\" Signal Flashes",
+          "url": "https://finance.yahoo.com/news/time-target-chip-stock-buy-210939373.html?.tsrc=rss",
+          "date": "02.26 06:09",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -1099,7 +1218,7 @@
           "change_rate": "+3.1%"
         }
       ],
-      "timestamp": "2026-02-26 06:06:21"
+      "timestamp": "2026-02-26 06:46:04"
     }
   ]
 }
