@@ -21,33 +21,105 @@ st.set_page_config(
 )
 
 # --- Minimal CSS ---
-# We define custom CSS for horizontal menu and overall styling
+# Integrated professional CSS for sticky header, modals, and card layouts
 st.markdown("""
 <style>
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    .stApp { background-color: #f2f4f6; }
     
-    /* Make the menu buttons look like tabs */
-    div.stButton > button:first-child {
-        width: 100%;
-        border-radius: 0;
-        border: none;
-        background-color: transparent;
-        border-bottom: 2px solid transparent;
-        font-weight: bold;
-    }
-    div.stButton > button:hover {
-        border-bottom: 2px solid #007bff;
-        color: #007bff;
+    /* Global Background */
+    .stApp { background-color: #f2f4f6 !important; }
+
+    /* Sticky Header Container */
+    [data-testid="stHeader"] {
+        display: none;
     }
     
-    /* Admin Login Box Styling */
-    .admin-login-box {
-        padding: 10px;
+    .sticky-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
         background-color: white;
-        border-radius: 8px;
-        border: 1px solid #ddd;
+        z-index: 1000;
+        border-bottom: 1px solid #e5e7eb;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    
+    /* Nav Tab Styling - Overriding Streamlit Defaults */
+    .main-nav-container {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        z-index: 999;
+        border-bottom: 1px solid #e5e7eb;
+        padding-top: 10px;
+    }
+    
+    /* Modal / Alert Overlay */
+    .overlay-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(4px);
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .modal-box {
+        background-color: white;
+        padding: 30px;
+        border-radius: 16px;
+        width: 90%;
+        max-width: 400px;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        text-align: center;
+    }
+    
+    /* Card Styling */
+    .content-card {
+        background-color: white;
+        padding: 20px;
+        border-radius: 16px;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+    
+    /* Custom spacing for fixed header */
+    .fixed-header-spacer {
+        height: 140px;
+    }
+    
+    /* Button Styling */
+    .stButton > button {
+        border-radius: 8px !important;
+    }
+    
+    /* Override tab-like buttons */
+    .nav-btn > div > button {
+        border: none !important;
+        background-color: transparent !important;
+        border-radius: 0 !important;
+        border-bottom: 3px solid transparent !important;
+        font-weight: 600 !important;
+        height: 45px !important;
+    }
+    .nav-btn-active > div > button {
+        border-bottom: 3px solid #0070f3 !important;
+        color: #0070f3 !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -97,7 +169,62 @@ def check_auth():
         if login_time and (now - login_time).total_seconds() > 1800: # 30 mins
             st.session_state["admin_logged_in"] = False
             st.session_state["current_view"] = "주식 시그널"
-            st.warning("세션이 만료되었습니다. 다시 로그인 해 주세요.")
+            st.session_state["alert_message"] = "세션이 만료되었습니다. 다시 로그인 해 주세요."
+            st.session_state["show_alert"] = True
+
+# --- UI Components ---
+
+def render_overlay_modals():
+    """Render centered modals for alerts and login"""
+    # 1. Generic Alert Modal
+    if st.session_state.get("show_alert"):
+        st.markdown(f"""
+            <div class="overlay-container">
+                <div class="modal-box">
+                    <h3>💡 알림</h3>
+                    <p style="margin: 20px 0; font-size: 1.1rem;">{st.session_state['alert_message']}</p>
+                </div>
+            </div>
+        """, unsafe_allow_html=True)
+        # We need a streamlit button to actually trigger a state change
+        # Using a column trick to center the button in the modal via Streamlit
+        _, col_btn, _ = st.columns([1, 1, 1])
+        with col_btn:
+            # This button is invisible but handles the 'Close' click logically
+            # We use a real button for interactivity
+            if st.button("확인", key="close_alert_btn"):
+                st.session_state["show_alert"] = False
+                st.rerun()
+
+    # 2. Login Modal
+    if st.session_state.get("show_login_modal"):
+        st.markdown("""
+            <div class="overlay-container">
+                <div class="modal-box">
+                    <h3>🔑 관리자 로그인</h3>
+                    <p style="color: #666; margin-bottom: 20px;">비밀번호를 입력해주세요.</p>
+                </div>
+            </div>
+        """, unsafe_allow_html=True)
+        _, col_login, _ = st.columns([1, 2, 1])
+        with col_login:
+            pwd_input = st.text_input("Password", type="password", key="modal_login_pwd", label_visibility="collapsed")
+            col_l1, col_l2 = st.columns(2)
+            with col_l1:
+                if st.button("로그인", use_container_width=True, type="primary"):
+                    if pwd_input == ADMIN_PASSWORD:
+                        st.session_state["admin_logged_in"] = True
+                        st.session_state["login_time"] = datetime.datetime.now()
+                        st.session_state["show_login_modal"] = False
+                        st.session_state["alert_message"] = "로그인되었습니다."
+                        st.session_state["show_alert"] = True
+                        st.rerun()
+                    else:
+                        st.error("비밀번호 불일치")
+            with col_l2:
+                if st.button("취소", use_container_width=True):
+                    st.session_state["show_login_modal"] = False
+                    st.rerun()
 
 # --- Views ---
 def render_user_view():
@@ -127,13 +254,16 @@ def render_user_view():
             
     st.markdown("---")
 
+    st.markdown('<div class="content-card">', unsafe_allow_html=True)
     if not data:
         st.info(f"{date_str}의 시그널 데이터가 아직 없습니다.")
+        st.markdown('</div>', unsafe_allow_html=True)
         return
 
     signals = data.get("signals", [])
     if not signals:
         st.warning("수집된 시그널 정보가 없습니다.")
+        st.markdown('</div>', unsafe_allow_html=True)
         return
 
     # --- Render each signal as a horizontal row (Copy-pasted from original app.py) ---
@@ -280,9 +410,12 @@ def render_user_view():
                     st.markdown(f"• **{r_name}** {format_rate(r_rate)}")
 
         st.markdown("---")
+    st.markdown('</div>', unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
 
 
 def render_search_view():
+    st.markdown('<div class="content-card">', unsafe_allow_html=True)
     st.subheader("🔍 관련 주식 조회/검색")
     
     st.markdown("#### 시장 지수 구성종목 조회")
@@ -297,8 +430,10 @@ def render_search_view():
                 st.dataframe(df)
             else:
                 st.warning("데이터를 불러오지 못했습니다.")
+    st.markdown('</div>', unsafe_allow_html=True)
 
 def render_admin_view():
+    st.markdown('<div class="content-card">', unsafe_allow_html=True)
     st.subheader("⚙️ 관리자 화면")
     st.markdown("크롤링 데이터 생성 트래거 및 JSON 타겟 스키마(KR/US 시장)를 직접 관리할 수 있습니다.")
     
@@ -355,57 +490,63 @@ def render_admin_view():
                 st.success("미국 종목 데이터가 저장되었습니다! (crawler.py에 즉시 반영됨)")
             except Exception as e:
                 st.error(f"데이터 저장 실패: 올바른 JSON 포맷인지 확인해 주세요. ({e})")
+    st.markdown('</div>', unsafe_allow_html=True)
 
 
 def render_header_nav():
-    # 1. Title and Login Logic
-    col_head1, col_head2 = st.columns([7, 3])
-    with col_head1:
-        st.title("📈 시그널")
-        st.caption("토스증권 AI가 핵심 시그널을 찾았어요")
+    # 1. Sticky Top Bar
+    st.markdown(f"""
+        <div class="sticky-header">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <h2 style="margin:0; font-size: 1.5rem;">📈 시그널</h2>
+                <span style="color: #666; font-size: 0.9rem; margin-top: 5px;">실시간 AI 주식 분석</span>
+            </div>
+            <div id="auth-section"></div>
+        </div>
+    """, unsafe_allow_html=True)
     
-    with col_head2:
-        st.write("") # Padding
-        st.write("") # Padding
-        if not st.session_state["admin_logged_in"]:
-            with st.expander("🔑 관리자 로그인"):
-                pwd_input = st.text_input("Password", type="password", key="login_pwd")
-                if st.button("로그인"):
-                    if pwd_input == ADMIN_PASSWORD:
-                        st.session_state["admin_logged_in"] = True
-                        st.session_state["login_time"] = datetime.datetime.now()
-                        st.rerun()
-                    else:
-                        st.error("비밀번호가 틀렸습니다.")
-        else:
-            login_time = st.session_state["login_time"]
-            expire_time = login_time + datetime.timedelta(minutes=30)
-            
-            st.markdown(f"<div style='text-align: right;'><span style='color: #888; font-size: 0.8rem;'>세션 만료: {expire_time.strftime('%H:%M:%S')}</span></div>", unsafe_allow_html=True)
-            
-            # Un-nested button layout
-            if st.button("로그아웃", key="logout_btn"):
-                st.session_state["admin_logged_in"] = False
-                st.session_state["current_view"] = "주식 시그널" # Reset to default view
-                st.rerun()
+    # Auth Buttons in the header via absolute positioning or columns
+    # Streamlit doesn't easily allow putting components inside raw HTML strings, 
+    # so we use a container with a specific key and float it.
+    
+    # Container for Top-Right Auth
+    auth_container = st.container()
+    with auth_container:
+        # We use columns to push it to the right within the fixed header area
+        _, col_auth = st.columns([8, 2])
+        with col_auth:
+            st.markdown("<div style='height: 15px;'></div>", unsafe_allow_html=True)
+            if not st.session_state["admin_logged_in"]:
+                if st.button("🔑 로그인", key="header_login_btn"):
+                    st.session_state["show_login_modal"] = True
+                    st.rerun()
+            else:
+                if st.button("👤 로그아웃", key="header_logout_btn"):
+                    st.session_state["admin_logged_in"] = False
+                    st.session_state["current_view"] = "주식 시그널"
+                    st.session_state["alert_message"] = "로그아웃되었습니다."
+                    st.session_state["show_alert"] = True
+                    st.rerun()
 
-    # 2. Horizontal Navigation Menu
+    # 2. Sticky Navigation Tabs
+    st.markdown('<div class="main-nav-container">', unsafe_allow_html=True)
     menu_options = ["주식 시그널", "관련 주식 조회/검색"]
     if st.session_state["admin_logged_in"]:
         menu_options.append("관리자 화면")
         
-    num_cols = len(menu_options)
-    # Give columns some gap if possible to simulate horizontal flex
-    cols = st.columns(num_cols)
+    cols = st.columns(len(menu_options))
+    current_opt = st.session_state["current_view"]
     
     for i, option in enumerate(menu_options):
         with cols[i]:
-            # Highlight current menu selection by making it look active
-            current_opt = st.session_state["current_view"]
-            label = f"🟢 {option}" if current_opt == option else f"{option}"
-            if st.button(label, key=f"nav_{option}"):
+            is_active = (current_opt == option)
+            btn_class = "nav-btn-active" if is_active else "nav-btn"
+            st.markdown(f'<div class="{btn_class}">', unsafe_allow_html=True)
+            if st.button(option, key=f"nav_{option}", use_container_width=True):
                 st.session_state["current_view"] = option
                 st.rerun()
+            st.markdown('</div>', unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown("---")
 
@@ -415,9 +556,19 @@ def main():
         st.session_state["current_view"] = "주식 시그널"
     if "admin_logged_in" not in st.session_state:
         st.session_state["admin_logged_in"] = False
+    if "show_alert" not in st.session_state:
+        st.session_state["show_alert"] = False
+    if "alert_message" not in st.session_state:
+        st.session_state["alert_message"] = ""
+    if "show_login_modal" not in st.session_state:
+        st.session_state["show_login_modal"] = False
 
     check_auth()
+    render_overlay_modals()
     render_header_nav()
+    
+    # Padding for sticky header
+    st.markdown("<div class='fixed-header-spacer'></div>", unsafe_allow_html=True)
 
     # View Router
     view = st.session_state.get("current_view", "주식 시그널")
