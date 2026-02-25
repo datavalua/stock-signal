@@ -253,18 +253,18 @@ def show_search():
                     st.warning("종목 리스트를 가져오는 데 실패했습니다. 잠시 후 다시 시도해 주세요.")
                     return
                 
-                # Standardize columns: Symbol, Name
+                # Standardize columns to US Standard: Symbol, Name
                 if "Symbol" in df.columns:
-                    df = df.rename(columns={"Symbol": "티커"})
+                    df = df.rename(columns={"Symbol": "Symbol"})
                 elif "Code" in df.columns:
-                    df = df.rename(columns={"Code": "티커"})
+                    df = df.rename(columns={"Code": "Symbol"})
                 
                 if "Name" in df.columns:
-                    df = df.rename(columns={"Name": "종목명"})
+                    df = df.rename(columns={"Name": "Name"})
                 
                 # Enrichment: Add Industrial/Peers from our metadata
                 def get_extra(row):
-                    ticker = str(row["티커"])
+                    ticker = str(row["Symbol"])
                     m = market_meta.get(ticker, {})
                     industry = ", ".join(m.get("industry", [])) if m.get("industry") else "-"
                     peers = ", ".join(m.get("peers", [])) if m.get("peers") else "-"
@@ -274,19 +274,30 @@ def show_search():
                 df_view = df.head(200).copy()
                 if not df_view.empty:
                     # Using result_type='expand' ensures we get a DataFrame that matches the 2-column key
-                    df_view[["산업분류", "관련종목(Peers)"]] = df_view.apply(get_extra, axis=1, result_type='expand')
+                    df_view[["Industry", "Peers"]] = df_view.apply(get_extra, axis=1, result_type='expand')
                 else:
-                    df_view["산업분류"] = "-"
-                    df_view["관련종목(Peers)"] = "-"
+                    df_view["Industry"] = "-"
+                    df_view["Peers"] = "-"
                 
-                # Unify layout: only show core columns
-                display_cols = ["티커", "종목명", "산업분류", "관련종목(Peers)"]
+                # Unify layout: only show core columns (US Standard)
+                display_cols = ["Symbol", "Name", "Industry", "Peers"]
                 # Safety check for column existence
                 actual_cols = [c for c in display_cols if c in df_view.columns]
                 df_view = df_view[actual_cols]
                 
                 st.success(f"조회 완료 (총 {len(df)}개 중 상위 {len(df_view)}개 표시)")
-                st.dataframe(df_view)
+                
+                # Fixed column widths for consistent size
+                st.dataframe(
+                    df_view,
+                    column_config={
+                        "Symbol": st.column_config.TextColumn("Symbol", width="small"),
+                        "Name": st.column_config.TextColumn("Name", width="medium"),
+                        "Industry": st.column_config.TextColumn("Industry", width="medium"),
+                        "Peers": st.column_config.TextColumn("Peers", width="large")
+                    },
+                    use_container_width=True
+                )
                 
                 if len(df) > 200:
                     st.caption("※ 성능을 위해 상위 200개 종목만 상세 정보를 매핑하여 표시합니다.")
