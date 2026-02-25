@@ -288,10 +288,10 @@ def show_search():
                     st.dataframe(
                         df_view,
                         column_config={
-                            "Symbol": st.column_config.TextColumn("Symbol", width="small"),
-                            "Name": st.column_config.TextColumn("Name", width="medium"),
-                            "Industry": st.column_config.TextColumn("Industry", width="medium"),
-                            "Peers": st.column_config.TextColumn("Peers", width="large")
+                            "Symbol": st.column_config.TextColumn("Symbol", width=100),
+                            "Name": st.column_config.TextColumn("Name", width=200),
+                            "Industry": st.column_config.TextColumn("Industry", width=200),
+                            "Peers": st.column_config.TextColumn("Peers", width=400)
                         },
                         use_container_width=True
                     )
