@@ -374,7 +374,7 @@ def render_header_nav():
                     if pwd_input == ADMIN_PASSWORD:
                         st.session_state["admin_logged_in"] = True
                         st.session_state["login_time"] = datetime.datetime.now()
-                        st.experimental_rerun()
+                        st.rerun()
                     else:
                         st.error("비밀번호가 틀렸습니다.")
         else:
@@ -387,7 +387,7 @@ def render_header_nav():
             if st.button("로그아웃", key="logout_btn"):
                 st.session_state["admin_logged_in"] = False
                 st.session_state["current_view"] = "주식 시그널" # Reset to default view
-                st.experimental_rerun()
+                st.rerun()
 
     # 2. Horizontal Navigation Menu
     menu_options = ["주식 시그널", "관련 주식 조회/검색"]
