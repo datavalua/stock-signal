@@ -7,6 +7,17 @@ import pandas as pd
 import FinanceDataReader as fdr
 from dotenv import load_dotenv
 
+# --- Compatibility Wrapper ---
+def safe_rerun():
+    """Support both legacy (0.89.0) and modern Streamlit rerun."""
+    try:
+        if hasattr(st, "rerun"):
+            st.rerun()
+        else:
+            st.experimental_rerun()
+    except:
+        pass
+
 # --- Initialization ---
 load_dotenv()
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "HIDDEN_PASSWORD")
@@ -123,7 +134,7 @@ def render_sidebar():
         if st.sidebar.button("LOGIN"):
             if pwd == ADMIN_PASSWORD:
                 st.session_state["admin_logged_in"] = True
-                st.experimental_rerun()
+                safe_rerun()
             else:
                 st.sidebar.error("WRONG PASSWORD")
     else:
@@ -131,7 +142,7 @@ def render_sidebar():
         if st.sidebar.button("LOGOUT"):
             st.session_state["admin_logged_in"] = False
             st.session_state["current_view"] = "주식 시그널"
-            st.experimental_rerun()
+            safe_rerun()
 
 # --- Main Sticky Header ---
 def render_main_header():
@@ -234,7 +245,7 @@ def main():
         show_admin()
     else:
         st.session_state["current_view"] = "주식 시그널"
-        st.experimental_rerun()
+        safe_rerun()
 
 if __name__ == "__main__":
     main()
