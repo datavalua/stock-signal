@@ -27,23 +27,17 @@ st.markdown("""
     /* Hide default Streamlit header */
     header[data-testid="stHeader"] { visibility: hidden; height: 0; }
     
-    /* Make the TOP container sticky */
-    /* In Streamlit, the main content is in a vertical block. 
-       We target the first child of the block-container. */
+    /* Sticky Top Container for Title & Controls */
     .main .block-container > div:nth-child(1) {
         position: sticky;
         top: 0;
         background-color: white;
         z-index: 1000;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         border-bottom: 2px solid #f0f2f6;
     }
     
-    /* Content Padding so it doesn't hide under the sticky header */
-    /* Since we use position: sticky instead of fixed, we don't need excessive padding,
-       but nth-child(1) being sticky might be enough. */
-
     .stApp { background-color: #f7f9fb !important; }
     
     .content-card {
@@ -101,48 +95,31 @@ def format_rate(rate_str):
     elif rate_str.startswith("-"): return f"🔵 {rate_str}"
     return rate_str
 
-# --- Header & Nav (Sticky Area) ---
-def render_sticky_header():
-    # Everything in this function MUST be at the very top of the script calls
-    # for the CSS nth-child(1) to target it correctly.
-    
-    # Title row
-    st.title("📈 시그널 - 실시간 핵심 정보")
-    
-    # 1. Navigation Row
-    if "view" not in st.session_state:
-        st.session_state["view"] = "주식 시그널"
-    
-    nav_opts = ["주식 시그널", "관련 주식 조회"]
-    if st.session_state.get("admin_logged_in"):
-        nav_opts.append("관리자 도구")
-    
-    cols_nav = st.columns(len(nav_opts))
-    for i, opt in enumerate(nav_opts):
-        btn_label = f"**{opt}**" if st.session_state["view"] == opt else opt
-        if cols_nav[i].button(btn_label, key=f"nav_{opt}"):
-            st.session_state["view"] = opt
-            st.experimental_rerun()
-            
-    # 2. Market & Date Controls (Fixed Area)
-    if st.session_state["view"] == "주식 시그널":
-        st.markdown("### 📊 조회 설정")
-        col_m, col_d, col_spacer = st.columns([2, 2, 4])
-        with col_m:
-            market = st.selectbox("시장", ["🇰🇷 국내 주식", "🇺🇸 미국 주식"])
-        with col_d:
-            kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
-            sel_date = st.date_input("날짜", kst_now.date())
-            date_str = sel_date.strftime("%Y-%m-%d")
-        return market, date_str
-    
-    return None, None
-
-# --- Sidebar (Login/Logout) ---
+# --- Sidebar (Navigation & Login) ---
 def render_sidebar():
-    st.sidebar.markdown("### 🔑 관리자")
+    st.sidebar.title("📈 시그널 센터")
+    
+    # 1. Navigation (Moved back to sidebar as requested)
+    st.sidebar.markdown("### 🧭 메뉴")
+    if "current_view" not in st.session_state:
+        st.session_state["current_view"] = "주식 시그널"
+    
+    nav_options = ["주식 시그널", "관련 주식 조회"]
+    if st.session_state.get("admin_logged_in"):
+        nav_options.append("관리자 도구")
+    
+    current_idx = 0
+    if st.session_state["current_view"] in nav_options:
+        current_idx = nav_options.index(st.session_state["current_view"])
+        
+    st.session_state["current_view"] = st.sidebar.radio("", nav_options, index=current_idx)
+    
+    st.sidebar.markdown("---")
+    
+    # 2. Login
+    st.sidebar.markdown("### 🔑 관리자 로그인")
     if not st.session_state.get("admin_logged_in"):
-        pwd = st.sidebar.text_input("PASSWORD", type="password")
+        pwd = st.sidebar.text_input("PASSWORD", type="password", key="sidebar_pwd")
         if st.sidebar.button("LOGIN"):
             if pwd == ADMIN_PASSWORD:
                 st.session_state["admin_logged_in"] = True
@@ -150,22 +127,41 @@ def render_sidebar():
             else:
                 st.sidebar.error("WRONG PASSWORD")
     else:
-        st.sidebar.success("ADMIN LOGGED IN")
+        st.sidebar.success("✅ 관리자 로그인됨")
         if st.sidebar.button("LOGOUT"):
             st.session_state["admin_logged_in"] = False
-            st.session_state["view"] = "주식 시그널"
+            st.session_state["current_view"] = "주식 시그널"
             st.experimental_rerun()
 
-# --- Main Views ---
+# --- Main Sticky Header ---
+def render_main_header():
+    # Page Title
+    st.title("📊 오늘의 핵심 시그널")
+    
+    # Market & Date Controls (Stay sticky at top of main area)
+    view = st.session_state.get("current_view", "주식 시그널")
+    if view == "주식 시그널":
+        st.markdown("##### 🔍 조회 설정")
+        col_m, col_d, col_spacer = st.columns([2, 2, 4])
+        with col_m:
+            market = st.selectbox("시장 선택", ["🇰🇷 국내 주식", "🇺🇸 미국 주식"])
+        with col_d:
+            kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+            sel_date = st.date_input("날짜 선택", kst_now.date())
+            date_str = sel_date.strftime("%Y-%m-%d")
+        return market, date_str
+    return None, None
+
+# --- Content Views ---
 def show_signals(market, date_str):
     prefix = "us_" if market == "🇺🇸 미국 주식" else ""
     data = load_data(f"{prefix}{date_str}")
     
     if not data:
-        st.info(f"{date_str} 시그널 데이터가 없습니다.")
+        st.info(f"{date_str}의 시그널 데이터가 아직 생성되지 않았습니다.")
         return
         
-    st.caption(f"Last updated: {data.get('last_updated', 'N/A')}")
+    st.caption(f"최종 업데이트: {data.get('last_updated', 'N/A')}")
     
     for signal in data.get("signals", []):
         theme = signal.get("theme", "")
@@ -185,7 +181,7 @@ def show_signals(market, date_str):
                 st.markdown(f"**{signal.get('short_reason')}**")
                 st.write(signal.get("summary"))
                 
-                with st.expander("뉴스 보기"):
+                with st.expander("관련 뉴스/정보 보기"):
                     for art in signal.get("news_articles", [])[:5]:
                         st.markdown(f"• [{art['title']}]({art['url']}) ({art.get('source', '')})")
             
@@ -197,44 +193,48 @@ def show_signals(market, date_str):
 
 def show_search():
     st.header("🔍 관련 주식 조회")
-    idx = st.selectbox("Index", ["S&P500", "NASDAQ", "KOSPI", "KOSDAQ"])
-    if st.button("Fetch"):
+    idx = st.selectbox("시장 지수 선택", ["S&P500", "NASDAQ", "KOSPI", "KOSDAQ"])
+    if st.button("조회 시작"):
         df = fdr.StockListing(idx)
         st.dataframe(df)
 
 def show_admin():
-    st.header("⚙️ 관리 도구")
-    if st.button("Reload Metadata Cache"):
+    st.header("⚙️ 관리자 도구")
+    if st.button("🔄 종목 메타데이터 캐시 초기화"):
         from streamlit.legacy_caching import clear_cache
         clear_cache()
-        st.success("Cache Cleared")
+        st.success("캐시가 초기화되었습니다.")
     
     st.markdown("---")
-    st.subheader("Manual Crawler")
-    m = st.selectbox("Market", ["KR", "US"])
-    d = st.date_input("Date", datetime.datetime.now().date())
-    if st.button("Run Crawler"):
-        with st.spinner("Crawling..."):
-            if crawler.generate_daily_json(d.strftime("%Y-%m-%d"), market=m):
-                st.success("Success")
-            else: st.error("Failed")
+    st.subheader("🚀 수동 크롤링 실행")
+    c_m = st.selectbox("시장", ["KR", "US"])
+    c_d = st.date_input("날짜", datetime.datetime.now().date())
+    if st.button("크롤링 실행"):
+        with st.spinner("데이터 수집 및 생성 중..."):
+            if crawler.generate_daily_json(c_d.strftime("%Y-%m-%d"), market=c_m):
+                st.success("데이터 생성 완료!")
+            else: st.error("데이터 생성 중 오류가 발생했습니다.")
 
-# --- Application Flow ---
+# --- Main App Flow ---
 def main():
-    # 1. First, we define the sticky area
-    market, date_str = render_sticky_header()
-    
-    # 2. Sidebar for login
+    # 1. Sidebar first (Navigation & Auth)
     render_sidebar()
     
-    # 3. Main content
-    view = st.session_state["view"]
+    # 2. Main Sticky Header (Title & Controls)
+    market, date_str = render_main_header()
+    
+    # 3. Content Router
+    view = st.session_state.get("current_view", "주식 시그널")
+    
     if view == "주식 시그널":
         show_signals(market, date_str)
     elif view == "관련 주식 조회":
         show_search()
     elif view == "관리자 도구":
         show_admin()
+    else:
+        st.session_state["current_view"] = "주식 시그널"
+        st.experimental_rerun()
 
 if __name__ == "__main__":
     main()
