@@ -262,7 +262,12 @@ def show_search():
 
                 # Apply enrichment only to first 200 rows for performance
                 df_view = df.head(200).copy()
-                df_view[["산업분류", "관련종목(Peers)"]] = df_view.apply(get_extra, axis=1)
+                if not df_view.empty:
+                    # Using result_type='expand' ensures we get a DataFrame that matches the 2-column key
+                    df_view[["산업분류", "관련종목(Peers)"]] = df_view.apply(get_extra, axis=1, result_type='expand')
+                else:
+                    df_view["산업분류"] = "-"
+                    df_view["관련종목(Peers)"] = "-"
                 
                 st.success(f"조회 완료 (총 {len(df)}개 중 상위 200개 표시)")
                 st.dataframe(df_view)
