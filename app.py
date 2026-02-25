@@ -107,9 +107,19 @@ st.markdown("""
         box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
     }
     
-    /* Custom spacing for fixed header */
+    /* Fixed header spacer - dynamic height via session state is hard in pure CSS, 
+       so we use a default or handle it in the script */
     .fixed-header-spacer {
-        height: 85px;
+        height: 85px; /* Default for non-signal views */
+    }
+    .fixed-header-spacer-signal {
+        height: 185px; /* Taller for signal view with controls */
+    }
+    
+    .sticky-controls-row {
+        padding: 10px 25px;
+        background-color: white;
+        border-bottom: 1px solid #e5e7eb;
     }
     
     /* Button Styling */
@@ -248,36 +258,8 @@ def render_overlay_modals():
                     st.experimental_rerun()
 
 # --- Views ---
-def render_user_view():
-    st.subheader("📊 오늘의 시그널")
-    
-    # Margin above controls
-    st.markdown("<div style='height: 15px;'></div>", unsafe_allow_html=True)
-    
-    # Controls
-    col_date, col_market, col_info = st.columns([1.5, 2, 3.5])
-
-    with col_date:
-        kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
-        default_date = kst_now.date()
-        selected_date = st.date_input("날짜 선택", default_date)
-        date_str = selected_date.strftime("%Y-%m-%d")
-
-    with col_market:
-        selected_market = st.selectbox("시장", ["🇰🇷 국내 주식", "🇺🇸 미국 주식"])
-
-    market_prefix = "us_" if selected_market == "🇺🇸 미국 주식" else ""
-    data = load_data(f"{market_prefix}{date_str}")
-    
-    last_updated = data.get("last_updated", "N/A") if data else "데이터 없음"
-    
-    with col_info:
-        if data:
-            st.write("") # padding
-            st.caption(f"⏱ 마지막 업데이트: {last_updated}")
-            
-    st.markdown("---")
-
+def render_user_view(data, date_str, selected_market):
+    # Data check (Controls are now in the header)
     if not data:
         st.info(f"{date_str}의 시그널 데이터가 아직 없습니다.")
         return
@@ -528,12 +510,11 @@ def render_header_nav():
         </div>
     """, unsafe_allow_html=True)
     
-    # Position Auth Buttons in the top-right
+    # Position Auth Buttons
     auth_container = st.container()
     with auth_container:
         _, col_auth = st.columns([8.2, 1.8])
         with col_auth:
-            # Shift up further to fit in the 45px top-bar height
             st.markdown("<div style='margin-top: -38px;'></div>", unsafe_allow_html=True)
             if not st.session_state["admin_logged_in"]:
                 if st.button("🔑 로그인", key="header_login_btn"):
@@ -553,7 +534,7 @@ def render_header_nav():
     if st.session_state["admin_logged_in"]:
         menu_options.append("관리자 화면")
         
-    cols = st.columns(len(menu_options) + 5) # Pad to keep them left-aligned
+    cols = st.columns(len(menu_options) + 5)
     current_opt = st.session_state["current_view"]
     
     for i, option in enumerate(menu_options):
@@ -566,7 +547,41 @@ def render_header_nav():
                 st.experimental_rerun()
             st.markdown('</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True) # close nav-bar
+
+    # 1c. Signal View Specific Controls (Sticky)
+    data_to_return = None
+    date_str_to_return = None
+    market_to_return = "🇰🇷 국내 주식" # Default
+    
+    if current_opt == "주식 시그널":
+        st.markdown('<div class="sticky-controls-row">', unsafe_allow_html=True)
+        # Add a bit of top margin to position controls "slightly above middle" of the sticky block
+        st.markdown("<div style='height: 5px;'></div>", unsafe_allow_html=True)
+        st.subheader("📊 오늘의 시그널")
+        
+        col_date, col_market, col_info = st.columns([1.5, 2, 3.5])
+        with col_date:
+            kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+            default_date = kst_now.date()
+            selected_date = st.date_input("날짜 선택", default_date)
+            date_str_to_return = selected_date.strftime("%Y-%m-%d")
+
+        with col_market:
+            market_to_return = st.selectbox("시장", ["🇰🇷 국내 주식", "🇺🇸 미국 주식"])
+
+        market_prefix = "us_" if market_to_return == "🇺🇸 미국 주식" else ""
+        data_to_return = load_data(f"{market_prefix}{date_str_to_return}")
+        last_updated = data_to_return.get("last_updated", "N/A") if data_to_return else "데이터 없음"
+        
+        with col_info:
+            if data_to_return:
+                st.write("") # padding
+                st.caption(f"⏱ 마지막 업데이트: {last_updated}")
+        
+        st.markdown('</div>', unsafe_allow_html=True) # close sticky-controls-row
+
     st.markdown('</div>', unsafe_allow_html=True) # close unified-sticky-header
+    return data_to_return, date_str_to_return, market_to_return
 
 # --- Main Flow ---
 def main():
@@ -583,16 +598,21 @@ def main():
 
     check_auth()
     render_overlay_modals()
-    render_header_nav()
+    
+    view = st.session_state.get("current_view", "주식 시그널")
+    
+    # Render header and get data if needed
+    data, date_str, market = render_header_nav()
     
     # Padding for sticky header
-    st.markdown("<div class='fixed-header-spacer'></div>", unsafe_allow_html=True)
+    spacer_class = "fixed-header-spacer-signal" if view == "주식 시그널" else "fixed-header-spacer"
+    st.markdown(f"<div class='{spacer_class}'></div>", unsafe_allow_html=True)
 
     # View Router
     view = st.session_state.get("current_view", "주식 시그널")
     
     if view == "주식 시그널":
-        render_user_view()
+        render_user_view(data, date_str, market)
     elif view == "관련 주식 조회/검색":
         render_search_view()
     elif view == "관리자 화면" and st.session_state["admin_logged_in"]:
