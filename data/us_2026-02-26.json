@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-27 02:05:53",
+  "last_updated": "2026-02-27 03:01:17",
   "signals": [
     {
       "id": "sig_20260226_US_001",
       "theme": "#Financials",
       "signal_type": "이슈",
       "short_reason": "Coinbase, Soars",
-      "summary": "오늘 Coinbase 주가는 Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Coinbase은(는) Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too. 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Coinbase",
         "symbol": "COIN",
@@ -60,14 +60,14 @@
           "change_rate": "+0.6%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     },
     {
       "id": "sig_20260226_US_002",
       "theme": "#Software",
       "signal_type": "이슈",
       "short_reason": "Bitcoin’s, Brutal",
-      "summary": "MicroStrategy은(는) Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 MicroStrategy 주가는 Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "MicroStrategy",
         "symbol": "MSTR",
@@ -79,6 +79,13 @@
           "title": "Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers",
           "url": "https://247wallst.com/investing/2026/02/25/bitcoins-brutal-pullback-has-arkb-investors-searching-for-answers/?.tsrc=rss",
           "date": "02.26 03:03",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Appointment of David Clarke  As New Director of Vallourec",
+          "url": "https://finance.yahoo.com/news/appointment-david-clarke-director-vallourec-173600326.html?.tsrc=rss",
+          "date": "02.27 02:36",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -117,14 +124,14 @@
           "change_rate": "+13.5%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     },
     {
       "id": "sig_20260226_US_003",
       "theme": "#Entertainment",
       "signal_type": "이슈",
-      "short_reason": "Netflix, Stock",
-      "summary": "Netflix은(는) Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Netflix, Loves",
+      "summary": "오늘 Netflix 주가는 Netflix Loves to Watch Old People Fight 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Netflix",
         "symbol": "NFLX",
@@ -133,9 +140,9 @@
       },
       "news_articles": [
         {
-          "title": "Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid",
-          "url": "https://finance.yahoo.com/m/fccf14b2-e44f-3495-8594-69dcb55850c8/netflix-stock-has-best-day-in.html?.tsrc=rss",
-          "date": "02.26 01:44",
+          "title": "Netflix Loves to Watch Old People Fight",
+          "url": "https://finance.yahoo.com/m/602e50b8-2ba2-30ce-af3c-5109375e7342/netflix-loves-to-watch-old.html?.tsrc=rss",
+          "date": "02.26 21:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -175,6 +182,13 @@
           "has_name": true
         },
         {
+          "title": "Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid",
+          "url": "https://finance.yahoo.com/m/fccf14b2-e44f-3495-8594-69dcb55850c8/netflix-stock-has-best-day-in.html?.tsrc=rss",
+          "date": "02.26 01:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Netflix CFO to Participate in a Q&A session at the Morgan Stanley Technology, Media & Telecom Conference",
           "url": "https://finance.yahoo.com/news/netflix-cfo-participate-q-session-170000248.html?.tsrc=rss",
           "date": "02.26 02:00",
@@ -206,13 +220,6 @@
           "title": "Warner Bros. Discovery Revenue Declines as Netflix, Paramount Vie for Deal",
           "url": "https://finance.yahoo.com/m/a84c9be8-5813-302f-9301-3776bc21d84e/warner-bros.-discovery.html?.tsrc=rss",
           "date": "02.26 21:16",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Loves to Watch Old People Fight",
-          "url": "https://finance.yahoo.com/m/602e50b8-2ba2-30ce-af3c-5109375e7342/netflix-loves-to-watch-old.html?.tsrc=rss",
-          "date": "02.26 21:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -288,14 +295,14 @@
           "change_rate": "-2.6%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     },
     {
       "id": "sig_20260226_US_004",
       "theme": "#Retail",
       "signal_type": "이슈",
-      "short_reason": "Stock, Market",
-      "summary": "Lowe's 주가는 Stock Market Today, Feb. 25: Nasdaq Gains 1.3% As Nvidia Reignites AI Optimism 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "Lowe's, Aims",
+      "summary": "Lowe's은(는) Lowe's Aims for $1 Billion in Productivity Gains in 2026 to Counter Cost Inflation, RBC Says 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Lowe's",
         "symbol": "LOW",
@@ -304,9 +311,9 @@
       },
       "news_articles": [
         {
-          "title": "Stock Market Today, Feb. 25: Nasdaq Gains 1.3% As Nvidia Reignites AI Optimism",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/02/25/stock-market-today-feb-25-nasdaq-gains-1-3-as-nvidia-reignites-ai-optimism/?.tsrc=rss",
-          "date": "02.26 08:03",
+          "title": "Lowe's Aims for $1 Billion in Productivity Gains in 2026 to Counter Cost Inflation, RBC Says",
+          "url": "https://finance.yahoo.com/news/lowe-apos-aims-1-billion-173048244.html?.tsrc=rss",
+          "date": "02.27 02:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -339,6 +346,13 @@
           "has_name": true
         },
         {
+          "title": "Stock Market Today, Feb. 25: Nasdaq Gains 1.3% As Nvidia Reignites AI Optimism",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/02/25/stock-market-today-feb-25-nasdaq-gains-1-3-as-nvidia-reignites-ai-optimism/?.tsrc=rss",
+          "date": "02.26 08:03",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "55-year-old Home Depot rival chain store closes, no bankruptcy",
           "url": "https://www.thestreet.com/retail/workbench-true-value-hardware-store-closes-no-bankruptcy?.tsrc=rss",
           "date": "02.26 08:17",
@@ -356,7 +370,7 @@
           "change_rate": "-0.8%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     },
     {
       "id": "sig_20260226_US_005",
@@ -424,14 +438,14 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     },
     {
       "id": "sig_20260226_US_006",
       "theme": "#Data",
       "signal_type": "이슈",
-      "short_reason": "Snowflake, Stock",
-      "summary": "Snowflake은(는) Snowflake Stock Loses Steam After Earnings Beat 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Snowflake, Earnings",
+      "summary": "오늘 Snowflake 주가는 Snowflake Earnings Beat. Software Stock Reverses Up On Big Customer Growth 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Snowflake",
         "symbol": "SNOW",
@@ -440,9 +454,23 @@
       },
       "news_articles": [
         {
-          "title": "Snowflake Stock Loses Steam After Earnings Beat",
-          "url": "https://finance.yahoo.com/m/eee87f7a-1265-397d-a111-d32a8dcd9642/snowflake-stock-loses-steam.html?.tsrc=rss",
-          "date": "02.26 20:00",
+          "title": "Snowflake Earnings Beat. Software Stock Reverses Up On Big Customer Growth",
+          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat..html?.tsrc=rss",
+          "date": "02.26 23:49",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake Posts Strong Q4, Well Positioned for AI Workloads, RBC Says",
+          "url": "https://finance.yahoo.com/news/snowflake-posts-strong-q4-well-172502953.html?.tsrc=rss",
+          "date": "02.27 02:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake Seen as 'AI Winner' as Companies Move More Data to AI Workflows, Wedbush Says",
+          "url": "https://finance.yahoo.com/news/snowflake-seen-apos-ai-winner-171249921.html?.tsrc=rss",
+          "date": "02.27 02:12",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -464,6 +492,13 @@
           "title": "Snowflake's Q4 Results Indicate 'Health Demand Environment,' Morgan Stanley Says",
           "url": "https://finance.yahoo.com/news/snowflake-apos-q4-results-indicate-162225917.html?.tsrc=rss",
           "date": "02.27 01:22",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake Stock Loses Steam After Earnings Beat",
+          "url": "https://finance.yahoo.com/m/eee87f7a-1265-397d-a111-d32a8dcd9642/snowflake-stock-loses-steam.html?.tsrc=rss",
+          "date": "02.26 20:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -492,13 +527,6 @@
           "title": "Jim Cramer Says Companies Like Snowflake “Become Too Cheap to Ignore” At Some Point",
           "url": "https://finance.yahoo.com/news/jim-cramer-says-companies-snowflake-150219487.html?.tsrc=rss",
           "date": "02.27 00:02",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake Earnings Beat. Software Stock Reverses Up On Big Customer Growth",
-          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat..html?.tsrc=rss",
-          "date": "02.26 23:49",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -535,14 +563,14 @@
           "change_rate": "+4.2%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     },
     {
       "id": "sig_20260226_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
-      "short_reason": "Is, Applied",
-      "summary": "오늘 Applied Materials 주가는 Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "KLA, Rides",
+      "summary": "오늘 Applied Materials 주가는 KLA Rides on Strong Advanced Packaging Growth: More Upside Ahead? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -551,9 +579,9 @@
       },
       "news_articles": [
         {
-          "title": "Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year?",
-          "url": "https://finance.yahoo.com/news/applied-materials-amat-outperforming-other-144006722.html?.tsrc=rss",
-          "date": "02.25 23:40",
+          "title": "KLA Rides on Strong Advanced Packaging Growth: More Upside Ahead?",
+          "url": "https://finance.yahoo.com/news/kla-rides-strong-advanced-packaging-160900645.html?.tsrc=rss",
+          "date": "02.26 01:09",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -561,6 +589,13 @@
           "title": "The AI spending boom is creating winners beyond the 'Mag 7.' Why one sector could see big gains.",
           "url": "https://finance.yahoo.com/news/the-ai-spending-boom-is-creating-winners-beyond-the-mag-7-why-one-sector-could-see-big-gains-153820672.html?.tsrc=rss",
           "date": "02.27 00:38",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "AMAT Scales Up Logic, DRAM & Advanced Packaging: What's Ahead?",
+          "url": "https://finance.yahoo.com/news/amat-scales-logic-dram-advanced-152200621.html?.tsrc=rss",
+          "date": "02.27 00:22",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -586,9 +621,9 @@
           "has_name": true
         },
         {
-          "title": "KLA Rides on Strong Advanced Packaging Growth: More Upside Ahead?",
-          "url": "https://finance.yahoo.com/news/kla-rides-strong-advanced-packaging-160900645.html?.tsrc=rss",
-          "date": "02.26 01:09",
+          "title": "Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year?",
+          "url": "https://finance.yahoo.com/news/applied-materials-amat-outperforming-other-144006722.html?.tsrc=rss",
+          "date": "02.25 23:40",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -615,14 +650,14 @@
           "change_rate": "+0.5%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     },
     {
       "id": "sig_20260226_US_008",
       "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "Citigroup, invests",
-      "summary": "Citigroup은(는) Citigroup invests in Japan’s Sakana AI 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Citigroup 주가는 Citigroup invests in Japan’s Sakana AI 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Citigroup",
         "symbol": "C",
@@ -702,14 +737,14 @@
           "change_rate": "+2.9%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     },
     {
       "id": "sig_20260226_US_009",
       "theme": "#Nuclear",
       "signal_type": "이슈",
       "short_reason": "Constellation, Energy",
-      "summary": "Constellation Energy은(는) Constellation Energy sees surging power, capacity prices in 2025 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Constellation Energy 주가는 Constellation Energy sees surging power, capacity prices in 2025 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Constellation Energy",
         "symbol": "CEG",
@@ -775,14 +810,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     },
     {
       "id": "sig_20260226_US_010",
       "theme": "#Robotics",
       "signal_type": "이슈",
       "short_reason": "Teradyne, to",
-      "summary": "Teradyne은(는) Teradyne to Showcase Leading Semiconductor Test Solutions at IESA Vision Summit 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Teradyne 주가는 Teradyne to Showcase Leading Semiconductor Test Solutions at IESA Vision Summit 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Teradyne",
         "symbol": "TER",
@@ -840,7 +875,7 @@
           "change_rate": "+4.5%"
         }
       ],
-      "timestamp": "2026-02-27 02:05:53"
+      "timestamp": "2026-02-27 03:01:17"
     }
   ]
 }
