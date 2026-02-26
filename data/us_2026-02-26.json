@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27 00:59:34",
+  "last_updated": "2026-02-27 02:05:53",
   "signals": [
     {
       "id": "sig_20260226_US_001",
@@ -60,14 +60,14 @@
           "change_rate": "+0.6%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     },
     {
       "id": "sig_20260226_US_002",
       "theme": "#Software",
       "signal_type": "이슈",
       "short_reason": "Bitcoin’s, Brutal",
-      "summary": "오늘 MicroStrategy 주가는 Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "MicroStrategy은(는) Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "MicroStrategy",
         "symbol": "MSTR",
@@ -117,14 +117,14 @@
           "change_rate": "+13.5%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     },
     {
       "id": "sig_20260226_US_003",
       "theme": "#Entertainment",
       "signal_type": "이슈",
-      "short_reason": "Netflix, CFO",
-      "summary": "Netflix은(는) Netflix CFO to Participate in a Q&A session at the Morgan Stanley Technology, Media & Telecom Conference 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Netflix, Stock",
+      "summary": "Netflix은(는) Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Netflix",
         "symbol": "NFLX",
@@ -133,9 +133,23 @@
       },
       "news_articles": [
         {
-          "title": "Netflix CFO to Participate in a Q&A session at the Morgan Stanley Technology, Media & Telecom Conference",
-          "url": "https://finance.yahoo.com/news/netflix-cfo-participate-q-session-170000248.html?.tsrc=rss",
-          "date": "02.26 02:00",
+          "title": "Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid",
+          "url": "https://finance.yahoo.com/m/fccf14b2-e44f-3495-8594-69dcb55850c8/netflix-stock-has-best-day-in.html?.tsrc=rss",
+          "date": "02.26 01:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Apart From Nvidia, Stocks to Watch Thursday: Zoom, Trade Desk, Warner, Paramount",
+          "url": "https://finance.yahoo.com/m/8790153d-5710-3bd7-bd0f-cb3b330435b6/apart-from-nvidia%2C-stocks-to.html?.tsrc=rss",
+          "date": "02.27 01:46",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Netflix's Ad Revenue Is Expected to Surge 100% to $3 Billion: Is This the Best Stock to Buy Today With $1,000?",
+          "url": "https://www.fool.com/investing/2026/02/26/netflix-ad-revenue-surge-3-billion-best-stock-1000/?.tsrc=rss",
+          "date": "02.27 01:08",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -157,6 +171,13 @@
           "title": "Warner Bros. Earnings Report Falls Short. What It Means for the Netflix Takeover Saga.",
           "url": "https://finance.yahoo.com/m/6ef0e575-0edb-3df7-a2ee-c800644b3b19/warner-bros.-earnings-report.html?.tsrc=rss",
           "date": "02.26 23:54",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Netflix CFO to Participate in a Q&A session at the Morgan Stanley Technology, Media & Telecom Conference",
+          "url": "https://finance.yahoo.com/news/netflix-cfo-participate-q-session-170000248.html?.tsrc=rss",
+          "date": "02.26 02:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -192,13 +213,6 @@
           "title": "Netflix Loves to Watch Old People Fight",
           "url": "https://finance.yahoo.com/m/602e50b8-2ba2-30ce-af3c-5109375e7342/netflix-loves-to-watch-old.html?.tsrc=rss",
           "date": "02.26 21:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid",
-          "url": "https://finance.yahoo.com/m/fccf14b2-e44f-3495-8594-69dcb55850c8/netflix-stock-has-best-day-in.html?.tsrc=rss",
-          "date": "02.26 01:44",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -274,14 +288,14 @@
           "change_rate": "-2.6%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     },
     {
       "id": "sig_20260226_US_004",
       "theme": "#Retail",
       "signal_type": "이슈",
       "short_reason": "Stock, Market",
-      "summary": "Lowe's은(는) Stock Market Today, Feb. 25: Nasdaq Gains 1.3% As Nvidia Reignites AI Optimism 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Lowe's 주가는 Stock Market Today, Feb. 25: Nasdaq Gains 1.3% As Nvidia Reignites AI Optimism 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Lowe's",
         "symbol": "LOW",
@@ -293,6 +307,13 @@
           "title": "Stock Market Today, Feb. 25: Nasdaq Gains 1.3% As Nvidia Reignites AI Optimism",
           "url": "https://www.fool.com/coverage/stock-market-today/2026/02/25/stock-market-today-feb-25-nasdaq-gains-1-3-as-nvidia-reignites-ai-optimism/?.tsrc=rss",
           "date": "02.26 08:03",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Lowe’s Q4 Earnings Show Resilience Despite Housing Slump",
+          "url": "https://247wallst.com/investing/2026/02/26/lowes-q4-earnings-show-resilience-despite-housing-slump/?.tsrc=rss",
+          "date": "02.27 00:47",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -335,14 +356,14 @@
           "change_rate": "-0.8%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     },
     {
       "id": "sig_20260226_US_005",
       "theme": "#Retail",
       "signal_type": "이슈",
       "short_reason": "Airbnb, Is",
-      "summary": "Airbnb은(는) Airbnb Is Testing Airport Pickups. Are Flights Next? 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Airbnb 주가는 Airbnb Is Testing Airport Pickups. Are Flights Next? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Airbnb",
         "symbol": "ABNB",
@@ -354,6 +375,13 @@
           "title": "Airbnb Is Testing Airport Pickups. Are Flights Next?",
           "url": "https://finance.yahoo.com/news/airbnb-testing-airport-pickups-flights-212047469.html?.tsrc=rss",
           "date": "02.24 06:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Waseem Limbada Consultant, Airbnb Advocates for Athlete \"Plan B\" Education and Capital Literacy",
+          "url": "https://finance.yahoo.com/news/waseem-limbada-consultant-airbnb-advocates-170000523.html?.tsrc=rss",
+          "date": "02.27 02:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -396,14 +424,14 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     },
     {
       "id": "sig_20260226_US_006",
       "theme": "#Data",
       "signal_type": "이슈",
-      "short_reason": "Snowflake, Earnings",
-      "summary": "오늘 Snowflake 주가는 Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Snowflake, Stock",
+      "summary": "Snowflake은(는) Snowflake Stock Loses Steam After Earnings Beat 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Snowflake",
         "symbol": "SNOW",
@@ -412,9 +440,37 @@
       },
       "news_articles": [
         {
-          "title": "Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push",
-          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat%2C.html?.tsrc=rss",
-          "date": "02.26 21:29",
+          "title": "Snowflake Stock Loses Steam After Earnings Beat",
+          "url": "https://finance.yahoo.com/m/eee87f7a-1265-397d-a111-d32a8dcd9642/snowflake-stock-loses-steam.html?.tsrc=rss",
+          "date": "02.26 20:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake's Fiscal 2027 Growth Guidance 'Well Above' Buyside Expectations, UBS Says",
+          "url": "https://finance.yahoo.com/news/snowflake-apos-fiscal-2027-growth-163830355.html?.tsrc=rss",
+          "date": "02.27 01:38",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake Stock Surges After Q4 Revenue Jumps 30%, EPS Tops Estimates",
+          "url": "https://finance.yahoo.com/news/snowflake-stock-surges-q4-revenue-163349311.html?.tsrc=rss",
+          "date": "02.27 01:33",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake's Q4 Results Indicate 'Health Demand Environment,' Morgan Stanley Says",
+          "url": "https://finance.yahoo.com/news/snowflake-apos-q4-results-indicate-162225917.html?.tsrc=rss",
+          "date": "02.27 01:22",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Nvidia’s Huge Numbers Don’t Settle the Latest AI Fears",
+          "url": "https://finance.yahoo.com/m/f40ac609-e6cc-3089-979e-d6fc6be174fe/why-nvidia%E2%80%99s-huge-numbers.html?.tsrc=rss",
+          "date": "02.27 00:39",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -422,6 +478,13 @@
           "title": "Snowflake shares rise on AI-driven growth outlook",
           "url": "https://www.proactiveinvestors.com/companies/news/1088000/snowflake-shares-rise-on-ai-driven-growth-outlook-1088000.html?.tsrc=rss",
           "date": "02.27 00:36",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push",
+          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat%2C.html?.tsrc=rss",
+          "date": "02.26 21:29",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -452,20 +515,6 @@
           "date": "02.26 21:19",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Snowflake Stock Loses Steam After Earnings Beat",
-          "url": "https://finance.yahoo.com/m/eee87f7a-1265-397d-a111-d32a8dcd9642/snowflake-stock-loses-steam.html?.tsrc=rss",
-          "date": "02.26 20:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Why Nvidia’s Huge Numbers Don’t Settle the Latest AI Fears",
-          "url": "https://finance.yahoo.com/m/f40ac609-e6cc-3089-979e-d6fc6be174fe/why-nvidia%E2%80%99s-huge-numbers.html?.tsrc=rss",
-          "date": "02.26 19:30",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -486,7 +535,7 @@
           "change_rate": "+4.2%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     },
     {
       "id": "sig_20260226_US_007",
@@ -566,14 +615,14 @@
           "change_rate": "+0.5%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     },
     {
       "id": "sig_20260226_US_008",
       "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "Citigroup, invests",
-      "summary": "오늘 Citigroup 주가는 Citigroup invests in Japan’s Sakana AI 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Citigroup은(는) Citigroup invests in Japan’s Sakana AI 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Citigroup",
         "symbol": "C",
@@ -585,6 +634,13 @@
           "title": "Citigroup invests in Japan’s Sakana AI",
           "url": "https://www.retailbankerinternational.com/news/citigroup-invests-in-sakana-ai/?.tsrc=rss",
           "date": "02.26 23:36",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Citigroup Inc. (C) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://finance.yahoo.com/news/citigroup-inc-c-trending-stock-140007676.html?.tsrc=rss",
+          "date": "02.26 23:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -646,7 +702,7 @@
           "change_rate": "+2.9%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     },
     {
       "id": "sig_20260226_US_009",
@@ -719,7 +775,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     },
     {
       "id": "sig_20260226_US_010",
@@ -784,7 +840,7 @@
           "change_rate": "+4.5%"
         }
       ],
-      "timestamp": "2026-02-27 00:59:34"
+      "timestamp": "2026-02-27 02:05:53"
     }
   ]
 }
