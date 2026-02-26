@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26 23:54:00",
+  "last_updated": "2026-02-27 00:59:34",
   "signals": [
     {
       "id": "sig_20260226_US_001",
       "theme": "#Financials",
       "signal_type": "이슈",
       "short_reason": "Coinbase, Soars",
-      "summary": "Coinbase은(는) Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too. 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Coinbase 주가는 Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Coinbase",
         "symbol": "COIN",
@@ -60,14 +60,14 @@
           "change_rate": "+0.6%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     },
     {
       "id": "sig_20260226_US_002",
       "theme": "#Software",
       "signal_type": "이슈",
       "short_reason": "Bitcoin’s, Brutal",
-      "summary": "MicroStrategy은(는) Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 MicroStrategy 주가는 Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "MicroStrategy",
         "symbol": "MSTR",
@@ -117,14 +117,14 @@
           "change_rate": "+13.5%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     },
     {
       "id": "sig_20260226_US_003",
       "theme": "#Entertainment",
       "signal_type": "이슈",
-      "short_reason": "Netflix’s, Warner",
-      "summary": "Netflix은(는) Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’ 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Netflix, CFO",
+      "summary": "Netflix은(는) Netflix CFO to Participate in a Q&A session at the Morgan Stanley Technology, Media & Telecom Conference 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Netflix",
         "symbol": "NFLX",
@@ -133,9 +133,30 @@
       },
       "news_articles": [
         {
-          "title": "Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’",
-          "url": "https://finance.yahoo.com/m/88b36006-60b3-364e-a904-a8b0b480c5e1/netflix%E2%80%99s-warner-deal-may-be.html?.tsrc=rss",
-          "date": "02.26 00:01",
+          "title": "Netflix CFO to Participate in a Q&A session at the Morgan Stanley Technology, Media & Telecom Conference",
+          "url": "https://finance.yahoo.com/news/netflix-cfo-participate-q-session-170000248.html?.tsrc=rss",
+          "date": "02.26 02:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Say Hello to the Growth Stock That's Winning the Streaming Wars",
+          "url": "https://www.fool.com/investing/2026/02/26/say-hello-growth-stock-winning-streaming-wars/?.tsrc=rss",
+          "date": "02.27 00:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Warner Bros. Discovery Revenue Falls 6% as Deal Talks Intensify",
+          "url": "https://finance.yahoo.com/news/warner-bros-discovery-revenue-falls-152906702.html?.tsrc=rss",
+          "date": "02.27 00:29",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Warner Bros. Earnings Report Falls Short. What It Means for the Netflix Takeover Saga.",
+          "url": "https://finance.yahoo.com/m/6ef0e575-0edb-3df7-a2ee-c800644b3b19/warner-bros.-earnings-report.html?.tsrc=rss",
+          "date": "02.26 23:54",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -154,9 +175,9 @@
           "has_name": true
         },
         {
-          "title": "Warner Bros. Earnings Report Falls Short. What It Means for the Netflix Takeover Saga.",
-          "url": "https://finance.yahoo.com/m/6ef0e575-0edb-3df7-a2ee-c800644b3b19/warner-bros.-earnings-report.html?.tsrc=rss",
-          "date": "02.26 21:58",
+          "title": "Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’",
+          "url": "https://finance.yahoo.com/m/88b36006-60b3-364e-a904-a8b0b480c5e1/netflix%E2%80%99s-warner-deal-may-be.html?.tsrc=rss",
+          "date": "02.26 00:01",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -185,13 +206,6 @@
           "title": "Paramount Skydance Just Raised its Bid for Warner Bros. -- Is the Netflix Deal Dead?",
           "url": "https://www.fool.com/investing/2026/02/25/paramount-skydance-just-raised-its-bid-for-warner/?.tsrc=rss",
           "date": "02.26 02:16",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix CFO to Participate in a Q&A session at the Morgan Stanley Technology, Media & Telecom Conference",
-          "url": "https://finance.yahoo.com/news/netflix-cfo-participate-q-session-170000248.html?.tsrc=rss",
-          "date": "02.26 02:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -260,7 +274,7 @@
           "change_rate": "-2.6%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     },
     {
       "id": "sig_20260226_US_004",
@@ -321,14 +335,14 @@
           "change_rate": "-0.8%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     },
     {
       "id": "sig_20260226_US_005",
       "theme": "#Retail",
       "signal_type": "이슈",
       "short_reason": "Airbnb, Is",
-      "summary": "오늘 Airbnb 주가는 Airbnb Is Testing Airport Pickups. Are Flights Next? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Airbnb은(는) Airbnb Is Testing Airport Pickups. Are Flights Next? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Airbnb",
         "symbol": "ABNB",
@@ -382,14 +396,14 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     },
     {
       "id": "sig_20260226_US_006",
       "theme": "#Data",
       "signal_type": "이슈",
-      "short_reason": "Snowflake, Stock",
-      "summary": "Snowflake은(는) Snowflake Stock Loses Steam After Earnings Beat 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Snowflake, Earnings",
+      "summary": "오늘 Snowflake 주가는 Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Snowflake",
         "symbol": "SNOW",
@@ -398,9 +412,30 @@
       },
       "news_articles": [
         {
-          "title": "Snowflake Stock Loses Steam After Earnings Beat",
-          "url": "https://finance.yahoo.com/m/eee87f7a-1265-397d-a111-d32a8dcd9642/snowflake-stock-loses-steam.html?.tsrc=rss",
-          "date": "02.26 20:00",
+          "title": "Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push",
+          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat%2C.html?.tsrc=rss",
+          "date": "02.26 21:29",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake shares rise on AI-driven growth outlook",
+          "url": "https://www.proactiveinvestors.com/companies/news/1088000/snowflake-shares-rise-on-ai-driven-growth-outlook-1088000.html?.tsrc=rss",
+          "date": "02.27 00:36",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Jim Cramer Says Companies Like Snowflake “Become Too Cheap to Ignore” At Some Point",
+          "url": "https://finance.yahoo.com/news/jim-cramer-says-companies-snowflake-150219487.html?.tsrc=rss",
+          "date": "02.27 00:02",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake Earnings Beat. Software Stock Reverses Up On Big Customer Growth",
+          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat..html?.tsrc=rss",
+          "date": "02.26 23:49",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -412,16 +447,16 @@
           "has_name": true
         },
         {
-          "title": "Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push",
-          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat%2C.html?.tsrc=rss",
-          "date": "02.26 21:29",
+          "title": "Stocks Decline Pre-Bell as Traders Parse Nvidia's Earnings",
+          "url": "https://finance.yahoo.com/news/stocks-decline-pre-bell-traders-121910188.html?.tsrc=rss",
+          "date": "02.26 21:19",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Stocks Decline Pre-Bell as Traders Parse Nvidia's Earnings",
-          "url": "https://finance.yahoo.com/news/stocks-decline-pre-bell-traders-121910188.html?.tsrc=rss",
-          "date": "02.26 21:19",
+          "title": "Snowflake Stock Loses Steam After Earnings Beat",
+          "url": "https://finance.yahoo.com/m/eee87f7a-1265-397d-a111-d32a8dcd9642/snowflake-stock-loses-steam.html?.tsrc=rss",
+          "date": "02.26 20:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -451,7 +486,7 @@
           "change_rate": "+4.2%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     },
     {
       "id": "sig_20260226_US_007",
@@ -470,6 +505,13 @@
           "title": "Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year?",
           "url": "https://finance.yahoo.com/news/applied-materials-amat-outperforming-other-144006722.html?.tsrc=rss",
           "date": "02.25 23:40",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "The AI spending boom is creating winners beyond the 'Mag 7.' Why one sector could see big gains.",
+          "url": "https://finance.yahoo.com/news/the-ai-spending-boom-is-creating-winners-beyond-the-mag-7-why-one-sector-could-see-big-gains-153820672.html?.tsrc=rss",
+          "date": "02.27 00:38",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -524,14 +566,14 @@
           "change_rate": "+0.5%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     },
     {
       "id": "sig_20260226_US_008",
       "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "Citigroup, invests",
-      "summary": "Citigroup은(는) Citigroup invests in Japan’s Sakana AI 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Citigroup 주가는 Citigroup invests in Japan’s Sakana AI 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Citigroup",
         "symbol": "C",
@@ -568,6 +610,13 @@
           "has_name": true
         },
         {
+          "title": "Is Citigroup Stock Underperforming the Nasdaq?",
+          "url": "https://www.barchart.com/story/news/439178/is-citigroup-stock-underperforming-the-nasdaq?.tsrc=rss",
+          "date": "02.26 21:40",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "How The Investment Story For USA TODAY (GCI) Is Shifting With New Targets And AI Deals",
           "url": "https://finance.yahoo.com/news/investment-story-usa-today-gci-043444790.html?.tsrc=rss",
           "date": "02.26 13:34",
@@ -597,7 +646,7 @@
           "change_rate": "+2.9%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     },
     {
       "id": "sig_20260226_US_009",
@@ -670,14 +719,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     },
     {
       "id": "sig_20260226_US_010",
       "theme": "#Robotics",
       "signal_type": "이슈",
       "short_reason": "Teradyne, to",
-      "summary": "오늘 Teradyne 주가는 Teradyne to Showcase Leading Semiconductor Test Solutions at IESA Vision Summit 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Teradyne은(는) Teradyne to Showcase Leading Semiconductor Test Solutions at IESA Vision Summit 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Teradyne",
         "symbol": "TER",
@@ -735,7 +784,7 @@
           "change_rate": "+4.5%"
         }
       ],
-      "timestamp": "2026-02-26 23:54:00"
+      "timestamp": "2026-02-27 00:59:34"
     }
   ]
 }
