@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-27 04:01:28",
+  "last_updated": "2026-02-27 04:47:10",
   "signals": [
     {
       "id": "sig_20260226_US_001",
       "theme": "#Financials",
       "signal_type": "이슈",
       "short_reason": "Coinbase, Soars",
-      "summary": "Coinbase은(는) Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too. 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Coinbase 주가는 Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Coinbase",
         "symbol": "COIN",
@@ -60,14 +60,14 @@
           "change_rate": "+0.6%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     },
     {
       "id": "sig_20260226_US_002",
       "theme": "#Software",
       "signal_type": "이슈",
-      "short_reason": "Bitcoin’s, Brutal",
-      "summary": "오늘 MicroStrategy 주가는 Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "MicroStrategy’s, Latest",
+      "summary": "오늘 MicroStrategy 주가는 MicroStrategy’s Latest Bitcoin Buy Triggers New Worries For MSTR Stock Price 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "MicroStrategy",
         "symbol": "MSTR",
@@ -76,9 +76,9 @@
       },
       "news_articles": [
         {
-          "title": "Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers",
-          "url": "https://247wallst.com/investing/2026/02/25/bitcoins-brutal-pullback-has-arkb-investors-searching-for-answers/?.tsrc=rss",
-          "date": "02.26 03:03",
+          "title": "MicroStrategy’s Latest Bitcoin Buy Triggers New Worries For MSTR Stock Price",
+          "url": "https://beincrypto.com/microstrategy-stock-price-prediction-after-latest-bitcoin-buy/?.tsrc=rss",
+          "date": "02.27 04:13",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -111,6 +111,13 @@
           "has_name": true
         },
         {
+          "title": "Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers",
+          "url": "https://247wallst.com/investing/2026/02/25/bitcoins-brutal-pullback-has-arkb-investors-searching-for-answers/?.tsrc=rss",
+          "date": "02.26 03:03",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Strategy’s 100th Bitcoin Purchase Deepens Volatility And Institutional Risk Questions",
           "url": "https://finance.yahoo.com/news/strategy-100th-bitcoin-purchase-deepens-200627114.html?.tsrc=rss",
           "date": "02.26 05:06",
@@ -124,14 +131,14 @@
           "change_rate": "+13.5%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     },
     {
       "id": "sig_20260226_US_003",
       "theme": "#Entertainment",
       "signal_type": "이슈",
-      "short_reason": "Netflix’s, Warner",
-      "summary": "오늘 Netflix 주가는 Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’ 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Netflix, Takeover",
+      "summary": "Netflix은(는) Netflix Takeover Bid For Warner Bros. Discovery Faces Rising Risks 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Netflix",
         "symbol": "NFLX",
@@ -140,9 +147,9 @@
       },
       "news_articles": [
         {
-          "title": "Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’",
-          "url": "https://finance.yahoo.com/m/88b36006-60b3-364e-a904-a8b0b480c5e1/netflix%E2%80%99s-warner-deal-may-be.html?.tsrc=rss",
-          "date": "02.26 00:01",
+          "title": "Netflix Takeover Bid For Warner Bros. Discovery Faces Rising Risks",
+          "url": "https://finance.yahoo.com/news/netflix-takeover-bid-warner-bros-130936681.html?.tsrc=rss",
+          "date": "02.26 22:09",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -178,6 +185,13 @@
           "title": "Say Hello to the Growth Stock That's Winning the Streaming Wars",
           "url": "https://www.fool.com/investing/2026/02/26/say-hello-growth-stock-winning-streaming-wars/?.tsrc=rss",
           "date": "02.27 00:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’",
+          "url": "https://finance.yahoo.com/m/88b36006-60b3-364e-a904-a8b0b480c5e1/netflix%E2%80%99s-warner-deal-may-be.html?.tsrc=rss",
+          "date": "02.26 00:01",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -220,13 +234,6 @@
           "title": "Warner Bros. Posts Mixed Fourth-Quarter Results as Deal Talks With Paramount Continue",
           "url": "https://finance.yahoo.com/news/warner-bros-posts-mixed-fourth-144812463.html?.tsrc=rss",
           "date": "02.26 23:48",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Takeover Bid For Warner Bros. Discovery Faces Rising Risks",
-          "url": "https://finance.yahoo.com/news/netflix-takeover-bid-warner-bros-130936681.html?.tsrc=rss",
-          "date": "02.26 22:09",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -309,14 +316,14 @@
           "change_rate": "-2.6%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     },
     {
       "id": "sig_20260226_US_004",
       "theme": "#Retail",
       "signal_type": "이슈",
       "short_reason": "Lowe's, Aims",
-      "summary": "Lowe's 주가는 Lowe's Aims for $1 Billion in Productivity Gains in 2026 to Counter Cost Inflation, RBC Says 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Lowe's은(는) Lowe's Aims for $1 Billion in Productivity Gains in 2026 to Counter Cost Inflation, RBC Says 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Lowe's",
         "symbol": "LOW",
@@ -384,7 +391,7 @@
           "change_rate": "-0.8%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     },
     {
       "id": "sig_20260226_US_005",
@@ -452,14 +459,14 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     },
     {
       "id": "sig_20260226_US_006",
       "theme": "#Data",
       "signal_type": "이슈",
-      "short_reason": "Snowflake, Earnings",
-      "summary": "Snowflake은(는) Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Snowflake, shares",
+      "summary": "Snowflake은(는) Snowflake shares rise on AI-driven growth outlook 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Snowflake",
         "symbol": "SNOW",
@@ -468,9 +475,9 @@
       },
       "news_articles": [
         {
-          "title": "Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push",
-          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat%2C.html?.tsrc=rss",
-          "date": "02.26 21:29",
+          "title": "Snowflake shares rise on AI-driven growth outlook",
+          "url": "https://www.proactiveinvestors.com/companies/news/1088000/snowflake-shares-rise-on-ai-driven-growth-outlook-1088000.html?.tsrc=rss",
+          "date": "02.27 00:36",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -478,6 +485,20 @@
           "title": "Why Snowflake (SNOW) Stock Is Trading Up Today",
           "url": "https://finance.yahoo.com/news/why-snowflake-snow-stock-trading-182933452.html?.tsrc=rss",
           "date": "02.27 03:29",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake Q4 Earnings Beat Estimates, Revenues Up Y/Y, Shares Fall",
+          "url": "https://finance.yahoo.com/news/snowflake-q4-earnings-beat-estimates-175100585.html?.tsrc=rss",
+          "date": "02.27 02:51",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake vs. Samsara: Which Cloud Data Stock Has an Edge Now?",
+          "url": "https://finance.yahoo.com/news/snowflake-vs-samsara-cloud-data-174900324.html?.tsrc=rss",
+          "date": "02.27 02:49",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -492,6 +513,13 @@
           "title": "Snowflake Seen as 'AI Winner' as Companies Move More Data to AI Workflows, Wedbush Says",
           "url": "https://finance.yahoo.com/news/snowflake-seen-apos-ai-winner-171249921.html?.tsrc=rss",
           "date": "02.27 02:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push",
+          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat%2C.html?.tsrc=rss",
+          "date": "02.26 21:29",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -538,13 +566,6 @@
           "has_name": true
         },
         {
-          "title": "Snowflake shares rise on AI-driven growth outlook",
-          "url": "https://www.proactiveinvestors.com/companies/news/1088000/snowflake-shares-rise-on-ai-driven-growth-outlook-1088000.html?.tsrc=rss",
-          "date": "02.27 00:36",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
           "title": "Jim Cramer Says Companies Like Snowflake “Become Too Cheap to Ignore” At Some Point",
           "url": "https://finance.yahoo.com/news/jim-cramer-says-companies-snowflake-150219487.html?.tsrc=rss",
           "date": "02.27 00:02",
@@ -584,14 +605,14 @@
           "change_rate": "+4.2%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     },
     {
       "id": "sig_20260226_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
-      "short_reason": "Is, Applied",
-      "summary": "오늘 Applied Materials 주가는 Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Is, It",
+      "summary": "오늘 Applied Materials 주가는 Is It Too Late To Consider Applied Materials (AMAT) After A 130% One Year Surge? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -600,9 +621,16 @@
       },
       "news_articles": [
         {
-          "title": "Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year?",
-          "url": "https://finance.yahoo.com/news/applied-materials-amat-outperforming-other-144006722.html?.tsrc=rss",
-          "date": "02.25 23:40",
+          "title": "Is It Too Late To Consider Applied Materials (AMAT) After A 130% One Year Surge?",
+          "url": "https://finance.yahoo.com/news/too-consider-applied-materials-amat-211159661.html?.tsrc=rss",
+          "date": "02.26 06:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Equity Markets Mostly Fall Intraday as Nvidia Drags Tech Lower",
+          "url": "https://finance.yahoo.com/news/equity-markets-mostly-fall-intraday-190859168.html?.tsrc=rss",
+          "date": "02.27 04:08",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -635,6 +663,13 @@
           "has_name": true
         },
         {
+          "title": "Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year?",
+          "url": "https://finance.yahoo.com/news/applied-materials-amat-outperforming-other-144006722.html?.tsrc=rss",
+          "date": "02.25 23:40",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Heard on the Street Recap: Netflix and Chill",
           "url": "https://finance.yahoo.com/m/78a95185-23a1-3cb7-9223-b80bf09be94e/heard-on-the-street-recap%3A.html?.tsrc=rss",
           "date": "02.26 06:31",
@@ -645,13 +680,6 @@
           "title": "KLA Rides on Strong Advanced Packaging Growth: More Upside Ahead?",
           "url": "https://finance.yahoo.com/news/kla-rides-strong-advanced-packaging-160900645.html?.tsrc=rss",
           "date": "02.26 01:09",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is It Too Late To Consider Applied Materials (AMAT) After A 130% One Year Surge?",
-          "url": "https://finance.yahoo.com/news/too-consider-applied-materials-amat-211159661.html?.tsrc=rss",
-          "date": "02.26 06:11",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -678,14 +706,14 @@
           "change_rate": "+0.5%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     },
     {
       "id": "sig_20260226_US_008",
       "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "Citigroup, invests",
-      "summary": "Citigroup은(는) Citigroup invests in Japan’s Sakana AI 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Citigroup 주가는 Citigroup invests in Japan’s Sakana AI 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Citigroup",
         "symbol": "C",
@@ -779,14 +807,14 @@
           "change_rate": "+2.9%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     },
     {
       "id": "sig_20260226_US_009",
       "theme": "#Nuclear",
       "signal_type": "이슈",
       "short_reason": "Constellation, Energy",
-      "summary": "오늘 Constellation Energy 주가는 Constellation Energy sees surging power, capacity prices in 2025 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Constellation Energy은(는) Constellation Energy sees surging power, capacity prices in 2025 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Constellation Energy",
         "symbol": "CEG",
@@ -852,7 +880,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     },
     {
       "id": "sig_20260226_US_010",
@@ -917,7 +945,7 @@
           "change_rate": "+4.5%"
         }
       ],
-      "timestamp": "2026-02-27 04:01:28"
+      "timestamp": "2026-02-27 04:47:10"
     }
   ]
 }
