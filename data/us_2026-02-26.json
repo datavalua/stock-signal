@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27 05:59:13",
+  "last_updated": "2026-02-27 06:38:27",
   "signals": [
     {
       "id": "sig_20260226_US_001",
@@ -18,6 +18,13 @@
           "title": "Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too.",
           "url": "https://finance.yahoo.com/m/18db5a1b-db41-33e5-a5f6-430b8f4dfbed/coinbase-soars-after.html?.tsrc=rss",
           "date": "02.26 04:46",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Coinbase Expands Into Stocks, Targets 'Everything Exchange'",
+          "url": "https://finance.yahoo.com/news/coinbase-expands-stocks-targets-everything-200900516.html?.tsrc=rss",
+          "date": "02.27 05:09",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -60,7 +67,7 @@
           "change_rate": "+0.6%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     },
     {
       "id": "sig_20260226_US_002",
@@ -79,6 +86,20 @@
           "title": "MicroStrategy’s Latest Bitcoin Buy Triggers New Worries For MSTR Stock Price",
           "url": "https://beincrypto.com/microstrategy-stock-price-prediction-after-latest-bitcoin-buy/?.tsrc=rss",
           "date": "02.27 04:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Morgan Stanley 'Absolutely' Plans to Offer Bitcoin Custody, Trading, Yield and Lending: Exec",
+          "url": "https://decrypt.co/359312/morgan-stanley-offer-bitcoin-custody-trading-yield-lending-exec?.tsrc=rss",
+          "date": "02.27 06:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is There Now An Opportunity In Strategy (MSTR) After Its 1-Year 48% Share Price Fall?",
+          "url": "https://finance.yahoo.com/news/now-opportunity-strategy-mstr-1-210953084.html?.tsrc=rss",
+          "date": "02.27 06:09",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -138,14 +159,14 @@
           "change_rate": "+13.5%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     },
     {
       "id": "sig_20260226_US_003",
       "theme": "#Entertainment",
       "signal_type": "이슈",
-      "short_reason": "Netflix, Stock",
-      "summary": "오늘 Netflix 주가는 Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Netflix, Loves",
+      "summary": "오늘 Netflix 주가는 Netflix Loves to Watch Old People Fight 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Netflix",
         "symbol": "NFLX",
@@ -154,9 +175,37 @@
       },
       "news_articles": [
         {
-          "title": "Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid",
-          "url": "https://finance.yahoo.com/m/fccf14b2-e44f-3495-8594-69dcb55850c8/netflix-stock-has-best-day-in.html?.tsrc=rss",
-          "date": "02.26 01:44",
+          "title": "Netflix Loves to Watch Old People Fight",
+          "url": "https://finance.yahoo.com/m/602e50b8-2ba2-30ce-af3c-5109375e7342/netflix-loves-to-watch-old.html?.tsrc=rss",
+          "date": "02.26 21:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "PARAMOUNT COMMENTS ON WARNER BROS. DISCOVERY BOARD'S DETERMINATION OF PARAMOUNT'S PROPOSAL AS SUPERIOR",
+          "url": "https://finance.yahoo.com/news/paramount-comments-warner-bros-discovery-213500663.html?.tsrc=rss",
+          "date": "02.27 06:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Warner Bros says Paramount bid superior, countdown begins for Netflix response",
+          "url": "https://ca.finance.yahoo.com/news/warner-bros-says-paramount-bid-212426717.html?.tsrc=rss",
+          "date": "02.27 06:33",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Warner deems Paramount's takeover bid superior to Netflix; Netflix has 4 business days to counter",
+          "url": "https://finance.yahoo.com/news/warner-deems-paramounts-takeover-bid-213252118.html?.tsrc=rss",
+          "date": "02.27 06:32",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Warner Bros. Discovery Board of Directors Determines Revised Proposal from Paramount Skydance Constitutes a \"Company Superior Proposal\"",
+          "url": "https://finance.yahoo.com/news/warner-bros-discovery-board-directors-211500547.html?.tsrc=rss",
+          "date": "02.27 06:15",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -164,6 +213,13 @@
           "title": "2 Stock-Split Stocks to Buy and Hold for the Next 10 Years",
           "url": "https://www.fool.com/investing/2026/02/26/2-stock-split-stocks-to-buy-and-hold-for-10-years/?.tsrc=rss",
           "date": "02.27 05:23",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid",
+          "url": "https://finance.yahoo.com/m/fccf14b2-e44f-3495-8594-69dcb55850c8/netflix-stock-has-best-day-in.html?.tsrc=rss",
+          "date": "02.26 01:44",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -234,13 +290,6 @@
           "title": "Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’",
           "url": "https://finance.yahoo.com/m/88b36006-60b3-364e-a904-a8b0b480c5e1/netflix%E2%80%99s-warner-deal-may-be.html?.tsrc=rss",
           "date": "02.26 00:01",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Loves to Watch Old People Fight",
-          "url": "https://finance.yahoo.com/m/602e50b8-2ba2-30ce-af3c-5109375e7342/netflix-loves-to-watch-old.html?.tsrc=rss",
-          "date": "02.26 21:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -344,7 +393,7 @@
           "change_rate": "-2.6%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     },
     {
       "id": "sig_20260226_US_004",
@@ -363,6 +412,13 @@
           "title": "Lowe's Aims for $1 Billion in Productivity Gains in 2026 to Counter Cost Inflation, RBC Says",
           "url": "https://finance.yahoo.com/news/lowe-apos-aims-1-billion-173048244.html?.tsrc=rss",
           "date": "02.27 02:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "What the stock market is saying about the housing market",
+          "url": "https://www.thestreet.com/economy/what-the-stock-market-is-saying-about-the-housing-market?.tsrc=rss",
+          "date": "02.27 06:07",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -419,14 +475,14 @@
           "change_rate": "-0.8%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     },
     {
       "id": "sig_20260226_US_005",
       "theme": "#Retail",
       "signal_type": "이슈",
       "short_reason": "Airbnb, Is",
-      "summary": "오늘 Airbnb 주가는 Airbnb Is Testing Airport Pickups. Are Flights Next? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Airbnb은(는) Airbnb Is Testing Airport Pickups. Are Flights Next? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Airbnb",
         "symbol": "ABNB",
@@ -438,6 +494,13 @@
           "title": "Airbnb Is Testing Airport Pickups. Are Flights Next?",
           "url": "https://finance.yahoo.com/news/airbnb-testing-airport-pickups-flights-212047469.html?.tsrc=rss",
           "date": "02.24 06:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Payoneer Global Inc (PAYO) Q4 2025 Earnings Call Highlights: Record Revenue Growth and ...",
+          "url": "https://finance.yahoo.com/news/payoneer-global-inc-payo-q4-210800252.html?.tsrc=rss",
+          "date": "02.27 06:08",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -487,14 +550,14 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     },
     {
       "id": "sig_20260226_US_006",
       "theme": "#Data",
       "signal_type": "이슈",
-      "short_reason": "Snowflake's, Q4",
-      "summary": "오늘 Snowflake 주가는 Snowflake's Q4 Results Indicate 'Health Demand Environment,' Morgan Stanley Says 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Snowflake, Earnings",
+      "summary": "오늘 Snowflake 주가는 Snowflake Earnings Beat. Software Stock Reverses Up On Big Customer Growth 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Snowflake",
         "symbol": "SNOW",
@@ -503,9 +566,9 @@
       },
       "news_articles": [
         {
-          "title": "Snowflake's Q4 Results Indicate 'Health Demand Environment,' Morgan Stanley Says",
-          "url": "https://finance.yahoo.com/news/snowflake-apos-q4-results-indicate-162225917.html?.tsrc=rss",
-          "date": "02.27 01:22",
+          "title": "Snowflake Earnings Beat. Software Stock Reverses Up On Big Customer Growth",
+          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat..html?.tsrc=rss",
+          "date": "02.26 23:49",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -545,6 +608,13 @@
           "has_name": true
         },
         {
+          "title": "Snowflake's Q4 Results Indicate 'Health Demand Environment,' Morgan Stanley Says",
+          "url": "https://finance.yahoo.com/news/snowflake-apos-q4-results-indicate-162225917.html?.tsrc=rss",
+          "date": "02.27 01:22",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Snowflake Stock Loses Steam After Earnings Beat",
           "url": "https://finance.yahoo.com/m/eee87f7a-1265-397d-a111-d32a8dcd9642/snowflake-stock-loses-steam.html?.tsrc=rss",
           "date": "02.26 20:00",
@@ -576,13 +646,6 @@
           "title": "Snowflake Stock Surges After Q4 Revenue Jumps 30%, EPS Tops Estimates",
           "url": "https://finance.yahoo.com/news/snowflake-stock-surges-q4-revenue-163349311.html?.tsrc=rss",
           "date": "02.27 01:33",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake Earnings Beat. Software Stock Reverses Up On Big Customer Growth",
-          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat..html?.tsrc=rss",
-          "date": "02.26 23:49",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -633,14 +696,14 @@
           "change_rate": "+4.2%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     },
     {
       "id": "sig_20260226_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
-      "short_reason": "Heard, on",
-      "summary": "Applied Materials은(는) Heard on the Street Recap: Netflix and Chill 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "Is, Applied",
+      "summary": "Applied Materials은(는) Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -649,9 +712,23 @@
       },
       "news_articles": [
         {
-          "title": "Heard on the Street Recap: Netflix and Chill",
-          "url": "https://finance.yahoo.com/m/78a95185-23a1-3cb7-9223-b80bf09be94e/heard-on-the-street-recap%3A.html?.tsrc=rss",
-          "date": "02.26 06:31",
+          "title": "Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year?",
+          "url": "https://finance.yahoo.com/news/applied-materials-amat-outperforming-other-144006722.html?.tsrc=rss",
+          "date": "02.25 23:40",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nasdaq, S&P 500 Drop as Semiconductor Stocks Slide After Nvidia Results",
+          "url": "https://finance.yahoo.com/news/nasdaq-p-500-drop-semiconductor-212059816.html?.tsrc=rss",
+          "date": "02.27 06:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nishant Sinha Joins Atomera as Head of Marketing to Drive Strategy and Growth in Advanced Semiconductor Materials",
+          "url": "https://finance.yahoo.com/news/nishant-sinha-joins-atomera-head-210500946.html?.tsrc=rss",
+          "date": "02.27 06:05",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -673,6 +750,13 @@
           "title": "US Equity Indexes Head Lower as Chipmakers Slump Following Nvidia's Results",
           "url": "https://finance.yahoo.com/news/us-equity-indexes-head-lower-181333635.html?.tsrc=rss",
           "date": "02.27 03:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Heard on the Street Recap: Netflix and Chill",
+          "url": "https://finance.yahoo.com/m/78a95185-23a1-3cb7-9223-b80bf09be94e/heard-on-the-street-recap%3A.html?.tsrc=rss",
+          "date": "02.26 06:31",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -710,13 +794,6 @@
           "date": "02.26 06:11",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year?",
-          "url": "https://finance.yahoo.com/news/applied-materials-amat-outperforming-other-144006722.html?.tsrc=rss",
-          "date": "02.25 23:40",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -741,14 +818,14 @@
           "change_rate": "+0.5%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     },
     {
       "id": "sig_20260226_US_008",
       "theme": "#Finance",
       "signal_type": "이슈",
-      "short_reason": "Citigroup, invests",
-      "summary": "오늘 Citigroup 주가는 Citigroup invests in Japan’s Sakana AI 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "Citigroup, Inc.",
+      "summary": "오늘 Citigroup 주가는 Citigroup Inc. (C) Is a Trending Stock: Facts to Know Before Betting on It 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Citigroup",
         "symbol": "C",
@@ -757,9 +834,23 @@
       },
       "news_articles": [
         {
-          "title": "Citigroup invests in Japan’s Sakana AI",
-          "url": "https://www.retailbankerinternational.com/news/citigroup-invests-in-sakana-ai/?.tsrc=rss",
-          "date": "02.26 23:36",
+          "title": "Citigroup Inc. (C) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://finance.yahoo.com/news/citigroup-inc-c-trending-stock-140007676.html?.tsrc=rss",
+          "date": "02.26 23:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Invitation Homes to Participate in Citi's 2026 Global Property CEO Conference",
+          "url": "https://finance.yahoo.com/news/invitation-homes-participate-citis-2026-213000496.html?.tsrc=rss",
+          "date": "02.27 06:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Kilroy Realty Corporation to Participate in Citi’s 2026 Global Property CEO Conference",
+          "url": "https://finance.yahoo.com/news/kilroy-realty-corporation-participate-citi-210500571.html?.tsrc=rss",
+          "date": "02.27 06:05",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -785,16 +876,16 @@
           "has_name": true
         },
         {
-          "title": "Will Realignment Efforts Enhance Barclays' Financial Strength?",
-          "url": "https://finance.yahoo.com/news/realignment-efforts-enhance-barclays-financial-165000209.html?.tsrc=rss",
-          "date": "02.27 01:50",
+          "title": "Citigroup invests in Japan’s Sakana AI",
+          "url": "https://www.retailbankerinternational.com/news/citigroup-invests-in-sakana-ai/?.tsrc=rss",
+          "date": "02.26 23:36",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Citigroup Inc. (C) Is a Trending Stock: Facts to Know Before Betting on It",
-          "url": "https://finance.yahoo.com/news/citigroup-inc-c-trending-stock-140007676.html?.tsrc=rss",
-          "date": "02.26 23:00",
+          "title": "Will Realignment Efforts Enhance Barclays' Financial Strength?",
+          "url": "https://finance.yahoo.com/news/realignment-efforts-enhance-barclays-financial-165000209.html?.tsrc=rss",
+          "date": "02.27 01:50",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -856,7 +947,7 @@
           "change_rate": "+2.9%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     },
     {
       "id": "sig_20260226_US_009",
@@ -929,14 +1020,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     },
     {
       "id": "sig_20260226_US_010",
       "theme": "#Robotics",
       "signal_type": "이슈",
       "short_reason": "Teradyne, to",
-      "summary": "Teradyne은(는) Teradyne to Showcase Leading Semiconductor Test Solutions at IESA Vision Summit 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Teradyne 주가는 Teradyne to Showcase Leading Semiconductor Test Solutions at IESA Vision Summit 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Teradyne",
         "symbol": "TER",
@@ -1001,7 +1092,7 @@
           "change_rate": "+4.5%"
         }
       ],
-      "timestamp": "2026-02-27 05:59:13"
+      "timestamp": "2026-02-27 06:38:27"
     }
   ]
 }
