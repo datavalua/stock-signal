@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27 23:46:06",
+  "last_updated": "2026-02-28 00:25:18",
   "signals": [
     {
       "id": "sig_20260227_US_001",
@@ -64,14 +64,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "Stock, Market",
-      "summary": "NVIDIA 주가는 Stock Market Today: Dow Slides On Surprise Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage) 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "OpenAI, raises",
+      "summary": "NVIDIA 주가는 OpenAI raises $110B in one of the largest private funding rounds in history 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -79,6 +79,48 @@
         "news_url": "https://finance.yahoo.com/quote/NVDA"
       },
       "news_articles": [
+        {
+          "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
+          "url": "https://finance.yahoo.com/news/openai-raises-110b-one-largest-141301333.html?.tsrc=rss",
+          "date": "02.27 23:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stocks to watch next week: Broadcom, Costco, Adidas, Aviva and Greggs",
+          "url": "https://uk.finance.yahoo.com/news/broadcom-costco-adidas-aviva-greggs-stocks-to-watch-151811073.html?.tsrc=rss",
+          "date": "02.28 00:18",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "ChatGPT maker OpenAI receives $110B in investments from Amazon, Nvidia and SoftBank",
+          "url": "https://finance.yahoo.com/news/chatgpt-maker-openai-receives-110b-151748341.html?.tsrc=rss",
+          "date": "02.28 00:17",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "DeepSig Advances AI-Native Open RAN and Spectrum Awareness Integration at MWC26",
+          "url": "https://finance.yahoo.com/news/deepsig-advances-ai-native-open-150000534.html?.tsrc=rss",
+          "date": "02.28 00:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "OpenAI raises $110 bn in record funding round",
+          "url": "https://finance.yahoo.com/news/openai-raises-110-bn-record-145926929.html?.tsrc=rss",
+          "date": "02.27 23:59",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank",
+          "url": "https://finance.yahoo.com/news/openais-110-billion-funding-round-145925079.html?.tsrc=rss",
+          "date": "02.27 23:59",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "Stock Market Today: Dow Slides On Surprise Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage)",
           "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow.html?.tsrc=rss",
@@ -106,13 +148,6 @@
           "date": "02.27 23:20",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
-          "url": "https://finance.yahoo.com/news/openai-raises-110b-one-largest-141301333.html?.tsrc=rss",
-          "date": "02.27 23:13",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -137,7 +172,7 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     },
     {
       "id": "sig_20260227_US_003",
@@ -198,14 +233,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     },
     {
       "id": "sig_20260227_US_004",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Applied, Materials,",
-      "summary": "Applied Materials은(는) Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Applied Materials 주가는 Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -271,7 +306,7 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     },
     {
       "id": "sig_20260227_US_005",
@@ -290,6 +325,13 @@
           "title": "ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide",
           "url": "https://finance.yahoo.com/news/servicenow-ai-launch-tests-investor-011239485.html?.tsrc=rss",
           "date": "02.27 10:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Wall Street Sees Major Upside in These 4 Beaten-Down Tech Stocks — Is the Selloff Overdone?",
+          "url": "https://247wallst.com/investing/2026/02/27/wall-street-sees-major-upside-in-these-4-beaten-down-tech-stocks-is-the-selloff-overdone/?.tsrc=rss",
+          "date": "02.27 22:40",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -332,14 +374,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     },
     {
       "id": "sig_20260227_US_006",
       "theme": "#E-commerce",
       "signal_type": "이슈",
       "short_reason": "Shopify, Buyback",
-      "summary": "오늘 Shopify 주가는 Shopify Buyback And AI Push Test Valuation And Growth Expectations 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Shopify은(는) Shopify Buyback And AI Push Test Valuation And Growth Expectations 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Shopify",
         "symbol": "SHOP",
@@ -393,14 +435,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     },
     {
       "id": "sig_20260227_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Lam, Research",
-      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Lam Research 주가는 Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
@@ -462,14 +504,14 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     },
     {
       "id": "sig_20260227_US_008",
       "theme": "#SMR",
       "signal_type": "이슈",
       "short_reason": "Oklo’s, Meta",
-      "summary": "오늘 Oklo 주가는 Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Oklo은(는) Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Oklo",
         "symbol": "OKLO",
@@ -527,7 +569,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     },
     {
       "id": "sig_20260227_US_009",
@@ -546,6 +588,13 @@
           "title": "L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems",
           "url": "https://finance.yahoo.com/news/l3harris-technologies-lhx-lands-biggest-144409026.html?.tsrc=rss",
           "date": "02.24 23:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Baird Lifts L3Harris (LHX) Price Target on Confidence in Long-Term Strategy and Execution",
+          "url": "https://finance.yahoo.com/news/baird-lifts-l3harris-lhx-price-151123216.html?.tsrc=rss",
+          "date": "02.28 00:11",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -592,14 +641,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     },
     {
       "id": "sig_20260227_US_010",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "ASML, EUV",
-      "summary": "ASML 주가는 ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "ASML은(는) ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "ASML",
         "symbol": "ASML",
@@ -665,7 +714,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-27 23:46:06"
+      "timestamp": "2026-02-28 00:25:18"
     }
   ]
 }
