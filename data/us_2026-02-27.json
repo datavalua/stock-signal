@@ -1,0 +1,671 @@
+{
+  "last_updated": "2026-02-27 23:46:06",
+  "signals": [
+    {
+      "id": "sig_20260227_US_001",
+      "theme": "#Aerospace",
+      "signal_type": "이슈",
+      "short_reason": "Heico, (HEI)",
+      "summary": "Heico은(는) Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "main_stock": {
+        "name": "Heico",
+        "symbol": "HEI",
+        "change_rate": "-9.2%",
+        "news_url": "https://finance.yahoo.com/quote/HEI"
+      },
+      "news_articles": [
+        {
+          "title": "Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
+          "url": "https://finance.yahoo.com/news/heico-hei-q1-earnings-taking-143010751.html?.tsrc=rss",
+          "date": "02.26 23:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "HEICO (HEI) Stock Trades Down, Here Is Why",
+          "url": "https://finance.yahoo.com/news/heico-hei-stock-trades-down-194433825.html?.tsrc=rss",
+          "date": "02.27 04:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "HEICO Q1 Earnings Surpass Estimates, Sales Increase Y/Y",
+          "url": "https://finance.yahoo.com/news/heico-q1-earnings-surpass-estimates-145100873.html?.tsrc=rss",
+          "date": "02.26 23:51",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "HEICO Corporation Q1 2026 Earnings Call Summary",
+          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-heico-corporation-q1-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+          "date": "02.26 22:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "HEICO (NYSE:HEI) Beats Q4 CY2025 Sales Expectations But Stock Drops",
+          "url": "https://finance.yahoo.com/news/heico-nyse-hei-beats-q4-224056834.html?.tsrc=rss",
+          "date": "02.26 07:40",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Aerospace] TransDigm",
+          "change_rate": "+1.5%"
+        },
+        {
+          "name": "[Aerospace/Defense] RTX",
+          "change_rate": "+0.8%"
+        },
+        {
+          "name": "[Aerospace] GE Aerospace",
+          "change_rate": "-0.6%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    },
+    {
+      "id": "sig_20260227_US_002",
+      "theme": "#Semiconductors",
+      "signal_type": "이슈",
+      "short_reason": "Stock, Market",
+      "summary": "NVIDIA 주가는 Stock Market Today: Dow Slides On Surprise Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage) 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "NVIDIA",
+        "symbol": "NVDA",
+        "change_rate": "-5.5%",
+        "news_url": "https://finance.yahoo.com/quote/NVDA"
+      },
+      "news_articles": [
+        {
+          "title": "Stock Market Today: Dow Slides On Surprise Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow.html?.tsrc=rss",
+          "date": "02.27 23:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "This Nuclear Energy Stock Could Turn $1,000 Into $100,000",
+          "url": "https://www.fool.com/investing/2026/02/27/this-nuclear-energy-stock-could-turn-1000-into/?.tsrc=rss",
+          "date": "02.27 23:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Tech stocks today: OpenAI raises $110 billion, Anthropic rejects Defense Department AI demands",
+          "url": "https://finance.yahoo.com/news/live/tech-stocks-today-openai-raises-110-billion-anthropic-rejects-defense-department-ai-demands-143452536.html?.tsrc=rss",
+          "date": "02.27 23:34",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "This AI Infrastructure Stock Grew 176% Last Year. Is It Too Late to Buy in 2026?",
+          "url": "https://www.fool.com/investing/2026/02/27/this-ai-infrastructure-stock-grew-176-last-year-is/?.tsrc=rss",
+          "date": "02.27 23:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
+          "url": "https://finance.yahoo.com/news/openai-raises-110b-one-largest-141301333.html?.tsrc=rss",
+          "date": "02.27 23:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] AMD",
+          "change_rate": "-3.4%"
+        },
+        {
+          "name": "[Semiconductors] Intel",
+          "change_rate": "-3.0%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "-2.8%"
+        },
+        {
+          "name": "[IP] ARM",
+          "change_rate": "-1.9%"
+        },
+        {
+          "name": "[Semiconductors] Marvell",
+          "change_rate": "-2.0%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    },
+    {
+      "id": "sig_20260227_US_003",
+      "theme": "#Cybersecurity",
+      "signal_type": "이슈",
+      "short_reason": "CrowdStrike, (CRWD)",
+      "summary": "오늘 CrowdStrike 주가는 CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "CrowdStrike",
+        "symbol": "CRWD",
+        "change_rate": "+4.9%",
+        "news_url": "https://finance.yahoo.com/quote/CRWD"
+      },
+      "news_articles": [
+        {
+          "title": "CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock?",
+          "url": "https://finance.yahoo.com/news/crowdstrike-crwd-soars-4-9-082800065.html?.tsrc=rss",
+          "date": "02.27 17:28",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "CRWD to Report Q4 Earnings: Should You Buy, Sell or Hold the Stock?",
+          "url": "https://finance.yahoo.com/news/crwd-report-q4-earnings-buy-130900202.html?.tsrc=rss",
+          "date": "02.27 22:09",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is It Time To Reassess CrowdStrike (CRWD) After Recent Share Price Pullback?",
+          "url": "https://finance.yahoo.com/news/time-reassess-crowdstrike-crwd-recent-111555133.html?.tsrc=rss",
+          "date": "02.27 20:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "AI Crushed Software Stocks. Now It’s Saving Them.",
+          "url": "https://finance.yahoo.com/m/7e99b49e-0dc4-3fe2-9e69-fe963bd6909c/ai-crushed-software-stocks..html?.tsrc=rss",
+          "date": "02.27 11:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Zscaler posts wider quarterly loss on higher spending; shares down 9%",
+          "url": "https://finance.yahoo.com/news/zscaler-posts-wider-quarterly-loss-011107491.html?.tsrc=rss",
+          "date": "02.27 10:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Cybersecurity] Palo Alto Networks",
+          "change_rate": "+3.1%"
+        },
+        {
+          "name": "[Software] Microsoft",
+          "change_rate": "+0.3%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    },
+    {
+      "id": "sig_20260227_US_004",
+      "theme": "#Semiconductor Equipment",
+      "signal_type": "이슈",
+      "short_reason": "Applied, Materials,",
+      "summary": "Applied Materials은(는) Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "main_stock": {
+        "name": "Applied Materials",
+        "symbol": "AMAT",
+        "change_rate": "-4.9%",
+        "news_url": "https://finance.yahoo.com/quote/AMAT"
+      },
+      "news_articles": [
+        {
+          "title": "Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know",
+          "url": "https://finance.yahoo.com/news/applied-materials-broadcom-lam-research-215933718.html?.tsrc=rss",
+          "date": "02.27 06:59",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "A Look At Applied Materials (AMAT) Valuation After Sector Sell Off On AI Spending Concerns",
+          "url": "https://finance.yahoo.com/news/look-applied-materials-amat-valuation-101215425.html?.tsrc=rss",
+          "date": "02.27 19:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nasdaq, S&P 500 Snap Two-Day Advance Amid Nvidia-Led Tech Pullback",
+          "url": "https://finance.yahoo.com/news/nasdaq-p-500-snap-two-214951026.html?.tsrc=rss",
+          "date": "02.27 06:49",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "US Equity Indexes Mixed as Financials Help Partially Offset Sell-Off in Chipmakers",
+          "url": "https://finance.yahoo.com/news/us-equity-indexes-mixed-financials-214425853.html?.tsrc=rss",
+          "date": "02.27 06:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nasdaq, S&P 500 Drop as Semiconductor Stocks Slide After Nvidia Results",
+          "url": "https://finance.yahoo.com/news/nasdaq-p-500-drop-semiconductor-212059816.html?.tsrc=rss",
+          "date": "02.27 06:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductor Equipment] ASML",
+          "change_rate": "-4.1%"
+        },
+        {
+          "name": "[Semiconductor Equipment] Lam Research",
+          "change_rate": "-4.2%"
+        },
+        {
+          "name": "[Semiconductor Equipment] KLA",
+          "change_rate": "-1.4%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "-5.5%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "-2.8%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    },
+    {
+      "id": "sig_20260227_US_005",
+      "theme": "#SaaS",
+      "signal_type": "이슈",
+      "short_reason": "ServiceNow, AI",
+      "summary": "오늘 ServiceNow 주가는 ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "ServiceNow",
+        "symbol": "NOW",
+        "change_rate": "+4.9%",
+        "news_url": "https://finance.yahoo.com/quote/NOW"
+      },
+      "news_articles": [
+        {
+          "title": "ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide",
+          "url": "https://finance.yahoo.com/news/servicenow-ai-launch-tests-investor-011239485.html?.tsrc=rss",
+          "date": "02.27 10:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "2 Tech Stocks That Could Go Parabolic",
+          "url": "https://www.fool.com/investing/2026/02/27/2-tech-stocks-that-could-go-parabolic/?.tsrc=rss",
+          "date": "02.27 14:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Stock-Split Stock Service Now Triumphed on Thursday",
+          "url": "https://www.fool.com/investing/2026/02/26/why-stock-split-stock-service-now-triumphed-on-thu/?.tsrc=rss",
+          "date": "02.27 10:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Samsara, Nutanix, Workday, AppLovin, and Domo Shares Skyrocket, What You Need To Know",
+          "url": "https://finance.yahoo.com/news/samsara-nutanix-workday-applovin-domo-222933059.html?.tsrc=rss",
+          "date": "02.27 07:29",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Amplitude, Freshworks, HubSpot, GoDaddy, and Paylocity Shares Skyrocket, What You Need To Know",
+          "url": "https://finance.yahoo.com/news/amplitude-freshworks-hubspot-godaddy-paylocity-221933348.html?.tsrc=rss",
+          "date": "02.27 07:19",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[SaaS] Salesforce",
+          "change_rate": "+4.0%"
+        },
+        {
+          "name": "[Software] Microsoft",
+          "change_rate": "+0.3%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    },
+    {
+      "id": "sig_20260227_US_006",
+      "theme": "#E-commerce",
+      "signal_type": "이슈",
+      "short_reason": "Shopify, Buyback",
+      "summary": "오늘 Shopify 주가는 Shopify Buyback And AI Push Test Valuation And Growth Expectations 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "Shopify",
+        "symbol": "SHOP",
+        "change_rate": "+4.7%",
+        "news_url": "https://finance.yahoo.com/quote/SHOP"
+      },
+      "news_articles": [
+        {
+          "title": "Shopify Buyback And AI Push Test Valuation And Growth Expectations",
+          "url": "https://finance.yahoo.com/news/shopify-buyback-ai-push-test-131208420.html?.tsrc=rss",
+          "date": "02.27 22:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Shopify (SHOP) GMV Growth Reaccelerates as AI Integration Strengthens Investment Case",
+          "url": "https://finance.yahoo.com/news/shopify-inc-shop-gmv-growth-142315804.html?.tsrc=rss",
+          "date": "02.27 23:23",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "How Rewarx Studio AI is Solving the Fidelity Crisis in AI Product Photography: A Data-Driven Leap Across Global E-commerce Brands",
+          "url": "https://finance.yahoo.com/news/rewarx-studio-ai-solving-fidelity-140000506.html?.tsrc=rss",
+          "date": "02.27 23:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Jack Dorsey’s Block Slashes Nearly Half Its Staff in AI Bet",
+          "url": "https://finance.yahoo.com/news/jack-dorsey-block-slashes-nearly-041816081.html?.tsrc=rss",
+          "date": "02.27 13:18",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "RF-SMART Reaches 2,800 NetSuite WMS Customers Across 40+ Countries",
+          "url": "https://finance.yahoo.com/news/rf-smart-reaches-2-800-230100404.html?.tsrc=rss",
+          "date": "02.27 08:01",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[E-commerce] Amazon",
+          "change_rate": "-1.3%"
+        },
+        {
+          "name": "[Retail] Walmart",
+          "change_rate": "-1.1%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    },
+    {
+      "id": "sig_20260227_US_007",
+      "theme": "#Semiconductor Equipment",
+      "signal_type": "이슈",
+      "short_reason": "Lam, Research",
+      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "main_stock": {
+        "name": "Lam Research",
+        "symbol": "LRCX",
+        "change_rate": "-4.2%",
+        "news_url": "https://finance.yahoo.com/quote/LRCX"
+      },
+      "news_articles": [
+        {
+          "title": "Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know",
+          "url": "https://finance.yahoo.com/news/lam-research-lrcx-falls-more-224502346.html?.tsrc=rss",
+          "date": "02.27 07:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Lam Research Resets Around Micron Partnership And Specialty Chip Expansion",
+          "url": "https://finance.yahoo.com/news/lam-research-resets-around-micron-091504319.html?.tsrc=rss",
+          "date": "02.27 18:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know",
+          "url": "https://finance.yahoo.com/news/applied-materials-broadcom-lam-research-215933718.html?.tsrc=rss",
+          "date": "02.27 06:59",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nishant Sinha Joins Atomera as Head of Marketing to Drive Strategy and Growth in Advanced Semiconductor Materials",
+          "url": "https://finance.yahoo.com/news/nishant-sinha-joins-atomera-head-210500946.html?.tsrc=rss",
+          "date": "02.27 06:05",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "The AI spending boom is creating winners beyond the 'Mag 7.' Why one sector could see big gains.",
+          "url": "https://finance.yahoo.com/news/the-ai-spending-boom-is-creating-winners-beyond-the-mag-7-why-one-sector-could-see-big-gains-153820672.html?.tsrc=rss",
+          "date": "02.27 00:38",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductor Equipment] Applied Materials",
+          "change_rate": "-4.9%"
+        },
+        {
+          "name": "[Semiconductor Equipment] ASML",
+          "change_rate": "-4.1%"
+        },
+        {
+          "name": "[Semiconductor Equipment] KLA",
+          "change_rate": "-1.4%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "-5.5%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    },
+    {
+      "id": "sig_20260227_US_008",
+      "theme": "#SMR",
+      "signal_type": "이슈",
+      "short_reason": "Oklo’s, Meta",
+      "summary": "오늘 Oklo 주가는 Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "Oklo",
+        "symbol": "OKLO",
+        "change_rate": "+4.1%",
+        "news_url": "https://finance.yahoo.com/quote/OKLO"
+      },
+      "news_articles": [
+        {
+          "title": "Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths",
+          "url": "https://finance.yahoo.com/news/oklo-meta-deal-atomic-alchemy-043256496.html?.tsrc=rss",
+          "date": "02.26 13:32",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Oklo Is Interesting, but Here's What I'd Buy Instead",
+          "url": "https://www.fool.com/investing/2026/02/27/oklo-is-interesting-but-heres-what-id-buy-instead/?.tsrc=rss",
+          "date": "02.27 21:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Lightbridge Corp (LTBR) Q4 2025 Earnings Call Highlights: Major Fuel Development Milestones and ...",
+          "url": "https://finance.yahoo.com/news/lightbridge-corp-ltbr-q4-2025-030024325.html?.tsrc=rss",
+          "date": "02.27 12:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is Bloom Energy Stock a Buy Right Now?",
+          "url": "https://www.fool.com/investing/2026/02/26/is-bloom-energy-stock-a-buy-right-now/?.tsrc=rss",
+          "date": "02.27 03:05",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "OKLO vs. SO: Which Nuclear Stock Has Better Risk-Reward?",
+          "url": "https://finance.yahoo.com/news/oklo-vs-nuclear-stock-better-135600620.html?.tsrc=rss",
+          "date": "02.26 22:56",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[SMR] NuScale Power",
+          "change_rate": "+1.1%"
+        },
+        {
+          "name": "[Nuclear] Constellation Energy",
+          "change_rate": "-0.7%"
+        },
+        {
+          "name": "[Utilities] Vistra",
+          "change_rate": "+0.8%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    },
+    {
+      "id": "sig_20260227_US_009",
+      "theme": "#Aerospace/Defense",
+      "signal_type": "이슈",
+      "short_reason": "L3Harris, Technologies",
+      "summary": "L3Harris은(는) L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 소식이 전해지며 매수세가 강화되었습니다.",
+      "main_stock": {
+        "name": "L3Harris",
+        "symbol": "LHX",
+        "change_rate": "+4.1%",
+        "news_url": "https://finance.yahoo.com/quote/LHX"
+      },
+      "news_articles": [
+        {
+          "title": "L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems",
+          "url": "https://finance.yahoo.com/news/l3harris-technologies-lhx-lands-biggest-144409026.html?.tsrc=rss",
+          "date": "02.24 23:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Can GE's Growth Investments Create Long-Term Value for Investors?",
+          "url": "https://finance.yahoo.com/news/ges-growth-investments-create-long-153800069.html?.tsrc=rss",
+          "date": "02.27 00:38",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "3 Reasons L3 Harris and Other Defense Stocks Are Taking a Hit",
+          "url": "https://finance.yahoo.com/m/977a3368-5271-39a7-b02d-e57fc0f77e9d/3-reasons-l3-harris-and-other.html?.tsrc=rss",
+          "date": "02.26 06:17",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Joby Reports Fourth Quarter 2025 Financial Results",
+          "url": "https://finance.yahoo.com/news/joby-reports-fourth-quarter-2025-210500926.html?.tsrc=rss",
+          "date": "02.26 06:05",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "How The L3Harris Technologies (LHX) Investment Story Is Shifting With Missile Spinout And Pentagon Funding",
+          "url": "https://finance.yahoo.com/news/l3harris-technologies-lhx-investment-story-141139023.html?.tsrc=rss",
+          "date": "02.24 23:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Aerospace/Defense] Lockheed Martin",
+          "change_rate": "-0.9%"
+        },
+        {
+          "name": "[Aerospace/Defense] Northrop Grumman",
+          "change_rate": "+1.0%"
+        },
+        {
+          "name": "[Aerospace/Defense] RTX",
+          "change_rate": "+0.8%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    },
+    {
+      "id": "sig_20260227_US_010",
+      "theme": "#Semiconductor Equipment",
+      "signal_type": "이슈",
+      "short_reason": "ASML, EUV",
+      "summary": "ASML 주가는 ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "ASML",
+        "symbol": "ASML",
+        "change_rate": "-4.1%",
+        "news_url": "https://finance.yahoo.com/quote/ASML"
+      },
+      "news_articles": [
+        {
+          "title": "ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions",
+          "url": "https://finance.yahoo.com/news/asml-euv-breakthrough-lifts-chip-101144030.html?.tsrc=rss",
+          "date": "02.27 19:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Hyperscalers Plan to Spend $700 Billion on AI This Year. These 2 Stocks Are the Biggest Beneficiaries.",
+          "url": "https://www.fool.com/investing/2026/02/27/hyperscalers-plan-to-spend-700-billion-on-ai-2026/?.tsrc=rss",
+          "date": "02.27 21:01",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "ASML Says High-NA EUV Tools Ready for Mass Production",
+          "url": "https://finance.yahoo.com/news/asml-says-high-na-euv-114303173.html?.tsrc=rss",
+          "date": "02.27 20:43",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "ASML's Next Tool Could Quietly Change Chipmaking",
+          "url": "https://finance.yahoo.com/news/asmls-next-tool-could-quietly-114213041.html?.tsrc=rss",
+          "date": "02.27 20:42",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is It Too Late To Consider ASML Holding (ENXTAM:ASML) After Its 77.9% One Year Surge?",
+          "url": "https://finance.yahoo.com/news/too-consider-asml-holding-enxtam-111705645.html?.tsrc=rss",
+          "date": "02.27 20:17",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductor Equipment] Applied Materials",
+          "change_rate": "-4.9%"
+        },
+        {
+          "name": "[Semiconductor Equipment] Lam Research",
+          "change_rate": "-4.2%"
+        },
+        {
+          "name": "[Semiconductor Equipment] KLA",
+          "change_rate": "-1.4%"
+        },
+        {
+          "name": "[Robotics] Teradyne",
+          "change_rate": "-3.0%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "-5.5%"
+        }
+      ],
+      "timestamp": "2026-02-27 23:46:06"
+    }
+  ]
+}
