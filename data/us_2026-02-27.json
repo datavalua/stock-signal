@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-28 04:59:54",
+  "last_updated": "2026-02-28 05:35:56",
   "signals": [
     {
       "id": "sig_20260227_US_001",
       "theme": "#Aerospace",
       "signal_type": "이슈",
       "short_reason": "Heico, (HEI)",
-      "summary": "Heico 주가는 Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Heico은(는) Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Heico",
         "symbol": "HEI",
@@ -71,14 +71,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "ChatGPT, maker",
-      "summary": "NVIDIA은(는) ChatGPT maker OpenAI receives $110B in investments from Amazon, Nvidia and SoftBank 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "Stocks, to",
+      "summary": "NVIDIA 주가는 Stocks to watch next week: Broadcom, Costco, Adidas, Aviva and Greggs 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -86,6 +86,48 @@
         "news_url": "https://finance.yahoo.com/quote/NVDA"
       },
       "news_articles": [
+        {
+          "title": "Stocks to watch next week: Broadcom, Costco, Adidas, Aviva and Greggs",
+          "url": "https://uk.finance.yahoo.com/news/broadcom-costco-adidas-aviva-greggs-stocks-to-watch-151811073.html?.tsrc=rss",
+          "date": "02.28 00:18",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "3 Monster Stocks to Hold for the Next 10 Years",
+          "url": "https://www.fool.com/investing/2026/02/27/3-monster-stocks-to-hold-for-the-next-10-years/?.tsrc=rss",
+          "date": "02.28 05:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Market Chatter: OpenAI Looks to Secure $10 Billion More From Investors",
+          "url": "https://finance.yahoo.com/news/market-chatter-openai-looks-secure-202459428.html?.tsrc=rss",
+          "date": "02.28 05:24",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Nebius Group Stock Was Down Double-Digits Today",
+          "url": "https://www.fool.com/investing/2026/02/27/why-nebius-group-stock-was-down-double-digits-toda/?.tsrc=rss",
+          "date": "02.28 05:22",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "The Best Stocks to Buy With $1,000 Right Now",
+          "url": "https://www.fool.com/investing/2026/02/27/the-best-stocks-to-buy-with-1000-right-now/?.tsrc=rss",
+          "date": "02.28 05:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "This Advisor Added $3.33 Million to a Bond Position to Balance Nvidia and Apple Holdings",
+          "url": "https://www.fool.com/coverage/filings/2026/02/27/this-advisor-added-usd3-33-million-to-a-bond-position-to-balance-nvidia-and-apple-holdings/?.tsrc=rss",
+          "date": "02.28 05:19",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "ChatGPT maker OpenAI receives $110B in investments from Amazon, Nvidia and SoftBank",
           "url": "https://finance.yahoo.com/news/chatgpt-maker-openai-receives-110b-151748341.html?.tsrc=rss",
@@ -365,13 +407,6 @@
           "date": "02.27 23:13",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Stocks to watch next week: Broadcom, Costco, Adidas, Aviva and Greggs",
-          "url": "https://uk.finance.yahoo.com/news/broadcom-costco-adidas-aviva-greggs-stocks-to-watch-151811073.html?.tsrc=rss",
-          "date": "02.28 00:18",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -396,14 +431,14 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     },
     {
       "id": "sig_20260227_US_003",
       "theme": "#Cybersecurity",
       "signal_type": "이슈",
       "short_reason": "CrowdStrike, (CRWD)",
-      "summary": "CrowdStrike은(는) CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 CrowdStrike 주가는 CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "CrowdStrike",
         "symbol": "CRWD",
@@ -478,14 +513,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     },
     {
       "id": "sig_20260227_US_004",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Applied, Materials,",
-      "summary": "Applied Materials 주가는 Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Applied Materials은(는) Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -551,14 +586,14 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     },
     {
       "id": "sig_20260227_US_005",
       "theme": "#SaaS",
       "signal_type": "이슈",
       "short_reason": "ServiceNow, AI",
-      "summary": "오늘 ServiceNow 주가는 ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "ServiceNow은(는) ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "ServiceNow",
         "symbol": "NOW",
@@ -640,14 +675,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     },
     {
       "id": "sig_20260227_US_006",
       "theme": "#E-commerce",
       "signal_type": "이슈",
       "short_reason": "Shopify, Buyback",
-      "summary": "오늘 Shopify 주가는 Shopify Buyback And AI Push Test Valuation And Growth Expectations 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Shopify은(는) Shopify Buyback And AI Push Test Valuation And Growth Expectations 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Shopify",
         "symbol": "SHOP",
@@ -708,14 +743,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     },
     {
       "id": "sig_20260227_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Lam, Research",
-      "summary": "Lam Research 주가는 Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
@@ -784,14 +819,14 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     },
     {
       "id": "sig_20260227_US_008",
       "theme": "#SMR",
       "signal_type": "이슈",
       "short_reason": "Oklo’s, Meta",
-      "summary": "오늘 Oklo 주가는 Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Oklo은(는) Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Oklo",
         "symbol": "OKLO",
@@ -863,7 +898,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     },
     {
       "id": "sig_20260227_US_009",
@@ -949,14 +984,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     },
     {
       "id": "sig_20260227_US_010",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "ASML, EUV",
-      "summary": "ASML 주가는 ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "ASML은(는) ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "ASML",
         "symbol": "ASML",
@@ -1022,7 +1057,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 04:59:54"
+      "timestamp": "2026-02-28 05:35:56"
     }
   ]
 }
