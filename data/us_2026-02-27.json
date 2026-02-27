@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-28 06:00:30",
+  "last_updated": "2026-02-28 06:35:37",
   "signals": [
     {
       "id": "sig_20260227_US_001",
       "theme": "#Aerospace",
       "signal_type": "이슈",
       "short_reason": "Heico, (HEI)",
-      "summary": "Heico은(는) Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Heico 주가는 Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Heico",
         "symbol": "HEI",
@@ -71,14 +71,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "OpenAI, raises",
-      "summary": "NVIDIA 주가는 OpenAI raises $110B in one of the largest private funding rounds in history 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "BC-Most, Active",
+      "summary": "NVIDIA은(는) BC-Most Active Stocks 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -86,6 +86,48 @@
         "news_url": "https://finance.yahoo.com/quote/NVDA"
       },
       "news_articles": [
+        {
+          "title": "BC-Most Active Stocks",
+          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017058.html?.tsrc=rss",
+          "date": "02.28 00:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "AI derangement syndrome has left investors 'unnerved'",
+          "url": "https://finance.yahoo.com/video/ai-derangement-syndrome-left-investors-212725488.html?.tsrc=rss",
+          "date": "02.28 06:27",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Better Energy Stock: PlugPower vs. NextEra Energy",
+          "url": "https://www.fool.com/investing/2026/02/27/better-energy-stock-plugpower-vs-nextera-energy/?.tsrc=rss",
+          "date": "02.28 06:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Duolingo Stock Plunged Today",
+          "url": "https://www.fool.com/investing/2026/02/27/why-duolingo-stock-plunged-today/?.tsrc=rss",
+          "date": "02.28 06:23",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Tech stocks today: President Trump orders US government to stop using Anthropic tech amid Pentagon feud",
+          "url": "https://finance.yahoo.com/news/live/tech-stocks-today-president-trump-orders-us-government-to-stop-using-anthropic-tech-amid-pentagon-feud-212303595.html?.tsrc=rss",
+          "date": "02.28 06:23",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "3 Market-Beating Stocks on Our Buy List",
+          "url": "https://finance.yahoo.com/news/3-market-beating-stocks-buy-211632983.html?.tsrc=rss",
+          "date": "02.28 06:16",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
           "url": "https://finance.yahoo.com/news/openai-raises-110b-one-largest-141301333.html?.tsrc=rss",
@@ -407,13 +449,6 @@
           "date": "02.28 00:31",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "BC-Most Active Stocks",
-          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017058.html?.tsrc=rss",
-          "date": "02.28 00:30",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -438,7 +473,7 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     },
     {
       "id": "sig_20260227_US_003",
@@ -520,14 +555,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     },
     {
       "id": "sig_20260227_US_004",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Applied, Materials,",
-      "summary": "Applied Materials 주가는 Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Applied Materials은(는) Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -593,7 +628,7 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     },
     {
       "id": "sig_20260227_US_005",
@@ -682,7 +717,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     },
     {
       "id": "sig_20260227_US_006",
@@ -750,14 +785,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     },
     {
       "id": "sig_20260227_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Lam, Research",
-      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Lam Research 주가는 Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
@@ -826,7 +861,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     },
     {
       "id": "sig_20260227_US_008",
@@ -905,14 +940,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     },
     {
       "id": "sig_20260227_US_009",
       "theme": "#Aerospace/Defense",
       "signal_type": "이슈",
       "short_reason": "L3Harris, Technologies",
-      "summary": "오늘 L3Harris 주가는 L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "L3Harris은(는) L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "L3Harris",
         "symbol": "LHX",
@@ -991,7 +1026,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     },
     {
       "id": "sig_20260227_US_010",
@@ -1049,7 +1084,7 @@
         },
         {
           "name": "[Semiconductor Equipment] Lam Research",
-          "change_rate": "-4.2%"
+          "change_rate": "+0.0%"
         },
         {
           "name": "[Semiconductor Equipment] KLA",
@@ -1064,7 +1099,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 06:00:30"
+      "timestamp": "2026-02-28 06:35:37"
     }
   ]
 }
