@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-28 01:53:06",
+  "last_updated": "2026-02-28 02:41:40",
   "signals": [
     {
       "id": "sig_20260227_US_001",
       "theme": "#Aerospace",
       "signal_type": "이슈",
       "short_reason": "Heico, (HEI)",
-      "summary": "Heico 주가는 Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Heico은(는) Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Heico",
         "symbol": "HEI",
@@ -64,14 +64,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "Tech, stocks",
-      "summary": "NVIDIA 주가는 Tech stocks today: OpenAI raises $110 billion, Anthropic rejects Defense Department AI demands 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "This, Nuclear",
+      "summary": "NVIDIA 주가는 This Nuclear Energy Stock Could Turn $1,000 Into $100,000 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -79,6 +79,48 @@
         "news_url": "https://finance.yahoo.com/quote/NVDA"
       },
       "news_articles": [
+        {
+          "title": "This Nuclear Energy Stock Could Turn $1,000 Into $100,000",
+          "url": "https://www.fool.com/investing/2026/02/27/this-nuclear-energy-stock-could-turn-1000-into/?.tsrc=rss",
+          "date": "02.27 23:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nvidia Stock Is Sliding Again -- AI Spending Concerns Persist",
+          "url": "https://finance.yahoo.com/news/nvidia-stock-sliding-again-ai-172801153.html?.tsrc=rss",
+          "date": "02.28 02:28",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Did You Miss the Celsius Stock Comeback Story?",
+          "url": "https://www.fool.com/investing/2026/02/27/did-you-miss-the-celsius-stock-comeback-story/?.tsrc=rss",
+          "date": "02.28 02:27",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is the Vanguard 500 ETF a Buy Now?",
+          "url": "https://www.fool.com/investing/2026/02/27/is-vanguard-500-etf-voo-a-buy-now/?.tsrc=rss",
+          "date": "02.28 02:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Kratos Defense Stock Keeps Going Down",
+          "url": "https://www.fool.com/investing/2026/02/27/why-kratos-defense-stock-keeps-going-down/?.tsrc=rss",
+          "date": "02.28 02:19",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Amazon Plans In-House AI Chips to Cut Costs",
+          "url": "https://finance.yahoo.com/news/amazon-plans-house-ai-chips-171509614.html?.tsrc=rss",
+          "date": "02.28 02:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "Tech stocks today: OpenAI raises $110 billion, Anthropic rejects Defense Department AI demands",
           "url": "https://finance.yahoo.com/news/live/tech-stocks-today-openai-raises-110-billion-anthropic-rejects-defense-department-ai-demands-143452536.html?.tsrc=rss",
@@ -211,13 +253,6 @@
           "date": "02.27 23:11",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "This Nuclear Energy Stock Could Turn $1,000 Into $100,000",
-          "url": "https://www.fool.com/investing/2026/02/27/this-nuclear-energy-stock-could-turn-1000-into/?.tsrc=rss",
-          "date": "02.27 23:35",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -242,7 +277,7 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     },
     {
       "id": "sig_20260227_US_003",
@@ -268,6 +303,13 @@
           "title": "Nvidia's blowout results and Salesforce's Agentforce progress signal the AI software selloff has gone too far, says Wedbush",
           "url": "https://www.proactiveinvestors.com/companies/news/1088065/nvidia-s-blowout-results-and-salesforce-s-agentforce-progress-signal-the-ai-software-selloff-has-gone-too-far-says-wedbush-1088065.html?.tsrc=rss",
           "date": "02.28 00:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "With Bearish Overhangs in the Rearview Mirror, CrowdStrike (CRWD) Stock Looks Tempting",
+          "url": "https://www.barchart.com/story/news/468954/with-bearish-overhangs-in-the-rearview-mirror-crowdstrike-crwd-stock-looks-tempting?.tsrc=rss",
+          "date": "02.27 23:15",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -317,14 +359,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     },
     {
       "id": "sig_20260227_US_004",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Applied, Materials,",
-      "summary": "Applied Materials은(는) Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Applied Materials 주가는 Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -390,7 +432,7 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     },
     {
       "id": "sig_20260227_US_005",
@@ -458,7 +500,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     },
     {
       "id": "sig_20260227_US_006",
@@ -526,7 +568,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     },
     {
       "id": "sig_20260227_US_007",
@@ -595,14 +637,14 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     },
     {
       "id": "sig_20260227_US_008",
       "theme": "#SMR",
       "signal_type": "이슈",
       "short_reason": "Oklo’s, Meta",
-      "summary": "Oklo은(는) Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Oklo 주가는 Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Oklo",
         "symbol": "OKLO",
@@ -660,7 +702,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     },
     {
       "id": "sig_20260227_US_009",
@@ -679,6 +721,13 @@
           "title": "L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems",
           "url": "https://finance.yahoo.com/news/l3harris-technologies-lhx-lands-biggest-144409026.html?.tsrc=rss",
           "date": "02.24 23:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Assessing L3Harris Technologies (LHX) Valuation After Its Strong 1 Year Shareholder Return",
+          "url": "https://finance.yahoo.com/news/assessing-l3harris-technologies-lhx-valuation-171846532.html?.tsrc=rss",
+          "date": "02.28 02:18",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -732,7 +781,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     },
     {
       "id": "sig_20260227_US_010",
@@ -805,7 +854,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 01:53:06"
+      "timestamp": "2026-02-28 02:41:40"
     }
   ]
 }
