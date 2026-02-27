@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28 03:59:12",
+  "last_updated": "2026-02-28 04:38:09",
   "signals": [
     {
       "id": "sig_20260227_US_001",
@@ -71,14 +71,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "OpenAI, raises",
-      "summary": "NVIDIA은(는) OpenAI raises $110 bn in record funding round 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "DeepSig, Advances",
+      "summary": "NVIDIA은(는) DeepSig Advances AI-Native Open RAN and Spectrum Awareness Integration at MWC26 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -86,6 +86,48 @@
         "news_url": "https://finance.yahoo.com/quote/NVDA"
       },
       "news_articles": [
+        {
+          "title": "DeepSig Advances AI-Native Open RAN and Spectrum Awareness Integration at MWC26",
+          "url": "https://finance.yahoo.com/news/deepsig-advances-ai-native-open-150000534.html?.tsrc=rss",
+          "date": "02.28 00:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "OpenAI announces $110bn funding round that would value firm at $840bn",
+          "url": "https://finance.yahoo.com/news/openai-announces-110bn-funding-round-193131375.html?.tsrc=rss",
+          "date": "02.28 04:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is It Time to Sell American Express Stock?",
+          "url": "https://www.fool.com/investing/2026/02/27/is-it-time-to-sell-american-express-stock/?.tsrc=rss",
+          "date": "02.28 04:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Donaldson Stock Sank This Week, But You Shouldn't Sell in Panic",
+          "url": "https://www.fool.com/investing/2026/02/27/why-donaldson-stock-sank-this-week-but-you-shouldn/?.tsrc=rss",
+          "date": "02.28 04:27",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "1 Reason Nuscale Power and Oklo Investors Should Be Extremely Nervous in 2026",
+          "url": "https://www.fool.com/investing/2026/02/27/2-reasons-nuscale-power-and-oklo-investors-should/?.tsrc=rss",
+          "date": "02.28 04:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Where Will Rigetti Computing Be in 5 Years?",
+          "url": "https://www.fool.com/investing/2026/02/27/where-will-rigetti-computing-be-in-5-years/?.tsrc=rss",
+          "date": "02.28 04:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "OpenAI raises $110 bn in record funding round",
           "url": "https://finance.yahoo.com/news/openai-raises-110-bn-record-145926929.html?.tsrc=rss",
@@ -302,13 +344,6 @@
           "date": "02.28 00:17",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "DeepSig Advances AI-Native Open RAN and Spectrum Awareness Integration at MWC26",
-          "url": "https://finance.yahoo.com/news/deepsig-advances-ai-native-open-150000534.html?.tsrc=rss",
-          "date": "02.28 00:00",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -333,14 +368,14 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     },
     {
       "id": "sig_20260227_US_003",
       "theme": "#Cybersecurity",
       "signal_type": "이슈",
       "short_reason": "CrowdStrike, (CRWD)",
-      "summary": "CrowdStrike은(는) CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 CrowdStrike 주가는 CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "CrowdStrike",
         "symbol": "CRWD",
@@ -415,7 +450,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     },
     {
       "id": "sig_20260227_US_004",
@@ -488,14 +523,14 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     },
     {
       "id": "sig_20260227_US_005",
       "theme": "#SaaS",
       "signal_type": "이슈",
       "short_reason": "ServiceNow, AI",
-      "summary": "오늘 ServiceNow 주가는 ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "ServiceNow은(는) ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "ServiceNow",
         "symbol": "NOW",
@@ -563,14 +598,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     },
     {
       "id": "sig_20260227_US_006",
       "theme": "#E-commerce",
       "signal_type": "이슈",
       "short_reason": "Shopify, Buyback",
-      "summary": "오늘 Shopify 주가는 Shopify Buyback And AI Push Test Valuation And Growth Expectations 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Shopify은(는) Shopify Buyback And AI Push Test Valuation And Growth Expectations 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Shopify",
         "symbol": "SHOP",
@@ -631,14 +666,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     },
     {
       "id": "sig_20260227_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Lam, Research",
-      "summary": "Lam Research 주가는 Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
@@ -707,7 +742,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     },
     {
       "id": "sig_20260227_US_008",
@@ -726,6 +761,20 @@
           "title": "Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths",
           "url": "https://finance.yahoo.com/news/oklo-meta-deal-atomic-alchemy-043256496.html?.tsrc=rss",
           "date": "02.26 13:32",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "1 Reason Nuscale Power and Oklo Investors Should Be Extremely Nervous in 2026",
+          "url": "https://www.fool.com/investing/2026/02/27/2-reasons-nuscale-power-and-oklo-investors-should/?.tsrc=rss",
+          "date": "02.28 04:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Oklo Stock Is Dropping Again On Friday",
+          "url": "https://www.fool.com/investing/2026/02/27/why-oklo-stock-is-dropping-again-on-friday/?.tsrc=rss",
+          "date": "02.28 03:57",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -772,14 +821,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     },
     {
       "id": "sig_20260227_US_009",
       "theme": "#Aerospace/Defense",
       "signal_type": "이슈",
       "short_reason": "L3Harris, Technologies",
-      "summary": "오늘 L3Harris 주가는 L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "L3Harris은(는) L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "L3Harris",
         "symbol": "LHX",
@@ -851,14 +900,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     },
     {
       "id": "sig_20260227_US_010",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "ASML, EUV",
-      "summary": "ASML 주가는 ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "ASML은(는) ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "ASML",
         "symbol": "ASML",
@@ -924,7 +973,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 03:59:12"
+      "timestamp": "2026-02-28 04:38:09"
     }
   ]
 }
