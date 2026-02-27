@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-28 04:38:09",
+  "last_updated": "2026-02-28 04:59:54",
   "signals": [
     {
       "id": "sig_20260227_US_001",
       "theme": "#Aerospace",
       "signal_type": "이슈",
       "short_reason": "Heico, (HEI)",
-      "summary": "Heico은(는) Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Heico 주가는 Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Heico",
         "symbol": "HEI",
@@ -71,14 +71,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "DeepSig, Advances",
-      "summary": "NVIDIA은(는) DeepSig Advances AI-Native Open RAN and Spectrum Awareness Integration at MWC26 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "ChatGPT, maker",
+      "summary": "NVIDIA은(는) ChatGPT maker OpenAI receives $110B in investments from Amazon, Nvidia and SoftBank 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -87,9 +87,37 @@
       },
       "news_articles": [
         {
-          "title": "DeepSig Advances AI-Native Open RAN and Spectrum Awareness Integration at MWC26",
-          "url": "https://finance.yahoo.com/news/deepsig-advances-ai-native-open-150000534.html?.tsrc=rss",
-          "date": "02.28 00:00",
+          "title": "ChatGPT maker OpenAI receives $110B in investments from Amazon, Nvidia and SoftBank",
+          "url": "https://finance.yahoo.com/news/chatgpt-maker-openai-receives-110b-151748341.html?.tsrc=rss",
+          "date": "02.28 00:17",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nvidia Collaborator And AI Data Center Play Holds Support Amid Market Sell-Off",
+          "url": "https://finance.yahoo.com/m/bd0f4445-aeb4-36b2-8cdd-edabd7b22d3d/nvidia-collaborator-and-ai.html?.tsrc=rss",
+          "date": "02.28 04:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Sweetgreen Stock Was Sinking Again",
+          "url": "https://www.fool.com/investing/2026/02/27/why-sweetgreen-stock-was-sinking-again/?.tsrc=rss",
+          "date": "02.28 04:41",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Billionaire Bill Ackman Sold Alphabet and Bought These 2 Undervalued Artificial Intelligence (AI) Stocks Instead",
+          "url": "https://www.fool.com/investing/2026/02/27/billionaire-bill-ackman-sells-alphabet-and-buys-th/?.tsrc=rss",
+          "date": "02.28 04:36",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "This Gold ETF Is Outshining Its Peers in 2026",
+          "url": "https://www.fool.com/investing/2026/02/27/this-gold-etf-is-outshining-its-peers-in-2026/?.tsrc=rss",
+          "date": "02.28 04:35",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -97,6 +125,13 @@
           "title": "OpenAI announces $110bn funding round that would value firm at $840bn",
           "url": "https://finance.yahoo.com/news/openai-announces-110bn-funding-round-193131375.html?.tsrc=rss",
           "date": "02.28 04:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "DeepSig Advances AI-Native Open RAN and Spectrum Awareness Integration at MWC26",
+          "url": "https://finance.yahoo.com/news/deepsig-advances-ai-native-open-150000534.html?.tsrc=rss",
+          "date": "02.28 00:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -337,13 +372,6 @@
           "date": "02.28 00:18",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "ChatGPT maker OpenAI receives $110B in investments from Amazon, Nvidia and SoftBank",
-          "url": "https://finance.yahoo.com/news/chatgpt-maker-openai-receives-110b-151748341.html?.tsrc=rss",
-          "date": "02.28 00:17",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -368,14 +396,14 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     },
     {
       "id": "sig_20260227_US_003",
       "theme": "#Cybersecurity",
       "signal_type": "이슈",
       "short_reason": "CrowdStrike, (CRWD)",
-      "summary": "오늘 CrowdStrike 주가는 CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "CrowdStrike은(는) CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "CrowdStrike",
         "symbol": "CRWD",
@@ -450,7 +478,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     },
     {
       "id": "sig_20260227_US_004",
@@ -523,14 +551,14 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     },
     {
       "id": "sig_20260227_US_005",
       "theme": "#SaaS",
       "signal_type": "이슈",
       "short_reason": "ServiceNow, AI",
-      "summary": "ServiceNow은(는) ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 ServiceNow 주가는 ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "ServiceNow",
         "symbol": "NOW",
@@ -542,6 +570,20 @@
           "title": "ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide",
           "url": "https://finance.yahoo.com/news/servicenow-ai-launch-tests-investor-011239485.html?.tsrc=rss",
           "date": "02.27 10:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "UiPath's Debt-Free Balance Sheet Fuels Strategic Flexibility",
+          "url": "https://finance.yahoo.com/news/uipaths-debt-free-balance-sheet-184100241.html?.tsrc=rss",
+          "date": "02.28 03:41",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "GitLab vs. ServiceNow: Which Enterprise Software Stock Has an Edge?",
+          "url": "https://finance.yahoo.com/news/gitlab-vs-servicenow-enterprise-software-175900764.html?.tsrc=rss",
+          "date": "02.28 02:59",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -598,14 +640,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     },
     {
       "id": "sig_20260227_US_006",
       "theme": "#E-commerce",
       "signal_type": "이슈",
       "short_reason": "Shopify, Buyback",
-      "summary": "Shopify은(는) Shopify Buyback And AI Push Test Valuation And Growth Expectations 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Shopify 주가는 Shopify Buyback And AI Push Test Valuation And Growth Expectations 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Shopify",
         "symbol": "SHOP",
@@ -666,14 +708,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     },
     {
       "id": "sig_20260227_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Lam, Research",
-      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Lam Research 주가는 Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
@@ -742,7 +784,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     },
     {
       "id": "sig_20260227_US_008",
@@ -821,7 +863,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     },
     {
       "id": "sig_20260227_US_009",
@@ -840,6 +882,13 @@
           "title": "L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems",
           "url": "https://finance.yahoo.com/news/l3harris-technologies-lhx-lands-biggest-144409026.html?.tsrc=rss",
           "date": "02.24 23:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Joby Aviation Incurs Loss in Q4, Beats Revenue Estimates",
+          "url": "https://finance.yahoo.com/news/joby-aviation-incurs-loss-q4-182100342.html?.tsrc=rss",
+          "date": "02.28 03:21",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -900,14 +949,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     },
     {
       "id": "sig_20260227_US_010",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "ASML, EUV",
-      "summary": "ASML은(는) ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "ASML 주가는 ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "ASML",
         "symbol": "ASML",
@@ -973,7 +1022,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 04:38:09"
+      "timestamp": "2026-02-28 04:59:54"
     }
   ]
 }
