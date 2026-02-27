@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28 02:41:40",
+  "last_updated": "2026-02-28 03:05:52",
   "signals": [
     {
       "id": "sig_20260227_US_001",
@@ -64,14 +64,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "This, Nuclear",
-      "summary": "NVIDIA 주가는 This Nuclear Energy Stock Could Turn $1,000 Into $100,000 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "OpenAI's, $110",
+      "summary": "NVIDIA 주가는 OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -80,9 +80,30 @@
       },
       "news_articles": [
         {
-          "title": "This Nuclear Energy Stock Could Turn $1,000 Into $100,000",
-          "url": "https://www.fool.com/investing/2026/02/27/this-nuclear-energy-stock-could-turn-1000-into/?.tsrc=rss",
-          "date": "02.27 23:35",
+          "title": "OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank",
+          "url": "https://finance.yahoo.com/news/openais-110-billion-funding-round-145925079.html?.tsrc=rss",
+          "date": "02.27 23:59",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Did AeroVironment Stock Drop Today?",
+          "url": "https://www.fool.com/investing/2026/02/27/why-did-aerovironment-stock-drop-today/?.tsrc=rss",
+          "date": "02.28 02:41",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "1 Unbelievably Cheap Stock-Split Stock to Buy Right Now",
+          "url": "https://www.fool.com/investing/2026/02/27/1-unbelievably-cheap-stock-split-stock-to-buy-righ/?.tsrc=rss",
+          "date": "02.28 02:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stock Market Today: Dow Slumps 700 Points On Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow.html?.tsrc=rss",
+          "date": "02.28 02:29",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -97,6 +118,13 @@
           "title": "Did You Miss the Celsius Stock Comeback Story?",
           "url": "https://www.fool.com/investing/2026/02/27/did-you-miss-the-celsius-stock-comeback-story/?.tsrc=rss",
           "date": "02.28 02:27",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "This Nuclear Energy Stock Could Turn $1,000 Into $100,000",
+          "url": "https://www.fool.com/investing/2026/02/27/this-nuclear-energy-stock-could-turn-1000-into/?.tsrc=rss",
+          "date": "02.27 23:35",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -239,20 +267,6 @@
           "date": "02.27 23:59",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank",
-          "url": "https://finance.yahoo.com/news/openais-110-billion-funding-round-145925079.html?.tsrc=rss",
-          "date": "02.27 23:59",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Stock Market Today: Dow Slides On Surprise Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage)",
-          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow.html?.tsrc=rss",
-          "date": "02.27 23:11",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -277,7 +291,7 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     },
     {
       "id": "sig_20260227_US_003",
@@ -359,14 +373,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     },
     {
       "id": "sig_20260227_US_004",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Applied, Materials,",
-      "summary": "Applied Materials 주가는 Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Applied Materials은(는) Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -432,14 +446,14 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     },
     {
       "id": "sig_20260227_US_005",
       "theme": "#SaaS",
       "signal_type": "이슈",
       "short_reason": "ServiceNow, AI",
-      "summary": "오늘 ServiceNow 주가는 ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "ServiceNow은(는) ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "ServiceNow",
         "symbol": "NOW",
@@ -451,6 +465,13 @@
           "title": "ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide",
           "url": "https://finance.yahoo.com/news/servicenow-ai-launch-tests-investor-011239485.html?.tsrc=rss",
           "date": "02.27 10:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "ServiceNow (NOW) Down 6.4% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finance.yahoo.com/news/servicenow-now-down-6-4-163010147.html?.tsrc=rss",
+          "date": "02.28 01:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -500,14 +521,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     },
     {
       "id": "sig_20260227_US_006",
       "theme": "#E-commerce",
       "signal_type": "이슈",
       "short_reason": "Shopify, Buyback",
-      "summary": "Shopify은(는) Shopify Buyback And AI Push Test Valuation And Growth Expectations 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Shopify 주가는 Shopify Buyback And AI Push Test Valuation And Growth Expectations 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Shopify",
         "symbol": "SHOP",
@@ -568,14 +589,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     },
     {
       "id": "sig_20260227_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Lam, Research",
-      "summary": "Lam Research 주가는 Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
@@ -587,6 +608,13 @@
           "title": "Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know",
           "url": "https://finance.yahoo.com/news/lam-research-lrcx-falls-more-224502346.html?.tsrc=rss",
           "date": "02.27 07:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Lam Research (LRCX) Down 3.7% Since Last Earnings Report: Can It Rebound?",
+          "url": "https://finance.yahoo.com/news/lam-research-lrcx-down-3-163007888.html?.tsrc=rss",
+          "date": "02.28 01:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -637,7 +665,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     },
     {
       "id": "sig_20260227_US_008",
@@ -702,14 +730,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     },
     {
       "id": "sig_20260227_US_009",
       "theme": "#Aerospace/Defense",
       "signal_type": "이슈",
       "short_reason": "L3Harris, Technologies",
-      "summary": "오늘 L3Harris 주가는 L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "L3Harris은(는) L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "L3Harris",
         "symbol": "LHX",
@@ -781,7 +809,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     },
     {
       "id": "sig_20260227_US_010",
@@ -854,7 +882,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 02:41:40"
+      "timestamp": "2026-02-28 03:05:52"
     }
   ]
 }
