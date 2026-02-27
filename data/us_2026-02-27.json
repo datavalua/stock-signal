@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28 05:35:56",
+  "last_updated": "2026-02-28 06:00:30",
   "signals": [
     {
       "id": "sig_20260227_US_001",
@@ -71,14 +71,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "Stocks, to",
-      "summary": "NVIDIA 주가는 Stocks to watch next week: Broadcom, Costco, Adidas, Aviva and Greggs 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "OpenAI, raises",
+      "summary": "NVIDIA 주가는 OpenAI raises $110B in one of the largest private funding rounds in history 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -87,9 +87,23 @@
       },
       "news_articles": [
         {
-          "title": "Stocks to watch next week: Broadcom, Costco, Adidas, Aviva and Greggs",
-          "url": "https://uk.finance.yahoo.com/news/broadcom-costco-adidas-aviva-greggs-stocks-to-watch-151811073.html?.tsrc=rss",
-          "date": "02.28 00:18",
+          "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
+          "url": "https://finance.yahoo.com/news/openai-raises-110b-one-largest-141301333.html?.tsrc=rss",
+          "date": "02.27 23:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stock Market Today: Dow Sinks On Hot Inflation; Nvidia, CoreWeave Dive Amid Tech Rout (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-sinks.html?.tsrc=rss",
+          "date": "02.28 05:56",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Looking to Buy the Dip on Tech Stocks? Consider This Low-Cost Vanguard ETF.",
+          "url": "https://www.fool.com/investing/2026/02/27/buy-vanguard-etf-tech-stock-sell-off/?.tsrc=rss",
+          "date": "02.28 05:35",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -111,6 +125,13 @@
           "title": "Why Nebius Group Stock Was Down Double-Digits Today",
           "url": "https://www.fool.com/investing/2026/02/27/why-nebius-group-stock-was-down-double-digits-toda/?.tsrc=rss",
           "date": "02.28 05:22",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stocks to watch next week: Broadcom, Costco, Adidas, Aviva and Greggs",
+          "url": "https://uk.finance.yahoo.com/news/broadcom-costco-adidas-aviva-greggs-stocks-to-watch-151811073.html?.tsrc=rss",
+          "date": "02.28 00:18",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -230,13 +251,6 @@
           "title": "Why Red Cat Stock Crashed Today",
           "url": "https://www.fool.com/investing/2026/02/27/why-red-cat-stock-crashed-today/?.tsrc=rss",
           "date": "02.28 03:38",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Stock Market Today: Dow Sinks On Hot Inflation; CoreWeave, Rocket Lab Plunge (Live Coverage)",
-          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-sinks.html?.tsrc=rss",
-          "date": "02.28 03:36",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -400,13 +414,6 @@
           "date": "02.28 00:30",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
-          "url": "https://finance.yahoo.com/news/openai-raises-110b-one-largest-141301333.html?.tsrc=rss",
-          "date": "02.27 23:13",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -431,14 +438,14 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     },
     {
       "id": "sig_20260227_US_003",
       "theme": "#Cybersecurity",
       "signal_type": "이슈",
       "short_reason": "CrowdStrike, (CRWD)",
-      "summary": "오늘 CrowdStrike 주가는 CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "CrowdStrike은(는) CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "CrowdStrike",
         "symbol": "CRWD",
@@ -513,14 +520,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     },
     {
       "id": "sig_20260227_US_004",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Applied, Materials,",
-      "summary": "Applied Materials은(는) Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Applied Materials 주가는 Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -586,7 +593,7 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     },
     {
       "id": "sig_20260227_US_005",
@@ -675,7 +682,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     },
     {
       "id": "sig_20260227_US_006",
@@ -743,7 +750,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     },
     {
       "id": "sig_20260227_US_007",
@@ -819,14 +826,14 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     },
     {
       "id": "sig_20260227_US_008",
       "theme": "#SMR",
       "signal_type": "이슈",
       "short_reason": "Oklo’s, Meta",
-      "summary": "Oklo은(는) Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Oklo 주가는 Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Oklo",
         "symbol": "OKLO",
@@ -898,14 +905,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     },
     {
       "id": "sig_20260227_US_009",
       "theme": "#Aerospace/Defense",
       "signal_type": "이슈",
       "short_reason": "L3Harris, Technologies",
-      "summary": "L3Harris은(는) L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 L3Harris 주가는 L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "L3Harris",
         "symbol": "LHX",
@@ -984,7 +991,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     },
     {
       "id": "sig_20260227_US_010",
@@ -1057,7 +1064,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 05:35:56"
+      "timestamp": "2026-02-28 06:00:30"
     }
   ]
 }
