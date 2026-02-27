@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28 06:35:37",
+  "last_updated": "2026-02-28 06:57:52",
   "signals": [
     {
       "id": "sig_20260227_US_001",
@@ -24,7 +24,7 @@
         {
           "title": "Heico Stock: Buy the Dip, Wall Street Says",
           "url": "https://finance.yahoo.com/m/e71fc0fd-eea0-3ba7-9d30-adf286ad4993/heico-stock%3A-buy-the-dip%2C.html?.tsrc=rss",
-          "date": "02.28 01:55",
+          "date": "02.28 06:23",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -71,14 +71,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "BC-Most, Active",
-      "summary": "NVIDIA은(는) BC-Most Active Stocks 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "Stock, Market",
+      "summary": "NVIDIA은(는) Stock Market Today: Dow Drops 700 Points On Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage) 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -87,9 +87,37 @@
       },
       "news_articles": [
         {
-          "title": "BC-Most Active Stocks",
-          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017058.html?.tsrc=rss",
-          "date": "02.28 00:30",
+          "title": "Stock Market Today: Dow Drops 700 Points On Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-drops.html?.tsrc=rss",
+          "date": "02.28 00:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "I'm Not Convinced Anthropic's New COBOL Coding Tool Is an Actual Threat to IBM",
+          "url": "https://www.fool.com/investing/2026/02/27/not-convinced-anthropic-cobol-coding-ibm-stock/?.tsrc=rss",
+          "date": "02.28 06:52",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Earnings live: Block mass layoffs earn Wall Street's approval, Duolingo shares plunge",
+          "url": "https://finance.yahoo.com/news/live/earnings-live-block-mass-layoffs-earn-wall-streets-approval-duolingo-shares-plunge-214740021.html?.tsrc=rss",
+          "date": "02.28 06:47",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stock Market Today: Dow Sinks On Hot Inflation; Nvidia Plunges On OpenAI Deal (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-sinks.html?.tsrc=rss",
+          "date": "02.28 06:34",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "These Stocks Lead Dow Jones In February. Hint: It's Not AI Companies.",
+          "url": "https://finance.yahoo.com/m/adeeacfe-eaef-3a85-aa2f-b94e293518ee/these-stocks-lead-dow-jones.html?.tsrc=rss",
+          "date": "02.28 06:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -97,6 +125,13 @@
           "title": "AI derangement syndrome has left investors 'unnerved'",
           "url": "https://finance.yahoo.com/video/ai-derangement-syndrome-left-investors-212725488.html?.tsrc=rss",
           "date": "02.28 06:27",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "BC-Most Active Stocks",
+          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017058.html?.tsrc=rss",
+          "date": "02.28 00:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -132,13 +167,6 @@
           "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
           "url": "https://finance.yahoo.com/news/openai-raises-110b-one-largest-141301333.html?.tsrc=rss",
           "date": "02.27 23:13",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Stock Market Today: Dow Sinks On Hot Inflation; Nvidia, CoreWeave Dive Amid Tech Rout (Live Coverage)",
-          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-sinks.html?.tsrc=rss",
-          "date": "02.28 05:56",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -442,13 +470,6 @@
           "date": "02.28 00:35",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Stock Market Today: Dow Drops 700 Points On Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage)",
-          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-drops.html?.tsrc=rss",
-          "date": "02.28 00:31",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -473,14 +494,14 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     },
     {
       "id": "sig_20260227_US_003",
       "theme": "#Cybersecurity",
       "signal_type": "이슈",
       "short_reason": "CrowdStrike, (CRWD)",
-      "summary": "CrowdStrike은(는) CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 CrowdStrike 주가는 CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "CrowdStrike",
         "symbol": "CRWD",
@@ -492,6 +513,13 @@
           "title": "CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock?",
           "url": "https://finance.yahoo.com/news/crowdstrike-crwd-soars-4-9-082800065.html?.tsrc=rss",
           "date": "02.27 17:28",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Earnings live: Block mass layoffs earn Wall Street's approval, Duolingo shares plunge",
+          "url": "https://finance.yahoo.com/news/live/earnings-live-block-mass-layoffs-earn-wall-streets-approval-duolingo-shares-plunge-214740021.html?.tsrc=rss",
+          "date": "02.28 06:47",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -555,7 +583,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     },
     {
       "id": "sig_20260227_US_004",
@@ -628,7 +656,7 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     },
     {
       "id": "sig_20260227_US_005",
@@ -717,14 +745,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     },
     {
       "id": "sig_20260227_US_006",
       "theme": "#E-commerce",
       "signal_type": "이슈",
       "short_reason": "Shopify, Buyback",
-      "summary": "Shopify은(는) Shopify Buyback And AI Push Test Valuation And Growth Expectations 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Shopify 주가는 Shopify Buyback And AI Push Test Valuation And Growth Expectations 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Shopify",
         "symbol": "SHOP",
@@ -785,7 +813,7 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     },
     {
       "id": "sig_20260227_US_007",
@@ -861,7 +889,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     },
     {
       "id": "sig_20260227_US_008",
@@ -940,14 +968,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     },
     {
       "id": "sig_20260227_US_009",
       "theme": "#Aerospace/Defense",
       "signal_type": "이슈",
       "short_reason": "L3Harris, Technologies",
-      "summary": "L3Harris은(는) L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 L3Harris 주가는 L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "L3Harris",
         "symbol": "LHX",
@@ -1026,14 +1054,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     },
     {
       "id": "sig_20260227_US_010",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "ASML, EUV",
-      "summary": "ASML은(는) ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "ASML 주가는 ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "ASML",
         "symbol": "ASML",
@@ -1084,7 +1112,7 @@
         },
         {
           "name": "[Semiconductor Equipment] Lam Research",
-          "change_rate": "+0.0%"
+          "change_rate": "-4.2%"
         },
         {
           "name": "[Semiconductor Equipment] KLA",
@@ -1099,7 +1127,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 06:35:37"
+      "timestamp": "2026-02-28 06:57:52"
     }
   ]
 }
