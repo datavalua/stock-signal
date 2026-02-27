@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28 03:05:52",
+  "last_updated": "2026-02-28 03:59:12",
   "signals": [
     {
       "id": "sig_20260227_US_001",
@@ -18,6 +18,13 @@
           "title": "Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
           "url": "https://finance.yahoo.com/news/heico-hei-q1-earnings-taking-143010751.html?.tsrc=rss",
           "date": "02.26 23:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Heico Stock: Buy the Dip, Wall Street Says",
+          "url": "https://finance.yahoo.com/m/e71fc0fd-eea0-3ba7-9d30-adf286ad4993/heico-stock%3A-buy-the-dip%2C.html?.tsrc=rss",
+          "date": "02.28 01:55",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -64,14 +71,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "OpenAI's, $110",
-      "summary": "NVIDIA 주가는 OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "OpenAI, raises",
+      "summary": "NVIDIA은(는) OpenAI raises $110 bn in record funding round 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -79,6 +86,48 @@
         "news_url": "https://finance.yahoo.com/quote/NVDA"
       },
       "news_articles": [
+        {
+          "title": "OpenAI raises $110 bn in record funding round",
+          "url": "https://finance.yahoo.com/news/openai-raises-110-bn-record-145926929.html?.tsrc=rss",
+          "date": "02.27 23:59",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is AMD a Buy After Meta Deal?",
+          "url": "https://www.fool.com/investing/2026/02/27/is-amd-a-buy-after-meta-deal/?.tsrc=rss",
+          "date": "02.28 03:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Should You Forget Micron and Buy This Other Artificial Intelligence (AI) Chip Stock Instead?",
+          "url": "https://www.fool.com/investing/2026/02/27/should-you-forget-micron-and-buy-this-other-artifi/?.tsrc=rss",
+          "date": "02.28 03:40",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Red Cat Stock Crashed Today",
+          "url": "https://www.fool.com/investing/2026/02/27/why-red-cat-stock-crashed-today/?.tsrc=rss",
+          "date": "02.28 03:38",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stock Market Today: Dow Sinks On Hot Inflation; CoreWeave, Rocket Lab Plunge (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-sinks.html?.tsrc=rss",
+          "date": "02.28 03:36",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Circle's CEO Says Stablecoins Will Drive \"the Greatest Acceleration of Economic Activity\" Ever. Here's Why He Might Be Right.",
+          "url": "https://www.fool.com/investing/2026/02/27/circles-ceo-says-stablecoins-will-drive-the-greate/?.tsrc=rss",
+          "date": "02.28 03:34",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank",
           "url": "https://finance.yahoo.com/news/openais-110-billion-funding-round-145925079.html?.tsrc=rss",
@@ -260,13 +309,6 @@
           "date": "02.28 00:00",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "OpenAI raises $110 bn in record funding round",
-          "url": "https://finance.yahoo.com/news/openai-raises-110-bn-record-145926929.html?.tsrc=rss",
-          "date": "02.27 23:59",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -291,14 +333,14 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     },
     {
       "id": "sig_20260227_US_003",
       "theme": "#Cybersecurity",
       "signal_type": "이슈",
       "short_reason": "CrowdStrike, (CRWD)",
-      "summary": "오늘 CrowdStrike 주가는 CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "CrowdStrike은(는) CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "CrowdStrike",
         "symbol": "CRWD",
@@ -373,14 +415,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     },
     {
       "id": "sig_20260227_US_004",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Applied, Materials,",
-      "summary": "Applied Materials은(는) Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Applied Materials 주가는 Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -446,14 +488,14 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     },
     {
       "id": "sig_20260227_US_005",
       "theme": "#SaaS",
       "signal_type": "이슈",
       "short_reason": "ServiceNow, AI",
-      "summary": "ServiceNow은(는) ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 ServiceNow 주가는 ServiceNow AI Launch Tests Investor Patience After Sharp Share Price Slide 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "ServiceNow",
         "symbol": "NOW",
@@ -521,7 +563,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     },
     {
       "id": "sig_20260227_US_006",
@@ -589,14 +631,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     },
     {
       "id": "sig_20260227_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Lam, Research",
-      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Lam Research 주가는 Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
@@ -665,7 +707,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     },
     {
       "id": "sig_20260227_US_008",
@@ -730,14 +772,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     },
     {
       "id": "sig_20260227_US_009",
       "theme": "#Aerospace/Defense",
       "signal_type": "이슈",
       "short_reason": "L3Harris, Technologies",
-      "summary": "L3Harris은(는) L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 L3Harris 주가는 L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "L3Harris",
         "symbol": "LHX",
@@ -809,14 +851,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     },
     {
       "id": "sig_20260227_US_010",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "ASML, EUV",
-      "summary": "ASML은(는) ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "ASML 주가는 ASML EUV Breakthrough Lifts Chip Output And Raises Valuation Questions 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "ASML",
         "symbol": "ASML",
@@ -882,7 +924,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 03:05:52"
+      "timestamp": "2026-02-28 03:59:12"
     }
   ]
 }
