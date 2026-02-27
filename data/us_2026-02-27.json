@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-28 00:55:45",
+  "last_updated": "2026-02-28 01:53:06",
   "signals": [
     {
       "id": "sig_20260227_US_001",
       "theme": "#Aerospace",
       "signal_type": "이슈",
       "short_reason": "Heico, (HEI)",
-      "summary": "Heico은(는) Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Heico 주가는 Heico (HEI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Heico",
         "symbol": "HEI",
@@ -64,14 +64,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "This, AI",
-      "summary": "NVIDIA은(는) This AI Infrastructure Stock Grew 176% Last Year. Is It Too Late to Buy in 2026? 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "Tech, stocks",
+      "summary": "NVIDIA 주가는 Tech stocks today: OpenAI raises $110 billion, Anthropic rejects Defense Department AI demands 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -79,6 +79,48 @@
         "news_url": "https://finance.yahoo.com/quote/NVDA"
       },
       "news_articles": [
+        {
+          "title": "Tech stocks today: OpenAI raises $110 billion, Anthropic rejects Defense Department AI demands",
+          "url": "https://finance.yahoo.com/news/live/tech-stocks-today-openai-raises-110-billion-anthropic-rejects-defense-department-ai-demands-143452536.html?.tsrc=rss",
+          "date": "02.27 23:34",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Battle Royale: Joby Aviation vs. Boeing. Only One Can Make You Rich.",
+          "url": "https://www.fool.com/investing/2026/02/27/battle-royale-joby-aviation-vs-boeing-only-one-can/?.tsrc=rss",
+          "date": "02.28 01:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "The eVTOL Era is Beginning With Uber and Joby Aviation. Here's Everything Investors Need to Know.",
+          "url": "https://www.fool.com/investing/2026/02/27/the-evtol-era-is-beginning-with-uber-and-joby-avia/?.tsrc=rss",
+          "date": "02.28 01:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "OpenAI Raises $110 Billion From Amazon, Nvidia, SoftBank. OpenAI And AWS Expand Partnership.",
+          "url": "https://finance.yahoo.com/m/f0ef4d92-2b73-3ec0-b2ee-8939976ef9f0/openai-raises-%24110-billion.html?.tsrc=rss",
+          "date": "02.28 01:37",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "OpenAI valuation hits $730B as it raises $100B in latest funding round",
+          "url": "https://www.proactiveinvestors.com/companies/news/1088086/openai-valuation-hits-730b-as-it-raises-100b-in-latest-funding-round-1088086.html?.tsrc=rss",
+          "date": "02.28 01:37",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Want to Invest in Quantum Computing? 2 Stocks That Are Great Buys Right Now",
+          "url": "https://www.fool.com/investing/2026/02/27/want-to-invest-in-quantum-computing-2-stocks-that/?.tsrc=rss",
+          "date": "02.28 01:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "This AI Infrastructure Stock Grew 176% Last Year. Is It Too Late to Buy in 2026?",
           "url": "https://www.fool.com/investing/2026/02/27/this-ai-infrastructure-stock-grew-176-last-year-is/?.tsrc=rss",
@@ -176,13 +218,6 @@
           "date": "02.27 23:35",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Tech stocks today: OpenAI raises $110 billion, Anthropic rejects Defense Department AI demands",
-          "url": "https://finance.yahoo.com/news/live/tech-stocks-today-openai-raises-110-billion-anthropic-rejects-defense-department-ai-demands-143452536.html?.tsrc=rss",
-          "date": "02.27 23:34",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -207,14 +242,14 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     },
     {
       "id": "sig_20260227_US_003",
       "theme": "#Cybersecurity",
       "signal_type": "이슈",
       "short_reason": "CrowdStrike, (CRWD)",
-      "summary": "CrowdStrike은(는) CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 CrowdStrike 주가는 CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "CrowdStrike",
         "symbol": "CRWD",
@@ -282,14 +317,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     },
     {
       "id": "sig_20260227_US_004",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Applied, Materials,",
-      "summary": "Applied Materials 주가는 Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Applied Materials은(는) Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -355,7 +390,7 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     },
     {
       "id": "sig_20260227_US_005",
@@ -423,7 +458,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     },
     {
       "id": "sig_20260227_US_006",
@@ -442,6 +477,13 @@
           "title": "Shopify Buyback And AI Push Test Valuation And Growth Expectations",
           "url": "https://finance.yahoo.com/news/shopify-buyback-ai-push-test-131208420.html?.tsrc=rss",
           "date": "02.27 22:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Jack Dorsey’s Block Slashes Nearly Half Its Staff in AI Bet",
+          "url": "https://finance.yahoo.com/news/jack-dorsey-block-slashes-nearly-041816081.html?.tsrc=rss",
+          "date": "02.28 00:33",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -467,13 +509,6 @@
           "has_name": true
         },
         {
-          "title": "Jack Dorsey’s Block Slashes Nearly Half Its Staff in AI Bet",
-          "url": "https://finance.yahoo.com/news/jack-dorsey-block-slashes-nearly-041816081.html?.tsrc=rss",
-          "date": "02.27 13:18",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
           "title": "RF-SMART Reaches 2,800 NetSuite WMS Customers Across 40+ Countries",
           "url": "https://finance.yahoo.com/news/rf-smart-reaches-2-800-230100404.html?.tsrc=rss",
           "date": "02.27 08:01",
@@ -491,14 +526,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     },
     {
       "id": "sig_20260227_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Lam, Research",
-      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "summary": "Lam Research 주가는 Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
@@ -560,14 +595,14 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     },
     {
       "id": "sig_20260227_US_008",
       "theme": "#SMR",
       "signal_type": "이슈",
       "short_reason": "Oklo’s, Meta",
-      "summary": "오늘 Oklo 주가는 Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "Oklo은(는) Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "Oklo",
         "symbol": "OKLO",
@@ -625,7 +660,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     },
     {
       "id": "sig_20260227_US_009",
@@ -697,7 +732,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     },
     {
       "id": "sig_20260227_US_010",
@@ -770,7 +805,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 00:55:45"
+      "timestamp": "2026-02-28 01:53:06"
     }
   ]
 }
