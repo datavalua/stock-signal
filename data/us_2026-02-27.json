@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28 00:25:18",
+  "last_updated": "2026-02-28 00:55:45",
   "signals": [
     {
       "id": "sig_20260227_US_001",
@@ -64,14 +64,14 @@
           "change_rate": "-0.6%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     },
     {
       "id": "sig_20260227_US_002",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
-      "short_reason": "OpenAI, raises",
-      "summary": "NVIDIA 주가는 OpenAI raises $110B in one of the largest private funding rounds in history 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "short_reason": "This, AI",
+      "summary": "NVIDIA은(는) This AI Infrastructure Stock Grew 176% Last Year. Is It Too Late to Buy in 2026? 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "NVIDIA",
         "symbol": "NVDA",
@@ -79,6 +79,48 @@
         "news_url": "https://finance.yahoo.com/quote/NVDA"
       },
       "news_articles": [
+        {
+          "title": "This AI Infrastructure Stock Grew 176% Last Year. Is It Too Late to Buy in 2026?",
+          "url": "https://www.fool.com/investing/2026/02/27/this-ai-infrastructure-stock-grew-176-last-year-is/?.tsrc=rss",
+          "date": "02.27 23:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nvidia's blowout results and Salesforce's Agentforce progress signal the AI software selloff has gone too far, says Wedbush",
+          "url": "https://www.proactiveinvestors.com/companies/news/1088065/nvidia-s-blowout-results-and-salesforce-s-agentforce-progress-signal-the-ai-software-selloff-has-gone-too-far-says-wedbush-1088065.html?.tsrc=rss",
+          "date": "02.28 00:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Broadcom Stock, Fiber Optic Star Ciena Step Up To Earnings Plate After Nvidia Carnage",
+          "url": "https://finance.yahoo.com/m/b3e6285f-5b96-3fea-8b91-766c21e434bd/broadcom-stock%2C-fiber-optic.html?.tsrc=rss",
+          "date": "02.28 00:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Where Will SoFi Technologies Be in 3 Years?",
+          "url": "https://www.fool.com/investing/2026/02/27/where-will-sofi-technologies-be-in-3-years/?.tsrc=rss",
+          "date": "02.28 00:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stock Market Today: Dow Drops 700 Points On Inflation Data; Nvidia Partner CoreWeave Plunges (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-drops.html?.tsrc=rss",
+          "date": "02.28 00:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "BC-Most Active Stocks",
+          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017058.html?.tsrc=rss",
+          "date": "02.28 00:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
           "url": "https://finance.yahoo.com/news/openai-raises-110b-one-largest-141301333.html?.tsrc=rss",
@@ -141,13 +183,6 @@
           "date": "02.27 23:34",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "This AI Infrastructure Stock Grew 176% Last Year. Is It Too Late to Buy in 2026?",
-          "url": "https://www.fool.com/investing/2026/02/27/this-ai-infrastructure-stock-grew-176-last-year-is/?.tsrc=rss",
-          "date": "02.27 23:20",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -172,14 +207,14 @@
           "change_rate": "-2.0%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     },
     {
       "id": "sig_20260227_US_003",
       "theme": "#Cybersecurity",
       "signal_type": "이슈",
       "short_reason": "CrowdStrike, (CRWD)",
-      "summary": "오늘 CrowdStrike 주가는 CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "summary": "CrowdStrike은(는) CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock? 소식이 전해지며 매수세가 강화되었습니다.",
       "main_stock": {
         "name": "CrowdStrike",
         "symbol": "CRWD",
@@ -191,6 +226,20 @@
           "title": "CrowdStrike (CRWD) Soars 4.9%: Is Further Upside Left in the Stock?",
           "url": "https://finance.yahoo.com/news/crowdstrike-crwd-soars-4-9-082800065.html?.tsrc=rss",
           "date": "02.27 17:28",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Nvidia's blowout results and Salesforce's Agentforce progress signal the AI software selloff has gone too far, says Wedbush",
+          "url": "https://www.proactiveinvestors.com/companies/news/1088065/nvidia-s-blowout-results-and-salesforce-s-agentforce-progress-signal-the-ai-software-selloff-has-gone-too-far-says-wedbush-1088065.html?.tsrc=rss",
+          "date": "02.28 00:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Here is What to Know Beyond Why CrowdStrike (CRWD) is a Trending Stock",
+          "url": "https://finance.yahoo.com/news/know-beyond-why-crowdstrike-crwd-140007455.html?.tsrc=rss",
+          "date": "02.27 23:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -233,7 +282,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     },
     {
       "id": "sig_20260227_US_004",
@@ -306,7 +355,7 @@
           "change_rate": "-2.8%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     },
     {
       "id": "sig_20260227_US_005",
@@ -374,7 +423,7 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     },
     {
       "id": "sig_20260227_US_006",
@@ -400,6 +449,13 @@
           "title": "Shopify (SHOP) GMV Growth Reaccelerates as AI Integration Strengthens Investment Case",
           "url": "https://finance.yahoo.com/news/shopify-inc-shop-gmv-growth-142315804.html?.tsrc=rss",
           "date": "02.27 23:23",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is Trending Stock Shopify Inc. (SHOP) a Buy Now?",
+          "url": "https://finance.yahoo.com/news/trending-stock-shopify-inc-shop-140004363.html?.tsrc=rss",
+          "date": "02.27 23:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -435,14 +491,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     },
     {
       "id": "sig_20260227_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "Lam, Research",
-      "summary": "Lam Research 주가는 Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "summary": "Lam Research은(는) Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
@@ -504,14 +560,14 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     },
     {
       "id": "sig_20260227_US_008",
       "theme": "#SMR",
       "signal_type": "이슈",
       "short_reason": "Oklo’s, Meta",
-      "summary": "Oklo은(는) Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 Oklo 주가는 Oklo’s Meta Deal And Atomic Alchemy Buy Open New Revenue Paths 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "Oklo",
         "symbol": "OKLO",
@@ -569,14 +625,14 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     },
     {
       "id": "sig_20260227_US_009",
       "theme": "#Aerospace/Defense",
       "signal_type": "이슈",
       "short_reason": "L3Harris, Technologies",
-      "summary": "L3Harris은(는) L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 소식이 전해지며 매수세가 강화되었습니다.",
+      "summary": "오늘 L3Harris 주가는 L3Harris Technologies (LHX) Lands its Biggest Ever Full-Rate Production Contract For Submarine Communication Systems 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
       "main_stock": {
         "name": "L3Harris",
         "symbol": "LHX",
@@ -641,7 +697,7 @@
           "change_rate": "+0.8%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     },
     {
       "id": "sig_20260227_US_010",
@@ -714,7 +770,7 @@
           "change_rate": "-5.5%"
         }
       ],
-      "timestamp": "2026-02-28 00:25:18"
+      "timestamp": "2026-02-28 00:55:45"
     }
   ]
 }
