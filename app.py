@@ -115,14 +115,37 @@ def load_data(date_str):
 @st.cache(ttl=3600, show_spinner=False, allow_output_mutation=True)
 def get_stock_listing_cached(idx):
     try:
-        # Use KRX for more stable domestic stock listings
         if idx in ["KOSPI", "KOSDAQ"]:
+            # Fallback to Naver Mobile API because FDR KRX is often geo-blocked
+            import requests
+            import pandas as pd
+            url = f"https://m.stock.naver.com/api/stocks/marketValue/{idx}"
+            headers = {"User-Agent": "Mozilla/5.0"}
+            all_stocks = []
+            page = 1
+            while True:
+                res = requests.get(url, params={"page": page, "pageSize": 100}, headers=headers)
+                if res.status_code != 200: break
+                try: data = res.json()
+                except: break
+                stocks = data.get('stocks', [])
+                if not stocks: break
+                all_stocks.extend(stocks)
+                page += 1
+            
+            if all_stocks:
+                df = pd.DataFrame(all_stocks)
+                df = df.rename(columns={"itemCode": "Symbol", "stockName": "Name"})
+                return df
+                
+            # If Naver fails natively for some reason, try original FDR
             df = fdr.StockListing("KRX")
             return df[df["Market"] == idx]
         
         df = fdr.StockListing(idx)
         return df
-    except:
+    except Exception as e:
+        print(f"Error fetching {idx} listing: {e}")
         return None
 
 @st.cache(ttl=600, show_spinner=False)
