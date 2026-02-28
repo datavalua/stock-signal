@@ -602,13 +602,22 @@ def generate_batch_summaries(stock_data_list, market="KR"):
             import time
             time.sleep(3) # Wait slightly to avoid immediate rate limit if crawled right before
             
-            executor = ThreadPoolExecutor(max_workers=1)
-            future = executor.submit(
-                client.models.generate_content,
-                model='gemini-2.5-pro', # Upgraded to Pro model since we use batch
-                contents=prompt
-            )
-            response = future.result(timeout=45) # Longer timeout for batch
+            def call_gemini(model_name):
+                executor = ThreadPoolExecutor(max_workers=1)
+                future = executor.submit(
+                    client.models.generate_content,
+                    model=model_name,
+                    contents=prompt
+                )
+                return future.result(timeout=45)
+
+            try:
+                # 1st attempt: Try with Gemini 2.5 Pro
+                response = call_gemini('gemini-2.5-pro')
+            except Exception as e:
+                print(f"Gemini 2.5 Pro failed (likely quota limit): {e}. Falling back to gemini-2.5-flash...")
+                # 2nd attempt: Fallback to Gemini 2.5 Flash
+                response = call_gemini('gemini-2.5-flash')
                 
             if response and response.text:
                 try:
