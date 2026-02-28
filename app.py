@@ -316,7 +316,7 @@ def show_search():
                 
                 st.success(f"조회 완료 (총 {len(df)}개 전수 표시)")
                 
-                # Fixed column widths for consistent size (Requires Streamlit >= 1.23.0)
+                # Fixed column widths for consistent size across all markets
                 try:
                     st.dataframe(
                         df_view,
@@ -326,15 +326,12 @@ def show_search():
                             "Industry": st.column_config.TextColumn("Industry", width=200),
                             "Peers": st.column_config.TextColumn("Peers", width=400)
                         },
-                        use_container_width=True
+                        use_container_width=True,
+                        hide_index=True
                     )
                 except AttributeError:
-                    # Fallback for older Streamlit versions (< 1.23.0)
-                    try:
-                        st.dataframe(df_view, use_container_width=True)
-                    except TypeError:
-                        # Fallback for extremely old Streamlit versions (< 1.10.0)
-                        st.dataframe(df_view)
+                    # Fallback for Streamlit < 1.23.0
+                    st.dataframe(df_view, use_container_width=True)
                     
             except Exception as e:
                 st.error(f"조회 중 오류 발생: {e}")
