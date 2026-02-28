@@ -265,10 +265,12 @@ def show_search():
     
     col1, col2 = st.columns([3, 1])
     with col1:
-        idx = st.selectbox("시장 지수 선택", ["S&P500", "NASDAQ", "KOSPI", "KOSDAQ"], label_visibility="collapsed")
+        idx = st.selectbox("시장 지수 선택", ["S&P500", "NASDAQ", "KOSPI", "KOSDAQ"])
     with col2:
-        search_clicked = st.button("조회 시작", use_container_width=True)
-    
+        st.write("") # Add some spacing so the button aligns better with the selectbox label
+        st.write("")
+        search_clicked = st.button("조회 시작")
+        
     if search_clicked:
         with st.spinner(f"{idx} 종목 리스트를 불러오는 중..."):
             try:
