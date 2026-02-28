@@ -262,9 +262,14 @@ def show_signals(market, date_str):
 def show_search():
     st.header("🔍 관련 주식 조회")
     st.info("각 지수별 상장 종목 리스트와 상세 정보(산업군, 경쟁사)를 조회합니다.")
-    idx = st.selectbox("시장 지수 선택", ["S&P500", "NASDAQ", "KOSPI", "KOSDAQ"])
     
-    if st.button("조회 시작"):
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        idx = st.selectbox("시장 지수 선택", ["S&P500", "NASDAQ", "KOSPI", "KOSDAQ"], label_visibility="collapsed")
+    with col2:
+        search_clicked = st.button("조회 시작", use_container_width=True)
+    
+    if search_clicked:
         with st.spinner(f"{idx} 종목 리스트를 불러오는 중..."):
             try:
                 meta = load_stock_metadata()
