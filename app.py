@@ -55,13 +55,15 @@ st.set_page_config(
 # --- CSS Styling for Sticky Header ---
 st.markdown("""
 <style>
-    /* Hide default Streamlit header */
-    header[data-testid="stHeader"] { visibility: hidden; height: 0; }
+    /* Make Streamlit header transparent but keep it visible for the mobile sidebar menu (hamburger icon) */
+    header[data-testid="stHeader"] { 
+        background: transparent !important; 
+    }
     
     /* Sticky Top Container for Title & Controls */
     .main .block-container > div:nth-child(1) {
         position: sticky;
-        top: 0;
+        top: 2.5rem; /* Offset to prevent overlapping with the hamburger menu */
         background-color: white;
         z-index: 1000;
         padding-top: 15px;
