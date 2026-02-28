@@ -299,11 +299,15 @@ def show_search():
                 df["Industry"] = industries
                 df["Peers"] = peers_list
                 
-                # Unify layout: only show core columns (US Standard)
+                # Unify layout: force core columns (US Standard)
                 display_cols = ["Symbol", "Name", "Industry", "Peers"]
-                # Safety check for column existence
-                actual_cols = [c for c in display_cols if c in df.columns]
-                df_view = df[actual_cols].copy()
+                
+                # Ensure all display columns exist, filling missing ones with default '-'
+                for col in display_cols:
+                    if col not in df.columns:
+                        df[col] = "-"
+                        
+                df_view = df[display_cols].copy()
                 
                 st.success(f"조회 완료 (총 {len(df)}개 전수 표시)")
                 
