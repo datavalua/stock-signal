@@ -605,7 +605,7 @@ def generate_batch_summaries(stock_data_list, market="KR"):
             executor = ThreadPoolExecutor(max_workers=1)
             future = executor.submit(
                 client.models.generate_content,
-                model='gemini-2.5-flash', # Or gemini-2.5-flash-lite
+                model='gemini-2.5-pro', # Upgraded to Pro model since we use batch
                 contents=prompt
             )
             response = future.result(timeout=45) # Longer timeout for batch
