@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-27 16:11:46",
+  "last_updated": "2026-02-28 17:07:09",
   "signals": [
     {
       "id": "sig_20260227_KR_001",
       "theme": "#전력기기",
       "signal_type": "이슈",
-      "short_reason": "HD현대일렉트릭,, 시장",
-      "summary": "오늘 HD현대일렉트릭 주가는 HD현대일렉트릭, 시장 흐름 및 관련 테마 분석 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "직접 호재 미제시, 정보 부족",
+      "summary": "제공된 뉴스 기사 내에서 HD현대일렉트릭의 주가 급등을 직접적으로 설명할 수 있는 회사 특이적 호재가 확인되지 않았습니다. 시장 전체 동향 관련 기사만 확인되었습니다.",
       "main_stock": {
         "name": "HD현대일렉트릭",
         "symbol": "322000",
@@ -51,14 +51,14 @@
           "change_rate": "-7.6%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     },
     {
       "id": "sig_20260227_KR_002",
       "theme": "#보험",
       "signal_type": "이슈",
-      "short_reason": "DB손해보험,, 자사주",
-      "summary": "DB손해보험은(는) DB손해보험, 자사주 388만주 소각 결정…0.8조 규모 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "보험주 업황 부진, 자본 확충 부담",
+      "summary": "DB손해보험은 주주가치 제고를 위해 약 7980억원 규모의 자사주를 소각할 예정이라고 밝혔지만, 상법 개정 및 감독기관의 자본 확충 요구 등으로 보험사 전반의 업황 부진과 복잡한 셈법이 투자 심리를 위축시키며 주가가 하락했습니다.",
       "main_stock": {
         "name": "DB손해보험",
         "symbol": "005830",
@@ -67,12 +67,26 @@
       },
       "news_articles": [
         {
+          "title": "DB손해보험, 자사주 388만주 소각…주주가치 제고 ‘강수’",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003063982&office_id=119&code=005830&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 16:49",
+          "source": "데일리안",
+          "has_name": true,
+          "content": "기업가치 제고 계획 따른 후속 조치\n상법 개정 앞두고 선제적 대응 지속\n1분기 내 절차 마무리 예정\n[데일리안 = 김민환 기자] DB손해보험은 보통주 388만3651주(전체 발행주식의 5.6%)를 소각할 예정이라고 27일 공시했다.\n소각 예정 금액은 전일 종가(주당 20만5500원) 기준 약 7980억원 규모다. 장부가액 기준으로는 약 550억6000만원이다.\n소각 예정일은 오는 3월 30일로, 1분기 내 절차를 마무리할 계획이다.\n회사 측은 이번 소각이 기업가치 제고 계획에 따른 조치로, 주주가치 제고를 목적으로 매입한 자기주식 일부를 소각하는 것이라고 설명했다.\n앞서 DB손해보험은 자사주 소각 의무화를 담은 제3차 상법 개정안 통과에 앞서 선제적으로 지난해 12월 26일 자사주 141만6000주(2%)를 1차로 소각한 바 있다.\n회사 측은 추가 자사주 소각 여부에 대해서는 추후 검토를 거쳐 발표할 예정이라고 밝혔다."
+        },
+        {
           "title": "DB손해보험, 자사주 388만주 소각 결정…0.8조 규모",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080048&office_id=293&code=005830&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 15:29",
           "source": "블로터",
-          "has_name": true,
-          "content": "DB손해보험이 보통주 388만3651주를 소각하기로 결정했다고 27일 공시했다. 소각 예정 금액은 7980억9028만원이며, 기취득 자기주식을 활용한다. 소각 예정일은 3월30일이다.\n이번 소각 금액은 이사회 결의일 전일인 26일 종가(주당 20만5500원)를 기준으로 산정됐다. 회사는 상법에 따라 배당가능이익 범위 내에서 취득한 자기주식을 소각하는 방식으로, 발행주식 수만 줄고 자본금은 감소하지 않는다고 설명했다."
+          "has_name": true
+        },
+        {
+          "title": "삼성전자만 6조 원 샀다… 역대급 매수로 코스피 견인한 개미들",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000037753&office_id=037&code=005830&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 17:41",
+          "source": "주간동아",
+          "has_name": false
         },
         {
           "title": "상법은 소각, 감독은 자본 확충…보험사 셈법 ‘복잡’",
@@ -99,14 +113,14 @@
           "change_rate": "-2.4%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     },
     {
       "id": "sig_20260227_KR_003",
       "theme": "#자동차",
       "signal_type": "이슈",
-      "short_reason": "'새만금, 9조'",
-      "summary": "오늘 현대차 주가는 '새만금 9조' 투자 시동 건 현대차…장중 66만6000원 신고가 질... 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "새만금 9조 투자, 미래 산업 거점",
+      "summary": "현대차그룹이 전북 새만금에 로봇, AI, 수소 등 미래 산업 거점 구축을 위해 9조원 규모의 대규모 투자를 발표하며 주가가 급등했습니다. 이는 미래 성장 동력 확보에 대한 기대감으로 이어지며 장중 역대 최고가를 경신했습니다.",
       "main_stock": {
         "name": "현대차",
         "symbol": "005380",
@@ -123,17 +137,123 @@
           "content": "특징주\n현대차그룹이 전북 새만금에 9조원을 투자해 로봇·AI(인공지능)·수소 미래 산업 거점을 구축한다는 소식이 전해지면서 주가가 급등하고 있다.\n27일 오후 1시17분 현재 코스피 시장에서 현대차는 전 거래일 대비 4만5000원(7.39%) 오른 65만4000원에 거래되고 있다. 현대차는 장 중 한 때 66만6000원까지 오르며 역대 최고가를 갈아치웠다.\n현대차 주가는 이날 오전까지 약보합권에 머무르다 대규모 투자 소식이 전해지면서 강세로 전환했다. 이날 현대차그룹은 전북 군산 새만금컨벤션센터에서 정부·전북특별자치도와 '새만금 로봇·수소첨단산업 육성 및 AI 수소 시티 조성을 위한 투자협약(MOU)'을 맺었다. 이번 협약으로 현대차그룹은 전북 새만금 지역에 총 9조원을 투입해 △로봇 제조 공장 △AI 데이터센터 △수전해 기반 그린 수소 생산 기지 △재생에너지 발전소 △수소 AI 시범도시 등 5개 생산 기지를 구축한다.\n이번 새만금 투자는 지난해 현대차그룹이 발표한 125조2000억원 규모의 국내 중장기 투자 계획 중 핵심 프로젝트로 꼽힌다. 이번 투자가 유발하는 경제효과는 약 16조원으로 추산되며, 7만1000명 규모의 직·간접 고용 창출 효과가 있을 것으로 분석된다.\n이번 투자 발표 영향으로 현대제철(27.45%)·현대비앤지스틸(15.67%)·현대로템(8.05%)·현대위아(6.72%)·현대오토에버(5.35%) 등 현대차그룹주도 동반 강세를 보인다."
         },
         {
-          "title": "현대차그룹 새만금 투자…배터리·수소 등 집적효과 기대",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013793018&office_id=003&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 16:03",
-          "source": "뉴시스",
+          "title": "[영상구성] 이 대통령 “정주영도 자랑스러워할 것”…현대차, 새만금.....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000838755&office_id=422&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 23:10",
+          "source": "연합뉴스TV",
           "has_name": true
+        },
+        {
+          "title": "현대차, 새만금에 '9조' 통 큰 투자…'로봇·AI·수소' 핵심 거점 ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000593499&office_id=448&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 21:41",
+          "source": "TV조선",
+          "has_name": true
+        },
+        {
+          "title": "현대차, 새만금에 9조 투자…\"정주영도 자랑스러워할 것\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000838726&office_id=422&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 20:42",
+          "source": "연합뉴스TV",
+          "has_name": true
+        },
+        {
+          "title": "현대차, 새만금에 'AI센터· 로봇 미래도시' 투자 결단 [한강로사진관...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004109017&office_id=022&code=005380&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.27 19:59",
+          "source": "세계일보",
+          "has_name": true
+        },
+        {
+          "title": "현대차, 새만금 9조 투자…\"정주영도 자랑스러울 것\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000838684&office_id=422&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 18:43",
+          "source": "연합뉴스TV",
+          "has_name": true
+        },
+        {
+          "title": "현대차, 새만금에 AI·로봇·수소 혁신거점 구축",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005256480&office_id=015&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 17:59",
+          "source": "한국경제",
+          "has_name": true
+        },
+        {
+          "title": "새만금에 9조 쏟는 현대차…“로봇ㆍAIㆍ수소 거점, 일자리 7.1만명...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003505852&office_id=025&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 16:50",
+          "source": "중앙일보",
+          "has_name": true
+        },
+        {
+          "title": "[기업] 현대차그룹, 새만금에 9조 투자...'로봇·AI·에너지 거점...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002320597&office_id=052&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 15:15",
+          "source": "YTN",
+          "has_name": true
+        },
+        {
+          "title": "현대차그룹 사회공헌 ‘현대점프스쿨’ 13기 발대식 개최",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243343&office_id=215&code=005380&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.27 14:19",
+          "source": "한국경제TV",
+          "has_name": true
+        },
+        {
+          "title": "현대차그룹, 새만금에 9조원 투자…로봇·AI·에너지 거점 구축",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003700248&office_id=020&code=005380&page=5&sm=title_entity_id.basic",
+          "date": "2026.02.27 13:56",
+          "source": "동아일보",
+          "has_name": true
+        },
+        {
+          "title": "현대차 ‘9조원 투자’ 새만금에 혁신 거점",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002606300&office_id=016&code=005380&page=6&sm=title_entity_id.basic",
+          "date": "2026.02.27 12:01",
+          "source": "헤럴드경제",
+          "has_name": true
+        },
+        {
+          "title": "\"현대차그룹 125조 국내 투자 첫 발\"… 신사업 '핵심거점' 새만금...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005323355&office_id=008&code=005380&page=6&sm=title_entity_id.basic",
+          "date": "2026.02.27 11:45",
+          "source": "머니투데이",
+          "has_name": true
+        },
+        {
+          "title": "박윤영 KT 대표 선임 결정 정지 가처분 '기각'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402963&office_id=030&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 22:30",
+          "source": "전자신문",
+          "has_name": false
+        },
+        {
+          "title": "완충시간 더 줄였다, KT&G 전자담배 ‘릴 에이블 3.0’",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002606097&office_id=016&code=005380&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.27 10:04",
+          "source": "헤럴드경제",
+          "has_name": false
+        },
+        {
+          "title": "KT&G, ‘릴 에이블 3.0’ 출시···완충·예열시간 단축",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001100295&office_id=144&code=005380&page=8&sm=title_entity_id.basic",
+          "date": "2026.02.27 09:35",
+          "source": "스포츠경향",
+          "has_name": false
         },
         {
           "title": "[특징주] 새만금에 AI·로봇 거점 추진 현대차, 10%대 급등마감(...",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0015929532&office_id=001&code=005380&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 15:55",
           "source": "연합뉴스",
+          "has_name": true,
+          "content": "(서울=연합뉴스) 황철환 기자 = 전북 새만금 지역에 9조원을 단계적으로 투자해 인공지능(AI)·로봇·에너지를 아우르는 혁신성장거점을 구축하기로 한 현대차가 27일 10% 넘게 급등한 채 거래를 마쳤다.\n이날 유가증권시장에서 현대차는 전장보다 10.67% 오른 67만4천원에 장을 종료했다.\n2.79% 내린 59만2천원으로 출발한 현대차는 오전 11시를 전후해 본격 상승세로 돌아서 오후에는 한때 12.81% 오른 68만7천원까지 치솟기도 했다.\n이날 전북 군산새만금컨벤션센터에서 정부 및 전북특별자치도와 '새만금 로봇·수소 첨단산업 육성 및 AI 수소 시티 조성을 위한 투자협약(MOU)'을 체결했다는 소식에 투자심리가 자극받은 것으로 보인다.\n이번 투자는 ▲ AI 데이터센터(5조8천억원) ▲로봇 제조·부품 클러스터(4천억원) ▲ 수전해 플랜트(1조원) ▲ 태양광 발전(1조3천억원) ▲ AI 수소 시티(4천억원) 등으로 구성된다.\n새만금 부지 112만4천㎡(약 34만평)를 활용하는 대규모 프로젝트인 이번 사업을 통해 현대차그룹은 피지컬 AI와 탄소 중립 시대를 선도하는 '미래기술 기업'으로 도약하겠다는 구상이다.\nhwangch@yna.co.kr"
+        },
+        {
+          "title": "현대차그룹 새만금 투자…배터리·수소 등 집적효과 기대",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013793018&office_id=003&code=005380&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 16:03",
+          "source": "뉴시스",
           "has_name": true
         },
         {
@@ -349,14 +469,14 @@
           "change_rate": "+1.7%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     },
     {
       "id": "sig_20260227_KR_004",
       "theme": "#물류",
       "signal_type": "이슈",
-      "short_reason": "'새만금, 9조'",
-      "summary": "현대글로비스은(는) '새만금 9조' 투자 시동 건 현대차…장중 66만6000원 신고가 질... 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "현대차그룹 투자, 미래 성장 기대",
+      "summary": "현대글로비스는 현대차그룹이 새만금에 로봇, AI, 수소 등 미래 산업 거점 구축을 위해 9조원 규모의 대규모 투자를 발표한 영향으로 주가가 상승했습니다. 그룹의 미래 성장 전략 강화에 대한 기대감이 계열사 전반의 긍정적 투자 심리를 이끌었습니다.",
       "main_stock": {
         "name": "현대글로비스",
         "symbol": "011210",
@@ -365,12 +485,19 @@
       },
       "news_articles": [
         {
-          "title": "'새만금 9조' 투자 시동 건 현대차…장중 66만6000원 신고가 질...",
+          "title": "'새만금 9조' 투자 시동 건 현대차…장중 66만6000원 신고가 질주",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005323387&office_id=008&code=011210&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 13:29",
           "source": "머니투데이",
           "has_name": false,
           "content": "특징주\n현대차그룹이 전북 새만금에 9조원을 투자해 로봇·AI(인공지능)·수소 미래 산업 거점을 구축한다는 소식이 전해지면서 주가가 급등하고 있다.\n27일 오후 1시17분 현재 코스피 시장에서 현대차는 전 거래일 대비 4만5000원(7.39%) 오른 65만4000원에 거래되고 있다. 현대차는 장 중 한 때 66만6000원까지 오르며 역대 최고가를 갈아치웠다.\n현대차 주가는 이날 오전까지 약보합권에 머무르다 대규모 투자 소식이 전해지면서 강세로 전환했다. 이날 현대차그룹은 전북 군산 새만금컨벤션센터에서 정부·전북특별자치도와 '새만금 로봇·수소첨단산업 육성 및 AI 수소 시티 조성을 위한 투자협약(MOU)'을 맺었다. 이번 협약으로 현대차그룹은 전북 새만금 지역에 총 9조원을 투입해 △로봇 제조 공장 △AI 데이터센터 △수전해 기반 그린 수소 생산 기지 △재생에너지 발전소 △수소 AI 시범도시 등 5개 생산 기지를 구축한다.\n이번 새만금 투자는 지난해 현대차그룹이 발표한 125조2000억원 규모의 국내 중장기 투자 계획 중 핵심 프로젝트로 꼽힌다. 이번 투자가 유발하는 경제효과는 약 16조원으로 추산되며, 7만1000명 규모의 직·간접 고용 창출 효과가 있을 것으로 분석된다.\n이번 투자 발표 영향으로 현대제철(27.45%)·현대비앤지스틸(15.67%)·현대로템(8.05%)·현대위아(6.72%)·현대오토에버(5.35%) 등 현대차그룹주도 동반 강세를 보인다."
+        },
+        {
+          "title": "[애프터마켓 브리핑] 오늘 새벽 엔비디아 급락…NXT서 반도체주 움직....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494983&office_id=374&code=011210&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 16:40",
+          "source": "SBS Biz",
+          "has_name": false
         },
         {
           "title": "“이재명·정의선 새만금서 맞손”…현대차 10%·현대제철 20% ‘주가....",
@@ -416,14 +543,14 @@
           "change_rate": "+1.7%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     },
     {
       "id": "sig_20260227_KR_005",
       "theme": "#IT기기",
       "signal_type": "이슈",
-      "short_reason": "OLED, 나란히",
-      "summary": "LG디스플레이은(는) OLED 나란히 ‘A+’… 삼성 “사생활 보호” LG “밝기 100% ... 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "직접 악재 미제시, 원인 불분명",
+      "summary": "LG디스플레이는 OLED 기술 경쟁력 관련 긍정적인 소식이 있었음에도 불구하고 주가가 큰 폭으로 하락했습니다. 제공된 뉴스 기사 내에서는 주가 하락을 직접적으로 설명할 수 있는 회사 특이적 악재는 확인되지 않았습니다.",
       "main_stock": {
         "name": "LG디스플레이",
         "symbol": "034220",
@@ -438,6 +565,13 @@
           "source": "국민일보",
           "has_name": false,
           "content": "글로벌 인증기관 검증 통과\n“OLED, 인간과 AI 소통 창”\n삼성디스플레이와 LG디스플레이가 한날 유기발광다이오드(OLED) 기술 경쟁력을 인정받은 결과를 공개하며 차세대 디스플레이 시장의 치열한 경쟁을 예고했다. 삼성디스플레이는 스마트폰용 OLED에서 ‘사생활 보호’라는 새로운 사용 경험을 내세웠고, LG디스플레이는 ‘휘도(화면 밝기) 유지율 100%’의 화질을 부각했다.\n삼성디스플레이는 26일 차세대 사생활 보호 기술 ‘플렉스 매직 픽셀(FMP)’이 적용된 스마트폰용 OLED가 글로벌 인증기관인 UL솔루션즈의 검증을 통과했다고 밝혔다. 스마트폰에 FMP를 탑재하면 정면에서는 화면이 선명하게 보이지만 옆 각도에서는 흐릿하거나 거의 보이지 않는다.\nUL솔루션즈는 삼성디스플레이의 FMP 기술이 적용된 스마트폰용 OLED가 상하좌우, 전 방향에 걸쳐 시야 차단 성능을 갖췄다고 확인했다. FMP 기술이 반영된 OLED의 정면 화면 밝기를 100%라고 가정했을 때 45도 측면에서는 밝기가 3.5%, 60도 각도에서는 0.9% 이하를 기록했다. 삼성디스플레이 관계자는 “2020년부터 FMP 구현에 필요한 핵심기술 150여건을 특허 출원하며 독자적인 기술 경쟁력을 쌓아왔다”며 “앞으로도 스마트폰 이용자의 편의 개선을 위해 새로운 기술 개발에 매진할 것”이라고 말했다.\n같은 날 LG디스플레이도 UL솔루션즈로부터 TV와 모니터를 포함한 대형 OLED 패널 전 제품의 ‘휘도 유지율 100%’를 인증하는 성능 우수성 검증을 받았다고 밝혔다. 휘도 유지율은 디스플레이의 밝기를 바탕으로 영상 등 콘텐츠 재현력이 얼마큼 우수한지 백분율로 평가하는 방식이다. 테스트 결과 화면 밝기를 측정한 최댓값과 최솟값이 같으면 휘도 유지율은 100%가 된다. LG디스플레이 OLED 패널은 테스트 기준 면적이 줄어들어도 밝기 성능을 그대로 유지한 것으로 평가됐다. LG디스플레이는 “인공지능(AI) 시대에는 더 밝고 선명한 색을 표현하는 고휘도·고해상도·고색 재현율 성능이 필수적”이라며 “인간과 AI를 잇는 소통의 창으로서 OLED가 최적의 디스플레이임을 더욱 강조할 수 있게 됐다”고 밝혔다."
+        },
+        {
+          "title": "[비즈톡톡] 엔비디아 ‘샤라웃’에 LG전자 주가 급등… 무슨 협력 하기...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144983&office_id=366&code=034220&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 16:42",
+          "source": "조선비즈",
+          "has_name": false
         },
         {
           "title": "[서울데이터랩]금일 코스피 거래량 1위 SK증권 거래대금 무려 2,51...",
@@ -469,14 +603,14 @@
           "change_rate": "+7.1%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     },
     {
       "id": "sig_20260227_KR_006",
       "theme": "#유틸리티",
-      "signal_type": "이슈",
-      "short_reason": "한전,, 역대",
-      "summary": "한국전력은(는) 한전, 역대 최고 실적 찍었지만…200조대 부채에 송변전 투자 부담 막... 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "signal_type": "실적",
+      "short_reason": "시장 기대치 하회, 대규모 부채 부담",
+      "summary": "한국전력은 지난해 역대 최대 영업이익을 기록했음에도 불구하고, 시장 기대치를 밑도는 실적 발표와 여전한 대규모 부채 부담이 투자 심리를 위축시키며 주가가 하락했습니다. 이는 연료가격 안정 및 요금 조정 효과로 인한 실적 개선에도 불구하고 나타난 결과입니다.",
       "main_stock": {
         "name": "한국전력",
         "symbol": "015760",
@@ -484,6 +618,126 @@
         "news_url": "https://finance.naver.com/item/news.naver?code=015760"
       },
       "news_articles": [
+        {
+          "title": "[특징주]‘역대 최대’ 영업익에도…한국전력, 7%대↓",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005727210&office_id=277&code=015760&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 11:26",
+          "source": "아시아경제",
+          "has_name": true,
+          "content": "지난해 역대 최대 규모의 영업이익을 기록한 한국전력의 주가가 약세다. 최근 시장 기대치를 밑돈 실적과 대규모 부채 등이 부담으로 작용한 것으로 풀이된다.\n27일 오전 11시1분 기준 한국전력은 전 거래일보다 4800원(7.58%) 떨어진 5만8500원에 거래됐다.\n전날 한국전력은 지난해 연결기준 매출 97조4345억원, 영업이익 13조5248억원을 각각 기록했다고 공시했다. 매출은 전년 대비 4.3%, 영업이익은 61.7% 증가했다. 당기순이익은 8조7372억원으로 141.2% 늘었다. 연료가격 안정과 요금 조정 효과가 실적 향상을 이끌었다. 다만\n이날 KB증권은 한국전력에 대해 투자의견 매수와 목표주가 7만4000원을 유지했다. 정혜정 KB증권 연구원은 \"지난해 4분기 잠정 매출액은 23조6880억원으로 전년 동기 대비 0.7% 증가했고, 영업이익은 1조9830억원으로 전년 동기 대비 18% 줄었다\"며 \"영업이익은 시장 평균 전망치를 42.1% 하회하는 수준\"이라고 말했다.\n정 연구원은 \"산업용 전력 판매 감소로 전체 전력 판매량이 1.4% 줄어든 가운데, 전력 판매 단가 상승 폭이 1.7%에 그치면서 전력 판매 매출은 1% 증가하는 데 머물렀다\"며 \"연료비와 구입 전력 단가 하락으로 비용 축소 효과가 있었겠지만, 연결 기준 자회사의 해외 사업 비용이 크게 반영된 것이 기대치를 밑돈 주요 원인\"이라고 설명했다.\n2025년 별도 기준 배당성향은 13.6%로 전년의 16.5% 대비 하락했다. 내년 말 일몰되는 사채 발행 한도 조정을 고려한 재무 구조 개선과 전력망 투자 수요 등이 반영된 것으로 풀이된다.\n정 연구원은 \"현재 한국전력의 주가는 12개월 선행 주가순자산비율(PBR) 0.79배 수준에 해당한다\"며 \"전기요금 개편 방향성과 한미 원전 협력의 진전 여부가 향후 주가의 동력이 될 것\"이라고 덧붙였다."
+        },
+        {
+          "title": "\"한국전력, 올해 영업이익 성장 전망…목표가↑\"-키움",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005323213&office_id=008&code=015760&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 08:51",
+          "source": "머니투데이",
+          "has_name": true
+        },
+        {
+          "title": "\"한국전력, 올해도 이익 증가 기조 유지될 것…목표가↑\"-키움",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005256085&office_id=015&code=015760&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 07:52",
+          "source": "한국경제",
+          "has_name": true
+        },
+        {
+          "title": "한전KPS, 인도네시아 발전정비 시장 진출 교두보 마련",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001368670&office_id=082&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 23:00",
+          "source": "부산일보",
+          "has_name": false
+        },
+        {
+          "title": "한전·한수원 1.4조짜리 집안싸움… 산업부 “중재기관 국내로 옮겨라.....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001834343&office_id=005&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 18:50",
+          "source": "국민일보",
+          "has_name": false
+        },
+        {
+          "title": "정부, 1.4조 공사비 분쟁 한전·한수원에 \"국내 해결 권고\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000916787&office_id=469&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 17:01",
+          "source": "한국일보",
+          "has_name": false
+        },
+        {
+          "title": "한전·한수원 'UAE 원전 분쟁'에 韓정부 개입…국내 이관 권고",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000136459&office_id=658&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 16:53",
+          "source": "국제신문",
+          "has_name": false
+        },
+        {
+          "title": "정부, 한전·한수원 중재 분쟁 국내 이관 권고…적극행위 첫 적용",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001368636&office_id=082&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 15:55",
+          "source": "부산일보",
+          "has_name": false
+        },
+        {
+          "title": "한전·한수원 1.4조 공사비 분쟁...정부 \"국제 중재, 국내로 옮겨...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243340&office_id=215&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 14:12",
+          "source": "한국경제TV",
+          "has_name": false
+        },
+        {
+          "title": "한전·한수원 중재 국내 이관 권고에…\"로펌비 그대로\" 혈세 논란",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005256275&office_id=015&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 13:43",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "김동연 경기지사 \"반도체 경쟁은 시간 싸움…인허가 단축·규제 개선.....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008797687&office_id=421&code=015760&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.27 12:36",
+          "source": "뉴스1",
+          "has_name": false
+        },
+        {
+          "title": "[특징주] 한전, 유가 상승세·어닝쇼크 속 장초반 6% 급락",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015928410&office_id=001&code=015760&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.27 10:08",
+          "source": "연합뉴스",
+          "has_name": false
+        },
+        {
+          "title": "한전, '안전보건 상생협력사업' 우수기업 선정",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003063696&office_id=119&code=015760&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.27 09:20",
+          "source": "데일리안",
+          "has_name": false
+        },
+        {
+          "title": "전기료 부담에 ‘직구’ 나선 기업들…“요금 구조 새판 짜야”",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0012132233&office_id=056&code=015760&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.27 06:29",
+          "source": "KBS",
+          "has_name": false
+        },
+        {
+          "title": "한전, 역대 최고 실적 찍었지만…200조대 부채에 송변전 투자 부담 막...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004594088&office_id=011&code=015760&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.27 05:30",
+          "source": "서울경제",
+          "has_name": false
+        },
+        {
+          "title": "한전, 지난해 영업이익 13.5조…부채·차입금 206조·130조 여전",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002412136&office_id=092&code=015760&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.27 02:12",
+          "source": "지디넷코리아",
+          "has_name": false
+        },
+        {
+          "title": "역대 최대 13.5조원 영업익 거둔 한전 전기요금 딜레마",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001834184&office_id=005&code=015760&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.27 00:27",
+          "source": "국민일보",
+          "has_name": false
+        },
         {
           "title": "한전, 역대 최고 실적 찍었지만…200조대 부채에 송변전 투자 부담 막...",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0004594088&office_id=011&code=015760&page=2&sm=title_entity_id.basic",
@@ -518,27 +772,6 @@
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0003961539&office_id=023&code=015760&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 16:09",
           "source": "조선일보",
-          "has_name": false
-        },
-        {
-          "title": "정부, 한전·한수원 중재 분쟁 국내 이관 권고…적극행위 첫 적용",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001368636&office_id=082&code=015760&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 15:55",
-          "source": "부산일보",
-          "has_name": false
-        },
-        {
-          "title": "한전·한수원 1.4조 공사비 분쟁...정부 \"국제 중재, 국내로 옮겨...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243340&office_id=215&code=015760&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 14:12",
-          "source": "한국경제TV",
-          "has_name": false
-        },
-        {
-          "title": "한전·한수원 중재 국내 이관 권고에…\"로펌비 그대로\" 혈세 논란",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005256275&office_id=015&code=015760&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 13:43",
-          "source": "한국경제",
           "has_name": false
         },
         {
@@ -652,14 +885,14 @@
           "change_rate": "+30.0%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     },
     {
       "id": "sig_20260227_KR_007",
       "theme": "#통신",
       "signal_type": "이슈",
-      "short_reason": "LG유플러스,, MWC서",
-      "summary": "LG유플러스은(는) LG유플러스, MWC서 ‘사람중심 AI’ 초개인화 전시 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "직접 악재 미제시, 원인 불분명",
+      "summary": "LG유플러스는 MWC26에서 '사람 중심 AI' 기술 및 서비스 공개를 발표하며 미래 전략을 제시했습니다. 하지만 제공된 뉴스 기사 내에서는 주가 하락을 직접적으로 설명할 수 있는 회사 특이적 악재는 확인되지 않았습니다.",
       "main_stock": {
         "name": "LG유플러스",
         "symbol": "032640",
@@ -667,6 +900,98 @@
         "news_url": "https://finance.naver.com/item/news.naver?code=032640"
       },
       "news_articles": [
+        {
+          "title": "LG유플러스, MWC서 '사람중심 AI' 공간 전시",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243291&office_id=215&code=032640&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 10:20",
+          "source": "한국경제TV",
+          "has_name": true,
+          "content": "LG유플러스가 다음달 2일부터 나흘간 스페인 바르셀로나에서 열리는 통신 박람회 MWC26에서 '사람중심 AI'를 주제로 한 기술과 서비스를 공개한다고 27일 밝혔다.\nLG유플러스는 \"사람중심 AI를 선보이기 위해 전시관 기획 단계부터 AI를 활용해 전시 스토리를 구성하고 공간을 설계했다\"고 설명했다.\n방문객은 이번 전시관에서 발급받은 개별 QR코드를 통해 제공되는 시나리오를 체험할 수 있다.\n체험을 진행하며 쌓인 데이터는 퇴장 직전 관람할 수 있는 AI 미디어아트에 반영된다. 미디어아트는 퇴장 시 굿즈로 제작해 증정된다.\n전시관은 중앙 미디어아트 공간을 중심으로 주요 전시 아이템이 배치되는 방사형 구조로 설계, 관람객이 미디어아트 공간으로 자연스럽게 이어지도록 구성했다.\nLG유플러스는 \"AI 기술을 기반으로 개인에게 맞춤형 경험을 제공하는 단계, 일상 전반을 함께하는 단계를 거쳐 세상과 인류를 밝게 만드는 AI로 확장되는 흐름을 전시 동선에 담았다\"고 전했다.\n장준영 LG유플러스 마케팅그룹장은 \"올해 전시는 AI 기술을 보여주는 공간이 아니라, AI가 사용자의 맥락을 이해하고 연결하는 과정을 구현한 공간\"이라며 \"MWC 현장에서 사람중심AI 기반 서비스 방향성을 제시할 것\"이라고 말했다."
+        },
+        {
+          "title": "온더플래닛, 파라타항공·LG유플러스 캠페인으로 2025 앤어워드 2관왕...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005484040&office_id=014&code=032640&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.27 14:54",
+          "source": "파이낸셜뉴스",
+          "has_name": true
+        },
+        {
+          "title": "LG유플러스, MWC서 '사람 중심 AI' 구현…\"초개인화 경험 제공...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004119658&office_id=079&code=032640&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 11:15",
+          "source": "노컷뉴스",
+          "has_name": true
+        },
+        {
+          "title": "LG유플러스, MWC26서 ‘사람 중심 AI’ 미래상 공개… 초개인화...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642954&office_id=009&code=032640&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 10:18",
+          "source": "매일경제",
+          "has_name": true
+        },
+        {
+          "title": "LG유플러스, MWC서 ‘사람중심 AI’ 초개인화 전시",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144837&office_id=366&code=032640&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.27 09:57",
+          "source": "조선비즈",
+          "has_name": true
+        },
+        {
+          "title": "[현장] “갤럭시 S26, 여기서 판다고?”…제철 음식 찾듯 판매 전략...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005643333&office_id=009&code=032640&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 19:31",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "KT, AI 고객센터 공개…LG유플, 초개인화 경험 구현",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005256413&office_id=015&code=032640&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 17:18",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "LGU+, MWC서 초개인화 AI 전시관 공개한다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000593436&office_id=448&code=032640&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 16:43",
+          "source": "TV조선",
+          "has_name": false
+        },
+        {
+          "title": "채소 진열대 앞에 이게 왜?…'제철' 맞은 신상 갤S26 떴다 [현장+...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005256335&office_id=015&code=032640&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.27 15:25",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "갤럭시S26 사면 AI에이전트 따라온다…택시호출·음식배달 한방에 끝",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642850&office_id=009&code=032640&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 07:41",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "노태문 사장 “구글과 공동 개발 AI OS 탑재… 엿보기 차단 기술 큰...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004108835&office_id=022&code=032640&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 06:02",
+          "source": "세계일보",
+          "has_name": false
+        },
+        {
+          "title": "\"6G보다 AI\" MWC 주인공 바뀌었다…韓 이통3사 격전",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005323150&office_id=008&code=032640&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 05:00",
+          "source": "머니투데이",
+          "has_name": false
+        },
+        {
+          "title": "‘통신망에 AI를 심다’… 이통 3사, MWC서 차세대 기술 격돌",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001834194&office_id=005&code=032640&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.27 00:58",
+          "source": "국민일보",
+          "has_name": false
+        },
         {
           "title": "LG유플러스, MWC서 ‘사람중심 AI’ 초개인화 전시",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144837&office_id=366&code=032640&page=1&sm=title_entity_id.basic",
@@ -680,20 +1005,6 @@
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005484040&office_id=014&code=032640&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 14:54",
           "source": "파이낸셜뉴스",
-          "has_name": true
-        },
-        {
-          "title": "LG유플러스, MWC서 '사람 중심 AI' 구현…\"초개인화 경험 제공\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004119658&office_id=079&code=032640&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 11:15",
-          "source": "노컷뉴스",
-          "has_name": true
-        },
-        {
-          "title": "LG유플러스, MWC서 '사람중심 AI' 공간 전시",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243291&office_id=215&code=032640&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 10:20",
-          "source": "한국경제TV",
           "has_name": true
         },
         {
@@ -754,14 +1065,14 @@
           "change_rate": "+7.1%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     },
     {
       "id": "sig_20260227_KR_008",
       "theme": "#화학",
       "signal_type": "이슈",
-      "short_reason": "두산,, 3조",
-      "summary": "오늘 LG화학 주가는 두산, 3조 규모 자사주 257만주 연내 소각하기로 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "직접 호재 미제시, 정보 부족",
+      "summary": "제공된 뉴스 기사 내에서 LG화학의 주가 상승을 직접적으로 설명할 수 있는 회사 특이적 호재가 확인되지 않았습니다. 석유화학 산업 전반의 구조조정 및 고부가 제품 전환 필요성에 대한 기사는 있었으나, 이는 직접적인 주가 상승 원인으로 보기는 어렵습니다.",
       "main_stock": {
         "name": "LG화학",
         "symbol": "051910",
@@ -770,22 +1081,43 @@
       },
       "news_articles": [
         {
-          "title": "두산, 3조 규모 자사주 257만주 연내 소각하기로",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003961381&office_id=023&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 00:34",
-          "source": "조선일보",
+          "title": "\"NCC 폐쇄는 석유화학 구조조정 단기처방\"..'스페셜티 전환'에 승부...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005323161&office_id=008&code=051910&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.27 05:50",
+          "source": "머니투데이",
           "has_name": false,
-          "content": "법 개정안 통과 다음날 이사회 의결\n재계 “기업 주주 환원에 속도 낼 듯”\n두산이 올해 안에 자사주를 사실상 전량 소각하겠다고 26일 밝혔다. 소각되는 주식은 약 257만주, 이날 종가(121만5000원) 기준으로 계산하면 약 3조1200억원 규모다. 전날 국회에서 자사주 소각을 의무화하는 3차 상법 개정안이 통과되면서, 기업들을 향한 주주 환원 압박은 앞으로 더욱 거세질 수 있다는 관측이 나온다.\n두산은 이날 이사회를 열고, 임직원 보상을 위한 63만2500주를 제외한 나머지 자사주 256만8528주를 올해 안에 전량 소각하기로 의결했다. 이는 총 발행 주식의 약 12.18% 수준이다. 자사주를 소각하면, 유통 주식 수가 줄면서 1주당 가치가 높아지는 효과가 있다. 앞서 두산은 지난해부터 내년까지 3년간 자사주 99만주를 소각하겠다고 밝혔는데, 이번 결정으로 환원 규모를 늘리고 소각 일정도 앞당겼다.\n이번 소각이 완료되면 오너 일가 지분율도 상승할 것으로 전망된다. 최대 주주인 박정원 회장과 특수 관계인의 지분은 기존 41.19%에서 46.84%로 늘어나게 된다. 자사주 소각으로 전체 주식 수가 줄면서 지배력이 강화되는 효과가 함께 나타나는 것이다.\n전날 국회 문턱을 넘은 3차 상법 개정안 통과 전후로 기업들의 움직임은 더 빨라지는 모양새다. 포스코홀딩스는 지난 19일 이사회에서 자사주 2%를 소각하기로 결정했다. 금액으로는 6351억원 규모다. 2024년부터 3년간 총 6%의 자사주를 소각하겠다고 밝힌 데 따른 것이다.\nLG화학도 다음 달 31일 정기 주주총회에 영국계 행동주의 펀드 팰리서캐피털의 주주 제안을 상정하기로 했다. 팰리서캐피털은 그동안 LG화학이 보유한 LG에너지솔루션의 지분율을 79.4%에서 70%로 낮춰 현금을 확보하고, 자사주를 사들여 소각해야 한다고 주장해왔다. LG화학 주가가 순자산가치 대비 74% 할인된 가격에 거래되고 있다는 점을 근거로 들며 주주 행동주의에 나선 것이다.\n한 재계 관계자는 “3차 상법 개정안 통과로 기업들이 배당 확대와 함께 소각 카드를 공격적으로 꺼내면서, 앞으로도 주주 환원에 더욱 속도를 낼 가능성이 크다”고 말했다."
+          "content": "전 세계 에틸렌 공급 과잉이 최소 2년 이상 이어질 것이라는 전망이 나왔다. 국내 석유화학업계가 충남 대산 산업단지를 시작으로 구조개편에 착수했지만 글로벌 공급 부담을 해소하기에는 한계가 있다는 지적이다. 업황 반등의 열쇠로 꼽히는 고부가(스페셜티) 제품 전환을 위해 정부가 자금 지원에 나서자 업계는 환영의 뜻을 밝히면서도 규제 완화 등 추가적인 제도적 뒷받침이 필요하다는 입장이다.\n27일 관련업계에 따르면 S&P 글로벌(S&P Global)은 이달 '세계 올레핀·폴리올레핀 업황 전망(Global Olefins and Polyolefins Outlook)'을 통해 2026~2027년 전 세계 에틸렌 순증설 규모가 연평균 약 1148만톤에 달할 것으로 내다봤다. 이는 같은 기간 연평균 에틸렌 수요 증가량(684만톤)을 크게 웃도는 수준이다. S&P 글로벌은 또 에틸렌 공급 증가 속도가 수요를 하회하는 시점을 2028년으로 예측했다.\n국내외에서 진행중인 석유화학 구조조정 효과가 단기간에 체감되기 어렵다는 분석이 나오는 배경이다. 국내에서는 HD현대오일뱅크와 롯데케미칼의 구조개편안이 정부의 승인을 받으면서 롯데케미칼의 연간생산량(연산) 110만톤 규모 NCC(나프타분해설비)가 폐쇄 수순을 밟게 됐다. 향후 각 기업이 제출한 개편안이 확정되면 국내 감산 규모는 270~370만톤까지 늘어난다. 일본과 유럽 역시 노후 설비를 중심으로 감산·폐쇄를 추진 중이다.\n최영광 NH투자증권 연구위원은 \"추가 설비 합리화를 감안하더라도 전 세계 에틸렌 가동률은 기존 전망치 대비 약 1.0~1.5%p(포인트) 높아지는데 그칠 것\"이라고 진단했다.\n결국 업계에서는 고부가 제품으로의 빠른 전환이 업황 반등의 핵심이라고 보고 있다. LG화학은 강도와 내구성을 대폭 높인 초고중합도 PVC(폴리염화비닐)와 반도체 공정용 고순도 세정액을 통해 차별화를 꾀하고 있다. 롯데케미칼은 고강도·고내열 특성을 강화한 '슈퍼 EP(엔지니어링 플라스틱)' 등을 통해 자동차·전자 소재 시장 확대를 모색하고 있다.\n한화솔루션은 초고압케이블 소재인 400kV(킬로볼트)급 케이블용 XLPE(가교 폴리에틸렌)와 해저케이블용 XLPE를 앞세워 초고압 전선 시장 공략에 나섰다. 금호석유화학도 고내마모성과 연비 개선 특성을 갖춘 고기능성 합성고무 SSBR(솔루션 스티렌부타디엔고무)에 집중하고 있다.\n이 같은 상황에서 정부가 고부가 산업 중심의 구조개편을 지원하기로 하자 업계는 환영의 뜻을 나타냈다. 앞서 정부가 승인한 구조개편안 '대산 1호 프로젝트'에는 총 2조1000억원 규모의 지원 패키지가 담겼는데 고부가·친환경 사업구조 전환을 위한 기술개발 지원금 260억원도 포함됐다. 이를 두고 업계 관계자는 \"NCC 폐쇄는 단기 처방이고 실질적으로 현재 상황을 극복하려면 신성장 동력 발굴이 절실하다\"며 \"이에 대한 정부 지원이 나왔다는 점에서 의미가 있다\"고 설명했다.\n규제 완화 등 제도적 뒷받침이 병행돼야 한다는 목소리도 나온다. 또다른 업계 관계자는 \"설비 전환과 신사업 진출에는 인허가·환경 규제 등 다양한 장벽이 따른다\"며 \"금융 지원과 함께 규제 합리화가 병행돼야 실질적인 경쟁력 제고로 이어질 수 있다\"고 말했다."
         },
         {
-          "title": "현대차그룹 새만금 투자…배터리·수소 등 집적효과 기대",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013793018&office_id=003&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 16:03",
-          "source": "뉴시스",
+          "title": "[카나프테라퓨틱스 IPO]① 강정석 150억 베팅, 창업자 설계력 주목",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080078&office_id=293&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 20:25",
+          "source": "블로터",
           "has_name": false
         },
         {
-          "title": "작년 글로벌 OLED 발광재료 시장 22.7억 달러…전년비 7.2% 성...",
+          "title": "中서 기회 찾는 韓 기업…'이혁준호' 중국한국상회 출항 [차이나 워치....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005256487&office_id=015&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 18:08",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "삼성전자만 6조 원 샀다… 역대급 매수로 코스피 견인한 개미들",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000037753&office_id=037&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 17:41",
+          "source": "주간동아",
+          "has_name": false
+        },
+        {
+          "title": "지난해 OLED 발광재료 시장 22.7억달러… 중국 업체 영향력 커졌다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001131938&office_id=417&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 16:20",
+          "source": "동행미디어 시대",
+          "has_name": false
+        },
+        {
+          "title": "작년 글로벌 OLED 발광재료 시장 22.7억 달러…전년비 7.2% ...",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0013792050&office_id=003&code=051910&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 10:16",
           "source": "뉴시스",
@@ -803,6 +1135,28 @@
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144769&office_id=366&code=051910&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 06:01",
           "source": "조선비즈",
+          "has_name": false
+        },
+        {
+          "title": "두산, 3조 규모 자사주 257만주 연내 소각하기로",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003961381&office_id=023&code=051910&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.27 00:34",
+          "source": "조선일보",
+          "has_name": false
+        },
+        {
+          "title": "두산, 3조 규모 자사주 257만주 연내 소각하기로",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003961381&office_id=023&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 00:34",
+          "source": "조선일보",
+          "has_name": false,
+          "content": "법 개정안 통과 다음날 이사회 의결\n재계 “기업 주주 환원에 속도 낼 듯”\n두산이 올해 안에 자사주를 사실상 전량 소각하겠다고 26일 밝혔다. 소각되는 주식은 약 257만주, 이날 종가(121만5000원) 기준으로 계산하면 약 3조1200억원 규모다. 전날 국회에서 자사주 소각을 의무화하는 3차 상법 개정안이 통과되면서, 기업들을 향한 주주 환원 압박은 앞으로 더욱 거세질 수 있다는 관측이 나온다.\n두산은 이날 이사회를 열고, 임직원 보상을 위한 63만2500주를 제외한 나머지 자사주 256만8528주를 올해 안에 전량 소각하기로 의결했다. 이는 총 발행 주식의 약 12.18% 수준이다. 자사주를 소각하면, 유통 주식 수가 줄면서 1주당 가치가 높아지는 효과가 있다. 앞서 두산은 지난해부터 내년까지 3년간 자사주 99만주를 소각하겠다고 밝혔는데, 이번 결정으로 환원 규모를 늘리고 소각 일정도 앞당겼다.\n이번 소각이 완료되면 오너 일가 지분율도 상승할 것으로 전망된다. 최대 주주인 박정원 회장과 특수 관계인의 지분은 기존 41.19%에서 46.84%로 늘어나게 된다. 자사주 소각으로 전체 주식 수가 줄면서 지배력이 강화되는 효과가 함께 나타나는 것이다.\n전날 국회 문턱을 넘은 3차 상법 개정안 통과 전후로 기업들의 움직임은 더 빨라지는 모양새다. 포스코홀딩스는 지난 19일 이사회에서 자사주 2%를 소각하기로 결정했다. 금액으로는 6351억원 규모다. 2024년부터 3년간 총 6%의 자사주를 소각하겠다고 밝힌 데 따른 것이다.\nLG화학도 다음 달 31일 정기 주주총회에 영국계 행동주의 펀드 팰리서캐피털의 주주 제안을 상정하기로 했다. 팰리서캐피털은 그동안 LG화학이 보유한 LG에너지솔루션의 지분율을 79.4%에서 70%로 낮춰 현금을 확보하고, 자사주를 사들여 소각해야 한다고 주장해왔다. LG화학 주가가 순자산가치 대비 74% 할인된 가격에 거래되고 있다는 점을 근거로 들며 주주 행동주의에 나선 것이다.\n한 재계 관계자는 “3차 상법 개정안 통과로 기업들이 배당 확대와 함께 소각 카드를 공격적으로 꺼내면서, 앞으로도 주주 환원에 더욱 속도를 낼 가능성이 크다”고 말했다."
+        },
+        {
+          "title": "현대차그룹 새만금 투자…배터리·수소 등 집적효과 기대",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013793018&office_id=003&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 16:03",
+          "source": "뉴시스",
           "has_name": false
         },
         {
@@ -835,14 +1189,14 @@
           "change_rate": "-0.7%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     },
     {
       "id": "sig_20260227_KR_009",
       "theme": "#화학",
       "signal_type": "이슈",
-      "short_reason": "\"NCC, 폐쇄는",
-      "summary": "오늘 롯데케미칼 주가는 \"NCC 폐쇄는 석유화학 구조조정 단기처방\"..'스페셜티 전환'에 승부... 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "고기능성 소재 투자, 사업 포트폴리오 재편",
+      "summary": "롯데케미칼은 롯데그룹의 사업 재편 및 AI 내재화 전략에 따라 고기능성 소재 분야 확대를 추진하며, 약 3000억원을 투자해 모빌리티와 IT를 겨냥한 고기능성 컴파운드 생산 공장을 건설 중이라는 소식에 주가가 상승했습니다. 이러한 투자는 미래 성장 동력 확보 기대를 높였습니다.",
       "main_stock": {
         "name": "롯데케미칼",
         "symbol": "011170",
@@ -851,12 +1205,12 @@
       },
       "news_articles": [
         {
-          "title": "\"NCC 폐쇄는 석유화학 구조조정 단기처방\"..'스페셜티 전환'에 승부...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005323161&office_id=008&code=011170&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 05:50",
-          "source": "머니투데이",
+          "title": "롯데, 사업 재편·AI 내재화 투트랙…핵심 계열사 경쟁력 강화",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080025&office_id=293&code=011170&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 10:16",
+          "source": "블로터",
           "has_name": false,
-          "content": "전 세계 에틸렌 공급 과잉이 최소 2년 이상 이어질 것이라는 전망이 나왔다. 국내 석유화학업계가 충남 대산 산업단지를 시작으로 구조개편에 착수했지만 글로벌 공급 부담을 해소하기에는 한계가 있다는 지적이다. 업황 반등의 열쇠로 꼽히는 고부가(스페셜티) 제품 전환을 위해 정부가 자금 지원에 나서자 업계는 환영의 뜻을 밝히면서도 규제 완화 등 추가적인 제도적 뒷받침이 필요하다는 입장이다.\n27일 관련업계에 따르면 S&P 글로벌(S&P Global)은 이달 '세계 올레핀·폴리올레핀 업황 전망(Global Olefins and Polyolefins Outlook)'을 통해 2026~2027년 전 세계 에틸렌 순증설 규모가 연평균 약 1148만톤에 달할 것으로 내다봤다. 이는 같은 기간 연평균 에틸렌 수요 증가량(684만톤)을 크게 웃도는 수준이다. S&P 글로벌은 또 에틸렌 공급 증가 속도가 수요를 하회하는 시점을 2028년으로 예측했다.\n국내외에서 진행중인 석유화학 구조조정 효과가 단기간에 체감되기 어렵다는 분석이 나오는 배경이다. 국내에서는 HD현대오일뱅크와 롯데케미칼의 구조개편안이 정부의 승인을 받으면서 롯데케미칼의 연간생산량(연산) 110만톤 규모 NCC(나프타분해설비)가 폐쇄 수순을 밟게 됐다. 향후 각 기업이 제출한 개편안이 확정되면 국내 감산 규모는 270~370만톤까지 늘어난다. 일본과 유럽 역시 노후 설비를 중심으로 감산·폐쇄를 추진 중이다.\n최영광 NH투자증권 연구위원은 \"추가 설비 합리화를 감안하더라도 전 세계 에틸렌 가동률은 기존 전망치 대비 약 1.0~1.5%p(포인트) 높아지는데 그칠 것\"이라고 진단했다.\n결국 업계에서는 고부가 제품으로의 빠른 전환이 업황 반등의 핵심이라고 보고 있다. LG화학은 강도와 내구성을 대폭 높인 초고중합도 PVC(폴리염화비닐)와 반도체 공정용 고순도 세정액을 통해 차별화를 꾀하고 있다. 롯데케미칼은 고강도·고내열 특성을 강화한 '슈퍼 EP(엔지니어링 플라스틱)' 등을 통해 자동차·전자 소재 시장 확대를 모색하고 있다.\n한화솔루션은 초고압케이블 소재인 400kV(킬로볼트)급 케이블용 XLPE(가교 폴리에틸렌)와 해저케이블용 XLPE를 앞세워 초고압 전선 시장 공략에 나섰다. 금호석유화학도 고내마모성과 연비 개선 특성을 갖춘 고기능성 합성고무 SSBR(솔루션 스티렌부타디엔고무)에 집중하고 있다.\n이 같은 상황에서 정부가 고부가 산업 중심의 구조개편을 지원하기로 하자 업계는 환영의 뜻을 나타냈다. 앞서 정부가 승인한 구조개편안 '대산 1호 프로젝트'에는 총 2조1000억원 규모의 지원 패키지가 담겼는데 고부가·친환경 사업구조 전환을 위한 기술개발 지원금 260억원도 포함됐다. 이를 두고 업계 관계자는 \"NCC 폐쇄는 단기 처방이고 실질적으로 현재 상황을 극복하려면 신성장 동력 발굴이 절실하다\"며 \"이에 대한 정부 지원이 나왔다는 점에서 의미가 있다\"고 설명했다.\n규제 완화 등 제도적 뒷받침이 병행돼야 한다는 목소리도 나온다. 또다른 업계 관계자는 \"설비 전환과 신사업 진출에는 인허가·환경 규제 등 다양한 장벽이 따른다\"며 \"금융 지원과 함께 규제 합리화가 병행돼야 실질적인 경쟁력 제고로 이어질 수 있다\"고 말했다."
+          "content": "롯데가 핵심 사업의 경쟁력 강화를 목표로 그룹 전반의 사업 구조 개편과 AI 내재화를 병행한다고 27일 밝혔다. 사업 포트폴리오를 재정비하는 한편 AI를 경영과 생산 전반에 적용해 운영 효율을 높인다는 방침이다.\n석유화학 사업군에서는 범용 제품 비중을 줄이고 고기능성 소재와 친환경 에너지 분야로 확대하며 중장기 성장 기반을 강화하고 있다.\n롯데케미칼은 전남 율촌산업단지에 약 3000억원을 투자해 '롯데엔지니어링플라스틱(LEP)' 공장을 건설했다. 올해 완공 예정인 이 공장은 연간 50만 톤 규모의 컴파운드 생산시설로 모빌리티와 IT 산업에 적용되는 고기능성 소재를 생산할 계획이다. 슈퍼 엔지니어링플라스틱(Super EP) 제품군도 확대한다.\n생산성 제고를 위한 AI 전환도 속도를 내고 있다. LEP 율촌 공장에는 AI 기반 품질 검사 시스템과 포장 로봇, 자동창고를 도입해 공정 자동화 수준을 높였다. 'AI 컬러 매칭 시스템'을 통해 색상 배합을 자동화해 수작업 대비 일일 생산성을 약 50% 개선했다.\n롯데에너지머터리얼즈는 AI용 고사양 회로박 수요에 대응하고 하이엔드 전지박 사업을 강화하고 있다. 국내 유일 회로박 생산 거점인 익산 공장의 라인 전환을 가속화하고, 말레이시아 공장은 ESS·모바일용 전지박 중심으로 운영한다. 특히 2027년까지 익산 공장을 회로박 라인으로 100% 전환한다는 계획이다.\n롯데정밀화학은 스페셜티 중심의 포트폴리오를 확대하고 있다. 식의약용 셀룰로스 증설 공장은 지난해 4분기 기계적 준공을 마치고 올해 상업 가동에 들어갈 예정이다. 1월에는 셀룰로스 계열 소재 '셀로팜'이 조달청 혁신제품 인증을 받았다. 셀룰로스 기반 토양개량제를 통해 공공 판로를 넓히는 한편 친환경 스페셜티 소재의 해외 진출도 추진한다. 연구개발 부문에는 특허·논문 분석 기능을 갖춘 AI 플랫폼을 도입해 연구 효율을 높이고 있다.\n롯데이노베이트는 로봇과 결합한 피지컬 AI 분야로 사업을 확장하고 있다. 범용 피지컬 AI 기반 RaaS(Robot as a Service) 상용화를 목표로 그룹사 운영 현장에 적용 가능한 서비스를 개발 중이다. 이를 위해 2025년 8월 피지컬 AI·로봇 전담 조직을 신설했다.\n롯데이노베이트가 개발 중인 휴머노이드 로봇은 유통·제조·건설·식품·서비스 현장에 적용하는 범용 모델이다. 축적된 데이터와 운영 경험을 기반으로 하나의 로봇이 여러 산업 환경에서 업무를 수행할 수 있도록 설계됐다. 유통 현장에서는 영업 종료 후 재고 파악과 순찰 업무를, 제조·화학 현장에서는 고위험 구역 작업을 대체해 운영 효율성과 안전성을 동시에 높이는 것을 목표로 한다.\n지난 2월 2일에는 코리아세븐과 협업해 휴머노이드 로봇과 AI 기술을 적용한 미래형 편의점 'AX Lab 3.0'을 공개했다. 롯데이노베이트 본사 1층에 마련된 이 매장은 로봇과 AI를 연동해 고객 안내, 결품 확인, 매장 환경 점검 등을 수행하는 테스트 공간이다. 회사는 AI 엔진 고도화를 통해 로봇 소프트웨어 역량을 강화하고 적용 범위를 넓힐 계획이라고 밝혔다."
         },
         {
           "title": "PBR 0.8의 함정...수혜주는 따로 있다 [마켓딥다이브]",
@@ -873,13 +1227,6 @@
           "has_name": false
         },
         {
-          "title": "롯데, 사업 재편·AI 내재화 투트랙…핵심 계열사 경쟁력 강화",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080025&office_id=293&code=011170&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.27 10:16",
-          "source": "블로터",
-          "has_name": false
-        },
-        {
           "title": "“일자리 잃을까 걱정”…구조조정 ‘대산산단 위기’",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0012132372&office_id=056&code=011170&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 09:47",
@@ -891,6 +1238,13 @@
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0001482930&office_id=214&code=011170&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 07:08",
           "source": "MBC",
+          "has_name": false
+        },
+        {
+          "title": "\"NCC 폐쇄는 석유화학 구조조정 단기처방\"..'스페셜티 전환'에 승부...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005323161&office_id=008&code=011170&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.27 05:50",
+          "source": "머니투데이",
           "has_name": false
         }
       ],
@@ -912,14 +1266,14 @@
           "change_rate": "+0.5%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     },
     {
       "id": "sig_20260227_KR_010",
       "theme": "#로봇",
       "signal_type": "이슈",
-      "short_reason": "1100억원, 투입",
-      "summary": "오늘 로보티즈 주가는 1100억원 투입 몸집 키우기…에스티젠 상장 기대감 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "관련 뉴스 미제시, 정보 부족",
+      "summary": "제공된 뉴스 기사는 로보티즈가 아닌 다른 회사(에스티젠)에 대한 내용으로, 로보티즈의 주가 상승을 직접적으로 설명할 수 있는 회사 특이적 호재가 확인되지 않았습니다.",
       "main_stock": {
         "name": "로보티즈",
         "symbol": "053030",
@@ -932,8 +1286,7 @@
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005727211&office_id=277&code=053030&page=1&sm=title_entity_id.basic",
           "date": "2026.02.27 11:29",
           "source": "아시아경제",
-          "has_name": false,
-          "content": "생산·품질 대규모 채용\n1100억 투입 송도 증설\n동아쏘시오홀딩스의 바이오 의약품 위탁생산(CMO) 자회사인 에스티젠바이오가 대규모 설비 증설과 인력 확충에 나섰다. 본격적인 상업화 물량 증대에 맞춰 외형 성장에 속도를 내는 모습이다.\n27일 제약·바이오 업계에 따르면 에스티젠바이오는 최근 생산 및 품질 부문을 중심으로 대규모 신규 채용을 진행 중이다. 오는 4월부터는 현장 운영 체계를 기존 4조 3교대에서 4조 2교대로 전격 개편한다. 회사 관계자는 \"최근 상업화 물량이 급증하며 현장 인력의 업무 강도가 높아졌다\"며 \"안정적인 생산 라인 가동과 효율적인 운영을 위해 교대 체계를 재편하고 인력을 보강하는 것\"이라고 설명했다.\n공격적인 설비 투자도 병행한다. 에스티젠바이오는 총 1100억원을 투입해 인천 송도 제1공장 증설을 추진하고 있다. 2500ℓ급 바이오리액터 2기와 하베스트 1기, 아이솔레이터 충전 라인 등을 추가로 배치할 계획이다. 이번 증설이 완료되면 에스티젠바이오 생산능력은 기존 연간 9000ℓ에서 1만4000ℓ로 늘어난다. 완제의약품(DP) 생산 능력 또한 현재보다 170% 이상 끌어올린다는 구상이다.\n에스티젠바이오가 가파른 성장세를 보이는 배경에는 계열사 동아ST가 개발한 스텔라라 바이오시밀러 '이뮬도사(IMULDOSA)'의 글로벌 물량 확대가 자리하고 있다는 분석이다. 지난해 미국 식품의약국(FDA)의 cGMP 승인과 유럽 의약품청(EMA)의 EU-GMP 인증을 잇달아 획득하며 글로벌 수준의 품질 역량을 입증한 것이 주효했다. 이를 기점으로 글로벌 대형 제약사들과의 수주 협의도 활발해진 것으로 알려졌다.\n실적은 이미 우상향 곡선을 그리고 있다. 지난해 매출 1037억원을 기록하며 전년 대비 76.2% 성장했고, 영업이익은 71억 원으로 308.6% 증가했다. 에스티젠바이오가 1만4000ℓ 체제를 갖추게 되면 바이넥스(약 2만2000ℓ 예정) 등과 함께 국내 중소형 CDMO 시장의 강자로 입지를 굳힐 것이란 분석이다. 에스티젠바이오는 단일사이트에서 DS와 DP를 GMP 역량으로 생산하는 곳은 국내에선 유일하다는 점을 강점으로 내세운다.\n업계 시선은 에스티젠바이오의 기업공개(IPO) 시점으로 향하고 있다. 지난해 말 인사에서 동아쏘시오홀딩스 경영기획실장 출신인 '재무 전문가' 이현민 사장이 대표이사로 선임된 점이 이런 관측에 힘을 싣는다. cGMP 인증 확보를 이끈 품질 전문가 최경은 전 대표의 연임이 거론되던 상황에서 상업화 단계 진입과 맞물려 재무·경영관리 라인이 전면에 배치된 만큼, 시장에서는 상장 등 자본시장 행보를 염두에 둔 체제 정비로 해석하는 분위기다.\n증설된 캐파(CAPA)를 채울 추가 수주 확보가 가시화될 경우 IPO 작업에 더욱 탄력이 붙을 것"
+          "has_name": false
         }
       ],
       "related_stocks": [
@@ -946,7 +1299,7 @@
           "change_rate": "-3.5%"
         }
       ],
-      "timestamp": "2026-02-27 16:11:46"
+      "timestamp": "2026-02-28 17:07:09"
     }
   ]
 }

@@ -103,7 +103,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Data Loading (0.89.0 Compatible) ---
-@st.cache(ttl=600, show_spinner=False)
 def load_data(date_str):
     file_path = os.path.join(DATA_DIR, f"{date_str}.json")
     if os.path.exists(file_path):

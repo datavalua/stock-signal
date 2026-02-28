@@ -483,123 +483,154 @@ def select_impactful_article(stock_name, articles, change_val):
     scored_articles.sort(reverse=True)
     return scored_articles[0][1] if scored_articles else 0
 
-def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data=None, analyst_data=None, market="KR"):
+def generate_batch_summaries(stock_data_list, market="KR"):
     """
-    Generate a 2-3 line summary of why the stock moved, based on news articles.
-    If market == "KR", we include investor_data.
-    If market == "US", we include analyst_data (recommendation summary).
-    Returns a string for KR, or a dict for US.
+    Batch process all stocks to bypass API rate limits and drastically improve speed.
+    stock_data_list = [
+        {
+            "symbol": "...",
+            "name": "...",
+            "change_val": 5.2,
+            "articles": [...],
+            "best_idx": 0,
+            "investor_data": {...}
+        },
+        ...
+    ]
+    Returns a dictionary mapping symbol to {"category": "...", "short_reason": "...", "summary": "..."}
     """
-    direction = "상승" if change_val >= 0 else "하락"
-    
-    # Try Gemini API if available
     api_key = os.getenv("GEMINI_API_KEY")
-    if api_key and api_key != "your_api_key_here" and GENAI_AVAILABLE:
+    results = {}
+    
+    # 1. Prepare default fallback logic for all stocks first
+    for sd in stock_data_list:
+        symbol = sd["symbol"]
+        name = sd["name"]
+        change_val = sd["change_val"]
+        articles = sd["articles"]
+        best_idx = sd["best_idx"]
+        
+        news_titles = [a["title"] for a in articles if "title" in a]
+        has_valid_news = (news_titles and 0 <= best_idx < len(news_titles))
+        main_news = news_titles[best_idx] if has_valid_news else "시장 수급 변화"
+        
+        # Enhanced Fallback: List top 3 articles instead of just 1
+        top_articles_text = ""
+        if has_valid_news:
+            top_3 = news_titles[:3]
+            top_articles_text = "주요 관련 뉴스: " + ", ".join([f"[{t}]" for t in top_3])
+            
+        if main_news:
+            if market == "US":
+                main_news_display = "관련 주요 외신 보도"
+            else:
+                main_news_display = f"'{main_news}'"
+        else:
+            main_news_display = "시장 수급 변화"
+            
+        import random
+        if change_val >= 0:
+            fallback_text = random.choice([
+                f"{name}은(는) {main_news_display} 소식이 전해지며 매수세가 강화되었습니다. {top_articles_text}",
+                f"오늘 {name} 주가는 {main_news_display} 등이 호재로 작용하며 긍정적인 흐름을 보였습니다. {top_articles_text}"
+            ]).strip()
+        else:
+            fallback_text = random.choice([
+                f"{name}은(는) {main_news_display} 여파로 인해 매도 압력이 높아지며 약세를 보였습니다. {top_articles_text}",
+                f"{name} 주가는 {main_news_display} 등에 따른 투자 심리 위축으로 하락 마감했습니다. {top_articles_text}"
+            ]).strip()
+            
+        keyword_fallback = "수급 변화, 업황 변동"
+        if has_valid_news:
+            words = [w for w in main_news.split() if len(w) > 1]
+            if len(words) >= 2:
+                keyword_fallback = f"{words[0]}, {words[1]}"
+                
+        results[symbol] = {
+            "category": "이슈", 
+            "short_reason": keyword_fallback, 
+            "summary": fallback_text
+        }
+
+    # 2. Try Gemini API Batch Request
+    if api_key and api_key != "your_api_key_here" and GENAI_AVAILABLE and stock_data_list:
         try:
             client = genai.Client(api_key=api_key)
             
-            # Re-order articles to put the "best" one first for Gemini
-            reordered = list(articles)
-            if 0 <= best_idx < len(articles):
-                best = reordered.pop(best_idx)
-                reordered.insert(0, best)
-
-            if market == "US":
-                prompt = (
-                    f"전문 금융 분석가로서 미국 주식 {stock_name}의 주가 {direction} 핵심 원인을 분석하세요.\n"
-                    f"**아래 영어 뉴스 기사들을 바탕으로 작성하세요 (첫 번째 기사가 가장 중요함):**\n\n"
-                )
-            else:
-                prompt = (
-                f"당신은 금융 시장을 분석하는 전문 AI 리포터입니다. 다음 주식 {stock_name} ({direction})에 관한 최신 기사들을 읽고 분석 리포트를 작성하세요.\n\n"
-                f"**분석용 뉴스 데이터:**\n"
+            prompt = (
+                f"당신은 금융 시장을 분석하는 최상급 AI 리포터입니다.\n"
+                f"오늘 주요 주식들의 등락 원인을 분석하고자 합니다. 아래에 여러 종목의 [이름, 등락률, 주요 뉴스] 양식이 나열되어 있습니다.\n\n"
+                f"**[핵심 분석 지시사항 - 반드시 준수할 것]**\n"
+                f"1. **인과 관계 엄격 파악**: 주어진 각 종목의 등락률과 **직접적으로 연결되는 주가 변동의 진짜 원인(호재/악재)**을 뉴스 기사 속에서 찾아내세요.\n"
+                f"2. **시장 노이즈 배제**: '코스피 하락', '시황 마감' 같은 단순 거시경제/시장 전체 동향만을 다루는 가십성 기사는 철저히 무시하고, 종목 특이적(Company-Specific)인 뉴스(실적, 수주, M&A, 신제품 등)에 집중해서 요약하세요.\n"
+                f"3. **무조건 한국어 출력**: 제공된 기사가 영어(미국 주식)이더라도 **반드시 모든 응답을 자연스러운 한국어(Korean)로 번역 및 작성**하세요. summary와 short_reason은 100% 한국어여야 합니다.\n"
+                f"4. **요약(summary)**: 여러 기사의 핵심 내용을 2~3문장의 한국어로 종합하여 요약하세요 (예: ~발표했습니다. ~전망입니다).\n"
+                f"5. **원인 압축(short_reason)**: 요약된 한국어 내용을 바탕으로 핵심 원인을 **2~3개의 명사형 어절**로 완벽히 압축하세요. (예: '영업이익 서프라이즈, 배당 확대', '어닝 쇼크, 투자 심리 위축'). 마침표 금지.\n"
+                f"6. **카테고리(category)**: '실적', '수급', '이슈', '거시경제', '빅테크' 중 하나로 분류하세요.\n"
+                f"7. **응답 포맷**: 반드시 아래 JSON 배열 형식으로만 응답해야 하며, 다른 어떠한 텍스트나 마크다운(```json)도 포함하지 마세요.\n\n"
+                f"[\n"
+                f"  {{\"symbol\": \"AAPL\", \"category\": \"이슈\", \"short_reason\": \"핵심 단어1, 핵심 단어2\", \"summary\": \"규칙을 준수한 자연스러운 한글 요약문입니다.\"}},\n"
+                f"  ...\n"
+                f"]\n\n"
+                f"**[분석할 종목 데이터]**\n"
             )
             
-            # Determine slice limit based on market
-            limit = 5
-            for i, article in enumerate(reordered[:limit]):
-                title = article.get("title", "")
-                content = article.get("content", "")
-                prompt += f"기사 {i+1}: {title}\n내용: {content[:1500]}\n\n"
+            for sd in stock_data_list:
+                direction = "상승" if sd["change_val"] >= 0 else "하락"
+                prompt += f"--- 종목코드: {sd['symbol']} | 종목명: {sd['name']} | 등락: {sd['change_val']}% ({direction}) ---\n"
                 
-            if market == "KR" and investor_data:
-                time_ctx = "장중 실시간(크롤링 시점)" if investor_data.get('is_realtime') else "장 마감(종가)"
-                prompt += f"**오늘 수급 데이터 ({time_ctx} 기준 순매수/순매도):**\n"
-                prompt += f"- 개인: {investor_data['개인']}\n"
-                prompt += f"- 외국인: {investor_data['외국인']}\n"
-                prompt += f"- 기관: {investor_data['기관']}\n\n"
+                # Top 5 articles
+                reordered = list(sd["articles"])
+                if 0 <= sd["best_idx"] < len(reordered):
+                    best = reordered.pop(sd["best_idx"])
+                    reordered.insert(0, best)
+                    
+                for i, article in enumerate(reordered[:5]):
+                    title = article.get("title", "")
+                    content = article.get("content", "")
+                    prompt += f"- 기사 {i+1} 제목: {title}\n"
+                    if content:
+                        prompt += f"  주요 내용: {content[:300]}\n"
+                        
+                if market == "KR" and sd.get("investor_data"):
+                    inv = sd["investor_data"]
+                    prompt += f"- 오늘 수급 동향 (개인/외국인/기관): {inv.get('개인','-')} / {inv.get('외국인','-')} / {inv.get('기관','-')}\n"
                 
-            prompt += (
-                f"**작성 가이드라인 (반드시 준수):**\n"
-                f"1. **한국어 번역 및 종합 요약 (summary)**: 모든 영문 뉴스 내용은 반드시 먼저 자연스러운 한국어로 번역하세요. 이후 기사들의 핵심 내용을 2~3문장 문체로 종합하여 요약하세요. 단순 번역체가 아닌, 한국 독자가 읽기 편한 전문가적 어조를 사용하십시오.\n"
-                f"2. **키워드 요약 (short_reason)**: 위에서 작성한 '요약(summary)'의 핵심 내용을 **2~3개의 명사형 어절/단어**로만 압축하세요. (예: '매출 성장세 지속, 실적 기대감', '신제품 출시 효과, 점유율 확대', '글로벌 경기 침체, 매출 둔화 우려'). 문장이나 마침표를 사용하지 말고 명사형으로 딱 끊어서 작성하세요.\n"
-                f"3. **카테고리 분류 (category)**: 제공된 뉴스 성격에 따라 '실적', '수급', '이슈', '거시경제', '빅테크' 중 가장 적절한 하나를 선택하세요."
-            )
-            
-            if market == "KR" and investor_data:
-                prompt += " 제공된 외국인/기관의 수급 동향이 주가에 미친 영향(매수세/매도세 중심)을 요약문 속에 자연스럽게 녹여내세요."
+                prompt += "\n"
                 
-            prompt += (
-                f"\n4. **금지 사항**: '주가가 올랐습니다' 같은 뻔한 결과 나열은 피하고, '왜' 변동했는지 뉴스에 기반한 구체적 근거를 제시하세요.\n"
-                f"5. **출력 형식**: 아래 JSON 구조로만 답변하세요. 마크다운 기호(```json)나 다른 텍스트는 일체 포함하지 마세요.\n"
-                f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 키워드 어절 (2~3개)\", \"summary\": \"규칙을 준수한 자연스러운 한글 요약\"}}"
-            )
-            
             from concurrent.futures import ThreadPoolExecutor, TimeoutError
+            import time
+            time.sleep(3) # Wait slightly to avoid immediate rate limit if crawled right before
+            
             executor = ThreadPoolExecutor(max_workers=1)
             future = executor.submit(
                 client.models.generate_content,
-                model='gemini-2.0-flash',
+                model='gemini-2.5-flash', # Or gemini-2.5-flash-lite
                 contents=prompt
             )
-            response = future.result(timeout=10)
+            response = future.result(timeout=45) # Longer timeout for batch
                 
             if response and response.text:
-                # Attempt to parse json
                 try:
                     import json
                     import re
-                    # Clean up markdown code blocks if any
                     json_str = re.sub(r'```(?:json)?', '', response.text).strip()
-                    parsed = json.loads(json_str)
-                    return parsed # Return dict containing category, short_reason, summary
+                    parsed_array = json.loads(json_str)
+                    
+                    for item in parsed_array:
+                        sym = item.get("symbol")
+                        if sym in results:
+                            results[sym]["category"] = item.get("category", "이슈")
+                            results[sym]["short_reason"] = item.get("short_reason", results[sym]["short_reason"])
+                            results[sym]["summary"] = item.get("summary", results[sym]["summary"])
                 except Exception as e:
-                    print(f"Failed to parse Gemini JSON: {e}, text: {response.text}")
-                    return {"category": "이슈", "short_reason": f"시장 수급 및 업황 변화에 따른 {direction}", "summary": response.text.strip()} # fallback
+                    print(f"Failed to parse Gemini Batch JSON: {e}, text: {response.text}")
         except TimeoutError:
-            print(f"Gemini API timed out for {stock_name}")
+            print(f"Gemini API Batch Request timed out.")
         except Exception as e:
-            print(f"Gemini API execution skipped or failed: {e}")
-    
-    # Enhanced logical fallback (Clean & Varied)
-    news_titles = [a["title"] for a in articles if "title" in a]
-    has_valid_news = (news_titles and 0 <= best_idx < len(news_titles))
-    main_news = news_titles[best_idx] if has_valid_news else "시장 수급 변화"
-    
-    if change_val >= 0:
-        templates = [
-            f"{stock_name}은(는) {main_news} 소식이 전해지며 매수세가 강화되었습니다.",
-            f"오늘 {stock_name} 주가는 {main_news} 등이 호재로 작용하며 긍정적인 흐름을 보였습니다."
-        ]
-    else:
-        templates = [
-            f"{stock_name}은(는) {main_news} 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
-            f"{stock_name} 주가는 {main_news} 등에 따른 투자 심리 위축으로 하락 마감했습니다."
-        ]
-    
-    import random
-    fallback_text = random.choice(templates)
-    
-    
-
-    # Keyword extraction fallback logic
-    keyword_fallback = "수급 변화, 업황 변동"
-    if has_valid_news:
-        words = [w for w in main_news.split() if len(w) > 1]
-        if len(words) >= 2:
-            keyword_fallback = f"{words[0]}, {words[1]}"
+            print(f"Gemini API Batch Request failed: {e}")
             
-    return {"category": "이슈", "short_reason": keyword_fallback, "summary": fallback_text}
+    return results
 
 def generate_short_reason(stock_name, articles, change_val, best_idx=0, translated_title=None):
     if translated_title:
@@ -752,7 +783,9 @@ def generate_daily_json(date_str=None, market="KR"):
     # 1. Get real movers
     movers = get_top_movers(date_str, market=market)
     
-    signals = []
+    # [MODIFIED] Collect all stock data for batch summary instead of calling API iteratively
+    stock_data_collection = []
+    
     for idx, stock in enumerate(movers):
         symbol = stock['symbol']
         name = stock['name']
@@ -782,67 +815,79 @@ def generate_daily_json(date_str=None, market="KR"):
         best_idx = select_impactful_article(name, articles, change_val)
         if articles and best_idx != -1 and 0 <= best_idx < len(articles):
             target_article = articles.pop(best_idx)
-            print(f"Selected impactful news: {target_article['title']}")
+            print(f"Selected impactful news for {name}: {target_article['title']}")
             if market == "KR": # We only scrape deep content for KR right now
-                # Check if we already scraped content to avoid redundant calls
                 if 'content' not in target_article or not target_article['content']:
                     target_article['content'] = scrape_article_content(target_article['url'])
             # Put the best article at the top of the list so UI uses it easily
             articles.insert(0, target_article)
-            best_idx = 0 # Update index since we moved it
+            best_idx = 0 
         else:
             print(f"No sufficiently impactful/relevant news found for {name}.")
+            best_idx = 0
         
-        # 5. Determine Theme
-        market_data = STOCK_METADATA.get(market, {})
-        stock_info = market_data.get(symbol, {})
-        industry_list = stock_info.get("industry", [])
-        
-        # 4. Determine Theme
-        market_data = STOCK_METADATA.get(market, {})
-        stock_info = market_data.get(symbol, {})
-        industry_list = stock_info.get("industry", [])
-        
-        if industry_list:
-            theme = f"#{industry_list[0]}"
-        else:
-            theme = "" # No industry tag if not defined
-            
-        # 5. Related (Pass theme & market for fallback)
-        related = get_related_stocks(symbol, name, date_str, theme=theme, market=market)
-        
-        # 6. Fetch Additional Data
+        # 4. Fetch Additional Data
         investor_data = None
         if market == "KR":
             try:
                 investor_data = get_investor_data(symbol, date_str)
             except Exception as e:
                 print(f"Error fetching investor data: {e}")
-            
-        # 7. Generate Summary (dict containing category, short_reason, summary)
-        summary_obj = generate_summary(name, articles, change_val, best_idx, investor_data=investor_data, market=market)
+                
+        # Store for batch processing
+        stock_data_collection.append({
+            "idx": idx,
+            "symbol": symbol,
+            "name": name,
+            "change_val": change_val,
+            "articles": articles,
+            "best_idx": best_idx,
+            "investor_data": investor_data,
+            "change_rate": stock['change_rate'] # Keep for final assembly
+        })
         
-        signal_cat = summary_obj.get("category", "이슈")
-        short_reason = summary_obj.get("short_reason", f"업황 변화에 따른 상승" if change_val >= 0 else f"업황 변화에 따른 하락")
-        summary_text = summary_obj.get("summary", "")
+    # --- BATCH AI SUMMARIZATION ---
+    print(f"Sending batch summary request for {len(stock_data_collection)} stocks...")
+    batch_summaries = generate_batch_summaries(stock_data_collection, market=market)
+    
+    # 5. Assemble Final Signals
+    signals = []
+    for sd in stock_data_collection:
+        symbol = sd["symbol"]
+        name = sd["name"]
+        
+        # Determine Theme
+        market_data = STOCK_METADATA.get(market, {})
+        stock_info = market_data.get(symbol, {})
+        industry_list = stock_info.get("industry", [])
+        theme = f"#{industry_list[0]}" if industry_list else ""
+            
+        # Related Stocks
+        related = get_related_stocks(symbol, name, date_str, theme=theme, market=market)
+        
+        # Retrieve Summary
+        summary_obj = batch_summaries.get(symbol, {
+            "category": "이슈", 
+            "short_reason": "업황 변화", 
+            "summary": "AI 요약 생성 중 오류가 발생했습니다."
+        })
         
         news_url = f"https://finance.yahoo.com/quote/{symbol}" if market == "US" else f"https://finance.naver.com/item/news.naver?code={symbol}"
         
         signal_data = {
-            "id": f"sig_{date_str.replace('-','')}_{market}_{idx+1:03d}",
+            "id": f"sig_{date_str.replace('-','')}_{market}_{sd['idx']+1:03d}",
             "theme": theme,
-            "signal_type": signal_cat,
-            "short_reason": short_reason,
-            "summary": summary_text,
+            "signal_type": summary_obj.get("category", "이슈"),
+            "short_reason": summary_obj.get("short_reason", "업황 변화"),
+            "summary": summary_obj.get("summary", ""),
             "main_stock": {
-                "name": name, "symbol": symbol, "change_rate": stock['change_rate'],
+                "name": name, "symbol": symbol, "change_rate": sd['change_rate'],
                 "news_url": news_url
             },
-            "news_articles": articles,
+            "news_articles": sd["articles"],
             "related_stocks": related,
             "timestamp": kst_now.strftime("%Y-%m-%d %H:%M:%S")
         }
-            
         signals.append(signal_data)
 
     output_data = {"last_updated": kst_now.strftime("%Y-%m-%d %H:%M:%S"), "signals": signals}
