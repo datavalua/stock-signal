@@ -54,6 +54,7 @@
 `.env` 파일에 Gemini API 키를 설정합니다.
 ```env
 GEMINI_API_KEY=your_gemini_api_key
+ADMIN_PASSWORD=your_admin_password
 ```
 
 ### 2. 데이터 수집 실행
