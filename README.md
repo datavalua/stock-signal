@@ -2,9 +2,8 @@
 
 > **토스증권 시그널 클론** - 실시간 시장 급등주의 원인을 AI로 분석하고 연관 테마를 시각화하는 지능형 대시보드입니다.
 
-[![Next.js](https://img.shields.io/badge/Frontend-Next.js-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/Backend-Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel)](https://vercel.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
@@ -20,10 +19,9 @@
 
 ## 🛠️ 기술 스택 (Tech Stack)
 
-### **Frontend (Migration in Progress 🚧)**
-- **Next.js 14+ / TypeScript**: SEO 최적화 및 고성능 사용자 경험 제공.
-- **Tailwind CSS**: 토스 스타일의 깔끔하고 모던한 UI 구현.
-- **Vercel**: 글로벌 Edge 네트워크를 통한 초고속 배포.
+### **Frontend**
+- **Streamlit**: 파이썬 기반의 빠르고 직관적인 데이터 대시보드 UI.
+- **Custom CSS**: 토스 스타일의 깔끔한 디자인을 위한 스타일 커스텀 적용.
 
 ### **Backend & Data**
 - **Python 3.10**: 데이터 크롤링 및 분석 유틸리티.
@@ -40,7 +38,7 @@
 ├── backend/            # 데이터 수집 및 AI 분석 코어 로직 (Python)
 │   ├── crawler.py      # 뉴스 크롤링 및 Gemini 연동
 │   └── bootstrap_*.py  # 종목 메타데이터 초기 구축 스크립트
-├── streamlit/          # [Legacy] 기존 시연용 대시보드 (app.py)
+├── streamlit/          # Streamlit 대시보드 웹 앱 (app.py)
 ├── data/               # 실시간/과거 시그널 데이터 (JSON)
 ├── tests/              # 단위 테스트 및 검증 스크립트
 ├── scripts/            # 기타 유틸리티 및 HTML 샘플
@@ -63,7 +61,7 @@ GEMINI_API_KEY=your_gemini_api_key
 python backend/crawler.py --market KR
 ```
 
-### 3. 대시보드 실행 (Legacy Streamlit)
+### 3. 대시보드 실행
 ```bash
 streamlit run streamlit/app.py
 ```
