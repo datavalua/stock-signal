@@ -2,7 +2,10 @@ import streamlit as st
 import json
 import os
 import datetime
-import crawler
+import sys
+# Add project root to sys.path so we can import from 'backend'
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from backend import crawler
 import pandas as pd
 import FinanceDataReader as fdr
 from dotenv import load_dotenv
@@ -40,7 +43,7 @@ def safe_clear_cache():
 
 # --- Initialization ---
 load_dotenv()
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "HIDDEN_PASSWORD")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "admin123")
 DATA_DIR = "data"
 STOCK_METADATA_FILE = os.path.join(DATA_DIR, "stock_metadata.json")
 
@@ -358,7 +361,7 @@ def show_admin():
     st.subheader("🌐 글로벌 종목 정보 자동 확장 (AI Bootstrap)")
     st.info("S&P500, NASDAQ, KOSPI, KOSDAQ 종목의 산업군 및 경쟁사 정보를 AI가 자동으로 수집합니다. (API 할당량 준수를 위해 인덱스별 상위 20개씩 우선 처리)")
     if st.button("🚀 전체 종목 정보 확장 시작"):
-        import bootstrap_metadata
+        from backend import bootstrap_metadata
         with st.spinner("AI가 전 세계 종목 정보를 분석 중입니다... (약 1~2분 소요)"):
             try:
                 bootstrap_metadata.run_bootstrap(limit_per_index=20)

@@ -31,7 +31,7 @@ jobs:
     - name: Run KR crawler
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      run: python crawler.py --market KR
+      run: python backend/crawler.py --market KR
       
     - name: Commit and Push changes
       run: |

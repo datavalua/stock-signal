@@ -612,12 +612,18 @@ def generate_batch_summaries(stock_data_list, market="KR"):
                 return future.result(timeout=45)
 
             try:
-                # 1st attempt: Try with Gemini 2.5 Pro
-                response = call_gemini('gemini-2.5-pro')
+                # If running in GitHub Actions (CI=true), use Pro model natively.
+                # If running locally for testing, use Flash model to save quota.
+                is_ci = os.environ.get("CI") == "true"
+                primary_model = 'gemini-2.5-pro' if is_ci else 'gemini-2.5-flash'
+                
+                response = call_gemini(primary_model)
             except Exception as e:
-                print(f"Gemini 2.5 Pro failed (likely quota limit): {e}. Falling back to gemini-2.5-flash...")
-                # 2nd attempt: Fallback to Gemini 2.5 Flash
-                response = call_gemini('gemini-2.5-flash')
+                print(f"{primary_model} failed: {e}. Falling back to gemini-2.5-flash...")
+                if primary_model != 'gemini-2.5-flash':
+                    response = call_gemini('gemini-2.5-flash')
+                else:
+                    response = None
                 
             if response and response.text:
                 try:
