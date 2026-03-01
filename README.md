@@ -24,11 +24,11 @@ pip install -r requirements.txt
    ```
    GEMINI_API_KEY=your_api_key_here
    ```
-2. 크롤러를 실행하여 데이터를 수집합니다.
+2. 크롤러를 실행하여 데이터를 수집합니다. (시장별/날짜별)
    ```bash
-   python crawler.py
+   python backend/crawler.py --market KR
    ```
 3. Streamlit 앱을 실행합니다.
    ```bash
-   streamlit run app.py
+   streamlit run streamlit/app.py
    ```
