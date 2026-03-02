@@ -1,8 +1,10 @@
 import os
 import json
+import time
 import datetime
 from datetime import timedelta
 import dotenv
+dotenv.load_dotenv()
 
 import FinanceDataReader as fdr
 import requests
@@ -10,19 +12,31 @@ from bs4 import BeautifulSoup
 import traceback
 
 try:
-    from google import genai
+    import google.generativeai as genai
     GENAI_AVAILABLE = True
 except ImportError:
     GENAI_AVAILABLE = False
-    print("Warning: google-genai package not found. AI summaries will be disabled.")
-    GENAI_AVAILABLE = False
-    print("google.generativeai module not found or broken. AI summaries will be mocked.")
+    print("Warning: google-generativeai package not found. AI summaries will be disabled.")
 except Exception as e:
     GENAI_AVAILABLE = False
-    print(f"Error loading google.generativeai: {e}")
+    print(f"Error loading Gemini SDK: {e}")
 
-# Load environment variables (e.g., GEMINI_API_KEY)
-dotenv.load_dotenv()
+if GENAI_AVAILABLE:
+    import streamlit as st
+    try:
+        api_key = st.secrets.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
+    except Exception:
+        api_key = os.getenv("GEMINI_API_KEY")
+        
+    if api_key:
+        genai.configure(api_key=api_key)
+
+try:
+    import holidays
+    HOLIDAYS_AVAILABLE = True
+except ImportError:
+    HOLIDAYS_AVAILABLE = False
+
 
 # Constants
 DATA_DIR = "data"
@@ -34,6 +48,18 @@ def load_stock_metadata():
         with open(metadata_path, "r", encoding="utf-8") as f:
             return json.load(f)
     return {"KR": {}, "US": {}}
+
+def get_model_name():
+    """Select model based on environment (GitHub Actions vs Local)."""
+    # Prioritize explicit environment variable
+    env_model = os.getenv("GEMINI_MODEL")
+    if env_model:
+        return env_model
+        
+    # GITHUB_ACTIONS is a default env var in GitHub Actions
+    if os.getenv('GITHUB_ACTIONS') == 'true':
+        return 'gemini-flash-latest' # 1,500 RPD
+    return 'gemini-pro-latest' # 50 RPD (Premium quality for local)
 
 # Global configuration loaded once
 STOCK_METADATA = load_stock_metadata()
@@ -431,8 +457,6 @@ def select_impactful_article(stock_name, articles, change_val):
     api_key = os.getenv("GEMINI_API_KEY")
     if api_key and api_key != "your_api_key_here" and GENAI_AVAILABLE:
         try:
-            client = genai.Client(api_key=api_key)
-            
             prompt = (
                 f"{stock_name}의 주가가 오늘 {direction}했습니다. 다음 뉴스 헤드라인 중 "
                 f"이 변동에 가장 큰 원인이 되었을 것으로 판단되는 기사의 번호(0부터 시작)만 하나 골라주세요.\n"
@@ -444,15 +468,16 @@ def select_impactful_article(stock_name, articles, change_val):
                 "\n\n응답은 반드시 숫자 하나 또는 'none'만 해주세요."
             )
             
-            # Using ThreadPoolExecutor without 'with' to avoid blocking on timeout
             from concurrent.futures import ThreadPoolExecutor, TimeoutError
+            
+            def call_genai():
+                model = genai.GenerativeModel(get_model_name())
+                return model.generate_content(prompt)
+                
             executor = ThreadPoolExecutor(max_workers=1)
-            future = executor.submit(
-                client.models.generate_content,
-                model='gemini-2.5-flash-lite',
-                contents=prompt
-            )
-            response = future.result(timeout=10)
+            future = executor.submit(call_genai)
+            response = future.result(timeout=30)
+            time.sleep(5) # Rate limiting
                 
             if response and response.text:
                 import re
@@ -473,8 +498,11 @@ def select_impactful_article(stock_name, articles, change_val):
     
     scored_articles = []
     for i, article in enumerate(articles):
+        if not isinstance(article, dict):
+            print(f"Warning: Article at index {i} is not a dictionary: {type(article)} - {article}")
+            continue
         score = 0
-        title = article['title']
+        title = article.get('title', '')
         if any(kw in title for kw in company_keywords): score += 10
         if any(kw in title for kw in market_keywords): score -= 5
         if title.startswith(stock_name) or f"[{stock_name}]" in title: score += 5
@@ -483,169 +511,71 @@ def select_impactful_article(stock_name, articles, change_val):
     scored_articles.sort(reverse=True)
     return scored_articles[0][1] if scored_articles else 0
 
-def generate_batch_summaries(stock_data_list, market="KR"):
+def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data=None, analyst_data=None, market="KR"):
     """
-    Batch process all stocks to bypass API rate limits and drastically improve speed.
-    stock_data_list = [
-        {
-            "symbol": "...",
-            "name": "...",
-            "change_val": 5.2,
-            "articles": [...],
-            "best_idx": 0,
-            "investor_data": {...}
-        },
-        ...
-    ]
-    Returns a dictionary mapping symbol to {"category": "...", "short_reason": "...", "summary": "..."}
+    Generate a 2-3 line summary of why the stock moved, based on news articles.
+    Returns a dict containing category, short_reason, summary.
     """
+    direction = "상승" if change_val >= 0 else "하락"
     api_key = os.getenv("GEMINI_API_KEY")
-    results = {}
     
-    # 1. Prepare default fallback logic for all stocks first
-    for sd in stock_data_list:
-        symbol = sd["symbol"]
-        name = sd["name"]
-        change_val = sd["change_val"]
-        articles = sd["articles"]
-        best_idx = sd["best_idx"]
-        
-        news_titles = [a["title"] for a in articles if "title" in a]
-        has_valid_news = (news_titles and 0 <= best_idx < len(news_titles))
-        main_news = news_titles[best_idx] if has_valid_news else "시장 수급 변화"
-        
-        # Enhanced Fallback: List top 3 articles instead of just 1
-        top_articles_text = ""
-        if has_valid_news:
-            top_3 = news_titles[:3]
-            top_articles_text = "주요 관련 뉴스: " + ", ".join([f"[{t}]" for t in top_3])
-            
-        if main_news:
-            if market == "US":
-                main_news_display = "관련 주요 외신 보도"
-            else:
-                main_news_display = f"'{main_news}'"
-        else:
-            main_news_display = "시장 수급 변화"
-            
-        import random
-        if change_val >= 0:
-            fallback_text = random.choice([
-                f"{name}은(는) {main_news_display} 소식이 전해지며 매수세가 강화되었습니다. {top_articles_text}",
-                f"오늘 {name} 주가는 {main_news_display} 등이 호재로 작용하며 긍정적인 흐름을 보였습니다. {top_articles_text}"
-            ]).strip()
-        else:
-            fallback_text = random.choice([
-                f"{name}은(는) {main_news_display} 여파로 인해 매도 압력이 높아지며 약세를 보였습니다. {top_articles_text}",
-                f"{name} 주가는 {main_news_display} 등에 따른 투자 심리 위축으로 하락 마감했습니다. {top_articles_text}"
-            ]).strip()
-            
-        keyword_fallback = "수급 변화, 업황 변동"
-        if has_valid_news:
-            words = [w for w in main_news.split() if len(w) > 1]
-            if len(words) >= 2:
-                keyword_fallback = f"{words[0]}, {words[1]}"
-                
-        results[symbol] = {
-            "category": "이슈", 
-            "short_reason": keyword_fallback, 
-            "summary": fallback_text
-        }
-
-    # 2. Try Gemini API Batch Request
-    if api_key and api_key != "your_api_key_here" and GENAI_AVAILABLE and stock_data_list:
+    if api_key and api_key != "your_api_key_here" and GENAI_AVAILABLE:
         try:
-            client = genai.Client(api_key=api_key)
-            
+            # Re-order articles to put the "best" one first for Gemini
+            reordered = list(articles)
+            if 0 <= best_idx < len(articles):
+                best = reordered.pop(best_idx)
+                reordered.insert(0, best)
+
             prompt = (
-                f"당신은 금융 시장을 분석하는 최상급 AI 리포터입니다.\n"
-                f"오늘 주요 주식들의 등락 원인을 분석하고자 합니다. 아래에 여러 종목의 [이름, 등락률, 주요 뉴스] 양식이 나열되어 있습니다.\n\n"
-                f"**[핵심 분석 지시사항 - 반드시 준수할 것]**\n"
-                f"1. **인과 관계 엄격 파악**: 주어진 각 종목의 등락률과 **직접적으로 연결되는 주가 변동의 진짜 원인(호재/악재)**을 뉴스 기사 속에서 찾아내세요.\n"
-                f"2. **시장 노이즈 배제**: '코스피 하락', '시황 마감' 같은 단순 거시경제/시장 전체 동향만을 다루는 가십성 기사는 철저히 무시하고, 종목 특이적(Company-Specific)인 뉴스(실적, 수주, M&A, 신제품 등)에 집중해서 요약하세요.\n"
-                f"3. **무조건 한국어 출력**: 제공된 기사가 영어(미국 주식)이더라도 **반드시 모든 응답을 자연스러운 한국어(Korean)로 번역 및 작성**하세요. summary와 short_reason은 100% 한국어여야 합니다.\n"
-                f"4. **요약(summary)**: 여러 기사의 핵심 내용을 2~3문장의 한국어로 종합하여 요약하세요 (예: ~발표했습니다. ~전망입니다).\n"
-                f"5. **원인 압축(short_reason)**: 요약된 한국어 내용을 바탕으로 핵심 원인을 **2~3개의 명사형 어절**로 완벽히 압축하세요. (예: '영업이익 서프라이즈, 배당 확대', '어닝 쇼크, 투자 심리 위축'). 마침표 금지.\n"
-                f"6. **카테고리(category)**: '실적', '수급', '이슈', '거시경제', '빅테크' 중 하나로 분류하세요.\n"
-                f"7. **응답 포맷**: 반드시 아래 JSON 배열 형식으로만 응답해야 하며, 다른 어떠한 텍스트나 마크다운(```json)도 포함하지 마세요.\n\n"
-                f"[\n"
-                f"  {{\"symbol\": \"AAPL\", \"category\": \"이슈\", \"short_reason\": \"핵심 단어1, 핵심 단어2\", \"summary\": \"규칙을 준수한 자연스러운 한글 요약문입니다.\"}},\n"
-                f"  ...\n"
-                f"]\n\n"
-                f"**[분석할 종목 데이터]**\n"
+                f"당신은 금융 시장을 분석하는 최상급 AI 리포터입니다. {stock_name} ({direction})에 관한 최신 기사들을 읽고 분석 리포트를 작성하세요.\n\n"
+                f"**분석용 뉴스 데이터**\n"
             )
             
-            for sd in stock_data_list:
-                direction = "상승" if sd["change_val"] >= 0 else "하락"
-                prompt += f"--- 종목코드: {sd['symbol']} | 종목명: {sd['name']} | 등락: {sd['change_val']}% ({direction}) ---\n"
+            # Use top 5 articles with 1500 chars context each
+            for i, article in enumerate(reordered[:5]):
+                title = article.get("title", "")
+                content = article.get("content", "")
+                prompt += f"기사 {i+1}: {title}\n내용: {content[:1500]}\n\n"
                 
-                # Top 5 articles
-                reordered = list(sd["articles"])
-                if 0 <= sd["best_idx"] < len(reordered):
-                    best = reordered.pop(sd["best_idx"])
-                    reordered.insert(0, best)
-                    
-                for i, article in enumerate(reordered[:5]):
-                    title = article.get("title", "")
-                    content = article.get("content", "")
-                    prompt += f"- 기사 {i+1} 제목: {title}\n"
-                    if content:
-                        prompt += f"  주요 내용: {content[:300]}\n"
-                        
-                if market == "KR" and sd.get("investor_data"):
-                    inv = sd["investor_data"]
-                    prompt += f"- 오늘 수급 동향 (개인/외국인/기관): {inv.get('개인','-')} / {inv.get('외국인','-')} / {inv.get('기관','-')}\n"
-                
-                prompt += "\n"
-                
-            from concurrent.futures import ThreadPoolExecutor, TimeoutError
-            import time
-            time.sleep(3) # Wait slightly to avoid immediate rate limit if crawled right before
-            
-            def call_gemini(model_name):
-                executor = ThreadPoolExecutor(max_workers=1)
-                future = executor.submit(
-                    client.models.generate_content,
-                    model=model_name,
-                    contents=prompt
-                )
-                return future.result(timeout=45)
+            if market == "KR" and investor_data:
+                prompt += f"**오늘 수급 데이터 (개인/외국인/기관):** {investor_data.get('개인','-')} / {investor_data.get('외국인','-')} / {investor_data.get('기관','-')}\n\n"
+            elif market == "US" and analyst_data:
+                prompt += f"**애널리스트 투자의견 요약:** {analyst_data}\n\n"
 
-            try:
-                # If running in GitHub Actions (CI=true), use Pro model natively.
-                # If running locally for testing, use Flash model to save quota.
-                is_ci = os.environ.get("CI") == "true"
-                primary_model = 'gemini-2.5-pro' if is_ci else 'gemini-2.5-flash'
-                
-                response = call_gemini(primary_model)
-            except Exception as e:
-                print(f"{primary_model} failed: {e}. Falling back to gemini-2.5-flash...")
-                if primary_model != 'gemini-2.5-flash':
-                    response = call_gemini('gemini-2.5-flash')
-                else:
-                    response = None
+            prompt += (
+                f"**작성 가이드라인 (반드시 준수):**\n"
+                f"1. **한국어 요약 (summary)**: 모든 기사 내용을 종합하여 2~3문장으로 요약하세요. 단순 번역이 아닌 한국 독자가 이해하기 편한 전문가적인 리포트 어조를 사용하세요.\n"
+                f"2. **키워드 압축 (short_reason)**: 위 '요약(summary)'의 핵심을 **2~3개의 명사구/단어**로만 압축하세요. (예: '매출 성장세 지속, 실적 기대감', '신제품 출시 효과, 수주 확대'). 문장이나 마침표를 사용하지 마세요.\n"
+                f"3. **카테고리 분류 (category)**: '실적', '수급', '이슈', '거시경제', '빅테크' 중 하나를 선택하세요.\n"
+                f"4. **금지 사항**: '주가가 올랐습니다' 등 결과 나열은 피하고 변동의 '핵심 원인'을 구체적으로 기재하세요.\n"
+                f"5. **출력 형식**: 아래 JSON 구조로만 응답하세요. 마크다운 기호 없이 순수 JSON만 출력하세요.\n"
+                f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 키워드 어절 (2~3개)\", \"summary\": \"규칙을 준수한 자연스러운 요약 리포트\"}}"
+            )
+            
+            model = genai.GenerativeModel(get_model_name())
+            response = model.generate_content(prompt)
+            time.sleep(5) # Rate limiting
                 
             if response and response.text:
                 try:
-                    import json
                     import re
-                    json_str = re.sub(r'```(?:json)?', '', response.text).strip()
-                    parsed_array = json.loads(json_str)
-                    
-                    for item in parsed_array:
-                        sym = item.get("symbol")
-                        if sym in results:
-                            results[sym]["category"] = item.get("category", "이슈")
-                            results[sym]["short_reason"] = item.get("short_reason", results[sym]["short_reason"])
-                            results[sym]["summary"] = item.get("summary", results[sym]["summary"])
+                    clean_json = re.sub(r'```(?:json)?', '', response.text).strip()
+                    parsed = json.loads(clean_json)
+                    return parsed
                 except Exception as e:
-                    print(f"Failed to parse Gemini Batch JSON: {e}, text: {response.text}")
-        except TimeoutError:
-            print(f"Gemini API Batch Request timed out.")
+                    print(f"Failed to parse Gemini JSON: {e}")
         except Exception as e:
-            print(f"Gemini API Batch Request failed: {e}")
-            
-    return results
+            print(f"Gemini API failure: {e}")
+    
+    # Fallback logic
+    news_titles = [a["title"] for a in articles if "title" in a]
+    main_news = news_titles[best_idx] if (news_titles and 0 <= best_idx < len(news_titles)) else "시장 수급 변화"
+    return {
+        "category": "이슈", 
+        "short_reason": "수급 변화, 업황 변동", 
+        "summary": f"{stock_name}은(는) {main_news} 등의 영향으로 {direction} 마감했습니다."
+    }
 
 def generate_short_reason(stock_name, articles, change_val, best_idx=0, translated_title=None):
     if translated_title:
@@ -741,38 +671,44 @@ def get_related_stocks(symbol, name, date_str, theme=None, market="KR"):
 
 def get_last_trading_day(target_date_str=None, market="KR"):
     """
-    Find the most recent trading day. 
-    For US market, if it's currently early morning KST (before 9 AM), 
-    the 'current' active or recently closed session is from 'yesterday'.
+    Find the most recent trading day.
     """
     kst_now = datetime.datetime.utcnow() + timedelta(hours=9)
     
     if target_date_str is None:
-        target_date = kst_now
-        # US market attribution logic:
-        # Sessions run roughly 23:30 to 06:00 KST.
-        # If we crawl at 3 AM KST on the 26th, it's actually the 25th session.
+        base_date = kst_now
         if market == "US" and kst_now.hour < 9:
-            target_date = kst_now - timedelta(days=1)
+            base_date = kst_now - timedelta(days=1)
     else:
-        target_date = datetime.datetime.strptime(target_date_str, "%Y-%m-%d")
-    
-    # Simple weekday check if market data check fails
-    base_date = target_date
-    while base_date.weekday() > 4: # Sat=5, Sun=6
-        base_date -= timedelta(days=1)
+        base_date = datetime.datetime.strptime(target_date_str, "%Y-%m-%d")
+
+    # Initialize holiday checker
+    kr_holidays = holidays.KR() if HOLIDAYS_AVAILABLE else {}
+    us_holidays = holidays.US() if HOLIDAYS_AVAILABLE else {}
+
+    def is_holiday(d, m):
+        # Weekends
+        if d.weekday() > 4: return True
         
-    # Optional: Verify with fdr (can be flaky/slow, so use as secondary)
-    try:
-        symbol = 'KS11' if market == "KR" else 'IXIC'
-        start_search = base_date - timedelta(days=5)
-        df = fdr.DataReader(symbol, start_search.strftime("%Y-%m-%d"), base_date.strftime("%Y-%m-%d"))
-        if not df.empty: 
-            return df.index[-1].strftime("%Y-%m-%d")
-    except:
-        pass
+        d_str = d.strftime("%Y-%m-%d")
         
-    return base_date.strftime("%Y-%m-%d")
+        if m == "KR":
+            # KR Market specific: 12/31 is always a holiday
+            if d.month == 12 and d.day == 31: return True
+            if HOLIDAYS_AVAILABLE and d_str in kr_holidays: return True
+        else:
+            if HOLIDAYS_AVAILABLE and d_str in us_holidays: return True
+            
+        return False
+
+    # Look back until we find a trading day
+    check_date = base_date
+    # If we are checking "today" and it's a holiday, we definitely want the previous one.
+    # If we are checking a specific date and it's a holiday, we want the previous one.
+    while is_holiday(check_date, market):
+        check_date -= timedelta(days=1)
+        
+    return check_date.strftime("%Y-%m-%d")
 
 def generate_daily_json(date_str=None, market="KR"):
     if date_str is None: 
@@ -784,6 +720,14 @@ def generate_daily_json(date_str=None, market="KR"):
     prefix = "us_" if market == "US" else ""
     output_file = os.path.join(DATA_DIR, f"{prefix}{date_str}.json")
     
+    # 0. Check if the requested date is a valid trading day
+    last_trading = get_last_trading_day(date_str, market=market)
+    if date_str != last_trading:
+        print(f"!!! Error: {date_str} is NOT a trading day for {market} market.")
+        print(f"!!! Last available trading day: {last_trading}")
+        print("!!! Skipping JSON generation to avoid duplicate/misleading data.")
+        return
+
     # Load existing articles to accumulate them throughout the day
     existing_data = {}
     if os.path.exists(output_file):
@@ -798,13 +742,14 @@ def generate_daily_json(date_str=None, market="KR"):
     # 1. Get real movers
     movers = get_top_movers(date_str, market=market)
     
-    # [MODIFIED] Collect all stock data for batch summary instead of calling API iteratively
-    stock_data_collection = []
+    signals = []
     
     for idx, stock in enumerate(movers):
         symbol = stock['symbol']
         name = stock['name']
         change_val = stock['change']
+        
+        print(f"[{idx+1}/{len(movers)}] Processing {name} ({symbol})...")
         
         # 2. News Headlines
         if market == "US":
@@ -822,84 +767,103 @@ def generate_daily_json(date_str=None, market="KR"):
                 
         if symbol in existing_signals:
             for a in existing_signals[symbol].get('news_articles', []):
-                if a['url'] not in seen_urls:
+                if isinstance(a, dict) and a.get('url') and a['url'] not in seen_urls:
                     articles.append(a)
                     seen_urls.add(a['url'])
         
-        # 3. Select and Scrape Impactful News
-        best_idx = select_impactful_article(name, articles, change_val)
-        if articles and best_idx != -1 and 0 <= best_idx < len(articles):
-            target_article = articles.pop(best_idx)
-            print(f"Selected impactful news for {name}: {target_article['title']}")
-            if market == "KR": # We only scrape deep content for KR right now
-                if 'content' not in target_article or not target_article['content']:
-                    target_article['content'] = scrape_article_content(target_article['url'])
-            # Put the best article at the top of the list so UI uses it easily
-            articles.insert(0, target_article)
-            best_idx = 0 
-        else:
-            print(f"No sufficiently impactful/relevant news found for {name}.")
-            best_idx = 0
+        # Filter invalid articles (must be dict with url and title)
+        articles = [a for a in articles if isinstance(a, dict) and 'url' in a and 'title' in a]
         
-        # 4. Fetch Additional Data
-        investor_data = None
-        if market == "KR":
-            try:
-                investor_data = get_investor_data(symbol, date_str)
-            except Exception as e:
-                print(f"Error fetching investor data: {e}")
+        # 3. [Tier 1 Skip] Check if the very first news article matches perfectly
+        # Do this BEFORE AI selection/scraping to save time/API
+        ai_result = None
+        if symbol in existing_signals and articles:
+            old_signal = existing_signals[symbol]
+            old_articles = old_signal.get('news_articles', [])
+            if old_articles:
+                old_title = old_articles[0].get('title')
+                old_url = old_articles[0].get('url', '').split('&page=')[0]
+                new_title = articles[0].get('title')
+                new_url = articles[0].get('url', '').split('&page=')[0]
                 
-        # Store for batch processing
-        stock_data_collection.append({
-            "idx": idx,
-            "symbol": symbol,
-            "name": name,
-            "change_val": change_val,
-            "articles": articles,
-            "best_idx": best_idx,
-            "investor_data": investor_data,
-            "change_rate": stock['change_rate'] # Keep for final assembly
-        })
+                if old_title == new_title or old_url == new_url:
+                    print(f"[{idx+1}/{len(movers)}] [Tier 1] Skipping AI for {name}: News matches previous signal.")
+                    ai_result = {
+                        "category": old_signal.get("signal_type", "이슈"),
+                        "short_reason": old_signal.get("short_reason", "수급 변화"),
+                        "summary": old_signal.get("summary", "")
+                    }
         
-    # --- BATCH AI SUMMARIZATION ---
-    print(f"Sending batch summary request for {len(stock_data_collection)} stocks...")
-    batch_summaries = generate_batch_summaries(stock_data_collection, market=market)
-    
-    # 5. Assemble Final Signals
-    signals = []
-    for sd in stock_data_collection:
-        symbol = sd["symbol"]
-        name = sd["name"]
-        
-        # Determine Theme
+        # 4. If Tier 1 missed, select and scrape impactful info
+        if not ai_result and articles:
+            # First, select the "best" article via AI
+            best_idx = select_impactful_article(articles, name, change_val)
+            if best_idx != -1 and 0 <= best_idx < len(articles):
+                best_article = articles[best_idx]
+                
+                # 5. [Tier 2 Skip] Check if the SELECTED article matches existing one
+                if symbol in existing_signals:
+                    old_signal = existing_signals[symbol]
+                    old_articles = old_signal.get('news_articles', [])
+                    if old_articles:
+                        old_best_title = old_articles[0].get('title')
+                        old_best_url = old_articles[0].get('url', '').split('&page=')[0]
+                        new_best_title = best_article.get('title')
+                        new_best_url = best_article.get('url', '').split('&page=')[0]
+                        
+                        if old_best_title == new_best_title or old_best_url == new_best_url:
+                            print(f"[{idx+1}/{len(movers)}] [Tier 2] Skipping summarization for {name}: Selected article already summarized.")
+                            ai_result = {
+                                "category": old_signal.get("signal_type", "이슈"),
+                                "short_reason": old_signal.get("short_reason", "수급 변화"),
+                                "summary": old_signal.get("summary", "")
+                            }
+
+                # 6. If Tier 2 missed, scrape and generate
+                if not ai_result:
+                    target_article = articles.pop(best_idx)
+                    target_article['content'] = scrape_article_content(target_article['url'])[:1500]
+                    articles.insert(0, target_article)
+                    
+                    # 7. Fetch Additional Data
+                    investor_data = None
+                    if market == "KR":
+                        try:
+                            investor_data = get_investor_data(symbol, date_str)
+                        except Exception as e:
+                            print(f"Error fetching investor data: {e}")
+
+                    print(f"[{idx+1}/{len(movers)}] Generating new AI summary for {name} using {get_model_name()}...")
+                    ai_result = generate_summary(
+                        name, articles, change_val, 
+                        best_idx=0, # Already moved to front
+                        investor_data=investor_data, 
+                        market=market
+                    )
+        elif not ai_result:
+            # No articles found case
+            ai_result = {"category": "이슈", "short_reason": "수급 변화", "summary": f"{name}은(는) 시장 수급 변화 등의 영향으로 변동을 보였습니다."}
+
+        # 8. Assemble Signal
         market_data = STOCK_METADATA.get(market, {})
         stock_info = market_data.get(symbol, {})
         industry_list = stock_info.get("industry", [])
         theme = f"#{industry_list[0]}" if industry_list else ""
-            
-        # Related Stocks
+        
         related = get_related_stocks(symbol, name, date_str, theme=theme, market=market)
-        
-        # Retrieve Summary
-        summary_obj = batch_summaries.get(symbol, {
-            "category": "이슈", 
-            "short_reason": "업황 변화", 
-            "summary": "AI 요약 생성 중 오류가 발생했습니다."
-        })
-        
         news_url = f"https://finance.yahoo.com/quote/{symbol}" if market == "US" else f"https://finance.naver.com/item/news.naver?code={symbol}"
         
         signal_data = {
-            "id": f"sig_{date_str.replace('-','')}_{market}_{sd['idx']+1:03d}",
+            "id": f"sig_{date_str.replace('-','')}_{market}_{idx+1:03d}",
             "theme": theme,
-            "signal_type": summary_obj.get("category", "이슈"),
-            "short_reason": summary_obj.get("short_reason", "업황 변화"),
-            "summary": summary_obj.get("summary", ""),
+            "signal_type": ai_result.get("category", "이슈"),
+            "short_reason": ai_result.get("short_reason", "수급 변화"),
+            "summary": ai_result.get("summary", ""),
             "main_stock": {
-                "name": name, "symbol": symbol, "change_rate": sd['change_rate'],
+                "name": name, "symbol": symbol, "change_rate": stock['change_rate'],
                 "news_url": news_url
             },
-            "news_articles": sd["articles"],
+            "news_articles": articles[:5],
             "related_stocks": related,
             "timestamp": kst_now.strftime("%Y-%m-%d %H:%M:%S")
         }
@@ -909,6 +873,28 @@ def generate_daily_json(date_str=None, market="KR"):
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
+
+    # 6. Final success: Save the latest trading date for the frontend
+    try:
+        latest_date_path = os.path.join(DATA_DIR, "latest_date.json")
+        prefix = "us_" if market == "US" else "kr_"
+        # We also keep a generic one for the main entry
+        with open(latest_date_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "date": date_str, 
+                "market": market, 
+                "updated_at": kst_now.strftime("%Y-%m-%d %H:%M:%S")
+            }, f, ensure_ascii=False)
+        
+        # Also save a market-specific one
+        with open(os.path.join(DATA_DIR, f"latest_{prefix}date.json"), "w", encoding="utf-8") as f:
+            json.dump({"date": date_str}, f, ensure_ascii=False)
+            
+        print(f"Successfully updated latest_date.json with {date_str}")
+    except Exception as e:
+        print(f"Error updating latest_date.json: {e}")
+
+    print(f"Successfully generated/updated {output_file}")
     return True
 
 if __name__ == "__main__":

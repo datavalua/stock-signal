@@ -43,7 +43,8 @@ def safe_clear_cache():
 
 # --- Initialization ---
 load_dotenv()
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "HIDDEN_PASSWORD")
+# Securely load ADMIN_PASSWORD (check Streamlit secrets first, then environment variables)
+ADMIN_PASSWORD = st.secrets.get("ADMIN_PASSWORD") or os.environ.get("ADMIN_PASSWORD")
 DATA_DIR = "data"
 STOCK_METADATA_FILE = os.path.join(DATA_DIR, "stock_metadata.json")
 
@@ -214,22 +215,68 @@ def render_main_header():
     if view == "주식 시그널":
         st.markdown("##### 🔍 조회 설정")
         col_m, col_d, col_spacer = st.columns([2, 2, 4])
+        
+        # Initialize selected date if not set
+        if "selected_date" not in st.session_state:
+            kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+            st.session_state["selected_date"] = kst_now.date()
+            
         with col_m:
             market = st.selectbox("시장 선택", ["🇰🇷 국내 주식", "🇺🇸 미국 주식"])
         with col_d:
-            kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
-            sel_date = st.date_input("날짜 선택", kst_now.date())
-            date_str = sel_date.strftime("%Y-%m-%d")
+            # 1. Use explicit value parameter for reliable programmatic updates
+            # (Remove 'key' to avoid conflicts with manual session state updates)
+            sel_date = st.date_input("날짜 선택", value=st.session_state["selected_date"])
+            
+            # 2. Sync widget change back to session state and rerun to update the app
+            if sel_date != st.session_state["selected_date"]:
+                st.session_state["selected_date"] = sel_date
+                safe_rerun()
+                
+            date_str = st.session_state["selected_date"].strftime("%Y-%m-%d")
         return market, date_str
     return None, None
 
 # --- Content Views ---
 def show_signals(market, date_str):
     prefix = "us_" if market == "🇺🇸 미국 주식" else ""
+    m_key = "US" if market == "🇺🇸 미국 주식" else "KR"
     data = load_data(f"{prefix}{date_str}")
-    
+
+    # 1. Show success message if just crawled
+    if st.session_state.get("just_crawled"):
+        st.success("✅ 데이터 생성이 완료되어 화면을 조회합니다.")
+        st.session_state["just_crawled"] = False
+        
     if not data:
-        st.info(f"{date_str}의 시그널 데이터가 아직 생성되지 않았습니다.")
+        # Check if it's a holiday (not a trading day)
+        last_trading = crawler.get_last_trading_day(date_str, market=m_key)
+        
+        if date_str != last_trading:
+            # Case 1: Actual Holiday (Weekend or Public Holiday)
+            st.info(f"📅 **[{date_str}]**은 {m_key} 시장의 **[휴장일 입니다]**")
+            if st.button(f"🔙 이전 개장일({last_trading}) 데이터로 이동", key="move_prev"):
+                st.session_state["goto_date"] = datetime.datetime.strptime(last_trading, "%Y-%m-%d").date()
+                safe_rerun()
+        else:
+            # Case 2: Trading day but data missing (Not crawled yet)
+            st.warning(f"🔍 **{date_str}**의 시그널 데이터가 아직 생성되지 않았습니다.")
+            
+            c1, c2 = st.columns(2)
+            with c1:
+                if st.button("🚀 지금 바로 데이터 생성(크롤링) 실행", key="run_crawl_inline"):
+                    with st.spinner("데이터를 생성 중입니다... (약 1~2분 소요)"):
+                        if crawler.generate_daily_json(date_str, market=m_key):
+                            st.session_state["just_crawled"] = True
+                            safe_rerun()
+                        else:
+                            st.error("데이터 생성 중 오류가 발생했습니다.")
+            with c2:
+                # Still offer previous day as an option
+                prev_day = crawler.get_last_trading_day((datetime.datetime.strptime(date_str, "%Y-%m-%d") - datetime.timedelta(days=1)).strftime("%Y-%m-%d"), market=m_key)
+                if st.button(f"📂 이전 개장일({prev_day}) 데이터 보기", key="move_prev_missing"):
+                    st.session_state["goto_date"] = datetime.datetime.strptime(prev_day, "%Y-%m-%d").date()
+                    safe_rerun()
         return
         
     st.caption(f"최종 업데이트: {data.get('last_updated', 'N/A')}")
@@ -373,6 +420,11 @@ def show_admin():
 
 # --- Main App Flow ---
 def main():
+    # 0. Handle Navigation Redirects (MUST BE AT THE VERY BEGINNING, BEFORE ANY WIDGETS)
+    if st.session_state.get("goto_date"):
+        st.session_state["selected_date"] = st.session_state.pop("goto_date")
+        # No rerun needed here if it's the start of the script
+        
     # 1. Sidebar first (Navigation & Auth)
     render_sidebar()
     
