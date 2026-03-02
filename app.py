@@ -1,4 +1,13 @@
 import streamlit as st
+
+# --- Streamlit Config (Must be first) ---
+st.set_page_config(
+    page_title="시그널 - 실시간 핫이슈",
+    page_icon="📈",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 import json
 import os
 import datetime
@@ -9,14 +18,6 @@ from backend import crawler
 import pandas as pd
 import FinanceDataReader as fdr
 from dotenv import load_dotenv
-
-# --- Streamlit Config (Must be first) ---
-st.set_page_config(
-    page_title="시그널 - 실시간 핫이슈",
-    page_icon="📈",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 # --- Compatibility Wrapper ---
 def safe_rerun():
