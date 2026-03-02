@@ -4,7 +4,7 @@ import os
 import datetime
 import sys
 # Add project root to sys.path so we can import from 'backend'
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(os.path.dirname(__file__))
 from backend import crawler
 import pandas as pd
 import FinanceDataReader as fdr
@@ -43,7 +43,7 @@ def safe_clear_cache():
 
 # --- Initialization ---
 load_dotenv()
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "admin123")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "HIDDEN_PASSWORD")
 DATA_DIR = "data"
 STOCK_METADATA_FILE = os.path.join(DATA_DIR, "stock_metadata.json")
 
