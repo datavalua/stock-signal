@@ -24,10 +24,11 @@
 - **Custom CSS**: 토스 스타일의 깔끔한 디자인을 위한 스타일 커스텀 적용.
 
 ### **Backend & Data**
-- **Python 3.10**: 데이터 크롤링 및 분석 유틸리티.
-- **Google Gemini Pro**: 뉴스 컨텐츠 분석 및 의미론적 요약 수행.
+- **Python 3.10**: 데이터 크롤링 및 분석 코어 로직.
+- **Google Gemini 2.0 Pro/Flash**: 뉴스 분석 및 의미론적 요약. (환경에 따른 모델 이원화 적용)
 - **GitHub Actions**: 20분 단위 자동 데이터 수집 파이프라인.
-- **FinanceDataReader & BeautifulSoup4**: 정밀한 금융 데이터 및 뉴스 크롤링.
+- **Smart Skip Logic**: 중복 뉴스에 대한 AI 호출을 방지하는 Tiered Skip 시스템 탑재.
+- **Holidays**: 한/미 휴장일 자동 감지 및 예외 처리.
 
 ---
 
@@ -35,14 +36,14 @@
 
 ```text
 /
-├── backend/            # 데이터 수집 및 AI 분석 코어 로직 (Python)
-│   ├── crawler.py      # 뉴스 크롤링 및 Gemini 연동
+├── backend/            # 데이터 수집 및 AI 분석 코어 로직
+│   ├── crawler.py      # 뉴스 크롤링 및 Gemini 연동 (Smart Skip 포함)
 │   └── bootstrap_*.py  # 종목 메타데이터 초기 구축 스크립트
-├── streamlit/          # Streamlit 대시보드 웹 앱 (app.py)
 ├── data/               # 실시간/과거 시그널 데이터 (JSON)
+├── posts/              # 프로젝트 개발 일지 (Devlog)
 ├── tests/              # 단위 테스트 및 검증 스크립트
-├── scripts/            # 기타 유틸리티 및 HTML 샘플
-├── .github/workflows/  # 크롤링 및 배포 자동화 (CI/CD)
+├── app.py              # Streamlit 대시보드 메인 실행 파일
+├── requirements.txt    # 의존성 패키지 목록
 └── README.md
 ```
 
@@ -51,10 +52,11 @@
 ## 🚦 시작하기 (Getting Started)
 
 ### 1. 환경 설정
-`.env` 파일에 Gemini API 키를 설정합니다.
+`.env` 파일(로컬) 또는 Streamlit Secrets(클라우드)에 아래 변수를 설정합니다.
 ```env
 GEMINI_API_KEY=your_gemini_api_key
 ADMIN_PASSWORD=your_admin_password
+GEMINI_MODEL=optional_model_override  # 예: gemini-2.0-flash
 ```
 
 ### 2. 데이터 수집 실행
@@ -64,7 +66,7 @@ python backend/crawler.py --market KR
 
 ### 3. 대시보드 실행
 ```bash
-streamlit run streamlit/app.py
+streamlit run app.py
 ```
 
 ---
