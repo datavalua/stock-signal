@@ -219,13 +219,23 @@ def render_main_header():
         # Initialize selected date if not set
         if "selected_date" not in st.session_state:
             kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
-            st.session_state["selected_date"] = kst_now.date()
+            m_code = "US" if market == "🇺🇸 미국 주식" else "KR"
+            last_trading_str = crawler.get_last_trading_day(kst_now.strftime("%Y-%m-%d"), market=m_code)
+            st.session_state["selected_date"] = datetime.datetime.strptime(last_trading_str, "%Y-%m-%d").date()
             
         with col_m:
-            market = st.selectbox("시장 선택", ["🇰🇷 국내 주식", "🇺🇸 미국 주식"])
+            new_market = st.selectbox("시장 선택", ["🇰🇷 국내 주식", "🇺🇸 미국 주식"])
+            if new_market != market:
+                # If market changed, recalculate last trading day for the new market
+                m_code = "US" if new_market == "🇺🇸 미국 주식" else "KR"
+                kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+                last_trading_str = crawler.get_last_trading_day(kst_now.strftime("%Y-%m-%d"), market=m_code)
+                st.session_state["selected_date"] = datetime.datetime.strptime(last_trading_str, "%Y-%m-%d").date()
+                safe_rerun()
+            market = new_market
+
         with col_d:
             # 1. Use explicit value parameter for reliable programmatic updates
-            # (Remove 'key' to avoid conflicts with manual session state updates)
             sel_date = st.date_input("날짜 선택", value=st.session_state["selected_date"])
             
             # 2. Sync widget change back to session state and rerun to update the app
