@@ -1,0 +1,703 @@
+{
+  "last_updated": "2026-03-02 16:23:42",
+  "signals": [
+    {
+      "id": "sig_20260302_US_001",
+      "theme": "#Entertainment",
+      "signal_type": "이슈",
+      "short_reason": "Netflix, Walks",
+      "summary": "Netflix은(는) 관련 주요 외신 보도 소식이 전해지며 매수세가 강화되었습니다.",
+      "main_stock": {
+        "name": "Netflix",
+        "symbol": "NFLX",
+        "change_rate": "+13.8%",
+        "news_url": "https://finance.yahoo.com/quote/NFLX"
+      },
+      "news_articles": [
+        {
+          "title": "Netflix Walks From Warner Deal To Double Down On Core Growth Plan",
+          "url": "https://finance.yahoo.com/news/netflix-walks-warner-deal-double-211042430.html?.tsrc=rss",
+          "date": "03.02 06:10",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Streaming Is Going to Cost More. That’s the Price of Mergers.",
+          "url": "https://finance.yahoo.com/m/ed038fb0-2ccf-30a6-a320-703ffa4c7a9b/streaming-is-going-to-cost.html?.tsrc=rss",
+          "date": "03.02 15:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Elizabeth Warren Questions Trump's Role In Tilting Warner Bros. Bid In Favor Of Ellison Family: 'Looks Like Crony Capitalism...'",
+          "url": "https://finance.yahoo.com/news/elizabeth-warren-questions-trumps-role-003058535.html?.tsrc=rss",
+          "date": "03.02 09:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Paramount’s ‘Scream 7’ Adds to Media Company’s Weekend of Wins",
+          "url": "https://finance.yahoo.com/m/54f04d1c-ded1-3477-ad88-2aed3527016d/paramount%E2%80%99s-%E2%80%98scream-7%E2%80%99-adds.html?.tsrc=rss",
+          "date": "03.02 08:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Netflix Stock Soared Last Friday. Time to Buy?",
+          "url": "https://www.fool.com/investing/2026/03/01/netflix-stock-soared-last-friday-time-to-buy/?.tsrc=rss",
+          "date": "03.02 06:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Media] Disney",
+          "change_rate": "+0.5%"
+        },
+        {
+          "name": "[E-commerce] Amazon",
+          "change_rate": "+1.0%"
+        },
+        {
+          "name": "[Search] Alphabet",
+          "change_rate": "+1.4%"
+        },
+        {
+          "name": "[Consumer Electronics] Apple",
+          "change_rate": "-3.2%"
+        },
+        {
+          "name": "[Media] Comcast",
+          "change_rate": "+0.4%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    },
+    {
+      "id": "sig_20260302_US_002",
+      "theme": "#SMR",
+      "signal_type": "이슈",
+      "short_reason": "Oklo, Meta",
+      "summary": "Oklo 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "Oklo",
+        "symbol": "OKLO",
+        "change_rate": "-8.9%",
+        "news_url": "https://finance.yahoo.com/quote/OKLO"
+      },
+      "news_articles": [
+        {
+          "title": "Oklo Meta Deal And Radioisotopes Open New Paths To Cash Flow",
+          "url": "https://finance.yahoo.com/news/oklo-meta-deal-radioisotopes-open-042554118.html?.tsrc=rss",
+          "date": "02.28 13:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Could Buying Oklo Stock Today Set You Up for Life in Dividend Income?",
+          "url": "https://www.fool.com/investing/2026/02/28/buy-oklo-stock-set-you-up-for-life-dividend-income/?.tsrc=rss",
+          "date": "03.01 04:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "1 Nuclear Stock That Could Power Your Retirement Income for Decades",
+          "url": "https://www.fool.com/investing/2026/02/27/1-nuclear-stock-that-could-power-your-retirement-i/?.tsrc=rss",
+          "date": "02.28 10:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "1 Reason Nuscale Power and Oklo Investors Should Be Extremely Nervous in 2026",
+          "url": "https://www.fool.com/investing/2026/02/27/2-reasons-nuscale-power-and-oklo-investors-should/?.tsrc=rss",
+          "date": "02.28 04:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Oklo Stock Is Dropping Again On Friday",
+          "url": "https://www.fool.com/investing/2026/02/27/why-oklo-stock-is-dropping-again-on-friday/?.tsrc=rss",
+          "date": "02.28 03:57",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[SMR] NuScale Power",
+          "change_rate": "-3.6%"
+        },
+        {
+          "name": "[Nuclear] Constellation Energy",
+          "change_rate": "+2.0%"
+        },
+        {
+          "name": "[Utilities] Vistra",
+          "change_rate": "-1.7%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    },
+    {
+      "id": "sig_20260302_US_003",
+      "theme": "#Finance",
+      "signal_type": "이슈",
+      "short_reason": "American, Express",
+      "summary": "American Express은(는) 관련 주요 외신 보도 여파로 인해 매도 압력이 높아지며 약세 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "American Express",
+        "symbol": "AXP",
+        "change_rate": "-7.9%",
+        "news_url": "https://finance.yahoo.com/quote/AXP"
+      },
+      "news_articles": [
+        {
+          "title": "American Express (AXP) Plans New Global Headquarters at 2 World Trade Center",
+          "url": "https://finance.yahoo.com/news/american-express-axp-plans-global-022950270.html?.tsrc=rss",
+          "date": "03.01 11:29",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Berkshire Hathaway’s CEO Suggests These 4 Companies Are Forever Stocks—and 2 That Might Not Be",
+          "url": "https://finance.yahoo.com/m/a33dc1c7-ce4c-3a38-8569-014f8a836f67/berkshire-hathaway%E2%80%99s-ceo.html?.tsrc=rss",
+          "date": "03.02 00:42",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "American Express Headquarters Move Tests Long Term Growth And Talent Plans",
+          "url": "https://finance.yahoo.com/news/american-express-headquarters-move-tests-150919108.html?.tsrc=rss",
+          "date": "03.02 00:09",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "CLEAR Secure Q4 Earnings Call Highlights",
+          "url": "https://www.marketbeat.com/instant-alerts/clear-secure-q4-earnings-call-highlights-2026-03-01/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "03.01 17:05",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Berkshire Hathaway's Greg Abel Says He Expects Apple Will \"Compound Over Decades\"",
+          "url": "https://www.fool.com/investing/2026/02/28/berkshire-hathaways-greg-abel-says-he-expects-appl/?.tsrc=rss",
+          "date": "03.01 09:51",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Payments] Visa",
+          "change_rate": "+1.1%"
+        },
+        {
+          "name": "[Payments] Mastercard",
+          "change_rate": "+0.5%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    },
+    {
+      "id": "sig_20260302_US_004",
+      "theme": "#Finance",
+      "signal_type": "이슈",
+      "short_reason": "Goldman, Sachs",
+      "summary": "Goldman Sachs 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "Goldman Sachs",
+        "symbol": "GS",
+        "change_rate": "-7.5%",
+        "news_url": "https://finance.yahoo.com/quote/GS"
+      },
+      "news_articles": [
+        {
+          "title": "Goldman Sachs BDC Q4 Earnings Call Highlights",
+          "url": "https://www.marketbeat.com/instant-alerts/goldman-sachs-bdc-q4-earnings-call-highlights-2026-02-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "02.28 19:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Goldman Sachs analyst delivers shock message on Circle after blowout quarter",
+          "url": "https://www.thestreet.com/opinion/goldman-sachs-analyst-delivers-shock-message-on-circle-after-blowout-quarter?.tsrc=rss",
+          "date": "03.02 11:03",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Goldman Sachs (GS) Stock Is Down Today",
+          "url": "https://finance.yahoo.com/news/why-goldman-sachs-gs-stock-234632163.html?.tsrc=rss",
+          "date": "02.28 08:46",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is Goldman Sachs (GS) Fairly Priced After Strong One Year Share Price Performance",
+          "url": "https://finance.yahoo.com/news/goldman-sachs-gs-fairly-priced-221328074.html?.tsrc=rss",
+          "date": "02.28 07:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Bank, Brokerage Stocks Suffer Their Worst Day in Months. Here’s Why.",
+          "url": "https://finance.yahoo.com/m/dac62542-c024-3abf-8bb2-4ed900621bd0/bank%2C-brokerage-stocks-suffer.html?.tsrc=rss",
+          "date": "02.28 06:47",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Finance] Morgan Stanley",
+          "change_rate": "-6.2%"
+        },
+        {
+          "name": "[Finance] JPMorgan Chase",
+          "change_rate": "-1.9%"
+        },
+        {
+          "name": "[Finance] Bank of America",
+          "change_rate": "-4.7%"
+        },
+        {
+          "name": "[Finance] BlackRock",
+          "change_rate": "-2.5%"
+        },
+        {
+          "name": "[Finance] Charles Schwab",
+          "change_rate": "-2.4%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    },
+    {
+      "id": "sig_20260302_US_005",
+      "theme": "#Finance",
+      "signal_type": "이슈",
+      "short_reason": "Morgan, Stanley",
+      "summary": "Morgan Stanley 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "Morgan Stanley",
+        "symbol": "MS",
+        "change_rate": "-6.2%",
+        "news_url": "https://finance.yahoo.com/quote/MS"
+      },
+      "news_articles": [
+        {
+          "title": "Morgan Stanley (MS): A Bull Case Theory",
+          "url": "https://finance.yahoo.com/news/morgan-stanley-ms-bull-case-185310200.html?.tsrc=rss",
+          "date": "03.01 03:53",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Socorro Dumps Its Entire Alexandria Real Estate (ARE) Position Worth $5.2 Million",
+          "url": "https://www.fool.com/coverage/filings/2026/03/01/socorro-dumps-its-entire-alexandria-real-estate-are-position-worth-usd5-2-million/?.tsrc=rss",
+          "date": "03.02 04:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Morgan Stanley Explores Crypto Custody While Shares Trade Near Fair Value",
+          "url": "https://finance.yahoo.com/news/morgan-stanley-explores-crypto-custody-061304858.html?.tsrc=rss",
+          "date": "03.01 15:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Morgan Stanley files for bank charter to custody crypto",
+          "url": "https://www.dlnews.com/articles/markets/morgan-stanley-applies-for-bank-licence-for-crypto-ambitions/?.tsrc=rss",
+          "date": "03.01 07:22",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Online travel agencies may emerge as AI winners, Morgan Stanley says",
+          "url": "https://finance.yahoo.com/news/online-travel-agencies-may-emerge-182541501.html?.tsrc=rss",
+          "date": "03.01 03:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Finance] Goldman Sachs",
+          "change_rate": "-7.5%"
+        },
+        {
+          "name": "[Finance] JPMorgan Chase",
+          "change_rate": "-1.9%"
+        },
+        {
+          "name": "[Finance] Bank of America",
+          "change_rate": "-4.7%"
+        },
+        {
+          "name": "[Finance] BlackRock",
+          "change_rate": "-2.5%"
+        },
+        {
+          "name": "[Finance] Charles Schwab",
+          "change_rate": "-2.4%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    },
+    {
+      "id": "sig_20260302_US_006",
+      "theme": "#Finance",
+      "signal_type": "이슈",
+      "short_reason": "Wells, Fargo",
+      "summary": "Wells Fargo 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "Wells Fargo",
+        "symbol": "WFC",
+        "change_rate": "-5.6%",
+        "news_url": "https://finance.yahoo.com/quote/WFC"
+      },
+      "news_articles": [
+        {
+          "title": "Wells Fargo Fraud Reversal Puts Elderly Protections And Valuation In Focus",
+          "url": "https://finance.yahoo.com/news/wells-fargo-fraud-reversal-puts-061246495.html?.tsrc=rss",
+          "date": "02.28 15:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Wells Fargo Cuts PT on Sarepta Therapeutics (SRPT) to $38 From $45",
+          "url": "https://finance.yahoo.com/news/wells-fargo-cuts-pt-sarepta-092721783.html?.tsrc=rss",
+          "date": "03.01 18:27",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Wells Fargo Cuts PT on Soleno Therapeutics (SLNO) to $110 From $114 – Here’s Why",
+          "url": "https://finance.yahoo.com/news/wells-fargo-cuts-pt-soleno-092714730.html?.tsrc=rss",
+          "date": "03.01 18:27",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Jim Cramer on Wells Fargo: “It’s Doing the Best Job of Integrating AI”",
+          "url": "https://finance.yahoo.com/news/jim-cramer-wells-fargo-doing-172039788.html?.tsrc=rss",
+          "date": "03.01 02:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Wells Fargo (WFC) Shares Are Getting Obliterated Today",
+          "url": "https://finance.yahoo.com/news/why-wells-fargo-wfc-shares-225632912.html?.tsrc=rss",
+          "date": "02.28 07:56",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Finance] JPMorgan Chase",
+          "change_rate": "-1.9%"
+        },
+        {
+          "name": "[Finance] Bank of America",
+          "change_rate": "-4.7%"
+        },
+        {
+          "name": "[Finance] Citigroup",
+          "change_rate": "-5.2%"
+        },
+        {
+          "name": "[Finance] Goldman Sachs",
+          "change_rate": "-7.5%"
+        },
+        {
+          "name": "[Finance] Morgan Stanley",
+          "change_rate": "-6.2%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    },
+    {
+      "id": "sig_20260302_US_007",
+      "theme": "#Finance",
+      "signal_type": "이슈",
+      "short_reason": "Why, Citigroup",
+      "summary": "Citigroup은(는) 관련 주요 외신 보도 여파로 인해 매도 압력이 높아지며 약세 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "Citigroup",
+        "symbol": "C",
+        "change_rate": "-5.2%",
+        "news_url": "https://finance.yahoo.com/quote/C"
+      },
+      "news_articles": [
+        {
+          "title": "Why Citigroup (C) Stock Is Falling Today",
+          "url": "https://finance.yahoo.com/news/why-citigroup-c-stock-falling-214042042.html?.tsrc=rss",
+          "date": "02.28 06:40",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "How The Kimbell Royalty Partners (KRP) Investment Story Is Reset Around Tighter Valuation Targets",
+          "url": "https://finance.yahoo.com/news/kimbell-royalty-partners-krp-investment-220914632.html?.tsrc=rss",
+          "date": "03.02 07:09",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why the Iran Attack Proves Bonds Are Still a Safety Net",
+          "url": "https://finance.yahoo.com/m/f50f2b32-a75f-3d36-a70f-6bdf4831e688/why-the-iran-attack-proves.html?.tsrc=rss",
+          "date": "03.01 06:56",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why The Ardagh Metal Packaging (AMBP) Story Is Shifting As Analyst Views Diverge",
+          "url": "https://finance.yahoo.com/news/why-ardagh-metal-packaging-ambp-201104366.html?.tsrc=rss",
+          "date": "03.01 05:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "American Airlines Miami Expansion And Citi Card Deal Under Investor Scrutiny",
+          "url": "https://finance.yahoo.com/news/american-airlines-miami-expansion-citi-111347321.html?.tsrc=rss",
+          "date": "02.28 20:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Finance] JPMorgan Chase",
+          "change_rate": "-1.9%"
+        },
+        {
+          "name": "[Finance] Bank of America",
+          "change_rate": "-4.7%"
+        },
+        {
+          "name": "[Finance] Wells Fargo",
+          "change_rate": "-5.6%"
+        },
+        {
+          "name": "[Finance] Goldman Sachs",
+          "change_rate": "-7.5%"
+        },
+        {
+          "name": "[Finance] Morgan Stanley",
+          "change_rate": "-6.2%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    },
+    {
+      "id": "sig_20260302_US_008",
+      "theme": "#Finance",
+      "signal_type": "이슈",
+      "short_reason": "Bank, of",
+      "summary": "Bank of America은(는) 관련 주요 외신 보도 여파로 인해 매도 압력이 높아지며 약세 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "Bank of America",
+        "symbol": "BAC",
+        "change_rate": "-4.7%",
+        "news_url": "https://finance.yahoo.com/quote/BAC"
+      },
+      "news_articles": [
+        {
+          "title": "Bank of America revamps gold stock price target for 2026",
+          "url": "https://www.thestreet.com/investing/bank-of-america-revamps-gold-stock-price-target-for-2026?.tsrc=rss",
+          "date": "03.01 12:03",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "$104 Billion Is Flowing to International Stocks. Should You Join in?",
+          "url": "https://www.fool.com/investing/2026/03/01/104-billion-is-flowing-to-international-stocks/?.tsrc=rss",
+          "date": "03.02 06:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Warren Buffett Sells Stocks in His Final Quarter as Berkshire Hathaway CEO: Should You Follow Suit?",
+          "url": "https://finance.yahoo.com/news/warren-buffett-sells-stocks-final-141805554.html?.tsrc=rss",
+          "date": "03.01 23:18",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "BofA Lifts PT on Kinross Gold Corporation (KGC) to $42.75 from $37.50, Here’s Why",
+          "url": "https://finance.yahoo.com/news/bofa-lifts-pt-kinross-gold-092803683.html?.tsrc=rss",
+          "date": "03.01 18:28",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Bank Of America Art Consulting Aims To Deepen Ties With Undervalued Stock",
+          "url": "https://finance.yahoo.com/news/bank-america-art-consulting-aims-080854743.html?.tsrc=rss",
+          "date": "03.01 17:08",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Finance] JPMorgan Chase",
+          "change_rate": "-1.9%"
+        },
+        {
+          "name": "[Finance] Wells Fargo",
+          "change_rate": "-5.6%"
+        },
+        {
+          "name": "[Finance] Citigroup",
+          "change_rate": "-5.2%"
+        },
+        {
+          "name": "[Finance] Goldman Sachs",
+          "change_rate": "-7.5%"
+        },
+        {
+          "name": "[Finance] Morgan Stanley",
+          "change_rate": "-6.2%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    },
+    {
+      "id": "sig_20260302_US_009",
+      "theme": "#Semiconductors",
+      "signal_type": "이슈",
+      "short_reason": "Can, MercadoLibre",
+      "summary": "NVIDIA은(는) 관련 주요 외신 보도 여파로 인해 매도 압력이 높아지며 약세 흐름을 보였습니다.",
+      "main_stock": {
+        "name": "NVIDIA",
+        "symbol": "NVDA",
+        "change_rate": "-4.2%",
+        "news_url": "https://finance.yahoo.com/quote/NVDA"
+      },
+      "news_articles": [
+        {
+          "title": "Can MercadoLibre Stock Get to $2,000?",
+          "url": "https://www.fool.com/investing/2026/03/02/can-mercadolibre-stock-get-to-2000/?.tsrc=rss",
+          "date": "03.02 14:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "If a Market Crash Hits in 2026, Will Gold, Silver, or Bitcoin Protect Your Wealth Best?",
+          "url": "https://www.fool.com/investing/2026/03/02/if-a-market-crash-hits-in-2026-will-gold-silver-or/?.tsrc=rss",
+          "date": "03.02 15:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "3 Dividend Stocks to Double Up on Right Now",
+          "url": "https://www.fool.com/investing/2026/03/02/3-dividend-stocks-to-double-up-on-right-now/?.tsrc=rss",
+          "date": "03.02 15:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Better Cryptocurrency to Buy Now With $1,000 and Hold for 3 Years: XRP vs. Ethereum",
+          "url": "https://www.fool.com/investing/2026/03/02/better-cryptocurrency-to-buy-now-with-1000-and-hol/?.tsrc=rss",
+          "date": "03.02 15:05",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Britain’s old-economy giants are the City’s new favourite trade",
+          "url": "https://uk.finance.yahoo.com/news/britain-old-economy-giants-city-060000881.html?.tsrc=rss",
+          "date": "03.02 15:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] AMD",
+          "change_rate": "-1.7%"
+        },
+        {
+          "name": "[Semiconductors] Intel",
+          "change_rate": "+0.3%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "-0.6%"
+        },
+        {
+          "name": "[IP] ARM",
+          "change_rate": "-1.4%"
+        },
+        {
+          "name": "[Semiconductors] Marvell",
+          "change_rate": "+3.0%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    },
+    {
+      "id": "sig_20260302_US_010",
+      "theme": "#E-commerce",
+      "signal_type": "이슈",
+      "short_reason": "Shopify, (SHOP)",
+      "summary": "Shopify 주가는 관련 주요 외신 보도 등에 따른 투자 심리 위축으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "Shopify",
+        "symbol": "SHOP",
+        "change_rate": "-4.1%",
+        "news_url": "https://finance.yahoo.com/quote/SHOP"
+      },
+      "news_articles": [
+        {
+          "title": "Shopify (SHOP) GMV Growth Reaccelerates as AI Integration Strengthens Investment Case",
+          "url": "https://finance.yahoo.com/news/shopify-inc-shop-gmv-growth-142315804.html?.tsrc=rss",
+          "date": "02.27 23:23",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Should Shopify’s AI Commerce Pivot And US$2 Billion Buyback Require Action From Shopify (SHOP) Investors?",
+          "url": "https://finance.yahoo.com/news/shopify-ai-commerce-pivot-us-190901349.html?.tsrc=rss",
+          "date": "03.01 04:09",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Deutsche Bank Retains Buy Rating on Shopify (SHOP), Highlights Momentum in Agentic Commerce",
+          "url": "https://finance.yahoo.com/news/deutsche-bank-retains-buy-rating-035757099.html?.tsrc=rss",
+          "date": "02.28 12:57",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Jack Dorsey’s Block Slashes Nearly Half Its Staff in AI Bet",
+          "url": "https://finance.yahoo.com/news/jack-dorsey-block-slashes-nearly-041816081.html?.tsrc=rss",
+          "date": "02.28 00:33",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is Trending Stock Shopify Inc. (SHOP) a Buy Now?",
+          "url": "https://finance.yahoo.com/news/trending-stock-shopify-inc-shop-140004363.html?.tsrc=rss",
+          "date": "02.27 23:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[E-commerce] Amazon",
+          "change_rate": "+1.0%"
+        },
+        {
+          "name": "[Retail] Walmart",
+          "change_rate": "+2.8%"
+        }
+      ],
+      "timestamp": "2026-03-02 16:23:42"
+    }
+  ]
+}
