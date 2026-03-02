@@ -388,9 +388,9 @@ def show_search():
                         use_container_width=True,
                         hide_index=True
                     )
-                except AttributeError:
-                    # Fallback for Streamlit < 1.23.0
-                    st.dataframe(df_view, use_container_width=True)
+                except (AttributeError, TypeError):
+                    # Fallback for Streamlit < 1.23.0 and older versions
+                    st.dataframe(df_view)
                     
             except Exception as e:
                 st.error(f"조회 중 오류 발생: {e}")
