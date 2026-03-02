@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-27 07:02:08",
+  "last_updated": "2026-03-03 01:53:03",
   "signals": [
     {
       "id": "sig_20260226_US_001",
       "theme": "#Financials",
       "signal_type": "이슈",
-      "short_reason": "Coinbase, Soars",
-      "summary": "오늘 Coinbase 주가는 Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too. 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Coinbase은(는) Should Coinbase’s Zero‑Commission Stock and ETF Launch Reshape How COIN Investors View Its “Everything Exchange” Ambition? 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "Coinbase",
         "symbol": "COIN",
@@ -15,44 +15,38 @@
       },
       "news_articles": [
         {
-          "title": "Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too.",
-          "url": "https://finance.yahoo.com/m/18db5a1b-db41-33e5-a5f6-430b8f4dfbed/coinbase-soars-after.html?.tsrc=rss",
-          "date": "02.26 04:46",
+          "title": "Should Coinbase’s Zero‑Commission Stock and ETF Launch Reshape How COIN Investors View Its “Everything Exchange” Ambition?",
+          "url": "https://finance.yahoo.com/news/coinbase-zero-commission-stock-etf-080914161.html?.tsrc=rss",
+          "date": "03.01 17:09",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Is Coinbase Global (COIN) Pricing Fair After Recent Share Price Weakness?",
+          "url": "https://finance.yahoo.com/news/coinbase-global-coin-pricing-fair-161126642.html?.tsrc=rss",
+          "date": "03.01 01:11",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Coinbase Expands Into Stocks, Targets 'Everything Exchange'",
-          "url": "https://finance.yahoo.com/news/coinbase-expands-stocks-targets-everything-200900516.html?.tsrc=rss",
-          "date": "02.27 05:09",
+          "title": "Coinbase Global, Inc. (COIN): A Bull Case Theory",
+          "url": "https://finance.yahoo.com/news/coinbase-global-inc-coin-bull-134712997.html?.tsrc=rss",
+          "date": "02.28 22:47",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Bitcoin Price Rose Close to $70,000. What Nvidia Earnings Mean for Cryptos.",
-          "url": "https://finance.yahoo.com/m/004e4346-7fd1-3729-8fc8-a886d9a45a30/bitcoin-price-rose-close-to.html?.tsrc=rss",
-          "date": "02.26 19:47",
+          "title": "Needham Cuts Coinbase (COIN) Price Target as Bitcoin Trading Volatility Looms",
+          "url": "https://finance.yahoo.com/news/needham-cuts-coinbase-coin-price-035801697.html?.tsrc=rss",
+          "date": "02.28 12:58",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Coinbase Broadens Beyond Crypto With Stock Trading And Prediction Markets",
-          "url": "https://finance.yahoo.com/news/coinbase-broadens-beyond-crypto-stock-060930829.html?.tsrc=rss",
-          "date": "02.26 15:09",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Why Are Coinbase (COIN) Shares Soaring Today",
-          "url": "https://finance.yahoo.com/news/why-coinbase-coin-shares-soaring-203135592.html?.tsrc=rss",
-          "date": "02.26 05:31",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers",
-          "url": "https://247wallst.com/investing/2026/02/25/bitcoins-brutal-pullback-has-arkb-investors-searching-for-answers/?.tsrc=rss",
-          "date": "02.26 03:03",
+          "title": "Coinbase exec says crypto 'corrections' are simple math, not a catastrophe",
+          "url": "https://finance.yahoo.com/news/coinbase-exec-says-crypto-corrections-are-simple-math-not-a-catastrophe-191545557.html?.tsrc=rss",
+          "date": "02.28 04:15",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -67,14 +61,14 @@
           "change_rate": "+0.6%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     },
     {
       "id": "sig_20260226_US_002",
       "theme": "#Software",
       "signal_type": "이슈",
-      "short_reason": "MicroStrategy’s, Latest",
-      "summary": "MicroStrategy은(는) MicroStrategy’s Latest Bitcoin Buy Triggers New Worries For MSTR Stock Price 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "MicroStrategy은(는) Nasdaq turns positive as Wall Street reacts to Iran war 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "MicroStrategy",
         "symbol": "MSTR",
@@ -83,72 +77,38 @@
       },
       "news_articles": [
         {
-          "title": "MicroStrategy’s Latest Bitcoin Buy Triggers New Worries For MSTR Stock Price",
-          "url": "https://beincrypto.com/microstrategy-stock-price-prediction-after-latest-bitcoin-buy/?.tsrc=rss",
-          "date": "02.27 04:13",
+          "title": "Nasdaq turns positive as Wall Street reacts to Iran war",
+          "url": "https://www.proactiveinvestors.com/companies/news/1088152/nasdaq-to-lead-retreat-as-wall-street-reacts-to-us-war-on-iran-1088152.html?.tsrc=rss",
+          "date": "03.03 01:13",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Strategy Bitcoin Bet Deepens As Preferred Funding And Institutions Step In",
+          "url": "https://finance.yahoo.com/news/strategy-bitcoin-bet-deepens-preferred-160609471.html?.tsrc=rss",
+          "date": "03.03 01:06",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Morgan Stanley 'Absolutely' Plans to Offer Bitcoin Custody, Trading, Yield and Lending: Exec",
-          "url": "https://decrypt.co/359312/morgan-stanley-offer-bitcoin-custody-trading-yield-lending-exec?.tsrc=rss",
-          "date": "02.27 06:12",
+          "title": "Strategy acquires $204.1M in bitcoin as it tweaks preferred stock payouts",
+          "url": "https://blockspace.media/insight/strategy-acquires-204-1m-in-bitcoin-as-it-tweaks-preferred-stock-payouts/?.tsrc=rss",
+          "date": "03.03 00:53",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Is There Now An Opportunity In Strategy (MSTR) After Its 1-Year 48% Share Price Fall?",
-          "url": "https://finance.yahoo.com/news/now-opportunity-strategy-mstr-1-210953084.html?.tsrc=rss",
-          "date": "02.27 06:09",
+          "title": "Strategy Spends $200 Million on Bitcoin, Raises STRC Dividend Yet Again",
+          "url": "https://decrypt.co/359593/strategy-spends-200-million-bitcoin-raises-strc-dividend?.tsrc=rss",
+          "date": "03.03 00:22",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Michael Saylor shares bold prediction as AI bubble fears rattle markets",
-          "url": "https://www.thestreet.com/crypto/markets/michael-saylor-shares-bold-prediction-as-ai-bubble-fears-rattle-markets?.tsrc=rss",
-          "date": "02.27 05:49",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Appointment of David Clarke  As New Director of Vallourec",
-          "url": "https://finance.yahoo.com/news/appointment-david-clarke-director-vallourec-173600326.html?.tsrc=rss",
-          "date": "02.27 02:36",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Michael Saylor Says Bitcoin's Newness Is The 'Strongest Argument' Against It, But Notes It Took People 30 Years To Embrace Electricity",
-          "url": "https://finance.yahoo.com/news/michael-saylor-says-bitcoins-newness-003040833.html?.tsrc=rss",
-          "date": "02.26 09:30",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Strategy (MSTR) Stock Trades Up, Here Is Why",
-          "url": "https://finance.yahoo.com/news/strategy-mstr-stock-trades-why-215135272.html?.tsrc=rss",
-          "date": "02.26 06:51",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Strategy becomes the most shorted stock as Bitcoin price soars near $70,000",
-          "url": "https://www.dlnews.com/articles/markets/strategy-most-shorted-stock-as-bitcoin-price-nears-70000/?.tsrc=rss",
-          "date": "02.26 05:46",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Bitcoin’s Brutal Pullback Has ARKB Investors Searching for Answers",
-          "url": "https://247wallst.com/investing/2026/02/25/bitcoins-brutal-pullback-has-arkb-investors-searching-for-answers/?.tsrc=rss",
-          "date": "02.26 03:03",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Strategy’s 100th Bitcoin Purchase Deepens Volatility And Institutional Risk Questions",
-          "url": "https://finance.yahoo.com/news/strategy-100th-bitcoin-purchase-deepens-200627114.html?.tsrc=rss",
-          "date": "02.26 05:06",
+          "title": "SCCM Enhanced Equity Portfolio Exited Norfolk Southern (NSC) Following Acquisition Announcement",
+          "url": "https://finance.yahoo.com/news/sccm-enhanced-equity-portfolio-exited-150009482.html?.tsrc=rss",
+          "date": "03.03 00:00",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -159,14 +119,14 @@
           "change_rate": "+13.5%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     },
     {
       "id": "sig_20260226_US_003",
       "theme": "#Entertainment",
       "signal_type": "이슈",
-      "short_reason": "Netflix’s, Warner",
-      "summary": "Netflix은(는) Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’ 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Netflix은(는) Market Chatter: Paramount Skydance-Warner Bros to Carry $79 Billion Net Debt, No Cable Asset Sales Planned 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "Netflix",
         "symbol": "NFLX",
@@ -175,219 +135,38 @@
       },
       "news_articles": [
         {
-          "title": "Netflix’s Warner Deal May Be Dead. Why the Streamer Should Make a ‘Graceful Exit.’",
-          "url": "https://finance.yahoo.com/m/88b36006-60b3-364e-a904-a8b0b480c5e1/netflix%E2%80%99s-warner-deal-may-be.html?.tsrc=rss",
-          "date": "02.26 00:01",
+          "title": "Market Chatter: Paramount Skydance-Warner Bros to Carry $79 Billion Net Debt, No Cable Asset Sales Planned",
+          "url": "https://finance.yahoo.com/news/market-chatter-paramount-skydance-warner-154853415.html?.tsrc=rss",
+          "date": "03.03 00:48",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Netflix upgraded, Pinterest downgraded: Wall Street's top analyst calls",
+          "url": "https://finance.yahoo.com/news/netflix-upgraded-pinterest-downgraded-wall-145319995.html?.tsrc=rss",
+          "date": "03.02 23:53",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Warner Bros. Picks Paramount Offer Over Netflix, As CEO Appeals To Trump",
-          "url": "https://finance.yahoo.com/m/dbd3fdc8-71a3-3cb3-b077-216a7ed2f902/warner-bros.-picks-paramount.html?.tsrc=rss",
-          "date": "02.27 06:51",
+          "title": "JPMorgan starts Netflix at Overweight after co’s exit from Warner Bros deal",
+          "url": "https://finance.yahoo.com/news/jpmorgan-starts-netflix-overweight-co-141159791.html?.tsrc=rss",
+          "date": "03.02 23:11",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Warner Bros says Paramount bid superior, countdown begins for Netflix response",
-          "url": "https://uk.finance.yahoo.com/news/warner-bros-says-paramount-bid-212426717.html?.tsrc=rss",
-          "date": "02.27 06:46",
+          "title": "Netflix, Inc. (NFLX) is Attracting Investor Attention: Here is What You Should Know",
+          "url": "https://finance.yahoo.com/news/netflix-inc-nflx-attracting-investor-140003909.html?.tsrc=rss",
+          "date": "03.02 23:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Warner Bros. Discovery deems Paramount's takeover bid superior to Netflix deal",
-          "url": "https://finance.yahoo.com/news/warner-bros-discovery-deems-paramounts-213612099.html?.tsrc=rss",
-          "date": "02.27 06:36",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "PARAMOUNT COMMENTS ON WARNER BROS. DISCOVERY BOARD'S DETERMINATION OF PARAMOUNT'S PROPOSAL AS SUPERIOR",
-          "url": "https://finance.yahoo.com/news/paramount-comments-warner-bros-discovery-213500663.html?.tsrc=rss",
-          "date": "02.27 06:35",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner deems Paramount's takeover bid superior to Netflix; Netflix has 4 business days to counter",
-          "url": "https://finance.yahoo.com/news/warner-deems-paramounts-takeover-bid-213252118.html?.tsrc=rss",
-          "date": "02.27 06:32",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Loves to Watch Old People Fight",
-          "url": "https://finance.yahoo.com/m/602e50b8-2ba2-30ce-af3c-5109375e7342/netflix-loves-to-watch-old.html?.tsrc=rss",
-          "date": "02.26 21:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner Bros says Paramount bid superior, countdown begins for Netflix response",
-          "url": "https://ca.finance.yahoo.com/news/warner-bros-says-paramount-bid-212426717.html?.tsrc=rss",
-          "date": "02.27 06:33",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner Bros. Discovery Board of Directors Determines Revised Proposal from Paramount Skydance Constitutes a \"Company Superior Proposal\"",
-          "url": "https://finance.yahoo.com/news/warner-bros-discovery-board-directors-211500547.html?.tsrc=rss",
-          "date": "02.27 06:15",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "2 Stock-Split Stocks to Buy and Hold for the Next 10 Years",
-          "url": "https://www.fool.com/investing/2026/02/26/2-stock-split-stocks-to-buy-and-hold-for-10-years/?.tsrc=rss",
-          "date": "02.27 05:23",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Stock Has Best Day In Over A Year After Paramount's New Warner Bros. Bid",
-          "url": "https://finance.yahoo.com/m/fccf14b2-e44f-3495-8594-69dcb55850c8/netflix-stock-has-best-day-in.html?.tsrc=rss",
-          "date": "02.26 01:44",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner Bros. Discovery Weighs Paramount Bid Against Netflix Deal Narrative",
-          "url": "https://finance.yahoo.com/news/warner-bros-discovery-weighs-paramount-201239522.html?.tsrc=rss",
-          "date": "02.27 05:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix co-CEO Ted Sarandos visits White House amid Warner deal battle",
-          "url": "https://www.cnn.com/2026/02/26/media/netflix-ted-sarandos-trump-white-house-paramount-wbd?.tsrc=rss",
-          "date": "02.27 05:07",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Apart From Nvidia, Stocks to Watch Thursday: Zoom, Trade Desk, Warner, Paramount",
-          "url": "https://finance.yahoo.com/m/8790153d-5710-3bd7-bd0f-cb3b330435b6/apart-from-nvidia%2C-stocks-to.html?.tsrc=rss",
-          "date": "02.27 04:11",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Paramount Stock Jumps After Earnings, as Warner Weighs Its Offer",
-          "url": "https://finance.yahoo.com/m/c9de3aec-31da-31db-96c3-ab082421bec9/paramount-stock-jumps-after.html?.tsrc=rss",
-          "date": "02.27 02:32",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix CFO to Participate in a Q&A session at the Morgan Stanley Technology, Media & Telecom Conference",
-          "url": "https://finance.yahoo.com/news/netflix-cfo-participate-q-session-170000248.html?.tsrc=rss",
-          "date": "02.26 02:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is Netflix Stock a Smart Pick for Investors Amid Rising Content Costs?",
-          "url": "https://finance.yahoo.com/news/netflix-stock-smart-pick-investors-161100642.html?.tsrc=rss",
-          "date": "02.27 01:11",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix's Ad Revenue Is Expected to Surge 100% to $3 Billion: Is This the Best Stock to Buy Today With $1,000?",
-          "url": "https://www.fool.com/investing/2026/02/26/netflix-ad-revenue-surge-3-billion-best-stock-1000/?.tsrc=rss",
-          "date": "02.27 01:08",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Say Hello to the Growth Stock That's Winning the Streaming Wars",
-          "url": "https://www.fool.com/investing/2026/02/26/say-hello-growth-stock-winning-streaming-wars/?.tsrc=rss",
-          "date": "02.27 00:35",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix Takeover Bid For Warner Bros. Discovery Faces Rising Risks",
-          "url": "https://finance.yahoo.com/news/netflix-takeover-bid-warner-bros-130936681.html?.tsrc=rss",
-          "date": "02.26 22:09",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner Bros. Discovery Revenue Falls 6% as Deal Talks Intensify",
-          "url": "https://finance.yahoo.com/news/warner-bros-discovery-revenue-falls-152906702.html?.tsrc=rss",
-          "date": "02.27 00:29",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner Bros. Earnings Report Falls Short. What It Means for the Netflix Takeover Saga.",
-          "url": "https://finance.yahoo.com/m/6ef0e575-0edb-3df7-a2ee-c800644b3b19/warner-bros.-earnings-report.html?.tsrc=rss",
-          "date": "02.26 23:54",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner Bros. Posts Mixed Fourth-Quarter Results as Deal Talks With Paramount Continue",
-          "url": "https://finance.yahoo.com/news/warner-bros-posts-mixed-fourth-144812463.html?.tsrc=rss",
-          "date": "02.26 23:48",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner Bros. Discovery Revenue Declines as Netflix, Paramount Vie for Deal",
-          "url": "https://finance.yahoo.com/m/a84c9be8-5813-302f-9301-3776bc21d84e/warner-bros.-discovery.html?.tsrc=rss",
-          "date": "02.26 21:16",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Paramount Skydance Just Raised its Bid for Warner Bros. -- Is the Netflix Deal Dead?",
-          "url": "https://www.fool.com/investing/2026/02/25/paramount-skydance-just-raised-its-bid-for-warner/?.tsrc=rss",
-          "date": "02.26 02:16",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Eleven US states urge DOJ to thoroughly probe Netflix-Warner Bros. deal",
-          "url": "https://ca.finance.yahoo.com/news/11-us-states-urge-doj-161504964.html?.tsrc=rss",
-          "date": "02.26 01:28",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Paramount Skydance to Report Earnings Amid Merger Fight",
-          "url": "https://finance.yahoo.com/m/0b135bdb-2b2f-3e26-8b7f-5341d650dece/paramount-skydance-to-report.html?.tsrc=rss",
-          "date": "02.26 01:27",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Stocks to Watch Wednesday: HP, Lowe’s, TJX, Netflix",
-          "url": "https://finance.yahoo.com/m/380aafdf-cd80-3e9e-beed-c5f4044689dc/stocks-to-watch-wednesday%3A.html?.tsrc=rss",
-          "date": "02.26 00:16",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Market AI Fears Ease. Nvidia, DeepSeek, Anthropic Could Reignite the Panic.",
-          "url": "https://finance.yahoo.com/m/25d6374c-a622-326e-947f-77faff9fb8c8/market-ai-fears-ease.-nvidia%2C.html?.tsrc=rss",
-          "date": "02.25 20:26",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Warner Bros. Says $31-Per-Share Paramount Bid May Surpass Netflix Deal",
-          "url": "https://finance.yahoo.com/news/warner-bros-says-31-per-121247314.html?.tsrc=rss",
-          "date": "02.25 21:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "2 Nasdaq 100 Stocks Worth Your Attention and 1 We Question",
-          "url": "https://finance.yahoo.com/news/2-nasdaq-100-stocks-worth-121135536.html?.tsrc=rss",
-          "date": "02.25 21:11",
+          "title": "Here Are Monday’s Top Wall Street Analyst Research Calls: AppLovin, Blue Owl Capital, CrowdStrike, Dutch Bros., Jet Blue, Novo Nordisk, PayPal, Twilio, and More",
+          "url": "https://247wallst.com/investing/2026/03/02/here-are-mondays-top-wall-street-analyst-research-calls-applovin-blue-owl-capital-crowdstrike-dutch-bros-jet-blue-novo-nordisk-paypal-twilio-and-more/?.tsrc=rss",
+          "date": "03.02 21:56",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -414,14 +193,14 @@
           "change_rate": "-2.6%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     },
     {
       "id": "sig_20260226_US_004",
       "theme": "#Retail",
       "signal_type": "이슈",
-      "short_reason": "Lowe's, Aims",
-      "summary": "Lowe's은(는) Lowe's Aims for $1 Billion in Productivity Gains in 2026 to Counter Cost Inflation, RBC Says 여파로 인해 매도 압력이 높아지며 약세를 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Lowe's은(는) Earnings live: Norwegian Cruise Line stock sinks on profit guidance miss, ADT stock drops 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Lowe's",
         "symbol": "LOW",
@@ -430,58 +209,38 @@
       },
       "news_articles": [
         {
-          "title": "Lowe's Aims for $1 Billion in Productivity Gains in 2026 to Counter Cost Inflation, RBC Says",
-          "url": "https://finance.yahoo.com/news/lowe-apos-aims-1-billion-173048244.html?.tsrc=rss",
-          "date": "02.27 02:30",
+          "title": "Earnings live: Norwegian Cruise Line stock sinks on profit guidance miss, ADT stock drops",
+          "url": "https://finance.yahoo.com/news/live/earnings-live-norwegian-cruise-line-stock-sinks-on-profit-guidance-miss-adt-stock-drops-145452316.html?.tsrc=rss",
+          "date": "03.02 23:54",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Is Lowe's Stock Underperforming the Nasdaq?",
+          "url": "https://www.barchart.com/story/news/506331/is-lowe-s-stock-underperforming-the-nasdaq?.tsrc=rss",
+          "date": "03.02 21:27",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "What the stock market is saying about the housing market",
-          "url": "https://www.thestreet.com/economy/what-the-stock-market-is-saying-about-the-housing-market?.tsrc=rss",
-          "date": "02.27 06:07",
+          "title": "Lowe's rival hikes dividend payout again in 2026",
+          "url": "https://www.thestreet.com/investing/lowes-rival-home-depot-hd-stock-hikes-dividend-payout-again-in-2026?.tsrc=rss",
+          "date": "03.02 13:33",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Lowe’s Q4 Earnings Show Resilience Despite Housing Slump",
-          "url": "https://247wallst.com/investing/2026/02/26/lowes-q4-earnings-show-resilience-despite-housing-slump/?.tsrc=rss",
-          "date": "02.27 00:47",
+          "title": "TD Cowen resets price target on blue-chip Dividend King",
+          "url": "https://www.thestreet.com/investing/stocks/td-cowen-resets-price-target-on-blue-chip-lowes-low-stock-dividend-king?.tsrc=rss",
+          "date": "03.02 02:33",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Earnings live: Nvidia stock gains cool premarket, Stellantis wavers, Celsius surges",
-          "url": "https://finance.yahoo.com/news/live/earnings-live-nvidia-stock-gains-cool-premarket-stellantis-wavers-celsius-surges-131349358.html?.tsrc=rss",
-          "date": "02.26 22:13",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Lowe’s Q4 net earnings fall despite higher sales",
-          "url": "https://www.retail-insight-network.com/news/lowes-q4-net-earnings-fall/?.tsrc=rss",
-          "date": "02.26 18:25",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is Affirm (AFRM) Using Lowe’s Partnership To Deepen Moat Or Merely Chase Volume?",
-          "url": "https://finance.yahoo.com/news/affirm-afrm-using-lowe-partnership-002215167.html?.tsrc=rss",
-          "date": "02.26 09:22",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Stock Market Today, Feb. 25: Nasdaq Gains 1.3% As Nvidia Reignites AI Optimism",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/02/25/stock-market-today-feb-25-nasdaq-gains-1-3-as-nvidia-reignites-ai-optimism/?.tsrc=rss",
-          "date": "02.26 08:03",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "55-year-old Home Depot rival chain store closes, no bankruptcy",
-          "url": "https://www.thestreet.com/retail/workbench-true-value-hardware-store-closes-no-bankruptcy?.tsrc=rss",
-          "date": "02.26 08:17",
+          "title": "Home Depot & Lowe’s: Buying the Earnings Dip",
+          "url": "https://www.marketbeat.com/originals/home-depot-and-lowes-buying-the-earnings-dip/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "03.01 22:39",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -496,14 +255,14 @@
           "change_rate": "-0.8%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     },
     {
       "id": "sig_20260226_US_005",
       "theme": "#Retail",
       "signal_type": "이슈",
-      "short_reason": "Airbnb, Links",
-      "summary": "Airbnb은(는) Airbnb Links Transport And World Cup Hosting To Deepen Platform Usage 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Airbnb은(는) Eco Tourism Case Study Report 2026: Explore the Role of Travel Intermediaries, Tourism Bodies and Governments Featuring Instagram, Facebook, YouTube, Airbnb, GetYourGuide, and Viator 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "Airbnb",
         "symbol": "ABNB",
@@ -512,58 +271,38 @@
       },
       "news_articles": [
         {
-          "title": "Airbnb Links Transport And World Cup Hosting To Deepen Platform Usage",
-          "url": "https://finance.yahoo.com/news/airbnb-links-transport-world-cup-160908633.html?.tsrc=rss",
-          "date": "02.25 01:09",
+          "title": "Eco Tourism Case Study Report 2026: Explore the Role of Travel Intermediaries, Tourism Bodies and Governments Featuring Instagram, Facebook, YouTube, Airbnb, GetYourGuide, and Viator",
+          "url": "https://finance.yahoo.com/news/eco-tourism-case-study-report-152600493.html?.tsrc=rss",
+          "date": "03.03 00:26",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "This couple ditched 6-figure paychecks for 14 Airbnbs and $12M in debt — here’s how it brought them financial freedom",
+          "url": "https://finance.yahoo.com/news/couple-ditched-6-figure-paychecks-112300675.html?.tsrc=rss",
+          "date": "02.28 20:23",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Payoneer Global Inc. Q4 2025 Earnings Call Summary",
-          "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-payoneer-global-inc-q4-2025-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-          "date": "02.27 06:38",
+          "title": "Airbnb (ABNB) Upgraded to Buy as Deutsche Bank Highlights Strong Booking Growth",
+          "url": "https://finance.yahoo.com/news/airbnb-abnb-upgraded-buy-deutsche-035806939.html?.tsrc=rss",
+          "date": "02.28 12:58",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Payoneer Global Inc (PAYO) Q4 2025 Earnings Call Highlights: Record Revenue Growth and ...",
-          "url": "https://finance.yahoo.com/news/payoneer-global-inc-payo-q4-210800252.html?.tsrc=rss",
-          "date": "02.27 06:08",
+          "title": "Assessing Airbnb (ABNB) Valuation After Strong Q4 Results And Growth Initiatives",
+          "url": "https://finance.yahoo.com/news/assessing-airbnb-abnb-valuation-strong-031208766.html?.tsrc=rss",
+          "date": "02.28 12:12",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Waseem Limbada Consultant, Airbnb Advocates for Athlete \"Plan B\" Education and Capital Literacy",
-          "url": "https://finance.yahoo.com/news/waseem-limbada-consultant-airbnb-advocates-170000523.html?.tsrc=rss",
-          "date": "02.27 02:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Specialty Program Group Acquires Proper Insurance, Expanding Its Specialty Property Insurance Platform",
-          "url": "https://finance.yahoo.com/news/specialty-program-group-acquires-proper-130000485.html?.tsrc=rss",
-          "date": "02.26 22:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Down 43%, Is This Growth Stock a Once-in-a-Decade Buying Opportunity?",
-          "url": "https://www.fool.com/investing/2026/02/26/growth-stock-once-in-a-decade-buying-opportunity/?.tsrc=rss",
-          "date": "02.26 19:45",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Airbnb Is Testing Airport Pickups. Are Flights Next?",
-          "url": "https://finance.yahoo.com/news/airbnb-testing-airport-pickups-flights-212047469.html?.tsrc=rss",
-          "date": "02.24 06:20",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "YourUpdateTV speaks with Airbnb: How Local Residents Can Earn from the World Cup Travel Surge",
-          "url": "https://finance.yahoo.com/news/yourupdatetv-speaks-airbnb-local-residents-202800486.html?.tsrc=rss",
-          "date": "02.24 05:28",
+          "title": "How Is Airbnb’s Stock Performance Compared to Other Consumer Discretionary Stocks?",
+          "url": "https://www.barchart.com/story/news/464962/how-is-airbnbs-stock-performance-compared-to-other-consumer-discretionary-stocks?.tsrc=rss",
+          "date": "02.27 20:41",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -578,14 +317,14 @@
           "change_rate": "+1.3%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     },
     {
       "id": "sig_20260226_US_006",
       "theme": "#Data",
       "signal_type": "이슈",
-      "short_reason": "Snowflake, Stock",
-      "summary": "Snowflake은(는) Snowflake Stock Surges After Q4 Revenue Jumps 30%, EPS Tops Estimates 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Snowflake은(는) Citi Updates Model Following Robust AI Performance at Snowflake Inc. (SNOW) 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "Snowflake",
         "symbol": "SNOW",
@@ -594,114 +333,38 @@
       },
       "news_articles": [
         {
-          "title": "Snowflake Stock Surges After Q4 Revenue Jumps 30%, EPS Tops Estimates",
-          "url": "https://finance.yahoo.com/news/snowflake-stock-surges-q4-revenue-163349311.html?.tsrc=rss",
-          "date": "02.27 01:33",
+          "title": "Citi Updates Model Following Robust AI Performance at Snowflake Inc. (SNOW)",
+          "url": "https://finance.yahoo.com/news/citi-updates-model-following-robust-162428308.html?.tsrc=rss",
+          "date": "03.03 01:24",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Investors Heavily Search Snowflake Inc. (SNOW): Here is What You Need to Know",
+          "url": "https://finance.yahoo.com/news/investors-heavily-search-snowflake-inc-140006520.html?.tsrc=rss",
+          "date": "03.02 23:00",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Dow Jones Futures Rise; Nvidia Climbs In Buy Zone After Strong Earnings, Guidance",
-          "url": "https://finance.yahoo.com/m/b2f582be-cac7-331a-8d69-c23217166dc3/dow-jones-futures-rise%3B.html?.tsrc=rss",
-          "date": "02.27 06:45",
+          "title": "Snowflake Faces Class Action Claims As AI Tool Subscription Debuts",
+          "url": "https://finance.yahoo.com/news/snowflake-faces-class-action-claims-100727421.html?.tsrc=rss",
+          "date": "03.02 19:07",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Why Snowflake (SNOW) Stock Is Trading Up Today",
-          "url": "https://finance.yahoo.com/news/why-snowflake-snow-stock-trading-182933452.html?.tsrc=rss",
-          "date": "02.27 03:29",
+          "title": "Rockfish Data Announces Integration with Snowflake to Accelerate Autonomous Network Operations with Privacy-Safe Synthetic Data",
+          "url": "https://finance.yahoo.com/news/rockfish-data-announces-integration-snowflake-080100800.html?.tsrc=rss",
+          "date": "03.02 17:01",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Snowflake Q4 Earnings Beat Estimates, Revenues Up Y/Y, Shares Fall",
-          "url": "https://finance.yahoo.com/news/snowflake-q4-earnings-beat-estimates-175100585.html?.tsrc=rss",
-          "date": "02.27 02:51",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake vs. Samsara: Which Cloud Data Stock Has an Edge Now?",
-          "url": "https://finance.yahoo.com/news/snowflake-vs-samsara-cloud-data-174900324.html?.tsrc=rss",
-          "date": "02.27 02:49",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake Posts Strong Q4, Well Positioned for AI Workloads, RBC Says",
-          "url": "https://finance.yahoo.com/news/snowflake-posts-strong-q4-well-172502953.html?.tsrc=rss",
-          "date": "02.27 02:25",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake Earnings Beat. Software Stock Reverses Up On Big Customer Growth",
-          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat..html?.tsrc=rss",
-          "date": "02.26 23:49",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake Seen as 'AI Winner' as Companies Move More Data to AI Workflows, Wedbush Says",
-          "url": "https://finance.yahoo.com/news/snowflake-seen-apos-ai-winner-171249921.html?.tsrc=rss",
-          "date": "02.27 02:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake's Q4 Results Indicate 'Health Demand Environment,' Morgan Stanley Says",
-          "url": "https://finance.yahoo.com/news/snowflake-apos-q4-results-indicate-162225917.html?.tsrc=rss",
-          "date": "02.27 01:22",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake Stock Loses Steam After Earnings Beat",
-          "url": "https://finance.yahoo.com/m/eee87f7a-1265-397d-a111-d32a8dcd9642/snowflake-stock-loses-steam.html?.tsrc=rss",
-          "date": "02.26 20:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake shares rise on AI-driven growth outlook",
-          "url": "https://www.proactiveinvestors.com/companies/news/1088000/snowflake-shares-rise-on-ai-driven-growth-outlook-1088000.html?.tsrc=rss",
-          "date": "02.27 00:36",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake Earnings Beat, Guidance Underwhelms Amid AI Product Push",
-          "url": "https://finance.yahoo.com/m/2411a99e-7826-32ca-8448-8c6eed978dd3/snowflake-earnings-beat%2C.html?.tsrc=rss",
-          "date": "02.26 21:29",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Snowflake's Fiscal 2027 Growth Guidance 'Well Above' Buyside Expectations, UBS Says",
-          "url": "https://finance.yahoo.com/news/snowflake-apos-fiscal-2027-growth-163830355.html?.tsrc=rss",
-          "date": "02.27 01:38",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Why Nvidia’s Huge Numbers Don’t Settle the Latest AI Fears",
-          "url": "https://finance.yahoo.com/m/f40ac609-e6cc-3089-979e-d6fc6be174fe/why-nvidia%E2%80%99s-huge-numbers.html?.tsrc=rss",
-          "date": "02.27 00:39",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Jim Cramer Says Companies Like Snowflake “Become Too Cheap to Ignore” At Some Point",
-          "url": "https://finance.yahoo.com/news/jim-cramer-says-companies-snowflake-150219487.html?.tsrc=rss",
-          "date": "02.27 00:02",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Stocks Decline Pre-Bell as Traders Parse Nvidia's Earnings",
-          "url": "https://finance.yahoo.com/news/stocks-decline-pre-bell-traders-121910188.html?.tsrc=rss",
-          "date": "02.26 21:19",
+          "title": "Capita announces collaboration with Snowflake to power its AI Catalyst Stack for mission-critical citizen contact centres",
+          "url": "https://finance.yahoo.com/news/capita-announces-collaboration-snowflake-power-080000541.html?.tsrc=rss",
+          "date": "03.02 17:00",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -724,14 +387,14 @@
           "change_rate": "+4.2%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     },
     {
       "id": "sig_20260226_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
-      "short_reason": "Is, It",
-      "summary": "Applied Materials은(는) Is It Too Late To Consider Applied Materials (AMAT) After A 130% One Year Surge? 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Applied Materials은(는) Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "Applied Materials",
         "symbol": "AMAT",
@@ -740,9 +403,31 @@
       },
       "news_articles": [
         {
-          "title": "Is It Too Late To Consider Applied Materials (AMAT) After A 130% One Year Surge?",
-          "url": "https://finance.yahoo.com/news/too-consider-applied-materials-amat-211159661.html?.tsrc=rss",
-          "date": "02.26 06:11",
+          "title": "Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know",
+          "url": "https://finance.yahoo.com/news/applied-materials-inc-amat-attracting-140005962.html?.tsrc=rss",
+          "date": "03.02 23:00",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Morgan Stanley Boosts Applied Materials (AMAT) Target on Strong DRAM Spending Outlook",
+          "url": "https://finance.yahoo.com/news/morgan-stanley-boosts-applied-materials-024647977.html?.tsrc=rss",
+          "date": "03.01 11:46",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "A Look At Applied Materials (AMAT) Valuation After Sector Sell Off On AI Spending Concerns",
+          "url": "https://finance.yahoo.com/news/look-applied-materials-amat-valuation-101215425.html?.tsrc=rss",
+          "date": "02.27 19:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Applied Materials, Broadcom, Lam Research, Western Digital, and Allegro MicroSystems Shares Are Falling, What You Need To Know",
+          "url": "https://finance.yahoo.com/news/applied-materials-broadcom-lam-research-215933718.html?.tsrc=rss",
+          "date": "02.27 06:59",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -750,90 +435,6 @@
           "title": "Nasdaq, S&P 500 Snap Two-Day Advance Amid Nvidia-Led Tech Pullback",
           "url": "https://finance.yahoo.com/news/nasdaq-p-500-snap-two-214951026.html?.tsrc=rss",
           "date": "02.27 06:49",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "US Equity Indexes Mixed as Financials Help Partially Offset Sell-Off in Chipmakers",
-          "url": "https://finance.yahoo.com/news/us-equity-indexes-mixed-financials-214425853.html?.tsrc=rss",
-          "date": "02.27 06:44",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Nasdaq, S&P 500 Drop as Semiconductor Stocks Slide After Nvidia Results",
-          "url": "https://finance.yahoo.com/news/nasdaq-p-500-drop-semiconductor-212059816.html?.tsrc=rss",
-          "date": "02.27 06:20",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Nishant Sinha Joins Atomera as Head of Marketing to Drive Strategy and Growth in Advanced Semiconductor Materials",
-          "url": "https://finance.yahoo.com/news/nishant-sinha-joins-atomera-head-210500946.html?.tsrc=rss",
-          "date": "02.27 06:05",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "US Equity Indexes Mixed as Chipmakers Push Technology Lower",
-          "url": "https://finance.yahoo.com/news/us-equity-indexes-mixed-chipmakers-204843242.html?.tsrc=rss",
-          "date": "02.27 05:48",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is Applied Materials (AMAT) Outperforming Other Computer and Technology Stocks This Year?",
-          "url": "https://finance.yahoo.com/news/applied-materials-amat-outperforming-other-144006722.html?.tsrc=rss",
-          "date": "02.25 23:40",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Equity Markets Mostly Fall Intraday as Nvidia Drags Tech Lower",
-          "url": "https://finance.yahoo.com/news/equity-markets-mostly-fall-intraday-190859168.html?.tsrc=rss",
-          "date": "02.27 04:08",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "US Equity Indexes Head Lower as Chipmakers Slump Following Nvidia's Results",
-          "url": "https://finance.yahoo.com/news/us-equity-indexes-head-lower-181333635.html?.tsrc=rss",
-          "date": "02.27 03:13",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Heard on the Street Recap: Netflix and Chill",
-          "url": "https://finance.yahoo.com/m/78a95185-23a1-3cb7-9223-b80bf09be94e/heard-on-the-street-recap%3A.html?.tsrc=rss",
-          "date": "02.26 06:31",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "The AI spending boom is creating winners beyond the 'Mag 7.' Why one sector could see big gains.",
-          "url": "https://finance.yahoo.com/news/the-ai-spending-boom-is-creating-winners-beyond-the-mag-7-why-one-sector-could-see-big-gains-153820672.html?.tsrc=rss",
-          "date": "02.27 00:38",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "AMAT Scales Up Logic, DRAM & Advanced Packaging: What's Ahead?",
-          "url": "https://finance.yahoo.com/news/amat-scales-logic-dram-advanced-152200621.html?.tsrc=rss",
-          "date": "02.27 00:22",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "KLA Rides on Strong Advanced Packaging Growth: More Upside Ahead?",
-          "url": "https://finance.yahoo.com/news/kla-rides-strong-advanced-packaging-160900645.html?.tsrc=rss",
-          "date": "02.26 01:09",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Netflix and Chill: Heard on the Street Wednesday Recap",
-          "url": "https://finance.yahoo.com/m/2ed8e055-3aaf-3879-9182-619c5ddb5564/netflix-and-chill%3A-heard-on.html?.tsrc=rss",
-          "date": "02.26 17:41",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -860,14 +461,14 @@
           "change_rate": "+0.5%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     },
     {
       "id": "sig_20260226_US_008",
       "theme": "#Finance",
       "signal_type": "이슈",
-      "short_reason": "Citigroup, invests",
-      "summary": "오늘 Citigroup 주가는 Citigroup invests in Japan’s Sakana AI 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Citigroup은(는) High U.S. Oil Production Tempers Fuel-Price Spikes 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "Citigroup",
         "symbol": "C",
@@ -876,93 +477,38 @@
       },
       "news_articles": [
         {
-          "title": "Citigroup invests in Japan’s Sakana AI",
-          "url": "https://www.retailbankerinternational.com/news/citigroup-invests-in-sakana-ai/?.tsrc=rss",
-          "date": "02.26 23:36",
+          "title": "High U.S. Oil Production Tempers Fuel-Price Spikes",
+          "url": "https://finance.yahoo.com/m/957c1486-2b34-3b4c-82c1-1256f63b567d/high-u.s.-oil-production.html?.tsrc=rss",
+          "date": "03.02 23:36",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Goldman Sachs Says Hedge Funds and Mutual Funds Both Love 5 Top Stocks",
+          "url": "https://247wallst.com/investing/2026/03/02/goldman-sachs-says-hedge-funds-and-mutual-funds-both-love-5-top-stocks/?.tsrc=rss",
+          "date": "03.02 21:11",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Invitation Homes to Participate in Citi's 2026 Global Property CEO Conference",
-          "url": "https://finance.yahoo.com/news/invitation-homes-participate-citis-2026-213000496.html?.tsrc=rss",
-          "date": "02.27 06:30",
+          "title": "How The Kimbell Royalty Partners (KRP) Investment Story Is Reset Around Tighter Valuation Targets",
+          "url": "https://finance.yahoo.com/news/kimbell-royalty-partners-krp-investment-220914632.html?.tsrc=rss",
+          "date": "03.02 07:09",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Kilroy Realty Corporation to Participate in Citi’s 2026 Global Property CEO Conference",
-          "url": "https://finance.yahoo.com/news/kilroy-realty-corporation-participate-citi-210500571.html?.tsrc=rss",
-          "date": "02.27 06:05",
+          "title": "Why the Iran Attack Proves Bonds Are Still a Safety Net",
+          "url": "https://finance.yahoo.com/m/f50f2b32-a75f-3d36-a70f-6bdf4831e688/why-the-iran-attack-proves.html?.tsrc=rss",
+          "date": "03.01 06:56",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Why The Siemens (XTRA:SIE) Story Is Shifting As Analysts Rework Growth And Valuation Assumptions",
-          "url": "https://finance.yahoo.com/news/why-siemens-xtra-sie-story-201141569.html?.tsrc=rss",
-          "date": "02.27 05:11",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "How The Coca-Cola HBC (LSE:CCH) Narrative Is Shifting With New Targets And Valuation Assumptions",
-          "url": "https://finance.yahoo.com/news/coca-cola-hbc-lse-cch-201015051.html?.tsrc=rss",
-          "date": "02.27 05:10",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "What Makes Citigroup Inc. (C) Appear So Attractive",
-          "url": "https://finance.yahoo.com/news/makes-citigroup-inc-c-appear-184720939.html?.tsrc=rss",
-          "date": "02.27 03:47",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Citigroup Inc. (C) Is a Trending Stock: Facts to Know Before Betting on It",
-          "url": "https://finance.yahoo.com/news/citigroup-inc-c-trending-stock-140007676.html?.tsrc=rss",
-          "date": "02.26 23:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Will Realignment Efforts Enhance Barclays' Financial Strength?",
-          "url": "https://finance.yahoo.com/news/realignment-efforts-enhance-barclays-financial-165000209.html?.tsrc=rss",
-          "date": "02.27 01:50",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "BlackRock Appoints Citi to Provide Select ETF Middle Office Services on Aladdin",
-          "url": "https://finance.yahoo.com/news/blackrock-appoints-citi-select-etf-140000989.html?.tsrc=rss",
-          "date": "02.26 23:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Citi opens positive catalyst watch on KLA Corp ahead of investor day",
-          "url": "https://finance.yahoo.com/news/citi-opens-positive-catalyst-watch-132357701.html?.tsrc=rss",
-          "date": "02.26 22:23",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "American Airlines Stock Is Ready for Takeoff",
-          "url": "https://finance.yahoo.com/m/6d6ed0e7-6a68-3603-b647-1bd6a6a7c509/american-airlines-stock-is.html?.tsrc=rss",
-          "date": "02.26 22:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is Citigroup Stock Underperforming the Nasdaq?",
-          "url": "https://www.barchart.com/story/news/439178/is-citigroup-stock-underperforming-the-nasdaq?.tsrc=rss",
-          "date": "02.26 21:40",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "How The Investment Story For USA TODAY (GCI) Is Shifting With New Targets And AI Deals",
-          "url": "https://finance.yahoo.com/news/investment-story-usa-today-gci-043444790.html?.tsrc=rss",
-          "date": "02.26 13:34",
+          "title": "Why The Ardagh Metal Packaging (AMBP) Story Is Shifting As Analyst Views Diverge",
+          "url": "https://finance.yahoo.com/news/why-ardagh-metal-packaging-ambp-201104366.html?.tsrc=rss",
+          "date": "03.01 05:11",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -989,14 +535,14 @@
           "change_rate": "+2.9%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     },
     {
       "id": "sig_20260226_US_009",
       "theme": "#Nuclear",
       "signal_type": "이슈",
-      "short_reason": "Constellation, Energy",
-      "summary": "오늘 Constellation Energy 주가는 Constellation Energy sees surging power, capacity prices in 2025 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Constellation Energy은(는) Constellation Energy (CEG) Positioned for Growth as PJM Market Developments Support Demand 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "Constellation Energy",
         "symbol": "CEG",
@@ -1005,37 +551,38 @@
       },
       "news_articles": [
         {
-          "title": "Constellation Energy sees surging power, capacity prices in 2025",
-          "url": "https://www.utilitydive.com/news/constellation-energy-power-capacity-prices-earnings/813065/?.tsrc=rss",
-          "date": "02.25 19:00",
+          "title": "Constellation Energy (CEG) Positioned for Growth as PJM Market Developments Support Demand",
+          "url": "https://finance.yahoo.com/news/constellation-energy-ceg-positioned-growth-031155225.html?.tsrc=rss",
+          "date": "03.01 12:11",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Vistra Corp. (VST): A Bull Case Theory",
+          "url": "https://finance.yahoo.com/news/vistra-corp-vst-bull-case-150529429.html?.tsrc=rss",
+          "date": "03.01 00:05",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Constellation Energy Corporation (CEG) Unit Signs New 380-megawatt Deal with CyrusOne",
-          "url": "https://finance.yahoo.com/news/constellation-energy-corporation-ceg-unit-033403560.html?.tsrc=rss",
-          "date": "02.26 12:34",
+          "title": "Constellation Energy Expansion Links Calpine Deal And Data Center Growth",
+          "url": "https://finance.yahoo.com/news/constellation-energy-expansion-links-calpine-071013253.html?.tsrc=rss",
+          "date": "02.28 16:10",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "An AI ETF Soared 28% And Left QQQ In The Dust",
-          "url": "https://247wallst.com/investing/2026/02/25/an-ai-etf-soared-28-and-left-qqq-in-the-dust/?.tsrc=rss",
-          "date": "02.26 06:22",
+          "title": "S&P 500 Weekly Decline Contributes to February Drop as Tech Weighs",
+          "url": "https://finance.yahoo.com/news/p-500-weekly-decline-contributes-214619592.html?.tsrc=rss",
+          "date": "02.28 06:46",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "How Investors May Respond To Constellation Energy (CEG) Calpine Deal And AI-Linked Power Contracts",
-          "url": "https://finance.yahoo.com/news/investors-may-respond-constellation-energy-181255734.html?.tsrc=rss",
-          "date": "02.26 03:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Nuclear Giant Constellation Closes Calpine Deal While Retail Investors Lose Faith",
-          "url": "https://247wallst.com/investing/2026/02/25/nuclear-giant-constellation-closes-calpine-deal-while-retail-investors-lose-faith/?.tsrc=rss",
-          "date": "02.25 21:01",
+          "title": "CEG vs. AEP: Which Utility Offers Better Long-Term Potential?",
+          "url": "https://finance.yahoo.com/news/ceg-vs-aep-utility-offers-162100436.html?.tsrc=rss",
+          "date": "02.28 01:21",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -1062,14 +609,14 @@
           "change_rate": "-1.1%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     },
     {
       "id": "sig_20260226_US_010",
       "theme": "#Robotics",
       "signal_type": "이슈",
-      "short_reason": "Teradyne, to",
-      "summary": "오늘 Teradyne 주가는 Teradyne to Showcase Leading Semiconductor Test Solutions at IESA Vision Summit 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Teradyne은(는) Teradyne’s AI Test And Robotics Demand Puts Valuation And Cyclicality In Focus 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "Teradyne",
         "symbol": "TER",
@@ -1078,44 +625,38 @@
       },
       "news_articles": [
         {
-          "title": "Teradyne to Showcase Leading Semiconductor Test Solutions at IESA Vision Summit",
-          "url": "https://finance.yahoo.com/news/teradyne-showcase-leading-semiconductor-test-020000632.html?.tsrc=rss",
-          "date": "02.24 11:00",
+          "title": "Teradyne’s AI Test And Robotics Demand Puts Valuation And Cyclicality In Focus",
+          "url": "https://finance.yahoo.com/news/teradyne-ai-test-robotics-demand-042845270.html?.tsrc=rss",
+          "date": "02.28 13:28",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Teradyne (TER) Valuation Check After Strong Recent Share Price Momentum",
+          "url": "https://finance.yahoo.com/news/teradyne-ter-valuation-check-strong-221256614.html?.tsrc=rss",
+          "date": "02.28 07:12",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Jim Cramer Says He Likes Teradyne",
-          "url": "https://finance.yahoo.com/news/jim-cramer-says-likes-teradyne-203630732.html?.tsrc=rss",
-          "date": "02.27 05:36",
+          "title": "Will Teradyne’s (TER) AI Test Push at IESA Subtly Reframe Its Robotics-Led Narrative?",
+          "url": "https://finance.yahoo.com/news/teradyne-ter-ai-test-push-160856164.html?.tsrc=rss",
+          "date": "02.28 01:08",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "TER Rides on Strong AI Infrastructure Demand: A Sign for More Upside?",
-          "url": "https://finance.yahoo.com/news/ter-rides-strong-ai-infrastructure-174600064.html?.tsrc=rss",
-          "date": "02.26 02:46",
+          "title": "Brokers Suggest Investing in Teradyne (TER): Read This Before Placing a Bet",
+          "url": "https://finance.yahoo.com/news/brokers-suggest-investing-teradyne-ter-143004256.html?.tsrc=rss",
+          "date": "02.27 23:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Amphenol vs. Teradyne: Which AI Chip Stock Should You Buy Now?",
-          "url": "https://finance.yahoo.com/news/amphenol-vs-teradyne-ai-chip-170100376.html?.tsrc=rss",
-          "date": "02.26 02:01",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Top Robotics Stocks Worth Investing Now for Solid Returns",
-          "url": "https://finance.yahoo.com/news/top-robotics-stocks-worth-investing-131700491.html?.tsrc=rss",
-          "date": "02.25 22:17",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Teradyne Showcases AI Testing At IESA Summit As Valuation Runs Hot",
-          "url": "https://finance.yahoo.com/news/teradyne-showcases-ai-testing-iesa-131012082.html?.tsrc=rss",
-          "date": "02.24 22:10",
+          "title": "As Cathie Wood Sells Pinterest Stock, Should You Ditch PINS Too?",
+          "url": "https://www.barchart.com/story/news/452944/as-cathie-wood-sells-pinterest-stock-should-you-ditch-pins-too?.tsrc=rss",
+          "date": "02.27 06:10",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -1134,7 +675,7 @@
           "change_rate": "+4.5%"
         }
       ],
-      "timestamp": "2026-02-27 07:02:08"
+      "timestamp": "2026-03-03 01:53:03"
     }
   ]
 }
