@@ -1,0 +1,669 @@
+{
+  "last_updated": "2026-03-03 00:49:29",
+  "signals": [
+    {
+      "id": "sig_20260303_US_001",
+      "theme": "#Software",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "MicroStrategy은(는) Strategy Spends $200 Million on Bitcoin, Raises STRC Dividend Yet Again 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "MicroStrategy",
+        "symbol": "MSTR",
+        "change_rate": "+7.6%",
+        "news_url": "https://finance.yahoo.com/quote/MSTR"
+      },
+      "news_articles": [
+        {
+          "title": "Strategy Spends $200 Million on Bitcoin, Raises STRC Dividend Yet Again",
+          "url": "https://decrypt.co/359593/strategy-spends-200-million-bitcoin-raises-strc-dividend?.tsrc=rss",
+          "date": "03.03 00:22",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "SCCM Enhanced Equity Portfolio Exited Norfolk Southern (NSC) Following Acquisition Announcement",
+          "url": "https://finance.yahoo.com/news/sccm-enhanced-equity-portfolio-exited-150009482.html?.tsrc=rss",
+          "date": "03.03 00:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "SCCM Enhanced Equity Portfolio Sold JPMorgan Chase (JPM) Despite Being the Highest-Quality Money Center Bank",
+          "url": "https://finance.yahoo.com/news/sccm-enhanced-equity-portfolio-sold-145825145.html?.tsrc=rss",
+          "date": "03.02 23:58",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Here’s Why SCCM Enhanced Equity Portfolio Exited Its Position in Kenvue (KVUE)",
+          "url": "https://finance.yahoo.com/news/why-sccm-enhanced-equity-portfolio-145702675.html?.tsrc=rss",
+          "date": "03.02 23:57",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Union Pacific Corporation (UNP) Positioned for Growth Amid Merger Talks with Norfolk Southern",
+          "url": "https://finance.yahoo.com/news/union-pacific-corporation-unp-positioned-144542823.html?.tsrc=rss",
+          "date": "03.02 23:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Financials] Coinbase",
+          "change_rate": "+5.3%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    },
+    {
+      "id": "sig_20260303_US_002",
+      "theme": "#AI",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Palantir은(는) BC-Most Active Stocks 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Palantir",
+        "symbol": "PLTR",
+        "change_rate": "+6.0%",
+        "news_url": "https://finance.yahoo.com/quote/PLTR"
+      },
+      "news_articles": [
+        {
+          "title": "BC-Most Active Stocks",
+          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018999.html?.tsrc=rss",
+          "date": "03.03 00:30",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Palantir Rises as Other AI Stocks Fall. Those Defense Contracts Are Paying Off.",
+          "url": "https://finance.yahoo.com/m/38a02559-34c6-3aaa-b8d4-bb29edb8b345/palantir-rises-as-other-ai.html?.tsrc=rss",
+          "date": "03.02 23:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "AI is blowing up one of shadow banking’s biggest bets",
+          "url": "https://www.telegraph.co.uk/business/2026/03/02/ai-is-blowing-up-one-of-shadow-bankings-biggest-bets/?.tsrc=rss",
+          "date": "03.02 23:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "AI Stocks Hit Reset. Why Optical Plays Are Hot. Citrini Ignites Doomsday Flap.",
+          "url": "https://finance.yahoo.com/m/d0c30076-038c-3377-808d-f90acdd927e5/ai-stocks-hit-reset.-why.html?.tsrc=rss",
+          "date": "03.02 21:46",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Palantir’s Miami Move Raises Fresh Questions For Valuation And Growth",
+          "url": "https://finance.yahoo.com/news/palantir-miami-move-raises-fresh-121308978.html?.tsrc=rss",
+          "date": "03.02 21:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Software] Microsoft",
+          "change_rate": "+1.6%"
+        },
+        {
+          "name": "[Data] Snowflake",
+          "change_rate": "+0.6%"
+        },
+        {
+          "name": "[Cybersecurity] CrowdStrike",
+          "change_rate": "+2.9%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    },
+    {
+      "id": "sig_20260303_US_003",
+      "theme": "#Financials",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Coinbase은(는) Should Coinbase’s Zero‑Commission Stock and ETF Launch Reshape How COIN Investors View Its “Everything Exchange” Ambition? 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Coinbase",
+        "symbol": "COIN",
+        "change_rate": "+5.5%",
+        "news_url": "https://finance.yahoo.com/quote/COIN"
+      },
+      "news_articles": [
+        {
+          "title": "Should Coinbase’s Zero‑Commission Stock and ETF Launch Reshape How COIN Investors View Its “Everything Exchange” Ambition?",
+          "url": "https://finance.yahoo.com/news/coinbase-zero-commission-stock-etf-080914161.html?.tsrc=rss",
+          "date": "03.01 17:09",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Is Coinbase Global (COIN) Pricing Fair After Recent Share Price Weakness?",
+          "url": "https://finance.yahoo.com/news/coinbase-global-coin-pricing-fair-161126642.html?.tsrc=rss",
+          "date": "03.01 01:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Coinbase Global, Inc. (COIN): A Bull Case Theory",
+          "url": "https://finance.yahoo.com/news/coinbase-global-inc-coin-bull-134712997.html?.tsrc=rss",
+          "date": "02.28 22:47",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Needham Cuts Coinbase (COIN) Price Target as Bitcoin Trading Volatility Looms",
+          "url": "https://finance.yahoo.com/news/needham-cuts-coinbase-coin-price-035801697.html?.tsrc=rss",
+          "date": "02.28 12:58",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Coinbase exec says crypto 'corrections' are simple math, not a catastrophe",
+          "url": "https://finance.yahoo.com/news/coinbase-exec-says-crypto-corrections-are-simple-math-not-a-catastrophe-191545557.html?.tsrc=rss",
+          "date": "02.28 04:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Software] MicroStrategy",
+          "change_rate": "+7.6%"
+        },
+        {
+          "name": "[Payments] PayPal",
+          "change_rate": "-2.0%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    },
+    {
+      "id": "sig_20260303_US_004",
+      "theme": "#Nuclear",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "BWX Tech은(는) Dan Jablonsky Joins BWX Board As Valuation And Debt Remain In Focus 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "BWX Tech",
+        "symbol": "BWXT",
+        "change_rate": "+5.1%",
+        "news_url": "https://finance.yahoo.com/quote/BWXT"
+      },
+      "news_articles": [
+        {
+          "title": "Dan Jablonsky Joins BWX Board As Valuation And Debt Remain In Focus",
+          "url": "https://finance.yahoo.com/news/dan-jablonsky-joins-bwx-board-091019867.html?.tsrc=rss",
+          "date": "03.01 18:10",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Assessing BWX Technologies (BWXT) Valuation After A Strong Year Of Share Price Gains",
+          "url": "https://finance.yahoo.com/news/assessing-bwx-technologies-bwxt-valuation-031028717.html?.tsrc=rss",
+          "date": "03.01 12:10",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "GE Aerospace, Nuclear Play Lead 5 Stocks Near Buy Points",
+          "url": "https://finance.yahoo.com/m/4b1b6681-199d-309c-9585-c1105892c508/ge-aerospace%2C-nuclear-play.html?.tsrc=rss",
+          "date": "03.01 00:57",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Jim Cramer Highlights BWX Technologies as a Notable Defense and Nuclear Play",
+          "url": "https://finance.yahoo.com/news/jim-cramer-highlights-bwx-technologies-150310562.html?.tsrc=rss",
+          "date": "02.27 00:03",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "ATI Signals Confidence With $500M Multi-Year Buyback Plan",
+          "url": "https://finance.yahoo.com/news/ati-signals-confidence-500m-multi-121700234.html?.tsrc=rss",
+          "date": "02.26 21:17",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[SMR] NuScale Power",
+          "change_rate": "+4.7%"
+        },
+        {
+          "name": "[SMR] Oklo",
+          "change_rate": "+2.8%"
+        },
+        {
+          "name": "[Aerospace/Defense] Lockheed Martin",
+          "change_rate": "+2.6%"
+        },
+        {
+          "name": "[Aerospace/Defense] RTX",
+          "change_rate": "+4.3%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    },
+    {
+      "id": "sig_20260303_US_005",
+      "theme": "#SMR",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "NuScale Power은(는) NuScale Power Q4 Earnings Call Highlights 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "NuScale Power",
+        "symbol": "SMR",
+        "change_rate": "+4.7%",
+        "news_url": "https://finance.yahoo.com/quote/SMR"
+      },
+      "news_articles": [
+        {
+          "title": "NuScale Power Q4 Earnings Call Highlights",
+          "url": "https://www.marketbeat.com/instant-alerts/nuscale-power-q4-earnings-call-highlights-2026-02-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "03.01 10:05",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Is NuScale Power Stock Going to $20?",
+          "url": "https://www.fool.com/investing/2026/02/28/is-nuscale-power-stock-going-to-20/?.tsrc=rss",
+          "date": "03.01 04:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "1 Reason Nuscale Power and Oklo Investors Should Be Extremely Nervous in 2026",
+          "url": "https://www.fool.com/investing/2026/02/27/2-reasons-nuscale-power-and-oklo-investors-should/?.tsrc=rss",
+          "date": "02.28 04:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "A Look At NuScale Power (SMR) Valuation After Wider Losses, Revenue Drop And New US$1b Equity Program",
+          "url": "https://finance.yahoo.com/news/look-nuscale-power-smr-valuation-161207934.html?.tsrc=rss",
+          "date": "02.28 01:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "NuScale Power (SMR) Fell This Week. Here is Why",
+          "url": "https://finance.yahoo.com/news/nuscale-power-smr-fell-week-151815802.html?.tsrc=rss",
+          "date": "02.28 00:18",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[SMR] Oklo",
+          "change_rate": "+2.8%"
+        },
+        {
+          "name": "[Nuclear] BWX Tech",
+          "change_rate": "+5.3%"
+        },
+        {
+          "name": "[Energy] Cameco",
+          "change_rate": "+3.0%"
+        },
+        {
+          "name": "[Nuclear] Constellation Energy",
+          "change_rate": "+0.2%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    },
+    {
+      "id": "sig_20260303_US_006",
+      "theme": "#Aerospace/Defense",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Northrop Grumman은(는) Northrop Grumman, Axon and RTX lifted most as defense stocks gain on Iran war 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Northrop Grumman",
+        "symbol": "NOC",
+        "change_rate": "+4.1%",
+        "news_url": "https://finance.yahoo.com/quote/NOC"
+      },
+      "news_articles": [
+        {
+          "title": "Northrop Grumman, Axon and RTX lifted most as defense stocks gain on Iran war",
+          "url": "https://www.proactiveinvestors.com/companies/news/1088165/northrop-grumman-axon-and-rtx-lifted-most-as-defense-stocks-gain-on-iran-war-1088165.html?.tsrc=rss",
+          "date": "03.03 00:18",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "How Lockheed and Other Defense Stocks Stand to Gain—and Lose—From the U.S. Strikes on Iran",
+          "url": "https://finance.yahoo.com/m/aa4882e3-a75d-36b4-8405-d2cb41ecccd7/how-lockheed-and-other.html?.tsrc=rss",
+          "date": "03.02 23:57",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "China's Rare Earth Grip on the U.S. Military Is About to Break",
+          "url": "https://finance.yahoo.com/news/chinas-rare-earth-grip-u-145500337.html?.tsrc=rss",
+          "date": "03.02 23:55",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Lockheed Martin stock rises on Iran conflict, Nvidia invests $2B",
+          "url": "https://finance.yahoo.com/video/lockheed-martin-stock-rises-iran-145219221.html?.tsrc=rss",
+          "date": "03.02 23:52",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Investors Weigh US-Iran Conflict Impact, Driving Premarket Losses for US Equity Futures",
+          "url": "https://finance.yahoo.com/news/investors-weigh-us-iran-conflict-140333297.html?.tsrc=rss",
+          "date": "03.02 23:03",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Aerospace/Defense] Lockheed Martin",
+          "change_rate": "+2.7%"
+        },
+        {
+          "name": "[Aerospace/Defense] RTX",
+          "change_rate": "+4.3%"
+        },
+        {
+          "name": "[Aerospace/Defense] General Dynamics",
+          "change_rate": "+1.6%"
+        },
+        {
+          "name": "[Aerospace] Boeing",
+          "change_rate": "+0.5%"
+        },
+        {
+          "name": "[Aerospace/Defense] L3Harris",
+          "change_rate": "+2.7%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    },
+    {
+      "id": "sig_20260303_US_007",
+      "theme": "#Aerospace/Defense",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "RTX은(는) Northrop Grumman, Axon and RTX lifted most as defense stocks gain on Iran war 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "RTX",
+        "symbol": "RTX",
+        "change_rate": "+4.1%",
+        "news_url": "https://finance.yahoo.com/quote/RTX"
+      },
+      "news_articles": [
+        {
+          "title": "Northrop Grumman, Axon and RTX lifted most as defense stocks gain on Iran war",
+          "url": "https://www.proactiveinvestors.com/companies/news/1088165/northrop-grumman-axon-and-rtx-lifted-most-as-defense-stocks-gain-on-iran-war-1088165.html?.tsrc=rss",
+          "date": "03.03 00:18",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Three U.S. F-15 Jets Shot Down by Kuwait. Everything to Know About Them.",
+          "url": "https://finance.yahoo.com/m/bd309f6d-9644-3939-9e22-5c760c056067/three-u.s.-f-15-jets-shot.html?.tsrc=rss",
+          "date": "03.03 00:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "China's Rare Earth Grip on the U.S. Military Is About to Break",
+          "url": "https://finance.yahoo.com/news/chinas-rare-earth-grip-u-145500337.html?.tsrc=rss",
+          "date": "03.02 23:55",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Lockheed Martin stock rises on Iran conflict, Nvidia invests $2B",
+          "url": "https://finance.yahoo.com/video/lockheed-martin-stock-rises-iran-145219221.html?.tsrc=rss",
+          "date": "03.02 23:52",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Investors Weigh US-Iran Conflict Impact, Driving Premarket Losses for US Equity Futures",
+          "url": "https://finance.yahoo.com/news/investors-weigh-us-iran-conflict-140333297.html?.tsrc=rss",
+          "date": "03.02 23:03",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Aerospace/Defense] Lockheed Martin",
+          "change_rate": "+2.7%"
+        },
+        {
+          "name": "[Aerospace/Defense] Northrop Grumman",
+          "change_rate": "+4.4%"
+        },
+        {
+          "name": "[Aerospace/Defense] General Dynamics",
+          "change_rate": "+1.6%"
+        },
+        {
+          "name": "[Aerospace] Boeing",
+          "change_rate": "+0.5%"
+        },
+        {
+          "name": "[Aerospace] GE Aerospace",
+          "change_rate": "+0.7%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    },
+    {
+      "id": "sig_20260303_US_008",
+      "theme": "#Aerospace",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Heico은(는) A Look At HEICO (HEI) Valuation After Record Q1 Results And Earnings Quality Concerns 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Heico",
+        "symbol": "HEI",
+        "change_rate": "+3.6%",
+        "news_url": "https://finance.yahoo.com/quote/HEI"
+      },
+      "news_articles": [
+        {
+          "title": "A Look At HEICO (HEI) Valuation After Record Q1 Results And Earnings Quality Concerns",
+          "url": "https://finance.yahoo.com/news/look-heico-hei-valuation-record-170828850.html?.tsrc=rss",
+          "date": "03.02 02:08",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Heico Q1 Earnings Call Highlights",
+          "url": "https://www.marketbeat.com/instant-alerts/heico-q1-earnings-call-highlights-2026-02-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "02.28 20:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Heico Stock: Buy the Dip, Wall Street Says",
+          "url": "https://finance.yahoo.com/m/e71fc0fd-eea0-3ba7-9d30-adf286ad4993/heico-stock%3A-buy-the-dip%2C.html?.tsrc=rss",
+          "date": "02.28 06:23",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "HEICO (HEI) Stock Trades Down, Here Is Why",
+          "url": "https://finance.yahoo.com/news/heico-hei-stock-trades-down-194433825.html?.tsrc=rss",
+          "date": "02.27 04:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "HEICO Q1 Earnings Surpass Estimates, Sales Increase Y/Y",
+          "url": "https://finance.yahoo.com/news/heico-q1-earnings-surpass-estimates-145100873.html?.tsrc=rss",
+          "date": "02.26 23:51",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Aerospace] TransDigm",
+          "change_rate": "+1.5%"
+        },
+        {
+          "name": "[Aerospace/Defense] RTX",
+          "change_rate": "+4.3%"
+        },
+        {
+          "name": "[Aerospace] GE Aerospace",
+          "change_rate": "+0.7%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    },
+    {
+      "id": "sig_20260303_US_009",
+      "theme": "#Energy",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "ConocoPhillips은(는) ConocoPhilips leads surge in US energy stocks as Iran war breaks out 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "ConocoPhillips",
+        "symbol": "COP",
+        "change_rate": "+3.2%",
+        "news_url": "https://finance.yahoo.com/quote/COP"
+      },
+      "news_articles": [
+        {
+          "title": "ConocoPhilips leads surge in US energy stocks as Iran war breaks out",
+          "url": "https://www.proactiveinvestors.com/companies/news/1088162/conocophilips-leads-surge-in-us-energy-stocks-as-iran-war-breaks-out-1088162.html?.tsrc=rss",
+          "date": "03.02 23:55",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Exxon, Chevron, and Other Energy Stocks Rise. Why Shares Can Go Even Higher.",
+          "url": "https://finance.yahoo.com/m/2acd165d-f336-36f4-962a-b8f443ce15b3/exxon%2C-chevron%2C-and-other.html?.tsrc=rss",
+          "date": "03.02 23:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "These Stocks Are Today’s Movers: Chevron, AES, Norwegian, Venture Global, Delta, Lockheed, RTX, and More",
+          "url": "https://finance.yahoo.com/m/84b4038d-94fc-302b-87f7-bcadf517801b/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
+          "date": "03.02 22:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Middle East War Rattles Wall Street Pre-Bell; Asia, Europe Off",
+          "url": "https://finance.yahoo.com/news/middle-east-war-rattles-wall-110824748.html?.tsrc=rss",
+          "date": "03.02 20:08",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is ConocoPhillips Stock Going to $200?",
+          "url": "https://www.fool.com/investing/2026/03/02/is-conocophillips-stock-going-to-200/?.tsrc=rss",
+          "date": "03.02 19:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Energy] ExxonMobil",
+          "change_rate": "+1.0%"
+        },
+        {
+          "name": "[Energy] Chevron",
+          "change_rate": "+1.4%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    },
+    {
+      "id": "sig_20260303_US_010",
+      "theme": "#Retail",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Marriott은(는) Questex’s Vibe Conference Unites On-Premise Beverage Leaders, Delivers Record Performance and Industry-Shaping Insights 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "Marriott",
+        "symbol": "MAR",
+        "change_rate": "-3.0%",
+        "news_url": "https://finance.yahoo.com/quote/MAR"
+      },
+      "news_articles": [
+        {
+          "title": "Questex’s Vibe Conference Unites On-Premise Beverage Leaders, Delivers Record Performance and Industry-Shaping Insights",
+          "url": "https://finance.yahoo.com/news/questex-vibe-conference-unites-premise-150000875.html?.tsrc=rss",
+          "date": "03.03 00:00",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Hotel chains and data firm under investigation over possible information sharing",
+          "url": "https://uk.finance.yahoo.com/news/hotel-chains-data-firm-under-075512155.html?.tsrc=rss",
+          "date": "03.02 21:53",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Hotel chains investigated over potential cartel pricing",
+          "url": "https://uk.finance.yahoo.com/news/hotel-chains-investigated-over-potential-114520776.html?.tsrc=rss",
+          "date": "03.02 20:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Prism secures 10 Sonder properties for US debut of Belvilla",
+          "url": "https://www.hoteldive.com/news/prism-sonder-bankruptcy-belvilla-brand-expansion/813465/?.tsrc=rss",
+          "date": "03.02 18:15",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "CMA launches investigation into leading three hotel chains",
+          "url": "https://www.standard.co.uk/business/cma-launches-investigation-into-leading-hotel-chains-b1273032.html?.tsrc=rss",
+          "date": "03.02 17:07",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Retail] Booking",
+          "change_rate": "-2.9%"
+        },
+        {
+          "name": "[Retail] Airbnb",
+          "change_rate": "-2.3%"
+        }
+      ],
+      "timestamp": "2026-03-03 00:49:29"
+    }
+  ]
+}
