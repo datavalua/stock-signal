@@ -44,7 +44,14 @@ def safe_clear_cache():
 # --- Initialization ---
 load_dotenv()
 # Securely load ADMIN_PASSWORD (check Streamlit secrets first, then environment variables)
-ADMIN_PASSWORD = st.secrets.get("ADMIN_PASSWORD") or os.environ.get("ADMIN_PASSWORD")
+try:
+    ADMIN_PASSWORD = st.secrets.get("ADMIN_PASSWORD")
+except Exception:
+    ADMIN_PASSWORD = None
+
+if not ADMIN_PASSWORD:
+    ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD")
+
 DATA_DIR = "data"
 STOCK_METADATA_FILE = os.path.join(DATA_DIR, "stock_metadata.json")
 
