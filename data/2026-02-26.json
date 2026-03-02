@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26 16:32:43",
+  "last_updated": "2026-03-02 21:21:25",
   "signals": [
     {
       "id": "sig_20260226_KR_001",
       "theme": "#건설",
-      "signal_type": "이슈",
-      "short_reason": "\"한강변, 성수지구",
-      "summary": "대우건설은(는) \"한강변 성수지구 잡아라\"…대형건설사 '수주 전쟁' 소식이 전해지며 매수세가 강화되었습니다.",
+      "signal_type": "실적",
+      "short_reason": "빅배스 이후 실적 반등 기대, 대형 수주 및 신사업 모멘텀",
+      "summary": "대우건설은 대규모 빅배스를 통해 잠재적 부실을 선제적으로 반영하며 재무 불확실성을 해소하고 있으며, 가덕도 신공항 및 한강변 성수지구 등 대형 프로젝트 수주를 통해 실적 턴어라운드를 본격화하고 있습니다. 주주환원 확대에 대한 시장의 압박과 재무 부담이 공존하는 상황이나, 18조 원 규모의 공격적인 수주 목표와 해상풍력 등 신사업 포트폴리오 다각화가 향후 기업 가치 회복의 핵심 동력으로 평가됩니다.",
       "main_stock": {
         "name": "대우건설",
         "symbol": "047040",
@@ -15,82 +15,38 @@
       },
       "news_articles": [
         {
+          "title": "대우건설, 빅배스 불구 커지는 '배당 압박' 선택은",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000079997&office_id=293&code=047040&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.26 17:16",
+          "source": "블로터",
+          "has_name": true
+        },
+        {
+          "title": "이르면 올 10월 착공, 가덕신공항 건설 속도 낸다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001368553&office_id=082&code=047040&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.26 20:30",
+          "source": "부산일보",
+          "has_name": false
+        },
+        {
           "title": "\"한강변 성수지구 잡아라\"…대형건설사 '수주 전쟁'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255838&office_id=015&code=047040&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255838&office_id=015&code=047040&page=4&sm=title_entity_id.basic",
           "date": "2026.02.26 16:29",
           "source": "한국경제",
-          "has_name": false,
-          "content": "성수전략구역 수주전 윤곽\n성수1지구 GS건설 단독 입찰\n4지구 롯데·대우건설 경쟁\n경쟁 심화로 일부 잡음도\n성수2·3지구는 조합 재정비\n기대감에 실거래가 뛰어\n서울 한강 변 최대 재개발 지역인 성동구 성수전략정비구역 수주전이 달아오르고 있다. 롯데건설과 대우건설은 용산 한남뉴타운에 이어 다시 시공권 경쟁을 펼치고 있다. 치열한 경쟁이 예상됐던 1지구는 GS건설이 무혈입성할 가능성이 커졌다. 후발 사업지인 2·3지구도 대형 건설사가 일찌감치 물밑 경쟁에 나서면서 재개발 기대가 덩달아 높아지고 있다.\n26일 정비업계에 따르면 지난 20일까지 마감된 성수1지구 시공사 선정 입찰에 GS건설이 단독으로 참여했다. 막판까지 고심하던 현대건설은 압구정에 ‘올인’하기 위해 참여를 포기한 것으로 알려졌다. 1지구는 지상 최고 69층, 3014가구로 탈바꿈할 예정이다. 성수지구에서 서울숲과 가장 가까운 곳이다.\nGS건설이 단독 응찰했기 때문에 2회 이상 유찰되면 수의계약으로 전환할 수 있다. GS건설은 마감 전날 입찰서류를 제출하고, 입찰보증금 1000억원도 현금으로 납부했다. 단지명은 ‘리베니크 자이’를 제안했다. 세계적 건축사무소인 데이비드치퍼필드아키텍츠 등과 설계 협업도 추진한다.\n3년여 만에 다시 롯데건설과 대우건설이 시공권 경쟁을 하게 된 성수4지구에서는 시공사 선정 절차 초기부터 잡음이 생겼다. 이곳은 지상 최고 64층, 1439가구로 재개발을 추진 중이다. 조합은 지난 9일 입찰 마감 후 대우건설의 서류 미비를 이유로 유찰을 선언했다가 취소했다. 서울시는 이에 대한 점검에 나서면서 결과에 따라 후속 절차가 달라질 수 있으니 시공사 선정 절차를 보류해달라고 조합에 전달했다. 이에 따라 조합과 롯데건설, 대우건설이 작성한 합의서도 이행되지 않고 있다. 여기에 조합이 24일 대우건설이 홍보 직원들을 동원해 ‘성수4지구 시공사 선정 과정 정상화를 위한 공동 합의서’를 일방적으로 파기했다고 지적했다가 다시 철회하는 등 파열음이 계속되고 있다.\n롯데건설은 하이엔드 주거브랜드를 적용한 ‘성수 르엘’을 제안했다. 입찰 보증금 500억원도 먼저 현금으로 내면서 수주 의지를 강조했다. 대우건설은 ‘더 성수 520’으로 단지명을 제안하며 한강 조망 특화 설계를 약속했다.\n성수 2·3구역은 조합 내홍을 마무리하고 상반기 시공사 선정에 나설 예정이다. 2지구는 시공사 선정 절차 직전 조합장이 특정 건설사 유착설 의혹이 불거지며 사퇴해 조합장을 다시 뽑고 있다. 입찰을 준비했던 건설사가 모두 참여를 포기하는 등 차질을 빚었다. 이곳은 지상 최고 64층, 2609가구로 변모한다. 새 조합장 후보 3명이 모두 성수지구에서 사업 속도가 가장 늦다는 주민 불만에 대응해 ‘5년 내 이주, 9년 내 입주’를 공약으로 내세웠다. 조합은 새 조합장이 선출되는 대로 시공사 선정에 들어갈 계획이다. 삼성물산과 DL이앤씨, HDC현대산업개발 등이 관심을 보이고 있다.\n지상 50층 이상, 2213가구 규모로 재개발하는 3지구는 설계자 선정 과정에서 성동구의 정비계획 불일치 지적 후 사업이 지연됐다. 재공모를 거쳐 설계자가 선정됐다. 조합은 설계안을 수정한 뒤 통합심의를 진행할 계획이다. 대형 건설사들이 시공에 관심을 보이고 있지만, 경쟁 구도는 미지수다.\n성수지구 4곳 모두 대형 건설사의 하이엔드 브랜드가 적용될 가능성이 커 주민의 기대가 높아지고 있다. 성수3지구 ‘청구강변’ 전용면적 59㎡가 지난해 11월 29억3000만원에 거래됐다. 바로 옆 2지구 ‘한강한신’은 지난해 12월 같은 크기가 29억원에 매매됐다."
+          "has_name": false
         },
         {
           "title": "[서울데이터랩]상상인증권 29.94% 상한가…금일 증시 상승률 1위로 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003621201&office_id=081&code=047040&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003621201&office_id=081&code=047040&page=4&sm=title_entity_id.basic",
           "date": "2026.02.26 15:52",
           "source": "서울신문",
           "has_name": false
         },
         {
           "title": "인천 옹진군, 민간주도 해상풍력발전 추진…굴업풍력개발과 업무협약",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000097449&office_id=666&code=047040&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000097449&office_id=666&code=047040&page=4&sm=title_entity_id.basic",
           "date": "2026.02.26 14:41",
           "source": "경기일보",
-          "has_name": false
-        },
-        {
-          "title": "DK아시아 로열파크씨티, 국내 최초 5세대 하이엔드 주거 브랜드 ‘빅....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012850&office_id=029&code=047040&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:35",
-          "source": "디지털타임스",
-          "has_name": false
-        },
-        {
-          "title": "GS건설, 'AI 시대 핵심' SMR 강화 나선다…신설 원자력사업단 경...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005726542&office_id=277&code=047040&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 12:30",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
-          "title": "DK아시아 로열파크씨티, 국내 최초 5세대 하이엔드 주거 브랜드 ‘빅...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144531&office_id=366&code=047040&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:06",
-          "source": "조선비즈",
-          "has_name": false
-        },
-        {
-          "title": "DK아시아 로열파크씨티, 국내 최초 5세대 하이엔드 주거 브랜드의 기...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605330&office_id=016&code=047040&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:29",
-          "source": "헤럴드경제",
-          "has_name": false
-        },
-        {
-          "title": "산은 회장 \"대산 신규지원 중 4300억 전담…채권단 협조기대\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494503&office_id=374&code=047040&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 07:42",
-          "source": "SBS Biz",
-          "has_name": false
-        },
-        {
-          "title": "한강변 ‘알짜부지’ 성수 재개발 막 올랐지만…시공사 선정 지연 우.....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003063097&office_id=119&code=047040&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 06:01",
-          "source": "데일리안",
-          "has_name": false
-        },
-        {
-          "title": "3월 분양 3만7000가구?수도권서 대단지 쏟아진다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001008602&office_id=031&code=047040&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:53",
-          "source": "아이뉴스24",
-          "has_name": false,
-          "content": "부동산R114, 서울·수도권에 65% 집중⋯정비사업 위주\n지방 도시개발사업 중심⋯분양가·대출여건이 성패 좌우\n3월 전국 아파트 분양 물량이 3만7000가구를 넘어서며 봄 분양 성수기가 열린다.\n6월 지방선거를 앞두고 건설사들이 3~4월 일정에 물량을 앞당겨 배치하는 움직임이 감지되면서 수도권과 주요 도시를 중심으로 공급이 늘어나는 분위기다.통상 1분기 후반은 연중 분양 일정이 집중되는 시기라는 점도 영향을 미친 것으로 보인다.\n25일 부동산R114에 따르면 3월 전국에서는 47개 단지, 총 3만7381가구(임대 포함)가 분양에 나설 예정이다. 이는 지난해 3월 공급 실적(4761가구)과 비교해 크게 늘어난 규모다. 지난해 같은 기간 정치 일정에 따른 불확실성으로 공급이 위축됐던 기저효과도 반영된 수치로 풀이된다.\n수도권에서는 29개 단지, 2만4218가구가 공급된다. 전체의 약 65% 수준이다. 서울은 9개 단지, 9025가구가 분양을 앞두고 있어 월 기준으로는 연중 최대 물량이 집중될 전망이다. 서울 분양 물량이 3월에 몰리면서 청약 통장 경쟁도 한층 치열해질 가능성이 있다.\n서울에서는 정비사업을 통해 조성되는 대단지 공급이 이어진다. 동작구 노량진동 '라클라체자이드파인', 영등포구 신길동 '더샵신길센트럴시티', 성북구 장위동 '장위푸르지오마크원' 등이 대표적이다. 1000가구 이상 대단지가 다수 포함돼 있어 단지 규모와 입지를 중심으로 수요 쏠림이 나타날 가능성도 제기된다.\nGS건설·SK에코플랜트는 서울 동작구 노량진동 294-220번지 일대 노량진6재정비촉진구역을 재개발한 '라클라체자이드파인'을 분양할 예정이다. 지하 4층~지상 최고 28층, 14개동, 총 1,499가구 규모로 이 중 전용면적 59~106㎡, 369가구를 일반에 공급한다. 노량진뉴타운 첫 공급 단지로, 지하철 1·9호선 노량진역과 7호선 장승배기역이 가깝고 도보권 내 영화초, 영등포중·고교가 위치한다. 차량 이용 시 여의도 15분, 강남 및 광화문 등 주요 업무지구를 30분대로 이동할 수 있다.\n경기지역은 GTX 신설 및 신분당선 연장 등 교통망 확충 기대가 반영된 역세권 단지가 주목된다. 광주 양벌·쌍령동 '경기광주역롯데캐슬시그니처', 수원 장안구 '두산위브더센트럴수원', 의정부동 '의정부역센트럴아이파크' 등이 분양을 준비 중이다. 다만 부동산R114 관계자는 \"교통 호재는 개통 시점과 사업 진행 속도에 따라 체감도가 달라질 수 있다는 점 변수다\"라고 분석했다.\nHDC현대산업개발은 경기 의정부시 의정부동 253-19번지 일원에서 주거복합단지 ‘의정부역센트럴아이파크’를 선보인다. 지하 2층~지상 최고 47층, 3개동, 총 556가구 규모로, 아파트 전용 74·84㎡ 400가구와 오피스텔 전용 89㎡ 156실로 조성된다. 1호선과 경전철 교외선이 지나는 의정부역 역세권 단지로 2028년 GTX-C 노선이 개통되면 서울 접근성 개선이 기대된다.\n인천에서는 2022년 사전청약을 진행한 ‘인천계양 A9 신혼희망타운’의 공공분양 본청약이 예정돼 있다. 사전청약 단지의 본청약 일정이 본격화되면서 공공분양 수요도 일부 유입될 전망이다.\n지방에서는 1만3000여가구가 공급된다. 충남(4853가구), 부산(2616가구), 경남(2094가구), 전남(1365가구), 충북(1351가구) 순이다. 지역별 공급 편차가 큰 만큼 청약 성적 역시 입지와 개발 기대감에 따라 차별화될 가능성이 크다.\n지역별로는 △부산 에코델타시티 △천안 업성지구 △아산신도시 센트럴시티 등 도시개발사업을 통해 조성되는 신규 주거지 물량이 포함됐다. 충남 아산 '아산탕정자이메트로시티', 충북 청주 '청주푸르지오씨엘리체', 부산 강서구 '에코델타시티대광로제비앙모아엘가' 등이 청약을 앞두고 있다. 부동산R114 관계자는 \"신흥주거지로의 기대가 높은 도시개발사업의 경우 초기 정주 여건과 향후 인프라 구축 속도가 청약 흥행을 좌우할 요인으로 보인다\"고 말했다.\n대우건설은 충북 청주시 서원구 분평동 213번지 일원에 '청주푸르지오씨엘리체'를 분양한다. 지하 2층~지상 최고 29층, 10개동, 총 1,"
-        },
-        {
-          "title": "산은 회장 \"대산 신규지원 중 4300억 전담…채권단 협조기대\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494503&office_id=374&code=047040&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 07:42",
-          "source": "SBS Biz",
           "has_name": false
         }
       ],
@@ -104,14 +60,14 @@
           "change_rate": "-2.3%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     },
     {
       "id": "sig_20260226_KR_002",
       "theme": "#자동차부품",
       "signal_type": "이슈",
-      "short_reason": "충북, 진천",
-      "summary": "오늘 현대모비스 주가는 충북 진천 미르숲서 멸종위기 담비 포착 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "현대모비스은(는) [서울데이터랩]현대모비스 주가 6.71% 상승하며 강세 보여 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "현대모비스",
         "symbol": "012330",
@@ -120,124 +76,39 @@
       },
       "news_articles": [
         {
-          "title": "충북 진천 미르숲서 멸종위기 담비 포착",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620985&office_id=081&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 05:04",
-          "source": "서울신문",
-          "has_name": false,
-          "content": "10년간 100억 들여 108㏊ 숲 조성\n현대모비스의 ‘생태계 복원’ 결실\n현대모비스는 충북 진천군 미르숲에서 최근 멸종위기 야생생물 2급인 담비의 모습이 포착됐다고 25일 밝혔다.\n미르숲은 현대모비스가 진천공장 인근에 2012년부터 10년간 약 100억원을 투자해 108㏊(약 33만평) 규모로 조성한 숲이다. 현대모비스는 진천군에 미르숲을 기부채납한 뒤 사회적협동조합 등과 함께 미르숲과 미호강 일대에서 생물다양성 생태계를 조성하는 사회공헌 프로젝트를 추진해왔다.\n이번에 박병권 한국도시생태연구소 교수의 연구팀에 의해 발견된 담비는 노란목도리담비 종으로 육식성 포유동물이자 생태계 최상위 포식자다. 담비의 존재는 하위 먹이망도 안정적으로 유지되고 있으며 자연 생태계가 건강하게 복원되고 있다는 의미라고 현대모비스는 전했다.\n지난해에는 천연기념물이자 멸종위기종인 수달과 법정 보호종인 삵이 서식하는 것으로 확인되기도 했다. 한성희 현대모비스 지속가능경영실장은 “제품 생산 전 과정에서 탄소 배출을 줄이고 친환경 제품을 만드는 데 그치지 않고 주요 사업장이 위치한 지역 사회의 환경 특수성을 고려하는 등 사회적 가치를 창출하는 데도 앞장서겠다”고 밝혔다."
-        },
-        {
           "title": "[서울데이터랩]현대모비스 주가 6.71% 상승하며 강세 보여",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003621150&office_id=081&code=012330&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003621150&office_id=081&code=012330&page=4&sm=title_entity_id.basic",
           "date": "2026.02.26 14:07",
           "source": "서울신문",
-          "has_name": true
+          "has_name": true,
+          "content": "코스피 시가총액 상위 종목들이 전반적으로 엇갈린 흐름을 보이고 있다.\n26일 오후 12시 30분 한국거래소에 따르면 시가총액 1위 삼성전자는 현재가 21만 5500원으로 전 거래일 대비 5.9% 상승하며 강세를 보이고 있다. 시가총액 127조 5682억원 중 외국인 비율은 50.8%에 달하며 거래량은 1712만 1496주에 이른다. 반도체 대장주인 SK하이닉스 역시 104만 2000원으로 2.4% 상승하며 거래량 243만 4047주를 기록하고 있다.\n시가총액 3위 삼성전자우는 4.0% 상승한 14만 8000원, 현대차는 0.9% 상승한 57만 7000원, LG에너지솔루션은 0.2% 상승한 42만 7000원, SK스퀘어는 1.6% 상승한 65만 7000원, 삼성바이오로직스는 1.5% 상승한 175만 4000원, 기아는 2.0% 상승한 20만원, 두산에너빌리티는 0.3% 상승한 10만 3500원, KB금융은 1.1% 하락한 16만 5800원이다.\n한편 시가총액 20위권 종목들은 HD현대중공업(1.0% 하락), 한화에어로스페이스(1.8% 하락), 삼성물산(3.2% 상승), 셀트리온(0.6% 하락), 신한지주(0.2% 상승), 삼성생명(3.9% 하락), 현대모비스(6.7% 상승), 고려아연(2.5% 하락), 한화오션(1.4% 하락), 네이버(3.8% 상승) 등의 성적을 기록하고 있다.\n시가총액 상위 종목들은 등락률에서 엇갈린 동향을 보이고 있으며 특히 6.7%로 가장 큰 상승폭을 기록한 현대모비스가 돋보인다. 삼성전자와 SK하이닉스는 각각 5.9%, 2.4%의 상승률을 나타내며 강세를 보이고 있다.\n[서울신문과 MetaVX의 생성형 AI가 함께 작성한 기사입니다]"
         },
         {
-          "title": "[증시 인사이트] 엔비디아 지난 4분기 매출 98조 원 기록…\"역대 최...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494703&office_id=374&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 16:31",
-          "source": "SBS Biz",
+          "title": "코스피, 반도체 랠리에 6300선 안착…사상 최고치",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002773588&office_id=021&code=012330&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.26 19:20",
+          "source": "문화일보",
+          "has_name": false
+        },
+        {
+          "title": "코스피 6300선도 넘었다… 삼성전자·SK하이닉스 7%대 급등",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000134286&office_id=310&code=012330&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.26 17:26",
+          "source": "여성신문",
+          "has_name": false
+        },
+        {
+          "title": "사상 최고치 '코스피 6300'...삼성전자·SK하이닉스 동반 7%대...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000029929&office_id=655&code=012330&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.26 16:28",
+          "source": "CJB청주방송",
           "has_name": false
         },
         {
           "title": "\"25%포인트 초과 성과\"…한화운용, 'PLUS 글로벌휴머노이드로봇액티...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003063520&office_id=119&code=012330&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003063520&office_id=119&code=012330&page=3&sm=title_entity_id.basic",
           "date": "2026.02.26 15:58",
           "source": "데일리안",
-          "has_name": false
-        },
-        {
-          "title": "한화운용, PLUS 글로벌휴머노이드로봇액티브 순자산 1000억 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593837&office_id=011&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:54",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "‘20만전자’에 이재용도 웃었다…주식 재산 40조원 육박",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144594&office_id=366&code=012330&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:49",
-          "source": "조선비즈",
-          "has_name": false
-        },
-        {
-          "title": "이재용 회장 주식가치 40조 돌파 초읽기…20만전자 효과",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004108594&office_id=022&code=012330&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:26",
-          "source": "세계일보",
-          "has_name": false
-        },
-        {
-          "title": "한화운용 'PLUS 글로벌휴머노이드로봇액티브' 순자산 1000억원 돌...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005483139&office_id=014&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:46",
-          "source": "파이낸셜뉴스",
-          "has_name": false
-        },
-        {
-          "title": "한화운용 'PLUS 글로벌휴머노이드로봇액티브', 순자산 1000억 돌...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005726239&office_id=277&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 08:49",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
-          "title": "충북 진천 미르숲서 멸종위기 담비 포착",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620985&office_id=081&code=012330&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 05:04",
-          "source": "서울신문",
-          "has_name": false
-        },
-        {
-          "title": "우여곡절 끝 본격화하는 현대차그룹 미래기지 두 축",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001833967&office_id=005&code=012330&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 02:18",
-          "source": "국민일보",
-          "has_name": false
-        },
-        {
-          "title": "우여곡절 끝 본격화하는 현대차그룹 미래기지 두 축",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001833967&office_id=005&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 02:18",
-          "source": "국민일보",
-          "has_name": false,
-          "content": "[스토리텔링 경제] GBC·새만금 클러스터 구축 시동\n현대자동차그룹이 국내에 ‘미래기지 두 축’ 구축에 시동을 걸었다. 서울 강남구 삼성동 글로벌비즈니스센터(GBC)를 그룹 전략의 컨트롤타워로 재정비하는 한편, 전북 새만금에 대규모 미래 신사업 클러스터 조성을 추진하면서다. 기존 서초구 양재동 본사 중심의 완성차 체제에서 벗어나 모빌리티·인공지능(AI)·로봇·수소 중심 그룹으로 재편하는 전략이 본격화하는 모습이다.\n25일 업계에 따르면 현대차그룹은 지난해 말 서울시와 GBC 추가 협상을 마무리한 뒤 지구단위계획 변경 등 후속 행정 절차를 진행 중이다. 2014년 부지 매입 이후 12년간 끌어온 삼성동 프로젝트가 정상화 단계에 진입했다. 전동화와 소프트웨어 중심 차량(SDV), 피지컬 AI 전략과 맞물려 GBC의 위상도 ‘초고층 랜드마크’에서 ‘미래사업 집적지’로 재정의되고 있다.\nGBC의 출발은 10조원대 초대형 투자였다. 2014년 9월 현대차그룹은 한국전력공사 서울 강남구 삼성동 부지 7만9341㎡를 10조5500억원에 매입했다. 국내 최대 규모의 부동산 거래였다. 감정가를 크게 웃도는 가격에 ‘승자의 저주’ 논란도 제기됐다. 현대자동차 55%, 현대모비스 25%, 기아 20% 지분으로 구성된 컨소시엄이 전액 현금으로 인수했다.\n초기 계획은 105층 초고층 단일 타워였다. 그러나 군 작전고도 제한, 교통·환경영향 재검토, 구조 안전성 논란, 공사비 급증 등이 겹치며 일정은 반복적으로 지연됐다. 장기 표류 속에 10조원이 넘는 자금이 미래차 투자에 쓰이지 못했다는 기회비용 논쟁도 이어졌다. 반면 삼성동 부지 가치가 18조~22조원 수준으로 거론되면서 단순 재무 손실로 단정하기 어렵다는 반론도 나왔다. 결국, 매입 가격보다 자금이 장기간 묶이면서 기술 투자에 활용할 시간을 흘려보낸 것이 문제라는 지적이 힘을 얻었다.\n전환점은 2020년 10월 정의선 회장 취임 이후였다. 전동화·SDV·로보틱스·미래항공모빌리티로 그룹 전략의 무게중심이 이동하면서 공간 구상도 달라졌다. 105층 1개동 계획은 철회됐다. 대신 49층 3개동 분산형 구조가 확정됐다. 지난해 말 서울시와 최종 합의에 이르면서 GBC는 지하 8층~지상 49층 규모의 3개 타워로 조성하기로 했다. 초고층 빌딩이라는 상징성보다 실행 가능성과 공간 유연성, 기능 통합에 초점을 둔 선택이다. 현대차그룹이 서울시에 제공하는 공공기여 규모는 약 1조9000억원에 달한다.\n행정 절차도 속도를 내고 있다. 서울시는 지구단위계획 변경과 공공기여 이행협약 체결을 추진 중이며, 올해 말까지 건축심의와 교통·환경영향평가 등 인허가 절차를 마무리할 방침이다. 2031년 말 준공이 목표다. 현재 터파기 공사가 진행 중이며 공정률은 지난해 말 기준 약 5.6%다. 완공 시 30여개 계열사, 1만명 이상의 임직원이 입주해 연구·전략·미래사업 조직을 집적하는 그룹 컨트롤타워로 기능하게 된다.\n이와 함께 현대차그룹은 전북 새만금에 5년 이상 장기간에 걸쳐 10조원을 투자해 AI, 수소에너지, 로봇 등 미래 신사업 중심지를 구축하는 방안을 추진 중이다. 이르면 이번주 안에 산업통상부 등 관계 부처와 양해각서(MOU)를 체결하고 정부와 공동으로 투자 계획을 발표할 것으로 알려졌다. 그룹이 지난해 발표한 ‘2026년부터 5년간 국내 125조원 투자’ 계획의 첫 구체화 사례다.\n새만금에는 AI 데이터센터와 대형 수전해 설비, 로봇 생산시설 등이 들어서는 방안이 거론된다. 태양광 발전 시스템을 함께 구축해 현지에서 생산한 전력을 데이터센터와 수소 설비에 저렴하게 공급하는 ‘지산지소’ 구조를 구상 중이다. 친환경 전력으로 수소를 생산하는 그린 수소 생태계를 구축하고, 이를 기반으로 자율주행·로보틱스 개발까지 연계하겠다는 전략이다. 전북 완주군 현대차 전주공장과의 연계를 통해 수소 상용차 생산 거점 기능도 강화될 가능성이 제기된다.\n여의도 면적의 약 140배에 달하는 광활한 부지와 풍부한 일조량은 새만금이 낙점된 배경으로 꼽힌다. 서남권에 미래 산업 기반을 구축함으로써 지역 경제 활성화와 고용 확대 "
-        },
-        {
-          "title": "[서울데이터랩]현대모비스 주가 6.71% 상승하며 강세 보여",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003621150&office_id=081&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 14:07",
-          "source": "서울신문",
-          "has_name": true
-        },
-        {
-          "title": "현대차그룹株, 떠난 외국인이 돌아왔다…현대차 60만원·기아 20만원 ....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605741&office_id=016&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 15:10",
-          "source": "헤럴드경제",
-          "has_name": false
-        },
-        {
-          "title": "‘20만전자’에 이재용도 웃었다…주식 재산 40조원 육박",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144594&office_id=366&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:49",
-          "source": "조선비즈",
-          "has_name": false
-        },
-        {
-          "title": "이재용 회장 주식가치 40조 돌파 초읽기…20만전자 효과",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004108594&office_id=022&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:26",
-          "source": "세계일보",
-          "has_name": false
-        },
-        {
-          "title": "'21만전자' 돈복 터진다…이재용 주식재산 '40조' 돌파 목전",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006225047&office_id=018&code=012330&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:49",
-          "source": "이데일리",
           "has_name": false
         }
       ],
@@ -263,14 +134,14 @@
           "change_rate": "+4.4%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     },
     {
       "id": "sig_20260226_KR_003",
       "theme": "#로봇",
       "signal_type": "이슈",
-      "short_reason": "한화운용, 'PLUS",
-      "summary": "오늘 레인보우로보틱스 주가는 한화운용 'PLUS 글로벌휴머노이드로봇액티브' 순자산 1000억원 돌... 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "레인보우로보틱스은(는) ‘상위 1%’ 고수의 선택은?...레인보우로보틱스 [오늘, 이 종목] 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "레인보우로보틱스",
         "symbol": "277810",
@@ -279,110 +150,39 @@
       },
       "news_articles": [
         {
-          "title": "한화운용 'PLUS 글로벌휴머노이드로봇액티브' 순자산 1000억원 돌...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005483139&office_id=014&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:46",
-          "source": "파이낸셜뉴스",
-          "has_name": false,
-          "content": "[파이낸셜뉴스] 한화자산운용은 'PLUS 글로벌휴머노이드로봇액티브' 상장지수펀드(ETF)의 순자산총액이 1000억원을 돌파했다고 26일 밝혔다.\n금융정보업체 에프앤가이드에 따르면 'PLUS 글로벌휴머노이드로봇액티브'는 전날 장 마감 기준 순자산총액 1089억원을 기록했다. 지난 24일 순자산가치(NAV) 기준 기간별 수익률은 연초 이후 17.9%, 3개월 38.2%, 6개월 78.8%다.\nPLUS 글로벌휴머노이드로봇액티브는 국내 상장된 휴머노이드 로봇 ETF 중 유일한 액티브형이다. 로봇 산업은 아직 성장 초기이므로 신규 종목 발굴, 기업공개(IPO) 기업 즉각 편입, 경쟁 우위 변화에 따른 비중 조절 등 액티브 운용으로 초과 성과를 낼 수 있는 여지가 매우 크다.\n지난해 4월 15일 상장 이후 수익률은 111.3%로, 액티브 운용을 통해 기초지수(86.2%) 대비 약 25%p 초과성과를 냈다. 이는 같은 날 동시 상장한 휴머노이드 로봇 테마의 유사 상품들 중에서도 가장 높은 수익률이다.\n특히 세계 최대 IT·가전 박람회 'CES 2026'을 앞두고 지난해 12월부터 현대차, 현대모비스, 현대글로비스 등 현대차그룹 기업들을 선제적으로 편입해 펀드의 성과를 크게 향상시켰다. 박찬우 PLUS 글로벌휴머노이드로봇액티브 매니저는 \"휴머노이드 로봇 산업은 이제 막 개화기에 진입한 만큼, 산업 트렌드가 매우 빠르게 변하기 때문에 급변하는 산업 트렌드를 적시에 반영하는 것이 중요하다\"고 설명했다.\n휴머노이드 로봇 산업 전반에 폭넓게 투자한다는 점도 강점이다. 테슬라와 레인보우로보틱스로 대표되는 휴머노이드 로봇 선두 기업뿐만 아니라 액추에이터, 센서 등 각국의 핵심 소부장 기업도 약 비중으로 70% 담고 있다. 대표적인 종목은 로보티즈, 텔레다인, 니덱, 나브테스코 등이다.\n금정섭 한화자산운용 ETF사업본부장은 \"휴머노이드 로봇은 액추에이터, 센서 등 핵심 부품이 로봇 원가의 약 66%를 차지하기 때문에, 소부장 기업들을 편입해 초과 성과를 많이 낼 수 있는 영역\"이라며 \"글로벌 각국의 핵심 소부장 종목만을 선별해 담고 있어 앞으로의 성과에도 크게 기여할 것\"이라고 밝혔다."
-        },
-        {
           "title": "‘상위 1%’ 고수의 선택은?...레인보우로보틱스 [오늘, 이 종목]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000103718&office_id=024&code=277810&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000103718&office_id=024&code=277810&page=4&sm=title_entity_id.basic",
           "date": "2026.02.26 16:26",
           "source": "매경이코노미",
-          "has_name": true
+          "has_name": true,
+          "content": "3일 연속 주가 급등...\n상위 1% 투자자의 선택\n26일 ‘상위 1%’ 주식 고수의 선택은 레인보우로보틱스였다. 미래에셋증권에서 거래하는 고수익 투자자들이 26일 오전 가장 많이 순매수한 종목으로 집계됐다.\n레인보우로보틱스 주가가 급등하고 있음에도 고수들은 매수 결정을 내렸다. 레인보우로보틱스는 지난 2월 24일부터 3일 연속 주가가 상승했다. 26일에는 11.68% 오른 88만원에 거래를 마쳤다.\n투자자들이 매수 결정을 내린 데는 오준호 삼성전자 미래로봇추진단장의 한국AI·로봇산업협회장 취임 영향이 컸다는 분석이다. 한국AI·로봇산업협회는 25일 ‘2026년 정기총회’를 열고 삼성전자를 신임 회장사로, 오 단장을 제12대 협회장으로 선임했다.\n오 단장은 레인보우로보틱스 창업자로, 지난 2024년 12월 삼성전자가 레인보우로보틱스의 최대주주가 된 이후 미래로봇추진단을 이끌며 로봇 전략을 총괄한다. 오랜 시간 축적한 원천 기술을 바탕으로 휴머노이드와 이동형 양팔 로봇 등에서 삼성전자와의 협업을 지속하는 중이다. 앞으로도 레인보우로보틱스를 중심으로 로봇 생태계 확장이 이루어질 것이라는 전망이다.\n최근 로봇과 인공지능(AI) 테마가 주식시장에서 각광을 받고 있다는 점도 고수들의 투자 심리를 자극했다. AI 투자가 생성형 AI에서 피지컬 AI로 이동하는 흐름에 따라 국내외 증시 역시 현실에서 직접 움직이며고 작동하는 기술로 관심이 쏠리고 있다. 이에 피지컬 AI와 로봇 핵심 부품 기업들이 신흥 투자 대상으로 부상 중이다.\n미래에셋증권은 지난 1개월간 수익률 상위 1% 투자자들의 매매 종목을 집계한 결과를 모바일트레이딩시스템(MTS) 상에서 공개하고 있다."
         },
         {
           "title": "수익률 상위 1%, ‘급등’ 레인보우로보틱스 집중 매수 [주식 초고수는...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593804&office_id=011&code=277810&page=3&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593804&office_id=011&code=277810&page=6&sm=title_entity_id.basic",
           "date": "2026.02.26 12:14",
           "source": "서울경제",
           "has_name": true
         },
         {
-          "title": "\"25%포인트 초과 성과\"…한화운용, 'PLUS 글로벌휴머노이드로봇액티...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003063520&office_id=119&code=277810&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 15:58",
-          "source": "데일리안",
+          "title": "코스피, 반도체 랠리에 6300선 안착…사상 최고치",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002773588&office_id=021&code=277810&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.26 19:20",
+          "source": "문화일보",
           "has_name": false
         },
         {
-          "title": "NH-아문디, HANARO K휴머노이드테마TOP10 ETF 상장",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005483388&office_id=014&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 14:11",
-          "source": "파이낸셜뉴스",
+          "title": "거침없는 코스피, 6000 고지 하루 만에 6300선 뚫었다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001368536&office_id=082&code=277810&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.26 18:23",
+          "source": "부산일보",
           "has_name": false
         },
         {
-          "title": "한화운용, PLUS 글로벌휴머노이드로봇액티브 순자산 1000억 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593837&office_id=011&code=277810&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:54",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "“절단부터 용접까지” 대세가 된 ‘로봇 조선소’",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605525&office_id=016&code=277810&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:23",
-          "source": "헤럴드경제",
-          "has_name": false
-        },
-        {
-          "title": "NH-아문디, 국내 휴머노이드 기업 10종목에 집중 투자하는 ETF ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322620&office_id=008&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:12",
+          "title": "주식으로 돈 벌었다?…\"내 계좌는 녹는 중\" 우는 개미 넘치는 이유",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005323006&office_id=008&code=277810&page=4&sm=title_entity_id.basic",
+          "date": "2026.02.26 17:13",
           "source": "머니투데이",
-          "has_name": false
-        },
-        {
-          "title": "NH-Amundi자산운용, HANARO K휴머노이드테마TOP10 ET...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243083&office_id=215&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:38",
-          "source": "한국경제TV",
-          "has_name": false
-        },
-        {
-          "title": "NH-Amundi운용, HANARO K휴머노이드테마TOP10 ETF ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005726243&office_id=277&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 08:54",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
-          "title": "한화운용 'PLUS 글로벌휴머노이드로봇액티브', 순자산 1000억 돌...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005726239&office_id=277&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 08:49",
-          "source": "아시아경제",
-          "has_name": false,
-          "content": "기초지수 대비 약 25%P 초과 성과\n'CES 2026' 직전 현대차그룹 편입\n한화자산운용은 'PLUS 글로벌휴머노이드로봇액티브' 상장지수펀드(ETF)의 순자산총액이 1000억원을 돌파했다고 26일 밝혔다.\n금융정보업체 에프앤가이드에 따르면, PLUS 글로벌휴머노이드로봇액티브 ETF는 25일 장 마감 기준 순자산총액 1089억원을 기록했다. 24일 NAV(순자산가치) 기준 기간별 수익률은 연초 이후 17.9%, 3개월 38.2%, 6개월 78.8%다.\n액티브 운용이 빛을 발했다. PLUS 글로벌휴머노이드로봇액티브는 국내 상장된 휴머노이드 로봇 ETF 중 유일한 액티브형이다. 로봇 산업은 아직 성장 초기이므로 신규 종목 발굴, IPO(기업공개) 기업 즉각 편입, 경쟁 우위 변화에 따른 비중 조절 등 액티브 운용으로 초과 성과를 낼 수 있는 여지가 매우 크다.\n지난해 4월 15일 상장 이후 수익률은 111.3%로, 액티브 운용을 통해 기초지수(86.2%) 대비 약 25%포인트 초과 성과를 냈다. 이는 같은 날 동시 상장한 휴머노이드 로봇 테마의 유사 상품 중에서도 가장 높은 수익률이다.\n특히 세계 최대 IT·가전 박람회 '2026 CES' 직전인 지난해 12월부터 현대차, 현대모비스, 현대글로비스 등 현대차그룹 기업들을 선제적으로 편입해 펀드의 성과를 크게 향상시켰다. 현대차의 로봇 계열사인 보스톤다이내믹스가 2026 CES에서 공개한 휴머노이드 로봇 '아틀라스'는 현대차 등 휴머노이드 로봇 관련 기업들의 주가를 대폭 끌어올린 바 있다.\n박찬우 PLUS 글로벌휴머노이드로봇액티브 매니저는 \"휴머노이드 로봇 산업은 이제 막 개화기에 진입한 만큼, 산업 트렌드가 매우 빠르게 변하기 때문에 급변하는 산업 트렌드를 적시에 반영하는 것이 중요하다\"며 \"이번 CES 2026을 현대차를 필두로 한 로봇 섹터의 밸류에이션 재평가 분기점으로 판단해 포트폴리오에 반영한 것이 좋은 성과로 이어졌다\"고 설명했다.\n휴머노이드 로봇 산업 전반에 폭넓게 투자한다는 것도 강점이다. 테슬라(미국)와 레인보우로보틱스(한국)로 대표되는 휴머노이드 로봇 선두 기업뿐만 아니라 액추에이터, 센서 등 각국의 핵심 소부장 기업도 약 비중으로 70% 담고 있다. 대표적인 종목은 로보티즈(한국), 텔레다인(미국), 니덱(일본), 나브테스코(일본) 등이다.\n금정섭 한화자산운용 ETF사업본부장은 \"휴머노이드 로봇은 액추에이터, 센서 등 핵심 부품이 로봇 원가의 약 66%를 차지하기 때문에, 소부장 기업들을 편입해 초과 성과를 많이 낼 수 있는 영역\"이라며 \"개인이 직접 발굴하기가 쉽지 않은 글로벌 각국의 핵심 소부장 종목만을 선별해 담고 있다는 점이 앞으로의 성과에도 크게 기여할 것\"이라고 전했다."
-        },
-        {
-          "title": "수익률 상위 1%, ‘급등’ 레인보우로보틱스 집중 매수 [주식 초고수는...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593804&office_id=011&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 12:14",
-          "source": "서울경제",
-          "has_name": true
-        },
-        {
-          "title": "한화운용 PLUS 글로벌휴머노이드로봇액티브, 순자산 1000억 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000476225&office_id=629&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 15:09",
-          "source": "더팩트",
-          "has_name": false
-        },
-        {
-          "title": "[티타임] 코스피, 6210선 상승세… 개인·기관 2조원대 매수",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001131655&office_id=417&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:55",
-          "source": "동행미디어 시대",
-          "has_name": false
-        },
-        {
-          "title": "“절단부터 용접까지” 대세가 된 ‘로봇 조선소’",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605525&office_id=016&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:23",
-          "source": "헤럴드경제",
           "has_name": false
         }
       ],
@@ -404,14 +204,14 @@
           "change_rate": "-1.2%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     },
     {
       "id": "sig_20260226_KR_004",
       "theme": "#가전",
       "signal_type": "이슈",
-      "short_reason": "[ET특징주], LG전자,",
-      "summary": "LG전자은(는) [ET특징주] LG전자, 엔비디아와 피지컬AI 협력 기대감… 주가 8%... 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "LG전자은(는) 韓 안방 점령한 中 로보락, 보안·AS 약점까지 지웠다 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "LG전자",
         "symbol": "066570",
@@ -419,6 +219,29 @@
         "news_url": "https://finance.naver.com/item/news.naver?code=066570"
       },
       "news_articles": [
+        {
+          "title": "韓 안방 점령한 中 로보락, 보안·AS 약점까지 지웠다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006225591&office_id=018&code=066570&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.26 19:04",
+          "source": "이데일리",
+          "has_name": false,
+          "content": "플래그십 모델 'S10 맥스V 울트라' 한국 론칭\n물걸레·청소기 성능 강화…AI로 300개 물체 인식\n8.8cm 이중문턱 장애물 통과 등 신기술 적용\n약점인 보안 및 AS 체계 확장해 초격차 실현\n[이데일리 김응태 기자] 글로벌 로봇청소기 1위 기업인 로보락이 신제품 ‘S10 맥스V 울트라’을 앞세워 한국 시장에서 선두 주자 지위를 공고히 할 전망이다. 삼성전자, LG전자 등 한국 대기업과 혁신 기술 경쟁에서 우위를 차지했던 로보락은 그동안 약점으로 지목된 보안 체계와 사후서비스(AS)를 강화하며 시장 지배력을 넓힌다는 전략이다. 국내 기업들이 강점으로 내세웠던 보안 영역마저 로보락이 빠르게 보완해나감에 따라 국내 기업들의 격차 줄이기가 쉽지 않을 것으로 보인다.\n댄 챔(Dan Cham) 로보락 아시아태평양 마케팅 총괄이 '2026 로보락 론칭쇼'에서 발표하고 있다. (사진=김응태기자)\n댄 챔(Dan Cham) 로보락 아시아태평양 마케팅 총괄은 26일 서울 성동구 코사이어티에서 개최된 ‘S10 맥스V 울트라 신제품 론칭쇼’에서 “한국 시장은 인구 밀집도가 높지 않지만 젊고 혁신을 선도하는 시장”이라며 “그런 시장 특성이 로보락의 경영 철학과 일치했기에 한국에서 매해 높은 성장률을 보였고 앞으로도 한국의 젊은 세대 고객을 사로잡겠다”고 밝혔다.\n로보락이 플래그십 로봇청소기 신제품 ‘S10 맥스V 울트라’의 첫 공개 국가로 한국을 선택한 건 혁신적인 시도를 긍정적으로 수용하는 시장으로서 로보락의 신기술에 대한 선호도가 높고, 장기적으로 글로벌 시장에서 판매 확대에도 기여한다는 점을 고려한 행보로 풀이된다. 실제 미국 시장조사기관 IDC에 따르면 지난해 로보락의 국내 시장점유율은 50% 이상을 기록한 것으로 추정된다. 삼성전자와 LG전자의 점유율은 각각 20%, 10%대 수준인 것으로 분석된다. 전체 글로벌 시장에서도 로보락의 시장 점유율은 21.8%로 1위다. 뒤이어 에코백스 14.1%, 드리미 13.1%, 샤오미 10.2% 나르왈 8.5% 등의 상위 5개 업체 모두 중국 업체다.\n[이데일리 김정훈 기자]\n로보락이 새롭게 출시한 플래그십 로봇청소기 'S10 맥스V 울트라'. (사진=김응태 기자)\n로보락을 필두로 중국 업체들이 국내외 로봇청소기 시장에서 두각을 보이는 것은 로봇청소기의 핵심인 흡입력과 물걸레의 우수한 성능과 빠른 기술 업그레이드가 원인으로 꼽힌다. 지난 2020년 로보락은 한국 시장에 첫 진출한 이후 소비자들의 실사용 경험이 입소문을 타며 2년 만인 2022년에 국내 시장점유율 1위를 석권했다. 국내 매출 역시 지난 2020년에는 291억원 수준에 불과했으나 2022년에는 1000억원을 기록하며 큰 폭의 증가세를 보였다.\n로보락이 이번에 공개한 신제품 S10 맥스V 울트라 역시 로봇청소기의 기본인 물걸레 성능과 청소기 흡입력 개선에 공을 들인 제품이다. 신제품에 탑재된 확장형 싱글 물걸레는 기존 멀티패드 시스템보다 모서리 밀착력이 높아 틈새를 빈틈없이 청소할 수 있다. 여기에 이전 제품 대비 약 27% 넓어진 모서리 진동 영역"
+        },
+        {
+          "title": "로보락, 신형 로봇청소기 출시…\"韓 젊은 세대 공략할 것\"(종합)",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015926490&office_id=001&code=066570&page=10&sm=title_entity_id.basic",
+          "date": "2026.02.26 12:25",
+          "source": "연합뉴스",
+          "has_name": false
+        },
+        {
+          "title": "‘깜짝 실적’ 엔비디아, 현대차·LG 언급… ‘생태계 확대’ 강조한.....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144647&office_id=366&code=066570&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.26 14:52",
+          "source": "조선비즈",
+          "has_name": false,
+          "content": "4분기 매출 681억3000만달러 ‘사상 최대’\n다음 분기 매출 780억달러 제시…“성장 지속”\n피지컬 AI·베라 루빈 ‘성장 축’… 생태계 확장\n엔비디아가 2026 회계연도 4분기(2025년 11월∼2026년 1월)에 시장 전망치를 넘어서는 ‘깜짝 실적’을 발표하면서 올해 실적도 가파르게 성장할 수 있다는 전망을 내놨다. 회사는 피지컬 인공지능(AI) 시대가 이미 도래했고 매출에도 반영되기 시작했다며 현대자동차그룹의 보스턴다이내믹스와 LG전자의 사례를 소개했다. 젠슨 황 엔비디아 최고경영자(CEO)는 “생태계를 확장하는 데 전략적으로 초점을 맞춰 투자를 진행하고 있다”고 말했다.\n엔비디아는 2026 회계연도 4분기 매출이 681억3000만달러(약 97조4327억원)로 집계됐다고 25일(현지시각) 밝혔다. 전년 동기 대비 73% 증가하며 사상 최대치를 달성했다. 이는 시장조사업체 LSEG가 집계한 전망치(662억달러)를 상회하는 실적이다.\n이 기간 영업이익은 443억달러(약 63조2382억원)로, 전년 동기 대비 84% 증가했다. 영업이익률은 65%에 달했고, 조정 주당순이익(EPS)은 1.62달러다.\n엔비디아의 2026 회계연도 4분기 전체 매출 중 91.4%(623억달러·약 88조9332억원)가 데이터센터 사업 부문에서 나왔다. 이 부분 매출이 전년 동기 대비 75% 증가하면서 전체 실적 성장을 이끈 것으로 분석된다. 이 밖에 게이밍 37억달러, 전문 그래픽 13억달러, 자동차·임베디드 6억달러 등의 매출을 올린 것으로 집계됐다.\n연간 매출은 2159억달러(약 308조1972억원)로, 전년 대비 65% 증가하며 역대 최고치를 경신했다. 연간 조정 EPS는 4.77달러다. 올해 3월 11일 기준 등록된 모든 주주에게 주당 0.01달러의 현금 배당금을 4월 1일에 지급할 계획이다.\n콜레트 크레스 엔비디아 최고재무책임자(CFO)는 이날 컨퍼런스콜에서 “챗GPT가 등장한 이후 데이터센터 사업 규모가 13배로 커졌다”며 “올해 매출이 분기별로 순차 증가할 것이라고 전망한다”고 말했다.\n“베라 루빈 샘플 고객사에 보내… 하반기 양산”\n엔비디아는 2027회계연도 1분기(올해 2∼4월) 매출 전망치를 780억달러(±2%·약 111조3450억원)로 제시했다. 이 역시 시장 전망치(726억달러)보다 7% 이상 웃도는 수치다. 엔비디아는 피지컬 AI 솔루션과 차세대 AI 칩인 ‘베라 루빈’ 등이 실적 성장을 이끌 것이라고 설명했다.\n엔비디아는 피지컬 AI 구축 모델인 ‘코스모스’와 휴머노이드 로봇 추론을 위한 맞춤형 모델 ‘아이작 그루트’ 등을 공개했다. 크레스 CFO는 “피지컬 AI 시대는 도래했고, 이미 매출에 60억달러 넘게 기여했다”며 “코스모스·아이작 그루트를 통해 로보틱스 개발도 이끌고 있다”고 말했다. 그러면서 보스턴다이내믹스·LG전자를 비롯해 뉴라로보틱스·프랑카로보틱스 등을 사례로 들어 “엔비디아의 솔루션으로 주요 기업들의 로봇이 구동되는 등 산업용 피지컬 AI 도입을 가속하고 있다”고 했다.\n황 CEO는 지난 분기 주요 성과로 ‘생태계 "
+        },
         {
           "title": "[ET특징주] LG전자, 엔비디아와 피지컬AI 협력 기대감… 주가 8%...",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402280&office_id=030&code=066570&page=1&sm=title_entity_id.basic",
@@ -428,187 +251,10 @@
           "content": "간밤 엔비디아가 사상 최고 실적을 발표하면서, 앞서 피지컬 인공지능(AI) 협력을 언급한 LG전자 주가가 급등하고 있다.\n26일 오전 10시 45분 기준 LG전자(066570) 주가는 전 거래일 대비 8.85% 상승한 14만 5100원에 거래되고 있다.\n엔비디아는 25일(현지시간) 회계연도 4분기(작년 11월∼올해 1월) 매출이 전년 동기 대비 73% 오른 681억3천만 달러(약 98조원)를 기록했다고 공시했다. 이는 시장조사업체 LSEG가 집계한 실적 전망치 662억 달러를 상회한 수치이며, 역대 가장 높은 분기 매출액이다.\n또한 엔비디아는 이날 보도자료를 통해 피지컬 AI 분야에서 LG전자 등 주요 기업과 협력을 언급해 투자자들의 기대감을 자극했다.\n또한 LG전자의 자사주 소각 기대감도 주가를 끌어올리는 데 한 몫 했다. LG전자는 지난 12일 보유 중인 자사주 전량을 소각하는 감자를 결정한 바 있다.\n서희원 기자 shw@etnews.com"
         },
         {
-          "title": "'땡큐 엔비디아'…LG전자, AI 협력 기대감에 10% 급등 마감",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494688&office_id=374&code=066570&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 15:56",
-          "source": "SBS Biz",
-          "has_name": true
-        },
-        {
-          "title": "LG전자 초프리미엄 ‘SKS 쇼룸’ 美 최고 공간상",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605556&office_id=016&code=066570&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:30",
-          "source": "헤럴드경제",
-          "has_name": true
-        },
-        {
-          "title": "[ET특징주] LG전자, 엔비디아와 피지컬AI 협력 기대감… 주가 8...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402280&office_id=030&code=066570&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:50",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "LG전자, SKS 시카고 쇼룸…美 주방·욕실업계 최고 권위 혁신상 수...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605321&office_id=016&code=066570&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:25",
-          "source": "헤럴드경제",
-          "has_name": true
-        },
-        {
-          "title": "저스템, LG전자 OLED 공정 장비 수주",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593591&office_id=011&code=066570&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.26 06:13",
-          "source": "서울경제",
-          "has_name": true
-        },
-        {
-          "title": "주방 넘어 공조까지 LG전자… 美 초호화주택 주인 맘에 '쏙'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322459&office_id=008&code=066570&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.26 04:10",
-          "source": "머니투데이",
-          "has_name": true
-        },
-        {
-          "title": "[증시 인사이트] 엔비디아 지난 4분기 매출 98조 원 기록…\"역대 최...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494703&office_id=374&code=066570&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 16:31",
-          "source": "SBS Biz",
-          "has_name": false
-        },
-        {
-          "title": "로보락, 차세대 플래그십 로봇청소기 출시…韓 시장 1위 굳힌다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402422&office_id=030&code=066570&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 14:08",
-          "source": "전자신문",
-          "has_name": false
-        },
-        {
-          "title": "“삼성·LG와 경쟁 환영” 中 로보락, 204만원 로봇청소기 신제품으...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605635&office_id=016&code=066570&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 12:27",
-          "source": "헤럴드경제",
-          "has_name": false
-        },
-        {
-          "title": "CJ, 3년간 1.3만 명 채용…국내 사업에 4.2조 투자",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593622&office_id=011&code=066570&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.26 07:40",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "통신 3사 ‘실전형 AI 기술’ 격돌",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620998&office_id=081&code=066570&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.26 05:05",
-          "source": "서울신문",
-          "has_name": false
-        },
-        {
-          "title": "저스템, LG전자 OLED 공정 장비 수주",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593591&office_id=011&code=066570&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.26 06:13",
-          "source": "서울경제",
-          "has_name": true,
-          "content": "반도체·디스플레이 전문 장비기업\n이 LG전자와 유기발광다이오드(OLED) 제조라인의 공정장비 공급계약을 체결했다고 밝혔다.\n계약기간은 2027년 7월까지이며 수주금액은 74억 원으로 저스템이 LG전자로부터 수주한 단일 프로젝트로는 최대 규모다. 저스템은 기존에 정보기술(IT) OLED용 진공 물류장비와 연구개발(R&D)용 레이저 패터닝 장비 등을 공급해 왔는데 이번이 세번째 대형 장비 수주다.\n저스템 측은 “그동안 관련 장비를 공급하며 경험과 노하우를 축적해왔고 정전기 제어장치인 ‘VIS’(Vacuum Ionizer System)를 LG디스플레이에 대량으로 공급하며 패널의 수율 향상을 제고하는 등 기술 역량을 높이 평가받았다”고 설명했다.\n저스템은 이번 수주가 향후 OLED 양산 장비 시장에 본격적으로 진출할 수 있는 초석이 될 것으로 기대하고 있다. 글로벌 디스플레이 시장의 업황 개선에 따라 동일한 라인이 추가로 설치될 수 있고 그에 따른 OLED 양산라인 투자가 지속될 수 있기 때문이다. 김명수 저스템 이사는 “이번 프로젝트 수주로 저스템은 공정장비 분야에서도 기술력과 신뢰도를 공식적으로 다시 한번 인정받았다” 며 “향후 양산 장비 시장에 본격 진출하는 계기가 될 것”이라고 강조했다"
-        },
-        {
-          "title": "LG전자 초프리미엄 ‘SKS 쇼룸’ 美 최고 공간상",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605556&office_id=016&code=066570&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:30",
-          "source": "헤럴드경제",
-          "has_name": true
-        },
-        {
-          "title": "LG전자, SKS 시카고 쇼룸…美 주방·욕실업계 최고 권위 혁신상 수...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605321&office_id=016&code=066570&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:25",
-          "source": "헤럴드경제",
-          "has_name": true
-        },
-        {
-          "title": "저스템, LG전자 OLED 공정 장비 수주",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593591&office_id=011&code=066570&page=4&sm=title_entity_id.basic",
-          "date": "2026.02.26 06:13",
-          "source": "서울경제",
-          "has_name": true
-        },
-        {
-          "title": "주방 넘어 공조까지 LG전자… 美 초호화주택 주인 맘에 '쏙'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322459&office_id=008&code=066570&page=4&sm=title_entity_id.basic",
-          "date": "2026.02.26 04:10",
-          "source": "머니투데이",
-          "has_name": true
-        },
-        {
-          "title": "[전자파학회 동계학술대회] 전파, '우주시대·자주국방' 핵심 자산…기....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402473&office_id=030&code=066570&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 15:01",
-          "source": "전자신문",
-          "has_name": false
-        },
-        {
-          "title": "‘깜짝 실적’ 엔비디아, 현대차·LG 언급… ‘생태계 확대’ 강조한.....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144647&office_id=366&code=066570&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 14:52",
-          "source": "조선비즈",
-          "has_name": false
-        },
-        {
-          "title": "로보락, 신형 로봇청소기 출시…\"韓 젊은 세대 공략할 것\"(종합)",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015926490&office_id=001&code=066570&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 12:25",
-          "source": "연합뉴스",
-          "has_name": false
-        },
-        {
-          "title": "CJ, 3년간 1.3만 명 채용…국내 사업에 4.2조 투자",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593622&office_id=011&code=066570&page=4&sm=title_entity_id.basic",
-          "date": "2026.02.26 07:40",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "통신 3사 ‘실전형 AI 기술’ 격돌",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620998&office_id=081&code=066570&page=4&sm=title_entity_id.basic",
-          "date": "2026.02.26 05:05",
-          "source": "서울신문",
-          "has_name": false
-        },
-        {
-          "title": "주방 넘어 공조까지 LG전자… 美 초호화주택 주인 맘에 '쏙'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322459&office_id=008&code=066570&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.26 04:10",
-          "source": "머니투데이",
-          "has_name": true
-        },
-        {
-          "title": "LG전자, MWC서 스마트 텔레매틱스 솔루션 공개",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699774&office_id=020&code=066570&page=4&sm=title_entity_id.basic",
-          "date": "2026.02.26 00:31",
-          "source": "동아일보",
-          "has_name": true
-        },
-        {
-          "title": "CJ, 3년간 1.3만 명 채용…국내 사업에 4.2조 투자",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593622&office_id=011&code=066570&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.26 07:40",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "통신 3사 ‘실전형 AI 기술’ 격돌",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620998&office_id=081&code=066570&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.26 05:05",
-          "source": "서울신문",
-          "has_name": false
-        },
-        {
-          "title": "LG전자, MWC서 스마트 텔레매틱스 솔루션 공개",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699774&office_id=020&code=066570&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.26 00:31",
-          "source": "동아일보",
-          "has_name": true
+          "title": "LG전자, 시장 흐름 및 관련 테마 분석",
+          "url": "https://finance.naver.com/item/news.naver?code=066570",
+          "date": "2026.02.26 09:00",
+          "source": "증권정보"
         }
       ],
       "related_stocks": [
@@ -633,14 +279,14 @@
           "change_rate": "+3.5%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     },
     {
       "id": "sig_20260226_KR_005",
       "theme": "#반도체",
       "signal_type": "이슈",
-      "short_reason": "SK하이닉스,, 샌디스크와",
-      "summary": "SK하이닉스은(는) SK하이닉스, 샌디스크와 차세대 메모리 'HBF' 글로벌 표준화 작업... 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "SK하이닉스은(는) SK하이닉스, 시장 흐름 및 관련 테마 분석 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "SK하이닉스",
         "symbol": "000660",
@@ -648,6 +294,13 @@
         "news_url": "https://finance.naver.com/item/news.naver?code=000660"
       },
       "news_articles": [
+        {
+          "title": "SK하이닉스, 시장 흐름 및 관련 테마 분석",
+          "url": "https://finance.naver.com/item/news.naver?code=000660",
+          "date": "2026.02.26 09:00",
+          "source": "증권정보",
+          "content": ""
+        },
         {
           "title": "SK하이닉스, 샌디스크와 차세대 메모리 'HBF' 글로벌 표준화 작업...",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005483137&office_id=014&code=000660&page=2&sm=title_entity_id.basic",
@@ -657,123 +310,27 @@
           "content": "SK하이닉스·샌디스크, OCP 산하 공동 워크스트림 구성\n[파이낸셜뉴스] SK하이닉스와 샌디스크가 25일(현지시간) 미국 캘리포니아주 밀피타스에 위치한 샌디스크 본사에서 '고대역폭플래시(HBF) 스펙 표준화 컨소시엄 킥오프' 행사를 열고, 인공지능(AI) 추론 시대를 겨냥한 차세대 메모리 솔루션 HBF의 글로벌 표준화 전략을 발표했다. SK하이닉스는 \"샌디스크와 함께 HBF를 업계 표준으로 마련해 AI 생태계 전체가 함께 성장할 수 있는 기반을 구축하겠다\"며 \"세계 최대 개방형 데이터센터 기술 협력체(OCP) 산하에 핵심 과제 전담 워크스트림(협업 체계)을 샌디스크와 함께 구성해 본격적인 표준화 작업에 착수한다\"고 밝혔다.\n최근 AI 산업은 거대언어모델(LLM)을 만드는 '학습' 단계에서, 실제 서비스를 제공하는 '추론' 단계로 무게중심이 빠르게 이동하고 있다.\nAI 서비스를 동시에 사용하는 이용자가 급증하면서 빠르고 효율적인 메모리가 필수적이지만, 기존 메모리 구조만으로는 추론 단계에서 요구되는 대용량 데이터 처리와 전력 효율성을 동시에 충족하기 어렵다. 이러한 한계를 해결할 수 있는 대안으로 등장한 것이 HBF다.\nHBF는 초고속 메모리인 HBM과 대용량 저장장치인 솔리드스테이트드라이브(SSD) 사이에 위치하는 새로운 메모리 계층이다. HBM의 뛰어난 성능과 SSD의 대용량 특성 사이의 공백을 메우며, 추론 영역에서 요구되는 용량 확장과 전력 효율성을 동시에 확보한다. 기존 HBM이 최고 수준의 대역폭을 담당하는 가운데, HBF가 이를 보완하는 구조다.\n특히 HBF는 AI 시스템의 확장성을 높이면서도 전체 운영 비용(TCO)을 줄일 수 있을 것으로 예상된다. 업계는 HBF를 포함한 복합 메모리 설루션에 대한 수요가 2030년 전후로 본격 확대될 것으로 보고 있다.\nAI 추론 시장에서는 단일 칩의 성능보다 중앙처리장치(CPU)·그래픽처리장치(GPU)·메모리·스토리지를 아우르는 시스템 레벨 최적화가 경쟁력을 좌우한다. 이로 인해 HBM과 HBF를 모두 제공할 수 있는 종합 메모리 솔루션 기업의 역할이 더욱 중요해지고 있다.\nSK하이닉스와 샌디스크는 HBM과 낸드 분야에서 쌓은 설계·패키징 기술과 대량 양산 경험을 바탕으로 HBF의 빠른 표준화, 제품화를 선제적으로 추진할 계획이다.\n안현 SK하이닉스 개발총괄 사장(CDO)은 \"AI 인프라의 핵심은 단일 기술의 성능 경쟁을 넘어, 생태계 전체를 최적화하는 것\"이라며 \"HBF 표준화를 통해 협력 체계를 구축하고, AI시대 고객·파트너를 위한 최적화된 메모리 아키텍처를 제시함으로써 새로운 가치를 창출하겠다\"고 전했다."
         },
         {
-          "title": "‘HBF 시대’ 오나…SK하이닉스 “샌디스크와 HBF 표준화 착수”",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003430008&office_id=032&code=000660&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 16:31",
-          "source": "경향신문",
-          "has_name": true
-        },
-        {
           "title": "SK하이닉스, 미 샌디스크와 차세대 메모리 ‘HBF’ 글로벌 표준화 ...",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0003961281&office_id=023&code=000660&page=1&sm=title_entity_id.basic",
           "date": "2026.02.26 15:12",
           "source": "조선일보",
-          "has_name": true
-        },
-        {
-          "title": "삼성전자·SK하이닉스, 합산 시가총액 2000조원 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699953&office_id=020&code=000660&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.26 14:45",
-          "source": "동아일보",
-          "has_name": true
-        },
-        {
-          "title": "삼성전자 5%↑SK하이닉스 2%↑…합산 시총 2000조원 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013790149&office_id=003&code=000660&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:02",
-          "source": "뉴시스",
-          "has_name": true
-        },
-        {
-          "title": "SK하이닉스, 샌디스크와 차세대 메모리 'HBF' 글로벌 표준화 착수",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004119265&office_id=079&code=000660&page=11&sm=title_entity_id.basic",
-          "date": "2026.02.26 12:42",
-          "source": "노컷뉴스",
-          "has_name": true
-        },
-        {
-          "title": "SK하이닉스, ‘HBF’ 표준화 착수",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605529&office_id=016&code=000660&page=7&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:24",
-          "source": "헤럴드경제",
-          "has_name": true
-        },
-        {
-          "title": "‘삼성전자+SK하이닉스’ 시가총액 2000조원 넘어서",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003961223&office_id=023&code=000660&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:41",
-          "source": "조선일보",
-          "has_name": true
-        },
-        {
-          "title": "SK하이닉스, 샌디스크와 차세대 메모리 ‘HBF’ 표준화 작업 착수",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144503&office_id=366&code=000660&page=7&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:38",
-          "source": "조선비즈",
-          "has_name": true
-        },
-        {
-          "title": "SK하이닉스, 샌디스크와 AI 추론용 차세대 메모리 'HBF' 표준화...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008794232&office_id=421&code=000660&page=7&sm=title_entity_id.basic",
-          "date": "2026.02.26 08:59",
-          "source": "뉴스1",
-          "has_name": true
-        },
-        {
-          "title": "“나만 가난해” 불장 속 복권에 기댄 저소득층…고소득층보다 더 샀.....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0012131368&office_id=056&code=000660&page=9&sm=title_entity_id.basic",
-          "date": "2026.02.26 06:15",
-          "source": "KBS",
-          "has_name": false
-        },
-        {
-          "title": "SK하이닉스, ‘안전보건 상생협력사업’ 3년 연속 우수기업 선정",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144656&office_id=366&code=000660&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 15:08",
-          "source": "조선비즈",
-          "has_name": true
-        },
-        {
-          "title": "SK하이닉스, HBF 표준화 착수…차세대 메모리 주도권 확보",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002378471&office_id=123&code=000660&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 14:48",
-          "source": "조세일보",
-          "has_name": true
-        },
-        {
-          "title": "[반도체 온에어] 'HBF 동맹' SK하이닉스·샌디스크, 세계 표준화...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000079971&office_id=293&code=000660&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:20",
-          "source": "블로터",
-          "has_name": true
-        },
-        {
-          "title": "SK하이닉스, 샌디스크와 차세대 메모리 'HBF' 글로벌 표준화 착수",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004119265&office_id=079&code=000660&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 12:42",
-          "source": "노컷뉴스",
-          "has_name": true
-        },
-        {
-          "title": "SK하이닉스, HBM 잇는 차세대 HBF 글로벌 표준화 선점 착수",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002773468&office_id=021&code=000660&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:53",
-          "source": "문화일보",
-          "has_name": true
+          "has_name": true,
+          "content": "SK하이닉스가 HBM(고대역폭 메모리) 이후 차세대 메모리 기술로 꼽히는 HBF(고대역폭 플래시 메모리) 표준화에 나선다. HBM이 D램을 여러 층 쌓은 고성능 반도체라면, HBF는 D램 대신 낸드플래시를 쌓은 것이다.\nSK하이닉스와 미국 메모리 기업 샌디스크는 25일(현지 시각) ‘HBF 스펙 표준화 컨소시엄 킥오프’ 행사를 열고 차세대 메모리 HBF의 글로벌 표준화 전략을 발표했다. 두 회사는 HBM과 낸드 분야에서 쌓은 설계·패키징 기술과 대량 양산 경험을 바탕으로 HBF의 빠른 표준화, 제품화를 선제적으로 추진할 계획이다.\nSK하이닉스가 HBF 표준화에 나선 것은 AI(인공지능)가 학습에서 추론 단계로 변화하는 것에 대응하기 위해서다. 똑똑한 AI의 두뇌를 만드는 단계가 ‘학습’이라면, ‘추론’은 이미 만들어진 두뇌를 효과적으로 사용하게 하는 단계를 뜻한다. 추론에서는 더 적은 자원을 쓰면서 더 빨리 결과를 도출해 전력 소모를 줄이는 게 핵심이다. AI 서비스를 동시에 사용하는 이용자가 급증하면서 빠르고 효율적인 메모리가 필수적이지만, 기존 메모리 구조만으로는 추론 단계에서 요구되는 대용량 데이터 처리와 전력 효율성을 동시에 충족하기 어려운 상황이다.\n이러한 한계를 해결할 수 있는 기술로 HBF가 주목받고 있다. HBF는 초고속 메모리인 HBM과 대용량 저장 장치인 SSD 사이에 있는 새로운 메모리다. HBM의 고속 처리 성능과 SSD의 대용량 저장 능력 사이의 공백을 메우며, 추론 영역에서 요구되는 용량 확장과 전력 효율성을 동시에 확보한다.\nSK하이닉스 안현 개발총괄 사장(CDO)은 “AI 인프라의 핵심은 단일 기술의 성능 경쟁을 넘어 생태계 전체를 최적화하는 것”이라며 “HBF 표준화를 통해 협력 체계를 구축하고, AI 시대 고객·파트너를 위한 최적화된 메모리를 제시함으로써 새로운 가치를 창출하겠다”고 했다."
         },
         {
           "title": "SK하이닉스·샌디스크, 차세대 AI 메모리 ‘HBF’ 표준화 시동",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593751&office_id=011&code=000660&page=1&sm=title_entity_id.basic",
           "date": "2026.02.26 10:59",
           "source": "서울경제",
-          "has_name": true
+          "has_name": true,
+          "content": "샌디스크와 컨소 킥오프 회의\nOCP 산하 전담 협업체계 꾸려\nHBF, 비용·용량 장점에 기대\n가 미국 메모리 기업 샌디스크와 손잡고 인공지능(AI) 시대를 이끌 차세대 메모리 규격인 고대역폭플래시(HBF) 표준화를 추진한다. 초고속이나 용량에 한계가 있는 고대역폭메모리(HBM)와 대용량이지만 속도가 느린 솔리드스테이트드라이브(SSD)의 장점을 결합해 향후 폭발적 성장이 예상되는 AI 추론 시장을 선점하겠다는 포석이다.\nSK하이닉스는 25일(현지 시간) 미 캘리포니아주 밀피타스 샌디스크 본사에서 HBF 스펙 표준화 컨소시엄 킥오프 회의를 열고 글로벌 표준화 전략을 발표했다고 밝혔다. 양 사는 세계 최대 개방형 데이터센터 기술 협력체인 오픈컴퓨트프로젝트(OCP) 산하에 ‘전담 협업 체계(워크스트림)’를 꾸려 본격적인 규격 마련에 착수한다. SK하이닉스 측은 “샌디스크와 함께 HBF를 업계 표준으로 확립해 AI 생태계의 동반 성장을 이끌겠다”고 밝혔다.\n이번 협력은 AI 산업의 무게중심이 대규모언어모델(LLM) 학습에서 실시간 답변을 내놓는 추론으로 이동하는 지각변동에 따른 것이다. 다수 사용자가 동시 접속하는 추론 서버는 지연 없는 데이터 처리와 저전력이 필수다. 하지만 기존 HBM과 SSD의 메모리 구조로는 비용과 효율을 모두 충족하기 역부족이었다.\n이 같은 한계를 깰 구원투수가 바로 HBF다. HBF는 HBM과 SSD 사이의 중간 다리 역할을 하는 신규 메모리 계층이다. 최상위 AI 서버에서 그래픽처리장치(GPU)를 돕는 HBM은 속도는 빠르나 비싸고 용량이 적다. 반면 데이터 창고인 SSD는 용량이 방대하지만 속도가 느려 병목 현상을 부른다.\nHBF는 자주 쓰는 데이터를 미리 준비해 HBM으로 빠르게 넘겨줌으로써 HBM의 부담을 덜고 시스템 전체 용량을 넓힌다. 고가 HBM을 무한정 늘릴 필요가 없어 기업의 총소유비용(TCO)이 획기적으로 줄어든다.\n업계는 HBF 등 차세대 복합 메모리 수요가 2030년 전후로 만개할 것으로 본다. 향후 AI 시장은 칩 단일 성능을 넘어 칩들을 아우르는 시스템 최적화가 경쟁력을 좌우하기 때문이다. HBM 선두 업체 SK하이닉스와 낸드플래시 강자 샌디스크의 기술 시너지가 강력한 파급력을 발휘할 것으로 전망되는 이유다.\n안현 SK하이닉스 최고개발책임자(CDO) 사장은 “AI 인프라의 핵심은 단일 기술 경쟁을 넘어 생태계 전체를 최적화하는 데 있다”며 “HBF 표준화로 최적의 메모리 아키텍처를 제시해 새로운 가치를 창출하겠다”고 말했다."
         },
         {
-          "title": "6000피 시대에 증권주 ‘활활’…랠리 언제까지",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003063101&office_id=119&code=000660&page=9&sm=title_entity_id.basic",
-          "date": "2026.02.26 06:58",
-          "source": "데일리안",
-          "has_name": false
+          "title": "‘HBF 시대’ 오나…SK하이닉스 “샌디스크와 HBF 표준화 착수”",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003430008&office_id=032&code=000660&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.26 16:31",
+          "source": "경향신문",
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -798,14 +355,14 @@
           "change_rate": "-0.9%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     },
     {
       "id": "sig_20260226_KR_006",
       "theme": "#반도체",
       "signal_type": "이슈",
-      "short_reason": "삼성전자, 시총",
-      "summary": "오늘 삼성전자 주가는 삼성전자 시총 1조달러 돌파했지만, TSMC는 2조달러(종합) 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "삼성전자은(는) 삼성전자, 시장 흐름 및 관련 테마 분석 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "삼성전자",
         "symbol": "005930",
@@ -813,6 +370,13 @@
         "news_url": "https://finance.naver.com/item/news.naver?code=005930"
       },
       "news_articles": [
+        {
+          "title": "삼성전자, 시장 흐름 및 관련 테마 분석",
+          "url": "https://finance.naver.com/item/news.naver?code=005930",
+          "date": "2026.02.26 09:00",
+          "source": "증권정보",
+          "content": ""
+        },
         {
           "title": "삼성전자 시총 1조달러 돌파했지만, TSMC는 2조달러(종합)",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0008795337&office_id=421&code=005930&page=8&sm=title_entity_id.basic",
@@ -822,89 +386,28 @@
           "content": "(서울=뉴스1) 박형기 기자 = 삼성전자가 시총 1조달러를 돌파했지만, 대만의 TSMC는 시총 2조달러를 돌파했다.\n26일 오전 11시 30분 현재 한국증시에서 삼성전자는 5.16% 급등한 21만4000원을 기록하고 있다.\n이에 따라 시총도 1조20억달러로 늘어, 국내 기업으로는 사상 최초로 시총 1조 달러 클럽에 가입했다.\n세계 기업 중 시총 1조달러를 돌파한 기업은 모두 13개뿐이다.\n삼전은 이날 급등으로 기존의 13위였던 미국의 다국적 제약사 일라이 릴리를 제치고 시총 13위에 올랐다.\n이제 삼성전자 앞에는 엔비디아, 애플, 알파벳, 마이크로소프트, 아마존, 대만 TSMC, 사우디 아람코, 메타, 브로드컴, 테슬라, 버크셔 해서웨이, 월마트가 있을 뿐이다.\n아시아 기업으로 시총 1조달러를 돌파한 것은 TSMC에 이어 삼성전자가 2번째다.\n이날 현재 TSMC는 시총 2조100억달러를 기록, 전 세계 시총 6위에 랭크돼 있다.\n삼전이 시총 1조달러를 돌파하는 쾌거를 달성했지만, TSMC 시총의 절반에 불과한 것.\nTSMC는 출범 당시 한국과 일본이 메모리 업계를 장악하고 있기 때문에 틈새시장을 개척하기 위해 파운드리(위탁 생산) 전문 기업으로 출발했다.\n그런데 미국 반도체 업체는 설계만 하고 인건비가 싼 다른 나라에서 위탁 생산하는 것이 대세가 되면서 TSMC는 아시아 기업 최초로 시총 1조달러를 돌파하는 것은 물론, 최근에는 2조달러마저 돌파했다.\n특히 애플 등 삼성전자의 휴대폰 경쟁업체들이 메모리 반도체는 삼성전자의 것을 쓰지만, 다른 반도체는 경쟁업체인 삼성전자를 피해 대만 TSMC에서 주로 위탁 생산해 TSMC가 어부지리를 얻고 있다.\n이에 따라 한국의 삼성전자가 아니라 대만의 TSMC가 아시아 대표 반도체 업체로 도약했으며, 시총도 삼전을 두 배 정도 앞서고 있다.\n삼성전자가 더욱 분발해 전 세계 시총 1위는 몰라도 TSMC를 제치고 아시아 시총 1위 기업에 등극하기를 기대한다면 지나친 욕심일까?"
         },
         {
-          "title": "국민성장펀드, 삼성전자 평택5공장에 2.5조 공급…설비 가동 2년 당겨",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494702&office_id=374&code=005930&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 16:30",
-          "source": "SBS Biz",
-          "has_name": true
-        },
-        {
           "title": "삼성전자, 韓기업 최초 시총 1조달러 돌파…세계 12위",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005483487&office_id=014&code=005930&page=6&sm=title_entity_id.basic",
           "date": "2026.02.26 15:46",
           "source": "파이낸셜뉴스",
-          "has_name": true
-        },
-        {
-          "title": "삼성전자·SK하이닉스, 합산 시가총액 2000조원 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699953&office_id=020&code=005930&page=8&sm=title_entity_id.basic",
-          "date": "2026.02.26 14:45",
-          "source": "동아일보",
-          "has_name": true
-        },
-        {
-          "title": "삼성전자 5%↑SK하이닉스 2%↑…합산 시총 2000조원 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013790149&office_id=003&code=005930&page=8&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:02",
-          "source": "뉴시스",
-          "has_name": true
-        },
-        {
-          "title": "로보락, 신형 로봇청소기 출시…\"韓 젊은 세대 공략할 것\"(종합)",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015926490&office_id=001&code=005930&page=10&sm=title_entity_id.basic",
-          "date": "2026.02.26 12:25",
-          "source": "연합뉴스",
-          "has_name": false
-        },
-        {
-          "title": "'갤럭시 언팩 2026'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015926205&office_id=001&code=005930&page=9&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:29",
-          "source": "연합뉴스",
-          "has_name": false
-        },
-        {
-          "title": "삼성전자, 갤럭시 S26 사전 판매 돌입… 가격은?",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002218927&office_id=138&code=005930&page=8&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:09",
-          "source": "디지털데일리",
           "has_name": true,
-          "content": "[MOVIEW] '구독클럽'으로 잔존가 50% 보상\n[디지털데일리 옥송이기자] 삼성전자가 인공지능(AI) 기능을 강화한 스마트폰 '갤럭시 S26 시리즈'의 사전 판매를 27일부터 3월 5일까지 진행한다고 26일 발표했다.\n갤럭시 S26 시리즈는 울트라·플러스·일반 총 세 가지 모델로 구성되며, 오는 3월 11일 국내에 공식 출시된다. 색상은 코발트 바이올렛·블랙·화이트·스카이 블루 4종이다. 삼성닷컴과 삼성 강남 전용 색상인 핑크 골드와 실버 쉐도우도 자급제 모델로 함께 선보인다.\n가격은 모델별로 상이하다. 갤럭시 S26 울트라는 256GB 모델이 179만7400원, 512GB 모델이 205만400원, 1TB(16GB 램) 모델이 254만 400원이다. 갤럭시 S26 플러스는 256GB 145만2000원, 512GB 170만5000원이며, 갤럭시 S26은 256GB 125만4000원, 512GB 150만7000원으로 책정됐다.\n삼성전자는 사전 구매 고객에게 256GB 모델 구매 시 512GB 모델로 업그레이드해 주는 '더블 스토리지' 혜택을 제공한다. 울트라 512GB 모델 구매 시에는 24만 2000원을 추가하면 1TB 모델을 증정한다. 이외에도 갤럭시 버즈4 시리즈 10% 할인 쿠폰, 윌라 3개월 구독권, 갤럭시 스토어 게임 테마 8종 등을 지원한다.\n스마트폰 구독 프로그램인 '뉴 갤럭시 AI 구독클럽'도 27일 가입을 시작한다. 자급제 모델 구매 시 가입 가능하며 기기 반납 시 최대 50% 잔존가를 보장한다. 특히 올해는 사이버 금융범죄 피해 시 최대 300만원, 인터넷 사기 피해 시 최대 50만원의 보상 혜택을 추가했다. 3년형 상품을 신설해 분실 보상이 포함된 '삼성케어플러스 분실·파손' 상품도 지원한다.\n삼성전자 관계자는 \"갤럭시 S26 울트라에 적용된 프라이버시 디스플레이와 구독클럽의 사이버 금융범죄 피해 보상 등 안심하고 사용할 수 있는 제품을 가장 빨리 만나보길 바란다\"며 \"더블 스토리지와 잔존가 보상 등 큰 구매 혜택으로 신제품을 선보이겠다\"고 말했다."
-        },
-        {
-          "title": "‘차별화된 음질’ 자신감… 삼성전자, 갤럭시 버즈 이어폰 신형 공개",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699959&office_id=020&code=005930&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 14:59",
-          "source": "동아일보",
-          "has_name": true
+          "content": "[파이낸셜뉴스] 삼성전자가 한국 기업으로는 최초로 시가총액 1조달러를 돌파했다.\n26일 글로벌 기업 시가총액 분석 사이트 컴퍼니스마켓캡에 따르면 이날 장 마감 기준 삼성전자의 시가총액은 우선주 포함 1조250억달러로 집계됐다.\n국내 기업 중 시총 1조달러를 돌파한 것은 이번이 처음이다. 글로벌 기업 중 시총 1조달러를 넘어선 기업은 13곳뿐이다.\n이에 따라 삼성전자는 월마트, 일라이릴리를 제치고 전 세계 기업 시가총액 12위에 오르게 됐다. 아시아 지역에선 TSMC(6위), 아람코(7위)에 이어 세 번째로 높은 규모다.\n삼성전자는 주가 급등으로 하루 만에 14위에서 두 계단 뛰어오르게 됐다. 이날 삼성전자 주가는 전 거래일 대비 1만4500원(7.13%) 오른 21만8000원에 장을 마쳤다.\n인공지능(AI) 확산에 따른 실적 기대감 속 엔비디아의 '어닝 서프라이즈'가 호재로 작용했다. 엔비디아는 25일(현지시간) 회계연도 기준 지난해 4·4분기(지난해 11월∼올해 1월) 매출이 681억3000만달러(약 97조원)로 집계됐다고 밝혔다. 이는 시장조사업체 LSEG가 집계한 실적 전망치 662억달러를 웃도는 수치다.\n한편 SK하이닉스의 시가총액은 5322억달러로 전 세계 21위를 기록하고 있다."
         },
         {
           "title": "코스피, 6200선 돌파…삼성전자 21만원 넘어 '신고가'",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0006225296&office_id=018&code=005930&page=7&sm=title_entity_id.basic",
           "date": "2026.02.26 13:28",
           "source": "이데일리",
-          "has_name": true
+          "has_name": true,
+          "content": "장중 6222.14 사상 최고치\n개인 1조893억원 순매수\n삼성전자 5.41%, SK하이닉스 2.55% 급등\n코스닥 1.96% 상승 1188.11\n[이데일리 김경은 기자] 코스피 지수가 26일 오후 들어 상승폭을 확대하며 6200선을 넘어섰다. 삼성전자(005930)가 21만원을 돌파하며 강세를 주도하는 가운데 개인투자자들의 매수세가 1조원을 넘어서고 있다.\n엠피닥터에 따르면 26일 오후 1시 15분 기준 코스피 지수는 전 거래일 대비 128.25포인트(2.11%) 오른 6212.11에 거래되고 있다. 지수는 장중 6222.14까지 치솟으며 사상 최고치를 경신했다.\n투자자별로는 개인이 1조893억원을 순매수하며 강력한 매수세를 이어가고 있다. 반면 외국인과 기관은 각각 2조1137억원, 8641억원어치를 순매도하고 있다.\n반도체 대장주들이 일제히 급등하며 나란히 ‘신고가’를 쓰고 있다. 이 시각 삼성전자는 전 거래일 대비 1만1000원(5.41%) 급등한 21만4500원을 기록 중이다. SK하이닉스(000660)는 2만6000원(2.55%) 오른 104만4000원을 나타내고 있다.\nLG이노텍(011070)도 21.5% 급등하며 로봇 테마주로 부각되고 있다. 보스턴 다이내믹스 카메라모듈 탑재 등 로봇 테마가 지속되면서 3월 GTC 2026까지 모멘텀이 기대되고 있다.\n이밖에 시총 상위 기업 가운데 상승 종목은 삼성전자우(005935)(3.37%), 현대차(005380)(0.87%), LG에너지솔루션(373220)(0.41%), SK스퀘어(402340)(1.85%), 삼성바이오로직스(207940)(1.85%), 기아(000270)(2.24%), 두산에너빌리티(034020)(0.19%) 등이다. 반면 KB금융(105560)(-1.19%) 등은 하락했다.\n같은 시각 코스닥지수는 전 거래일 대비 22.86포인트(1.96%) 오른 1188.11을 기록하며 동반 상승하고 있다. 개인은 2977억원을 순매도했으나 외국인과 기관이 각각 3002억원, 413억원을 순매수하며 지수 상승을 견인하고 있다.\n전고체 배터리와 피지컬 AI 테마가 재부각되며 대형주 중심 강세가 나타나고 있다. 에코프로(086520)는 전 거래일 대비 9100원(5.19%) 오른 18만4300원에, 레인보우로보틱스(277810)는 9만9000원(12.56%) 상승한 88만7000원에 거래 중이다.\n이밖에 알테오젠(196170)(0.75%), 에코프로비엠(247540)(1.62%), 삼천당제약(000250)(29.85%), 에이비엘바이오(298380)(2.72%), 코오롱티슈진(950160)(9.26%), 리노공업(058470)(6.89%), 케어젠(214370)(1.64%) 등이 상승 행렬에 가담했다. 반면 HLB(028300)(-0.58%) 등은 소폭 하락했다.\n강진혁 신한투자증권 선임연구원은 “삼성전자 중심으로 수급을 흡수하며 쏠림현상이 나온 이후 온기가 확산되고 있다”며 “엔비디아 호실적 발표에 AI밸류체인에 속한 반도체, 전력기기, 자동차가 견인하고 있다”고 설명했다."
         },
         {
-          "title": "노태문 삼성전자 사장 “구글과 공동 개발한 AI OS 첫 적용”",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605555&office_id=016&code=005930&page=6&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:30",
-          "source": "헤럴드경제",
-          "has_name": true
-        },
-        {
-          "title": "공포지수 대수냐…'엔비디아 호재' 6200도 뚫었다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494665&office_id=374&code=005930&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 15:10",
+          "title": "국민성장펀드, 삼성전자 평택5공장에 2.5조 공급…설비 가동 2년 당겨",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494702&office_id=374&code=005930&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.26 16:30",
           "source": "SBS Biz",
-          "has_name": false
-        },
-        {
-          "title": "\"애플, 프라이버시 디스플레이는 따라하자\" 갤S26에 외신 '호평'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013789360&office_id=003&code=005930&page=10&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:56",
-          "source": "뉴시스",
-          "has_name": false
+          "has_name": true,
+          "content": "[11일 서울 여의도 산업은행에서 열린 국민성장펀드 출범식에서 박상진 한국산업은행 회장(왼쪽 네번째부터), 이억원 금융위원장과 박현주 미래에셋 회장, 서정진 셀트리온 회장 등이 기념 세리머니를 하고 있다. (사진=연합뉴스)]\n국민성장펀드가 '1차 메가프로젝트'의 일환으로 삼성전자 평택5공장(P5)과 울산 전고체배터리 소재공장 사업 등 2건을 선정했습니다.\n금융위원회는 오늘(26일) 국민성장펀드 기금운용심의회를 열고 삼성전자와 이수스페셜티케미컬에 첨단전략산업기금을 통한 저리 대출을 제공하는 안건을 의결했다고 밝혔습니다.\n이번 승인에 따라 삼성전자에는 2조5천억원, 이수스페셜티케미컬에는 1천억원이 각각 공급됩니다.\n삼성전자 평택 P5는 총 60조원 이상이 투입되는 초대형 반도체 투자 프로젝트입니다.\n현재 삼성전자가 추진 중인 1단계 설비투자는 8조8천억원의 자금이 투자되는 사업으로, 6조3천억원은 기업이 자체 조달하고 나머지 2조5천억원은 첨단전략산업기금 2조원(국고채 수준 금리)과 5대 시중은행 5천억원(3%대 금리)이 각각 5년 만기로 공급합니다.\n삼성전자는 대규모 금융 지원에 힘입어 당초 2030년께로 추진하던 설비 가동 계획을 2028년으로 당겨서 추진하기로 했습니다.\n이를 통해 차세대 고대역폭 메모리(HBM) 및 AI반도체 위탁생산(파운드리) 경쟁력 강화를 뒷받침한다는 계획입니다.\n금융위는 \"P5 공장은 최근 2층으로 건설되는 일반적인 반도체 팹과 달리 3층 구조로 건설돼 반도체 생산능력을 더욱 효율적으로 확대할 수 있을 것\"이라고 기대했습니다.\n특히 삼성전자는 이번 지원을 계기로 신용보증기금과 협력해 2천억원 규모의 특례보증 프로그램을 신설하고, 평택 P5 공정에 국내 장비를 시범 도입하는 등 소부장(소재·부품·장비) 기업과의 상생 모델도 확대하기로 했습니다.\n울산 울주군에 구축되는 이수스페셜티케미컬의 황화리튬 생산공장은 전고체 배터리 핵심소재의 국산 공급망을 확보하기 위한 사업입니다.\n국내 중견기업이 황화리튬 소재의 글로벌 선두권 공급사로 성장해 산업표준을 선도하고, 국내외 안정적인 공급망을 구축하는 데 의미가 있습니다.\n첨단기금은 1천억원의 자금을 3% 초반대의 저금리로 10년간 장기 대출합니다.\n금융위는 \"국민성장펀드의 1차 메가프로젝트에 포함된 7건 사업은 사업 진행의 성숙도 및 자금 소요 시점 등을 고려해 속도감 있게 승인 중\"이라고 설명했습니다.\n당신의 제보가 뉴스로 만들어집니다.\nSBS Biz는 여러분의 제보를 기다리고 있습니다.\n홈페이지 = https://url.kr/9pghjn"
         }
       ],
       "related_stocks": [
@@ -929,14 +432,14 @@
           "change_rate": "+3.7%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     },
     {
       "id": "sig_20260226_KR_007",
       "theme": "#플랫폼",
       "signal_type": "이슈",
-      "short_reason": "카카오엔터,, '한국대중음악상'",
-      "summary": "카카오은(는) 카카오엔터, '한국대중음악상' 시상식 멜론에서 생중계 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "카카오은(는) [질문에 답하다] 네이버·카카오 AI는 정말 생활을 바꿀까 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "카카오",
         "symbol": "035720",
@@ -945,109 +448,39 @@
       },
       "news_articles": [
         {
-          "title": "카카오엔터, '한국대중음악상' 시상식 멜론에서 생중계",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008794573&office_id=421&code=035720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:08",
-          "source": "뉴스1",
+          "title": "[질문에 답하다] 네이버·카카오 AI는 정말 생활을 바꿀까",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012963&office_id=029&code=035720&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.26 18:05",
+          "source": "디지털타임스",
           "has_name": true,
-          "content": "26일 오후 8시부터 멜론 앱·유튜브 멜론 채널 실시간 중계\n수상작 플레이리스트 멜론 공개…비하인드 매거진 3월 멜론에서\n(서울=뉴스1) 신은빈 기자 = 카카오엔터테인먼트가 카카오창작재단이 타이틀 스폰서로 참여하는 '제23회 한국대중음악상'(KMA) 시상식을 26일 오후 8시부터 멜론을 통해 온라인 생중계한다.\n이번 한국대중음악상은 '올해의 음반', '올해의 노래', '올해의 음악인' 등 종합분야와 각 장르분야별 총 3개 분야 26개 부문에서 수상 후보자를 공개하며 화제를 모았다. 시상식은 멜론 모바일 애플리케이션(앱)과 유튜브 내 멜론 채널에서 실시간 중계한다.\n시상식이 끝난 후에는 모든 수상작을 모은 플레이리스트가 멜론에서 공개된다. 시상식 비하인드 콘텐츠를 모은 매거진도 다음 달 멜론에서 공개할 예정이다.\n타이틀 스폰서인 카카오창작재단은 이번 시상식에서 신인상 수상자와 후보자를 대상으로 '카카오창작재단 & 멜론 뮤직 커넥트 프로그램'을 진행한다. 카카오창작재단은 카카오엔터테인먼트에서 창작자와 함께하는 건강한 생태계를 구축하기 위해 설립한 문화체육관광부 산하 재단법인이다.\n재단은 심사를 거쳐 1인당 500만 원 상당의 앨범 제작비를 지원한다. 앨범 발매 이후에는 멜론 홍보도 지원할 계획이다."
+          "content": "네카오 ‘AI 에이전트’\n“다음 주 금요일 저녁 부장님이 좋아하시는 메뉴 맛집으로 8명 회식장소 예약해 줘. 결제는 우선 내 카드로 하고.”\n사용자의 말 한마디에 인공지능(AI)이 앱을 켜고 그동안 부장님과의 대화 내용을 이해해 메뉴를 선정한 뒤 온라인에 있는 리뷰를 참고해 예약과 결제까지 마치는 시대가 열리고 있다.\n단순한 지식 검색과 대화 상대였던 AI가 사람을 대신해 과제를 수행하는 행동하는 ‘AI 에이전트’로 진화하고 있다.\n한국에선 네이버와 카카오가 AI 에이전트 시대를 가장 앞에서 열어 나가고 있다.\n포털과 메신저에서 독보적인 점유율을 확보하고 있는 네이버와 카카오 서비스에 AI 에이전트 도입이 가시화되면서 AI가 이용자의 일상 속으로 파고들 전망이다.\n네이버는 올해를 AI 에이전트 수익화의 원년으로 선언했다. 카카오도 그동안 발전시켜 온 AI를 카카오톡에 심는 ‘카나나 인 카카오톡’ 정식 서비스를 앞두고 있다. 별개 앱으로 사용하던 AI를 실제로 가장 많이 사용하는 서비스에 접목하고, 그 AI 역시 기존과는 달라진 에이전트가 된다는 점에서 대중의 기대는 높아지고 있다.\n하지만 당장 떠오르는 혁신적인 서비스는 없다. 이미 대화형 AI는 너무나 보편화했고, 알파고나 챗GPT를 처음 봤을 때의 신선함과 충격도 이제 더 이상 없다.\n네이버와 카카오의 AI 에이전트가 사람들의 높아진 눈높이를 얼마나 충족시키고 이용자의 일상을 어떻게 바꿔나갈 지가 가장 큰 관심사다.\n◇‘과제’ 중심 네이버, ‘관계’ 중심 카카오\n네이버와 카카오는 올해 1분기 새로운 AI 에이전트를 동시에 출시한다. 네이버는 그동안 제공하던 생성형 AI 서비스 클로바X와 큐를 종료하고 에이전트 서비스를 본격적으로 내놓는다. 카카오 역시 카나나 인 카카오톡으로 승부수를 던졌다.\n두 회사가 AI 서비스를 개발한 과정은 시작부터 달랐다. 우선 네이버는 천문학적인 그래픽처리장치(GPU) 인프라 투자 비용을 감당하며 한국형 AI를 직접 개발해 왔다.\nAI 주권을 위한 ‘소버린 AI’를 강조하며 2021년 국내 최초의 초거대 AI 하이퍼클로바를 공개했고, 이를 발전시켜 2023년 하이퍼클로바X를 발표했다. 이를 활용한 대화형 에이전트와 생성형 검색 서비스도 연달아 내놨다.\n카카오도 개발 초기 자체 모델을 추구했지만, 자체 AI 모델 개발과 함께 글로벌 빅테크의 기술을 더했다. 현재도 고성능 고효율의 자체 모델을 개발해 서비스나 기능에 적용하고 있다.\n우여곡절 끝에 모습을 드러낸 양사의 AI 에이전트는 지향점에서도 차이를 보인다. 네이버가 방대한 자체 생태계를 무기로 한 ‘과제 중심의 만능 비서’를 추구한다면, 카카오는 메신저 본질에 집중한 ‘관계 중심의 소통 비서’를 표방한다.\n카카오의 가장 큰 무기는 사람과 사람 사이의 맥락을 파악하는 것이다. 전 국민이 사용하는 카카오톡에서 대화흐름을 읽어낸다. 누군가와 약속을 잡거나, 단체 대화방에서 모임을 추진할 때 카나나는 이들의 대화를 통해 장소, 취향, 일정을 종합, 식당을 추천해 준다.\n네이버의 핵심 경쟁력은 거대한 서비스 인프라다"
         },
         {
           "title": "카카오엔터, '한국대중음악상' 시상식 멜론에서 생중계",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008794573&office_id=421&code=035720&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008794573&office_id=421&code=035720&page=7&sm=title_entity_id.basic",
           "date": "2026.02.26 10:08",
           "source": "뉴스1",
           "has_name": true
         },
         {
           "title": "카카오·삼성전자 등 대기업 폭파 협박 10대 구속영장 심사",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015925349&office_id=001&code=035720&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015925349&office_id=001&code=035720&page=9&sm=title_entity_id.basic",
           "date": "2026.02.26 09:17",
           "source": "연합뉴스",
           "has_name": true
         },
         {
-          "title": "[증시 인사이트] 엔비디아 지난 4분기 매출 98조 원 기록…\"역대 최...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494703&office_id=374&code=035720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 16:31",
-          "source": "SBS Biz",
+          "title": "누가 뭐라든 승진은 싫다…‘리더 포비아’ [스페셜 리포트]",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000103730&office_id=024&code=035720&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.26 21:01",
+          "source": "매경이코노미",
           "has_name": false
         },
         {
-          "title": "코스피, 6거래일째 사상 최고 랠리…6천피 하루만에 6300선 돌파[마...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006225438&office_id=018&code=035720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 15:54",
-          "source": "이데일리",
-          "has_name": false
-        },
-        {
-          "title": "SI 중심 390억 추가 조달…리얼월드 \"산업현장 AI 로보틱스 전환...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322776&office_id=008&code=035720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:30",
-          "source": "머니투데이",
-          "has_name": false
-        },
-        {
-          "title": "네이버 'AI 에이전트 쇼핑' 출격…해외선 아마존·오픈AI 불붙어",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322701&office_id=008&code=035720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:01",
-          "source": "머니투데이",
-          "has_name": false
-        },
-        {
-          "title": "마티니 아이오, '그로스 마케팅 포워드 2026' 성료",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002411921&office_id=092&code=035720&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.26 08:40",
-          "source": "지디넷코리아",
-          "has_name": false
-        },
-        {
-          "title": "세금으로 만든 내 나라 지도…세금도 안내는 美기업에 뺏길 판",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008793957&office_id=421&code=035720&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.26 05:30",
-          "source": "뉴스1",
-          "has_name": false
-        },
-        {
-          "title": "\"택시 불러줘\" AI 더 쉽게 쓰는 갤럭시S26…\"8억대 보급 목표\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005726095&office_id=277&code=035720&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.26 03:04",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
-          "title": "관세청, 민관 공조로 ‘K-브랜드 위조’ 근절",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605654&office_id=016&code=035720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:39",
-          "source": "헤럴드경제",
-          "has_name": false
-        },
-        {
-          "title": "경기창경센터, 유니콘 브릿지 2025년 전략투자 25.7억원 성과 발표",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402313&office_id=030&code=035720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:43",
-          "source": "전자신문",
-          "has_name": false
-        },
-        {
-          "title": "마티니 아이오, '그로스 마케팅 포워드 2026' 성료",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002411921&office_id=092&code=035720&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 08:40",
-          "source": "지디넷코리아",
-          "has_name": false
-        },
-        {
-          "title": "세금으로 만든 내 나라 지도…세금도 안내는 美기업에 뺏길 판",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008793957&office_id=421&code=035720&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 05:30",
-          "source": "뉴스1",
-          "has_name": false
-        },
-        {
-          "title": "\"택시 불러줘\" AI 더 쉽게 쓰는 갤럭시S26…\"8억대 보급 목표\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005726095&office_id=277&code=035720&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 03:04",
-          "source": "아시아경제",
+          "title": "“검색대신 대화하세요”…네이버 ‘쇼핑AI’ 출격",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593995&office_id=011&code=035720&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.26 17:59",
+          "source": "서울경제",
           "has_name": false
         }
       ],
@@ -1069,14 +502,14 @@
           "change_rate": "-1.4%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     },
     {
       "id": "sig_20260226_KR_008",
       "theme": "#IT기기",
       "signal_type": "이슈",
-      "short_reason": "저스템,, LG전자",
-      "summary": "오늘 LG디스플레이 주가는 저스템, LG전자 OLED 공정 장비 수주 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "LG디스플레이은(는) LG디스플레이, 대형 OLED 패널 ‘화면 밝기 유지율’ 100% 검증 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "LG디스플레이",
         "symbol": "034220",
@@ -1085,12 +518,12 @@
       },
       "news_articles": [
         {
-          "title": "저스템, LG전자 OLED 공정 장비 수주",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593591&office_id=011&code=034220&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 06:13",
-          "source": "서울경제",
-          "has_name": false,
-          "content": "반도체·디스플레이 전문 장비기업\n이 LG전자와 유기발광다이오드(OLED) 제조라인의 공정장비 공급계약을 체결했다고 밝혔다.\n계약기간은 2027년 7월까지이며 수주금액은 74억 원으로 저스템이 LG전자로부터 수주한 단일 프로젝트로는 최대 규모다. 저스템은 기존에 정보기술(IT) OLED용 진공 물류장비와 연구개발(R&D)용 레이저 패터닝 장비 등을 공급해 왔는데 이번이 세번째 대형 장비 수주다.\n저스템 측은 “그동안 관련 장비를 공급하며 경험과 노하우를 축적해왔고 정전기 제어장치인 ‘VIS’(Vacuum Ionizer System)를 LG디스플레이에 대량으로 공급하며 패널의 수율 향상을 제고하는 등 기술 역량을 높이 평가받았다”고 설명했다.\n저스템은 이번 수주가 향후 OLED 양산 장비 시장에 본격적으로 진출할 수 있는 초석이 될 것으로 기대하고 있다. 글로벌 디스플레이 시장의 업황 개선에 따라 동일한 라인이 추가로 설치될 수 있고 그에 따른 OLED 양산라인 투자가 지속될 수 있기 때문이다. 김명수 저스템 이사는 “이번 프로젝트 수주로 저스템은 공정장비 분야에서도 기술력과 신뢰도를 공식적으로 다시 한번 인정받았다” 며 “향후 양산 장비 시장에 본격 진출하는 계기가 될 것”이라고 강조했다"
+          "title": "LG디스플레이, 대형 OLED 패널 ‘화면 밝기 유지율’ 100% 검증",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144719&office_id=366&code=034220&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.26 17:13",
+          "source": "조선비즈",
+          "has_name": true,
+          "content": "LG디스플레이가 TV·모니터에 쓰이는 자사 대형 유기발광다이오드(OLED) 패널의 휘도(화면 밝기) 유지율이 100%를 달성했다고 26일 밝혔다.\nLG디스플레이는 글로벌 인증전문기업 ‘UL솔루션즈’(UL Solutions)로부터 자사 모든 대형 OLED 패널 제품의 휘도(화면 밝기) 유지율이 100%라는 점을 인증하는 ‘성능 우수성 검증’을 받았다.\n휘도 유지율은 디스플레이의 밝기를 바탕으로 콘텐츠 재현력이 얼만큼 우수한지를 백분율로 평가하는 측정법이다. 화면 정중앙 중심으로 테스트 기준 면적을 전체 화면의 ▲10%(1/10) ▲1.1%(11/1000) ▲0.5%(5/1000) ▲0.2%(2/1000)로 설정하고, 이들 면적의 휘도를 측정해 각 휘도값이 변화하지 않고 유지하는지를 백분율로 표현한다. 55인치 TV의 경우, 테스트 기준 면적을 17인치 노트북 화면(38x22cm), 스마트폰(13x7cm), 명함(8x4cm), 엄지손가락 두 마디(5x3cm) 크기로 줄여 나가며 측정한다.\n화면 밝기를 측정한 최댓값과 최솟값이 변화 없이 똑같이 유지되면 휘도 유지율이 100%가 된다. 반대로 값이 낮아질수록 한 화면에서도 위치에 따라서 빛의 세기가 달라진다는 걸 나타낸다.\nLG디스플레이 OLED 패널은 테스트 기준 면적이 줄어들어도 밝기 성능을 그대로 유지한 것으로 평가됐다. 반면 액정표시장치(LCD) 계열 패널들은 테스트 기준 면적이 줄어들수록 어두워지며 최대 83%에서 최저 43%까지 떨어지는 것으로 나타났다.\nLG디스플레이의 대형 OLED TV 패널 신제품은 빛의 삼원색(적·녹·청)을 각각 독립된 층으로 쌓아 빛을 내는 독자 기술 ‘프라이머리 RGB 탠덤 2.0’을 적용했다. 최대 휘도 4500니트(nit·1nit는 촛불 하나 밝기)를 구현하면서 빛을 반사하지 않고 흡수·분산시켜주는 기술도 탑재, 낮은 수준의 반사율(0.3%)을 달성했다.\n이현우 LG디스플레이 대형사업부장은 “OLED가 더 밝고 선명하게 보이는 이유를 객관적으로 밝혀냈다”며 “휘도 유지율 100%를 유지하는 OLED의 픽셀 디밍 기술이 AI 시대 최고의 선택이라는 것을 고객들에게 객관적인 검증을 통해 보다 명확히 설명하게 됐다”고 말했다."
         },
         {
           "title": "LG디스플레이 \"OLED '휘도 유지율 100%' 성능 입증\"",
@@ -1107,17 +540,17 @@
           "has_name": true
         },
         {
-          "title": "LG디스플레이, OLED '휘도 유지율 100%' 검증",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243122&office_id=215&code=034220&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:52",
-          "source": "한국경제TV",
+          "title": "LG디스플레이, 업계 최초 OLED '휘도 유지율 100%' 검증…L...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002218941&office_id=138&code=034220&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.26 10:36",
+          "source": "디지털데일리",
           "has_name": true
         },
         {
-          "title": "LGD ‘OLED가 더 밝은 이유’ 국제 인증 받았다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605526&office_id=016&code=034220&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:23",
-          "source": "헤럴드경제",
+          "title": "LGD, OLED 패널 전 제품 '휘도 유지율 100%'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005483621&office_id=014&code=034220&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.26 18:26",
+          "source": "파이낸셜뉴스",
           "has_name": false
         }
       ],
@@ -1143,14 +576,14 @@
           "change_rate": "+0.6%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     },
     {
       "id": "sig_20260226_KR_009",
       "theme": "#전력기기",
       "signal_type": "이슈",
-      "short_reason": "효성重,, 'HVDC",
-      "summary": "오늘 LS ELECTRIC 주가는 효성重, 'HVDC 국산화' 눈앞…11조 에너지고속도로 수주전 기선제압 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "LS ELECTRIC은(는) 'AI 슈퍼사이클' 올라탄 K증시 … 반도체·소부장 질주 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "LS ELECTRIC",
         "symbol": "010120",
@@ -1159,52 +592,38 @@
       },
       "news_articles": [
         {
-          "title": "효성重, 'HVDC 국산화' 눈앞…11조 에너지고속도로 수주전 기선제압",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008794427&office_id=421&code=010120&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 09:37",
-          "source": "뉴스1",
+          "title": "'AI 슈퍼사이클' 올라탄 K증시 … 반도체·소부장 질주",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642683&office_id=009&code=010120&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.26 17:40",
+          "source": "매일경제",
           "has_name": false,
-          "content": "\"내년까지 525㎸·2GW HVDC 양극 시스템 개발\"…29년 양산 로드맵\n국내 첫 대용량·고전압 HVDC 기술 자립 '윤곽'…·해외시장 개척\n(서울=뉴스1) 최동현 기자 = 효성중공업(298040)이 국내 최초로 2기가와트(GW)급 초고압직류송전(HVDC) 국산화 로드맵을 내놨다. 독자 기술인 200메가와트(㎿)급 단극(monopole) 전압형 HVDC를 양극(bipole) 방식으로 확장해 2GW급 전압형 HVDC 변압기 개발을 완료하고 2029년 양산에 돌입한다는 구상이다.\n2GW는 글로벌 HVDC 표준 용량이자, 정부가 2030년 완공을 목표한 '서해안 에너지고속도로 사업'의 핵심 단위다. 로드맵이 순항할 경우 효성중공업은 11조 원 규모의 서해안 에너지고속도로 수주전과 한국산 HVDC 해외 판로 개척이라는 '두 마리 토끼'를 모두 쥐게 된다.\n효성重 \"내년까지 2GW HVDC 양극 시스템 개발\"\n26일 업계에 따르면 효성중공업은 전날(25일) 서울 마포 본사에서 진행한 'HVDC 에너지 고속도로 국산화 추진 현황 점검회'에서 내년까지 525킬로볼트(㎸)·2GW급 전압형 HVDC 양극 시스템을 개발하고, 2029년 변압기 양산을 시작해 2030년 서해안 에너지 고속도로 1차 사업(새만금~서화성) 완공 시점에 맞춰 설치·운영하겠다고 밝혔다.\n국내 업체들은 아직 525㎸·2GW급 전압형 HVDC 기술을 개발하지 못했다. 이에 한국에너지기술평가원(에기평)은 지난해 8월 '500㎸급 전압형 HVDC 변환용 변압기 기술개발' 국책과제를 발주, 국내 전력기기 4사(효성중공업·HD현대일렉트릭·LS일렉트릭·일진전기)가 뛰어들었는데 효성중공업이 가장 먼저 국산화 실마리를 제시한 셈이다.\n효성중공업이 불과 6개월 만에 기술 로드맵을 제시할 수 있었던 배경엔 '바이폴(양극) 시스템' 전략이 있다. 앞서 효성중공업은 2024년 국내 최초로 120㎸·200㎿급 전압형 HVDC를 독자 개발해 양주변전소에 설치했다. 당시 효성중공업은 HVDC 컨버터 용량을 1GW까지 제어할 수 있도록 설계했는데, 1GW급 모노폴 HVDC 두 기를 연결하는 '바이폴 시스템'을 적용하면 단기간에 525㎸·2GW급 HVDC 구현이 가능하다는 것이다.\n효성중공업 측은 \"모노폴을 바이폴로 확장할 경우 하드웨어의 변경 없이 디스패치(전력 분배)를 수행하는 바이폴 컨트롤러의 소프트웨어 변경만으로 대응이 가능하다\"며 \"HVDC 신기술을 처음부터 개발하는 것이 아니라, 기존의 제어 시스템과 컨버터 밸브, 변압기를 업그레이드하는 방식이기 때문에 내년 중 개발이 가능하다\"고 강조했다.\n효성중공업은 △제어 시스템 △컨버터 밸브 △단락기 3대 핵심 기술 개발을 통해 525㎸·2GW급 HVDC 기술을 구현할 방침이다. 현재 제어 시스템은 70%, 컨버터 밸브는 40% 개발이 완료된 상태다. 컨버터 밸브에는 모듈형 멀티레벨 컨버터(MMC) 방식을 적용, 밸브 4개를 3층으로 쌓아 전압을 기존 120㎸에서 525㎸로 확장할 예정이다.\n에너지道 수주전·해외 수출 '선점' 노린다\n효성중공업이 2029년 525㎸·2GW급 HVDC 전압용 변압기 양산에 성공하면 11조 원 규모의 서해안 에너지고속도로 사업에서 '수주 우위'는 물론 '수출 판로 개척'까지 가능할 것으로 기대된다.\n한국전력은 내년 본입찰이 예상되는 서해안 에너지 고속도로 1차 사업에서 에기평 국책과제(500㎸급 전압형 HVDC 변환용 변압기 개발)에서 성과를 낸 업체에 수주 우선권을 부여할 예정이다. 서해안 에너지고속도로 사업은 총사업비만 11조 원으로 추산되는 메가톤급 인프라 프로젝트로 국내 전력 업계가 주목하는 '대어'(大漁)다.\n한국형 HVDC 기술의 수출길이 열리는 점도 쾌거다. 글로벌 HVDC 시장은 2GW급 대용량을 구현할 수 있는 해외 3사(히타치에너지·GE버노바·지멘스에너지)가 독식 중이다. 인공지능(AI) 대호황으로 송전망 인프라 수요가 급증한 시점에 맞춰, 기존 과점 체제를 깨고 한국 기업이 '빅4'에 진입하게 된다.\n효성중공업은 경남 창원공장에 3300억 원을 투자해 국내 최대 규모 전압형 HVDC 변압"
+          "content": "엔비디아가 재확인시켜준 인공지능(AI) 슈퍼 사이클에 26일 코스피와 코스닥이 나란히 역사적 최고가를 새로 썼다. 시장의 예상을 넘어선 '어닝 서프라이즈'를 발표한 엔비디아가 그간 움츠렸던 미국 증시에서 구원투수로 등판한 데 이어 한국 증시에선 6300선을 가볍게 넘기는 만루 홈런을 쳤다.\n이날 삼성전자는 7.13% 오르며 12거래일 연속 상승을 이어갔다. 삼성전자와 SK하이닉스의 상승세에 코스피 전체 시가총액은 5200조원까지 늘어났다.\nAI 밸류체인 관련주들은 엔비디아 훈풍에 SK하이닉스의 용인 클러스터 투자 소식까지 더해져 또다시 상승세를 이어갔다. 반도체 두 대장주뿐만 아니라 소재·부품·장비(소부장)와 전력기기주들이 일제히 역사적 최고가를 다시 쓴 것이다.\nSK하이닉스는 지난 25일 장마감 이후 용인 반도체 공장에 21조6000억원 규모 투자를 집행한다고 공시했다. 이날 한미반도체는 전일 대비 28.44% 오른 27만5500원에 장을 마감했다. 그동안 고객사의 시설 투자(CAPEX) 발표가 지연되면서 장비 수주 실적이 기대에 못 미치며 한미반도체 주가는 작년 말까지 약세였다. 그러나 최근 SK하이닉스의 투자에 삼성전자 수주설까지 나오면서 주가가 급등했다. 이날 외국인이 코스피에서 가장 많이 순매수한 종목도 한미반도체(1897억원)였다.\n그동안 소부장은 삼성전자나 SK하이닉스 같은 전방산업에 비해 주가 상승률이 낮았다. 메모리 슈퍼 사이클이라고 하지만 메모리 가격 상승의 수혜를 입는 전방산업과 이익 구조가 달랐기 때문이다. 소부장은 메모리 가격이 올라도 생산량이나 수주가 확대되지 않으면 가시적인 실적 성장을 기대하기 힘들다. 그간 빅테크와 전방산업의 지속적인 투자 확대에 대한 의구심이 나오면서 소부장 주가가 크게 움직이지 않았던 이유다. 그러나 이번 엔비디아의 실적 발표로 AI 반도체 수요 확대에 대한 기대가 생태계 확장과 부품·장비 수요 증가로까지 이어지며 소부장주가 일제히 상승했다. 이날 반도체용 레이저 장비 기업 이오테크닉스는 12.57% 급등했으며 반도체 소켓 제조사 리노공업은 9.88% 상승했다. 한화비전도 13.46% 올랐다.\n이외에도 HPSP는 5.61%, ISC는 5.65%, 피에스케이홀딩스는 11.06% 오르는 등 코스닥에 상장된 소부장주가 강한 상승세를 보였다.\n데이터센터 증가로 인한 전력 인프라스트럭처 수주에 대한 기대감으로 전력기기주도 큰 폭으로 올랐다. 이날 LS일렉트릭은 6.64% 오르고, 효성중공업은 4.89% 오른 289만8000원으로 신고가를 썼다. 엔비디아의 실적 발표에서 LG전자가 피지컬 AI 협력사로 언급되면서 LG전자 주가가 10.05% 상승하기도 했다.\n최근 LG전자는 올해 정기 주주총회를 앞두고 가전 사업본부에 홈로봇과 로봇 핵심 부품인 액추에이터를 사업 개요에 새로 포함시켜 로봇 부문에서 새 수익원을 확보하겠다는 의지를 피력했다. LG전자는 청소와 산업, 상업용 로봇 분야에서 축적한 기술력을 바탕으로 홈로봇 개발에 주력하고 있는데, 여기에 더해 로봇 핵심 부품인 액추에이터에서도 독자 사업을"
         },
         {
           "title": "[특징주] AI데이터센터 정책 기대에 전력기기주 급등…일진전기 5%↑(...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015927308&office_id=001&code=010120&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015927308&office_id=001&code=010120&page=2&sm=title_entity_id.basic",
           "date": "2026.02.26 16:00",
           "source": "연합뉴스",
           "has_name": false
         },
         {
-          "title": "LS그룹 3세 이상현 태인 대표, 문화유산국민신탁 이사장 취임",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005726692&office_id=277&code=010120&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 15:23",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
           "title": "LS家 3세 이상현 태인 대표...국가유산청 문화유산국민신탁 이사장 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642463&office_id=009&code=010120&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642463&office_id=009&code=010120&page=2&sm=title_entity_id.basic",
           "date": "2026.02.26 14:33",
           "source": "매일경제",
           "has_name": false
         },
         {
           "title": "[특징주] 일진전기, AI 데이터센터 지원 본격화 기대에 5%↑",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015925737&office_id=001&code=010120&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015925737&office_id=001&code=010120&page=2&sm=title_entity_id.basic",
           "date": "2026.02.26 10:07",
           "source": "연합뉴스",
           "has_name": false
         },
         {
-          "title": "LS일렉트릭 ‘AI로 풍력 발전량 예측’ 기술 개발",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699773&office_id=020&code=010120&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 00:31",
-          "source": "동아일보",
-          "has_name": false
-        },
-        {
-          "title": "LS그룹 3세 이상현 태인 대표, 문화유산국민신탁 이사장 취임",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008795402&office_id=421&code=010120&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:45",
+          "title": "효성重, 'HVDC 국산화' 눈앞…11조 에너지고속도로 수주전 기선제압",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008794427&office_id=421&code=010120&page=2&sm=title_entity_id.basic",
+          "date": "2026.02.26 09:37",
           "source": "뉴스1",
           "has_name": false
         }
@@ -1231,14 +650,14 @@
           "change_rate": "-1.6%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     },
     {
       "id": "sig_20260226_KR_010",
       "theme": "#금융",
       "signal_type": "이슈",
-      "short_reason": "서클, '깜짝",
-      "summary": "오늘 카카오페이 주가는 서클 '깜짝 실적'에 스테이블코인株 급등…헥토파이낸셜 20%대 강세 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "카카오페이은(는) [특징주] 카카오페이, 스테이블코인 기대감에 8% 강세 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "카카오페이",
         "symbol": "377300",
@@ -1247,60 +666,38 @@
       },
       "news_articles": [
         {
-          "title": "서클 '깜짝 실적'에 스테이블코인株 급등…헥토파이낸셜 20%대 강세",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000093669&office_id=243&code=377300&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 10:45",
-          "source": "이코노미스트",
-          "has_name": false,
-          "content": "USDC 발행사 실적 호조에 투자심리 자극\n[이코노미스트 우승민 기자] 미국 스테이블코인 USDC 발행사 서클이 시장 기대를 웃도는 실적을 발표하면서 국내 스테이블코인 관련 종목들이 일제히 급등했다. 미 증시에서 서클 주가가 30% 넘게 치솟자 관련 사업을 영위하거나 결제 인프라를 제공하는 국내 기업들로 매수세가 확산되는 모습이다.\n26일 오전 장 초반 스테이블코인 테마주가 강한 상승 흐름을 보였다. 헥토파이낸셜은 전 거래일 대비 20% 넘게 오르며 단숨에 2만8000원선을 회복했다. 이 밖에도 쿠콘, 카카오페이, NHN KCP, 미투온, 다날 등 전자결제 및 핀테크 관련 종목들이 동반 상승했다. 스테이블코인 사업과 직·간접적으로 연결된 기업들에 대한 기대감이 반영된 결과로 해석된다.\n상승 배경에는 미국 스테이블코인 USDC 발행사인 서클의 실적 발표가 있다. 25일(현지시간) 뉴욕 증시에서 서클은 전일 대비 35% 넘게 급등하며 80달러선을 돌파했다. 지난해 4분기 매출이 7억7000만달러로 전년 동기 대비 70% 이상 증가했고, 주당순이익(EPS) 역시 시장 예상치를 크게 웃도는 ‘어닝 서프라이즈’를 기록한 영향이다.\n서클은 달러 연동 스테이블코인인 USD Coin(USDC)을 발행·운영하는 기업이다. USDC는 발행량만큼 달러 및 미국 국채 등 안전자산을 준비금으로 보유하는 구조를 갖는다. 서클의 수익 대부분은 이 준비자산에서 발생하는 이자수익에서 나온다. 최근 고금리 환경이 이어지면서 국채 이자수익이 확대된 점이 실적 개선으로 이어졌다는 분석이다.\n시장에서는 미국 스테이블코인 산업이 제도권 금융과의 접점을 넓히고 있다는 점에도 주목한다. 디지털 자산을 둘러싼 규제 체계가 점차 구체화되는 가운데, 안정적인 준비금 구조를 갖춘 스테이블코인이 결제·송금 인프라로 활용될 가능성이 커지고 있기 때문이다. 이에 따라 국내에서도 결제 게이트웨이, 선불전자지급수단, 가상자산 연계 서비스 등을 영위하는 기업들에 대한 기대감이 재부각되고 있다."
-        },
-        {
           "title": "[특징주] 카카오페이, 스테이블코인 기대감에 8% 강세",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144518&office_id=366&code=377300&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144518&office_id=366&code=377300&page=3&sm=title_entity_id.basic",
           "date": "2026.02.26 09:54",
           "source": "조선비즈",
           "has_name": true
         },
         {
           "title": "‘스테이블 코인’ 카카오페이 다시 뛴다…서클 ‘어닝 서프라이즈’...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593637&office_id=011&code=377300&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593637&office_id=011&code=377300&page=4&sm=title_entity_id.basic",
           "date": "2026.02.26 08:18",
           "source": "서울경제",
           "has_name": true
         },
         {
+          "title": "[질문에 답하다] 네이버·카카오 AI는 정말 생활을 바꿀까",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012963&office_id=029&code=377300&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.26 18:05",
+          "source": "디지털타임스",
+          "has_name": false
+        },
+        {
           "title": "[증시 인사이트] 엔비디아 지난 4분기 매출 98조 원 기록…\"역대 최...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494703&office_id=374&code=377300&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494703&office_id=374&code=377300&page=3&sm=title_entity_id.basic",
           "date": "2026.02.26 16:31",
           "source": "SBS Biz",
           "has_name": false
         },
         {
           "title": "코스피, 6거래일째 사상 최고 랠리…6천피 하루만에 6300선 돌파[마...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006225438&office_id=018&code=377300&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006225438&office_id=018&code=377300&page=3&sm=title_entity_id.basic",
           "date": "2026.02.26 15:54",
           "source": "이데일리",
-          "has_name": false
-        },
-        {
-          "title": "코스피 6200 돌파에 거래대금 ‘쑥’…증권株도 상승 랠리 [매경 자이...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642410&office_id=009&code=377300&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 13:37",
-          "source": "매일경제",
-          "has_name": false
-        },
-        {
-          "title": "코스피 랠리 올라탄 증권株…“반도체 안부럽네” [종목Pick]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605502&office_id=016&code=377300&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.26 11:11",
-          "source": "헤럴드경제",
-          "has_name": false
-        },
-        {
-          "title": "AI 마이데이터가 자동으로 ‘금리인하 요구’",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699761&office_id=020&code=377300&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.26 00:31",
-          "source": "동아일보",
           "has_name": false
         }
       ],
@@ -1318,7 +715,7 @@
           "change_rate": "-1.4%"
         }
       ],
-      "timestamp": "2026-02-26 16:32:43"
+      "timestamp": "2026-03-02 21:21:25"
     }
   ]
 }
