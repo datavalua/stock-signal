@@ -540,7 +540,8 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                 articles_text += f"**애널리스트 투자의견 요약:** {analyst_data}\n\n"
 
             prompt = (
-                f"당신은 한국의 전문 주식 애널리스트입니다. 아래 제공된 최신 뉴스 기사들을 바탕으로 '{stock_name}' 주식의 오늘 {direction} 원인을 분석하세요.\n\n"
+                f"당신은 한국의 전문 주식 애널리스트입니다. 아래 제공된 최신 뉴스 기사들을 바탕으로 '{stock_name}' 주식의 오늘 {direction} 원인을 한국어로 분석하세요.\n"
+                f"만약 뉴스 기사가 영어라면, 모든 내용을 정확하게 한국어로 번역하여 분석에 반영해야 합니다.\n\n"
                 f"**뉴스 기사:**\n{articles_text}\n\n"
                 f"**작성 가이드라인 (반드시 준수):**\n"
                 f"1. **핵심 이유 요약 (short_reason)**: 상승/하락의 핵심을 **2~3개의 명사구/단어**로만 압축하세요. (예: '매출 성장과 지분 매각', '신제품 출시 기대감', '외주 증가'). 문장이나 마침표를 사용하지 마세요.\n"
