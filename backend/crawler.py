@@ -527,30 +527,28 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                 best = reordered.pop(best_idx)
                 reordered.insert(0, best)
 
-            prompt = (
-                f"당신은 금융 시장을 분석하는 최상급 AI 리포터입니다. {stock_name} ({direction})에 관한 최신 기사들을 읽고 분석 리포트를 작성하세요.\n\n"
-                f"**분석용 뉴스 데이터**\n"
-            )
-            
+            articles_text = ""
             # Use top 5 articles with 1500 chars context each
             for i, article in enumerate(reordered[:5]):
                 title = article.get("title", "")
                 content = article.get("content", "")
-                prompt += f"기사 {i+1}: {title}\n내용: {content[:1500]}\n\n"
+                articles_text += f"기사 {i+1}: {title}\n내용: {content[:1500]}\n\n"
                 
             if market == "KR" and investor_data:
-                prompt += f"**오늘 수급 데이터 (개인/외국인/기관):** {investor_data.get('개인','-')} / {investor_data.get('외국인','-')} / {investor_data.get('기관','-')}\n\n"
+                articles_text += f"**오늘 수급 데이터 (개인/외국인/기관):** {investor_data.get('개인','-')} / {investor_data.get('외국인','-')} / {investor_data.get('기관','-')}\n\n"
             elif market == "US" and analyst_data:
-                prompt += f"**애널리스트 투자의견 요약:** {analyst_data}\n\n"
+                articles_text += f"**애널리스트 투자의견 요약:** {analyst_data}\n\n"
 
-            prompt += (
+            prompt = (
+                f"당신은 한국의 전문 주식 애널리스트입니다. 아래 제공된 최신 뉴스 기사들을 바탕으로 '{stock_name}' 주식의 오늘 {direction} 원인을 분석하세요.\n\n"
+                f"**뉴스 기사:**\n{articles_text}\n\n"
                 f"**작성 가이드라인 (반드시 준수):**\n"
-                f"1. **한국어 요약 (summary)**: 모든 기사 내용을 종합하여 2~3문장으로 요약하세요. 단순 번역이 아닌 한국 독자가 이해하기 편한 전문가적인 리포트 어조를 사용하세요.\n"
-                f"2. **키워드 압축 (short_reason)**: 위 '요약(summary)'의 핵심을 **2~3개의 명사구/단어**로만 압축하세요. (예: '매출 성장세 지속, 실적 기대감', '신제품 출시 효과, 수주 확대'). 문장이나 마침표를 사용하지 마세요.\n"
-                f"3. **카테고리 분류 (category)**: '실적', '수급', '이슈', '거시경제', '빅테크' 중 하나를 선택하세요.\n"
-                f"4. **금지 사항**: '주가가 올랐습니다' 등 결과 나열은 피하고 변동의 '핵심 원인'을 구체적으로 기재하세요.\n"
-                f"5. **출력 형식**: 아래 JSON 구조로만 응답하세요. 마크다운 기호 없이 순수 JSON만 출력하세요.\n"
-                f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 키워드 어절 (2~3개)\", \"summary\": \"규칙을 준수한 자연스러운 요약 리포트\"}}"
+                f"1. **핵심 이유 요약 (short_reason)**: 상승/하락의 핵심을 **2~3개의 명사구/단어**로만 압축하세요. (예: '매출 성장과 지분 매각', '신제품 출시 기대감', '외주 증가'). 문장이나 마침표를 사용하지 마세요.\n"
+                f"2. **종합 분석 (summary)**: 3~4개의 글머리 기호(•)를 사용하여 요약하세요. 각 항목은 '~함', '~됨', '~전망' 등으로 끝나는 간결한 체를 사용하세요. 뉴스에 언급된 구체적인 수치, 전망, 전문가 의견을 포함하세요.\n"
+                f"3. **카테고리 분류 (category)**: '실적', '수급', '이슈', '거시경제', '빅테크' 중 가장 적합한 하나를 선택하세요.\n"
+                f"4. **금지 사항**: '주가가 올랐습니다' 등 단순 결과 나열은 피하고 변동의 '원인'에 집중하세요.\n"
+                f"5. **출력 형식**: 아래 JSON 구조로 응답하세요. 백틱(`)이나 마크다운 없이 순수 JSON만 출력하세요.\n"
+                f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 단어 (2~3개)\", \"summary\": \"• 첫째 내용\\n• 둘째 내용\\n• 셋째 내용\"}}"
             )
             
             model = genai.GenerativeModel(get_model_name())
