@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04 01:57:55",
+  "last_updated": "2026-03-04 02:50:22",
   "signals": [
     {
       "id": "sig_20260304_US_001",
@@ -10,10 +10,25 @@
       "main_stock": {
         "name": "Micron",
         "symbol": "MU",
-        "change_rate": "-6.6%",
+        "change_rate": "-7.1%",
         "news_url": "https://finance.yahoo.com/quote/MU"
       },
       "news_articles": [
+        {
+          "title": "Micron Sets New Benchmark With the World's First High-Capacity 256GB LPDRAM SOCAMM2 for Data Center Infrastructure",
+          "url": "https://finance.yahoo.com/news/micron-sets-benchmark-worlds-first-140000988.html?.tsrc=rss",
+          "date": "03.03 23:00",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Why Micron, SanDisk & Memory Stocks Are Crashing Today",
+          "url": "https://247wallst.com/investing/2026/03/03/why-micron-sandisk-memory-stocks-are-crashing-today/?.tsrc=rss",
+          "date": "03.04 01:26",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "Micron’s India Plant Opens New Chapter In AI Memory Capacity",
           "url": "https://finance.yahoo.com/news/micron-india-plant-opens-chapter-161044858.html?.tsrc=rss",
@@ -34,33 +49,19 @@
           "date": "03.03 23:00",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Micron Sets New Benchmark With the World's First High-Capacity 256GB LPDRAM SOCAMM2 for Data Center Infrastructure",
-          "url": "https://finance.yahoo.com/news/micron-sets-benchmark-worlds-first-140000988.html?.tsrc=rss",
-          "date": "03.03 23:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "The Iran Conflict Is Hitting Stocks Across the World. Just Look at This Red-Hot Market.",
-          "url": "https://finance.yahoo.com/m/d62dedd4-b2b3-38d0-9e71-a1f1c334928a/the-iran-conflict-is-hitting.html?.tsrc=rss",
-          "date": "03.03 22:38",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
         {
           "name": "[Semiconductors] Intel",
-          "change_rate": "-4.3%"
+          "change_rate": "-5.0%"
         },
         {
           "name": "[Semiconductors] NVIDIA",
-          "change_rate": "-1.1%"
+          "change_rate": "-1.5%"
         }
       ],
-      "timestamp": "2026-03-04 01:57:55"
+      "timestamp": "2026-03-04 02:50:22"
     },
     {
       "id": "sig_20260304_US_002",
@@ -71,14 +72,29 @@
       "main_stock": {
         "name": "Cameco",
         "symbol": "CCJ",
-        "change_rate": "-5.9%",
+        "change_rate": "-5.3%",
         "news_url": "https://finance.yahoo.com/quote/CCJ"
       },
       "news_articles": [
         {
+          "title": "Cameco to supply uranium ore concentrate to India in $1.9bn worth deal",
+          "url": "https://www.investmentmonitor.ai/news/cameco-to-supply-uranium-ore-india/?.tsrc=rss",
+          "date": "03.03 00:38",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
           "title": "Cameco’s India Uranium Deal Tests High Valuation And Growth Hopes",
           "url": "https://finance.yahoo.com/news/cameco-india-uranium-deal-tests-161227720.html?.tsrc=rss",
           "date": "03.04 01:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Cameco Inks $1.9B Long-Term Uranium Supply Deal With India",
+          "url": "https://finance.yahoo.com/news/cameco-inks-1-9b-long-152000613.html?.tsrc=rss",
+          "date": "03.04 00:20",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -90,23 +106,9 @@
           "has_name": true
         },
         {
-          "title": "Cameco to supply uranium ore concentrate to India in $1.9bn worth deal",
-          "url": "https://www.investmentmonitor.ai/news/cameco-to-supply-uranium-ore-india/?.tsrc=rss",
-          "date": "03.03 00:38",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
           "title": "Dufferin West Drilling Commences Maiden Drill Program at High-Priority Dufferin West Uranium Target",
           "url": "https://finance.yahoo.com/news/dufferin-west-drilling-commences-maiden-130000358.html?.tsrc=rss",
           "date": "03.02 22:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Eagle Plains' Partner Refined Energy Corp. Commences Drill Program at the Dufferin West Project, Saskatchewan",
-          "url": "https://finance.yahoo.com/news/eagle-plains-partner-refined-energy-120000984.html?.tsrc=rss",
-          "date": "03.02 21:00",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -114,21 +116,95 @@
       "related_stocks": [
         {
           "name": "[SMR] NuScale Power",
-          "change_rate": "-4.8%"
+          "change_rate": "-3.9%"
         },
         {
           "name": "[Nuclear] Constellation Energy",
-          "change_rate": "-1.8%"
+          "change_rate": "-1.3%"
         },
         {
           "name": "[Utilities] Vistra",
-          "change_rate": "-3.6%"
+          "change_rate": "-3.4%"
         }
       ],
-      "timestamp": "2026-03-04 01:57:55"
+      "timestamp": "2026-03-04 02:50:22"
     },
     {
       "id": "sig_20260304_US_003",
+      "theme": "#Semiconductors",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Intel은(는) This ETF Has Changed Lives -- And It Could Change Yours Too 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "Intel",
+        "symbol": "INTC",
+        "change_rate": "-4.9%",
+        "news_url": "https://finance.yahoo.com/quote/INTC"
+      },
+      "news_articles": [
+        {
+          "title": "This ETF Has Changed Lives -- And It Could Change Yours Too",
+          "url": "https://www.fool.com/investing/2026/03/03/this-etf-has-changed-lives-and-it-could-change-you/?.tsrc=rss",
+          "date": "03.04 02:24",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "If you'd Invested $10,000 in Nvidia Stock Last Year, This Is How Much You'd Have Today.",
+          "url": "https://www.fool.com/investing/2026/03/03/if-youd-invested-10000-in-nvidia-stock-last-year-t/?.tsrc=rss",
+          "date": "03.04 02:42",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "This AI-Powered Software Stock Is an Incredible Bargain Right Now",
+          "url": "https://www.fool.com/investing/2026/03/03/ai-powered-software-stock-nice-bargain/?.tsrc=rss",
+          "date": "03.04 02:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Prediction: This Glorious Growth Stock Will Soar After March 4",
+          "url": "https://www.fool.com/investing/2026/03/03/prediction-glorious-growth-stock-will-soar-avgo/?.tsrc=rss",
+          "date": "03.04 02:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Quantum Computing Stock Is Plummeting Today",
+          "url": "https://www.fool.com/investing/2026/03/03/why-quantum-computing-stock-is-plummeting-today/?.tsrc=rss",
+          "date": "03.04 02:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] AMD",
+          "change_rate": "-3.8%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "-1.5%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "-4.4%"
+        },
+        {
+          "name": "[Semiconductors] Qualcomm",
+          "change_rate": "-2.3%"
+        },
+        {
+          "name": "[Semiconductors] Texas Instruments",
+          "change_rate": "-2.6%"
+        }
+      ],
+      "timestamp": "2026-03-04 02:50:22"
+    },
+    {
+      "id": "sig_20260304_US_004",
       "theme": "#Robotics",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -136,10 +212,18 @@
       "main_stock": {
         "name": "Teradyne",
         "symbol": "TER",
-        "change_rate": "-5.4%",
+        "change_rate": "-4.7%",
         "news_url": "https://finance.yahoo.com/quote/TER"
       },
       "news_articles": [
+        {
+          "title": "Teradyne (TER) Valuation Check After Strong Recent Share Price Momentum",
+          "url": "https://finance.yahoo.com/news/teradyne-ter-valuation-check-strong-221256614.html?.tsrc=rss",
+          "date": "02.28 07:12",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
         {
           "title": "This Stock Market Selloff’s Biggest Fallers All Have One Thing in Common",
           "url": "https://finance.yahoo.com/m/cf9ba9e9-41a9-3a48-9fe5-bf9fb3b1fadb/this-stock-market-selloff%E2%80%99s.html?.tsrc=rss",
@@ -162,16 +246,9 @@
           "has_name": true
         },
         {
-          "title": "Teradyne’s AI Test And Robotics Demand Puts Valuation And Cyclicality In Focus",
-          "url": "https://finance.yahoo.com/news/teradyne-ai-test-robotics-demand-042845270.html?.tsrc=rss",
-          "date": "02.28 13:28",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Teradyne (TER) Valuation Check After Strong Recent Share Price Momentum",
-          "url": "https://finance.yahoo.com/news/teradyne-ter-valuation-check-strong-221256614.html?.tsrc=rss",
-          "date": "02.28 07:12",
+          "title": "5 Stocks Racing Ahead as AI Supercharges Robotics",
+          "url": "https://www.marketbeat.com/stock-ideas/5-stocks-racing-ahead-as-ai-supercharges-robotics/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "03.03 02:13",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -179,159 +256,169 @@
       "related_stocks": [
         {
           "name": "[Semiconductor Equipment] KLA",
-          "change_rate": "-5.1%"
+          "change_rate": "-4.5%"
         },
         {
           "name": "[Semiconductor Equipment] ASML",
-          "change_rate": "-4.6%"
+          "change_rate": "-4.2%"
         },
         {
           "name": "[Semiconductor Equipment] Applied Materials",
-          "change_rate": "-4.4%"
+          "change_rate": "-4.7%"
         }
       ],
-      "timestamp": "2026-03-04 01:57:55"
+      "timestamp": "2026-03-04 02:50:22"
     },
     {
-      "id": "sig_20260304_US_004",
-      "theme": "#Semiconductor Equipment",
+      "id": "sig_20260304_US_005",
+      "theme": "#Finance",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "KLA은(는) KLA (KLAC) Valuation Check As AI Chipmakers Rally On Nvidia Earnings Optimism 등의 영향으로 하락 마감했습니다.",
+      "summary": "Blackstone은(는) Blackstone’s flagship private credit fund hit with wave of redemptions 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
-        "name": "KLA",
-        "symbol": "KLAC",
-        "change_rate": "-5.3%",
-        "news_url": "https://finance.yahoo.com/quote/KLAC"
+        "name": "Blackstone",
+        "symbol": "BX",
+        "change_rate": "-4.7%",
+        "news_url": "https://finance.yahoo.com/quote/BX"
       },
       "news_articles": [
         {
-          "title": "If You Invested $1000 in KLA a Decade Ago, This is How Much It'd Be Worth Now",
-          "url": "https://finance.yahoo.com/news/invested-1000-kla-decade-ago-133004925.html?.tsrc=rss",
-          "date": "03.02 22:30",
+          "title": "Blackstone’s flagship private credit fund hit with wave of redemptions",
+          "url": "https://finance.yahoo.com/news/blackstone-flagship-private-credit-fund-234902255.html?.tsrc=rss",
+          "date": "03.03 08:49",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Top Midday Stories: Blackstone Private Credit Fund Ups Redemptions to 7% From 5%; Target Shares Rise After Strong Fiscal Q4 EPS",
+          "url": "https://finance.yahoo.com/news/top-midday-stories-blackstone-private-170411874.html?.tsrc=rss",
+          "date": "03.04 02:04",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "The AI spending boom is creating winners beyond the 'Mag 7.' Why one sector could see big gains.",
-          "url": "https://finance.yahoo.com/news/the-ai-spending-boom-is-creating-winners-beyond-the-mag-7-why-one-sector-could-see-big-gains-153820672.html?.tsrc=rss",
-          "date": "02.27 00:38",
+          "title": "Blackstone stock at 2023 low, MongoDB stock nosedives on earnings",
+          "url": "https://finance.yahoo.com/video/blackstone-stock-2023-low-mongodb-162951872.html?.tsrc=rss",
+          "date": "03.04 01:29",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Citi opens positive catalyst watch on KLA Corp ahead of investor day",
-          "url": "https://finance.yahoo.com/news/citi-opens-positive-catalyst-watch-132357701.html?.tsrc=rss",
-          "date": "02.26 22:23",
+          "title": "Blackstone Played Down Private-Credit Risks. Now It’s Been Hit.",
+          "url": "https://finance.yahoo.com/m/8fab9e17-5da6-3a49-8102-9020b48860cc/blackstone-played-down.html?.tsrc=rss",
+          "date": "03.04 01:28",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Investors Boost Semiconductor Spending Forecasts for KLA Corporation (KLAC)",
-          "url": "https://finance.yahoo.com/news/investors-boost-semiconductor-spending-forecasts-125750727.html?.tsrc=rss",
-          "date": "02.26 21:57",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "KLA (KLAC) Valuation Check As AI Chipmakers Rally On Nvidia Earnings Optimism",
-          "url": "https://finance.yahoo.com/news/kla-klac-valuation-check-ai-030917158.html?.tsrc=rss",
-          "date": "02.26 12:09",
+          "title": "Blackstone Sees Record Redemptions From Private Credit Fund",
+          "url": "https://finance.yahoo.com/video/blackstone-sees-record-redemptions-private-150207670.html?.tsrc=rss",
+          "date": "03.04 00:02",
           "source": "Yahoo Finance",
           "has_name": true
         }
       ],
       "related_stocks": [
         {
-          "name": "[Semiconductor Equipment] Applied Materials",
-          "change_rate": "-4.5%"
+          "name": "[Finance] JPMorgan Chase",
+          "change_rate": "+0.5%"
         },
         {
+          "name": "[Finance] Bank of America",
+          "change_rate": "-0.2%"
+        },
+        {
+          "name": "[Finance] Wells Fargo",
+          "change_rate": "-0.4%"
+        },
+        {
+          "name": "[Finance] Citigroup",
+          "change_rate": "-0.8%"
+        },
+        {
+          "name": "[Finance] Goldman Sachs",
+          "change_rate": "-0.6%"
+        }
+      ],
+      "timestamp": "2026-03-04 02:50:22"
+    },
+    {
+      "id": "sig_20260304_US_006",
+      "theme": "#Semiconductor Equipment",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Applied Materials은(는) Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "Applied Materials",
+        "symbol": "AMAT",
+        "change_rate": "-4.7%",
+        "news_url": "https://finance.yahoo.com/quote/AMAT"
+      },
+      "news_articles": [
+        {
+          "title": "Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know",
+          "url": "https://finance.yahoo.com/news/applied-materials-inc-amat-attracting-140005962.html?.tsrc=rss",
+          "date": "03.02 23:00",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Applied Materials Pursues AI Super Cycle As EPIC Growth Meets China Risks",
+          "url": "https://finance.yahoo.com/news/applied-materials-pursues-ai-super-171246471.html?.tsrc=rss",
+          "date": "03.04 02:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Jim Cramer on Applied Materials: “It Got Away From Us”",
+          "url": "https://finance.yahoo.com/news/jim-cramer-applied-materials-got-152216120.html?.tsrc=rss",
+          "date": "03.04 00:22",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Applied Materials Conference: AMAT Sees “Super Cycle” Demand, Races to Scale for On-Time Tool Delivery",
+          "url": "https://www.marketbeat.com/instant-alerts/applied-materials-conference-amat-sees-super-cycle-demand-races-to-scale-for-on-time-tool-delivery-2026-03-03/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "03.03 15:34",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Morgan Stanley Boosts Applied Materials (AMAT) Target on Strong DRAM Spending Outlook",
+          "url": "https://finance.yahoo.com/news/morgan-stanley-boosts-applied-materials-024647977.html?.tsrc=rss",
+          "date": "03.01 11:46",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
           "name": "[Semiconductor Equipment] ASML",
-          "change_rate": "-4.6%"
+          "change_rate": "-4.2%"
         },
         {
           "name": "[Semiconductor Equipment] Lam Research",
           "change_rate": "-4.5%"
         },
         {
-          "name": "[Robotics] Teradyne",
-          "change_rate": "-5.4%"
+          "name": "[Semiconductor Equipment] KLA",
+          "change_rate": "-4.5%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "-1.5%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "-4.4%"
         }
       ],
-      "timestamp": "2026-03-04 01:57:55"
+      "timestamp": "2026-03-04 02:50:22"
     },
     {
-      "id": "sig_20260304_US_005",
-      "theme": "#SMR",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "NuScale Power은(는) NuScale Power Q4 Earnings Call Highlights 등의 영향으로 하락 마감했습니다.",
-      "main_stock": {
-        "name": "NuScale Power",
-        "symbol": "SMR",
-        "change_rate": "-4.9%",
-        "news_url": "https://finance.yahoo.com/quote/SMR"
-      },
-      "news_articles": [
-        {
-          "title": "NuScale Lawsuits Put ENTRA1 Partnership And SMR Valuation In Focus",
-          "url": "https://finance.yahoo.com/news/nuscale-lawsuits-put-entra1-partnership-010635146.html?.tsrc=rss",
-          "date": "03.03 10:06",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "2 Nuclear Energy Stocks to Buy in March",
-          "url": "https://www.fool.com/investing/2026/03/02/2-nuclear-energy-stocks-to-buy-in-march/?.tsrc=rss",
-          "date": "03.03 02:50",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "NuScale Power Q4 Earnings Call Highlights",
-          "url": "https://www.marketbeat.com/instant-alerts/nuscale-power-q4-earnings-call-highlights-2026-02-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "03.01 10:05",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is NuScale Power Stock Going to $20?",
-          "url": "https://www.fool.com/investing/2026/02/28/is-nuscale-power-stock-going-to-20/?.tsrc=rss",
-          "date": "03.01 04:25",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "1 Reason Nuscale Power and Oklo Investors Should Be Extremely Nervous in 2026",
-          "url": "https://www.fool.com/investing/2026/02/27/2-reasons-nuscale-power-and-oklo-investors-should/?.tsrc=rss",
-          "date": "02.28 04:25",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[SMR] Oklo",
-          "change_rate": "-3.7%"
-        },
-        {
-          "name": "[Nuclear] BWX Tech",
-          "change_rate": "-4.1%"
-        },
-        {
-          "name": "[Energy] Cameco",
-          "change_rate": "-5.9%"
-        },
-        {
-          "name": "[Nuclear] Constellation Energy",
-          "change_rate": "-1.8%"
-        }
-      ],
-      "timestamp": "2026-03-04 01:57:55"
-    },
-    {
-      "id": "sig_20260304_US_006",
+      "id": "sig_20260304_US_007",
       "theme": "#Infrastructure",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -339,10 +426,25 @@
       "main_stock": {
         "name": "Eaton",
         "symbol": "ETN",
-        "change_rate": "-4.8%",
+        "change_rate": "-4.6%",
         "news_url": "https://finance.yahoo.com/quote/ETN"
       },
       "news_articles": [
+        {
+          "title": "Eaton Dividend Raise And Portfolio Changes Reshape Income And Growth Story",
+          "url": "https://finance.yahoo.com/news/eaton-dividend-raise-portfolio-changes-130852265.html?.tsrc=rss",
+          "date": "03.01 22:08",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "4 Dividend Stocks Boost Payouts as Investors Seek Safety in a Volatile Market",
+          "url": "https://finance.yahoo.com/news/4-dividend-stocks-boost-payouts-161200084.html?.tsrc=rss",
+          "date": "03.04 01:12",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "Eaton Corporation Rewards Shareholders With 6% Dividend Increase",
           "url": "https://finance.yahoo.com/news/eaton-corporation-rewards-shareholders-6-143500408.html?.tsrc=rss",
@@ -363,183 +465,22 @@
           "date": "03.02 23:30",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Eaton announces David Foster as Executive Vice President and Chief Financial Officer, effective March 2, 2026",
-          "url": "https://finance.yahoo.com/news/eaton-announces-david-foster-executive-113000784.html?.tsrc=rss",
-          "date": "03.02 20:30",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Eaton Dividend Raise And Portfolio Changes Reshape Income And Growth Story",
-          "url": "https://finance.yahoo.com/news/eaton-dividend-raise-portfolio-changes-130852265.html?.tsrc=rss",
-          "date": "03.01 22:08",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
         {
           "name": "[Infrastructure] Vertiv",
-          "change_rate": "-4.5%"
+          "change_rate": "-4.1%"
         },
         {
           "name": "[Energy] GE Vernova",
-          "change_rate": "-2.9%"
+          "change_rate": "-3.1%"
         }
       ],
-      "timestamp": "2026-03-04 01:57:55"
-    },
-    {
-      "id": "sig_20260304_US_007",
-      "theme": "#Finance",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "Blackstone은(는) Blackstone’s flagship private credit fund hit with wave of redemptions 등의 영향으로 하락 마감했습니다.",
-      "main_stock": {
-        "name": "Blackstone",
-        "symbol": "BX",
-        "change_rate": "-4.8%",
-        "news_url": "https://finance.yahoo.com/quote/BX"
-      },
-      "news_articles": [
-        {
-          "title": "Blackstone stock at 2023 low, MongoDB stock nosedives on earnings",
-          "url": "https://finance.yahoo.com/video/blackstone-stock-2023-low-mongodb-162951872.html?.tsrc=rss",
-          "date": "03.04 01:29",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Blackstone Sees Record Redemptions From Private Credit Fund",
-          "url": "https://finance.yahoo.com/video/blackstone-sees-record-redemptions-private-150207670.html?.tsrc=rss",
-          "date": "03.04 00:02",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Blackstone’s Private Credit Fund BCRED Sees Record Redemptions. The Worries Are Growing.",
-          "url": "https://finance.yahoo.com/m/80a2710b-40c8-3f87-9068-98f2e2867805/blackstone%E2%80%99s-private-credit.html?.tsrc=rss",
-          "date": "03.04 00:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Another shadow bank hit by sell-off as AI fears spread",
-          "url": "https://uk.finance.yahoo.com/news/another-shadow-bank-hit-sell-121247346.html?.tsrc=rss",
-          "date": "03.03 21:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Blackstone’s flagship private credit fund hit with wave of redemptions",
-          "url": "https://finance.yahoo.com/news/blackstone-flagship-private-credit-fund-234902255.html?.tsrc=rss",
-          "date": "03.03 08:49",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Finance] JPMorgan Chase",
-          "change_rate": "+0.2%"
-        },
-        {
-          "name": "[Finance] Bank of America",
-          "change_rate": "-0.3%"
-        },
-        {
-          "name": "[Finance] Wells Fargo",
-          "change_rate": "-0.7%"
-        },
-        {
-          "name": "[Finance] Citigroup",
-          "change_rate": "-1.3%"
-        },
-        {
-          "name": "[Finance] Goldman Sachs",
-          "change_rate": "-1.2%"
-        }
-      ],
-      "timestamp": "2026-03-04 01:57:55"
+      "timestamp": "2026-03-04 02:50:22"
     },
     {
       "id": "sig_20260304_US_008",
-      "theme": "#Semiconductor Equipment",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "ASML은(는) ASML Targets TSM in Advanced Packaging: Strategic Expansion or Unnecessary Gamble? 등의 영향으로 하락 마감했습니다.",
-      "main_stock": {
-        "name": "ASML",
-        "symbol": "ASML",
-        "change_rate": "-4.7%",
-        "news_url": "https://finance.yahoo.com/quote/ASML"
-      },
-      "news_articles": [
-        {
-          "title": "ASML Targets TSM in Advanced Packaging: Strategic Expansion or Unnecessary Gamble?",
-          "url": "https://247wallst.com/investing/2026/03/02/asml-targets-tsm-in-advanced-packaging-strategic-expansion-or-unnecessary-gamble/?.tsrc=rss",
-          "date": "03.03 02:59",
-          "source": "Yahoo Finance",
-          "has_name": true,
-          "content": ""
-        },
-        {
-          "title": "Update: Market Chatter: ASML Plans Push Into Advanced Packaging, Explores Larger Chip Designs",
-          "url": "https://finance.yahoo.com/news/market-chatter-asml-plans-push-092850982.html?.tsrc=rss",
-          "date": "03.03 18:28",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "ASML (ASML) Stock Falls Amid Market Uptick: What Investors Need to Know",
-          "url": "https://finance.yahoo.com/news/asml-asml-stock-falls-amid-224502745.html?.tsrc=rss",
-          "date": "03.03 07:45",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Nvidia Stock, Biotech Put This Line In Focus Amid U.S.-Iran Attacks",
-          "url": "https://finance.yahoo.com/m/e3bdb9b7-7ff3-34a0-8a75-5e8c19bd1009/nvidia-stock%2C-biotech-put.html?.tsrc=rss",
-          "date": "03.03 06:18",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "ASML Expands Beyond EUV to Capture AI Chip Growth",
-          "url": "https://finance.yahoo.com/news/asml-expands-beyond-euv-capture-194929306.html?.tsrc=rss",
-          "date": "03.03 04:49",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Semiconductor Equipment] Applied Materials",
-          "change_rate": "-4.5%"
-        },
-        {
-          "name": "[Semiconductor Equipment] Lam Research",
-          "change_rate": "-4.5%"
-        },
-        {
-          "name": "[Semiconductor Equipment] KLA",
-          "change_rate": "-5.1%"
-        },
-        {
-          "name": "[Robotics] Teradyne",
-          "change_rate": "-5.4%"
-        },
-        {
-          "name": "[Semiconductors] NVIDIA",
-          "change_rate": "-1.0%"
-        }
-      ],
-      "timestamp": "2026-03-04 01:57:55"
-    },
-    {
-      "id": "sig_20260304_US_009",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -547,17 +488,16 @@
       "main_stock": {
         "name": "Lam Research",
         "symbol": "LRCX",
-        "change_rate": "-4.6%",
+        "change_rate": "-4.4%",
         "news_url": "https://finance.yahoo.com/quote/LRCX"
       },
       "news_articles": [
         {
-          "title": "Lam Research (LRCX) Falls More Steeply Than Broader Market: What Investors Need to Know",
-          "url": "https://finance.yahoo.com/news/lam-research-lrcx-falls-more-224502346.html?.tsrc=rss",
-          "date": "02.27 07:45",
+          "title": "Why Micron, SanDisk & Memory Stocks Are Crashing Today",
+          "url": "https://247wallst.com/investing/2026/03/03/why-micron-sandisk-memory-stocks-are-crashing-today/?.tsrc=rss",
+          "date": "03.04 01:26",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": ""
+          "has_name": true
         },
         {
           "title": "How Is Lam Research’s Stock Performance Compared to Other Semiconductor Stocks?",
@@ -591,83 +531,166 @@
       "related_stocks": [
         {
           "name": "[Semiconductor Equipment] Applied Materials",
-          "change_rate": "-4.5%"
+          "change_rate": "-4.7%"
         },
         {
           "name": "[Semiconductor Equipment] ASML",
-          "change_rate": "-4.6%"
+          "change_rate": "-4.2%"
         },
         {
           "name": "[Semiconductor Equipment] KLA",
-          "change_rate": "-5.1%"
+          "change_rate": "-4.5%"
         },
         {
           "name": "[Semiconductors] NVIDIA",
-          "change_rate": "-1.1%"
+          "change_rate": "-1.4%"
         }
       ],
-      "timestamp": "2026-03-04 01:57:55"
+      "timestamp": "2026-03-04 02:50:22"
     },
     {
-      "id": "sig_20260304_US_010",
-      "theme": "#Infrastructure",
+      "id": "sig_20260304_US_009",
+      "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "Vertiv은(는) Vertiv Holdings Co (VRT) Is Up 5.0% After New AI Platform Launch And $2.1 Billion Bond Raise 등의 영향으로 하락 마감했습니다.",
+      "summary": "KLA은(는) KLA (KLAC) Valuation Check As AI Chipmakers Rally On Nvidia Earnings Optimism 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
-        "name": "Vertiv",
-        "symbol": "VRT",
-        "change_rate": "-4.6%",
-        "news_url": "https://finance.yahoo.com/quote/VRT"
+        "name": "KLA",
+        "symbol": "KLAC",
+        "change_rate": "-4.4%",
+        "news_url": "https://finance.yahoo.com/quote/KLAC"
       },
       "news_articles": [
         {
-          "title": "Is Vertiv Stock a Buy Right Now?",
-          "url": "https://www.fool.com/investing/2026/03/03/is-hot-ticker-stock-a-buy-right-now/?.tsrc=rss",
-          "date": "03.03 22:35",
+          "title": "KLA (KLAC) Valuation Check As AI Chipmakers Rally On Nvidia Earnings Optimism",
+          "url": "https://finance.yahoo.com/news/kla-klac-valuation-check-ai-030917158.html?.tsrc=rss",
+          "date": "02.26 12:09",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "If You Invested $1000 in KLA a Decade Ago, This is How Much It'd Be Worth Now",
+          "url": "https://finance.yahoo.com/news/invested-1000-kla-decade-ago-133004925.html?.tsrc=rss",
+          "date": "03.02 22:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "$1.4 Trillion Needed for AI Data Center Electrification by 2030, Chief Investment Officer",
-          "url": "https://247wallst.com/investing/2026/03/03/1-4-trillion-needed-for-ai-data-center-electrification-by-2030-chief-investment-officer/?.tsrc=rss",
-          "date": "03.03 22:21",
+          "title": "The AI spending boom is creating winners beyond the 'Mag 7.' Why one sector could see big gains.",
+          "url": "https://finance.yahoo.com/news/the-ai-spending-boom-is-creating-winners-beyond-the-mag-7-why-one-sector-could-see-big-gains-153820672.html?.tsrc=rss",
+          "date": "02.27 00:38",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Vertiv Announces Scalable, High-Capacity Double Stack Busway System that Preserves White Space for Growing AI Data Center Demands",
-          "url": "https://finance.yahoo.com/news/vertiv-announces-scalable-high-capacity-130000789.html?.tsrc=rss",
-          "date": "03.03 22:00",
+          "title": "Citi opens positive catalyst watch on KLA Corp ahead of investor day",
+          "url": "https://finance.yahoo.com/news/citi-opens-positive-catalyst-watch-132357701.html?.tsrc=rss",
+          "date": "02.26 22:23",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Vertiv Holdings Co (VRT) Is Up 5.0% After New AI Platform Launch And $2.1 Billion Bond Raise",
-          "url": "https://finance.yahoo.com/news/vertiv-holdings-co-vrt-5-061258934.html?.tsrc=rss",
-          "date": "03.03 15:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "3 Best Profitable AI Stocks to Buy in March 2026",
-          "url": "https://finance.yahoo.com/news/3-best-profitable-ai-stocks-200000391.html?.tsrc=rss",
-          "date": "03.03 05:00",
+          "title": "Investors Boost Semiconductor Spending Forecasts for KLA Corporation (KLAC)",
+          "url": "https://finance.yahoo.com/news/investors-boost-semiconductor-spending-forecasts-125750727.html?.tsrc=rss",
+          "date": "02.26 21:57",
           "source": "Yahoo Finance",
           "has_name": true
         }
       ],
       "related_stocks": [
         {
-          "name": "[Infrastructure] Eaton",
-          "change_rate": "-4.8%"
+          "name": "[Semiconductor Equipment] Applied Materials",
+          "change_rate": "-4.7%"
         },
         {
-          "name": "[Energy] GE Vernova",
-          "change_rate": "-3.0%"
+          "name": "[Semiconductor Equipment] ASML",
+          "change_rate": "-4.2%"
+        },
+        {
+          "name": "[Semiconductor Equipment] Lam Research",
+          "change_rate": "-4.5%"
+        },
+        {
+          "name": "[Robotics] Teradyne",
+          "change_rate": "-4.9%"
         }
       ],
-      "timestamp": "2026-03-04 01:57:55"
+      "timestamp": "2026-03-04 02:50:22"
+    },
+    {
+      "id": "sig_20260304_US_010",
+      "theme": "#Foundry",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "TSMC은(는) ASML Targets TSM in Advanced Packaging: Strategic Expansion or Unnecessary Gamble? 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "TSMC",
+        "symbol": "TSM",
+        "change_rate": "-4.4%",
+        "news_url": "https://finance.yahoo.com/quote/TSM"
+      },
+      "news_articles": [
+        {
+          "title": "ASML Targets TSM in Advanced Packaging: Strategic Expansion or Unnecessary Gamble?",
+          "url": "https://247wallst.com/investing/2026/03/02/asml-targets-tsm-in-advanced-packaging-strategic-expansion-or-unnecessary-gamble/?.tsrc=rss",
+          "date": "03.03 02:59",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Why Onto (ONTO) Should Be Considered A Semiconductor Play In 2026",
+          "url": "https://247wallst.com/ai-portfolio/2026/03/03/why-onto-onto-should-be-considered-a-semiconductor-play-in-2026/?.tsrc=rss",
+          "date": "03.04 00:28",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Intel (INTC) Hopes To Continue Surge And Avoid Another Disappointment",
+          "url": "https://247wallst.com/investing/2026/03/03/intel-intc-hopes-to-continue-surge-and-avoid-another-disappointment/?.tsrc=rss",
+          "date": "03.03 23:28",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Top Stock Picks for Week of March 2, 2026",
+          "url": "https://finance.yahoo.com/news/top-stock-picks-week-march-211700441.html?.tsrc=rss",
+          "date": "03.03 06:17",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Former NATO commander on how Operation Epic Fury shows the role of AI",
+          "url": "https://finance.yahoo.com/news/former-nato-commander-on-how-operation-epic-fury-shows-the-role-of-ai-182143691.html?.tsrc=rss",
+          "date": "03.03 03:21",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] Intel",
+          "change_rate": "-4.9%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "-1.4%"
+        },
+        {
+          "name": "[Semiconductors] AMD",
+          "change_rate": "-3.6%"
+        },
+        {
+          "name": "[Semiconductor Equipment] ASML",
+          "change_rate": "-4.2%"
+        },
+        {
+          "name": "[Semiconductor Equipment] Applied Materials",
+          "change_rate": "-4.6%"
+        }
+      ],
+      "timestamp": "2026-03-04 02:50:22"
     }
   ]
 }
