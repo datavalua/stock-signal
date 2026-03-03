@@ -286,7 +286,7 @@ def show_signals(market, date_str):
                     safe_rerun()
         return
         
-    st.caption(f"최종 업데이트: {data.get('last_updated', 'N/A')}")
+    st.caption(f"최종 업데이트: {data.get('last_updated', 'N/A')} (KST)")
     
     for signal in data.get("signals", []):
         theme = signal.get("theme", "")

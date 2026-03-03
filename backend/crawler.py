@@ -228,6 +228,12 @@ def scrape_article_content(url):
         if not content:
             content = soup.select_one('.article_view')
             
+        # Yahoo Finance compatibility
+        if not content:
+            content = soup.select_one('.caas-body')
+        if not content:
+            content = soup.select_one('article')
+            
         if content:
             # Remove scripts and styles
             for script_or_style in content(['script', 'style', 'span', 'a']):
@@ -570,6 +576,10 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
     # Fallback logic
     news_titles = [a["title"] for a in articles if "title" in a]
     main_news = news_titles[best_idx] if (news_titles and 0 <= best_idx < len(news_titles)) else "시장 수급 변화"
+    
+    if market == "US":
+        main_news = "외신 보도 및 주요 지표 변화"
+        
     return {
         "category": "이슈", 
         "short_reason": "수급 변화, 업황 변동", 
@@ -815,12 +825,16 @@ def generate_daily_json(date_str=None, market="KR"):
                         new_best_url = best_article.get('url', '').split('&page=')[0]
                         
                         if old_best_title == new_best_title or old_best_url == new_best_url:
-                            print(f"[{idx+1}/{len(movers)}] [Tier 2] Skipping summarization for {name}: Selected article already summarized.")
-                            ai_result = {
-                                "category": old_signal.get("signal_type", "이슈"),
-                                "short_reason": old_signal.get("short_reason", "수급 변화"),
-                                "summary": old_signal.get("summary", "")
-                            }
+                            old_summary = old_signal.get("summary", "")
+                            if "영향으로 상승 마감" in old_summary or "영향으로 하락 마감" in old_summary:
+                                print(f"[{idx+1}/{len(movers)}] [Tier 2] Skipping AI reuse for {name} because old summary was a fallback.")
+                            else:
+                                print(f"[{idx+1}/{len(movers)}] [Tier 2] Skipping summarization for {name}: Selected article already summarized.")
+                                ai_result = {
+                                    "category": old_signal.get("signal_type", "이슈"),
+                                    "short_reason": old_signal.get("short_reason", "수급 변화"),
+                                    "summary": old_summary
+                                }
 
                 # 6. If Tier 2 missed, scrape and generate
                 if not ai_result:
