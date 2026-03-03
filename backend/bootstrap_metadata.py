@@ -45,7 +45,9 @@ def process_batch(client, market, tickers_info):
     for item in tickers_info:
         prompt += f"- {item['name']} ({item['symbol']})\n"
         
-    prompt += (
+        prompt_parts.append(f"- {item['name']} ({item['symbol']})\n")
+        
+    prompt_parts.append(
         "\n**출력 형식**: 아래 JSON 구조로만 답변하세요. 다른 텍스트는 포함하지 마세요.\n"
         "{\n"
         "  \"종목코드\": {\"industry\": [\"산업명\"], \"peers\": [\"코드1\", \"코드2\"]}\n"
@@ -53,9 +55,14 @@ def process_batch(client, market, tickers_info):
     )
     
     try:
-        response = client.models.generate_content(
-            model='gemini-2.0-flash',
-            contents=prompt
+        # User requested that stock_metadata.json uses the low-quota API.
+        # `gemini-2.5-pro` is a higher-quality model with a lower free-tier quota (50 RPD).
+        model = genai.GenerativeModel(
+            model_name='gemini-2.5-pro',
+            system_instruction=system_instruction
+        )
+        response = model.generate_content(
+            contents="".join(prompt_parts)
         )
         text = response.text.strip()
         # Remove markdown if present

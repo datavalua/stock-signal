@@ -56,10 +56,9 @@ def get_model_name():
     if env_model:
         return env_model
         
-    # GITHUB_ACTIONS is a default env var in GitHub Actions
-    if os.getenv('GITHUB_ACTIONS') == 'true':
-        return 'gemini-flash-latest' # 1,500 RPD
-    return 'gemini-pro-latest' # 50 RPD (Premium quality for local)
+    # User requested to always use the high-quota model for daily stock signal JSON generation
+    # `gemini-flash-lite-latest` has a limit of 1,500 RPD (Requests Per Day) on the free tier.
+    return 'gemini-flash-lite-latest'
 
 # Global configuration loaded once
 STOCK_METADATA = load_stock_metadata()
@@ -477,7 +476,7 @@ def select_impactful_article(stock_name, articles, change_val):
             executor = ThreadPoolExecutor(max_workers=1)
             future = executor.submit(call_genai)
             response = future.result(timeout=30)
-            time.sleep(5) # Rate limiting
+            time.sleep(15) # Rate limiting (5 per minute max)
                 
             if response and response.text:
                 import re
@@ -787,17 +786,21 @@ def generate_daily_json(date_str=None, market="KR"):
                 new_url = articles[0].get('url', '').split('&page=')[0]
                 
                 if old_title == new_title or old_url == new_url:
-                    print(f"[{idx+1}/{len(movers)}] [Tier 1] Skipping AI for {name}: News matches previous signal.")
-                    ai_result = {
-                        "category": old_signal.get("signal_type", "이슈"),
-                        "short_reason": old_signal.get("short_reason", "수급 변화"),
-                        "summary": old_signal.get("summary", "")
-                    }
+                    old_summary = old_signal.get("summary", "")
+                    if "영향으로 상승 마감" in old_summary or "영향으로 하락 마감" in old_summary:
+                        print(f"[{idx+1}/{len(movers)}] [Tier 1] Skipping AI reuse for {name} because old summary was a fallback.")
+                    else:
+                        print(f"[{idx+1}/{len(movers)}] [Tier 1] Skipping AI for {name}: News matches previous signal.")
+                        ai_result = {
+                            "category": old_signal.get("signal_type", "이슈"),
+                            "short_reason": old_signal.get("short_reason", "수급 변화"),
+                            "summary": old_summary
+                        }
         
         # 4. If Tier 1 missed, select and scrape impactful info
         if not ai_result and articles:
             # First, select the "best" article via AI
-            best_idx = select_impactful_article(articles, name, change_val)
+            best_idx = select_impactful_article(name, articles, change_val)
             if best_idx != -1 and 0 <= best_idx < len(articles):
                 best_article = articles[best_idx]
                 

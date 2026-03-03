@@ -1,0 +1,681 @@
+{
+  "last_updated": "2026-03-03 23:47:23",
+  "signals": [
+    {
+      "id": "sig_20260303_KR_001",
+      "theme": "#정유",
+      "signal_type": "이슈",
+      "short_reason": "중동 지정학적 리스크, 정제마진 상승 기대",
+      "summary": "미국-이스라엘의 이란 공습 및 중동 지역의 확전 우려가 고조되면서, 전 세계 원유 수송로인 호르무즈 해협 봉쇄 가능성이 제기되고 있습니다. 이는 유가 상승을 통한 S-Oil의 재고평가 이익 증가 기대감과 정제유(경유 등)의 공급 타이트화에 따른 정제마진 추가 강세 전망으로 이어지며 주가 급등을 견인하고 있습니다. 증권가에서는 지정학적 위험을 기회 요인으로 평가하며 목표주가를 상향 조정하는 추세입니다.",
+      "main_stock": {
+        "name": "S-Oil",
+        "symbol": "010950",
+        "change_rate": "+28.5%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=010950"
+      },
+      "news_articles": [
+        {
+          "title": "[특징주]S-Oil, 중동전쟁 따른 재고평가 이익 기대감에 18%↑",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005728274&office_id=277&code=010950&page=6&sm=title_entity_id.basic",
+          "date": "2026.03.03 09:48",
+          "source": "아시아경제",
+          "has_name": true,
+          "content": "미국과 이스라엘의 이란 공습으로 S-Oil(에쓰오일)의 주가가 급등했다.\n3일 오전 9시30분 기준 에쓰오일은 2만700원(18.82%) 오른 13만700원에 거래됐다.\n지난 28일 미국과 이스라엘이 이란을 공습하고 이란의 반격이 미국 자산을 포함한 중동 전역으로 이어지며 확전 양상을 보인다. 여기에 이란 최정예 부대인 혁명수비대(IRGC)가 호르무즈 해협 통과를 시도하는 선박에 대한 공격을 예고했다. 이 해협은 전 세계 해상 원유 수송량의 약 20%가 통과하는 곳이다.\n이에 유가 상승이 우려되는 상황에서 정유사의 재고평가 이익 기대감이 커지고 있다. 원유를 지금보다 싸게 사온 만큼 휘발유와 경유로 정제하면 그만큼 마진율이 상승하기 때문이다.\n조현렬 삼성증권 연구원은 에쓰오일에 대해 \"중동전쟁이 지속될 경우, 현재보다 타이트한 등경유 제품 중심의 정제 설비를 전쟁 위험 없는 아시아에서 생산하는 점이 지정학 관점에서 기회로 작용할 것\"이라고 말했다."
+        },
+        {
+          "title": "“호르무즈 봉쇄 현실화에 정제마진 추가 강세…S-Oil·SK이노베이션 ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006227509&office_id=018&code=010950&page=4&sm=title_entity_id.basic",
+          "date": "2026.03.03 13:32",
+          "source": "이데일리",
+          "has_name": true
+        },
+        {
+          "title": "삼성證 \"원유보다 귀해진 정제유…중동 전운에 S-Oil 목표가↑\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013796992&office_id=003&code=010950&page=8&sm=title_entity_id.basic",
+          "date": "2026.03.03 08:45",
+          "source": "뉴시스",
+          "has_name": true
+        },
+        {
+          "title": "S-Oil, 중동 확전에 정제마진 개선 기대…목표가 14만원-삼성",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006227136&office_id=018&code=010950&page=8&sm=title_entity_id.basic",
+          "date": "2026.03.03 07:51",
+          "source": "이데일리",
+          "has_name": true
+        },
+        {
+          "title": "중동 리스크 직격탄 맞은 증시…코스피 5,800선 붕괴 '낙폭 역대 최...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000999328&office_id=088&code=010950&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 20:57",
+          "source": "매일신문",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[정유] SK이노베이션",
+          "change_rate": "+2.5%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    },
+    {
+      "id": "sig_20260303_KR_002",
+      "theme": "#방산",
+      "signal_type": "이슈",
+      "short_reason": "중동 지정학적 리스크, 무기 수요 기대",
+      "summary": "미국과 이란 간의 군사적 충돌 위협 고조로 중동 지역의 지정학적 리스크가 급부상하면서, 글로벌 무기 수요 증가에 대한 기대감으로 한화에어로스페이스를 포함한 국내 방산주가 코스피 하락세 속에서 이례적인 급등세를 보였습니다. 특히 한화그룹 총수를 소재로 한 유머러스한 '밈'이 확산될 정도로 시장의 관심이 집중되었으며, 이는 지정학적 불안정성이 방산 부문에 직접적인 호재로 작용한 결과로 분석됩니다.",
+      "main_stock": {
+        "name": "한화에어로스페이스",
+        "symbol": "012450",
+        "change_rate": "+19.8%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=012450"
+      },
+      "news_articles": [
+        {
+          "title": "“어서 타” 한화 김승연 밈도 등장…이란 사태에 방산주 ‘불기둥’",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006227577&office_id=018&code=012450&page=7&sm=title_entity_id.basic",
+          "date": "2026.03.03 14:46",
+          "source": "이데일리",
+          "has_name": false,
+          "content": "방산주 급등에 한화도 ‘총수 밈’ 등장\n이란 사태에 상승…코스피는 하락해\n[이데일리 권혜미 기자] 미국·이스라엘의 이란 공습으로 중동 정세가 혼란에 휩싸인 가운데, 3일 장 초반 국내 방위산업 기업들의 주가가 일제히 급등세를 기록했다. 이에 한화그룹 김승연 회장과 김동관 부회장을 소재로 한 밈(meme·유행 콘텐츠)까지 등장했다.\n사진=온라인 커뮤니티\n3일 한국거래소에 따르면 한화에어로스페이스는 이날 오후 2시 10분 기준 전 거래일보다 14.98% 오른 137만4000원에 거래되고 있다. 장중에는 147만9000원에 거래되며 역대 최고가를 경신했다.\n최근 이란과 이스라엘 간의 군사적 충돌 위기가 커지면서 글로벌 무기 수요가 증가할 것이라는 시장의 기대감이 반영된 것으로 풀이된다.\n이에 온라인 커뮤니티와 주식토론방 등에서는 한화그룹 김승연 회장과 김동관 부회장을 소재로 한 밈(meme) 콘텐츠가 확산되고 있다.\n사진=온라인 커뮤니티\n전쟁터처럼 묘사된 배경 속에서 고급 스포츠카를 타고 등장한 김 회장, 김 부회장이 손을 내밀며 “설명할 시간 없어, 어서 타”라고 외치는 장면의 AI 이미지가 공유됐다. 이는 급등장에서 “지금이라도 주식에 올라타야 한다”는 메시지를 유머러스하게 표현한 것이다.\n해당 밈은 올해 초부터 급등세를 보인 이재용 삼성전자 회장, 최태원 SK그룹 회장, 정의선 현대자동차그룹 회장이 먼저 등장해 투자자들 사이에서 이른바 ‘총수 밈’으로 불렸다.\n반면 이날 코스피는 오후 2시 20분 기준 전장보다 (5.24%) 떨어진 5,916.75을 기록 중이다. 장중 한 때 5891.77까지 내려가기도 했다. 특히 낮부터 본격적으로 지수가 떨어지기 시작하면서 유가증권시장에서 프로그램매도호가 일시효력정지(사이드카)가 한 달 만에 발동되기도 했다.\n이는 주말 사이 미국과 이란 간 전쟁이 본격화되고 중동 지역의 불확실성이 고조되면서 변동성이 커진 탓이다.\n특히 이란의 호르무즈 해협 봉쇄 위협에 국제 유가가 급등하면서 정유주와 해운주는 급등한 반면, 유류비와 원재료비 상승 부담에 직면한 항공, 화학, 철강 관련 종목은 약세를 나타내고 있다."
+        },
+        {
+          "title": "투심 얼었는데 더 세진 '화력'…불기둥 뿜었다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243747&office_id=215&code=012450&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 21:55",
+          "source": "한국경제TV",
+          "has_name": false
+        },
+        {
+          "title": "코스피 7% 급락 후 시간외도 약세…18만전자·89만닉스 추락",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008804284&office_id=421&code=012450&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 20:25",
+          "source": "뉴스1",
+          "has_name": false
+        },
+        {
+          "title": "외국인 5조 투매에 시총 377조 증발…개인 ‘저가매수’도 역부족",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003506563&office_id=025&code=012450&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 19:36",
+          "source": "중앙일보",
+          "has_name": false
+        },
+        {
+          "title": "UAE에 배치된 한국산 방공무기 '천궁-Ⅱ', 이란 미사일 요격",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000839979&office_id=422&code=012450&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 18:33",
+          "source": "연합뉴스TV",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[그룹사] 한화오션",
+          "change_rate": "-4.1%"
+        },
+        {
+          "name": "[그룹사] 한화",
+          "change_rate": "+1.4%"
+        },
+        {
+          "name": "[그룹사] 한화솔루션",
+          "change_rate": "-8.8%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    },
+    {
+      "id": "sig_20260303_KR_003",
+      "theme": "#해운",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "HMM은(는) HMM 본사 이전 3월 주총 안건 제외 가닥…노조 반대·이란 사태 변... 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "HMM",
+        "symbol": "011200",
+        "change_rate": "+14.8%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=011200"
+      },
+      "news_articles": [
+        {
+          "title": "HMM 노조, 부산 이전 반발·법적조치 예고…\"내달 총파업 결의\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001369175&office_id=082&code=011200&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 23:19",
+          "source": "부산일보",
+          "has_name": true
+        },
+        {
+          "title": "HMM 선박, 호르무즈서 긴급 대피… 중동 2만1000명 체류 국민 이...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005485601&office_id=014&code=011200&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 18:26",
+          "source": "파이낸셜뉴스",
+          "has_name": true
+        },
+        {
+          "title": "부산 이전 전면전에 중동 리스크까지…HMM 매각 '안갯속'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006227706&office_id=018&code=011200&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 16:34",
+          "source": "이데일리",
+          "has_name": true
+        },
+        {
+          "title": "HMM, 호르무즈 선박 두바이항 대피...40척 사정권",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005485414&office_id=014&code=011200&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 15:04",
+          "source": "파이낸셜뉴스",
+          "has_name": true
+        },
+        {
+          "title": "HMM 본사 이전 3월 주총 안건 제외 가닥…노조 반대·이란 사태 변...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008801849&office_id=421&code=011200&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 07:07",
+          "source": "뉴스1",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[물류] 현대글로비스",
+          "change_rate": "-3.7%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    },
+    {
+      "id": "sig_20260303_KR_004",
+      "theme": "#화학",
+      "signal_type": "이슈",
+      "short_reason": "배터리 소재 부문 수상",
+      "summary": "LG화학은 최근 인터배터리 어워즈 2026 소재 부문에서 '열폭주 지연 열가소성 수지(Thermoplastics)'로 수상하며 기술력을 인정받았습니다. 이는 주가에 긍정적인 모멘텀을 제공할 수 있는 혁신 기술력 입증 사례이나, 현재 시장 전반의 거시경제적 리스크와 수급 요인이 더 큰 영향을 미치고 있습니다.",
+      "main_stock": {
+        "name": "LG화학",
+        "symbol": "051910",
+        "change_rate": "-13.5%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=051910"
+      },
+      "news_articles": [
+        {
+          "title": "인터배터리 어워즈서 LG엔솔·삼성SDI·SK온 수상…\"기술 경쟁 본격...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000495477&office_id=374&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 14:53",
+          "source": "SBS Biz",
+          "has_name": false,
+          "content": "[ 3일 서울 영등포구 여의도 글래드호텔에서 열린 '인터배터리 어워즈 2026'에서 수상자들이 기념사진을 촬영하고 있다. (한국배터리산업협회 제공=연합뉴스)]\n국내 배터리 업계의 차세대 혁신 기술을 선정하는 '인터배터리 어워즈 2026'에서 리튬인산철(LFP) 기반의 차세대 에너지저장장치(ESS) 배터리 등이 선정됐습니다.\n오늘(3일) 서울 영등포구 여의도 글래드호텔에서 열린 '인터배터리 어워즈 2026'에서는 LG에너지솔루션, 삼성SDI, SK온 등 12개의 기업이 수상했습니다.\n올해로 3회째를 맞이한 '인터배터리 어워즈 2026'은 인터배터리 전시회 참가 기업의 제품과 기술을 대상으로 기술성, 혁신성, 산업 기여도 등을 종합 평가해 상을 수여합니다.\n올해는 총 25개 기업에서 42개의 혁신 제품과 기술이 출품돼 전년(24개사 32개 제품) 대비 규모가 확대됐습니다.\n배터리 부문에서는 LG에너지솔루션, 삼성SDI, SK온, 럼플리어가 수상했습니다.\nLG에너지솔루션의 'JF2 DC 링크 5.0 전력망용 ESS'는 안전성이 높은 LFP 기반으로 고성능 단열 설계와 올인원 컨테이너 구조를 적용했습니다.\nLG에너지솔루션 관계자는 \"도래할 배터리 슈퍼사이클 이끌 수 있는 초석이 될 수 있는 제품으로 고도화시킬 것\"이라며 수상 소감을 밝혔습니다.\n삼성SDI의 '700와트시/리터(Wh/L) 고에너지 각형 배터리'는 각형 셀 최초로 초고에너지밀도와 최고출력(4000W)을 구현했다. 직결형 집전 구조를 적용해 내부 저항을 40% 낮춰 에너지 효율을 높였으며 1회 충전 시 주행거리 800㎞·22분 급속 충전 등의 특성을 확보했습니다. 'No TP'(No Thermal Propagation, 열확산 방지) 기술을 적용해 화재 안전성을 높였습니다.\nSK온의 '각형 온 벤트 셀'은 각형 배터리에서 가스 배출 장치(벤트) 위치를 자유롭게 설계할 수 있도록 해 시스템 유연성을 높이고 열폭주 발생 시 가스를 제어된 방향으로 배출해 안전성을 강화했습니다.\n럼플리어의 '국산 리튬인산철 배터리'는 대기업 위주의 배터리 시장에서 국내 기술 기반의 'LFP 각형 배터리'를 개발하고 국내 최초 KC 인증을 획득해 양산 가능성을 제시한 점에서 높은 평가를 받았습니다.\n소재 부문에서는 ▲ 에코프로비엠 '공급망 자립 LFP 직접합성법' ▲ LG화학 '열폭주 지연 열가소성 수지(Thermoplastics)' ▲ 에코앤드림 '차세대 90+ 하이니켈 전구체' ▲ 솔룸신소재 'ESAR 10마이크로미터 포일 스테인리스'가, 부품 부문에서는 에프디씨 'ESS용 폭연방산구'가 수상했습니다.\n▲ 리드 인텔리전트 장비(Lead Intelligent Equipment) '건식 전극 믹싱 및 코팅 시스템' ▲ 자비스 '배터리 고속 CT 인라인 검사기' ▲티더블유 '초고속(0.2sec) 복합(노칭+스택) 설비'는 장비 부문에서 선정됐습니다.\n박태성 배터리협회 상근부회장은 \"올해 역대 최대 규모로 개최되는 인터배터리 2026은 전기차를 넘어 ESS·AI·드론·휴머노이드 로봇 등 각 분야에 적용될 배터리"
+        },
+        {
+          "title": "6천선 내준 코스피, 미국-이란 전쟁에 7%대 급락… 정유·방산주는 올...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000134430&office_id=310&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 18:43",
+          "source": "여성신문",
+          "has_name": false
+        },
+        {
+          "title": "동학개미 ‘육탄 방어’와 외국인의 ‘차익실현 엑소더스’… 코스피...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001145568&office_id=366&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 16:38",
+          "source": "조선비즈",
+          "has_name": false
+        },
+        {
+          "title": "‘장화 신고 들어가서 구두 신고 나온다’ 도시개발지구 내 초기 분양....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003013413&office_id=029&code=051910&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 10:54",
+          "source": "디지털타임스",
+          "has_name": false
+        },
+        {
+          "title": "기아, 고성능 모델 GT 등 전기차 라인업 확대",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005257176&office_id=015&code=051910&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.03 06:01",
+          "source": "한국경제",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[그룹사] LG에너지솔루션",
+          "change_rate": "-8.0%"
+        },
+        {
+          "name": "[그룹사] LG",
+          "change_rate": "-4.8%"
+        },
+        {
+          "name": "[이차전지소재] 포스코퓨처엠",
+          "change_rate": "-8.3%"
+        },
+        {
+          "name": "[화학] 롯데케미칼",
+          "change_rate": "-12.1%"
+        },
+        {
+          "name": "[그룹사] LG전자",
+          "change_rate": "-12.4%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    },
+    {
+      "id": "sig_20260303_KR_005",
+      "theme": "#유틸리티",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "한국전력은(는) [단독] “무료로 해결할 수 있었는데”… 한전·한수원, 혈세 368억 ... 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "한국전력",
+        "symbol": "015760",
+        "change_rate": "-13.0%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=015760"
+      },
+      "news_articles": [
+        {
+          "title": "정부까지 나선 한전·한수원 공사비 분쟁… 합의점 찾을까",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005485636&office_id=014&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 18:48",
+          "source": "파이낸셜뉴스",
+          "has_name": false
+        },
+        {
+          "title": "[단독] 한전기술, 석탄화력 인력 ‘0명’으로",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004109842&office_id=022&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 17:50",
+          "source": "세계일보",
+          "has_name": false
+        },
+        {
+          "title": "정부 \"이란 사태 관련 에너지·통상·공급망 영향 제한적\"…모니터링.....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324695&office_id=008&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 16:53",
+          "source": "머니투데이",
+          "has_name": false
+        },
+        {
+          "title": "송전선로 반대 광주·전남 대책위 \"주민 희생 강요…사업 중단\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015934729&office_id=001&code=015760&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 14:28",
+          "source": "연합뉴스",
+          "has_name": false
+        },
+        {
+          "title": "이란發 소용돌이에 원유시장은 공포, 긴박한 경제부처 \"중동 외 물량확....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005728325&office_id=277&code=015760&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.03 10:16",
+          "source": "아시아경제",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[원전설계] 한전기술",
+          "change_rate": "-8.9%"
+        },
+        {
+          "name": "[원전정비] 한전KPS",
+          "change_rate": "-6.3%"
+        },
+        {
+          "name": "[원자력] 두산에너빌리티",
+          "change_rate": "-8.8%"
+        },
+        {
+          "name": "[전력기기] HD현대일렉트릭",
+          "change_rate": "-3.7%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    },
+    {
+      "id": "sig_20260303_KR_006",
+      "theme": "#이차전지",
+      "signal_type": "이슈",
+      "short_reason": "고에너지밀도 배터리 수상",
+      "summary": "삼성SDI는 '인터배터리 어워즈 2026'에서 각형 셀 최초로 초고에너지밀도와 최고출력을 구현한 '700Wh/L 고에너지 각형 배터리'로 수상하며 기술력을 입증했습니다. 이 제품은 에너지 효율 증대와 22분 급속 충전 성능을 갖췄으며, 'No TP' 기술 적용으로 안전성도 강화되어 차세대 배터리 기술 경쟁에서 주요 성과를 거두었습니다. 다만, 거시경제적 불안정성으로 인해 전반적인 시장 심리는 위축된 상태입니다.",
+      "main_stock": {
+        "name": "삼성SDI",
+        "symbol": "006400",
+        "change_rate": "-12.4%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=006400"
+      },
+      "news_articles": [
+        {
+          "title": "인터배터리 어워즈서 LG엔솔·삼성SDI·SK온 수상…\"기술 경쟁 본격...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000495477&office_id=374&code=006400&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 14:53",
+          "source": "SBS Biz",
+          "has_name": true,
+          "content": "[ 3일 서울 영등포구 여의도 글래드호텔에서 열린 '인터배터리 어워즈 2026'에서 수상자들이 기념사진을 촬영하고 있다. (한국배터리산업협회 제공=연합뉴스)]\n국내 배터리 업계의 차세대 혁신 기술을 선정하는 '인터배터리 어워즈 2026'에서 리튬인산철(LFP) 기반의 차세대 에너지저장장치(ESS) 배터리 등이 선정됐습니다.\n오늘(3일) 서울 영등포구 여의도 글래드호텔에서 열린 '인터배터리 어워즈 2026'에서는 LG에너지솔루션, 삼성SDI, SK온 등 12개의 기업이 수상했습니다.\n올해로 3회째를 맞이한 '인터배터리 어워즈 2026'은 인터배터리 전시회 참가 기업의 제품과 기술을 대상으로 기술성, 혁신성, 산업 기여도 등을 종합 평가해 상을 수여합니다.\n올해는 총 25개 기업에서 42개의 혁신 제품과 기술이 출품돼 전년(24개사 32개 제품) 대비 규모가 확대됐습니다.\n배터리 부문에서는 LG에너지솔루션, 삼성SDI, SK온, 럼플리어가 수상했습니다.\nLG에너지솔루션의 'JF2 DC 링크 5.0 전력망용 ESS'는 안전성이 높은 LFP 기반으로 고성능 단열 설계와 올인원 컨테이너 구조를 적용했습니다.\nLG에너지솔루션 관계자는 \"도래할 배터리 슈퍼사이클 이끌 수 있는 초석이 될 수 있는 제품으로 고도화시킬 것\"이라며 수상 소감을 밝혔습니다.\n삼성SDI의 '700와트시/리터(Wh/L) 고에너지 각형 배터리'는 각형 셀 최초로 초고에너지밀도와 최고출력(4000W)을 구현했다. 직결형 집전 구조를 적용해 내부 저항을 40% 낮춰 에너지 효율을 높였으며 1회 충전 시 주행거리 800㎞·22분 급속 충전 등의 특성을 확보했습니다. 'No TP'(No Thermal Propagation, 열확산 방지) 기술을 적용해 화재 안전성을 높였습니다.\nSK온의 '각형 온 벤트 셀'은 각형 배터리에서 가스 배출 장치(벤트) 위치를 자유롭게 설계할 수 있도록 해 시스템 유연성을 높이고 열폭주 발생 시 가스를 제어된 방향으로 배출해 안전성을 강화했습니다.\n럼플리어의 '국산 리튬인산철 배터리'는 대기업 위주의 배터리 시장에서 국내 기술 기반의 'LFP 각형 배터리'를 개발하고 국내 최초 KC 인증을 획득해 양산 가능성을 제시한 점에서 높은 평가를 받았습니다.\n소재 부문에서는 ▲ 에코프로비엠 '공급망 자립 LFP 직접합성법' ▲ LG화학 '열폭주 지연 열가소성 수지(Thermoplastics)' ▲ 에코앤드림 '차세대 90+ 하이니켈 전구체' ▲ 솔룸신소재 'ESAR 10마이크로미터 포일 스테인리스'가, 부품 부문에서는 에프디씨 'ESS용 폭연방산구'가 수상했습니다.\n▲ 리드 인텔리전트 장비(Lead Intelligent Equipment) '건식 전극 믹싱 및 코팅 시스템' ▲ 자비스 '배터리 고속 CT 인라인 검사기' ▲티더블유 '초고속(0.2sec) 복합(노칭+스택) 설비'는 장비 부문에서 선정됐습니다.\n박태성 배터리협회 상근부회장은 \"올해 역대 최대 규모로 개최되는 인터배터리 2026은 전기차를 넘어 ESS·AI·드론·휴머노이드 로봇 등 각 분야에 적용될 배터리"
+        },
+        {
+          "title": "6천선 내준 코스피, 미국-이란 전쟁에 7%대 급락… 정유·방산주는 올...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000134430&office_id=310&code=006400&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 18:43",
+          "source": "여성신문",
+          "has_name": false
+        },
+        {
+          "title": "[현장] '인터배터리 어워즈 2026' 12개 혁신기술 선정…\"미래 경...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013799082&office_id=003&code=006400&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 17:42",
+          "source": "뉴시스",
+          "has_name": false
+        },
+        {
+          "title": "LFP 기반 ESS 배터리·안전성 기술 등 인터배터리 어워즈서 12개...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005485499&office_id=014&code=006400&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 16:17",
+          "source": "파이낸셜뉴스",
+          "has_name": false
+        },
+        {
+          "title": "K배터리 업체들 “안전·혁신 바탕 탈중국 수요 잡겠다”",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002794056&office_id=028&code=006400&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 15:14",
+          "source": "한겨레",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[이차전지] LG에너지솔루션",
+          "change_rate": "-8.0%"
+        },
+        {
+          "name": "[정유] SK이노베이션",
+          "change_rate": "+2.5%"
+        },
+        {
+          "name": "[그룹사] 삼성전자",
+          "change_rate": "-9.9%"
+        },
+        {
+          "name": "[화학] LG화학",
+          "change_rate": "-13.5%"
+        },
+        {
+          "name": "[이차전지소재] 에코프로비엠",
+          "change_rate": "-9.9%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    },
+    {
+      "id": "sig_20260303_KR_007",
+      "theme": "#가전",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "LG전자은(는) LG전자, 퀄컴 주도 6G 연합 참여... 삼성·통신3사 함께 글로벌 ... 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "LG전자",
+        "symbol": "066570",
+        "change_rate": "-12.4%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=066570"
+      },
+      "news_articles": [
+        {
+          "title": "LG전자, 퀄컴 주도 6G 연합 참여... 삼성·통신3사 함께 글로벌 ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000917336&office_id=469&code=066570&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 18:47",
+          "source": "한국일보",
+          "has_name": true
+        },
+        {
+          "title": "[단독] LG전자, 코콤·골든서울호텔에 ‘AI 영상 분석’ 솔루션 공급",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001145580&office_id=366&code=066570&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.03 17:02",
+          "source": "조선비즈",
+          "has_name": true
+        },
+        {
+          "title": "\"더위 일찍 온다\" 삼성·LG전자, 에어컨 사전 점검 서비스 시작",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000477372&office_id=629&code=066570&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.03 14:23",
+          "source": "더팩트",
+          "has_name": true
+        },
+        {
+          "title": "중동 정세 악화…삼성·LG전자, '글로벌 사우스' 확장 전략 여파는",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013798086&office_id=003&code=066570&page=4&sm=title_entity_id.basic",
+          "date": "2026.03.03 13:41",
+          "source": "뉴시스",
+          "has_name": true
+        },
+        {
+          "title": "4월부터 이른 더위 가능성…삼성·LG전자, 에어컨 사전점검 서비스",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324440&office_id=008&code=066570&page=3&sm=title_entity_id.basic",
+          "date": "2026.03.03 11:29",
+          "source": "머니투데이",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[반도체] 삼성전자",
+          "change_rate": "-9.9%"
+        },
+        {
+          "name": "[그룹사] LG유플러스",
+          "change_rate": "-2.6%"
+        },
+        {
+          "name": "[그룹사] LG에너지솔루션",
+          "change_rate": "-8.0%"
+        },
+        {
+          "name": "[그룹사] LG화학",
+          "change_rate": "-13.5%"
+        },
+        {
+          "name": "[그룹사] LG",
+          "change_rate": "-4.8%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    },
+    {
+      "id": "sig_20260303_KR_008",
+      "theme": "#건설",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "대우건설은(는) [특징주]이란 사태 격화…건설株 동반 약세 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "대우건설",
+        "symbol": "047040",
+        "change_rate": "-12.2%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=047040"
+      },
+      "news_articles": [
+        {
+          "title": "대우건설, ‘써밋 어메니티 디자인’으로 iF 디자인상",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000093895&office_id=243&code=047040&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 18:00",
+          "source": "이코노미스트",
+          "has_name": true
+        },
+        {
+          "title": "대우건설, 원도심 편리함·신도심 쾌적함 동시에…관공서·산단 '직주...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005644522&office_id=009&code=047040&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 16:27",
+          "source": "매일경제",
+          "has_name": true
+        },
+        {
+          "title": "대우건설, 독일 ‘iF 디자인 어워드’ 5년 연속 수상",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001145521&office_id=366&code=047040&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 14:35",
+          "source": "조선비즈",
+          "has_name": true
+        },
+        {
+          "title": "“5년 연속 수상”…대우건설 ‘써밋 어메니티 디자인’, 2026 iF...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005644376&office_id=009&code=047040&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 13:54",
+          "source": "매일경제",
+          "has_name": true
+        },
+        {
+          "title": "대우건설 '써밋 어메니티 디자인', 독일 iF 어워드 본상",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005257355&office_id=015&code=047040&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 11:21",
+          "source": "한국경제",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[건설] 현대건설",
+          "change_rate": "-8.6%"
+        },
+        {
+          "name": "[건설] GS건설",
+          "change_rate": "-4.7%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    },
+    {
+      "id": "sig_20260303_KR_009",
+      "theme": "#화학",
+      "signal_type": "이슈",
+      "short_reason": "사업통합, 단기자금조달, 신용도관리",
+      "summary": "롯데케미칼은 HD현대케미칼과의 사업부문 통합을 앞두고 시설자금 확보를 위해 6개월 만기의 초단기 사모채를 발행했으며, 이는 2년 5개월 만의 시장성 차입 시도이다. 이번 통합에는 채권단의 금융 지원(영구채 전환, 상환유예 등)이 수반되지만, 신설 법인 출자 부담은 존재하여 신용도 방어를 위한 구조조정 및 자금 관리가 중요한 국면이다. 또한, 충청남도 등은 석유화학 재편 기업에 지방세 감면 혜택을 제공하며 사업 재편을 지원하고 있다.",
+      "main_stock": {
+        "name": "롯데케미칼",
+        "symbol": "011170",
+        "change_rate": "-12.1%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=011170"
+      },
+      "news_articles": [
+        {
+          "title": "‘사업 통합’ 앞둔 롯데케미칼, 6개월 초단기 사모채 발행",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005485573&office_id=014&code=011170&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 18:13",
+          "source": "파이낸셜뉴스",
+          "has_name": true,
+          "content": "'HD현대케미칼'과의 사업부문 통합을 앞둔 롯데케미칼이 초단기 사모채 발행으로 자본시장 문을 두드렸다. 롯데케미칼이 회사채 시장에 나온 것은 지난 2023년 9월 이후 2년 5개월여만이다.\n3일 금융투자업계에 따르면 롯데케미칼은 지난달 27일 6개월 만기 사모 회사채 600억원어치를 발행했다. 사모채 표면이자율은 연 4.460%로 회사는 이번 사모채 조달과 관련 \"시설자금\" 용도라고 밝혔다.\n롯데케미칼은 HD현대케미칼과의 사업 통합을 준비하고 있다. 신설 통합법인은 NCC 2기 중 기존 롯데케미칼이 보유한 에틸렌 연산 110만t 설비를 운휴하고 범용 다운스트림 제품 생산축소 등 효율화 작업을 병행할 계획이다.\n채권단 은행은 사업재편에 필요한 금융지원을 제공키로 했다. 신설통합법인이 보유한 기존 금융기관 차입금 중 1조원에 대한 영구채 전환, 관련 차입금 약 7조9000억원에 대한 기존 금융조건 유지 및 상환유예조치가 포함됐다.\n또 사업재편과정에서 발생하는 자금소요의 경우 최대 약 1조원의 신규대출을 지원키로 결정됐다. 그러나 회사채 등 시장성차입금은 현재 금융지원 프로그램 범위 안에 포함되지 않았다.\n김서연 나이스신용평가 연구원은 \"롯데케미칼 대산공장이 연결 대상에서 제외되면, 전사 손익 부담은 일부 완화될 전망\"이라며 \"아울러 대산공장 관련 차입금이 신설 통합법인으로 이관됨에 따라 차입부담도 다소 경감될 것\"이라고 내다봤다. 이어 \"다만 신설 통합법인에 대한 6000억원의 출자 부담이 존재한다\"고 지적했다.\n롯데케미칼의 신용등급은 AA- 수준이다. 롯데케미칼에 기한이익상실(EOD) 트리거가 포함된 차입 규모는 총 6조4954억원 수준이다. 이 중 단기 신용등급(A1) 대비 1노치 떨어질 경우 트리거가 발동되는 금융권 차입금 규모는 1조1914억원에 달한다. 2노치 떨어질 경우 5조3040억원 차입금에 대해 트리거가 발동한다. 이에 강도 높은 구조조정 등으로 신용도 방어에 나섰다는 평가다."
+        },
+        {
+          "title": "'사업 통합' 앞둔 롯데케미칼, 6개월 '초단기' 사모채 발행 [fn...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005485388&office_id=014&code=011170&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 14:32",
+          "source": "파이낸셜뉴스",
+          "has_name": true
+        },
+        {
+          "title": "롯데케미칼 타이탄 누산타라 신임대표에 김민성씨 선임",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005485320&office_id=014&code=011170&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 12:40",
+          "source": "파이낸셜뉴스",
+          "has_name": true
+        },
+        {
+          "title": "충남도, 석유화학 재편 기업에 지방세 감면",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006227536&office_id=018&code=011170&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 13:59",
+          "source": "이데일리",
+          "has_name": false
+        },
+        {
+          "title": "롯데-HD현대 등 대산석유화학단지 기업의 사업재편 속도 '지방세 감면...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003403579&office_id=030&code=011170&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 11:42",
+          "source": "전자신문",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[화학] LG화학",
+          "change_rate": "-13.5%"
+        },
+        {
+          "name": "[화학] 금호석유",
+          "change_rate": "-9.7%"
+        },
+        {
+          "name": "[철강] POSCO홀딩스",
+          "change_rate": "-9.3%"
+        },
+        {
+          "name": "[그룹사] 롯데쇼핑",
+          "change_rate": "-3.7%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    },
+    {
+      "id": "sig_20260303_KR_010",
+      "theme": "#자동차",
+      "signal_type": "실적",
+      "short_reason": "2월 판매량 감소, 영업일수 축소",
+      "summary": "현대차는 2월 글로벌 판매량이 전년 동기 대비 5.1% 감소한 30만 6,528대를 기록하며 부진한 실적을 보였는데, 이는 설 연휴로 인한 영업일수 감소가 주요 원인으로 분석됩니다. 국내외 판매가 모두 줄었으나, 현대차는 향후 친환경차 및 하이브리드 라인업 강화를 통해 판매 전략을 최적화해 나갈 방침입니다. (참고로, 현대차그룹 전체적으로도 판매량 감소 추세가 확인되었습니다.)",
+      "main_stock": {
+        "name": "현대차",
+        "symbol": "005380",
+        "change_rate": "-11.7%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=005380"
+      },
+      "news_articles": [
+        {
+          "title": "현대차, 2월 글로벌 판매 30만6528대…작년比 5.1%↓",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001009902&office_id=031&code=005380&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 17:42",
+          "source": "아이뉴스24",
+          "has_name": true,
+          "content": "현대자동차는 지난 2월 국내외 시장에서 작년 동기간 대비 5.1% 감소한 총 30만6528대를 판매했다고 3일 밝혔다.\n국내 판매는 17.8％ 감소한 4만7008대, 해외 판매는 2.3％ 감소한 25만9520대다.\n국내에서 세단은 그랜저 3933대, 쏘나타 4436대, 아반떼 3628대 등 1만3천568대가 팔렸고, 레저용 차량(RV)은 팰리세이드 3081대, 싼타페 2679대, 투싼 2972대, 코나 2천876대, 캐스퍼 1171대 등 1만8756대가 판매됐다.\n상용차 부문에서는 포터 4634대, 스타리아 1781대가 팔렸고 중대형 버스와 트럭 판매량은 총 1122대였다.\n고급 브랜드 제네시스는 G80 2247대, GV80 1689대, GV70 2206대 등 6942대가 팔렸다.\n현대차 관계자는 \"지난달은 설 연휴로 인해 영업일수가 줄어들어 판매실적이 감소했다\"며 \"친환경차 판매 비중을 확대하고 하이브리드 라인업 강화 등 최적의 판매 전략을 실행해 나가겠다\"고 말했다."
+        },
+        {
+          "title": "현대차·기아, 2월 국내외 전체 판매량 55만대…전년 대비 4% 감소",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002794142&office_id=028&code=005380&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 19:26",
+          "source": "한겨레",
+          "has_name": true
+        },
+        {
+          "title": "‘안전이 최우선’…현대차그룹, 무인소방로봇 영상 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000336933&office_id=449&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.03.03 18:16",
+          "source": "채널A",
+          "has_name": true
+        },
+        {
+          "title": "\"데이터 기반 '화재 대응' 비전 제시\"...현대차그룹, 무인소방로봇...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005485511&office_id=014&code=005380&page=4&sm=title_entity_id.basic",
+          "date": "2026.03.03 16:28",
+          "source": "파이낸셜뉴스",
+          "has_name": true
+        },
+        {
+          "title": "현대차그룹, 불길 속 사투 대신하는 ‘AI 소방로봇’ 선봬… “소방관...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003700986&office_id=020&code=005380&page=3&sm=title_entity_id.basic",
+          "date": "2026.03.03 15:25",
+          "source": "동아일보",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[자동차] 기아",
+          "change_rate": "-11.3%"
+        },
+        {
+          "name": "[그룹사] 현대모비스",
+          "change_rate": "-9.4%"
+        },
+        {
+          "name": "[그룹사] 현대글로비스",
+          "change_rate": "-3.7%"
+        },
+        {
+          "name": "[그룹사] 현대해상",
+          "change_rate": "-5.7%"
+        },
+        {
+          "name": "[그룹사] 현대건설",
+          "change_rate": "-8.6%"
+        }
+      ],
+      "timestamp": "2026-03-03 23:47:23"
+    }
+  ]
+}
