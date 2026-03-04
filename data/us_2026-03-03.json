@@ -1,12 +1,49 @@
 {
-  "last_updated": "2026-03-03 23:28:34",
+  "last_updated": "2026-03-04 23:47:44",
   "signals": [
+    {
+      "id": "sig_20260303_US_IDX_SP500",
+      "theme": "#시장지수",
+      "signal_type": "시황",
+      "short_reason": "시장 전체 흐름",
+      "summary": "[S&P 500] 마감 지수: 6827.35 (+0.16%)",
+      "summary_success": true,
+      "is_index": true,
+      "main_stock": {
+        "name": "S&P 500",
+        "symbol": "SP500",
+        "change_rate": "+0.16%",
+        "news_url": ""
+      },
+      "news_articles": [],
+      "related_stocks": [],
+      "timestamp": "2026-03-04 23:47:44"
+    },
+    {
+      "id": "sig_20260303_US_IDX_NASDAQ",
+      "theme": "#시장지수",
+      "signal_type": "시황",
+      "short_reason": "시장 전체 흐름",
+      "summary": "[NASDAQ] 마감 지수: 22638.28 (+0.54%)",
+      "summary_success": true,
+      "is_index": true,
+      "main_stock": {
+        "name": "NASDAQ",
+        "symbol": "NASDAQ",
+        "change_rate": "+0.54%",
+        "news_url": ""
+      },
+      "news_articles": [],
+      "related_stocks": [],
+      "timestamp": "2026-03-04 23:47:44"
+    },
     {
       "id": "sig_20260303_US_001",
       "theme": "#Software",
       "signal_type": "이슈",
-      "short_reason": "비트코인 전략 성공, 리더십 비전, 암호화폐 강세",
-      "summary": "MicroStrategy는 비트코인에 대한 인상적인 투자 전략 실행과 마이클 세일러 회장의 확고한 비전이 투자자 신뢰를 높이며 주가 상승세를 견인하고 있습니다. 역사적 손실 언급에도 불구하고, 암호화폐 시장의 긍정적인 흐름 속에서 비트코인에 집중하는 기업의 독특한 전략이 시장에서 핵심적인 움직임으로 주목받고 있습니다.",
+      "short_reason": "비트코인 추가 매입, 기관 투자 확대, 자본 구조 재편",
+      "summary": "마이크로스트래티지(Strategy Inc.)는 최근 3,000 BTC 이상을 추가 매입하며 비트코인 보유량을 크게 늘렸습니다. 이는 신규 보통주 및 고비용 우선주 발행을 통해 자금을 조달했으며, 우선주 배당률을 7번째로 인상하는 등 자본 구조를 비트코인 투자에 맞춰 조정하는 모습을 보였습니다. 이러한 전략적 움직임과 비트코인 가격 급등에 힘입어 기관 투자자들의 지분 확대가 관찰되었으며, 이는 시장의 주목을 받으며 긍정적인 흐름을 주도했습니다.",
+      "summary_success": true,
       "main_stock": {
         "name": "MicroStrategy",
         "symbol": "MSTR",
@@ -15,37 +52,37 @@
       },
       "news_articles": [
         {
-          "title": "Strategy, BitMine Stock up on Bitcoin and Ethereum as Paper Losses Cross $16B",
-          "url": "https://www.ccn.com/news/crypto/strategy-bitmine-stock-bitcoin-ethereum-paper-losses-16b/?.tsrc=rss",
-          "date": "03.03 17:30",
+          "title": "Stocks to Watch Wednesday: Coinbase, CrowdStrike, Gitlab, Moderna",
+          "url": "https://finance.yahoo.com/m/1942f052-539b-3280-92f6-4004760d01ae/stocks-to-watch-wednesday%3A.html?.tsrc=rss",
+          "date": "03.04 23:15",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Strategy Incorporated (MSTR) Inspires Confidence Based on Impressive Bitcoin Execution",
-          "url": "https://finance.yahoo.com/news/strategy-incorporated-mstr-inspires-confidence-054634572.html?.tsrc=rss",
-          "date": "03.03 14:46",
+          "title": "Institutional Accumulation: US Bitcoin ETFs and MicroStrategy Drive $1.2B Demand Surge",
+          "url": "https://cryptonews.com/news/bitcoin-etfs-microstrategy-drive-demand-surge/?.tsrc=rss",
+          "date": "03.04 21:38",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "These Stocks Are Today’s Movers: AES, Norwegian, Elevance, Palantir, Lockheed, Strategy, Berkshire Hathaway, and More",
-          "url": "https://finance.yahoo.com/m/84b4038d-94fc-302b-87f7-bcadf517801b/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
-          "date": "03.03 07:05",
+          "title": "Strategy, Coinbase, and Robinhood Stocks Surge. This Market Is Getting Weirder.",
+          "url": "https://finance.yahoo.com/m/4dff92c9-3395-3bab-b264-5f4a75b572ec/strategy%2C-coinbase%2C-and.html?.tsrc=rss",
+          "date": "03.04 21:05",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Stock Market Today: Dow Dips As Trump Says This On Iran; Warren Buffett Stock Flashes Sell Signal (Live Coverage)",
-          "url": "https://finance.yahoo.com/m/e88c7c86-4225-3d8a-9ffb-a8fb2b9c9596/stock-market-today%3A-dow-dips.html?.tsrc=rss",
-          "date": "03.03 06:37",
+          "title": "These Stocks Are Today’s Movers: Moderna, CrowdStrike, GitLab, Coinbase, Strategy, Broadcom, and More",
+          "url": "https://finance.yahoo.com/m/777575cc-6e32-39e6-b1de-d82434987839/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
+          "date": "03.04 20:57",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Michael Saylor Once Said You Should Master This Technology To Get Wealthy: Bitcoin Billionaire Wants People To Set Their Egos Aside To Achieve Success",
-          "url": "https://finance.yahoo.com/news/michael-saylor-once-said-master-213015903.html?.tsrc=rss",
-          "date": "03.03 06:30",
+          "title": "Strategy Extends Bitcoin Bet With Costly Preferred Capital And Institutional Backing",
+          "url": "https://finance.yahoo.com/news/strategy-extends-bitcoin-bet-costly-211536456.html?.tsrc=rss",
+          "date": "03.04 06:15",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -56,14 +93,15 @@
           "change_rate": "+5.3%"
         }
       ],
-      "timestamp": "2026-03-03 23:28:34"
+      "timestamp": "2026-03-04 23:47:44"
     },
     {
       "id": "sig_20260303_US_002",
       "theme": "#Energy",
-      "signal_type": "수급",
-      "short_reason": "인도 대규모 계약, 수요 기반 확장, 우라늄 시장 활성화",
-      "summary": "Cameco는 인도와의 19억 달러 규모 우라늄 농축액 장기 공급 계약을 체결하며 강력한 수요 기반을 확보했습니다. 이는 캐나다와 인도 간의 국가적 협력 강화 속에서 이루어진 전략적 합의로, Cameco의 미래 실적에 대한 긍정적 전망을 제시합니다. 동시에 Dufferin West 프로젝트 등 여타 기업의 우라늄 탐사 프로젝트 확대 움직임은 산업 전반의 활발한 분위기를 반영하며, Cameco의 시장 지배력 강화에 유리한 환경을 조성하고 있습니다.",
+      "signal_type": "이슈",
+      "short_reason": "인도 공급 계약, 원자력 수요, 성장 가시성",
+      "summary": "카메코는 인도 원자력 에너지부와 19억 달러 규모의 장기 우라늄 공급 계약을 체결하며 글로벌 핵연료 공급망 내 핵심적 위상을 공고히 했습니다. 이 계약은 인도의 대규모 원자력 발전 확대 정책과 맞물려 2027년부터 9년간 안정적인 수요를 확보, 카메코의 장기적인 성장 가시성을 크게 높였습니다. 이러한 긍정적인 소식은 강력한 다년간의 수익률을 기록해온 카메코의 높은 기업 가치와 향후 성장 기대감을 더욱 부각시키고 있습니다.",
+      "summary_success": true,
       "main_stock": {
         "name": "Cameco",
         "symbol": "CCJ",
@@ -72,37 +110,37 @@
       },
       "news_articles": [
         {
-          "title": "Cosa Announces Expansions to Orion Project and Joint Ventures with Denison Mines",
-          "url": "https://finance.yahoo.com/news/cosa-announces-expansions-orion-project-130000832.html?.tsrc=rss",
-          "date": "03.03 22:00",
+          "title": "Market Chatter: Cameco, Brookfield-Owned Westinghouse Linked to Potential US-Japan Nuclear Project",
+          "url": "https://finance.yahoo.com/news/market-chatter-cameco-brookfield-owned-112731668.html?.tsrc=rss",
+          "date": "03.04 20:27",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Cameco to supply uranium ore concentrate to India in $1.9bn worth deal",
-          "url": "https://www.investmentmonitor.ai/news/cameco-to-supply-uranium-ore-india/?.tsrc=rss",
-          "date": "03.03 00:38",
+          "title": "Assessing Cameco’s Valuation After Strong Multi‑Year Returns And Elevated P/E Multiple",
+          "url": "https://finance.yahoo.com/news/assessing-cameco-valuation-strong-multi-070808032.html?.tsrc=rss",
+          "date": "03.04 16:08",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Dufferin West Drilling Commences Maiden Drill Program at High-Priority Dufferin West Uranium Target",
-          "url": "https://finance.yahoo.com/news/dufferin-west-drilling-commences-maiden-130000358.html?.tsrc=rss",
-          "date": "03.02 22:00",
+          "title": "The $1.9B Uranium Pact Powering a Canada–India Reset",
+          "url": "https://app.moby.co/home/news/news-the-19b-uranium-pact-powering-a-canadaindia-reset?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+          "date": "03.04 03:22",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Eagle Plains' Partner Refined Energy Corp. Commences Drill Program at the Dufferin West Project, Saskatchewan",
-          "url": "https://finance.yahoo.com/news/eagle-plains-partner-refined-energy-120000984.html?.tsrc=rss",
-          "date": "03.02 21:00",
+          "title": "Cameco’s India Uranium Deal Tests High Valuation And Growth Hopes",
+          "url": "https://finance.yahoo.com/news/cameco-india-uranium-deal-tests-161227720.html?.tsrc=rss",
+          "date": "03.04 01:12",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Canada, India Strike $1.9 Billion Uranium Supply Agreement as They Firm Ties",
-          "url": "https://finance.yahoo.com/m/7ac9f58e-26cf-3104-9081-498f020b32cd/canada%2C-india-strike-%241.9.html?.tsrc=rss",
-          "date": "03.02 19:34",
+          "title": "Cameco Inks $1.9B Long-Term Uranium Supply Deal With India",
+          "url": "https://finance.yahoo.com/news/cameco-inks-1-9b-long-152000613.html?.tsrc=rss",
+          "date": "03.04 00:20",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -121,14 +159,15 @@
           "change_rate": "-4.5%"
         }
       ],
-      "timestamp": "2026-03-03 23:28:34"
+      "timestamp": "2026-03-04 23:47:44"
     },
     {
       "id": "sig_20260303_US_003",
       "theme": "#Aerospace/Defense",
-      "signal_type": "실적",
-      "short_reason": "기록적 수주잔고, 가이던스 상향, 지정학적 수혜",
-      "summary": "Northrop Grumman의 주가는 기록적인 수주잔고 확보와 2026년 긍정적 실적 가이던스 업데이트에 힘입어 강세를 보였습니다. 이는 B-21 스텔스 폭격기 프로그램의 순항과 지정학적 긴장 고조로 인한 방위 산업 전반의 수요 증가가 맞물려 기업의 미래 성장 전망에 대한 시장의 기대감을 높인 결과입니다. 특히, 동사의 상승은 방산 부문 전체의 동반 상승이라기보다는 Northrop Grumman 고유의 강력한 펀더멘털과 핵심 프로그램 진전에 기인하고 있습니다.",
+      "signal_type": "이슈",
+      "short_reason": "지정학적 긴장 고조, 국방비 지출 확대, 수주잔고 증가",
+      "summary": "중동 분쟁 격화로 인한 지정학적 긴장 고조가 노스롭그루먼의 성장을 견인하고 있습니다. 회사는 기록적인 수주잔고를 확보하고 B-21 레이더 스텔스 폭격기 생산을 가속화하는 등 핵심 프로그램을 순조롭게 진행 중이며, 전문가들은 미국 정부의 국방비 지출 급증이 다년간의 생산 계약으로 이어져 노스롭그루먼을 포함한 주요 방산업체들의 이익을 크게 증대시킬 것으로 전망하고 있습니다. 시장은 아직 국방 부문의 이익 급증을 충분히 반영하지 못하고 있어 향후 성장 잠재력이 높다는 분석입니다.",
+      "summary_success": true,
       "main_stock": {
         "name": "Northrop Grumman",
         "symbol": "NOC",
@@ -137,37 +176,37 @@
       },
       "news_articles": [
         {
-          "title": "Northrop Grumman Shares Rise but Not All Defense Stocks Are Jumping. Here’s Why.",
-          "url": "https://finance.yahoo.com/m/98747dc5-d7a6-3a14-9628-6276b5638321/northrop-grumman-shares-rise.html?.tsrc=rss",
-          "date": "03.03 20:58",
+          "title": "Don't underestimate the role of Palantir, AI in Iran conflict",
+          "url": "https://finance.yahoo.com/video/dont-underestimate-role-palantir-ai-210713012.html?.tsrc=rss",
+          "date": "03.04 06:07",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "The market winners: Which stocks are 'boosted' by the Iran war so far?",
-          "url": "https://www.euronews.com/business/2026/03/03/the-market-winners-which-stocks-are-boosted-by-the-iran-war-so-far?utm_source=yahoo&utm_campaign=feeds_business_articles_2024&utm_medium=referral&.tsrc=rss",
-          "date": "03.03 20:44",
+          "title": "US strikes in Iran 'reinforce' a coming surge in defense spending. 3 key contractors are set to benefit.",
+          "url": "https://finance.yahoo.com/news/us-strikes-in-iran-reinforce-a-coming-surge-in-defense-spending-3-key-contractors-are-set-to-benefit-190716169.html?.tsrc=rss",
+          "date": "03.04 04:07",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "LMT Stock Up 38% in 2026 and the Rally Has Real Earnings Behind It",
-          "url": "https://247wallst.com/investing/2026/03/03/lmt-stock-up-38-in-2026-and-the-rally-has-real-earnings-behind-it/?.tsrc=rss",
-          "date": "03.03 19:56",
+          "title": "Defense companies poised to ramp up production amid Iran war",
+          "url": "https://finance.yahoo.com/video/defense-companies-poised-ramp-production-160558652.html?.tsrc=rss",
+          "date": "03.04 01:05",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Northrop Grumman (NOC) Is Up 5.9% After Record Backlog and 2026 Guidance Update - What's Changed",
-          "url": "https://finance.yahoo.com/news/northrop-grumman-noc-5-9-050953420.html?.tsrc=rss",
-          "date": "03.03 14:09",
+          "title": "General Dynamics Gains From Strong Orders and Defense Demand",
+          "url": "https://finance.yahoo.com/news/general-dynamics-gains-strong-orders-142300851.html?.tsrc=rss",
+          "date": "03.03 23:23",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Northrop Grumman Backlog And B 21 Progress Under Geopolitical Tailwinds",
-          "url": "https://finance.yahoo.com/news/northrop-grumman-backlog-b-21-010931761.html?.tsrc=rss",
-          "date": "03.03 10:09",
+          "title": "Stock Market News for Mar 3, 2026",
+          "url": "https://finance.yahoo.com/news/stock-market-news-mar-3-142000562.html?.tsrc=rss",
+          "date": "03.03 23:20",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -194,465 +233,7 @@
           "change_rate": "+3.8%"
         }
       ],
-      "timestamp": "2026-03-03 23:28:34"
-    },
-    {
-      "id": "sig_20260303_US_004",
-      "theme": "#AI",
-      "signal_type": "이슈",
-      "short_reason": "매수 추천, 회복세, 잠재 가치",
-      "summary": "최근 38% 급락을 겪었던 팔란티어(Palantir)가 월스트리트의 '매수' 추천 목록에 다시 오르며 단기적으로 11% 상승하는 등 긍정적인 반등세를 보이고 있습니다. 이는 AI 섹터 전반의 재평가 속에서도 팔란티어의 견고한 펀더멘털과 성장 잠재력에 대한 투자자 신뢰가 회복되고 있음을 시사하며, 지정학적 리스크로 인한 시장 변동성에도 불구하고 록히드 마틴과 함께 포트폴리오 편입이 권장될 만큼 장기적인 가치가 재조명되고 있습니다.",
-      "main_stock": {
-        "name": "Palantir",
-        "symbol": "PLTR",
-        "change_rate": "+5.8%",
-        "news_url": "https://finance.yahoo.com/quote/PLTR"
-      },
-      "news_articles": [
-        {
-          "title": "Palantir Stock Drops. Its Role in the Iran Conflict Is Not a Given.",
-          "url": "https://finance.yahoo.com/m/39af905a-2b48-3f84-a056-11654492f203/palantir-stock-drops.-its.html?.tsrc=rss",
-          "date": "03.03 22:42",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Palantir Is Back on Wall Street’s Buy List After 38% Plunge",
-          "url": "https://finance.yahoo.com/news/palantir-back-wall-street-buy-123242692.html?.tsrc=rss",
-          "date": "03.03 22:36",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "AI Stocks Hit Reset. CrowdStrike, Broadcom, Ciena Earnings Reports Due",
-          "url": "https://finance.yahoo.com/m/d0c30076-038c-3377-808d-f90acdd927e5/ai-stocks-hit-reset..html?.tsrc=rss",
-          "date": "03.03 22:28",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "This AI Stock Is Up 11% in Just 1 Week. Time to Buy?",
-          "url": "https://www.fool.com/investing/2026/03/02/this-ai-stock-is-up-11-in-just-1-week-time-to-buy/?.tsrc=rss",
-          "date": "03.03 10:42",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Why Lockheed Martin & Palantir Technologies Should Be in Your Portfolio Right Now",
-          "url": "https://finance.yahoo.com/news/why-lockheed-martin-palantir-technologies-234800663.html?.tsrc=rss",
-          "date": "03.03 08:48",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Software] Microsoft",
-          "change_rate": "+1.5%"
-        },
-        {
-          "name": "[Data] Snowflake",
-          "change_rate": "+1.1%"
-        },
-        {
-          "name": "[Cybersecurity] CrowdStrike",
-          "change_rate": "+3.5%"
-        }
-      ],
-      "timestamp": "2026-03-03 23:28:34"
-    },
-    {
-      "id": "sig_20260303_US_005",
-      "theme": "#Financials",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "Coinbase은(는) Coinbase exec says crypto 'corrections' are simple math, not a catastrophe 등의 영향으로 상승 마감했습니다.",
-      "main_stock": {
-        "name": "Coinbase",
-        "symbol": "COIN",
-        "change_rate": "+5.3%",
-        "news_url": "https://finance.yahoo.com/quote/COIN"
-      },
-      "news_articles": [
-        {
-          "title": "Coinbase exec says crypto 'corrections' are simple math, not a catastrophe",
-          "url": "https://finance.yahoo.com/news/coinbase-exec-says-crypto-corrections-are-simple-math-not-a-catastrophe-191545557.html?.tsrc=rss",
-          "date": "02.28 04:15",
-          "source": "Yahoo Finance",
-          "has_name": true,
-          "content": ""
-        },
-        {
-          "title": "Should Coinbase’s Zero‑Commission Stock and ETF Launch Reshape How COIN Investors View Its “Everything Exchange” Ambition?",
-          "url": "https://finance.yahoo.com/news/coinbase-zero-commission-stock-etf-080914161.html?.tsrc=rss",
-          "date": "03.01 17:09",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is Coinbase Global (COIN) Pricing Fair After Recent Share Price Weakness?",
-          "url": "https://finance.yahoo.com/news/coinbase-global-coin-pricing-fair-161126642.html?.tsrc=rss",
-          "date": "03.01 01:11",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Coinbase Global, Inc. (COIN): A Bull Case Theory",
-          "url": "https://finance.yahoo.com/news/coinbase-global-inc-coin-bull-134712997.html?.tsrc=rss",
-          "date": "02.28 22:47",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Needham Cuts Coinbase (COIN) Price Target as Bitcoin Trading Volatility Looms",
-          "url": "https://finance.yahoo.com/news/needham-cuts-coinbase-coin-price-035801697.html?.tsrc=rss",
-          "date": "02.28 12:58",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Software] MicroStrategy",
-          "change_rate": "+6.3%"
-        },
-        {
-          "name": "[Payments] PayPal",
-          "change_rate": "-1.3%"
-        }
-      ],
-      "timestamp": "2026-03-03 23:28:34"
-    },
-    {
-      "id": "sig_20260303_US_006",
-      "theme": "#Nuclear",
-      "signal_type": "이슈",
-      "short_reason": "국방·원자력 성장, 전략적 이사회 강화, 긍정적 시장 평가",
-      "summary": "BWX 테크놀로지스(BWXT)는 국방 및 원자력 산업 분야에서의 핵심 역량을 바탕으로 지난 한 해 동안 견조한 주가 상승세를 보였습니다. 이러한 상승세는 새로운 이사회 멤버 영입을 통한 가치평가 및 부채 관리 강화 전략과 더불어, 주요 금융 전문가들이 해당 기업을 주목할 만한 방산 및 원자력 기업으로 평가하며 매수 시점에 근접했다고 분석하는 등 긍정적인 시장 기류에 기인합니다.",
-      "main_stock": {
-        "name": "BWX Tech",
-        "symbol": "BWXT",
-        "change_rate": "+5.1%",
-        "news_url": "https://finance.yahoo.com/quote/BWXT"
-      },
-      "news_articles": [
-        {
-          "title": "BWX (BWXT) Stock Trades Up, Here Is Why",
-          "url": "https://finance.yahoo.com/news/bwx-bwxt-stock-trades-why-203536301.html?.tsrc=rss",
-          "date": "03.03 05:35",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Dan Jablonsky Joins BWX Board As Valuation And Debt Remain In Focus",
-          "url": "https://finance.yahoo.com/news/dan-jablonsky-joins-bwx-board-091019867.html?.tsrc=rss",
-          "date": "03.01 18:10",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Assessing BWX Technologies (BWXT) Valuation After A Strong Year Of Share Price Gains",
-          "url": "https://finance.yahoo.com/news/assessing-bwx-technologies-bwxt-valuation-031028717.html?.tsrc=rss",
-          "date": "03.01 12:10",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "GE Aerospace, Nuclear Play Lead 5 Stocks Near Buy Points",
-          "url": "https://finance.yahoo.com/m/4b1b6681-199d-309c-9585-c1105892c508/ge-aerospace%2C-nuclear-play.html?.tsrc=rss",
-          "date": "03.01 00:57",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Jim Cramer Highlights BWX Technologies as a Notable Defense and Nuclear Play",
-          "url": "https://finance.yahoo.com/news/jim-cramer-highlights-bwx-technologies-150310562.html?.tsrc=rss",
-          "date": "02.27 00:03",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[SMR] NuScale Power",
-          "change_rate": "+1.6%"
-        },
-        {
-          "name": "[SMR] Oklo",
-          "change_rate": "+2.7%"
-        },
-        {
-          "name": "[Aerospace/Defense] Lockheed Martin",
-          "change_rate": "+2.8%"
-        },
-        {
-          "name": "[Aerospace/Defense] RTX",
-          "change_rate": "+4.7%"
-        }
-      ],
-      "timestamp": "2026-03-03 23:28:34"
-    },
-    {
-      "id": "sig_20260303_US_007",
-      "theme": "#Aerospace/Defense",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "RTX은(는) There Are Worries the U.S. Could Run Out of Missiles in Iran. These Contractors Are Who It’s Turning To. 등의 영향으로 상승 마감했습니다.",
-      "main_stock": {
-        "name": "RTX",
-        "symbol": "RTX",
-        "change_rate": "+4.7%",
-        "news_url": "https://finance.yahoo.com/quote/RTX"
-      },
-      "news_articles": [
-        {
-          "title": "There Are Worries the U.S. Could Run Out of Missiles in Iran. These Contractors Are Who It’s Turning To.",
-          "url": "https://finance.yahoo.com/m/1b2afb3b-a171-3962-97ac-7924e7a1de11/there-are-worries-the-u.s..html?.tsrc=rss",
-          "date": "03.03 20:51",
-          "source": "Yahoo Finance",
-          "has_name": true,
-          "content": ""
-        },
-        {
-          "title": "Northrop Grumman Stock Gains, General Dynamics Dips as Market Gets Selective on Defense",
-          "url": "https://finance.yahoo.com/m/98747dc5-d7a6-3a14-9628-6276b5638321/northrop-grumman-stock-gains%2C.html?.tsrc=rss",
-          "date": "03.03 23:09",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Will the U.S. Run Out of Missiles? Lockheed Martin and More Stocks Trying to Prevent It.",
-          "url": "https://finance.yahoo.com/m/1b2afb3b-a171-3962-97ac-7924e7a1de11/will-the-u.s.-run-out-of.html?.tsrc=rss",
-          "date": "03.03 22:53",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is It Too Late To Consider RTX (RTX) After Its 61% One-Year Surge?",
-          "url": "https://finance.yahoo.com/news/too-consider-rtx-rtx-61-043758698.html?.tsrc=rss",
-          "date": "03.03 13:37",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Why RTX (RTX) Stock Is Up Today",
-          "url": "https://finance.yahoo.com/news/why-rtx-rtx-stock-today-000036795.html?.tsrc=rss",
-          "date": "03.03 09:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Aerospace/Defense] Lockheed Martin",
-          "change_rate": "+2.8%"
-        },
-        {
-          "name": "[Aerospace/Defense] Northrop Grumman",
-          "change_rate": "+6.0%"
-        },
-        {
-          "name": "[Aerospace/Defense] General Dynamics",
-          "change_rate": "+2.2%"
-        },
-        {
-          "name": "[Aerospace] Boeing",
-          "change_rate": "+1.0%"
-        },
-        {
-          "name": "[Aerospace] GE Aerospace",
-          "change_rate": "+1.0%"
-        }
-      ],
-      "timestamp": "2026-03-03 23:28:34"
-    },
-    {
-      "id": "sig_20260303_US_008",
-      "theme": "#Utilities",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "Vistra은(는) Vistra (VST) Price Target Trimmed Despite Strong Earnings Performance 등의 영향으로 하락 마감했습니다.",
-      "main_stock": {
-        "name": "Vistra",
-        "symbol": "VST",
-        "change_rate": "-4.5%",
-        "news_url": "https://finance.yahoo.com/quote/VST"
-      },
-      "news_articles": [
-        {
-          "title": "Vistra (VST) Price Target Trimmed Despite Strong Earnings Performance",
-          "url": "https://finance.yahoo.com/news/vistra-vst-price-target-trimmed-020010882.html?.tsrc=rss",
-          "date": "03.01 11:00",
-          "source": "Yahoo Finance",
-          "has_name": true,
-          "content": ""
-        },
-        {
-          "title": "$1.4 Trillion Needed for AI Data Center Electrification by 2030, Chief Investment Officer",
-          "url": "https://247wallst.com/investing/2026/03/03/1-4-trillion-needed-for-ai-data-center-electrification-by-2030-chief-investment-officer/?.tsrc=rss",
-          "date": "03.03 22:21",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Vistra’s Data Center Power Deals And Acquisitions Leave Valuation Question Open",
-          "url": "https://finance.yahoo.com/news/vistra-data-center-power-deals-071023456.html?.tsrc=rss",
-          "date": "03.03 16:10",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Vistra's Q4 Earnings Miss Estimates, Revenues Increase Y/Y",
-          "url": "https://finance.yahoo.com/news/vistras-q4-earnings-miss-estimates-130400765.html?.tsrc=rss",
-          "date": "03.02 22:04",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Utilities: The Unexpected AI Infrastructure Trade",
-          "url": "https://www.marketbeat.com/stock-ideas/utilities-the-unexpected-ai-infrastructure-trade/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "03.02 21:08",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Nuclear] Constellation Energy",
-          "change_rate": "-0.8%"
-        },
-        {
-          "name": "[Utilities] NextEra Energy",
-          "change_rate": "-1.1%"
-        }
-      ],
-      "timestamp": "2026-03-03 23:28:34"
-    },
-    {
-      "id": "sig_20260303_US_009",
-      "theme": "#Energy",
-      "signal_type": "이슈",
-      "short_reason": "에너지 시장 강세, 자본 배분 전략, 주주 환원",
-      "summary": "최근 전반적인 에너지 시장의 강세가 ConocoPhillips를 포함한 주요 에너지 기업들의 주가 상승 동력으로 작용하고 있습니다. 특히 ConocoPhillips는 퍼미안 자산 매각을 통한 자본 배분 전략 재편 및 주주 환원 강화 계획을 통해 투자자들의 긍정적인 기대를 모으고 있으며, 이는 시장 변동성 속에서도 견고한 상승세를 뒷받침하는 요인으로 분석됩니다.",
-      "main_stock": {
-        "name": "ConocoPhillips",
-        "symbol": "COP",
-        "change_rate": "+4.2%",
-        "news_url": "https://finance.yahoo.com/quote/COP"
-      },
-      "news_articles": [
-        {
-          "title": "Cheniere, Exxon, Chevron Stocks Rise Again. The Energy Shock Is Upending Markets.",
-          "url": "https://finance.yahoo.com/m/6f065b98-b47c-39ca-b45d-47cc90a54a3b/cheniere%2C-exxon%2C-chevron.html?.tsrc=rss",
-          "date": "03.03 21:32",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is ConocoPhillips (COP) Using Permian Sales To Quietly Redraw Its Capital Returns Playbook?",
-          "url": "https://finance.yahoo.com/news/conocophillips-cop-using-permian-sales-080926037.html?.tsrc=rss",
-          "date": "03.03 17:09",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Oil Explorers Are About to Get Absolutely Whipsawed and XOP Captures Every Single Move",
-          "url": "https://247wallst.com/investing/2026/03/02/oil-explorers-are-about-to-get-absolutely-whipsawed-and-xop-captures-every-single-move/?.tsrc=rss",
-          "date": "03.03 09:29",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "These Stocks Are Today’s Movers: AES, Norwegian, Elevance, Palantir, Lockheed, Strategy, Berkshire Hathaway, and More",
-          "url": "https://finance.yahoo.com/m/84b4038d-94fc-302b-87f7-bcadf517801b/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
-          "date": "03.03 07:05",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Exxon, Chevron, and Other Energy Stocks Close Up. Why They Could Go Higher.",
-          "url": "https://finance.yahoo.com/m/2acd165d-f336-36f4-962a-b8f443ce15b3/exxon%2C-chevron%2C-and-other.html?.tsrc=rss",
-          "date": "03.03 06:20",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Energy] ExxonMobil",
-          "change_rate": "+1.1%"
-        },
-        {
-          "name": "[Energy] Chevron",
-          "change_rate": "+1.5%"
-        }
-      ],
-      "timestamp": "2026-03-03 23:28:34"
-    },
-    {
-      "id": "sig_20260303_US_010",
-      "theme": "#Aerospace/Defense",
-      "signal_type": "실적",
-      "short_reason": "방산 수주 확대, 미사일 솔루션 강화, 국방 전략적 중요성",
-      "summary": "L3Harris는 최근 미사일 추적을 위한 우주국(SDA) 방어 프로그램의 하청업체로 선정되고 미사일 솔루션 부문 강화를 위한 최고 경영진 인사를 단행하며 방위 산업 내 핵심적인 전략적 입지를 공고히 하고 있습니다. 미사일 부족에 대한 우려가 커지는 지정학적 환경 속에서 고위 국방 관계자의 L3Harris 생산 시설 방문은 동사의 국방 기술 및 생산 역량이 국가 안보에 있어 매우 중요함을 시사하며, 이는 향후 L3Harris의 견고한 수주 증대 및 실적 성장을 견인할 주요 동력이 될 것으로 분석됩니다.",
-      "main_stock": {
-        "name": "L3Harris",
-        "symbol": "LHX",
-        "change_rate": "+3.8%",
-        "news_url": "https://finance.yahoo.com/quote/LHX"
-      },
-      "news_articles": [
-        {
-          "title": "Intuitive Machines Selected by L3Harris to Support SDA Proliferated Warfighter Space Architecture Tranche 3 Tracking Layer",
-          "url": "https://finance.yahoo.com/news/intuitive-machines-selected-l3harris-support-133000046.html?.tsrc=rss",
-          "date": "03.03 22:30",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "There Are Worries the U.S. Could Run Out of Missiles in Iran. These Contractors Are Who It’s Turning To.",
-          "url": "https://finance.yahoo.com/m/1b2afb3b-a171-3962-97ac-7924e7a1de11/there-are-worries-the-u.s..html?.tsrc=rss",
-          "date": "03.03 20:51",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "L3Harris Appoints Ken Sharp Senior Vice President and Chief Financial Officer, Ken Bedingfield President of Missile Solutions",
-          "url": "https://finance.yahoo.com/news/l3harris-appoints-ken-sharp-senior-140000529.html?.tsrc=rss",
-          "date": "03.02 23:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Secretary of War Pete Hegseth Visits L3Harris Solid Rocket Motor Site",
-          "url": "https://finance.yahoo.com/news/secretary-war-pete-hegseth-visits-234500040.html?.tsrc=rss",
-          "date": "02.28 08:45",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Joby Aviation Incurs Loss in Q4, Beats Revenue Estimates",
-          "url": "https://finance.yahoo.com/news/joby-aviation-incurs-loss-q4-182100342.html?.tsrc=rss",
-          "date": "02.28 03:21",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Aerospace/Defense] Lockheed Martin",
-          "change_rate": "+2.8%"
-        },
-        {
-          "name": "[Aerospace/Defense] Northrop Grumman",
-          "change_rate": "+6.0%"
-        },
-        {
-          "name": "[Aerospace/Defense] RTX",
-          "change_rate": "+4.7%"
-        }
-      ],
-      "timestamp": "2026-03-03 23:28:34"
+      "timestamp": "2026-03-04 23:47:44"
     }
   ]
 }

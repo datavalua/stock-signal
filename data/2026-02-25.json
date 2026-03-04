@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26 08:35:20",
+  "last_updated": "2026-03-04 01:43:06",
   "signals": [
     {
       "id": "sig_20260225_KR_001",
       "theme": "#IT서비스",
       "signal_type": "이슈",
-      "short_reason": "[특징주], 기아,",
-      "summary": "현대오토에버은(는) [특징주] 기아, 12%대 급등 52주 신고가…현대차도 9% 상승(종합... 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "현대오토에버은(는) [특징주] 기아, 12%대 급등 52주 신고가…현대차도 9% 상승(종합... 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "현대오토에버",
         "symbol": "307950",
@@ -16,7 +16,7 @@
       "news_articles": [
         {
           "title": "[특징주] 기아, 12%대 급등 52주 신고가…현대차도 9% 상승(종합...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015924464&office_id=001&code=307950&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015924464&office_id=001&code=307950&page=2&sm=title_entity_id.basic",
           "date": "2026.02.25 16:34",
           "source": "연합뉴스",
           "has_name": false,
@@ -31,58 +31,23 @@
         },
         {
           "title": "아찔한 상승… 상법 통과한 날 6000피 축포",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001833896&office_id=005&code=307950&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001833896&office_id=005&code=307950&page=2&sm=title_entity_id.basic",
           "date": "2026.02.25 18:58",
           "source": "국민일보",
           "has_name": false
         },
         {
           "title": "현대차 날자 기아도 52주 신고가",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642004&office_id=009&code=307950&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642004&office_id=009&code=307950&page=2&sm=title_entity_id.basic",
           "date": "2026.02.25 17:45",
           "source": "매일경제",
           "has_name": false
         },
         {
           "title": "[서울데이터랩]참엔지니어링 30.00% 상한가 금일 증시 상승률 1위로...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620821&office_id=081&code=307950&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620821&office_id=081&code=307950&page=2&sm=title_entity_id.basic",
           "date": "2026.02.25 15:55",
           "source": "서울신문",
-          "has_name": false
-        },
-        {
-          "title": "다온25, 드론·AI 융합 ISO/IEC 42001 인증 획득",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402003&office_id=030&code=307950&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:55",
-          "source": "전자신문",
-          "has_name": false
-        },
-        {
-          "title": "상위 1% 주식고수, ‘상승세’ 현대차 사들였다 [주식 초고수는 지금....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593279&office_id=011&code=307950&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:13",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "파죽지세 코스피, 장중 6100 돌파 [마켓시그널]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593269&office_id=011&code=307950&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:56",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "로보틱스 기대감에 현대차 9%대 급등…계열사도 일제히 상승세",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641629&office_id=009&code=307950&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:31",
-          "source": "매일경제",
-          "has_name": false
-        },
-        {
-          "title": "[이 시각 시황] AI 전력 수요 기대에 전선주 동반 강세",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494246&office_id=374&code=307950&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:45",
-          "source": "SBS Biz",
           "has_name": false
         }
       ],
@@ -108,14 +73,14 @@
           "change_rate": "+12.1%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     },
     {
       "id": "sig_20260225_KR_002",
       "theme": "#비철금속",
       "signal_type": "이슈",
-      "short_reason": "고려아연, 다음달",
-      "summary": "오늘 고려아연 주가는 고려아연 다음달 24일 정기주총… 이사 선임 놓고 치열한 표대결 예상 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "고려아연은(는) 고려아연 온산제련소 노사, 울주군 온산읍에 2.5억 지정기탁 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "고려아연",
         "symbol": "010130",
@@ -124,82 +89,40 @@
       },
       "news_articles": [
         {
-          "title": "고려아연 다음달 24일 정기주총… 이사 선임 놓고 치열한 표대결 예상",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005254885&office_id=015&code=010130&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:58",
-          "source": "한국경제",
+          "title": "고려아연 온산제련소 노사, 울주군 온산읍에 2.5억 지정기탁",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402009&office_id=030&code=010130&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.25 14:58",
+          "source": "전자신문",
           "has_name": true,
-          "content": "감사위원 분리선출 확대와 이사 선임 안건 놓고 맞붙\n'6(MBK연합) 대 1(고려아연 JV) 대 8(최 회장)'이 MBK엔 최선\n고려아연은 '5 대 1 대 9' 기대… 신규 이사 확보 위해 수싸움\n고려아연 정기 주주총회가 다음달 24일 열린다. 최윤범 고려아연 회장과 MBK파트너스·영풍 연합은 이사 선임 안건을 놓고 표대결을 벌일 예정이다.\n고려아연은 다음달 24일 정기 주주총회를 연다고 23일 공시했다. 최 회장 측은 MBK 연합이 제안한 이사의 총주주에 대한 충실 의무 명문화 내용을 자진해서 의안으로 상정하는 등 MBK 연합 측 요구 사안을 상당 부분 받아들였다. 주총이 작년처럼 극한의 대립으로 흘러가진 않는 분위기다.\n양측이 대립할 지점으로는 분리선출 감사위원 확대를 위한 정관 변경 안건이 꼽힌다. 최 회장 측은 유미개발이 주주제안을 하는 형식으로 감사위원 분리선출 인원을 기존 1명에서 2명으로 확대하자는 안건을 올렸다. 오는 9월 개정 상법 시행을 대비해 감사위원 2명이 필요하다는 게 최 회장 측 주장이다. 최 회장 측은 해당 정관 변경 안건 통과 여부와 상관없이 향후 분리 선출하는 감사위원 선임을 위해 이사 1명의 공석을 확보할 필요가 있어 신규 선임하는 이사 수도 5명이어야 한다는 입장이다.\n최 회장 측은 최 회장의 사내이사 재선임을 비롯해 이사 후보로 2명을 내고, 고려아연과 미국 정부 등이 합작해 만든 법인도 이사 후보를 1명 제안했다. 감사위원 분리선출 인원 확대 안건 통과를 전제로 분리선출 감사위원 후보도 1명 내놨다. 반면 MBK 연합은 6명의 이사를 신규 선임하자고 제안했다. 후보로는 최연석 MBK 파트너를 비롯해 5명을 제시했다.\n현재 19명으로 구성된 고려아연 이사회는 4명이 직무정지 상태다. 나머지 15명은 '4(MBK 연합) 대 11(최 회장)' 구도다. 이번에 임기가 만료되는 6명을 제외하면 '3 대 6'이 된다.\n만약 감사위원을 2명으로 확대하는 정관 변경안이 부결되고, MBK 연합 측 제안대로 6명을 집중투표제를 통해 새롭게 선임할 경우 현재 지분 구조상 이사회가 '6(MBK 연합) 대 1(고려아연과 미국 정부 측이 만든 JV) 대 8(최 회장)' 구도로 재편될 가능성이 크다. 최 회장 측 요구대로 이사 5명을 신규 선임할 경우엔 '5 대 1 대 8' 또는 '6 대 1 대 7'로 이사회가 재편될 것으로 전망된다. 정관 변경안이 통과돼 분리선출 감사위원이 2명으로 확대되면 이사회는 '5 대 1 대 9' 또는 '6 대 1 대 8'로 구성될 것으로 예상된다.\n어떤 방식으로든 MBK 연합이 이번 주총에서 고려아연 이사회를 장악하긴 어려운 상황이다. 다만 최 회장 역시 내년 주총에선 경영권 방어를 장담하기 어렵다. MBK 연합이 최 회장 측보다 더 많은 지분을 보유하고 있고, 내년 주총 때 임기가 만료되는 이사가 또 나오기 때문이다. IB 업계 관계자는 \"JV는 사실상 중립 성격으로 봐야하기 때문에 셈법이 더욱 복잡해졌다\"며 \"양측 모두 최대한 많은 신규 이사를 확보하기 위해 치열한 수싸움을 벌일 것으로 보인다\"고 말했다."
+          "content": "고려아연은 온산제련소 노사가 지난 24일 울산광역시 울주군 온산읍에 취약계층 지원을 위한 지정기탁금 2억5000만원을 전달했다고 밝혔다.\n이번 지정기탁은 지역사회와 상생을 실천하고 복지 사각지대를 해소하기 위한 민관 협력의 일환이다.\n고려아연 온산제련소 노사의 기탁금은 온산읍 내 취약계층을 대상으로 한 맞춤형 복지사업에 쓰인다. 월 1회 가정을 방문해 생필품과 식료품을 지원하고 안부를 확인하는 찾아가는 행복꾸러미 지원 사업(2400만원)을 비롯해 에너지 취약가구를 위한 따뜻한 겨울나기 난방유 배달 사업(600만원), 결식이 우려되는 가정을 대상으로 하는 도시락 지원 사업(3000만원) 등을 수행한다.\n올해부터는 기후위기와 생활환경 변화에 대응하는 신규 복지사업이 추진된다. 계절성 재난에 취약한 가구를 대상으로 폭염·한파 대비 물품 지원 사업(2000만원)을 실시한다. 저소득층 아동의 학습환경을 개선하는 공부방 조성 사업(2000만원)과 취약계층 주거환경 개선을 위한 집수리 지원 사업(1억5000만 원) 등 생활 여건 향상을 도모하는 데 쓰인다.\n박성웅 고려아연 경영지원본부장은 “노사가 뜻을 모아 후원한 지정기탁금이 복지 사각지대에 놓인 어려운 이웃들에게 실질적 도움이 되기를 바란다”고 밝혔다.\n조성우 기자 good_sw@etnews.com"
         },
         {
           "title": "MBK·영풍, 고려아연 주총 안건 입장 선회…왜?",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002411905&office_id=092&code=010130&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002411905&office_id=092&code=010130&page=3&sm=title_entity_id.basic",
           "date": "2026.02.25 22:38",
           "source": "지디넷코리아",
           "has_name": true
         },
         {
           "title": "MBK·영풍, 고려아연 주총 앞두고 '오락가락 행보' 비판… '액면분...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002218881&office_id=138&code=010130&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002218881&office_id=138&code=010130&page=3&sm=title_entity_id.basic",
           "date": "2026.02.25 19:19",
           "source": "디지털데일리",
           "has_name": true
         },
         {
           "title": "\"반대하더니 다시 제안\"…MBK·영풍, 고려아연 주총 앞 '일관성 논...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001008386&office_id=031&code=010130&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001008386&office_id=031&code=010130&page=3&sm=title_entity_id.basic",
           "date": "2026.02.25 17:49",
           "source": "아이뉴스24",
           "has_name": true
         },
         {
           "title": "MBK·영풍, 고려아연 주총 앞두고 ‘입장 번복’ 논란…무산 안건 재...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000097361&office_id=666&code=010130&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000097361&office_id=666&code=010130&page=3&sm=title_entity_id.basic",
           "date": "2026.02.25 16:43",
           "source": "경기일보",
           "has_name": true
-        },
-        {
-          "title": "고려아연 온산제련소, 울주군 온산읍에 2억5000만원 기탁",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000475705&office_id=629&code=010130&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:56",
-          "source": "더팩트",
-          "has_name": true
-        },
-        {
-          "title": "고려아연 온산제련소 노사, 울주군 온산읍에 2.5억 지정기탁",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402009&office_id=030&code=010130&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:58",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "[서울데이터랩]기아 13.97% 상승으로 큰 폭의 상승세를 보였다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620731&office_id=081&code=010130&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:09",
-          "source": "서울신문",
-          "has_name": false
-        },
-        {
-          "title": "\"7천도 꿈이 아니다\"‥'자사주 소각'으로 뒷받침",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001482483&office_id=214&code=010130&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:05",
-          "source": "MBC",
-          "has_name": false
-        },
-        {
-          "title": "눈높이 7천 향한다‥'자사주 소각' 개정도 뒷받침",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001482399&office_id=214&code=010130&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 06:11",
-          "source": "MBC",
-          "has_name": false
-        },
-        {
-          "title": "자사주 문제 해결 기대감에 더 뜨거워진 증시",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001833725&office_id=005&code=010130&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 00:42",
-          "source": "국민일보",
-          "has_name": false
         }
       ],
       "related_stocks": [
@@ -208,14 +131,14 @@
           "change_rate": "+1.8%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     },
     {
       "id": "sig_20260225_KR_003",
       "theme": "#자동차",
       "signal_type": "이슈",
-      "short_reason": "기아,, 14%",
-      "summary": "기아은(는) 기아, 14% 급등에 신고가 경신… 현대차도 상승 [특징주] 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "기아은(는) 기아, 장중 52주 신고가…美조지아 공장 500만대 생산 돌파가 호재... 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "기아",
         "symbol": "000270",
@@ -223,6 +146,20 @@
         "news_url": "https://finance.naver.com/item/news.naver?code=000270"
       },
       "news_articles": [
+        {
+          "title": "기아, 장중 52주 신고가…美조지아 공장 500만대 생산 돌파가 호재...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013786451&office_id=003&code=000270&page=3&sm=title_entity_id.basic",
+          "date": "2026.02.25 09:45",
+          "source": "뉴시스",
+          "has_name": true,
+          "content": "흥국증권 \"목표주가 24만원\" 상향\n[서울=뉴시스]송혜리 기자 = 기아 주가가 25일 강한 상승세를 보이며 장중 52주 신고가를 경신했다.\n한국거래소에 따르면 이날 기아 주가는 17만4500원에 출발해 오전 9시20분 기준 전 거래일 대비 10.75% 오른 19만2700원에 거래되고 있다. 장중에는 19만7000원까지 오르며 52주 최고가를 새로 썼다.\n기아는 이날 미국 조지아 법인의 누적 생산 500만대 달성 소식을 발표했다. 2009년 공장 가동 이후 약 15년 만이다. 아울러 조지아주 웨스트포인트 공장에서 2027년형 '올 뉴 텔루라이드' 생산을 시작하며 하이브리드(HEV) 모델 생산을 본격화했다.\n증권가에서는 기아의 상승세를 중장기 모멘텀과 연결해 해석하고 있다.\n흥국증권은 전날 기아 목표주가를 24만원으로 상향하며 '피지컬 AI 모멘텀에서 기아가 소외될 이유가 없다'고 평가했다.\n마건우 흥국증권 연구원은 보고서에서 \"아틀라스 투입이 예상되는 HMGMA는 현대차·기아의 공동 생산 거점으로, 기아 역시 BD 지분 약 16.7%를 보유하고 있다\"며 \"향후 핵심 기술로 꼽히는 소프트웨어중심차량(SDV) 전환도 현대차와 유사한 일정으로 진행될 전망\"이라고 설명했다．"
+        },
+        {
+          "title": "기아, 시장 흐름 및 관련 테마 분석",
+          "url": "https://finance.naver.com/item/news.naver?code=000270",
+          "date": "2026.02.25 09:00",
+          "source": "증권정보"
+        },
         {
           "title": "기아, 14% 급등에 신고가 경신… 현대차도 상승 [특징주]",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641695&office_id=009&code=000270&page=1&sm=title_entity_id.basic",
@@ -244,245 +181,6 @@
           "date": "2026.02.25 17:46",
           "source": "이데일리",
           "has_name": true
-        },
-        {
-          "title": "“나보다 우리, 중꺾마 기억하고 걸어가라”… 최준영 기아 사장 고대....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699664&office_id=020&code=000270&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:15",
-          "source": "동아일보",
-          "has_name": true
-        },
-        {
-          "title": "기아 미국 조지아공장, 누적 생산 500만대 돌파…첫 하이브리드차 ‘...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003429725&office_id=032&code=000270&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:52",
-          "source": "경향신문",
-          "has_name": true
-        },
-        {
-          "title": "기아 美조지아 공장, 누적 생산 500만대 돌파...\"텔루라이드 HE...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005482700&office_id=014&code=000270&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:59",
-          "source": "파이낸셜뉴스",
-          "has_name": true
-        },
-        {
-          "title": "[ET특징주] 기아, 美 조지아법인 생산 500만대 달성… 현대차와 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003401893&office_id=030&code=000270&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:11",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "“전기차 배터리·엔진부품 결함”…현대·기아·BMW 10만7천여대 리콜",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003401875&office_id=030&code=000270&page=8&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:37",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "기아, 14% 급등에 신고가 경신… 현대차도 상승 [특징주]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641695&office_id=009&code=000270&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:34",
-          "source": "매일경제",
-          "has_name": true
-        },
-        {
-          "title": "[특징주]기아, 美 조지아법인 생산 500만대 달성 소식에 13%↑",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005725637&office_id=277&code=000270&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:19",
-          "source": "아시아경제",
-          "has_name": true
-        },
-        {
-          "title": "[특징주] 기아, 조지아 공장 500만대 돌파 소식에 52주 신고가 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001131320&office_id=417&code=000270&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:42",
-          "source": "동행미디어 시대",
-          "has_name": true
-        },
-        {
-          "title": "기아 조지아 법인, 누적 생산 500만대 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006224079&office_id=018&code=000270&page=6&sm=title_entity_id.basic",
-          "date": "2026.02.25 08:45",
-          "source": "이데일리",
-          "has_name": true
-        },
-        {
-          "title": "\"또 호재 나왔다\" 외국인들 쓸어담더니…꿈틀대는 이 종목 [종목+]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255351&office_id=015&code=000270&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 22:01",
-          "source": "한국경제",
-          "has_name": false
-        },
-        {
-          "title": "6083…초스피드 ‘육천피’",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003429786&office_id=032&code=000270&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 20:16",
-          "source": "경향신문",
-          "has_name": false
-        },
-        {
-          "title": "한 달 만에 '육천피'…수익률 세계 1위",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000837727&office_id=422&code=000270&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 19:06",
-          "source": "연합뉴스TV",
-          "has_name": false
-        },
-        {
-          "title": "기아, 장중 52주 신고가…美조지아 공장 500만대 생산 돌파가 호재...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013786451&office_id=003&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:45",
-          "source": "뉴시스",
-          "has_name": true,
-          "content": "흥국증권 \"목표주가 24만원\" 상향\n[서울=뉴시스]송혜리 기자 = 기아 주가가 25일 강한 상승세를 보이며 장중 52주 신고가를 경신했다.\n한국거래소에 따르면 이날 기아 주가는 17만4500원에 출발해 오전 9시20분 기준 전 거래일 대비 10.75% 오른 19만2700원에 거래되고 있다. 장중에는 19만7000원까지 오르며 52주 최고가를 새로 썼다.\n기아는 이날 미국 조지아 법인의 누적 생산 500만대 달성 소식을 발표했다. 2009년 공장 가동 이후 약 15년 만이다. 아울러 조지아주 웨스트포인트 공장에서 2027년형 '올 뉴 텔루라이드' 생산을 시작하며 하이브리드(HEV) 모델 생산을 본격화했다.\n증권가에서는 기아의 상승세를 중장기 모멘텀과 연결해 해석하고 있다.\n흥국증권은 전날 기아 목표주가를 24만원으로 상향하며 '피지컬 AI 모멘텀에서 기아가 소외될 이유가 없다'고 평가했다.\n마건우 흥국증권 연구원은 보고서에서 \"아틀라스 투입이 예상되는 HMGMA는 현대차·기아의 공동 생산 거점으로, 기아 역시 BD 지분 약 16.7%를 보유하고 있다\"며 \"향후 핵심 기술로 꼽히는 소프트웨어중심차량(SDV) 전환도 현대차와 유사한 일정으로 진행될 전망\"이라고 설명했다．"
-        },
-        {
-          "title": "기아, 美서 하이브리드차 본격 생산… 도요타 맹추격",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012700&office_id=029&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 18:47",
-          "source": "디지털타임스",
-          "has_name": true
-        },
-        {
-          "title": "최준영 기아 사장, 고려대 졸업식서 \"중꺾마 기억하길\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006224663&office_id=018&code=000270&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 17:46",
-          "source": "이데일리",
-          "has_name": true
-        },
-        {
-          "title": "“나보다 우리, 중꺾마 기억하고 걸어가라”… 최준영 기아 사장 고대....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699664&office_id=020&code=000270&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:15",
-          "source": "동아일보",
-          "has_name": true
-        },
-        {
-          "title": "기아 미국 조지아공장, 누적 생산 500만대 돌파…첫 하이브리드차 ‘...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003429725&office_id=032&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:52",
-          "source": "경향신문",
-          "has_name": true
-        },
-        {
-          "title": "기아 美조지아 공장, 누적 생산 500만대 돌파...\"텔루라이드 HE...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005482700&office_id=014&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:59",
-          "source": "파이낸셜뉴스",
-          "has_name": true
-        },
-        {
-          "title": "[ET특징주] 기아, 美 조지아법인 생산 500만대 달성… 현대차와 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003401893&office_id=030&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:11",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "“전기차 배터리·엔진부품 결함”…현대·기아·BMW 10만7천여대 리콜",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003401875&office_id=030&code=000270&page=7&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:37",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "기아 조지아, 누적 생산 500만 대 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699590&office_id=020&code=000270&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:56",
-          "source": "동아일보",
-          "has_name": true
-        },
-        {
-          "title": "\"美조지아 500만대 달성\" 기아, 장중 52주 신고가",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000475455&office_id=629&code=000270&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:27",
-          "source": "더팩트",
-          "has_name": true
-        },
-        {
-          "title": "기아, 장중 52주 신고가…美조지아 공장 500만대 생산 돌파가 호재...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013786451&office_id=003&code=000270&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:45",
-          "source": "뉴시스",
-          "has_name": true
-        },
-        {
-          "title": "기아 조지아 법인, 누적 생산 500만대 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006224079&office_id=018&code=000270&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.25 08:45",
-          "source": "이데일리",
-          "has_name": true
-        },
-        {
-          "title": "\"또 호재 나왔다\" 외국인들 쓸어담더니…꿈틀대는 이 종목 [종목+]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255351&office_id=015&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 22:01",
-          "source": "한국경제",
-          "has_name": false
-        },
-        {
-          "title": "6083…초스피드 ‘육천피’",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003429786&office_id=032&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 20:16",
-          "source": "경향신문",
-          "has_name": false
-        },
-        {
-          "title": "코스피 6000 시대 개막…올해 44.37% 상승",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000336340&office_id=449&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 19:06",
-          "source": "채널A",
-          "has_name": false
-        },
-        {
-          "title": "한 달 만에 '육천피'…수익률 세계 1위",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000837727&office_id=422&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 19:06",
-          "source": "연합뉴스TV",
-          "has_name": false
-        },
-        {
-          "title": "기아 조지아, 누적 생산 500만대 돌파…하이브리드 생산 본격화",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004118900&office_id=079&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:00",
-          "source": "노컷뉴스",
-          "has_name": true
-        },
-        {
-          "title": "최준영 기아 대표, 고려대 119회 학위수여식 특별강연",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015923942&office_id=001&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:41",
-          "source": "연합뉴스",
-          "has_name": true
-        },
-        {
-          "title": "“전기차 배터리·엔진부품 결함”…현대·기아·BMW 10만7천여대 리콜",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003401875&office_id=030&code=000270&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:37",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "“전기차 배터리·엔진부품 결함”…현대·기아·BMW 10만7천여대 리콜",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003401875&office_id=030&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:37",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "코스피, 개인 매수세에 6100도 넘보다…현대차·기아 '급등'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005254940&office_id=015&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:06",
-          "source": "한국경제",
-          "has_name": true
-        },
-        {
-          "title": "기아 조지아, 누적생산 500만대 돌파…하이브리드 개시",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494269&office_id=374&code=000270&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:38",
-          "source": "SBS Biz",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -499,14 +197,14 @@
           "change_rate": "+6.8%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     },
     {
       "id": "sig_20260225_KR_004",
       "theme": "#건설",
       "signal_type": "이슈",
-      "short_reason": "현대건설,, 장중",
-      "summary": "오늘 현대건설 주가는 현대건설, 장중 12% 급등…글로벌 원전 대규모 수주 기대감 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "현대건설은(는) 현대건설, 장중 12% 급등…글로벌 원전 대규모 수주 기대감 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "현대건설",
         "symbol": "000720",
@@ -516,7 +214,7 @@
       "news_articles": [
         {
           "title": "현대건설, 장중 12% 급등…글로벌 원전 대규모 수주 기대감",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013786671&office_id=003&code=000720&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013786671&office_id=003&code=000720&page=10&sm=title_entity_id.basic",
           "date": "2026.02.25 10:38",
           "source": "뉴시스",
           "has_name": true,
@@ -524,72 +222,30 @@
         },
         {
           "title": "가덕도신공항 수의계약, ‘현대건설 전철’ 밟지 않아야",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000136207&office_id=658&code=000720&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000136207&office_id=658&code=000720&page=9&sm=title_entity_id.basic",
           "date": "2026.02.25 15:28",
           "source": "국제신문",
           "has_name": true
         },
         {
           "title": "'6천피' 질주에 건설주도 활짝… 현대건설 14% 급등",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001131369&office_id=417&code=000720&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001131369&office_id=417&code=000720&page=9&sm=title_entity_id.basic",
           "date": "2026.02.25 11:28",
           "source": "동행미디어 시대",
           "has_name": true
         },
         {
           "title": "'원전' 수주 기대에 '건설주' 급등…현대건설, 13% 강세[핫종목]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008791706&office_id=421&code=000720&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008791706&office_id=421&code=000720&page=10&sm=title_entity_id.basic",
           "date": "2026.02.25 09:58",
           "source": "뉴스1",
           "has_name": true
         },
         {
           "title": "엔비디아 26일 오전 6시 실적 발표…‘삼전닉스’에 훈풍일까, 폭탄일....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012709&office_id=029&code=000720&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012709&office_id=029&code=000720&page=8&sm=title_entity_id.basic",
           "date": "2026.02.25 19:51",
           "source": "디지털타임스",
-          "has_name": false
-        },
-        {
-          "title": "한국남부발전, 차세대 창호형 태양광 기술포럼 개최...“창호형 태양....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642076&office_id=009&code=000720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 18:07",
-          "source": "매일경제",
-          "has_name": false
-        },
-        {
-          "title": "반도체·자동차가 열어젖힌 코스피 6000…\"엔비디아 실적 주목\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322286&office_id=008&code=000720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 17:34",
-          "source": "머니투데이",
-          "has_name": false
-        },
-        {
-          "title": "햇볕 잘 드는 창문으로 원전 1~2기분 에너지 생산…도심태양광 전환 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008793426&office_id=421&code=000720&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:35",
-          "source": "뉴스1",
-          "has_name": false
-        },
-        {
-          "title": "건설사 ‘손실 반영’에 실적 희비… 현대·현대ENG 흑자 전환, 대우 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144328&office_id=366&code=000720&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:30",
-          "source": "조선비즈",
-          "has_name": false
-        },
-        {
-          "title": "체질 개선 바빴던 건설사, 몸집 '11%' 다이어트",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044733&office_id=648&code=000720&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 07:55",
-          "source": "비즈워치",
-          "has_name": false
-        },
-        {
-          "title": "GS건설, 압구정 정비사업 수주전 불참…성수1지구에 승부수",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008791240&office_id=421&code=000720&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 06:05",
-          "source": "뉴스1",
           "has_name": false
         }
       ],
@@ -615,7 +271,7 @@
           "change_rate": "+0.4%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     },
     {
       "id": "sig_20260225_KR_005",
@@ -632,179 +288,37 @@
       "news_articles": [
         {
           "title": "LG화학-英헤지펀드 공방 일단락…가처분 취하 [공시pick]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002378401&office_id=123&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 17:41",
-          "source": "조세일보",
-          "has_name": true,
-          "content": "LG화학이 주주총회 의안 상정을 요구하며 제기됐던 가처분 신청이 취하됐다고 25일 공시했다.\n공시에 따르면 영국계 헤지펀드 팰리서캐피탈마스터펀드리미티드 외 1명은 서울남부지방법원에 제기한 '주주총회 의안상정 가처분' 신청을 취하했다. 취하서는 지난 24일 제출됐으며 회사는 이날 이를 확인했다.\n앞서 팰리서캐피탈은 LG화학 정기 주주총회에 자사가 제안한 안건을 상정해달라며 가처분을 신청했다. 제안 안건에는 선임독립이사 제도 도입과 LG에너지솔루션 지분율을 70% 미만으로 축소하는 방안이 담겼다.\n이와 함께 매각 대금을 활용한 자사주 매입, 순자산가치(NAV) 할인율의 분기별 공시, 경영진 보상 체계 개편 등 주주환원과 지배구조 개선 관련 요구도 포함됐다. 지분 구조와 자본 정책 전반에 대한 변화를 촉구한 내용이다.\n이번 취하로 관련 법적 절차는 종결됐다."
-        },
-        {
-          "title": "LG화학-英헤지펀드 공방 일단락…가처분 취하 [공시pick]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002378401&office_id=123&code=051910&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002378401&office_id=123&code=051910&page=6&sm=title_entity_id.basic",
           "date": "2026.02.25 17:41",
           "source": "조세일보",
           "has_name": true
         },
         {
           "title": "LG화학, 정부 석유화학 구조개편 수혜 기대…13%대 강세",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322062&office_id=008&code=051910&page=3&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322062&office_id=008&code=051910&page=7&sm=title_entity_id.basic",
           "date": "2026.02.25 13:56",
           "source": "머니투데이",
           "has_name": true
         },
         {
           "title": "LG화학, 장중 10% 급등…정부 '대산 1호' 승인에 기대감↑",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013787010&office_id=003&code=051910&page=3&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013787010&office_id=003&code=051910&page=8&sm=title_entity_id.basic",
           "date": "2026.02.25 11:30",
           "source": "뉴시스",
           "has_name": true
         },
         {
           "title": "\"또 호재 나왔다\" 외국인들 쓸어담더니…꿈틀대는 이 종목 [종목+]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255351&office_id=015&code=051910&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255351&office_id=015&code=051910&page=5&sm=title_entity_id.basic",
           "date": "2026.02.25 22:01",
           "source": "한국경제",
           "has_name": false
         },
         {
           "title": "[기획] 하필이면 ‘6000피’ 찍은 날에… 대기업 ‘자사주 소각’ 철...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012701&office_id=029&code=051910&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012701&office_id=029&code=051910&page=6&sm=title_entity_id.basic",
           "date": "2026.02.25 18:54",
           "source": "디지털타임스",
-          "has_name": false
-        },
-        {
-          "title": "코스피 6천 시대 열렸다… 현대차, 새만금 투자 소식에 9% 급등",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000134234&office_id=310&code=051910&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:51",
-          "source": "여성신문",
-          "has_name": false
-        },
-        {
-          "title": "[서울데이터랩]마감 직후 인기 검색 종목 20選",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620823&office_id=081&code=051910&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:55",
-          "source": "서울신문",
-          "has_name": false
-        },
-        {
-          "title": "석화 재편 첫발...대산 2.1조 지원에 여수·울산 가속",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005482680&office_id=014&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:46",
-          "source": "파이낸셜뉴스",
-          "has_name": false
-        },
-        {
-          "title": "원도심의 편리함과 신도심의 쾌적함을 동시에…‘청주 푸르지오 씨엘...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012551&office_id=029&code=051910&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:03",
-          "source": "디지털타임스",
-          "has_name": false
-        },
-        {
-          "title": "석화 사업재편 1호 승인…여수·울산 ‘바통’ 이어 받나, 시한 한 달...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002604711&office_id=016&code=051910&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:01",
-          "source": "헤럴드경제",
-          "has_name": false
-        },
-        {
-          "title": "정부, 석화 재편 '대산 1호' 승인…2.1조 패키지 지원 쏟는다 (...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005725593&office_id=277&code=051910&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:50",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
-          "title": "해외 펀드, LG에 선전포고…개정상법 폭풍 치는 주총 시즌",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006223990&office_id=018&code=051910&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 06:53",
-          "source": "이데일리",
-          "has_name": false
-        },
-        {
-          "title": "LG화학, 정부 석유화학 구조개편 수혜 기대…13%대 강세",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322062&office_id=008&code=051910&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:56",
-          "source": "머니투데이",
-          "has_name": true
-        },
-        {
-          "title": "[서울데이터랩]참엔지니어링 30.00% 상한가 금일 증시 상승률 1위로...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620821&office_id=081&code=051910&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:55",
-          "source": "서울신문",
-          "has_name": false
-        },
-        {
-          "title": "정부, 석화 재편 '대산 1호' 승인…2.1조 패키지 지원 쏟는다 (종...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005725593&office_id=277&code=051910&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:50",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
-          "title": "상법 개정에 주주행동주의까지…3월 주총 앞둔 재계 ‘긴장’",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006223991&office_id=018&code=051910&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 06:53",
-          "source": "이데일리",
-          "has_name": false
-        },
-        {
-          "title": "롯데·현대케미칼 합병, NCC 110만 톤 중단...전기료 5% 인하 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000104068&office_id=660&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:15",
-          "source": "kbc광주방송",
-          "has_name": false,
-          "content": "정부가 석유화학 산업의 구조 개편을 위해 마련한 '대산 1호 프로젝트'를 최종 승인하고 총 2조 원 규모의 지원 패키지를 가동합니다.\n이는 지난해 8월 발표된 석유화학 사업 재편 로드맵의 첫 번째 결실입니다.\n이번 프로젝트의 핵심은 롯데케미칼 대산 사업장과 현대케미칼의 합병입니다.\n양사는 각각 6,000억 원을 출자해 지분 구조를 5대 5로 재편하며, 수익성이 낮은 롯데케미칼의 나프타분해설비(NCC) 110만 톤 가동을 중단합니다.\n이를 통해 공급과잉을 해소하고 생산 효율을 극대화하여, 현재 4,000억 원대인 적자를 2028년까지 흑자로 돌려놓겠다는 구상입니다.\n정부는 기업의 재무 부담을 덜어주기 위해 2조 원 규모의 금융 지원(신규 자금 1조 원, 영구채 전환 1조 원)과 함께 파격적인 세제 혜택을 제공합니다.\n특히 사업 재편 과정에서 발생하는 취득세와 등록면허세를 최대 100% 감면하고, 법인세 납부 기한도 기존보다 대폭 연장(5년 거치·5년 분할납부)하기로 했습니다.\n또한, 산업계의 고질적인 부담이었던 전기요금 문제 해결을 위해 분산에너지특구 제도를 도입, 한전 대비 4~5% 낮은 요금을 적용합니다.\n산업부는 이번 대산 1호 프로젝트를 시작으로 상반기 중 종합 지원 대책을 마련하고, 후속 재편 프로젝트들을 속도감 있게 추진할 계획입니다.\n한편 여수 산단 내 NCC(나프타분해시설)를 보유한 LG화학, 여천NCC, GS칼텍스 등 16개 주요 기업들이 2025년 12월 말 정부 가이드라인에 맞춰 사업 재편안 제출을 마쳤습니다.\n기업간 설비를 통합하고, 생산 감축에 나서는 한편 고탄성 경량 소재, 이차전지 전해액용 유기용매 등 첨단 소재 생산 라인으로의 전환이 추진되고 있습니다.\n김정관 산업부 장관은 \"대산이 포문을 열었다면, 여수가 구조 개편의 운명을 좌우할 것\"이라며 여수 지역의 대대적인 설비 감축과 고부가 전환을 강력히 주문하고 있습니다.\n#석유화학 #구조조정 #대산1호 #여수 #전남"
-        },
-        {
-          "title": "LG화학, 정부 석유화학 구조개편 수혜 기대…13%대 강세",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322062&office_id=008&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:56",
-          "source": "머니투데이",
-          "has_name": true
-        },
-        {
-          "title": "LG화학, 장중 10% 급등…정부 '대산 1호' 승인에 기대감↑",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013787010&office_id=003&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:30",
-          "source": "뉴시스",
-          "has_name": true
-        },
-        {
-          "title": "[서울데이터랩]참엔지니어링 30.00% 상한가 금일 증시 상승률 1위로...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620821&office_id=081&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:55",
-          "source": "서울신문",
-          "has_name": false
-        },
-        {
-          "title": "원도심의 편리함과 신도심의 쾌적함을 동시에…‘청주 푸르지오 씨엘...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012551&office_id=029&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:03",
-          "source": "디지털타임스",
-          "has_name": false
-        },
-        {
-          "title": "석화 사업재편 1호 승인…여수·울산 ‘바통’ 이어 받나, 시한 한 달...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002604711&office_id=016&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:01",
-          "source": "헤럴드경제",
-          "has_name": false
-        },
-        {
-          "title": "정부, 석화 재편 '대산 1호' 승인…2.1조 패키지 지원 쏟는다 (종...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005725593&office_id=277&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:50",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
-          "title": "상법 개정에 주주행동주의까지…3월 주총 앞둔 재계 ‘긴장’",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006223991&office_id=018&code=051910&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 06:53",
-          "source": "이데일리",
           "has_name": false
         }
       ],
@@ -830,7 +344,7 @@
           "change_rate": "-0.9%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     },
     {
       "id": "sig_20260225_KR_006",
@@ -846,159 +360,38 @@
       },
       "news_articles": [
         {
-          "title": "삼성생명, CSM 1조 급감…보험료 인하·세부담 '이중고'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000079915&office_id=293&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:24",
-          "source": "블로터",
-          "has_name": true,
-          "content": "삼성생명의 보험계약마진(CSM)이 가정 변경과 제도 요인 영향으로 큰 폭의 변동을 겪으며 다시 13조원대로 내려앉았다. 지난해 3분기 처음으로 14조원을 넘어섰지만 4분기 들어 관련 요인이 반영되며 상승 흐름이 꺾였다.\n25일 삼성생명에 따르면 지난해 말 CSM 잔액은 13조2179억원으로 집계됐다. 전년 말보다 2.4% 증가했지만, 연중 누적된 상각과 조정 부담이 반영되며 성장세는 한풀 꺾인 모습이다. CSM 구성은 사망보험 4조2983억원, 건강보험 7조9502억원, 연금·저축 9693억원이다.\n연간 누적 신계약 CSM은 3조595억원으로 3조원은 꾸준히 유지한 것으로 나타났다. 전년 대비 감소했지만 수익성이 높은 건강보험 중심의 영업 전략은 유지됐다. 신계약 CSM배수는 11.3배로, 사망보험 5.9배, 건강보험 16.3배 수준이다.\n삼성생명의 CSM이 기존보다 줄어든 것은 4분기 들어 CSM조정 규모가 확대됐기 때문이다. 이 시기에만 1조3640억원이 조정 명목으로 감소했다. 연령별 손해율과 예금보험료 등 가정 변경으로 약 4000억원이 증가했지만 교육세 인상과 제도 변경 여파로 약 3000억원이 줄었다. 또 실손보험 보험료 인하와 보험금 청구가 늘며 등이 겹치며 조정 폭이 커진 점도 영향을 미쳤다. 이에 따라 3분기까지 유지되던 14조원대 CSM은 다시 13조원대로 내려왔다.\n삼성생명 관계자는 \"2024년 말 실손보험 1·2세대 보험료 인하 영향과 2025년 의료 파업 정상화, 실손보험 청구 증가로 실손 부문에서 약 6000억~7000억원 수준의 조정이 발생했다\"며 \"이를 제외하면 분기당 CSM 변동은 약 2000억원 수준으로 특이 사항은 크지 않다\"고 말했다.\n신계약 부문에서는 건강보험이 성과를 견인했다. 삼성생명은 지난해 건강보험 CSM 2조3014억원을 기록했다. 신계약 CSM 중 건강보험 비중도 전년 58%에서 75%로 확대됐다. 수익성과 안정성을 동시에 고려한 상품 전략이 반영된 결과다.\n삼성생명 관계자는 \"건강 상품 라인업 확대와 담보 경쟁력 강화로 신계약 CSM의 질을 개선했다\"며 \"전속 채널 중심의 영업 구조를 바탕으로 안정적인 수익성을 유지하고 있다\"고 설명했다.\n앞으로는 감독 당국의 계리 가정 관리 강화가 주요 변수로 작용할 전망이다. 최근 금융감독원은 손해율과 사업비 산출 기준을 보다 엄격하게 관리하는 가이드라인을 발표했다. 보험사의 과도한 낙관적 가정을 제한하고, 원가 반영의 일관성을 높이겠다는 취지다.\n삼성생명은 기존 가정이 비교적 보수적으로 적용돼 왔다는 입장이다. 비갱신 담보 손해율 등 일부 항목에서는 긍정적 효과도 기대되지만, 신규 담보와 사업비 기준 강화는 부담 요인으로 보고 있다.\n회사는 중장기적으로 신계약 CSM 확대 전략을 유지할 방침이다. 삼성생명은 올해 3조1000억원 수준의 신계약 CSM을 바탕으로, 2026년에는 연간 3조2000억원 이상 확보를 목표로 설정했다. 신계약 CSM배수 역시 12배 이상으로 끌어올린다는 계획이다."
-        },
-        {
           "title": "[혁신 보험, 드라이브] 삼성생명, 최신 의료기술 보장하는 '삼성 Th...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402079&office_id=030&code=032830&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402079&office_id=030&code=032830&page=6&sm=title_entity_id.basic",
           "date": "2026.02.25 16:01",
           "source": "전자신문",
           "has_name": true
         },
         {
           "title": "삼성생명, CSM 1조 급감…보험료 인하·세부담 '이중고'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000079915&office_id=293&code=032830&page=2&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000079915&office_id=293&code=032830&page=6&sm=title_entity_id.basic",
           "date": "2026.02.25 15:24",
           "source": "블로터",
           "has_name": true
         },
         {
           "title": "보험 팔아 이익? 옛말…삼성생명만 웃었다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044744&office_id=648&code=032830&page=3&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044744&office_id=648&code=032830&page=7&sm=title_entity_id.basic",
           "date": "2026.02.25 10:36",
           "source": "비즈워치",
           "has_name": true
         },
         {
           "title": "지배구조 투명성·주주 가치 제고 기대감",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004108477&office_id=022&code=032830&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004108477&office_id=022&code=032830&page=5&sm=title_entity_id.basic",
           "date": "2026.02.25 21:10",
           "source": "세계일보",
           "has_name": false
         },
         {
           "title": "3차 상법개정안 통과…‘자사주 소각 의무화’ 증시 더 달굴 듯",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002793218&office_id=028&code=032830&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002793218&office_id=028&code=032830&page=5&sm=title_entity_id.basic",
           "date": "2026.02.25 19:38",
           "source": "한겨레",
-          "has_name": false
-        },
-        {
-          "title": "삼성금융, AI에 힘준다…해외IB·보험 벤치마킹",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593497&office_id=011&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 18:19",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "출혈경쟁이 '부메랑' 됐다…보험업계 '예실차 쇼크'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255204&office_id=015&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 17:19",
-          "source": "한국경제",
-          "has_name": false
-        },
-        {
-          "title": "DB자산운용, 정부 ‘국민성장펀드’ 정책 수혜 코스닥 펀드 출시",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641758&office_id=009&code=032830&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:58",
-          "source": "매일경제",
-          "has_name": false
-        },
-        {
-          "title": "주가 올랐다지만...여전히 불안한 보험주",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000093609&office_id=243&code=032830&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:20",
-          "source": "이코노미스트",
-          "has_name": false
-        },
-        {
-          "title": "보험업계 '예실차 쇼크'…출혈경쟁·고무줄 회계 '부메랑' 됐나",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005254937&office_id=015&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:01",
-          "source": "한국경제",
-          "has_name": false
-        },
-        {
-          "title": "'자사주 소각' 3차 상법 개정 임박…'수혜주 찾기' 분주",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013786409&office_id=003&code=032830&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:32",
-          "source": "뉴시스",
-          "has_name": false
-        },
-        {
-          "title": "차익 실현 vs 주가 과열...보험·증권株 ‘동반 하락’ [이런국장 저...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593113&office_id=011&code=032830&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 06:50",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "보험 팔아 이익? 옛말…삼성생명만 웃었다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044744&office_id=648&code=032830&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:36",
-          "source": "비즈워치",
-          "has_name": true
-        },
-        {
-          "title": "'자사주 소각' 3차 상법 개정 임박…'수혜주 찾기' 분주",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013786409&office_id=003&code=032830&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:32",
-          "source": "뉴시스",
-          "has_name": false
-        },
-        {
-          "title": "차익 실현 vs 주가 과열...보험·증권株 ‘동반 하락’ [이런국장 저...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593113&office_id=011&code=032830&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 06:50",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "[혁신 보험, 드라이브] 삼성생명, 최신 의료기술 보장하는 '삼성 Th...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003402079&office_id=030&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:01",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "보험 팔아 이익? 옛말…삼성생명만 웃었다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044744&office_id=648&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:36",
-          "source": "비즈워치",
-          "has_name": true
-        },
-        {
-          "title": "'자사주 소각' 3차 상법 개정 임박…'수혜주 찾기' 분주",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013786409&office_id=003&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:32",
-          "source": "뉴시스",
-          "has_name": false,
-          "content": "오늘 오후 3차 상법 개정안 통과 전망\n지주사·증권·보험 등 주가 변동성 확대\n[서울=뉴시스]이지민 기자 = 세 번째 상법 개정안 통과가 임박했다. 상장사가 취득한 자사주를 1년 내 의무 소각하도록 하는 것이 골자다. 시장에서는 일찌감치 수혜주 찾기에 나서면서 관련 종목들의 주가 변동성이 커진 모습이다.\n25일 정치권 및 금융투자업계에 따르면 이날 국회 본회의에서 3차 상법 개정안이 여당 주도로 통과될 전망이다. 전날 국민의힘이 개정안에 반대하며 필리버스터에 나섰으나, 더불어민주당이 종결 동의를 제출하면서 법안 처리 강행을 예고했다.\n이날 이재명 대통령은 X(옛 트위터)에 \"자사주 소각 입법이 한시라도 빨리 되면 좋겠다\"며 \"해는 짧은데, 갈 길이 멀다. '주가 누르기 방지법' 등 해야 할 일이 산더미\"라고 말했다.\n개정안의 핵심은 자사주를 원칙적으로 소각 대상으로 규정하는 것이다. 회사는 새로 취득한 자사주를 1년 이내에 소각해야 한다. 기존 보유 중인 자사주는 법 시행일로부터 1년 6개월 안에 소각하도록 했다. 자사주가 지배주주의 경영권 방어 수단으로 악용되는 것을 막기 위해서다.\n단, 임직원 보상, 우리사주 제도 운영, 신기술 도입이나 재무구조 개선 등 경영상 필요한 경우에는 예외적으로 보유가 가능하다.\n증권가에서는 향후 자사주 소각 법안에 따른 기업들의 주식 소각 확대로 코스피 주식 수 증가율은 연평균 1% 감소할 것으로 예상하고 있다.\n이정연 대신증권 연구원은 \"이번 3차 상법 개정안의 핵심은 자사주 소각을 무조건적으로 강제하는 것이 아니라, 자사주의 처리 방향을 이사회가 아닌 주주총회에서 결정하도록 하여 일반주주의 권익을 보호하는 데 있다\"고 평가했다.\n시장에서는 수혜주 찾기가 한창이다. 다만, 기대감이 선반영된 종목들의 경우 차익실현 등에 따른 변동성이 커진 만큼 주의가 필요하다는 목소리가 나온다.\n시가총액 1조원 이상 종목 중 전체 주식 수 대비 자기주식 비율이 20%가 넘는 종목으로는 신영증권(자사주 비율 53.1%), SNT다이내믹스(32.7%), 대웅(29.7%), 한샘(29.5%), 롯데지주(27.5%), 미래에셋생명(26.3%), SK(24.8%), 대신증권(24.3%), 미래에셋증권(23.1%) 등이 있다.\nKCC(17.2%), 두산(16.2%), DB손해보험(14.6%), 오뚜기(14.2%), 영원무역홀딩스(14.0%), LS(13.7%), 한화생명(13.5%), 금호석유화학(13.4%) 등도 자사주 비율이 높은 종목이다.\n일찌감치 3차 상법 개정 수혜주로 꼽혔던 증권 업종과 금융지주, 보험 종목들의 경우 최근 주가 변동성이 확대됐다.\n전날 삼성생명(-3.45%)·한화생명(-10.89%)·미래에셋생명(-6.27%) 등 보험주와 신영증권(-6.86%)·NH투자증권(-5.08%)·유진투자증권(-3.92%)·한화투자증권(-3.12%)·키움증권(-2.97%) 등 증권주 등이 일제히 하락 마감했다. KB금융(-1.19%)·신한지주(-0.88%)·하나금융지주(-2.32%)·우리금융지주(-2.98%) 등 금융지주사도 주가가 내렸다.\n이들 종목은 최근 주가가 오름세를 보였으나, 전날 차익 실현 매물이 쏟아지며 변동성이 커졌다.\n정준섭 NH투자증권 연구원은 \"자사주 신규 매입 없는 보유 자사주 소각은 주주환원이 아닌 일회성 이벤트에 불과한 만큼 실적이나 자본정책의 진전이 없는 상태에서 최근 이슈가 주가 상승을 얼마나 정당화할 수 있는지 고려해야 한다\"고 짚었다．"
-        },
-        {
-          "title": "DB자산운용, 정부 ‘국민성장펀드’ 정책 수혜 코스닥 펀드 출시",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641758&office_id=009&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:58",
-          "source": "매일경제",
-          "has_name": false
-        },
-        {
-          "title": "주가 올랐다지만...여전히 불안한 보험주",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000093609&office_id=243&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:20",
-          "source": "이코노미스트",
-          "has_name": false
-        },
-        {
-          "title": "[서울데이터랩]기아 13.97% 상승으로 큰 폭의 상승세를 보였다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003620731&office_id=081&code=032830&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:09",
-          "source": "서울신문",
           "has_name": false
         }
       ],
@@ -1024,14 +417,14 @@
           "change_rate": "+0.3%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     },
     {
       "id": "sig_20260225_KR_007",
       "theme": "#항공",
       "signal_type": "이슈",
-      "short_reason": "대한항공, '피지컬",
-      "summary": "오늘 대한항공 주가는 대한항공 '피지컬 AI 아음속무인기' 첫 공개...DSK 2026 참... 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "대한항공은(는) 대한항공 '피지컬 AI 아음속무인기' 첫 공개...DSK 2026 참... 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "대한항공",
         "symbol": "003490",
@@ -1048,88 +441,33 @@
           "content": "[파이낸셜뉴스] 대한항공은 25∼27일 사흘간 부산 벡스코에서 열리는 '드론쇼코리아(DSK) 2026'에 참가해 인공지능(AI) 기반 차세대 무인기의 비전을 제시하고, 미래 항공 모빌리티(AAM) 기술 역량을 선보인다고 25일 밝혔다.\nDSK는 산업통상자원부와 국토교통부, 국방부, 우주항공청, 부산광역시가 주최하는 아시아 최대 규모의 드론 전문 전시회다. 올해는 무인기 기술을 중심으로 항공우주, 방산, 탄소중립(넷 제로), 공간정보 분야는 물론, AI 기반 융합 기술을 보유한 기업들이 대거 참여한다. 해외 기업 참가도 늘어나 지난해 15개국에 이어 올해 23개국이 참가를 확정했다.\n대한항공은 방문객들의 효율적 관람 동선 확보를 위해 복층 구조로 이뤄진 넓은 부스 공간을 마련했다. 1층은 대한항공의 기술력을 직접 살펴보고 교류하는 전시장 및 회의실로, 2층은 라운지 공간으로 구성돼 실질적인 네트워킹 확장이 가능토록 했다.\n전시장은 총 2개의 섹션으로 나눠 운영한다. 드론 존에서는 대한항공이 미국 AI 방산기업 안두릴 인더스트리즈와 협력해 개발 중인 '피지컬 AI 아음속무인기'를 국내 최초로 선보인다.\n이 외에도 AI 소형 다목적무인기, 소형 타격무인기, 통신중계드론, 군집비행드론 기술 기반 항공기 MRO(유지·보수·정비) 등이 전시된다.\nAAM 존에서는 대한항공이 자체 개발한 AAM 교통관리·운항통제 시스템 'ACROSS'와, 지난해 대한항공과 AAM 개발 협력 업무협약(MOU)을 체결한 미국 도심항공교통 선도 기업 아처 에비에이션(아처)의 기체 목업을 만나볼 수 있다.\n대한항공은 이번 전시와 함께 다양한 업무 협력 이벤트도 진행한다. 25일 대한항공의 무인기 기술 역량과 사업 로드맵을 소개하는 '무인기 기술세미나'를 시작으로, 26일 아처와 공동으로 개최하는 'AAM 기술세미나', 글로벌 AAM 업체들과의 MOU 등을 계획하고 있다.\n대한항공 관계자는 \"이번 DSK 참가는 대한항공이 현재 주력 생산하고 있는 AI 소프트웨어 기반 무인기 기술 역량과 차세대 항공 모빌리티 관련 최신 기술을 산업계 전반에 알리는 좋은 기회가 될 것\"이라며 \"대한항공은 향후 세계 수준의 항공우주 종합기업으로 도약하기 위해 다양한 분야에서 도전을 이어가겠다\"고 전했다."
         },
         {
-          "title": "\"이제 '칼기' 아니에요\" 대한항공, 60여 년 쓰던 'KAL'과 이별...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255336&office_id=015&code=003490&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 20:23",
-          "source": "한국경제",
-          "has_name": true
+          "title": "대한항공, 시장 흐름 및 관련 테마 분석",
+          "url": "https://finance.naver.com/item/news.naver?code=003490",
+          "date": "2026.02.25 09:00",
+          "source": "증권정보"
         },
         {
           "title": "대한항공, 60년 넘게 쓴 영문 약어 KAL 떼낸다",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144433&office_id=366&code=003490&page=1&sm=title_entity_id.basic",
           "date": "2026.02.25 18:55",
           "source": "조선비즈",
-          "has_name": true
-        },
-        {
-          "title": "\"이젠 KAL기 아닙니다\"…대한항공, 60여 년 쓰던 'KAL'과 작...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000837682&office_id=422&code=003490&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 17:32",
-          "source": "연합뉴스TV",
-          "has_name": true
-        },
-        {
-          "title": "대한항공-아시아나항공, 합동 교육기부 봉사…지식·경험 나눔 '사회...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004378494&office_id=076&code=003490&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:56",
-          "source": "스포츠조선",
-          "has_name": true
-        },
-        {
-          "title": "“KAL기는 이제 역사속으로”... 대한항공, 60여년 쓰던 ‘KAL...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003961034&office_id=023&code=003490&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:22",
-          "source": "조선일보",
-          "has_name": true
-        },
-        {
-          "title": "대한항공-아시아나항공, 첫 합동 교육기부 봉사",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593314&office_id=011&code=003490&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:24",
-          "source": "서울경제",
-          "has_name": true
-        },
-        {
-          "title": "대한항공·아시아나항공 '항공 진로 특강' 첫 합동 봉사",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005482586&office_id=014&code=003490&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:50",
-          "source": "파이낸셜뉴스",
-          "has_name": true
-        },
-        {
-          "title": "[단독] 대한항공, 60여년 상징해 온 'KAL'과 작별…조원태號 '...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013786976&office_id=003&code=003490&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:22",
-          "source": "뉴시스",
-          "has_name": true
-        },
-        {
-          "title": "대한항공, ‘아음속’ AI무인기 국내 첫 공개",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012525&office_id=029&code=003490&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:42",
-          "source": "디지털타임스",
-          "has_name": true
+          "has_name": true,
+          "content": "내달 정기 주총서 KAL로 약어 규정한 정관 변경\n대한항공이 60년 넘게 사용한 영문 약어 KAL을 더는 사용하지 않기로 했다. 영문 표기인 Korean Air만 사용하고, 내부 시스템에서는 국제항공운송협회(IATA) 식별 코드인 KE를 쓰기로 했다.\n25일 대한항공의 주주총회 소집 공고에 따르면 회사는 다음 달 열리는 정기 주주총회에 상호와 관련한 정관 일부를 수정하는 안을 상정했다. 해당 정관에서 약어 표기(KAL)를 규정한 내용을 삭제하는 것이 골자다.\n대한항공은 정관 변경 이후 KAL 리무진버스사업, KAL 문화사업 등 부대 사업 명칭에서도 KAL을 사용하지 않기로 했다. 대신 공식 한글 표기인 대한항공 또는 영문 표기인 Korean Air이 쓰일 것으로 보인다.\nKAL은 1962년 출범한 대한항공공사(대한항공의 전신)의 약어로 처음 쓰였다. 1969년 한진그룹이 대한항공공사를 인수한 이후에도 KAL은 계속 사용되면서 지주사인 한진칼(KAL)에도 들어가게 됐다.\n대한항공이 유서 깊은 약어를 떼어내는 것은 내년 아시아나항공과의 통합을 앞두고 브랜드 개편을 통해 Korean Air 또는 항공 편명 앞에 붙는 KE 인지도를 뚜렷이 하기 위함인 것으로 알려졌다.\n대한항공은 KAL 삭제 결정에 앞서 KE를 사용해왔다. 지난해 3월 창립 56주년을 맞아 발표한 기업 가치 체계 이름을 KE WAY로 붙였고, 해당 발표 행사의 이름도 ‘KE 라이징 나이트’였다.\n대한항공은 정관 변경에 대해 “당사 기업 로고(CI) 및 브랜드 리뉴얼 일환으로 약어인 KAL을 삭제하려는 것”이라고 했다."
         },
         {
           "title": "대한항공, DSK 2026 참가…AI 무인기 로드맵 공개",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0000093588&office_id=243&code=003490&page=1&sm=title_entity_id.basic",
           "date": "2026.02.25 09:54",
           "source": "이코노미스트",
+          "has_name": true,
+          "content": "[이코노미스트 박세진 기자]  대한항공이 벡스코에서 열리는 ‘드론쇼코리아(DSK) 2026’에 참가한다고 25일 밝혔다. 이번 행사는 이날부터 27일까지 사흘간 진행된다.\nDSK는 산업통상자원부·국토교통부·국방부·우주항공청·부산광역시가 공동으로 주최하는 아시아 최대 규모 드론 전문 전시회다.\n올해 전시에는 무인기 기술을 중심으로 항공우주, 방산, 탄소중립(Net Zero), 공간정보 분야는 물론 AI 기반 융합 기술을 보유한 기업들이 대거 참여한다. 해외 참가국도 확대돼 지난해 15개국에 이어 올해는 23개국이 참가를 확정했다.\n대한항공은 이번 행사에서 인공지능(AI) 기반 차세대 무인기 구상을 제시하고, 미래 항공 모빌리티(AAM) 관련 기술 역량을 공개할 계획이다.\n대한항공은 복층 형태의 대형 부스를 조성해 관람 효율을 높인다는 구상이다. 1층은 전시 및 미팅이 가능한 공간과 회의실로 꾸몄고, 2층은 라운지 형태로 구성해 방문객 간 네트워킹이 이뤄질 수 있도록 했다.\n전시 부스는 두 개 구역으로 운영된다. ‘드론 존’에서는 대한항공이 미국 AI 방산기업 안두릴 인더스트리즈와 협업해 개발 중인 피지컬 AI 아음속무인기를 국내에서 처음 선보인다.\n이와 함께 AI 소형 다목적무인기, 소형 타격무인기, 통신중계드론, 군집비행드론 기술 기반 항공기 MRO(유지·보수·정비) 등도 전시한다.\n‘AAM 존’에서는 대한항공이 자체 개발한 AAM 교통관리·운항통제 시스템 ‘ACROSS’를 소개한다. 아울러 지난해 대한항공과 AAM 개발 협력 업무협약(MOU)을 맺은 미국 도심항공교통 기업 아처 에비에이션(Archer Aviation·아처)의 기체 목업도 전시된다.\n전시 기간 동안 협력 행사도 진행한다. 25일에는 대한항공의 무인기 기술 역량과 사업 로드맵을 공유하는 ‘무인기 기술세미나’를 열고, 26일에는 아처와 함께 ‘AAM 기술세미나’를 공동 개최할 예정이다. 글로벌 AAM 업체들과의 MOU 체결도 계획하고 있다.\n대한항공 관계자는 “DSK 참가는 대한항공이 주력으로 개발·생산 중인 AI 소프트웨어 기반 무인기 기술과 차세대 항공 모빌리티 관련 최신 기술을 산업계에 알릴 기회”라며 “앞으로 세계 수준의 항공우주 종합기업으로 도약하기 위해 다양한 영역에서 도전을 이어가겠다”고 말했다."
+        },
+        {
+          "title": "\"이제 '칼기' 아니에요\" 대한항공, 60여 년 쓰던 'KAL'과 이별...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255336&office_id=015&code=003490&page=1&sm=title_entity_id.basic",
+          "date": "2026.02.25 20:23",
+          "source": "한국경제",
           "has_name": true
-        },
-        {
-          "title": "파블로항공, 방산·산업·공연 3대 축 ‘MSX 전략’ 제시… 드론쇼코리...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699725&office_id=020&code=003490&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 19:19",
-          "source": "동아일보",
-          "has_name": false
-        },
-        {
-          "title": "드론 산업의 현재와 미래를 한눈에…2026 드론쇼코리아 개막",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015923444&office_id=001&code=003490&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:00",
-          "source": "연합뉴스",
-          "has_name": false
         }
       ],
       "related_stocks": [
@@ -1138,14 +476,14 @@
           "change_rate": "+3.6%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     },
     {
       "id": "sig_20260225_KR_008",
       "theme": "#자동차",
       "signal_type": "이슈",
-      "short_reason": "현대차그룹,, 캐나다에",
-      "summary": "현대차은(는) 현대차그룹, 캐나다에 수소연료전지 인프라 구축…잠수함 수주 지원 소식이 전해지며 매수세가 강화되었습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "현대차은(는) 현대차그룹주 급등세…기아, 장중 52주 신고가 경신 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "현대차",
         "symbol": "005380",
@@ -1153,6 +491,20 @@
         "news_url": "https://finance.naver.com/item/news.naver?code=005380"
       },
       "news_articles": [
+        {
+          "title": "현대차그룹주 급등세…기아, 장중 52주 신고가 경신",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494249&office_id=374&code=005380&page=7&sm=title_entity_id.basic",
+          "date": "2026.02.25 09:58",
+          "source": "SBS Biz",
+          "has_name": true,
+          "content": "기아 주가가 장 초반 급등해 52주 신고가를 경신했습니다.\n오늘(25일) 오전 9시 55분 기준 기아는 어제보다 13.45% 오른 19만7400원에 거래되고 있습니다.\n장중에는 한때 19만9100원까지 올라 52주 신고가를 경신하기도 했습니다.\n같은 시각 현대차도 8.30% 상승한 56만7500원에 거래 중입니다.\n현대차그룹의 로보틱스 및 자율주행 기술 고도화 관련 기대가 지속되는 가운데, 증권가에서 현대차그룹의 새만금 투자 계획에 대해서도 기대감을 드러내면서 매수 심리를 자극한 것으로 풀이됩니다.\n당신의 제보가 뉴스로 만들어집니다.\nSBS Biz는 여러분의 제보를 기다리고 있습니다.\n홈페이지 = https://url.kr/9pghjn"
+        },
+        {
+          "title": "현대차, 시장 흐름 및 관련 테마 분석",
+          "url": "https://finance.naver.com/item/news.naver?code=005380",
+          "date": "2026.02.25 09:00",
+          "source": "증권정보"
+        },
         {
           "title": "현대차그룹, 캐나다에 수소연료전지 인프라 구축…잠수함 수주 지원",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0008791700&office_id=421&code=005380&page=7&sm=title_entity_id.basic",
@@ -1173,325 +525,6 @@
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642117&office_id=009&code=005380&page=4&sm=title_entity_id.basic",
           "date": "2026.02.25 20:35",
           "source": "매일경제",
-          "has_name": true
-        },
-        {
-          "title": "현대차, 800도 불길 뚫는 ‘20억 소방로봇’ 기증",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000336334&office_id=449&code=005380&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.25 18:58",
-          "source": "채널A",
-          "has_name": true
-        },
-        {
-          "title": "\"일본서도 아이오닉·인스터 특별 할인\"…현대차 전기차 시장 공략 가.....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005322299&office_id=008&code=005380&page=7&sm=title_entity_id.basic",
-          "date": "2026.02.25 17:50",
-          "source": "머니투데이",
-          "has_name": true
-        },
-        {
-          "title": "코스피 6천 시대 열렸다… 현대차, 새만금 투자 소식에 9% 급등",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000134234&office_id=310&code=005380&page=9&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:51",
-          "source": "여성신문",
-          "has_name": true
-        },
-        {
-          "title": "800도 화재 현장에 소방관 대신 투입…현대차, 무인소방로봇 4대 기...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003961029&office_id=023&code=005380&page=4&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:06",
-          "source": "조선일보",
-          "has_name": true
-        },
-        {
-          "title": "[ET특징주] 기아, 美 조지아법인 생산 500만대 달성… 현대차와 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003401893&office_id=030&code=005380&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:11",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "사람 살리는 로봇…현대차, 무인소방로봇 기부",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044749&office_id=648&code=005380&page=15&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:55",
-          "source": "비즈워치",
-          "has_name": true
-        },
-        {
-          "title": "기아, 14% 급등에 신고가 경신… 현대차도 상승 [특징주]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641695&office_id=009&code=005380&page=5&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:34",
-          "source": "매일경제",
-          "has_name": true
-        },
-        {
-          "title": "현대차그룹, 무인 소방로봇 기증...정의선 \"앞으로 100대 보급\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002319236&office_id=052&code=005380&page=6&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:15",
-          "source": "YTN",
-          "has_name": true
-        },
-        {
-          "title": "현대차그룹, 캐나다에 수소연료전지 인프라 구축…잠수함 수주 지원",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008791700&office_id=421&code=005380&page=10&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:56",
-          "source": "뉴스1",
-          "has_name": true
-        },
-        {
-          "title": "\"현대차, 60조 캐나다 잠수함전…수소 인프라로 승부수\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005482302&office_id=014&code=005380&page=10&sm=title_entity_id.basic",
-          "date": "2026.02.25 06:37",
-          "source": "파이낸셜뉴스",
-          "has_name": true
-        },
-        {
-          "title": "\"현대차, 캐나다 잠수함 수주전 수소전지 기반시설 제안\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005321803&office_id=008&code=005380&page=10&sm=title_entity_id.basic",
-          "date": "2026.02.25 05:48",
-          "source": "머니투데이",
-          "has_name": true
-        },
-        {
-          "title": "한화오션 加법인 사장 \"현대차, 잠수함 수주전에 수소전지 인프라 제....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005725353&office_id=277&code=005380&page=10&sm=title_entity_id.basic",
-          "date": "2026.02.25 04:22",
-          "source": "아시아경제",
-          "has_name": true
-        },
-        {
-          "title": "정의선 “할 수 있는 건 다하겠다” 무인소방로봇 100대 공급 약속",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593542&office_id=011&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 23:46",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "아산 정주영 추모 음악회에 참석한 정기선…범현대·삼성家 재계 총출...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000102831&office_id=050&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 22:44",
-          "source": "한경비즈니스",
-          "has_name": false
-        },
-        {
-          "title": "정주영 25주기 추모음악회…범현대家·재계 총출동",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012711&office_id=029&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 19:54",
-          "source": "디지털타임스",
-          "has_name": false
-        },
-        {
-          "title": "현대차그룹주 급등세…기아, 장중 52주 신고가 경신",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494249&office_id=374&code=005380&page=7&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:58",
-          "source": "SBS Biz",
-          "has_name": true,
-          "content": "기아 주가가 장 초반 급등해 52주 신고가를 경신했습니다.\n오늘(25일) 오전 9시 55분 기준 기아는 어제보다 13.45% 오른 19만7400원에 거래되고 있습니다.\n장중에는 한때 19만9100원까지 올라 52주 신고가를 경신하기도 했습니다.\n같은 시각 현대차도 8.30% 상승한 56만7500원에 거래 중입니다.\n현대차그룹의 로보틱스 및 자율주행 기술 고도화 관련 기대가 지속되는 가운데, 증권가에서 현대차그룹의 새만금 투자 계획에 대해서도 기대감을 드러내면서 매수 심리를 자극한 것으로 풀이됩니다.\n당신의 제보가 뉴스로 만들어집니다.\nSBS Biz는 여러분의 제보를 기다리고 있습니다.\n홈페이지 = https://url.kr/9pghjn"
-        },
-        {
-          "title": "김혜경 여사, 현대차 정주영 창업회장 25주기 추모음악회 참석",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593536&office_id=011&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 21:49",
-          "source": "서울경제",
-          "has_name": true
-        },
-        {
-          "title": "“800도 불길 속으로 진격”…‘화재 진압’ 로봇 기증한 현대차",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005642117&office_id=009&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 20:35",
-          "source": "매일경제",
-          "has_name": true
-        },
-        {
-          "title": "현대차, 800도 불길 뚫는 ‘20억 소방로봇’ 기증",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000336334&office_id=449&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 18:58",
-          "source": "채널A",
-          "has_name": true
-        },
-        {
-          "title": "'소방관에 진심' 정의선 \"사람 살리는 모빌리티\"… 현대차그룹, 소방...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000916299&office_id=469&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 17:45",
-          "source": "한국일보",
-          "has_name": true
-        },
-        {
-          "title": "코스피 6천 시대 열렸다… 현대차, 새만금 투자 소식에 9% 급등",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000134234&office_id=310&code=005380&page=6&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:51",
-          "source": "여성신문",
-          "has_name": true
-        },
-        {
-          "title": "현대차, 전북에 9조원 투자 보따리 푼다…로봇 생산시설도 구축",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605029&office_id=016&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:36",
-          "source": "헤럴드경제",
-          "has_name": true
-        },
-        {
-          "title": "현대차 '무인소방로봇'이 먼저 불길 뛰어든다...정의선 \"든든한 팀원 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000480279&office_id=437&code=005380&page=13&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:59",
-          "source": "JTBC",
-          "has_name": true
-        },
-        {
-          "title": "[기업] 현대차그룹, 무인 소방로봇 기증...정의선 \"앞으로 100대...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002319368&office_id=052&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:45",
-          "source": "YTN",
-          "has_name": true
-        },
-        {
-          "title": "사람 살리는 로봇…현대차, 무인소방로봇 기부",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044749&office_id=648&code=005380&page=10&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:55",
-          "source": "비즈워치",
-          "has_name": true
-        },
-        {
-          "title": "피지컬 AI로 화재 진압 돕는다…현대차, 무인소방로봇 4대 기증",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641692&office_id=009&code=005380&page=13&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:33",
-          "source": "매일경제",
-          "has_name": true
-        },
-        {
-          "title": "\"현대차, 캐나다에 수소전지 인프라 건설 제안…잠수함 수주 지원\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008791776&office_id=421&code=005380&page=7&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:10",
-          "source": "뉴스1",
-          "has_name": true
-        },
-        {
-          "title": "정의선 “‘사람 살리는 기술’ 개발 만전”…현대차그룹, 무인소방로.....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002604591&office_id=016&code=005380&page=10&sm=title_entity_id.basic",
-          "date": "2026.02.25 08:39",
-          "source": "헤럴드경제",
-          "has_name": true
-        },
-        {
-          "title": "정의선 “할 수 있는 건 다하겠다” 무인소방로봇 100대 공급 약속",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593542&office_id=011&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 23:46",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "아산 정주영 추모 음악회에 참석한 정기선…범현대·삼성家 재계 총출...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000102831&office_id=050&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 22:44",
-          "source": "한경비즈니스",
-          "has_name": false
-        },
-        {
-          "title": "정주영 25주기 추모음악회…범현대家·재계 총출동",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003012711&office_id=029&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 19:54",
-          "source": "디지털타임스",
-          "has_name": false
-        },
-        {
-          "title": "현대차 \"5년간 9兆 투입\"… 새만금에 미래산업 클러스터 육성",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005482923&office_id=014&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 18:33",
-          "source": "파이낸셜뉴스",
-          "has_name": true
-        },
-        {
-          "title": "피지컬 AI로 화재 진압 돕는다…현대차, 무인소방로봇 4대 기증",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641692&office_id=009&code=005380&page=10&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:33",
-          "source": "매일경제",
-          "has_name": true
-        },
-        {
-          "title": "기아, 14% 급등에 신고가 경신… 현대차도 상승 [특징주]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641695&office_id=009&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:34",
-          "source": "매일경제",
-          "has_name": true,
-          "content": "美조지아공장 500만대 누적 생산\n기아 주가가 25일 장 초반 14% 급등세를 보이고 있다. 현대차 역시 7% 넘게 오름세를 나타내고 있다.\n25일 한국거래소에 따르면 기아는 이날 오전 9시 48분 기준 전거래일 대비 14.25%(19만8800원) 상승한 19만8800원에 거래되며 52주 신고가를 경신했다.\n같은 시각 현대차 역시 7.82% 오른 56만5000원에 거래되고 있다.\n24일(현지시간) 기아 조지아 법인은 누적 생산 500만대를 생산했다고 밝혔다. 2009년 구축된 조지아공장은 미국 시장 공략을 위한 핵심 기지 역할을 하고 있다.\n연간 34만여대 규모의 생산능력을 갖춘 가운데 북미 전용 스포츠유틸리티차(SUV) 텔루라이드를 비롯해 쏘렌토, K5, 싼타페 등을 생산했다.\n특히 텔루라이드는 북미 소비자 요구와 미국의 도로 환경을 기반으로 개발된 전략 모델로 미국 시장에서 기아의 성장을 상징하는 모델로 꼽힌다.\n윤승규 기아 북미권역본부장은 “기아 조지아는 텔루라이드를 생산하는 전 세계 유일의 공장으로, 이번 생산 개시는 단순한 신차 출고를 넘어서는 의미를 갖는다”고 말했다.\n이어 “500만대 생산 달성과 조지아주 최초 하이브리드 차량 생산을 통해 기아의 기술적 진전과 미래 전략 방향을 명확히 보여줬다”고 덧붙였다."
-        },
-        {
-          "title": "다시 60만 넘보는 현대차…기아 최고가 등 계열사 강세[핫종목](종합)",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008793224&office_id=421&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:47",
-          "source": "뉴스1",
-          "has_name": true
-        },
-        {
-          "title": "현대차 '무인소방로봇'이 먼저 불길 뛰어든다...정의선 \"든든한 팀원 ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000480279&office_id=437&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:59",
-          "source": "JTBC",
-          "has_name": true
-        },
-        {
-          "title": "[기업] 현대차그룹, 무인 소방로봇 기증...정의선 \"앞으로 100대...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002319368&office_id=052&code=005380&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:45",
-          "source": "YTN",
-          "has_name": true
-        },
-        {
-          "title": "[ET특징주] 기아, 美 조지아법인 생산 500만대 달성… 현대차와 동...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003401893&office_id=030&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:11",
-          "source": "전자신문",
-          "has_name": true,
-          "content": "기아가 미국 조지아 법인 누적 생산량 500만대를 돌파하면서 현대차와 함께 동반 상승하고 있다.\n25일 오후 1시 8분 기준 기아(000270) 주가는 전 거래일 대비 13.85% 상승한 19만 8100원에, 현대차(005380) 주가는 9.35% 상승한 57만 3000원에 거래되고 있다.\n기아 조지아 법인은 24일(현지 시각) 기준 누적 생산 500만대를 달성했다고 밝혔다. 조지아 공장은 '텔루라이드' 모델의 주요 생산 기지로 알려졌다.\n기아 조지아는 조지아주 웨스트포인트 공장에서 2027년형 '올 뉴 텔루라이드' 생산을 시작하며 하이브리드 모델 생산을 본격화했다고 밝혔다.\n서희원 기자 shw@etnews.com"
-        },
-        {
-          "title": "\"현대차, 캐나다에 수소연료전지 시설 등 인프라 구축 제시\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001008227&office_id=031&code=005380&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:46",
-          "source": "아이뉴스24",
-          "has_name": true
-        },
-        {
-          "title": "사람 살리는 로봇…현대차, 무인소방로봇 기부",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044749&office_id=648&code=005380&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:55",
-          "source": "비즈워치",
-          "has_name": true
-        },
-        {
-          "title": "“800도 화염 속 먼저 들어간다”…현대차그룹, 소방청에 무인소방로....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005482496&office_id=014&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:09",
-          "source": "파이낸셜뉴스",
-          "has_name": true
-        },
-        {
-          "title": "사람 살리는 로봇…현대차, 무인소방로봇 기부",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044749&office_id=648&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:55",
-          "source": "비즈워치",
-          "has_name": true
-        },
-        {
-          "title": "현대차그룹, 원격 화재 진압장비 ‘무인소방로봇’ 기증",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699565&office_id=020&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 10:49",
-          "source": "동아일보",
-          "has_name": true,
-          "content": "현대자동차그룹이 원격 화재 진압장비 ‘무인소방로봇’을 소방청에 기증했다.\n현대차그룹은 24일 경기도 남양주에 있는 수도권119특수구조대에서 정의선 현대차그룹 회장, 성 김 사장, 이용배 현대로템 사장, 김승룡 소방청 소방청장 직무대행 등이 참석한 가운데 원격 화재 진압장비인 무인소방로봇 4대를 소방청에 기증하는 행사를 가졌다.\n현대차그룹이 소방청과 함께 개발한 무인소방로봇은 원격 주행이 가능한 현대로템의 전동화 다목적 무인차량 ‘HR-셰르파’에 화재 진압 장비들을 탑재해 제작됐다.\n정의선 현대차그룹 회장은 “화재 현장에서 고군분투하시는 소방관님들을 볼 때마다 가슴이 매우 아팠다”며 “그분들을 위해 자동차를 만드는 제조업체로서 할 수 있는 것은 다 해야 한다고 생각했다”고 말했다.\n이어 “생명을 구하기 위해 망설임 없이 사투의 현장으로 뛰어드는 소방관분들의 모습은 우리 사회가 지켜야 할 가치가 무엇인지를 일깨워 준다”며 “무인소방로봇은 ‘사람을 살리는 기술’이라는 우리 공동의 목표를 구현한 새 모빌리티”라고 덧붙였다.\n이날 기증된 무인소방로봇 4대 중 2대는 소방청의 요청에 따라 수도권·영남 119특수구조대에 1대씩 미리 배치됐다. 나머지 2대는 내달 초 경기 남부충남 소방본부에 1대씩 추가 배치될 예정이다.\n현대차그룹은 무인소방로봇 공급 규모를 향후 100대로 확대할 계획이. 무인소방로봇이 고위험 현장에 투입되면 소방관의 위험 노출을 최소화하고, 안전한 화재 진압과 인명 구조 시스템을 만드는 데 기여할 것으로 보인다.\n소방청 통계 연보에 따르면 지난 10년간 화재로 인해 다치거나 순직한 소방공무원은 총 1802명에 이른다.\n현대차그룹은 현대로템의 HR-셰르파에 방수포와 자체 분무 시스템, 시야 개선 카메라, 원격 제어기 등을 탑재해 고열과 짙은 연기에도 원격 화재진압 임무를 수행할 수 있도록 했다.\n무인소방로봇의 장비 전면부에 탑재된 방수포는 직사·방사 형태로 방수 제어가 가능한 노즐이 적용돼 다양한 화재 양상에 대응할 수 있다.\n자체 분무 시스템은 장비를 둘러싸고 있는 분무 노즐로 미세 물 입자를 계속해서 분사해 장비 외부에 수막을 형성하고, 화염 및 고열로부터 장비 몸체를 보호하는 역할을 한다. 섭씨 500∼800도에 육박하는 환경에서도 장비 온도를 50∼60도로 낮춰 화재 현장 근거리에서도 소방 작업이 가능하다는 게 현대차그룹 설명이다.\n전면부 상단에 있는 시야 개선 카메라는 적외선 센서를 기반으로 불길과 짙은 연기 속에서도 발화 지점이나 구조 대상자를 식별할 수 있도록 돕는다.\n원격 제어기는 무인 소방 로봇과 무선 통신으로 연결돼 현장 영상을 실시간으로 전달하고, 장비 운용자는 이를 바탕으로 화재 현장 상황과 장비를 모니터링해 원격 주행 및 소방 기능 운용을 할 수 있다.\n무인소방로봇은 고열에도 견딜 수 있는 특수 타이어가 장착됐고, 6륜 독립구동이 가능한 인휠모터 시스템이 탑재됐다.\n현대차그룹과 소방청은 전동화 장비인 무인소방로봇이 소방관의 접근이 어려운 대형 화재나 구조물 붕괴 우려가 있는 화재 현장에서 활용될 수 있을 것으로 내다봤다. 내연기관 소방 차량과 달리 산소가 부족하고 밀폐된 지하 화재 현장에도 효과적으로 투입 가능하다는 설명이다.\n현대차그룹은 장비 운용의 효과를 높이기 위해 지역별 담당 소방관을 대상으로 배포하고 이론·실습 교육을 진행했다.\n현대차그룹은 지난 2023년 전국 소방본부에 소방관 회복지원차 10대를 기증하는 등 소방청과 긴밀한 협력을 이어가고 있다. 지난 2024년에는 배터리 팩에 구멍을 뚫어 물을 분사하는 관통형 전기차 화재 진압 장비 ‘EV 드릴 랜스’를 개발하고 총 250대를 소방청에 전달했다.\n한편, 현대차그룹은 오는 6월 정식 개원 예정인 국내 최초 소방관 전문 의료기관, 국립소방병원(충북 음성군 소재)에 소방관의 치료 및 재활을 위한 차량, 재활장비 등을 기증하기로 하는 등 앞으로도 소방 지원 활동을 적극 이어갈 계획이다.\n정 회장은 “올해 6월 개원하는 국립소방병원에는 차량과 재활장비를 지원해 소방관분들의 빠른 회복에도 힘을 보탤 것”이라며 “앞으로도 소방관 여러분들"
-        },
-        {
-          "title": "코스피, 개인 매수세에 6100도 넘보다…현대차·기아 '급등'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005254940&office_id=015&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:06",
-          "source": "한국경제",
-          "has_name": true
-        },
-        {
-          "title": "'무인소방로봇' 기증한 현대차…정의선 회장 \"소방관 안전이 현대차 ....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000475408&office_id=629&code=005380&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:43",
-          "source": "더팩트",
           "has_name": true
         }
       ],
@@ -1517,14 +550,14 @@
           "change_rate": "+12.1%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     },
     {
       "id": "sig_20260225_KR_009",
       "theme": "#금융",
       "signal_type": "이슈",
-      "short_reason": "미래에셋증권,, 역대",
-      "summary": "오늘 미래에셋증권 주가는 미래에셋증권, 역대 최대 주주환원 발표에 강세[특징주] 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "미래에셋증권은(는) 미래에셋증권, 6354억 '통 큰 환원'…배당·자사주 소각 총동원 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "미래에셋증권",
         "symbol": "006800",
@@ -1533,19 +566,26 @@
       },
       "news_articles": [
         {
+          "title": "미래에셋증권, 6354억 '통 큰 환원'…배당·자사주 소각 총동원",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000475610&office_id=629&code=006800&page=6&sm=title_entity_id.basic",
+          "date": "2026.02.25 14:03",
+          "source": "더팩트",
+          "has_name": true,
+          "content": "당기순이익 약 1조5000억원의 40% 달해\n주가도 '승승장구'…7만5900원 신고가 경신\n[더팩트｜윤정원 기자] 미래에셋증권이 역대 최대 규모의 주주환원에 나선다.\n미래에셋증권은 전날 이사회를 열고 총 6354억원 규모의 주주환원 정책을 결의했다고 25일 밝혔다. 이는 2025사업연도 당기순이익 약 1조5000억원의 40%에 해당하는 수준이다.\n회사는 이번 환원을 현금 및 주식 배당과 자사주 소각을 병행하는 방식으로 추진한다. 배당 총액은 4653억원으로, 현금배당 1744억원(보통주 1주당 300원)과 주식배당 2909억원(보통주 1주당 500원 상당 주식)으로 구성됐다. 지난해 현금 배당금액이 1467억원이었던 점을 감안하면 배당 규모가 3배 이상 확대됐다. 배당 기준일은 3월 17일이다. 현금 및 주식 배당은 3월 24일 정기주주총회 승인을 거쳐 1개월 이내 지급될 예정이다.\n자사주 소각도 대규모로 이뤄진다. 회사는 보통주 약 1177만주와 2우선주 약 18만주를 소각할 계획이다. 여기에 지난해 11월 실시한 보통주 및 우선주 약 405만주 소각분을 합산하면, 총 1701억원 규모의 자사주 소각이 진행된다.\n이날 이사회에서는 지배구조 관련 안건도 함께 처리됐다. 안수현 한국외국어대학교 법학전문대학원 원장을 신규 사외이사(감사위원)로 선임하는 안건이 통과됐다. 안수현 원장은 금융감독원 소비자부문 위원과 디지털자산보호재단 비상임이사 등을 역임한 인물이다. 법률·금융소비자보호 분야 전문가로 평가받고 있다.\n임직원 책임경영 강화를 위한 조치도 의결됐다. 회사는 보통주 약 20만주를 주요 직책자에게 교부하는 임직원 주식보상 자사주 처분안을 가결했다. 임직원과 주주 간 이해관계를 일치시키기 위한 취지다.\n상법 개정에 따른 정관 정비 안건 또한 통과됐다. 사외이사 명칭을 독립이사로 변경하고 전자주주총회 제도를 도입하는 한편, 감사위원 선·해임 시 의결권 제한을 강화하는 내용 등이 포함됐다.\n미래에셋증권 관계자는 \"실적에 맞춰 배당 규모를 역대 최대 수준으로 확대했다\"며 \"실적의 약 30%가 미실현이익인 점과 자본 효율성 제고 차원에서 현금배당과 주식배당을 병행했다\"고 설명했다. 이어 \"자사주 소각을 통해 총 발행주식 수를 줄이면서 자기자본을 지속적으로 확충해 나가고, 상황에 맞는 주주환원 정책을 통해 글로벌 금융그룹으로 성장해 나갈 것\"이라고 덧붙였다.\n한편, 미래에셋증권의 통 큰 환원 소식에 주가도 승승장구하고 있다. 한국거래소에 따르면 이날 오후 1시 16분 기준 미래에셋증권은 전 거래일(6만7100원) 대비 10.13%(6800원) 오른 7만3900원을 호가하고 있다. 장중에는 7만5900원까지 뛰며 신고가를 경신했다.\n발로 뛰는 더팩트는 24시간 여러분의 제보를 기다립니다.\n▶카카오톡: '더팩트제보' 검색\n▶이메일: jebo@tf.co.kr\n▶뉴스 홈페이지: http://talk.tf.co.kr/bbs/report/write"
+        },
+        {
+          "title": "미래에셋증권, 시장 흐름 및 관련 테마 분석",
+          "url": "https://finance.naver.com/item/news.naver?code=006800",
+          "date": "2026.02.25 09:00",
+          "source": "증권정보"
+        },
+        {
           "title": "미래에셋증권, 역대 최대 주주환원 발표에 강세[특징주]",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0006224121&office_id=018&code=006800&page=6&sm=title_entity_id.basic",
           "date": "2026.02.25 09:17",
           "source": "이데일리",
           "has_name": true,
           "content": "[이데일리 김경은 기자] 미래에셋증권 주가가 25일 장초반 강세를 보이고 있다.\n엠피닥터에 따르면 이날 오전 9시12분 현재 미래에셋증권(006800)은 전거래일 대비 2300원(3.43%) 오른 6만9400원에 거래되고 있다. 장중 한때 7만1100원까지 오르기도 했다.\n미래에셋증권이 역대 최대 규모의 주주환원을 발표하면서 매수세가 몰린 것으로 풀이된다. 회사는 전날 이사회를 열고 현금배당과 주식배당을 동시에 진행하기로 결의했다. 현금배당은 보통주 기준 주당 300원으로 총 약 1744억원 규모이며, 주식배당은 보통주 기준 주당 약 0.0073주로 약 2909억원 규모다. 현금·주식배당을 합친 총 배당 규모는 4653억원으로, 현금배당만 실시했던 지난해(1467억원)의 3배를 웃돈다. 배당기준일은 3월 17일이다.\n자사주 소각 규모도 확정했다. 보통주 1176만9326주, 종류주 17만8482주를 오는 27일 소각할 예정이다. 배당과 자사주 소각을 합한 2025사업연도 총 주주환원 규모는 약 6354억원으로, 당기순이익 약 1조5000억원 대비 주주환원 성향은 40% 수준이다."
-        },
-        {
-          "title": "미래에셋증권, 6354억 '통 큰 환원'…배당·자사주 소각 총동원",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000475610&office_id=629&code=006800&page=6&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:03",
-          "source": "더팩트",
-          "has_name": true
         },
         {
           "title": "미래에셋증권, 6000억 규모 주주환원…최초 女 리서치센터장 선임",
@@ -1560,111 +600,6 @@
           "date": "2026.02.25 10:41",
           "source": "전자신문",
           "has_name": true
-        },
-        {
-          "title": "현금에 주식까지, 미래에셋증권의 '1석2조' 배당 눈길",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044736&office_id=648&code=006800&page=6&sm=title_entity_id.basic",
-          "date": "2026.02.25 08:57",
-          "source": "비즈워치",
-          "has_name": true
-        },
-        {
-          "title": "미래에셋증권, 6,354억원 규모 주주환원…\"역대 최대\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000837427&office_id=422&code=006800&page=8&sm=title_entity_id.basic",
-          "date": "2026.02.25 07:27",
-          "source": "연합뉴스TV",
-          "has_name": true
-        },
-        {
-          "title": "미래에셋증권, 6354억원 규모 주주환원…역대 최대",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001242917&office_id=215&code=006800&page=8&sm=title_entity_id.basic",
-          "date": "2026.02.25 06:56",
-          "source": "한국경제TV",
-          "has_name": true
-        },
-        {
-          "title": "[경제계 인사]미래에셋증권",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003699415&office_id=020&code=006800&page=7&sm=title_entity_id.basic",
-          "date": "2026.02.25 00:32",
-          "source": "동아일보",
-          "has_name": true
-        },
-        {
-          "title": "코스피 '6천 시대' 개막...'5천피' 한 달 만에 새 역사",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002319627&office_id=052&code=006800&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 21:29",
-          "source": "YTN",
-          "has_name": false
-        },
-        {
-          "title": "\"급변하는 금융, 개인투자자 생존해법 찾는다\"…한양대 미래인재교육...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005726083&office_id=277&code=006800&page=2&sm=title_entity_id.basic",
-          "date": "2026.02.25 20:28",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
-          "title": "6천 넘은 날 '자사주 소각 의무화' 통과‥다음은 '주가 누르기 방지법...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001482580&office_id=214&code=006800&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 19:57",
-          "source": "MBC",
-          "has_name": false
-        },
-        {
-          "title": "아찔한 상승… 상법 통과한 날 6000피 축포",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001833896&office_id=005&code=006800&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 18:58",
-          "source": "국민일보",
-          "has_name": false
-        },
-        {
-          "title": "‘역대급 실적’과 ‘유동성’이 밀어올린 코스피",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003429758&office_id=032&code=006800&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 17:51",
-          "source": "경향신문",
-          "has_name": false
-        },
-        {
-          "title": "우리운용 ‘WON 초대형IB&금융지주 ETF’, 순자산 1000억 돌...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005641936&office_id=009&code=006800&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 16:29",
-          "source": "매일경제",
-          "has_name": false
-        },
-        {
-          "title": "'WON 초대형IB&금융지주' ETF, 순자산 1000억 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005255060&office_id=015&code=006800&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:28",
-          "source": "한국경제",
-          "has_name": false
-        },
-        {
-          "title": "미래에셋 공격적 행보...발행어음 동원해 1.1조 DN솔루션즈 인수금융...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144305&office_id=366&code=006800&page=6&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:41",
-          "source": "조선비즈",
-          "has_name": false
-        },
-        {
-          "title": "미래에셋證, 역대 규모 주주환원 발표에 주가 '강세' [주가동향]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002378370&office_id=123&code=006800&page=6&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:49",
-          "source": "조세일보",
-          "has_name": false
-        },
-        {
-          "title": "LG엔솔, 회사채 수요예측에 2兆 ‘뭉칫돈’ [시그널]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004593096&office_id=011&code=006800&page=8&sm=title_entity_id.basic",
-          "date": "2026.02.25 05:31",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "금융 첫 PBR 1배?..2.5배도 있었다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005321766&office_id=008&code=006800&page=9&sm=title_entity_id.basic",
-          "date": "2026.02.25 04:00",
-          "source": "머니투데이",
-          "has_name": false
         }
       ],
       "related_stocks": [
@@ -1681,14 +616,14 @@
           "change_rate": "+2.1%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     },
     {
       "id": "sig_20260225_KR_010",
       "theme": "#로봇",
       "signal_type": "이슈",
-      "short_reason": "[어제장, 오늘장]",
-      "summary": "오늘 레인보우로보틱스 주가는 [어제장 오늘장] 삼성·SK 역사적 신고가…코스피, 오늘 6천 돌파할까 등이 호재로 작용하며 긍정적인 흐름을 보였습니다.",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "레인보우로보틱스은(는) 삼성전자, AI·로봇산업協 회장사 올라…신임 회장에 오준호 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "레인보우로보틱스",
         "symbol": "277810",
@@ -1697,95 +632,39 @@
       },
       "news_articles": [
         {
-          "title": "[어제장 오늘장] 삼성·SK 역사적 신고가…코스피, 오늘 6천 돌파할까",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494231&office_id=374&code=277810&page=4&sm=title_entity_id.basic",
-          "date": "2026.02.25 08:27",
-          "source": "SBS Biz",
+          "title": "삼성전자, AI·로봇산업協 회장사 올라…신임 회장에 오준호",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002604812&office_id=016&code=277810&page=14&sm=title_entity_id.basic",
+          "date": "2026.02.25 11:21",
+          "source": "헤럴드경제",
           "has_name": false,
-          "content": "■ 머니쇼 '어제장 오늘장' - 장연재\n시장이 어떤 지표과 통계를 뛰어넘을 정도로 강합니다.\n어제(24일) 삼성전자 20만전자, SK하이닉스 100만닉스를 달성하면서 지수 상승을 이끌었습니다.\n코스피 이제 6천피를 정말 코 앞에 두고 있는데요.\n코스피가 오늘(25일) 6천을 돌파할지 그리고 이게 장중에 유지 될 수 있을지 보셔야겠습니다.\n어제장부터 복기하시죠.\n어제 코스피 2.1% 올라 5969포인트.\n종가 기준 사상 최고치를 또 한 번 경신했습니다.\n코스닥도 1.1% 반등하며 1165포인트에 장을 마쳤습니다.\n미국의 관세, 이란 사태 불확실성으로 장 초반 위험자산 회피 심리가 커지나 싶었지만, 반도체 대표주들이 라운드피겨를 돌파하며 추가적 매수심리가 커졌습니다.\n코스피에 기관 수급이 대거 유입됐습니다.\nETF 등 금융투자 수급이 강하게 들어오며 기관 전체적으로는 2조 4000억 원 가까운 매수 우위 기록했습니다.\n반면 외국인이 2000억 원 가까이 팔아냈습니다.\n5거래일 연속 순매도했고, 개인들도 2조 3000억 원 가까운 팔자 포지션 취했습니다.\n코스닥 시장에서는 메이저 수급 주체 양매도가 나타났습니다.\n외국인이 500억 원 넘게 순매도했고, 기관도 1600억 원 가까운 매도 우위였습니다.\n개인만 홀로 2400억 원 사자세 기록했습니다.\n코스피 시총 상위 10개 종목 중에선 두산에너빌리티 제외한 나머지 종목들이 일제히 상승했습니다.\n특히 삼성전자와 SK하이닉스가 딱 떨어지는 가격까지 올랐죠.\n삼성전자 3.6% 강세로 20만 원 SK하이닉스 5.7% 올라 100만 5000원.\n역사적인 신고가를 만들어냈습니다.\n또 LG에너지솔루션과 SK스퀘어도 각각 4%, 6%대 강세 기록했습니다.\n코스닥 대형주 흐름은 살짝 애매했습니다.\n레인보우로보틱스가 5% 가까이, 에코프로비엠이 1.9% 올랐지만 삼천당제약, 코오롱티슈진, 케어젠 등이 약세였습니다.\n환율은 올랐습니다.\n정규장 마감 시간 달러 기준 4원 70전 오른 1444원 70전에 거래를 마쳤습니다.\n다만 야간거래에서는 다카이치 사나에 일본 총리가 일본은행(BOJ)의 정책 금리 인상에 난색을 보였다는 소식으로 급락했던 엔화가 일정 부분 회복하자, 원화가 동조화되며 환율 상승폭을 줄였습니다.\n역외환율은 오늘 새벽 6시 기준 1441원 30전을 기록했습니다.\n환율 하락 출발할 것으로 예상됩니다.\n어제 두산에너빌리티를 비롯해 일부 원전주는 다소 부진한 모습을 보였습니다.\n너무 많이 올랐나 하는 우려도 있지만 증권가에선 원전주 앞으로가 더 좋다고 전망합니다.\n대신증권은 한전기술, 두산에너빌리티, 한국전력을 탑픽으로 꼽으며 목표주가를 모두 상향했습니다.\n아시다시피 지금 AI데이터센터 증설 전쟁으로 원전에 대한 가치가 다시 상승 중이죠.\n이런 가운데 미국은 과거 건설 운영허가 보유 부지와 기존 원전 주변 부지를 중심으로 대형 원전 프로젝트 6개와 다수의 소형모듈원전, SMR 프로젝트 건설을 검토하고 있습니다.\n그런데 미국엔 원전분야에 베테랑 인력이 절대적으로 부족해서 이 프로젝트를 미국 단독으로 실행하기 어렵습니다.\n그래서 한미 원전 동맹에 대한 기대감이 더 커지고 있는 겁니다.\n대신증권은 팀코리아의 수주 가능한 유효 시장이 구조적으로 확장될 것이라며 한전기술은 21만 5000원까지, 두산에너빌리티는 13만 원까지, 한국전력도 8만 원까지 목표주가를 높였습니다.\n원전주 보고서 참고하시죠.\n일정입니다.\n오늘 큰 이슈가 두 가지 정도 있습니다.\n우선 11시에 트럼프 미국 대통령이 집권 2기 첫 국정연설에 나설 텐데요.\n어떤 말을 할지에 따라 시장 종목들 흐름에 변화가 생길 수 있겠고요.\n3차 상법 개정안을 두고 필리버스터가 진행되고 있는데, 오늘 오후 민주당 주도로 3차 상법 개정안이 처리될 것으로 전망됩니다.\n어제 정규장에서는 증권, 보험주 차익실현 매물이 출회됐었지만 시간 외 거래에서 일부 종목들엔 매수세가 다시 유입되는 분위기였는데요.\n3차 상법개정안 관련 수혜주들 움직임도 체크하시죠.\n간밤 뉴욕증시 좋았습니다.\n앤트로픽이 일부 기술 기업들과 파트너십을 발표하면서 인공지능(AI)과"
+          "content": "‘2026년 정기총회’ 개최\n로봇 기술 리더십 공고화 의지 분석\n“대기업-로봇 기업 간 구심점 기대”\n최근 로봇 인재 대거 확보 나서\n오준호 삼성전자 미래로봇추진단장 [레인보우로보틱스 제공]\n[헤럴드경제=박지영 기자] 한국AI·로봇산업협회 신임 회장사에 삼성전자가 이름을 올렸다. 신임 회장에는 오준호 삼성전자 미래로봇추진단장이 선임됐다.\n최근 삼성전자가 삼성리서치와 미래로봇추진단을 중심으로 휴머노이드 로봇 인력을 대거 확충하며 기술 선점과 상용화에 박차를 가하고 있는 가운데, 이번에 유관 협회의 회장사 및 회장 자리를 맡으며 로봇 사업 행보에 더 가속도가 붙을 전망이다.\nAI·로봇산업협회는 25일‘ 2026년 정기총회’를 열고 삼성전자를 후임 회장사로 결정하고 오 단장이 제12대 회장으로 취임했다고 밝혔다. 협회는 산업용·서비스 로봇부터 부품, 시스템통합(SI) 기업 및 연구기관 등 350여 개 회원사가 활동하고 있다.\n레인보우로보틱스 창업자인 오 단장은 삼성전자가 2024년 12월 레인보우로보틱스의 최대주주가 된 후 대표이사 직속 미래로봇추진단을 이끌고 있다.\n삼성전자가 회장사를 맡고 사장급 인사가 협회장을 맡은 것을 두고 삼성이 로봇에서 기술 리더십을 보여주겠다는 의지를 보여준 것이라는 분석이 나온다. 업계 한 관계자는 “삼성전자가 회장사를 맡았다는 건 로봇 산업을 중요한 성장 동력으로 보고 있다는 것”라며 “대기업과 로봇 기업 간 협력 생태계를 구축하는 데 구심점 역할을 할 것으로 기대된다”고 말했다.\n실제 삼성전자의 최근 채용 흐름에서도 로봇 사업 육성 의지가 뚜렷하게 나타난다. 로봇 선행 연구를 담당하는 디바이스 경험(DX) 부문 CTO(최고기술책임자) 산하 삼성리서치와 로봇 상용화를 주도하는 미래로봇추진단이 동시에 대규모 인력 확보에 나선 것이다.\n삼성리서치는 로봇 인텔리전스와 로봇 플랫폼·데이터 개발 직무 등 최근 5건의 경력 채용 공고를 냈다. 삼성리서치는 “휴머노이드, 이동형 양팔 로봇 등 다양한 로봇에 적용할 수 있는 인식, 조작, 이동 기술을 주로 연구개발하고 있다”고 설명했다.\n미래로봇추진단은 로봇 핸드·보행·전신 제어, 휴머노이드향 알고리즘 설계, 로봇 조작을 위한 VLA(비전 언어행동모델) 설계·학습, 로봇 소프트웨어 인프라, 로봇 제어 플랫폼 등 휴머노이드 개발을 중심으로 한 9건의 채용 공고를 냈다. 완전 자율형 휴머노이드를 목표로 하는 것으로 관측된다. 2030년 반도체 공장 100% 무인화 목표도 세운 만큼, 로봇 상용화에도 속도감이 붙은 것으로 보인다.\n지난해에는 삼성전자의 로봇 사업이 잠시 주춤했던 게 사실이다. 2024년 CES와 IFA에서 잇달아 AI 컴패니언 로봇인 볼리를 선보이며 기대를 모았으나, 2025년 상반기 출시 계획을 밝히겠다고 했다. 하지만 결국 실현되지 못했고, 올해 CES에서도 볼리 등 로봇 신제품 공개는 없었다.\n하지만 올해는 사뭇 다른 분위기가 감지된다. 지난해 11월 임원 인사에서 엔비디아 출신 로봇 전문가로 삼성전자의 로봇 전략을 설계하는 권정현 삼성리서치 상무가 부사장으로"
         },
         {
           "title": "삼성전자, AI·로봇산업협회 회장사로 이끈다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605178&office_id=016&code=277810&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002605178&office_id=016&code=277810&page=14&sm=title_entity_id.basic",
           "date": "2026.02.25 23:20",
           "source": "헤럴드경제",
           "has_name": false
         },
         {
           "title": "K로봇 리더에 삼성 오준호 단장… 휴머노이드 생태계 키운다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005482910&office_id=014&code=277810&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005482910&office_id=014&code=277810&page=14&sm=title_entity_id.basic",
           "date": "2026.02.25 18:28",
           "source": "파이낸셜뉴스",
           "has_name": false
         },
         {
           "title": "오준호 삼성 미래로봇추진단 단장, AI·로봇산업협회 12대 회장 취임",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144417&office_id=366&code=277810&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001144417&office_id=366&code=277810&page=14&sm=title_entity_id.basic",
           "date": "2026.02.25 17:54",
           "source": "조선비즈",
           "has_name": false
         },
         {
           "title": "이제는 '코스피 6000' 시대…시가총액도 5000조 돌파",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044760&office_id=648&code=277810&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044760&office_id=648&code=277810&page=14&sm=title_entity_id.basic",
           "date": "2026.02.25 16:48",
           "source": "비즈워치",
-          "has_name": false
-        },
-        {
-          "title": "삼성, 로봇 산업 전면에 서나…오준호 단장 협회장 취임",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003062925&office_id=119&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 15:33",
-          "source": "데일리안",
-          "has_name": false
-        },
-        {
-          "title": "오준호 삼성 단장, 로봇협회 회장 취임…\"美·中 따라잡을 것\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002218823&office_id=138&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 14:54",
-          "source": "디지털데일리",
-          "has_name": false
-        },
-        {
-          "title": "삼성전자, AI·로봇산업협회 회장사 맡는다…오준호 협회장 취임",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003401908&office_id=030&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 13:51",
-          "source": "전자신문",
-          "has_name": false
-        },
-        {
-          "title": "오준호 삼성 로봇추진단장 \"피지컬 AI, 美·中 충분히 따라잡을 것\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006224335&office_id=018&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 12:31",
-          "source": "이데일리",
-          "has_name": false
-        },
-        {
-          "title": "삼성전자, AI·로봇산업協 회장사 올라…신임 회장에 오준호",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002604812&office_id=016&code=277810&page=1&sm=title_entity_id.basic",
-          "date": "2026.02.25 11:21",
-          "source": "헤럴드경제",
-          "has_name": false
-        },
-        {
-          "title": "개미 홀로 '사자'…코스피 사상 첫 6000선 돌파 [시황]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003062686&office_id=119&code=277810&page=3&sm=title_entity_id.basic",
-          "date": "2026.02.25 09:45",
-          "source": "데일리안",
-          "has_name": false
-        },
-        {
-          "title": "[애프터마켓 리뷰] '100만닉스·20만전자' 개인 투자자들은 차익실현",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000494218&office_id=374&code=277810&page=4&sm=title_entity_id.basic",
-          "date": "2026.02.25 07:51",
-          "source": "SBS Biz",
-          "has_name": false
-        },
-        {
-          "title": "\"AI발 종말 와도 韓 수혜\" 반도체 투심 후끈",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005321785&office_id=008&code=277810&page=4&sm=title_entity_id.basic",
-          "date": "2026.02.25 04:18",
-          "source": "머니투데이",
           "has_name": false
         }
       ],
@@ -1807,7 +686,7 @@
           "change_rate": "-2.4%"
         }
       ],
-      "timestamp": "2026-02-26 08:35:20"
+      "timestamp": "2026-03-04 01:43:06"
     }
   ]
 }
