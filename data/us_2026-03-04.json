@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-04 07:00:43",
+  "last_updated": "2026-03-04 23:42:50",
   "signals": [
     {
       "id": "sig_20260304_US_001",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "Micron은(는) Why Micron Stock Is Plummeting Today 등의 영향으로 하락 마감했습니다.",
+      "summary": "Micron은(는) Micron Technology, Inc. (MU) Announces the Grand Opening of its Semiconductor Assembly and Test Facility in Sanand, Gujarat, India 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Micron",
         "symbol": "MU",
@@ -15,38 +15,38 @@
       },
       "news_articles": [
         {
-          "title": "Why Micron Stock Is Plummeting Today",
-          "url": "https://www.fool.com/investing/2026/03/03/why-micron-stock-is-plummeting-today/?.tsrc=rss",
-          "date": "03.04 03:23",
+          "title": "Micron Technology, Inc. (MU) Announces the Grand Opening of its Semiconductor Assembly and Test Facility in Sanand, Gujarat, India",
+          "url": "https://finance.yahoo.com/news/micron-technology-inc-mu-announces-054801694.html?.tsrc=rss",
+          "date": "03.04 14:48",
           "source": "Yahoo Finance",
           "has_name": true,
           "content": ""
         },
         {
-          "title": "Lam Research Boise Expansion Deepens Ties To Micron And AI Memory Demand",
-          "url": "https://finance.yahoo.com/news/lam-research-boise-expansion-deepens-201252187.html?.tsrc=rss",
-          "date": "03.04 05:12",
+          "title": "Strategy, Coinbase, and Robinhood Stocks Surge. This Market Is Getting Weirder.",
+          "url": "https://finance.yahoo.com/m/4dff92c9-3395-3bab-b264-5f4a75b572ec/strategy%2C-coinbase%2C-and.html?.tsrc=rss",
+          "date": "03.04 21:05",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Iran shakes markets: US dollar jumps, Micron & SanDisk stocks sink",
-          "url": "https://finance.yahoo.com/video/iran-shakes-markets-us-dollar-192413724.html?.tsrc=rss",
-          "date": "03.04 04:24",
+          "title": "Micron Ships 256GB LPDRAM Module for AI Data Centers",
+          "url": "https://finance.yahoo.com/news/micron-ships-256gb-lpdram-module-113926017.html?.tsrc=rss",
+          "date": "03.04 20:39",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Nvidia, AMD, Intel, and Broadcom Lead Chip Stock Sell-off Amid Iran Crisis",
-          "url": "https://finance.yahoo.com/news/nvidia-amd-intel-broadcom-lead-185310509.html?.tsrc=rss",
-          "date": "03.04 03:53",
+          "title": "Bitcoin Price Surges Above $70,000. Why Cryptos Are Defying Iran Risks.",
+          "url": "https://finance.yahoo.com/m/51faea2a-f19d-3a85-8e64-7bfde9507b7d/bitcoin-price-surges-above.html?.tsrc=rss",
+          "date": "03.04 19:40",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Wall Street Is Wrong About Micron Stock. Here's Why.",
-          "url": "https://www.fool.com/investing/2026/03/03/wall-street-is-wrong-about-micron-stock-heres-why/?.tsrc=rss",
-          "date": "03.04 03:35",
+          "title": "Zacks.com featured highlights include NVIDIA, Micron and Vertiv",
+          "url": "https://finance.yahoo.com/news/zacks-com-featured-highlights-nvidia-090400287.html?.tsrc=rss",
+          "date": "03.04 18:04",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -61,14 +61,14 @@
           "change_rate": "-1.3%"
         }
       ],
-      "timestamp": "2026-03-04 07:00:43"
+      "timestamp": "2026-03-04 23:42:50"
     },
     {
       "id": "sig_20260304_US_002",
       "theme": "#Robotics",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "Teradyne은(는) 5 Stocks Racing Ahead as AI Supercharges Robotics 등의 영향으로 하락 마감했습니다.",
+      "summary": "Teradyne은(는) Teradyne (TER) Declines More Than Market: Some Information for Investors 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Teradyne",
         "symbol": "TER",
@@ -77,38 +77,38 @@
       },
       "news_articles": [
         {
-          "title": "5 Stocks Racing Ahead as AI Supercharges Robotics",
-          "url": "https://www.marketbeat.com/stock-ideas/5-stocks-racing-ahead-as-ai-supercharges-robotics/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "03.03 02:13",
+          "title": "Teradyne (TER) Declines More Than Market: Some Information for Investors",
+          "url": "https://finance.yahoo.com/news/teradyne-ter-declines-more-market-230002240.html?.tsrc=rss",
+          "date": "03.04 08:00",
           "source": "Yahoo Finance",
           "has_name": true,
           "content": ""
         },
         {
+          "title": "Teradyne (TER) Rose Following Demand Uptick",
+          "url": "https://finance.yahoo.com/news/teradyne-ter-rose-following-demand-121326658.html?.tsrc=rss",
+          "date": "03.04 21:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Teradyne’s 5G FR2 Open RAN Push Faces Rich Valuation Question",
+          "url": "https://finance.yahoo.com/news/teradyne-5g-fr2-open-ran-120813824.html?.tsrc=rss",
+          "date": "03.04 21:08",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "FormFactor, Amkor, Teradyne, and Entegris Stocks Trade Down, What You Need To Know",
+          "url": "https://finance.yahoo.com/news/formfactor-amkor-teradyne-entegris-stocks-001742935.html?.tsrc=rss",
+          "date": "03.04 09:17",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Up 183% Over the Past Year, Does Teradyne Stock Have More Room to Run?",
           "url": "https://www.barchart.com/story/news/539072/up-183-over-the-past-year-does-teradyne-stock-have-more-room-to-run?.tsrc=rss",
           "date": "03.04 01:50",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "This Stock Market Selloff’s Biggest Fallers All Have One Thing in Common",
-          "url": "https://finance.yahoo.com/m/cf9ba9e9-41a9-3a48-9fe5-bf9fb3b1fadb/this-stock-market-selloff%E2%80%99s.html?.tsrc=rss",
-          "date": "03.03 23:49",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Middle East Conflict Intensifies",
-          "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-134443636.html?.tsrc=rss",
-          "date": "03.03 22:44",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "LitePoint, Aethertek, and Metanoia Announce Joint Collaboration to Create High Bandwidth Technology for Dense Environments",
-          "url": "https://finance.yahoo.com/news/litepoint-aethertek-metanoia-announce-joint-080000375.html?.tsrc=rss",
-          "date": "03.03 17:00",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -127,7 +127,7 @@
           "change_rate": "-5.6%"
         }
       ],
-      "timestamp": "2026-03-04 07:00:43"
+      "timestamp": "2026-03-04 23:42:50"
     },
     {
       "id": "sig_20260304_US_003",
@@ -143,12 +143,18 @@
       },
       "news_articles": [
         {
-          "title": "Cameco to supply uranium ore concentrate to India in $1.9bn worth deal",
-          "url": "https://www.investmentmonitor.ai/news/cameco-to-supply-uranium-ore-india/?.tsrc=rss",
-          "date": "03.03 00:38",
+          "title": "Market Chatter: Cameco, Brookfield-Owned Westinghouse Linked to Potential US-Japan Nuclear Project",
+          "url": "https://finance.yahoo.com/news/market-chatter-cameco-brookfield-owned-112731668.html?.tsrc=rss",
+          "date": "03.04 20:27",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": ""
+          "has_name": true
+        },
+        {
+          "title": "Assessing Cameco’s Valuation After Strong Multi‑Year Returns And Elevated P/E Multiple",
+          "url": "https://finance.yahoo.com/news/assessing-cameco-valuation-strong-multi-070808032.html?.tsrc=rss",
+          "date": "03.04 16:08",
+          "source": "Yahoo Finance",
+          "has_name": true
         },
         {
           "title": "The $1.9B Uranium Pact Powering a Canada–India Reset",
@@ -170,13 +176,6 @@
           "date": "03.04 00:20",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Cosa Announces Expansions to Orion Project and Joint Ventures with Denison Mines",
-          "url": "https://finance.yahoo.com/news/cosa-announces-expansions-orion-project-130000832.html?.tsrc=rss",
-          "date": "03.03 22:00",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -193,14 +192,14 @@
           "change_rate": "-2.6%"
         }
       ],
-      "timestamp": "2026-03-04 07:00:43"
+      "timestamp": "2026-03-04 23:42:50"
     },
     {
       "id": "sig_20260304_US_004",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "KLA은(는) Investors Boost Semiconductor Spending Forecasts for KLA Corporation (KLAC) 등의 영향으로 하락 마감했습니다.",
+      "summary": "KLA은(는) KLA Corporation (KLAC) Placed on Positive Catalyst Watch Ahead of Investor Day 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
         "name": "KLA",
         "symbol": "KLAC",
@@ -209,12 +208,19 @@
       },
       "news_articles": [
         {
-          "title": "Investors Boost Semiconductor Spending Forecasts for KLA Corporation (KLAC)",
-          "url": "https://finance.yahoo.com/news/investors-boost-semiconductor-spending-forecasts-125750727.html?.tsrc=rss",
-          "date": "02.26 21:57",
+          "title": "KLA Corporation (KLAC) Placed on Positive Catalyst Watch Ahead of Investor Day",
+          "url": "https://finance.yahoo.com/news/kla-corporation-klac-placed-positive-222729354.html?.tsrc=rss",
+          "date": "03.04 07:27",
           "source": "Yahoo Finance",
           "has_name": true,
           "content": ""
+        },
+        {
+          "title": "KLA Investor Day Expectations Around Growth Model And Valuation Risks",
+          "url": "https://finance.yahoo.com/news/kla-investor-day-expectations-around-031438823.html?.tsrc=rss",
+          "date": "03.04 12:14",
+          "source": "Yahoo Finance",
+          "has_name": true
         },
         {
           "title": "Why KLA Corporation (KLAC) Shares Are Trading Lower Today",
@@ -234,13 +240,6 @@
           "title": "The AI spending boom is creating winners beyond the 'Mag 7.' Why one sector could see big gains.",
           "url": "https://finance.yahoo.com/news/the-ai-spending-boom-is-creating-winners-beyond-the-mag-7-why-one-sector-could-see-big-gains-153820672.html?.tsrc=rss",
           "date": "02.27 00:38",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Citi opens positive catalyst watch on KLA Corp ahead of investor day",
-          "url": "https://finance.yahoo.com/news/citi-opens-positive-catalyst-watch-132357701.html?.tsrc=rss",
-          "date": "02.26 22:23",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -263,7 +262,7 @@
           "change_rate": "-6.6%"
         }
       ],
-      "timestamp": "2026-03-04 07:00:43"
+      "timestamp": "2026-03-04 23:42:50"
     },
     {
       "id": "sig_20260304_US_005",
@@ -279,16 +278,24 @@
       },
       "news_articles": [
         {
-          "title": "Why Lam Research (LRCX) Shares Are Trading Lower Today",
-          "url": "https://finance.yahoo.com/news/why-lam-research-lrcx-shares-201742200.html?.tsrc=rss",
-          "date": "03.04 05:17",
+          "title": "Lam Research Boise Expansion Deepens Ties To Micron And AI Memory Demand",
+          "url": "https://finance.yahoo.com/news/lam-research-boise-expansion-deepens-201252187.html?.tsrc=rss",
+          "date": "03.04 05:12",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "New Strong Buy Stocks for March 4th",
+          "url": "https://finance.yahoo.com/news/strong-buy-stocks-march-4th-101000076.html?.tsrc=rss",
+          "date": "03.04 19:10",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Lam Research Boise Expansion Deepens Ties To Micron And AI Memory Demand",
-          "url": "https://finance.yahoo.com/news/lam-research-boise-expansion-deepens-201252187.html?.tsrc=rss",
-          "date": "03.04 05:12",
+          "title": "Why Lam Research (LRCX) Shares Are Trading Lower Today",
+          "url": "https://finance.yahoo.com/news/why-lam-research-lrcx-shares-201742200.html?.tsrc=rss",
+          "date": "03.04 05:17",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -303,13 +310,6 @@
           "title": "How Is Lam Research’s Stock Performance Compared to Other Semiconductor Stocks?",
           "url": "https://www.barchart.com/story/news/506925/how-is-lam-researchs-stock-performance-compared-to-other-semiconductor-stocks?.tsrc=rss",
           "date": "03.02 21:48",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Morgan Stanley Raises Lam Research (LRCX) Valuation on Strong DRAM Investment Forecast",
-          "url": "https://finance.yahoo.com/news/morgan-stanley-raises-lam-research-030420315.html?.tsrc=rss",
-          "date": "03.01 12:04",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -332,72 +332,10 @@
           "change_rate": "-1.3%"
         }
       ],
-      "timestamp": "2026-03-04 07:00:43"
+      "timestamp": "2026-03-04 23:42:50"
     },
     {
       "id": "sig_20260304_US_006",
-      "theme": "#Infrastructure",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "Eaton은(는) Eaton Corporation Rewards Shareholders With 6% Dividend Increase 등의 영향으로 하락 마감했습니다.",
-      "main_stock": {
-        "name": "Eaton",
-        "symbol": "ETN",
-        "change_rate": "-5.8%",
-        "news_url": "https://finance.yahoo.com/quote/ETN"
-      },
-      "news_articles": [
-        {
-          "title": "Eaton Corporation Rewards Shareholders With 6% Dividend Increase",
-          "url": "https://finance.yahoo.com/news/eaton-corporation-rewards-shareholders-6-143500408.html?.tsrc=rss",
-          "date": "03.03 23:35",
-          "source": "Yahoo Finance",
-          "has_name": true,
-          "content": ""
-        },
-        {
-          "title": "2 Dividend Stocks to Double Up on Right Now",
-          "url": "https://www.fool.com/investing/2026/03/03/2-dividend-stocks-to-double-up-on-right-now/?.tsrc=rss",
-          "date": "03.04 05:50",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "4 Dividend Stocks Boost Payouts as Investors Seek Safety in a Volatile Market",
-          "url": "https://finance.yahoo.com/news/4-dividend-stocks-boost-payouts-161200084.html?.tsrc=rss",
-          "date": "03.04 01:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Digital Utility Industry Report 2026-2035, Profiles of ABB, Accenture, Capgemini, Cisco, Cognizant, Eaton, GE, Honeywell, IBM, Itron, Microsoft, Oracle, SAP, Schneider Electric, Siemens, Toshiba",
-          "url": "https://finance.yahoo.com/news/digital-utility-industry-report-2026-113600610.html?.tsrc=rss",
-          "date": "03.03 20:36",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Digital Twin Stadium Lighting Industry Report 2026-2035: A $3.22 Billion Market by 2030 with Samsung, Panasonic, Eaton, Wipro Lighting, Signify, ams OSRAM Leading",
-          "url": "https://finance.yahoo.com/news/digital-twin-stadium-lighting-industry-143000275.html?.tsrc=rss",
-          "date": "03.02 23:30",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Infrastructure] Vertiv",
-          "change_rate": "-5.2%"
-        },
-        {
-          "name": "[Energy] GE Vernova",
-          "change_rate": "-4.4%"
-        }
-      ],
-      "timestamp": "2026-03-04 07:00:43"
-    },
-    {
-      "id": "sig_20260304_US_007",
       "theme": "#Semiconductor Equipment",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -410,12 +348,11 @@
       },
       "news_articles": [
         {
-          "title": "Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know",
-          "url": "https://finance.yahoo.com/news/applied-materials-inc-amat-attracting-140005962.html?.tsrc=rss",
-          "date": "03.02 23:00",
+          "title": "Applied Materials, Monolithic Power Systems, MACOM, Seagate, and Western Digital Shares Plummet, What You Need To Know",
+          "url": "https://finance.yahoo.com/news/applied-materials-monolithic-power-systems-001242759.html?.tsrc=rss",
+          "date": "03.04 09:12",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": ""
+          "has_name": true
         },
         {
           "title": "Applied Materials Pursues AI Super Cycle As EPIC Growth Meets China Risks",
@@ -439,9 +376,9 @@
           "has_name": true
         },
         {
-          "title": "Morgan Stanley Boosts Applied Materials (AMAT) Target on Strong DRAM Spending Outlook",
-          "url": "https://finance.yahoo.com/news/morgan-stanley-boosts-applied-materials-024647977.html?.tsrc=rss",
-          "date": "03.01 11:46",
+          "title": "Applied Materials, Inc. (AMAT) is Attracting Investor Attention: Here is What You Should Know",
+          "url": "https://finance.yahoo.com/news/applied-materials-inc-amat-attracting-140005962.html?.tsrc=rss",
+          "date": "03.02 23:00",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -468,10 +405,10 @@
           "change_rate": "-4.3%"
         }
       ],
-      "timestamp": "2026-03-04 07:00:43"
+      "timestamp": "2026-03-04 23:42:50"
     },
     {
-      "id": "sig_20260304_US_008",
+      "id": "sig_20260304_US_007",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -484,37 +421,38 @@
       },
       "news_articles": [
         {
-          "title": "Why Sea Limited Plunged Today",
-          "url": "https://www.fool.com/investing/2026/03/03/why-sea-limited-plunged-today/?.tsrc=rss",
-          "date": "03.04 06:29",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Better Cryptocurrency to Buy Right Now With $2,000 and Hold for 5 Years: XRP vs. Ethereum",
-          "url": "https://www.fool.com/investing/2026/03/03/better-cryptocurrency-to-buy-right-now-with-2000-a/?.tsrc=rss",
-          "date": "03.04 06:20",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Target Just Reported Its 13th Consecutive Quarter of Falling Sales, But CEO Michael Fiddelke Says He Has a Plan to Turn Things Around. 2 Key Things For Investors to Know.",
-          "url": "https://www.fool.com/investing/2026/03/03/target-just-reported-its-13th-consecutive-quarter/?.tsrc=rss",
-          "date": "03.04 06:17",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
           "title": "Intel board chair Frank Yeary to depart after 17 years",
           "url": "https://finance.yahoo.com/news/intel-board-chair-frank-yeary-210525849.html?.tsrc=rss",
           "date": "03.04 06:05",
           "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "2 High-Flying Stocks With More Upside to Buy and Hold",
+          "url": "https://www.fool.com/investing/2026/03/04/2-high-flying-stocks-with-more-upside-to-buy-and-h/?.tsrc=rss",
+          "date": "03.04 23:32",
+          "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Corvex Among the First Companies to Achieve Verified Production Deployment of Confidential Computing for AI on NVIDIA HGX™ B200 Systems",
-          "url": "https://finance.yahoo.com/news/corvex-among-first-companies-achieve-210500477.html?.tsrc=rss",
-          "date": "03.04 06:05",
+          "title": "Another Credit Crash Coming? This Stress Indicator Is Hitting Financial Crisis Levels.",
+          "url": "https://www.fool.com/investing/2026/03/04/another-credit-crash-coming-this-stress-indicator/?.tsrc=rss",
+          "date": "03.04 23:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "AbbVie: The Only Big Pharma Stock I'd Consider a Buy‑and‑Never‑Sell",
+          "url": "https://www.fool.com/investing/2026/03/04/abbvie-the-only-big-pharma-stock-id-consider-a-buy/?.tsrc=rss",
+          "date": "03.04 23:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "What Are 3 Great Tech Stocks to Buy Right Now?",
+          "url": "https://www.fool.com/investing/2026/03/04/what-are-3-great-tech-stocks-to-buy-right-now/?.tsrc=rss",
+          "date": "03.04 22:50",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -541,14 +479,14 @@
           "change_rate": "-3.4%"
         }
       ],
-      "timestamp": "2026-03-04 07:00:43"
+      "timestamp": "2026-03-04 23:42:50"
     },
     {
-      "id": "sig_20260304_US_009",
+      "id": "sig_20260304_US_008",
       "theme": "#Energy Services",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "Schlumberger은(는) Sector Update: Energy Stocks Rise Pre-Bell Monday 등의 영향으로 하락 마감했습니다.",
+      "summary": "Schlumberger은(는) SLB Stock: Is SLB Outperforming the Energy Sector? 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Schlumberger",
         "symbol": "SLB",
@@ -556,6 +494,21 @@
         "news_url": "https://finance.yahoo.com/quote/SLB"
       },
       "news_articles": [
+        {
+          "title": "SLB Stock: Is SLB Outperforming the Energy Sector?",
+          "url": "https://www.barchart.com/story/news/510487/slb-stock-is-slb-outperforming-the-energy-sector?.tsrc=rss",
+          "date": "03.02 23:30",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Here's Why SLB (SLB) Fell More Than Broader Market",
+          "url": "https://finance.yahoo.com/news/heres-why-slb-slb-fell-225003300.html?.tsrc=rss",
+          "date": "03.04 07:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "Is Schlumberger (SLB) Offering Value After ChampionX Deal And Solid Five Year Returns",
           "url": "https://finance.yahoo.com/news/schlumberger-slb-offering-value-championx-211346466.html?.tsrc=rss",
@@ -576,20 +529,6 @@
           "date": "03.04 00:05",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Is It Worth Investing in SLB (SLB) Based on Wall Street's Bullish Views?",
-          "url": "https://finance.yahoo.com/news/worth-investing-slb-slb-based-143004861.html?.tsrc=rss",
-          "date": "03.03 23:30",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "SLB Stock: Is SLB Outperforming the Energy Sector?",
-          "url": "https://www.barchart.com/story/news/510487/slb-stock-is-slb-outperforming-the-energy-sector?.tsrc=rss",
-          "date": "03.02 23:30",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -602,14 +541,14 @@
           "change_rate": "-0.4%"
         }
       ],
-      "timestamp": "2026-03-04 07:00:43"
+      "timestamp": "2026-03-04 23:42:50"
     },
     {
-      "id": "sig_20260304_US_010",
+      "id": "sig_20260304_US_009",
       "theme": "#Infrastructure",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "Vertiv은(는) Vertiv Holdings Co (VRT) Is Up 5.0% After New AI Platform Launch And $2.1 Billion Bond Raise 등의 영향으로 하락 마감했습니다.",
+      "summary": "Vertiv은(는) Vertiv Announces Scalable, High-Capacity Double Stack Busway System that Preserves White Space for Growing AI Data Center Demands 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
         "name": "Vertiv",
         "symbol": "VRT",
@@ -618,37 +557,38 @@
       },
       "news_articles": [
         {
-          "title": "Vertiv Announces Completion of $2.1 Billion Senior Unsecured Bond Offering and $2.5 Billion Senior Unsecured Revolving Credit Facility",
-          "url": "https://finance.yahoo.com/news/vertiv-announces-completion-2-1-213000660.html?.tsrc=rss",
-          "date": "03.04 06:30",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "nLIGHT, Tutor Perini, Vertiv, Hubbell, and Vicor Shares Plummet, What You Need To Know",
-          "url": "https://finance.yahoo.com/news/nlight-tutor-perini-vertiv-hubbell-203242543.html?.tsrc=rss",
-          "date": "03.04 05:32",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Is Vertiv Stock a Buy Right Now?",
-          "url": "https://www.fool.com/investing/2026/03/03/is-hot-ticker-stock-a-buy-right-now/?.tsrc=rss",
-          "date": "03.03 22:35",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "$1.4 Trillion Needed for AI Data Center Electrification by 2030, Chief Investment Officer",
-          "url": "https://247wallst.com/investing/2026/03/03/1-4-trillion-needed-for-ai-data-center-electrification-by-2030-chief-investment-officer/?.tsrc=rss",
-          "date": "03.03 22:21",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
           "title": "Vertiv Announces Scalable, High-Capacity Double Stack Busway System that Preserves White Space for Growing AI Data Center Demands",
           "url": "https://finance.yahoo.com/news/vertiv-announces-scalable-high-capacity-130000789.html?.tsrc=rss",
           "date": "03.03 22:00",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Vertiv and Generate Capital Collaborate to Accelerate Data Center Capacity with Complete Power and Cooling Infrastructure",
+          "url": "https://finance.yahoo.com/news/vertiv-generate-capital-collaborate-accelerate-130000611.html?.tsrc=rss",
+          "date": "03.04 22:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Vertiv to Participate in Upcoming Investor Conference",
+          "url": "https://finance.yahoo.com/news/vertiv-participate-upcoming-investor-conference-130000179.html?.tsrc=rss",
+          "date": "03.04 22:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Vertiv Stock Soared 37% in February",
+          "url": "https://www.fool.com/investing/2026/03/04/vertiv-vrt-stock-earnings-best-ai-stocks-2026/?.tsrc=rss",
+          "date": "03.04 20:20",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Vertiv Targets AI Data Center Growth With Modular Power And Hut 8 Deal",
+          "url": "https://finance.yahoo.com/news/vertiv-targets-ai-data-center-111106372.html?.tsrc=rss",
+          "date": "03.04 20:11",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -663,7 +603,77 @@
           "change_rate": "-4.4%"
         }
       ],
-      "timestamp": "2026-03-04 07:00:43"
+      "timestamp": "2026-03-04 23:42:50"
+    },
+    {
+      "id": "sig_20260304_US_010",
+      "theme": "#Nuclear",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "BWX Tech은(는) Assessing BWX Technologies (BWXT) Valuation After A Strong Year Of Share Price Gains 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "BWX Tech",
+        "symbol": "BWXT",
+        "change_rate": "-4.9%",
+        "news_url": "https://finance.yahoo.com/quote/BWXT"
+      },
+      "news_articles": [
+        {
+          "title": "Assessing BWX Technologies (BWXT) Valuation After A Strong Year Of Share Price Gains",
+          "url": "https://finance.yahoo.com/news/assessing-bwx-technologies-bwxt-valuation-031028717.html?.tsrc=rss",
+          "date": "03.01 12:10",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "American Superconductor, BWX, Redwire, Corning, and SolarEdge Stocks Trade Down, What You Need To Know",
+          "url": "https://finance.yahoo.com/news/american-superconductor-bwx-redwire-corning-203742464.html?.tsrc=rss",
+          "date": "03.04 05:37",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stocks making big moves yesterday: Q2 Holdings, AAON, Carnival, BWX, and Northrop Grumman",
+          "url": "https://finance.yahoo.com/news/stocks-making-big-moves-yesterday-140637871.html?.tsrc=rss",
+          "date": "03.03 23:06",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "BWX (BWXT) Stock Trades Up, Here Is Why",
+          "url": "https://finance.yahoo.com/news/bwx-bwxt-stock-trades-why-203536301.html?.tsrc=rss",
+          "date": "03.03 05:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Dan Jablonsky Joins BWX Board As Valuation And Debt Remain In Focus",
+          "url": "https://finance.yahoo.com/news/dan-jablonsky-joins-bwx-board-091019867.html?.tsrc=rss",
+          "date": "03.01 18:10",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[SMR] NuScale Power",
+          "change_rate": "-4.0%"
+        },
+        {
+          "name": "[SMR] Oklo",
+          "change_rate": "-2.1%"
+        },
+        {
+          "name": "[Aerospace/Defense] Lockheed Martin",
+          "change_rate": "-1.3%"
+        },
+        {
+          "name": "[Aerospace/Defense] RTX",
+          "change_rate": "-2.7%"
+        }
+      ],
+      "timestamp": "2026-03-04 23:42:50"
     }
   ]
 }
