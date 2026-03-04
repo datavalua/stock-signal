@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05 01:00:28",
+  "last_updated": "2026-03-05 01:55:53",
   "signals": [
     {
       "id": "sig_20260305_US_001",
@@ -10,14 +10,36 @@
       "main_stock": {
         "name": "Coinbase",
         "symbol": "COIN",
-        "change_rate": "+14.7%",
+        "change_rate": "+15.3%",
         "news_url": "https://finance.yahoo.com/quote/COIN"
       },
       "news_articles": [
         {
+          "title": "Coinbase CEO: The business of crypto has 'never been stronger'",
+          "url": "https://finance.yahoo.com/news/coinbase-ceo-the-business-of-crypto-has-never-been-stronger-131831021.html?.tsrc=rss",
+          "date": "03.04 22:18",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Bitcoin Jumps With ETF Flows, Trump Blames Banks For Clarity Delay",
+          "url": "https://finance.yahoo.com/m/91c3549a-f81c-3979-a2ed-4eda1b83473d/bitcoin-jumps-with-etf-flows%2C.html?.tsrc=rss",
+          "date": "03.05 01:34",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Coinbase, Other Crypto Stocks Surge. What’s Behind the Rally.",
           "url": "https://finance.yahoo.com/m/4dff92c9-3395-3bab-b264-5f4a75b572ec/coinbase%2C-other-crypto-stocks.html?.tsrc=rss",
-          "date": "03.04 23:48",
+          "date": "03.05 01:14",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stocks to Watch Wednesday: Coinbase, CrowdStrike, Gitlab, Bath & Body Works",
+          "url": "https://finance.yahoo.com/m/1942f052-539b-3280-92f6-4004760d01ae/stocks-to-watch-wednesday%3A.html?.tsrc=rss",
+          "date": "03.04 23:34",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -27,66 +49,59 @@
           "date": "03.04 22:50",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Crypto Stocks Strategy, Coinbase, and Circle Jump in Premarket Trading Wednesday",
-          "url": "https://247wallst.com/investing/2026/03/04/crypto-stocks-strategy-coinbase-and-circle-jump-in-premarket-trading-wednesday/?.tsrc=rss",
-          "date": "03.04 22:46",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Coinbase CEO: The business of crypto has 'never been stronger'",
-          "url": "https://finance.yahoo.com/news/coinbase-ceo-the-business-of-crypto-has-never-been-stronger-131831021.html?.tsrc=rss",
-          "date": "03.04 22:18",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Trump Steps Into Coinbase Crypto Fight",
-          "url": "https://finance.yahoo.com/news/trump-steps-coinbase-crypto-fight-124143836.html?.tsrc=rss",
-          "date": "03.04 21:41",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
         {
           "name": "[Software] MicroStrategy",
-          "change_rate": "+12.0%"
+          "change_rate": "+11.8%"
         },
         {
           "name": "[Payments] PayPal",
-          "change_rate": "+1.9%"
+          "change_rate": "+1.4%"
         }
       ],
-      "timestamp": "2026-03-05 01:00:28"
+      "timestamp": "2026-03-05 01:55:53"
     },
     {
       "id": "sig_20260305_US_002",
       "theme": "#Software",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "MicroStrategy은(는) Stock Market Today: Dow Slips Amid Iran, Tariff News; Nvidia, Tesla Rebound (Live Coverage) 등의 영향으로 상승 마감했습니다.",
+      "summary": "MicroStrategy은(는) Crypto Stocks Strategy, Coinbase, and Circle Jump in Premarket Trading Wednesday 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "MicroStrategy",
         "symbol": "MSTR",
-        "change_rate": "+12.3%",
+        "change_rate": "+11.8%",
         "news_url": "https://finance.yahoo.com/quote/MSTR"
       },
       "news_articles": [
         {
-          "title": "Stock Market Today: Dow Slips Amid Iran, Tariff News; Nvidia, Tesla Rebound (Live Coverage)",
-          "url": "https://finance.yahoo.com/m/69885568-120b-32ce-8274-0b59522d7129/stock-market-today%3A-dow-slips.html?.tsrc=rss",
-          "date": "03.04 23:47",
+          "title": "Crypto Stocks Strategy, Coinbase, and Circle Jump in Premarket Trading Wednesday",
+          "url": "https://247wallst.com/investing/2026/03/04/crypto-stocks-strategy-coinbase-and-circle-jump-in-premarket-trading-wednesday/?.tsrc=rss",
+          "date": "03.04 22:46",
           "source": "Yahoo Finance",
           "has_name": true,
           "content": ""
         },
         {
+          "title": "Crypto Stocks Jump as Bitcoin Roars Back Above $71,000",
+          "url": "https://finance.yahoo.com/news/crypto-stocks-jump-bitcoin-roars-162109236.html?.tsrc=rss",
+          "date": "03.05 01:21",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Assessing MicroStrategy (MSTR) Valuation After Bitcoin Rebound And Fresh 3,015 Bitcoin Purchase",
+          "url": "https://finance.yahoo.com/news/assessing-microstrategy-mstr-valuation-bitcoin-160856943.html?.tsrc=rss",
+          "date": "03.05 01:08",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Coinbase, Other Crypto Stocks Surge. What’s Behind the Rally.",
           "url": "https://finance.yahoo.com/m/4dff92c9-3395-3bab-b264-5f4a75b572ec/coinbase%2C-other-crypto-stocks.html?.tsrc=rss",
-          "date": "03.04 23:48",
+          "date": "03.05 01:14",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -96,29 +111,15 @@
           "date": "03.04 23:48",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Stocks to Watch Wednesday: Coinbase, CrowdStrike, Gitlab, Moderna",
-          "url": "https://finance.yahoo.com/m/1942f052-539b-3280-92f6-4004760d01ae/stocks-to-watch-wednesday%3A.html?.tsrc=rss",
-          "date": "03.04 23:15",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Crypto Stocks Strategy, Coinbase, and Circle Jump in Premarket Trading Wednesday",
-          "url": "https://247wallst.com/investing/2026/03/04/crypto-stocks-strategy-coinbase-and-circle-jump-in-premarket-trading-wednesday/?.tsrc=rss",
-          "date": "03.04 22:46",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
         {
           "name": "[Financials] Coinbase",
-          "change_rate": "+14.5%"
+          "change_rate": "+15.3%"
         }
       ],
-      "timestamp": "2026-03-05 01:00:28"
+      "timestamp": "2026-03-05 01:55:53"
     },
     {
       "id": "sig_20260305_US_003",
@@ -129,21 +130,36 @@
       "main_stock": {
         "name": "Micron",
         "symbol": "MU",
-        "change_rate": "+7.2%",
+        "change_rate": "+6.8%",
         "news_url": "https://finance.yahoo.com/quote/MU"
       },
       "news_articles": [
         {
-          "title": "Billionaire David Tepper Tripled His Stake in Micron and Bought This Other AI Memory Play On Top of It",
-          "url": "https://www.fool.com/investing/2026/03/04/billionaire-tepper-tripled-his-stake-in-micron/?.tsrc=rss",
-          "date": "03.04 23:50",
+          "title": "Micron Ships 256GB LPDRAM Module for AI Data Centers",
+          "url": "https://finance.yahoo.com/news/micron-ships-256gb-lpdram-module-113926017.html?.tsrc=rss",
+          "date": "03.04 20:39",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Bitcoin Price Surges Above $72,000. Why Cryptos Are Defying Iran Risks.",
+          "url": "https://finance.yahoo.com/m/51faea2a-f19d-3a85-8e64-7bfde9507b7d/bitcoin-price-surges-above.html?.tsrc=rss",
+          "date": "03.05 01:21",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
           "title": "Coinbase, Other Crypto Stocks Surge. What’s Behind the Rally.",
           "url": "https://finance.yahoo.com/m/4dff92c9-3395-3bab-b264-5f4a75b572ec/coinbase%2C-other-crypto-stocks.html?.tsrc=rss",
-          "date": "03.04 23:48",
+          "date": "03.05 01:14",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Billionaire David Tepper Tripled His Stake in Micron and Bought This Other AI Memory Play On Top of It",
+          "url": "https://www.fool.com/investing/2026/03/04/billionaire-tepper-tripled-his-stake-in-micron/?.tsrc=rss",
+          "date": "03.04 23:50",
           "source": "Yahoo Finance",
           "has_name": true
         },
@@ -153,36 +169,96 @@
           "date": "03.04 23:32",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "5 Growth Stocks to Buy in March Despite Global Economic Turbulence",
-          "url": "https://finance.yahoo.com/news/5-growth-stocks-buy-march-141300909.html?.tsrc=rss",
-          "date": "03.04 23:13",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Micron Ships 256GB LPDRAM Module for AI Data Centers",
-          "url": "https://finance.yahoo.com/news/micron-ships-256gb-lpdram-module-113926017.html?.tsrc=rss",
-          "date": "03.04 20:39",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
         {
           "name": "[Semiconductors] Intel",
-          "change_rate": "+4.6%"
+          "change_rate": "+5.7%"
         },
         {
           "name": "[Semiconductors] NVIDIA",
           "change_rate": "+1.6%"
         }
       ],
-      "timestamp": "2026-03-05 01:00:28"
+      "timestamp": "2026-03-05 01:55:53"
     },
     {
       "id": "sig_20260305_US_004",
+      "theme": "#Semiconductors",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Intel은(는) Portfolio Managers Rarely Beat This Simple Strategy. The Data Keeps Proving It. 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Intel",
+        "symbol": "INTC",
+        "change_rate": "+5.7%",
+        "news_url": "https://finance.yahoo.com/quote/INTC"
+      },
+      "news_articles": [
+        {
+          "title": "Portfolio Managers Rarely Beat This Simple Strategy. The Data Keeps Proving It.",
+          "url": "https://www.fool.com/investing/2026/03/04/portfolio-managers-rarely-beat-simple-strategy/?.tsrc=rss",
+          "date": "03.05 00:20",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Latest News From Amazon and Meta Shows Why Alphabet Is the AI Stock to Beat",
+          "url": "https://www.fool.com/investing/2026/03/04/amazon-meta-news-why-alphabet-top-ai-stock/?.tsrc=rss",
+          "date": "03.05 01:40",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why AST SpaceMobile Stock Popped Today",
+          "url": "https://www.fool.com/investing/2026/03/04/why-ast-spacemobile-stock-popped-today/?.tsrc=rss",
+          "date": "03.05 01:31",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought",
+          "url": "https://www.fool.com/investing/2026/03/04/cathie-wood-goes-bargain-hunting-3-stocks-she-just/?.tsrc=rss",
+          "date": "03.05 01:27",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Target Stock Is Crushing the Market This Year. Is It Time to Buy?",
+          "url": "https://www.fool.com/investing/2026/03/04/target-stock-is-crushing-the-market-this-year-is-i/?.tsrc=rss",
+          "date": "03.05 01:23",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] AMD",
+          "change_rate": "+3.9%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "+1.6%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "+1.8%"
+        },
+        {
+          "name": "[Semiconductors] Qualcomm",
+          "change_rate": "+0.3%"
+        },
+        {
+          "name": "[Semiconductors] Texas Instruments",
+          "change_rate": "+0.5%"
+        }
+      ],
+      "timestamp": "2026-03-05 01:55:53"
+    },
+    {
+      "id": "sig_20260305_US_005",
       "theme": "#E-commerce",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -190,10 +266,18 @@
       "main_stock": {
         "name": "Shopify",
         "symbol": "SHOP",
-        "change_rate": "+5.5%",
+        "change_rate": "+5.4%",
         "news_url": "https://finance.yahoo.com/quote/SHOP"
       },
       "news_articles": [
+        {
+          "title": "Levanta Unifies Creator and Affiliate Programs Across Shopify, Amazon, and Walmart",
+          "url": "https://finance.yahoo.com/news/levanta-unifies-creator-affiliate-programs-130000703.html?.tsrc=rss",
+          "date": "03.02 22:00",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
         {
           "title": "1 Growth Stock Down 25% in 2026 to Buy and Hold",
           "url": "https://www.fool.com/investing/2026/03/04/1-growth-stock-down-25-in-2026-to-buy-and-hold/?.tsrc=rss",
@@ -221,100 +305,19 @@
           "date": "03.02 22:23",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Levanta Unifies Creator and Affiliate Programs Across Shopify, Amazon, and Walmart",
-          "url": "https://finance.yahoo.com/news/levanta-unifies-creator-affiliate-programs-130000703.html?.tsrc=rss",
-          "date": "03.02 22:00",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
         {
           "name": "[E-commerce] Amazon",
-          "change_rate": "+3.3%"
+          "change_rate": "+3.2%"
         },
         {
           "name": "[Retail] Walmart",
-          "change_rate": "-0.3%"
+          "change_rate": "-0.2%"
         }
       ],
-      "timestamp": "2026-03-05 01:00:28"
-    },
-    {
-      "id": "sig_20260305_US_005",
-      "theme": "#Semiconductors",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "Intel은(는) Why SoFi Stock Fell 22% Last Month 등의 영향으로 상승 마감했습니다.",
-      "main_stock": {
-        "name": "Intel",
-        "symbol": "INTC",
-        "change_rate": "+4.5%",
-        "news_url": "https://finance.yahoo.com/quote/INTC"
-      },
-      "news_articles": [
-        {
-          "title": "Why SoFi Stock Fell 22% Last Month",
-          "url": "https://www.fool.com/investing/2026/03/04/why-sofi-stock-fell-22-last-month/?.tsrc=rss",
-          "date": "03.04 23:50",
-          "source": "Yahoo Finance",
-          "has_name": true,
-          "content": ""
-        },
-        {
-          "title": "Meet The ETF That Tracks Everything and Costs Almost Nothing",
-          "url": "https://www.fool.com/investing/2026/03/04/meet-the-etf-that-tracks-everything-and-costs-almo/?.tsrc=rss",
-          "date": "03.05 00:42",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "BC-Most Active Stocks",
-          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153027221.html?.tsrc=rss",
-          "date": "03.05 00:30",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Why Daktronics Stock Crashed Today",
-          "url": "https://www.fool.com/investing/2026/03/04/why-daktronics-stock-crashed-today/?.tsrc=rss",
-          "date": "03.05 00:30",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Portfolio Managers Rarely Beat This Simple Strategy. The Data Keeps Proving It.",
-          "url": "https://www.fool.com/investing/2026/03/04/portfolio-managers-rarely-beat-simple-strategy/?.tsrc=rss",
-          "date": "03.05 00:20",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Semiconductors] AMD",
-          "change_rate": "+3.7%"
-        },
-        {
-          "name": "[Semiconductors] NVIDIA",
-          "change_rate": "+1.6%"
-        },
-        {
-          "name": "[Foundry] TSMC",
-          "change_rate": "+2.0%"
-        },
-        {
-          "name": "[Semiconductors] Qualcomm",
-          "change_rate": "+0.5%"
-        },
-        {
-          "name": "[Semiconductors] Texas Instruments",
-          "change_rate": "+1.0%"
-        }
-      ],
-      "timestamp": "2026-03-05 01:00:28"
+      "timestamp": "2026-03-05 01:55:53"
     },
     {
       "id": "sig_20260305_US_006",
@@ -325,10 +328,18 @@
       "main_stock": {
         "name": "Novo Nordisk",
         "symbol": "NVO",
-        "change_rate": "+4.5%",
+        "change_rate": "+4.1%",
         "news_url": "https://finance.yahoo.com/quote/NVO"
       },
       "news_articles": [
+        {
+          "title": "Eli Lilly Pipeline Updates Support Valuation Case Beyond Injectable GLP 1s",
+          "url": "https://finance.yahoo.com/news/eli-lilly-pipeline-updates-support-011434415.html?.tsrc=rss",
+          "date": "03.04 10:14",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
         {
           "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Potential Middle East Diplomacy Reports",
           "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135045787.html?.tsrc=rss",
@@ -356,59 +367,136 @@
           "date": "03.04 15:07",
           "source": "Yahoo Finance",
           "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Pharma] Eli Lilly",
+          "change_rate": "-0.5%"
         },
         {
-          "title": "Eli Lilly Pipeline Updates Support Valuation Case Beyond Injectable GLP 1s",
-          "url": "https://finance.yahoo.com/news/eli-lilly-pipeline-updates-support-011434415.html?.tsrc=rss",
-          "date": "03.04 10:14",
+          "name": "[Pharma] Johnson & Johnson",
+          "change_rate": "-0.4%"
+        },
+        {
+          "name": "[Bio] AbbVie",
+          "change_rate": "+0.3%"
+        },
+        {
+          "name": "[Pharma] Merck",
+          "change_rate": "+0.0%"
+        },
+        {
+          "name": "[Pharma] Pfizer",
+          "change_rate": "-0.1%"
+        }
+      ],
+      "timestamp": "2026-03-05 01:55:53"
+    },
+    {
+      "id": "sig_20260305_US_007",
+      "theme": "#SMR",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "NuScale Power은(는) 2 Nuclear Energy Stocks to Buy in March 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "NuScale Power",
+        "symbol": "SMR",
+        "change_rate": "+4.1%",
+        "news_url": "https://finance.yahoo.com/quote/SMR"
+      },
+      "news_articles": [
+        {
+          "title": "2 Nuclear Energy Stocks to Buy in March",
+          "url": "https://www.fool.com/investing/2026/03/02/2-nuclear-energy-stocks-to-buy-in-march/?.tsrc=rss",
+          "date": "03.03 02:50",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Is NuScale the Smartest Investment You Can Make Today?",
+          "url": "https://www.fool.com/investing/2026/03/04/is-nuscale-the-smartest-investment-to-make-now/?.tsrc=rss",
+          "date": "03.04 19:37",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why NuScale Power Stock Is Powering Down Today",
+          "url": "https://www.fool.com/investing/2026/03/03/why-nuscale-power-stock-is-powering-down-today/?.tsrc=rss",
+          "date": "03.04 05:01",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Atomic AI: Why NuScale Is the Only Option",
+          "url": "https://www.marketbeat.com/originals/atomic-ai-why-nuscale-is-the-only-option/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "03.03 21:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "NuScale Lawsuits Put ENTRA1 Partnership And SMR Valuation In Focus",
+          "url": "https://finance.yahoo.com/news/nuscale-lawsuits-put-entra1-partnership-010635146.html?.tsrc=rss",
+          "date": "03.03 10:06",
           "source": "Yahoo Finance",
           "has_name": true
         }
       ],
       "related_stocks": [
         {
-          "name": "[Pharma] Eli Lilly",
-          "change_rate": "-0.3%"
+          "name": "[SMR] Oklo",
+          "change_rate": "+3.6%"
         },
         {
-          "name": "[Pharma] Johnson & Johnson",
-          "change_rate": "-0.5%"
+          "name": "[Nuclear] BWX Tech",
+          "change_rate": "+0.3%"
         },
         {
-          "name": "[Bio] AbbVie",
-          "change_rate": "+0.9%"
+          "name": "[Energy] Cameco",
+          "change_rate": "+2.0%"
         },
         {
-          "name": "[Pharma] Merck",
+          "name": "[Nuclear] Constellation Energy",
           "change_rate": "-0.1%"
-        },
-        {
-          "name": "[Pharma] Pfizer",
-          "change_rate": "+0.4%"
         }
       ],
-      "timestamp": "2026-03-05 01:00:28"
+      "timestamp": "2026-03-05 01:55:53"
     },
     {
-      "id": "sig_20260305_US_007",
+      "id": "sig_20260305_US_008",
       "theme": "#Semiconductors",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "AMD은(는) Why AMD (AMD) Stock Is Trading Lower Today 등의 영향으로 상승 마감했습니다.",
+      "summary": "AMD은(는) Advanced Micro Devices CEO Lisa Su Teases MI450 Ramp, 6GW Meta AI Deal, and 35% Growth Target 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
         "name": "AMD",
         "symbol": "AMD",
-        "change_rate": "+3.7%",
+        "change_rate": "+4.0%",
         "news_url": "https://finance.yahoo.com/quote/AMD"
       },
       "news_articles": [
         {
-          "title": "Why AMD (AMD) Stock Is Trading Lower Today",
-          "url": "https://finance.yahoo.com/news/why-amd-amd-stock-trading-002742987.html?.tsrc=rss",
-          "date": "03.04 09:27",
+          "title": "Advanced Micro Devices CEO Lisa Su Teases MI450 Ramp, 6GW Meta AI Deal, and 35% Growth Target",
+          "url": "https://www.marketbeat.com/instant-alerts/advanced-micro-devices-ceo-lisa-su-teases-mi450-ramp-6gw-meta-ai-deal-and-35-growth-target-2026-03-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "date": "03.04 15:34",
           "source": "Yahoo Finance",
           "has_name": true,
           "content": ""
+        },
+        {
+          "title": "Deal between AMD and Meta could bring greater innovation to GenAI market",
+          "url": "https://www.verdict.co.uk/deal-amd-meta-genai-market/?.tsrc=rss",
+          "date": "03.05 01:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "The University of Toronto and AMD Launch Major AI & Computing R&D Lab, Positioning Canada on Global Innovation Stage",
+          "url": "https://finance.yahoo.com/news/university-toronto-amd-launch-major-163000856.html?.tsrc=rss",
+          "date": "03.05 01:30",
+          "source": "Yahoo Finance",
+          "has_name": true
         },
         {
           "title": "Broadcom Reports Earnings Later Today. Nvidia’s Stock Drop Could Be a Bad Omen.",
@@ -423,20 +511,6 @@
           "date": "03.04 22:09",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "A Look At Advanced Micro Devices (AMD) Valuation After Recent Share Price Weakness And Strong One Year Return",
-          "url": "https://finance.yahoo.com/news/look-advanced-micro-devices-amd-091011440.html?.tsrc=rss",
-          "date": "03.04 18:10",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Advanced Micro Devices CEO Lisa Su Teases MI450 Ramp, 6GW Meta AI Deal, and 35% Growth Target",
-          "url": "https://www.marketbeat.com/instant-alerts/advanced-micro-devices-ceo-lisa-su-teases-mi450-ramp-6gw-meta-ai-deal-and-35-growth-target-2026-03-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "date": "03.04 15:34",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -446,210 +520,154 @@
         },
         {
           "name": "[Semiconductors] Intel",
-          "change_rate": "+4.5%"
+          "change_rate": "+5.9%"
         },
         {
           "name": "[IP] ARM",
-          "change_rate": "+2.3%"
+          "change_rate": "+2.2%"
         },
         {
           "name": "[Foundry] TSMC",
-          "change_rate": "+2.0%"
+          "change_rate": "+1.8%"
         },
         {
           "name": "[Software] Microsoft",
-          "change_rate": "+0.3%"
+          "change_rate": "+0.4%"
         }
       ],
-      "timestamp": "2026-03-05 01:00:28"
+      "timestamp": "2026-03-05 01:55:53"
     },
     {
-      "id": "sig_20260305_US_008",
-      "theme": "#Retail",
+      "id": "sig_20260305_US_009",
+      "theme": "#AI",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "Airbnb은(는) Airbnb (ABNB) Upgraded to Buy as Deutsche Bank Highlights Strong Booking Growth 등의 영향으로 상승 마감했습니다.",
+      "summary": "Palantir은(는) Palantir Co-Founder Is Going To Dump $280 Million Worth Shares 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
-        "name": "Airbnb",
-        "symbol": "ABNB",
-        "change_rate": "+3.6%",
-        "news_url": "https://finance.yahoo.com/quote/ABNB"
+        "name": "Palantir",
+        "symbol": "PLTR",
+        "change_rate": "+4.0%",
+        "news_url": "https://finance.yahoo.com/quote/PLTR"
       },
       "news_articles": [
         {
-          "title": "Airbnb (ABNB) Upgraded to Buy as Deutsche Bank Highlights Strong Booking Growth",
-          "url": "https://finance.yahoo.com/news/airbnb-abnb-upgraded-buy-deutsche-035806939.html?.tsrc=rss",
-          "date": "02.28 12:58",
+          "title": "Palantir Co-Founder Is Going To Dump $280 Million Worth Shares",
+          "url": "https://finance.yahoo.com/news/palantir-co-founder-going-dump-111056038.html?.tsrc=rss",
+          "date": "03.04 20:10",
           "source": "Yahoo Finance",
           "has_name": true,
           "content": ""
         },
         {
-          "title": "Top 3 Once-in-a-Decade Consumer Goods Picks for Long-Term Investors",
-          "url": "https://www.fool.com/investing/2026/03/04/top-3-once-decade-consumer-goods-picks-investors/?.tsrc=rss",
-          "date": "03.04 17:15",
+          "title": "Palantir Stock Technical Ratings Improve Amid Defense Sector Rally",
+          "url": "https://finance.yahoo.com/m/9a542401-cba8-39ad-a8f8-cbb891a50a40/palantir-stock-technical.html?.tsrc=rss",
+          "date": "03.05 00:57",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Eco Tourism Case Study Report 2026: Explore the Role of Travel Intermediaries, Tourism Bodies and Governments Featuring Instagram, Facebook, YouTube, Airbnb, GetYourGuide, and Viator",
-          "url": "https://finance.yahoo.com/news/eco-tourism-case-study-report-152600493.html?.tsrc=rss",
-          "date": "03.03 00:26",
+          "title": "BC-Most Active Stocks",
+          "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153027221.html?.tsrc=rss",
+          "date": "03.05 00:30",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "This couple ditched 6-figure paychecks for 14 Airbnbs and $12M in debt — here’s how it brought them financial freedom",
-          "url": "https://finance.yahoo.com/news/couple-ditched-6-figure-paychecks-112300675.html?.tsrc=rss",
-          "date": "02.28 20:23",
+          "title": "BlackRock Says Buy AI Energy Stocks Over Big Tech in 2026. Here Are 3 Top Picks.",
+          "url": "https://www.fool.com/investing/2026/03/04/blackrock-says-buy-ai-energy-stocks-over-big-tech/?.tsrc=rss",
+          "date": "03.04 19:41",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Assessing Airbnb (ABNB) Valuation After Strong Q4 Results And Growth Initiatives",
-          "url": "https://finance.yahoo.com/news/assessing-airbnb-abnb-valuation-strong-031208766.html?.tsrc=rss",
-          "date": "02.28 12:12",
-          "source": "Yahoo Finance",
-          "has_name": true
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[Retail] Booking",
-          "change_rate": "+2.4%"
-        },
-        {
-          "name": "[Retail] Marriott",
-          "change_rate": "+0.6%"
-        }
-      ],
-      "timestamp": "2026-03-05 01:00:28"
-    },
-    {
-      "id": "sig_20260305_US_009",
-      "theme": "#Infrastructure",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "Vertiv은(는) Vertiv Targets AI Data Center Growth With Modular Power And Hut 8 Deal 등의 영향으로 상승 마감했습니다.",
-      "main_stock": {
-        "name": "Vertiv",
-        "symbol": "VRT",
-        "change_rate": "+3.6%",
-        "news_url": "https://finance.yahoo.com/quote/VRT"
-      },
-      "news_articles": [
-        {
-          "title": "Vertiv and Generate Capital Collaborate to Accelerate Data Center Capacity with Complete Power and Cooling Infrastructure",
-          "url": "https://finance.yahoo.com/news/vertiv-generate-capital-collaborate-accelerate-130000611.html?.tsrc=rss",
-          "date": "03.04 22:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Vertiv to Participate in Upcoming Investor Conference",
-          "url": "https://finance.yahoo.com/news/vertiv-participate-upcoming-investor-conference-130000179.html?.tsrc=rss",
-          "date": "03.04 22:00",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Why Vertiv Stock Soared 37% in February",
-          "url": "https://www.fool.com/investing/2026/03/04/vertiv-vrt-stock-earnings-best-ai-stocks-2026/?.tsrc=rss",
-          "date": "03.04 20:20",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Vertiv Targets AI Data Center Growth With Modular Power And Hut 8 Deal",
-          "url": "https://finance.yahoo.com/news/vertiv-targets-ai-data-center-111106372.html?.tsrc=rss",
-          "date": "03.04 20:11",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Zacks.com featured highlights include NVIDIA, Micron and Vertiv",
-          "url": "https://finance.yahoo.com/news/zacks-com-featured-highlights-nvidia-090400287.html?.tsrc=rss",
-          "date": "03.04 18:04",
+          "title": "Nvidia Swears Off an Earnings Crutch, Putting Pressure on Other Tech Companies",
+          "url": "https://www.wsj.com/tech/nvidia-swears-off-an-earnings-crutch-putting-pressure-on-other-tech-companies-9624b0a1?.tsrc=rss",
+          "date": "03.04 19:30",
           "source": "Yahoo Finance",
           "has_name": true
         }
       ],
       "related_stocks": [
         {
-          "name": "[Infrastructure] Eaton",
-          "change_rate": "+0.5%"
+          "name": "[Software] Microsoft",
+          "change_rate": "+0.4%"
         },
         {
-          "name": "[Energy] GE Vernova",
+          "name": "[Data] Snowflake",
+          "change_rate": "+1.4%"
+        },
+        {
+          "name": "[Cybersecurity] CrowdStrike",
           "change_rate": "+1.2%"
         }
       ],
-      "timestamp": "2026-03-05 01:00:28"
+      "timestamp": "2026-03-05 01:55:53"
     },
     {
       "id": "sig_20260305_US_010",
-      "theme": "#EV",
+      "theme": "#SMR",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "Tesla은(는) Tesla Stock Rises After Buy Upgrade. Why There’s Hope Its 2026 Slump Will Reverse. 등의 영향으로 상승 마감했습니다.",
+      "summary": "Oklo은(는) Oklo Announces Date for Full Year 2025 Financial Results and Business Update Call 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
-        "name": "Tesla",
-        "symbol": "TSLA",
-        "change_rate": "+3.3%",
-        "news_url": "https://finance.yahoo.com/quote/TSLA"
+        "name": "Oklo",
+        "symbol": "OKLO",
+        "change_rate": "+3.8%",
+        "news_url": "https://finance.yahoo.com/quote/OKLO"
       },
       "news_articles": [
         {
-          "title": "Tesla, Target, Ross: Top analyst calls today",
-          "url": "https://finance.yahoo.com/video/tesla-target-ross-top-analyst-154857796.html?.tsrc=rss",
-          "date": "03.05 00:48",
+          "title": "Oklo Announces Date for Full Year 2025 Financial Results and Business Update Call",
+          "url": "https://finance.yahoo.com/news/oklo-announces-date-full-2025-130000383.html?.tsrc=rss",
+          "date": "03.03 22:00",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Here's Everything Investors Need to Know About Oklo's Meta Deal",
+          "url": "https://www.fool.com/investing/2026/03/03/investors-need-to-know-about-oklo-meta-deal/?.tsrc=rss",
+          "date": "03.04 04:49",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "BYD Sales Drop 36% In February: Elon Musk Says Running Below 50% Capacity Is 'Mega Pain'",
-          "url": "https://finance.yahoo.com/news/byd-sales-drop-36-february-153105750.html?.tsrc=rss",
-          "date": "03.05 00:31",
+          "title": "Down 67% From Its 52-Week High, Is Oklo Stock a Steal of a Deal Right Now?",
+          "url": "https://www.fool.com/investing/down-67-from-its-52-week-high-is-oklo-stock-a-stea/?.tsrc=rss",
+          "date": "03.04 02:20",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Stock Market Today: Dow, Indexes Rise Amid Iran, Trump Tariff News; AI Data Center Play Stumbles (Live Coverage)",
-          "url": "https://finance.yahoo.com/m/69885568-120b-32ce-8274-0b59522d7129/stock-market-today%3A-dow%2C.html?.tsrc=rss",
-          "date": "03.05 00:29",
+          "title": "2 Nuclear Energy Stocks to Buy in March",
+          "url": "https://www.fool.com/investing/2026/03/02/2-nuclear-energy-stocks-to-buy-in-march/?.tsrc=rss",
+          "date": "03.03 02:50",
           "source": "Yahoo Finance",
           "has_name": true
         },
         {
-          "title": "Tesla Stock Rises After Buy Upgrade. Why There’s Hope Its 2026 Slump Will Reverse.",
-          "url": "https://finance.yahoo.com/m/5e0b52a1-a776-3855-a8a8-e25f76c3e76c/tesla-stock-rises-after-buy.html?.tsrc=rss",
-          "date": "03.04 23:56",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Roblox initiated, Target upgraded: Wall Street's top analyst calls",
-          "url": "https://finance.yahoo.com/news/roblox-initiated-target-upgraded-wall-143909585.html?.tsrc=rss",
-          "date": "03.04 23:39",
+          "title": "Could Buying Oklo Stock Today Set You Up for Life in Dividend Income?",
+          "url": "https://www.fool.com/investing/2026/02/28/buy-oklo-stock-set-you-up-for-life-dividend-income/?.tsrc=rss",
+          "date": "03.01 04:50",
           "source": "Yahoo Finance",
           "has_name": true
         }
       ],
       "related_stocks": [
         {
-          "name": "[Retail] Uber",
+          "name": "[SMR] NuScale Power",
+          "change_rate": "+3.8%"
+        },
+        {
+          "name": "[Nuclear] Constellation Energy",
           "change_rate": "-0.1%"
         },
         {
-          "name": "[Infrastructure] Caterpillar",
-          "change_rate": "+3.0%"
-        },
-        {
-          "name": "[Energy] GE Vernova",
+          "name": "[Utilities] Vistra",
           "change_rate": "+1.2%"
         }
       ],
-      "timestamp": "2026-03-05 01:00:28"
+      "timestamp": "2026-03-05 01:55:53"
     }
   ]
 }
