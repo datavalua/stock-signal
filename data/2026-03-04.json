@@ -1,41 +1,58 @@
 {
-  "last_updated": "2026-03-04 13:50:00",
+  "last_updated": "2026-03-04 14:57:46",
   "signals": [
     {
       "id": "sig_20260304_KR_001",
-      "theme": "#해운",
+      "theme": "#전력기기",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "HMM은(는) [2026 밸류업] ⑤ HMM, 친환경 경영·재무 성과 동시 달성…‘2... 등의 영향으로 하락 마감했습니다.",
+      "summary": "HD현대일렉트릭은(는) K태양광, 새로운 밸류체인 밝힌다 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
-        "name": "HMM",
-        "symbol": "011200",
-        "change_rate": "-17.3%",
-        "news_url": "https://finance.naver.com/item/news.naver?code=011200"
+        "name": "HD현대일렉트릭",
+        "symbol": "322000",
+        "change_rate": "-19.5%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=322000"
       },
       "news_articles": [
         {
-          "title": "\"선박 2~3척 자동 회피\"…'자율운항 탑재' HMM 에메랄드호 타보니",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008805529&office_id=421&code=011200&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 12:00",
-          "source": "뉴스1",
-          "has_name": true
+          "title": "K태양광, 새로운 밸류체인 밝힌다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324196&office_id=008&code=322000&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 04:03",
+          "source": "머니투데이",
+          "has_name": false,
+          "content": "[R&D인사이드] HD현대엔솔 '페로브스카이트-실리콘 탠덤셀'\n습식 아닌 건식공법 키포인트\n기존 전지대비 40%효율 기대\n대면적화·내구성 확보 등 집중\n\"탠덤 태양전지는 기존 중국 중심의 기술과 공급망에서 일정 부분 벗어나 국내에 태양광산업 밸류체인을 새로 구축할 수 있는 소자입니다.\"\n지난달 13일 경기 성남시 분당구의 HD현대 글로벌R&D(연구·개발)센터(GRC)에서 만난 김태준 HD현대에너지솔루션 R&D부문장(사진)은 차세대 태양전지 '페로브스카이트-실리콘 탠덤셀(HJT)'의 의미를 이렇게 정의한 뒤 \"페로브스카이트는 반도체·전자재료에 쓰이는 소재로 해당 산업에 강점을 보유한 한국이 독립적인 공급망과 기술력을 확보할 수 있을 것\"이라고 밝혔다.\n태양광 공급망의 '게임체인저'를 개발하고 있다는 자신감과 자부심이 그대로 전해졌다. 현재 시중에 설치된 태양광 패널의 90% 이상은 실리콘 태양전지를 사용하는데 여기에 신소재 페로브스카이트를 더하면 성능이 극대화될 수 있을 것으로 보고 있다.\n김 부문장은 \"이 탠덤셀은 쉽게 말해 태양전지를 두 층으로 쌓는 개념\"이라며 \"위층이 먼저 강한 빛을 흡수하고 아래층이 남은 빛을 다시 흡수한다\"고 설명했다. 이어 \"기존 실리콘 중심 셀을 아래에 두고 그 위에 신소재 페로브스카이트를 쌓으면 이론적으로 40%가 넘는 효율을 낼 수 있다\"고 말했다.\nHD현대에너지솔루션은 2023년부터 이미 보유한 고효율 HJT(헤테로정션) 실리콘셀에 페로브스카이트를 접목하는 방식으로 탠덤셀 개발에 돌입했다. 초기에는 실리콘셀 위에 페로브스카이트를 안정적으로 쌓는 공정이 관건이었다. 당시 대다수 기업은 페로브스카이트를 액체상태로 만들어 실리콘셀 위에 도포하는 '습식공정'을 활용했기 때문이다. HD현대에너지솔루션이 선택한 해법은 발상의 전환이었다. 액체를 바르는 대신 진공상태에서 재료를 뿌리는 '건식공정'(진공증착)으로 눈을 돌렸다.\n김 부문장은 \"실리콘 태양전지는 표면에 미세한 요철구조가 있어 습식공정으로는 넓은 면적에서 균일한 막을 형성하는 데 한계가 있다\"며 \"HD현대에너지솔루션이 디스플레이패널 양산경험은 없지만 페로브스카이트가 디스플레이 소자와 같은 준반도체 소자라는 점에 착안해 건식공법을 태양전지 생산에 적용했다\"고 소개했다.\n현재는 '페로브스카이트-실리콘 탠덤셀'의 대면적화와 내구성 확보에 공을 들인다. 김 부문장은 \"탠덤기술은 한 기업만의 힘으로 완성할 수 없는 측면이 있어 소재와 장비, 셀 제조업체가 함께 성장해야 관련 산업이 열릴 것\"이라며 \"이번 기술이 국내 태양광산업이 다시 한번 도약하는 계기가 되길 바란다\"고 덧붙였다."
         },
         {
-          "title": "[2026 밸류업] ⑤ HMM, 친환경 경영·재무 성과 동시 달성…‘2...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005257756&office_id=015&code=011200&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 06:01",
-          "source": "한국경제",
-          "has_name": true
+          "title": "태양광 산업 밸류체인 바꾼다..HD현대엔솔의 탠덤셀 승부수",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324224&office_id=008&code=322000&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 05:50",
+          "source": "머니투데이",
+          "has_name": false
         }
       ],
       "related_stocks": [
         {
-          "name": "[물류] 현대글로비스",
-          "change_rate": "-17.0%"
+          "name": "[전력기기] LS ELECTRIC",
+          "change_rate": "-10.2%"
+        },
+        {
+          "name": "[전력기기] 효성중공업",
+          "change_rate": "-10.5%"
+        },
+        {
+          "name": "[지주사] LS",
+          "change_rate": "-10.4%"
+        },
+        {
+          "name": "[그룹사] HD한국조선해양",
+          "change_rate": "-12.9%"
+        },
+        {
+          "name": "[유틸리티] 한국전력",
+          "change_rate": "-9.5%"
         }
       ],
-      "timestamp": "2026-03-04 13:50:00"
+      "timestamp": "2026-03-04 14:57:46"
     },
     {
       "id": "sig_20260304_KR_002",
@@ -46,10 +63,18 @@
       "main_stock": {
         "name": "현대글로비스",
         "symbol": "011210",
-        "change_rate": "-16.7%",
+        "change_rate": "-18.2%",
         "news_url": "https://finance.naver.com/item/news.naver?code=011210"
       },
       "news_articles": [
+        {
+          "title": "배터리 3사, 전기차 넘어 ESS-로봇 경쟁",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003700747&office_id=020&code=011210&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 00:31",
+          "source": "동아일보",
+          "has_name": false,
+          "content": "내주 개막 ‘인터배터리’ 총출동\n차세대 기술-신시장 전략 공개\nLG에너지솔루션, 삼성SDI, SK온 등 국내 배터리 3사는 11∼13일 서울 강남구 코엑스에서 열리는 국내 최대 배터리 전시회 ‘인터배터리 2026’에 참가해 차세대 배터리 기술과 신시장 전략을 공개한다고 2일 밝혔다. 올해 인터배터리에서는 기업들이 전기차(EV)뿐만 아니라 인공지능(AI) 데이터센터용 에너지저장장치(ESS), 로봇, 드론 등과 관련된 미래 기술을 선보이는 것이 특징이다.\nLG에너지솔루션은 국내 전력 인프라에 최적화한 ESS 솔루션인 ‘JF2 DC 링크 5.0’을 전시한다. 5월부터 본격 생산에 들어가는 해당 솔루션은 LG에너지솔루션의 리튬인산철(LFP) 배터리인 JF2를 기반으로 제작된다. 화재 안전성을 강화하고 설치 및 운용의 효율성을 높였다고 회사는 강조했다. LG에너지솔루션은 또 성장 잠재력이 높은 로보틱스 및 드론 영역에서도 자사 배터리가 탑재된 사례를 소개한다. LG전자의 홈로봇 ‘LG 클로이드’와 베어로보틱스의 자율주행 로봇 ‘카티(Carti)100’ 등을 전시할 예정이다.\n삼성SDI는 AI 데이터센터의 전력 공백을 최소화시키는 초고출력 배터리를 전면에 내세운다. 대표적으로 각형 배터리 ‘U8A1’을 기반으로 한 무정전 전원장치(UPS)와 고출력·고용량 원통형 배터리를 적용한 배터리백업유닛(BBU) 솔루션 등을 선보인다. ESS용 일체형 배터리 솔루션인 ‘삼성배터리박스(SBB)’도 선보인다. 아울러 내년 양산 목표인 전고체 배터리가 로봇에 탑재된 ‘피지컬 AI’ 사례도 소개할 예정이다.\nSK온은 ESS를 중점 사업으로 내세운다. 높은 에너지 밀도를 자랑하는 LFP 파우치형 배터리와 안정성을 강화한 컨테이너형 ESS 솔루션을 선보인다. 로봇 분야에서는 니켈 함량이 높아 에너지 밀도가 높은 하이니켈 삼원계 배터리 기반의 현대위아 물류로봇(AMR)을 전시한다. 이 로봇은 현대자동차그룹 메타플랜트 아메리카(HMGMA) 등 산업 현장에 활용되고 있다."
+        },
         {
           "title": "중동 전운에 코스피 요동…방산·정유 '급등' vs 항공·여행 '추락'",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0000093867&office_id=243&code=011210&page=1&sm=title_entity_id.basic",
@@ -77,93 +102,34 @@
           "date": "2026.03.03 07:44",
           "source": "헤럴드경제",
           "has_name": false
-        },
-        {
-          "title": "혁신으로 캐즘 뚫는다… K배터리사 ‘ESS·로봇·AI 정조준",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004109635&office_id=022&code=011210&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.03 06:02",
-          "source": "세계일보",
-          "has_name": false
         }
       ],
       "related_stocks": [
         {
           "name": "[그룹사] 현대차",
-          "change_rate": "-13.6%"
+          "change_rate": "-14.3%"
         },
         {
           "name": "[해운] HMM",
-          "change_rate": "-17.6%"
+          "change_rate": "-14.9%"
         },
         {
           "name": "[그룹사] 현대모비스",
-          "change_rate": "-12.6%"
+          "change_rate": "-13.3%"
         },
         {
           "name": "[그룹사] 현대해상",
-          "change_rate": "-8.0%"
+          "change_rate": "-9.0%"
         },
         {
           "name": "[그룹사] 현대건설",
-          "change_rate": "-14.3%"
+          "change_rate": "-15.0%"
         }
       ],
-      "timestamp": "2026-03-04 13:50:00"
+      "timestamp": "2026-03-04 14:57:46"
     },
     {
       "id": "sig_20260304_KR_003",
-      "theme": "#전력기기",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "HD현대일렉트릭은(는) K태양광, 새로운 밸류체인 밝힌다 등의 영향으로 하락 마감했습니다.",
-      "main_stock": {
-        "name": "HD현대일렉트릭",
-        "symbol": "322000",
-        "change_rate": "-16.3%",
-        "news_url": "https://finance.naver.com/item/news.naver?code=322000"
-      },
-      "news_articles": [
-        {
-          "title": "태양광 산업 밸류체인 바꾼다..HD현대엔솔의 탠덤셀 승부수",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324224&office_id=008&code=322000&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.03 05:50",
-          "source": "머니투데이",
-          "has_name": false
-        },
-        {
-          "title": "K태양광, 새로운 밸류체인 밝힌다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324196&office_id=008&code=322000&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.03 04:03",
-          "source": "머니투데이",
-          "has_name": false
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[전력기기] LS ELECTRIC",
-          "change_rate": "-9.7%"
-        },
-        {
-          "name": "[전력기기] 효성중공업",
-          "change_rate": "-10.2%"
-        },
-        {
-          "name": "[지주사] LS",
-          "change_rate": "-11.3%"
-        },
-        {
-          "name": "[그룹사] HD한국조선해양",
-          "change_rate": "-11.1%"
-        },
-        {
-          "name": "[유틸리티] 한국전력",
-          "change_rate": "-9.4%"
-        }
-      ],
-      "timestamp": "2026-03-04 13:50:00"
-    },
-    {
-      "id": "sig_20260304_KR_004",
       "theme": "#조선",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -171,10 +137,25 @@
       "main_stock": {
         "name": "한화오션",
         "symbol": "042660",
-        "change_rate": "-15.7%",
+        "change_rate": "-17.1%",
         "news_url": "https://finance.naver.com/item/news.naver?code=042660"
       },
       "news_articles": [
+        {
+          "title": "한화오션, 캐나다 잠수함 산업협력 강조…한·독 분할발주 변수도",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003065091&office_id=119&code=042660&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 09:50",
+          "source": "데일리안",
+          "has_name": true,
+          "content": "철강·AI·우주 투자 포함…“양국 협력 촉진제 될 것”\n캐나다 정부, 한화·TKMS ‘6척씩 분할 발주’ 검토 보도\n[데일리안 = 백서원 기자] 한국 한화오션·HD현대중공업 컨소시엄이 캐나다 초계 잠수함 사업 수주전에 최종 제안서를 제출한 가운데 사업 주체인 한화오션이 철강·인공지능(AI)·우주 등 다양한 분야의 산업 협력을 제시하며 캐나다 정부 설득에 나섰다.\n캐나다 일간지 캐내디언프레스는 3일(현지시간) 한화오션 어성철 사장과의 인터뷰를 통해 한화오션과 한국 정부가 이번 잠수함 계약을 캐나다와 한국 간 긴밀한 산업 협력의 출발점으로 보고 있다고 밝혔다.\n앞서 CPSP의 적격 후보로 선정된 한화오션·HD현대중공업 컨소시엄과 독일 티센크루프 마린 시스템즈(TKMS)는 최종 제안서 제출 마감일이었던 지난 2일 잠수함 인도 계획과 수주와 연계된 투자 계획 등을 캐나다 정부에 제출했다.\n어 사장은 인터뷰에서 캐나다와 산업적으로 강화된 관계에 대한 약속은 잠수함 사업에 국한되지 않는다는 점을 내세웠다. 그는 이번 계약이 양국 관계의 ‘중대한 촉진제’가 될 것이라고 말했다.\n또 이번 제안이 철강과 인공지능(AI), 우주 등 다양한 분야에 대한 투자를 포함하고 있으며 2026년부터 2044년까지 연평균 약 2만5000개의 일자리를 창출할 것이라고 밝혔다.\n어 사장은 최종 제안서에 2032년 첫 번째 잠수함을 인도하고 2035년까지 4척을 인도하는 계획을 담았고, 회사가 ‘확정 가격 추정(firm price estimate)’이라고 부르는 조건도 포함했다고 설명했다. 다만 구체적인 금액은 공개하지 않았다고 매체는 전했다.\n2034년까지 최소 2척의 잠수함을 인도하겠다고 밝힌 독일보다 인도 시점이 빠르고 계획도 구체적이라는 업계 평가가 나온다.\n어 사장은 “한화의 제안은 단순한 플랫폼 제안이 아니다”라며 “명확하고 정확한 인도 계획과 세대에 걸친 산업 파트너십을 결합한 제안으로 캐나다 국방 산업 전략과도 완전히 부합한다”고 강조했다.\n그는 “한화는 캐나다의 다른 계약에도 관심을 갖고 있다”며 지상 방위 프로그램과 전자·AI 기술, 북극 관련 역량 등 다양한 분야 협력을 검토하고 있다고도 말했다.\n어 사장은 수주 시 잠수함 관련 작업을 공동 수행할 여러 캐나다 기업과 협력 관계를 구축해 왔다고도 언급했다.\n그는 “이미 역량 있는 캐나다 기업들과 강력한 관계를 구축했다”며 “계약 결과와 관계없이 이러한 파트너십을 확대해 나갈 것”이라고 설명했다.\n캐내디언프레스는 한화가 오타와 시내버스 정류장 등에서 대규모 디지털 광고 캠페인을 진행하고 있다는 점도 소개하며 잠수함 사업과 관련한 대중 광고는 이례적인 사례라고 보도했다.\n이 매체는 한국 컨소시엄의 경쟁업체인 TKMS 올리버 부르크하르트 최고경영자(CEO)와의 인터뷰도 함께 실었다.\n부르크하르트 CEO는 캐나다가 이번 잠수함 사업자 선정 과정에서 자국 경제와 산업에 얼마나 기여할 수 있는지를 중요한 기준으로 보고 있다는 점과 관련해 “이러한 요구는 남쪽 이웃(미국)의 행동 때문”이라며 “입찰 기업들에 압박 요"
+        },
+        {
+          "title": "경남 노동계 \"한화오션 원청 교섭\" 촉구…사측 \"성실 대응할 것\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015937564&office_id=001&code=042660&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 14:51",
+          "source": "연합뉴스",
+          "has_name": true
+        },
         {
           "title": "‘마스가’ 대표주자 한화오션… 함정 기술력으로 K-해양방산 이끈다",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0004595617&office_id=011&code=042660&page=1&sm=title_entity_id.basic",
@@ -195,48 +176,34 @@
           "date": "2026.03.04 11:04",
           "source": "아시아경제",
           "has_name": true
-        },
-        {
-          "title": "한화오션, 캐나다 잠수함 사업 ‘정면 승부’…“2032년 첫 인도 목...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000103831&office_id=024&code=042660&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 10:57",
-          "source": "매경이코노미",
-          "has_name": true
-        },
-        {
-          "title": "한화오션, 캐나다 잠수함 산업협력 강조…한·독 분할발주 변수도",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003065091&office_id=119&code=042660&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 09:50",
-          "source": "데일리안",
-          "has_name": true
         }
       ],
       "related_stocks": [
         {
           "name": "[조선] HD한국조선해양",
-          "change_rate": "-11.1%"
+          "change_rate": "-12.9%"
         },
         {
           "name": "[조선] HD현대중공업",
-          "change_rate": "-10.3%"
+          "change_rate": "-12.2%"
         },
         {
           "name": "[조선] 삼성중공업",
-          "change_rate": "-12.3%"
+          "change_rate": "-13.6%"
         },
         {
           "name": "[그룹사] 한화에어로스페이스",
-          "change_rate": "-7.3%"
+          "change_rate": "-7.8%"
         },
         {
           "name": "[그룹사] 한화",
-          "change_rate": "-15.8%"
+          "change_rate": "-16.8%"
         }
       ],
-      "timestamp": "2026-03-04 13:50:00"
+      "timestamp": "2026-03-04 14:57:46"
     },
     {
-      "id": "sig_20260304_KR_005",
+      "id": "sig_20260304_KR_004",
       "theme": "#지주사",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -244,15 +211,23 @@
       "main_stock": {
         "name": "한화",
         "symbol": "000880",
-        "change_rate": "-15.5%",
+        "change_rate": "-16.8%",
         "news_url": "https://finance.naver.com/item/news.naver?code=000880"
       },
       "news_articles": [
         {
-          "title": "김동관 한화 부회장 이번주 호주行[양낙규의 Defence Club]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005729008&office_id=277&code=000880&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 10:11",
-          "source": "아시아경제",
+          "title": "한화토탈, 서산시 자원봉사센터에 빨래 건조 차량 기증",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015936160&office_id=001&code=000880&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.04 09:10",
+          "source": "연합뉴스",
+          "has_name": false,
+          "content": "취약계층 빨래 봉사와 재난현장 지원에 활용\n(서산=연합뉴스) 정윤덕 기자 = 한화토탈에너지스는 충남 서산시 자원봉사센터에 2억원 상당의 빨래 건조 차량을 기증했다고 4일 밝혔다.\n기증된 차량은 2.5t 화물차를 개조해 빨래 건조기 4대를 탑재했으며, 취약계층을 위한 빨래 봉사와 재난현장 지원에 활용될 예정이다.\n한화토탈은 앞서 2013년부터 이동식 세탁 차량과 따뜻한 밥차 등을 서산시에 기증하고, 매년 8천만원의 운영비도 후원하고 있다.\n이들 차량 구매비와 운영비는 한화토탈 임직원들이 급여의 0.5%를 자발적으로 기부하고, 회사가 같은 금액을 보태는 사회공헌기금으로 마련됐다.\n한화토탈 관계자는 \"빨래 건조 차량과 세탁 차량, 따뜻한 밥차 등은 필요한 곳에 실질적인 도움을 드리고자 하는 마음이 담겨 있다\"며 \"한화그룹의 '함께, 멀리' 정신을 바탕으로 지역 상생을 지속해나가겠다\"고 말했다.\ncobra@yna.co.kr"
+        },
+        {
+          "title": "방산주 급등에 한화 김승연 회장도 “어서 타!” 밈 등장",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002608043&office_id=016&code=000880&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 10:03",
+          "source": "헤럴드경제",
           "has_name": true
         },
         {
@@ -275,133 +250,45 @@
           "date": "2026.03.04 06:25",
           "source": "한경비즈니스",
           "has_name": true
-        },
-        {
-          "title": "한화운용 “글로벌 진출 가속화로 해외자금 끌어올 것”…액티브 ETF ....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004595610&office_id=011&code=000880&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 13:03",
-          "source": "서울경제",
-          "has_name": false
         }
       ],
       "related_stocks": [
         {
           "name": "[그룹사] 한화에어로스페이스",
-          "change_rate": "-7.3%"
+          "change_rate": "-7.8%"
         },
         {
           "name": "[그룹사] 한화오션",
-          "change_rate": "-15.8%"
+          "change_rate": "-17.1%"
         },
         {
           "name": "[그룹사] 한화솔루션",
-          "change_rate": "-15.2%"
+          "change_rate": "-15.7%"
         }
       ],
-      "timestamp": "2026-03-04 13:50:00"
+      "timestamp": "2026-03-04 14:57:46"
     },
     {
-      "id": "sig_20260304_KR_006",
-      "theme": "#화학",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "한화솔루션은(는) K-태양광, '벨류체인 확장'으로 승부수 던져 등의 영향으로 하락 마감했습니다.",
-      "main_stock": {
-        "name": "한화솔루션",
-        "symbol": "009830",
-        "change_rate": "-14.9%",
-        "news_url": "https://finance.naver.com/item/news.naver?code=009830"
-      },
-      "news_articles": [
-        {
-          "title": "BHSN·리걸스케이프 손잡았다…한·일 법률 AI 상호 연동",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006228114&office_id=018&code=009830&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 09:58",
-          "source": "이데일리",
-          "has_name": false
-        },
-        {
-          "title": "K-태양광, '벨류체인 확장'으로 승부수 던져",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005257804&office_id=015&code=009830&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 08:18",
-          "source": "한국경제",
-          "has_name": false
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[그룹사] 한화에어로스페이스",
-          "change_rate": "-7.3%"
-        },
-        {
-          "name": "[그룹사] 한화",
-          "change_rate": "-15.8%"
-        },
-        {
-          "name": "[그룹사] 한화오션",
-          "change_rate": "-15.8%"
-        }
-      ],
-      "timestamp": "2026-03-04 13:50:00"
-    },
-    {
-      "id": "sig_20260304_KR_007",
-      "theme": "#IT서비스",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "현대오토에버은(는) 배당 시즌…주주 환원 후한 대기업SI는? 등의 영향으로 하락 마감했습니다.",
-      "main_stock": {
-        "name": "현대오토에버",
-        "symbol": "307950",
-        "change_rate": "-14.9%",
-        "news_url": "https://finance.naver.com/item/news.naver?code=307950"
-      },
-      "news_articles": [
-        {
-          "title": "배당 시즌…주주 환원 후한 대기업SI는?",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044919&office_id=648&code=307950&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 07:40",
-          "source": "비즈워치",
-          "has_name": false
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[그룹사] 현대차",
-          "change_rate": "-13.6%"
-        },
-        {
-          "name": "[자동차] 기아",
-          "change_rate": "-11.6%"
-        },
-        {
-          "name": "[그룹사] 현대모비스",
-          "change_rate": "-12.6%"
-        },
-        {
-          "name": "[그룹사] 현대해상",
-          "change_rate": "-8.0%"
-        },
-        {
-          "name": "[그룹사] 현대건설",
-          "change_rate": "-14.3%"
-        }
-      ],
-      "timestamp": "2026-03-04 13:50:00"
-    },
-    {
-      "id": "sig_20260304_KR_008",
+      "id": "sig_20260304_KR_005",
       "theme": "#이차전지소재",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "포스코퓨처엠은(는) 전기차는 잠시…K배터리, AI·로봇·드론 신기술 띄운다 등의 영향으로 하락 마감했습니다.",
+      "summary": "포스코퓨처엠은(는) 포스코퓨처엠, 인터배터리 2026에서 미래 양·음극재 기술 공개 등의 영향으로 하락 마감했습니다.",
       "main_stock": {
         "name": "포스코퓨처엠",
         "symbol": "003670",
-        "change_rate": "-14.7%",
+        "change_rate": "-16.5%",
         "news_url": "https://finance.naver.com/item/news.naver?code=003670"
       },
       "news_articles": [
+        {
+          "title": "포스코퓨처엠, 인터배터리 2026에서 미래 양·음극재 기술 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000999466&office_id=088&code=003670&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 14:49",
+          "source": "매일신문",
+          "has_name": true,
+          "content": "울트라 하이니켈 양극재, ESS용 LFP양극재, 전고체배터리 소재 등 전시\n포스코퓨처엠이 회사가 보유한 양·음극재 기술을 통해 미래 배터리 시장에 대한 강한 자신감을 '인터배터리 2026'을 통해 드러낸다.\n4일 포스코퓨처엠에 따르면 오는 11~13일 서울 코엑스에서 열리는 '인터배터리 2026'에 '함께, 사물배터리의 미래를 그리다'(Together, Drawing BoT Future)를 주제로, 다양한 산업에 적용되는 미래 양·음극재 기술을 선보일 예정이다.\n또 원료와 소재, 리사이클링에 이르는 그룹 차원의 공급망 구축 성과도 소개한다.\n5개 존(Zone)으로 구성된 총 451㎡ 규모의 전시관에는 자율주행 전기차(EV), 데이터센터 에너지저장장치(ESS), 진보한 루션(Advanced Solution), 개방형 혁신(Open Innovation), 지속가능 공급망 등을 주제로 꾸며졌다.\n포스코퓨처엠은 이번 전시에서 자율주행 EV, ESS, 휴머노이드 로봇 등 다양한 기기들이 요구하는 특성에 맞는 혁신 소재 솔루션을 전면에 내세운다.\n특히 자율주행 EV에 적용되는 울트라 하이니켈 양극재는 주행거리와 안정성을 높이기 위해 니켈 함량을 95% 이상으로 높인 것이 강점이다.\n또 리튬인산철(LFP) 양극재는 ESS와 엔트리급 전기차 분야에 활용이 적합하도록 저렴한 가격과 긴 수명을 특징으로 갖고 있다.\n아울러 전고체 배터리용 양극재와 실리콘 음극재 등 차세대 소재는 높은 에너지 밀도로 로봇 등 차세대 산업의 게임체인저로 주목받고 있다.\n차세대 시장 선점을 위해 미국 전고체 배터리 기업 팩토리얼 등 혁신기업들과 공동 연구·개발 중인 개방형 혁신 현황도 소개한다.\n포스코퓨처엠과 팩토리얼은 오는 12일 오전 11시 행사장에서 배터리소재 연구개발 전략을 소개하는 기조강연도 합동으로 진행할 예정이다.\n이번 행사에서 포스코퓨처엠은 저농도 염호에서도 리튬을 경제성 있게 생산할 수 있는 포스코그룹의 직접리튬추출법(DLE) 공정 기술과 고체전해질, 리튬메탈음극재 등 전고체전지 핵심 소재 개발 현황 등도 소개할 계획이다.\n여기에 더해 포스코인터내셔널의 구동 모터 코어 및 희토류 영구자석, 포스코의 배터리팩 및 원통형 배터리캔 소재 등 전기차용 철강 제품도 함께 전시한다.\n전시 부스에서는 관람객이 친근하게 배터리 소재를 접할 수 있도록 게임 등 체험형 이벤트를 운영한다. 관람객 참여에 따라 사회공헌 기금을 조성해 포스코1%나눔재단에 기부할 방침이다.\n포스코퓨처엠 관계자는 \"포스코그룹은 리튬을 중심으로 염호 및 원료광산 확보부터 양·음극재 생산, 배터리 리사이클링에 이르기까지 배터리산업 전주기에 걸친 공급망을 구축하고 있다\"면서 \"특히 아르헨티나 리튬 염호, 호주 리튬 광산, 아프리카 흑연 광산 등 글로벌 우량 자원에 대한 투자를 지속해 미래 배터리 시장에 대한 대응을 강화하고 있다\"고 말했다."
+        },
         {
           "title": "전기차는 잠시…K배터리, AI·로봇·드론 신기술 띄운다",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0003506316&office_id=025&code=003670&page=1&sm=title_entity_id.basic",
@@ -430,93 +317,34 @@
           "date": "2026.03.03 07:44",
           "source": "헤럴드경제",
           "has_name": false
-        },
-        {
-          "title": "혁신으로 캐즘 뚫는다… K배터리사 ‘ESS·로봇·AI 정조준",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004109635&office_id=022&code=003670&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.03 06:02",
-          "source": "세계일보",
-          "has_name": false
         }
       ],
       "related_stocks": [
         {
           "name": "[이차전지소재] 에코프로비엠",
-          "change_rate": "-12.7%"
+          "change_rate": "-14.5%"
         },
         {
           "name": "[이차전지소재] 에코프로",
-          "change_rate": "-14.3%"
+          "change_rate": "-16.0%"
         },
         {
           "name": "[화학] LG화학",
-          "change_rate": "-12.5%"
+          "change_rate": "-13.6%"
         },
         {
           "name": "[철강] POSCO홀딩스",
-          "change_rate": "-11.2%"
+          "change_rate": "-13.6%"
         },
         {
           "name": "[그룹사] 포스코인터내셔널",
-          "change_rate": "-11.9%"
+          "change_rate": "-14.3%"
         }
       ],
-      "timestamp": "2026-03-04 13:50:00"
+      "timestamp": "2026-03-04 14:57:46"
     },
     {
-      "id": "sig_20260304_KR_009",
-      "theme": "#로봇",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "두산로보틱스은(는) SK실트론 인수 앞둔 두산, PRS 조기 정산... 로보틱스 지분 팔아... 등의 영향으로 하락 마감했습니다.",
-      "main_stock": {
-        "name": "두산로보틱스",
-        "symbol": "454910",
-        "change_rate": "-14.5%",
-        "news_url": "https://finance.naver.com/item/news.naver?code=454910"
-      },
-      "news_articles": [
-        {
-          "title": "가천대, AI 첨단산업 인재양성 부트캠프 운영대학 선정",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003403890&office_id=030&code=454910&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.03 22:44",
-          "source": "전자신문",
-          "has_name": false
-        },
-        {
-          "title": "SK실트론 인수 앞둔 두산, PRS 조기 정산... 로보틱스 지분 팔아...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001145558&office_id=366&code=454910&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.03 16:11",
-          "source": "조선비즈",
-          "has_name": false
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[로봇] 레인보우로보틱스",
-          "change_rate": "-12.3%"
-        },
-        {
-          "name": "[그룹사] 두산에너빌리티",
-          "change_rate": "-14.1%"
-        },
-        {
-          "name": "[그룹사] 두산",
-          "change_rate": "-13.7%"
-        },
-        {
-          "name": "[로봇] 로보티즈",
-          "change_rate": "-12.9%"
-        },
-        {
-          "name": "[그룹사] 두산밥캣",
-          "change_rate": "+0.0%"
-        }
-      ],
-      "timestamp": "2026-03-04 13:50:00"
-    },
-    {
-      "id": "sig_20260304_KR_010",
+      "id": "sig_20260304_KR_006",
       "theme": "#이차전지소재",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -524,23 +352,22 @@
       "main_stock": {
         "name": "에코프로",
         "symbol": "086520",
-        "change_rate": "-14.5%",
+        "change_rate": "-16.0%",
         "news_url": "https://finance.naver.com/item/news.naver?code=086520"
       },
       "news_articles": [
         {
-          "title": "[애프터마켓 리뷰] 6000피 붕괴의 주범…유가·환율·외인 ‘트리플 악...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000495617&office_id=374&code=086520&page=3&sm=title_entity_id.basic",
-          "date": "2026.03.04 07:52",
-          "source": "SBS Biz",
-          "has_name": false,
-          "content": "■ 모닝벨 '애프터마켓 리뷰' - 도지은\n애프터마켓 정리해 드립니다.\n미국과 이란의 전쟁 이슈에, 코스피가 무려 7% 넘게 급락했습니다.\n외국인이 5조 원 넘게 물량을 던지며 지수를 끌어내렸지만, 개인 투자자들은 무려 5조 8,000억 원어치를 사들이며 지수 하단을 지지하는 모습이었습니다.\n특히 눈길을 끄는 건 개인들의 '공격적인 베팅'이었는데요.\n지수가 오를 때 수익을 두 배로 얻는 '레버리지' ETF 상품들을 집중적으로 쓸어 담았습니다.\n지수형 상품뿐만 아니라 급락한 삼성전자와 SK하이닉스가 포함된, 반도체 레버리지 상품들까지 매수 상위권에 나란히 올랐습니다.\n반면 지수 하락에 베팅하는 '인버스' 상품은 대거 팔아치우면서 이번 폭락을 오히려 강력한 '저가 매수의 기회'로 판단하는 모습입니다.\n하지만 우려 섞인 시선도 분명히 존재합니다.\n빚을 내서 투자하는 이른바 '빚투' 규모가 32조 원을 넘기며 역대 최고치를 기록 중이기 때문인데요.\n주가가 더 떨어져 담보 비율이 훼손될 경우 증권사가 강제로 주식을 파는 '반대매매'가 쏟아질 수 있다는 공포도 커지고 있습니다.\n전문가들은 전쟁 리스크가 전면전으로 번질 경우 추가적인 가격 조정 가능성도 열어둬야 한다고 조언하고 있는데요.\n위기 속에서 기회를 찾는 개인들의 선택이 과연 반등의 수익으로 이어질 수 있을지, 수급 변화도 꼼꼼히 체크해 보셔야겠습니다.\n고유가, 고환율에 시장이 고금리 가능성까지 점치면서 투자심리가 급격히 냉각된 하루였는데요.\n애프터마켓에서도 그 흐름 그대로 이어갔습니다.\n삼성전자 14.09% 하락하면서 20만 전자를 반납했고요.\nSK하이닉스도 15%대 급락하면서 89만 7천 원으로 내려왔습니다.\n특히 호르무즈 해협 봉쇄에 따른 수출환경 악화 가능성에, 현대차도 17%대 하락했고, 이어서 LG에너지솔루션도 10.89%, 삼성바이오로직스까지 7.99% 하락 마감했습니다.\n반대로 반사이익을 얻을 것으로 기대되는 정유, 해운, 방산주들은 급등했습니다.\n일례로 7위에 한화에어로스페이스는 25%대 급등 마감했습니다.\n코스닥도 상황은 마찬가지였는데요.\n에코프로와 에코프로비엠 각각 17.95%, 15.03% 하락했고, 알테오젠도 9.45%, 삼천당제약도 13.58% 떨어졌습니다.\n1위부터 10위 사이에 오른 종목은 리노공업이 유일했습니다.\n유난히 아시아 증시 중에서도 국내 증시 낙폭이 두드러졌는데요.\n과연 오늘(4일)장 출발 분위기는 어떨지, 잠시후 프리마켓 통해서 미리 살펴보시죠.\n애프터마켓 리뷰였습니다.\n당신의 제보가 뉴스로 만들어집니다.\nSBS Biz는 여러분의 제보를 기다리고 있습니다.\n홈페이지 = https://url.kr/9pghjn"
+          "title": "[서울데이터랩]에임드바이오 17.88% 하락 코스닥 주요 종목 하락세",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003622789&office_id=081&code=086520&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 14:12",
+          "source": "서울신문",
+          "has_name": false
         },
         {
-          "title": "5000선 붕괴 직전 코스피, 5200대로 반등",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005729184&office_id=277&code=086520&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.04 13:46",
-          "source": "아시아경제",
+          "title": "코스피 한때 12%대 폭락…\"9·11 테러 넘어선 최대 낙폭\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005257990&office_id=015&code=086520&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 13:52",
+          "source": "한국경제",
           "has_name": false
         },
         {
@@ -559,7 +386,7 @@
         },
         {
           "title": "국내 증시 패닉…코스피 이어 코스닥도 사이드카",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000337014&office_id=449&code=086520&page=1&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000337014&office_id=449&code=086520&page=2&sm=title_entity_id.basic",
           "date": "2026.03.04 10:56",
           "source": "채널A",
           "has_name": false
@@ -568,14 +395,231 @@
       "related_stocks": [
         {
           "name": "[이차전지소재] 에코프로비엠",
-          "change_rate": "-12.7%"
+          "change_rate": "-14.5%"
         },
         {
           "name": "[이차전지소재] 포스코퓨처엠",
-          "change_rate": "-14.7%"
+          "change_rate": "-16.9%"
         }
       ],
-      "timestamp": "2026-03-04 13:50:00"
+      "timestamp": "2026-03-04 14:57:46"
+    },
+    {
+      "id": "sig_20260304_KR_007",
+      "theme": "#화학",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "한화솔루션은(는) K-태양광, '벨류체인 확장'으로 승부수 던져 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "한화솔루션",
+        "symbol": "009830",
+        "change_rate": "-15.7%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=009830"
+      },
+      "news_articles": [
+        {
+          "title": "K-태양광, '벨류체인 확장'으로 승부수 던져",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005257804&office_id=015&code=009830&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 08:18",
+          "source": "한국경제",
+          "has_name": false,
+          "content": "[한경ESG] ESG Now\n지난해 12월 22일 미국 애틀랜타 시내에서 북서쪽으로 1시간을 달려 도착한 조지아주 카터즈빌 한화큐셀 공장. 청색 창문을 가진 사무동 앞뒤로 하얀색 건물이 통째로 연결돼 있는 독특한 구조의 이곳은 미국 유일의 잉곳-웨이퍼-셀·모듈 통합 공장이다. 신공장 부지에 들어서자 직원들이 탄 전용카트가 분주히 길을 오가고 있었다. 골프장에서나 볼 것 같은 카트들은 단지 끝에서 끝까지 걷기엔 15분 이상이 소요되는 규모 때문에 마련된 운송수단이다.\n김동관 한화그룹 부회장이 사활을 걸고 조성한 공장인 만큼 전례 없는 규모다. 태양광 셀·모듈 사업이 주력이었던 한화큐셀에게 이곳은 단순히 또 하나의 제조 공장이 아니라, 태양광 밸류체인(가치사슬) 전반을 담당하는 ‘솔라 허브’를 만들겠다는 한화의 목표가 고스란히 반영돼 있는 곳이다. 글로벌 시장에서 중국에게 사실상 밀린뒤 미국에서조차 트럼프 정부의 정책 변덕으로 고전하고 있는 국내 태양광 기업들은 전후방 밸류체인 확장으로 ‘승부수’를 던지고 있다.\n제조부터 금융까지… 밸류체인 통합으로 ‘적자 늪’ 돌파\n트럼프 시대 국내 태양광 업종은 절체절명의 기로에 서 있다. 유럽과 아시아 시장은 이미 중국 업체들에게 잠식당한 상황에서 마지막 기회인 초대형 시장 미국조차 실적은 악화일로다. 최근 공시된 2025년 실적에 따르면 한화솔루션은 연간 영업손실 3533억 원을 기록했다. 2024년 3002억 원의 적자에 이어 2년 연속 대규모 손실을 낸 것이다.\n폴리실리콘 분야의 강자였던 OCI홀딩스 역시 2023년 5312억 원, 2024년 1015억 원의 이익을 냈으나 지난해에는 576억 원의 영업손실을 기록하며 적자 전환했다. 3년 새 수천억 원의 이익이 수천억 원의 손실로 뒤바뀐 셈이다. 미국 내 올해 예상 신규 태양광 설치량만 37.3기가와트(GW)에 달할 정도로 수요는 견고하지만, 글로벌 공급 과잉에 따른 모듈 가격 하락으로 수익성이 빠르게 떨어지고 있는 탓이다.\n이 같은 위기를 돌파하기 위해 한화큐셀은 제조 효율을 극대화하는 업스트림 통합과 서비스 영역을 넓히는 다운스트림 확장을 하나로 묶는 ‘밸류체인 일원화’ 카드를 꺼내들었다.\n공장 부지 내에서 만난 한화큐셀 직원은 “현재 회사가 어려운 것은 사실”이라면서도 “수익률이 낮아진 전통적인 셀 비즈니스에서 탈피하기 위해 카터즈빌 공장에 ‘통구조’ 설계를 도입했다”고 설명했다. 태양광 발전기는 폴리실리콘-잉곳-웨이퍼-셀·모듈 단계로 만들어지는데, 카터즈빌 공장은 이 중 잉곳부터 모듈까지의 전 공정을 한 부지 내에서 처리한다.\n잉곳 3.3GW, 웨이퍼 3.3GW, 셀·모듈 3.3GW 규모의 라인이 유기적으로 연결된 구조다. 조지아주 내 또 다른 생산기지인 돌턴 공장의 모듈 5.1GW 물량까지 합치면 압도적인 수직계열화가 완성된다. 이러한 통합 생산은 수익성을 획기적으로 높이는 핵심 동력이다.\n한화큐셀 관계자는 “소재 단계인 잉곳과 웨이퍼를 현지에서 직접 생산하기 시작하면 역외 수급 업체 대비 물류비와 관세 측면에서 수익성이 압도적으로 높아진"
+        },
+        {
+          "title": "BHSN·리걸스케이프 손잡았다…한·일 법률 AI 상호 연동",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006228114&office_id=018&code=009830&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 09:58",
+          "source": "이데일리",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[그룹사] 한화에어로스페이스",
+          "change_rate": "-7.8%"
+        },
+        {
+          "name": "[그룹사] 한화",
+          "change_rate": "-17.1%"
+        },
+        {
+          "name": "[그룹사] 한화오션",
+          "change_rate": "-17.5%"
+        }
+      ],
+      "timestamp": "2026-03-04 14:57:46"
+    },
+    {
+      "id": "sig_20260304_KR_008",
+      "theme": "#정유",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "SK이노베이션은(는) \"중동 쇼크 때마다 '이 종목' 불기둥\"...투자 피난처, 어디? 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "SK이노베이션",
+        "symbol": "096770",
+        "change_rate": "-15.6%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=096770"
+      },
+      "news_articles": [
+        {
+          "title": "\"중동 쇼크 때마다 '이 종목' 불기둥\"...투자 피난처, 어디?",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324856&office_id=008&code=096770&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.04 04:15",
+          "source": "머니투데이",
+          "has_name": false,
+          "content": "국제유가·운임 상승 기대감\n극동유화·대한해운 '상한가'\nSK이노·HMM 등 시선집중\n중장기 관점, 항공주도 기회\n미국과 이스라엘이 이란을 공습한 여파로 국내 증시가 5700선까지 급락했다. 증권가에선 국내 증시가 그간 가파르게 상승한 만큼 이번 사태로 단기 변동성이 커질 수 있어 정유주, 해운주 등 유가상승에 따른 수혜업종에 주목해야 한다는 조언이 잇따른다.\n3일 거래소에서 극동유화와 대한해운이 각각 가격제한폭까지 오른 2820원, 4615원에 거래를 마치는 등 정유주와 해운주가 일제히 올랐다. 반면 제주항공과 대한항공이 각각 7%, 10% 하락하는 등 항공주는 큰 폭으로 하락했다.\n지난달 28일(현지시간) 미국은 이란이 핵무기 포기의사를 밝히지 않자 이스라엘과 함께 이란 전역을 공습했다. 도널드 트럼프 미국 대통령이 지상군 투입 가능성을 언급한 데 이어 이란이 항전의지를 밝히자 장중 코스피지수가 급락하며 투심이 급격히 얼어붙었다.\n증권가에선 국내 증시가 글로벌 증시 중에서도 가파른 상승세를 이어와 당분간 변동성 확대가 불가피하다고 분석한다. 이런 가운데 증권가에선 정유주와 해운주를 단기 피난처로 제시했다. 이들 업종은 과거 중동지역의 지정학적 리스크가 고조될 때마다 강세를 보인 대표적 수혜주로 꼽힌다. 원유공급 차질에 대한 우려로 국제유가가 급등하면 정유업종은 실적개선 기대가 커질 수 있고 해운업종 역시 전세계 원유 수송량의 20%가 통과하는 전략적 요충지인 호르무즈해협 봉쇄로 운임상승 기대가 확대될 가능성이 있기 때문이다.\n김대준 한국투자증권 연구원은 \"한국의 지난해 평균 원유 수입량의 69%가 중동지역에 의존하고 국내 원유 재고일수도 16일 수준에 불과해 전쟁이 2주 이상 장기화하면 국내 경제에 부담으로 작용할 수 있다\"며 \"정유, 해운, 조선은 과거 10년 동안 유가 변화율과 상대수익률이 양의 상관성을 나타내왔다는 점을 고려해야 한다\"고 했다.\n주요 산유국 협의체인 OPEC+(오펙플러스)가 이란 공습 직후 예상보다 큰 폭의 증산방안을 검토했지만 국제유가는 급등했다. 올해 초 배럴당 50달러 선까지 하락한 WTI(서부텍사스산중질유) 선물가격은 이날 70달러를 넘겼다. JP모간은 이번 사태로 유가가 배럴당 120달러까지 오를 수 있다고 경고했다.\n윤재성 하나증권 연구원은 \"호르무즈해협 봉쇄가 러시아-우크라이나 전쟁 당시보다 에너지 시장에 미칠 영향이 더욱 크고 석유화학의 대규모 공급차질도 불가피해 단기 가격급등이 나타날 것으로 보인다\"며 \"에너지가격 급등을 헤지하기 위한 포트폴리오를 구성해야 한다. 국내 증시에서는 S-Oil, SK이노베이션, 유니드, 롯데정밀화학으로 대응할 수 있다\"고 밝혔다.\n배세호 iM증권 연구원은 \"VLCC(초대형원유운반선) 스폿운임이 올해 들어서만 196% 상승하며 2020년 4월 이후 최고치를 기록했는데 현재 사태로 단기적인 운임상승이 예상된다\"며 \"VLCC를 보유 중인 팬오션과 컨테이너 운임상승으로 HMM이 수혜를 볼 것\"이라고 했다.\n이날 항공주는 하락마감했지만 중장기적으로는 기회가 있다는 분석도 나온다"
+        },
+        {
+          "title": "[美 이란 공습] 환율 효과는 없고 유가 부담만 커진 한국 경제… 주요...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001145812&office_id=366&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 14:57",
+          "source": "조선비즈",
+          "has_name": false
+        },
+        {
+          "title": "[인터뷰] 밀라노 올림픽 녹인 K-발열 도시락…구미 강소기업 '온기코....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000999422&office_id=088&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 13:05",
+          "source": "매일신문",
+          "has_name": false
+        },
+        {
+          "title": "코스피, 중동 위기감 고조에 5%대 급락…5500선 무너져(종합)",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001369218&office_id=082&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 10:25",
+          "source": "부산일보",
+          "has_name": false
+        },
+        {
+          "title": "코스피, 중동 위기 확산에 5% 급락 5,500선 내줘…코스닥도 하락...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015936295&office_id=001&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 09:46",
+          "source": "연합뉴스",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[정유] S-Oil",
+          "change_rate": "-10.8%"
+        },
+        {
+          "name": "[이차전지] LG에너지솔루션",
+          "change_rate": "-10.6%"
+        },
+        {
+          "name": "[그룹사] SK",
+          "change_rate": "-12.1%"
+        },
+        {
+          "name": "[그룹사] SK하이닉스",
+          "change_rate": "-7.2%"
+        },
+        {
+          "name": "[그룹사] SK텔레콤",
+          "change_rate": "-9.6%"
+        }
+      ],
+      "timestamp": "2026-03-04 14:57:46"
+    },
+    {
+      "id": "sig_20260304_KR_009",
+      "theme": "#로봇",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "두산로보틱스은(는) SK실트론 인수 앞둔 두산, PRS 조기 정산... 로보틱스 지분 팔아... 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "두산로보틱스",
+        "symbol": "454910",
+        "change_rate": "-15.6%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=454910"
+      },
+      "news_articles": [
+        {
+          "title": "SK실트론 인수 앞둔 두산, PRS 조기 정산... 로보틱스 지분 팔아...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001145558&office_id=366&code=454910&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 16:11",
+          "source": "조선비즈",
+          "has_name": false,
+          "content": "두산로보틱스 지분 매각해 총 1.2조 확보\n두산로보틱스 주가 오르자 이익 확정\nSK실트론 몸값 4.3조… 이달 SPA 전망\n이 기사는 2026년 3월 3일 15시 40분 조선비즈 머니무브(MM) 사이트에 표출됐습니다.\n두산이 SK실트론 인수를 위한 실탄 확보를 위해 두산로보틱스 주가수익스왑(PRS) 계약을 조기 정산했다. 두산로보틱스의 주가가 빠르게 오르면서 당초 3년이었던 계약 기간을 단축해 수익을 확정했다.\nPRS는 만기 시점에 기초자산의 가치 변동분을 사후 정산하는 파생상품이다. 기업은 재무구조가 악화하지 않으면서 유동성을 확보할 수 있는 장점이 있다. 기초자산의 주가 변동으로 인한 차익이나 손해는 기업이 지고, 투자자는 자금 제공에 따른 수수료를 받는다. 주식담보대출과 유사하지만, 자본으로 분류할 수 있다는 장점이 있다.\n3일 투자은행(IB) 업계에 따르면 두산은 지난달 25일 두산로보틱스 주식 1170만주에 대한 PRS 계약을 정산 완료했다. 이번 정산으로 두산은 기초 매각 대금 9477억원(주당 8만1000원 기준)을 확보함과 동시에 주가 상승에 따른 추가 차익을 거두게 됐다.\n정산일 기준 두산로보틱스 종가가 10만7300원인 것을 감안하면 두산은 주당 약 2만6000원의 추가 수익을 거둔 것으로 추산된다. 블록딜 할인율을 고려하더라도 최소 2500억원 이상의 추가 현금이 유입되면서 두산로보틱스 지분을 통해 확보한 자금은 1조2000억원을 웃돌 전망이다.\n두산이 조기 정산 카드를 꺼내든 이유는 SK실트론 인수 대금 마련을 위해서다. 업계에서는 두산과 SK의 SK실트론 주식매매계약(SPA)이 이달 중 체결될 것으로 보고 있다.\n두산로보틱스 주가가 빠르게 오른 점도 조기 정산에 영향을 미친 것으로 풀이된다. 만기 시점에 두산로보틱스 주가가 기준가보다 낮아질 위험을 피하기 위함이다. 두산로보틱스 주가는 PRS 계약을 맺은 지난해 12월 23일부터 지난달 27일까지 32% 상승했다.\n앞서 두산은 인수·합병(M&A) 투자 재원 확보를 위해 두산로보틱스 지분을 매각한다고 밝혔다. 시장에서 평가하는 SK실트론의 기업가치는 4조3000억원 수준이다. SK실트론의 순차입금이 약 2조4000억원인 것을 고려하면 필요한 자금은 약 1조9000억원이다. 두산은 기보유한 현금성 자산에 더해 두산로보틱스 유동화로 2조4000억원이 넘는 돈을 확보하게 됐다.\nPRS 조기 정산으로 주가 하락을 걱정했던 두산로보틱스 주주들은 한시름 놓게 됐다. 오버행(대규모 잠재 매도 물량) 부담이 상당 부분 해소됐기 때문이다. 이번 처분으로 두산의 두산로보틱스 지분율은 기존 68.11%에서 50.06%로 줄었다."
+        },
+        {
+          "title": "가천대, AI 첨단산업 인재양성 부트캠프 운영대학 선정",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003403890&office_id=030&code=454910&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 22:44",
+          "source": "전자신문",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[로봇] 레인보우로보틱스",
+          "change_rate": "-13.9%"
+        },
+        {
+          "name": "[그룹사] 두산에너빌리티",
+          "change_rate": "-15.1%"
+        },
+        {
+          "name": "[그룹사] 두산",
+          "change_rate": "-14.8%"
+        },
+        {
+          "name": "[로봇] 로보티즈",
+          "change_rate": "-12.6%"
+        },
+        {
+          "name": "[그룹사] 두산밥캣",
+          "change_rate": "+0.0%"
+        }
+      ],
+      "timestamp": "2026-03-04 14:57:46"
+    },
+    {
+      "id": "sig_20260304_KR_010",
+      "theme": "#IT서비스",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "현대오토에버은(는) 배당 시즌…주주 환원 후한 대기업SI는? 등의 영향으로 하락 마감했습니다.",
+      "main_stock": {
+        "name": "현대오토에버",
+        "symbol": "307950",
+        "change_rate": "-15.3%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=307950"
+      },
+      "news_articles": [
+        {
+          "title": "배당 시즌…주주 환원 후한 대기업SI는?",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000044919&office_id=648&code=307950&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.04 07:40",
+          "source": "비즈워치",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[그룹사] 현대차",
+          "change_rate": "-14.5%"
+        },
+        {
+          "name": "[자동차] 기아",
+          "change_rate": "-12.8%"
+        },
+        {
+          "name": "[그룹사] 현대모비스",
+          "change_rate": "-13.8%"
+        },
+        {
+          "name": "[그룹사] 현대해상",
+          "change_rate": "-9.4%"
+        },
+        {
+          "name": "[그룹사] 현대건설",
+          "change_rate": "-15.5%"
+        }
+      ],
+      "timestamp": "2026-03-04 14:57:46"
     }
   ]
 }
