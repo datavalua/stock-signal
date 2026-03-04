@@ -13,14 +13,16 @@ import traceback
 
 try:
     import google.generativeai as genai
+    from google.generativeai import types
     GENAI_AVAILABLE = True
 except ImportError:
     GENAI_AVAILABLE = False
-    print("Warning: google-generativeai package not found. AI summaries will be disabled.")
+    print("Warning: google-genai package not found. AI summaries will be disabled.")
 except Exception as e:
     GENAI_AVAILABLE = False
     print(f"Error loading Gemini SDK: {e}")
 
+GENAI_CLIENT = None
 if GENAI_AVAILABLE:
     import streamlit as st
     try:
@@ -30,6 +32,7 @@ if GENAI_AVAILABLE:
         
     if api_key:
         genai.configure(api_key=api_key)
+        GENAI_CLIENT = True
 
 try:
     import holidays
@@ -49,16 +52,52 @@ def load_stock_metadata():
             return json.load(f)
     return {"KR": {}, "US": {}}
 
-def get_model_name():
-    """Select model based on environment (GitHub Actions vs Local)."""
-    # Prioritize explicit environment variable
+def get_model_chain():
+    """Return a list of models to try in order (Fallback)."""
     env_model = os.getenv("GEMINI_MODEL")
     if env_model:
-        return env_model
+        return [env_model]
+    
+    # Priority: High quota model -> High quality model
+    return ['gemini-2.5-flash', 'gemini-2.5-pro', 'gemini-flash-lite-latest']
+
+def call_gemini_with_fallback(prompt, config_kwargs=None, max_retries_per_model=3):
+    """
+    Execute Gemini API call with fallback models and RPM-aware sleep.
+    """
+    if not GENAI_CLIENT:
+        return None
         
-    # User requested to always use the high-quota model for daily stock signal JSON generation
-    # `gemini-flash-lite-latest` has a limit of 1,500 RPD (Requests Per Day) on the free tier.
-    return 'gemini-flash-lite-latest'
+    models = get_model_chain()
+    config = types.GenerationConfig(**(config_kwargs or {}))
+    
+    for model_name in models:
+        # Give some breathing room to respect RPM limits (e.g. 15 RPM ~ 4s spacing)
+        time.sleep(4.5)
+        for attempt in range(max_retries_per_model):
+            try:
+                model = genai.GenerativeModel(model_name)
+                response = model.generate_content(prompt, generation_config=config)
+                # Successful call
+                return response
+            except Exception as e:
+                err_str = str(e).lower()
+                if "429" in err_str or "exhausted" in err_str or "quota" in err_str:
+                    print(f"Rate limited or quota exceeded for {model_name} (attempt {attempt+1}).")
+                    if attempt < max_retries_per_model - 1:
+                        # Wait before retry on same model
+                        time.sleep(15 * (attempt + 1))
+                        continue
+                    else:
+                        # Move to fallback model
+                        print(f"Moving to fallback model after exhausting {model_name}.")
+                        break
+                else:
+                    print(f"Error calling {model_name}: {e}")
+                    break # Not a rate limit issue, skip to next model maybe?
+                    
+    print("All models in fallback chain failed.")
+    return None
 
 # Global configuration loaded once
 STOCK_METADATA = load_stock_metadata()
@@ -453,6 +492,42 @@ def scrape_us_news(symbol, name, target_date_str, max_articles=5):
         
     return articles
 
+def translate_us_article(title, content):
+    """Translate US article title and content to Korean."""
+    prompt = f"다음 영문 기사의 제목과 본문을 한국어로 자연스럽게 번역해주세요.\n\n[제목]\n{title}\n\n[본문]\n{content}\n\n[번역] (제목과 본문을 줄바꿈으로 구분해서 작성):"
+    
+    response = call_gemini_with_fallback(prompt, config_kwargs={"temperature": 0.1})
+    if response and response.text:
+        return response.text.strip()
+    return f"제목: {title}\n본문: 내용 요약 불가"
+
+def scrape_market_news(market="KR"):
+    """
+    Scrape 1-2 latest broad market wrap-up news articles to provide macro context.
+    """
+    try:
+        if market == "US":
+            url = "https://search.naver.com/search.naver?where=news&query=뉴욕증시+마감&sm=tab_opt&sort=1&photo=0&field=0&pd=4"
+        else:
+            url = "https://search.naver.com/search.naver?where=news&query=코스피+마감&sm=tab_opt&sort=1&photo=0&field=0&pd=4"
+            
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        res = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        
+        articles = soup.select('div.news_area > a.news_tit')
+        market_context_text = ""
+        for i, a in enumerate(articles[:2]): # Max 2 articles
+            title = a.get_text(strip=True)
+            href = a.get('href', '')
+            content = scrape_article_content(href)[:800] # Limit content size
+            market_context_text += f"[시장 시황 {i+1}] {title}\n{content}\n\n"
+        
+        return market_context_text
+    except Exception as e:
+        print(f"Error fetching market news: {e}")
+        return ""
+
 def select_impactful_article(stock_name, articles, change_val):
     """
     Use Gemini to select the index of the most impactful article from the list.
@@ -473,16 +548,7 @@ def select_impactful_article(stock_name, articles, change_val):
                 "\n\n응답은 반드시 숫자 하나 또는 'none'만 해주세요."
             )
             
-            from concurrent.futures import ThreadPoolExecutor, TimeoutError
-            
-            def call_genai():
-                model = genai.GenerativeModel(get_model_name())
-                return model.generate_content(prompt)
-                
-            executor = ThreadPoolExecutor(max_workers=1)
-            future = executor.submit(call_genai)
-            response = future.result(timeout=30)
-            time.sleep(15) # Rate limiting (5 per minute max)
+            response = call_gemini_with_fallback(prompt, config_kwargs={"temperature": 0.1})
                 
             if response and response.text:
                 import re
@@ -516,15 +582,15 @@ def select_impactful_article(stock_name, articles, change_val):
     scored_articles.sort(reverse=True)
     return scored_articles[0][1] if scored_articles else 0
 
-def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data=None, analyst_data=None, market="KR"):
+def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data=None, analyst_data=None, market="KR", market_context_text=""):
     """
     Generate a 2-3 line summary of why the stock moved, based on news articles.
-    Returns a dict containing category, short_reason, summary.
+    Returns a dict containing category, short_reason, summary, and success status.
     """
     direction = "상승" if change_val >= 0 else "하락"
     api_key = os.getenv("GEMINI_API_KEY")
     
-    if api_key and api_key != "your_api_key_here" and GENAI_AVAILABLE:
+    if api_key and api_key != "your_api_key_here" and GENAI_CLIENT:
         try:
             # Re-order articles to put the "best" one first for Gemini
             reordered = list(articles)
@@ -533,40 +599,46 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                 reordered.insert(0, best)
 
             articles_text = ""
-            # Use top 5 articles with 1500 chars context each
+            # Use top 3-5 articles with 1500 chars context each
             for i, article in enumerate(reordered[:5]):
                 title = article.get("title", "")
                 content = article.get("content", "")
-                articles_text += f"기사 {i+1}: {title}\n내용: {content[:1500]}\n\n"
+                # Format differently based on market (US is pre-translated)
+                context_label = "원문 번역" if market == "US" else "내용"
+                articles_text += f"기사 {i+1}: {title}\n{context_label}: {content[:1500]}\n\n"
                 
             if market == "KR" and investor_data:
                 articles_text += f"**오늘 수급 데이터 (개인/외국인/기관):** {investor_data.get('개인','-')} / {investor_data.get('외국인','-')} / {investor_data.get('기관','-')}\n\n"
             elif market == "US" and analyst_data:
                 articles_text += f"**애널리스트 투자의견 요약:** {analyst_data}\n\n"
+                
+            market_context_prompt = f"**오늘의 핵심 시황 (참고용):**\n{market_context_text}\n" if market_context_text else ""
 
             prompt = (
-                f"당신은 금융 시장을 분석하는 최상급 AI 리포터입니다. {stock_name} ({direction})에 관한 최신 기사들을 읽고 분석 리포트를 작성하세요.\n"
-                f"만약 뉴스 기사가 영어라면, 모든 내용을 정확하게 한국어로 번역하여 분석에 반영해야 합니다.\n\n"
+                f"당신은 금융 시장을 분석하는 최상급 AI 리포터입니다. {stock_name} ({direction})에 관한 최신 개별 종목 기사들과 오늘의 전체 시황 뉴스를 읽고 분석 리포트를 작성하세요.\n"
                 f"**분석용 뉴스 데이터**\n"
                 f"{articles_text}"
+                f"{market_context_prompt}"
                 f"**작성 가이드라인 (반드시 준수):**\n"
-                f"1. **한국어 요약 (summary)**: 모든 기사 내용을 종합하여 2~3문장으로 요약하세요. 단순 번역이 아닌 한국 독자가 이해하기 편한 전문가적인 리포트 어조를 사용하세요.\n"
-                f"2. **키워드 압축 (short_reason)**: 위 '요약(summary)'의 핵심을 **2~3개의 명사구/단어**로만 압축하세요. (예: '매출 성장세 지속, 실적 기대감', '신제품 출시 효과, 수주 확대'). 문장이나 마침표를 사용하지 마세요.\n"
+                f"1. **한국어 요약 (summary)**: 주요 내용을 종합하여 2~3문장으로 요약하세요. 시장 전체 흐름(시황)의 영향이 컸다면 이를 함께 엮어서 설명하고, 단순 사실 나열이 아닌 한국 독자가 이해하기 편한 리포트 어조를 사용하세요.\n"
+                f"2. **키워드 압축 (short_reason)**: 위 '요약(summary)'의 핵심을 **2~3개의 명사구/단어**로만 압축하세요. (예: '매출 성장세 지속, 전체 시장 하락세 동조'). 문장이나 마침표를 사용하지 마세요.\n"
                 f"3. **카테고리 분류 (category)**: '실적', '수급', '이슈', '거시경제', '빅테크' 중 하나를 선택하세요.\n"
-                f"4. **금지 사항**: '주가가 올랐습니다' 등 결과 나열은 피하고 변동의 '핵심 원인'을 구체적으로 기재하세요.\n"
-                f"5. **출력 형식**: 아래 JSON 구조로만 응답하세요. 백틱(`)이나 마크다운 없이 순수 JSON만 출력하세요.\n"
-                f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 키워드 어절 (2~3개)\", \"summary\": \"규칙을 준수한 자연스러운 요약 리포트\"}}"
+                f"4. **금지 사항**: '{stock_name}은(는) ~로 인해 주가가 상승했습니다' 처럼 주가가 올랐다는 단순 서술어는 피하세요.\n"
+                f"5. **출력 형식**: 아래 JSON 구조로만 응답하세요. 다른 설명이나 텍스트를 절대 포함하지 마세요.\n"
+                f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 키워드\", \"summary\": \"규칙을 준수한 자연스러운 요약 리포트\"}}"
             )
             
-            model = genai.GenerativeModel(get_model_name())
-            response = model.generate_content(prompt)
-            time.sleep(5) # Rate limiting
+            response = call_gemini_with_fallback(
+                prompt,
+                config_kwargs={"temperature": 0.2, "response_mime_type": 'application/json'}
+            )
                 
             if response and response.text:
                 try:
                     import re
                     clean_json = re.sub(r'```(?:json)?', '', response.text).strip()
                     parsed = json.loads(clean_json)
+                    parsed["summary_success"] = True
                     return parsed
                 except Exception as e:
                     print(f"Failed to parse Gemini JSON: {e}")
@@ -583,7 +655,8 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
     return {
         "category": "이슈", 
         "short_reason": "수급 변화, 업황 변동", 
-        "summary": f"{stock_name}은(는) {main_news} 등의 영향으로 {direction} 마감했습니다."
+        "summary": f"{stock_name}은(는) {main_news} 등의 영향으로 {direction} 마감했습니다.",
+        "summary_success": False
     }
 
 def generate_short_reason(stock_name, articles, change_val, best_idx=0, translated_title=None):
@@ -748,10 +821,99 @@ def generate_daily_json(date_str=None, market="KR"):
             
     existing_signals = {s['main_stock']['symbol']: s for s in existing_data.get('signals', [])}
     
+    existing_signals = {s['main_stock']['symbol']: s for s in existing_data.get('signals', [])}
+    
+    # 0.5. Get Market Indices (Insert at top)
+    signals = []
+    
+    def fetch_kr_indices():
+         try:
+             url = "https://finance.naver.com/sise/"
+             res = requests.get(url, timeout=10)
+             soup = BeautifulSoup(res.text, 'html.parser')
+             
+             kospi_val = soup.select_one('#KOSPI_now').text
+             kospi_change = soup.select_one('#KOSPI_change').text
+             
+             kosdaq_val = soup.select_one('#KOSDAQ_now').text
+             kosdaq_change = soup.select_one('#KOSDAQ_change').text
+             
+             return [
+                 {"name": "KOSPI", "symbol": "KOSPI", "val": kospi_val, "change_rate": kospi_change},
+                 {"name": "KOSDAQ", "symbol": "KOSDAQ", "val": kosdaq_val, "change_rate": kosdaq_change}
+             ]
+         except Exception as e:
+             print(f"Error fetching KR Indices: {e}")
+             return []
+
+    def fetch_us_indices():
+         try:
+             import yfinance as yf
+             sp_ticker = yf.Ticker('^GSPC')
+             sp_data = sp_ticker.history(period="2d")
+             sp_change = ((sp_data['Close'].iloc[-1] - sp_data['Close'].iloc[-2]) / sp_data['Close'].iloc[-2]) * 100
+             
+             ndq_ticker = yf.Ticker('^IXIC')
+             ndq_data = ndq_ticker.history(period="2d")
+             ndq_change = ((ndq_data['Close'].iloc[-1] - ndq_data['Close'].iloc[-2]) / ndq_data['Close'].iloc[-2]) * 100
+             
+             return [
+                 {"name": "S&P 500", "symbol": "SP500", "val": f"{sp_data['Close'].iloc[-1]:.2f}", "change_rate": f"{sp_change:+.2f}%"},
+                 {"name": "NASDAQ", "symbol": "NASDAQ", "val": f"{ndq_data['Close'].iloc[-1]:.2f}", "change_rate": f"{ndq_change:+.2f}%"}
+             ]
+         except Exception as e:
+             print(f"Error fetching US Indices: {e}")
+             return []
+
+    indices = fetch_us_indices() if market == "US" else fetch_kr_indices()
+    for idx_data in indices:
+        i_name = idx_data['name']
+        i_symbol = idx_data['symbol']
+        i_val = idx_data['val']
+        i_change_rate = idx_data['change_rate']
+        
+        # Crawl news for the index specifically
+        if market == "US":
+            i_articles = scrape_us_news(i_symbol, i_name, date_str)
+        else:
+            i_articles = scrape_naver_news(i_symbol, i_name, date_str)
+        
+        # Enrich content for index articles
+        for k in range(min(3, len(i_articles))):
+             c_content = scrape_article_content(i_articles[k]['url'])[:1500]
+             i_articles[k]['content'] = c_content
+
+        print(f"Generating AI summary for Index: {i_name}...")
+        i_ai_res = generate_summary(
+            i_name, i_articles, 0.0, # Change value not strictly needed for index summary but passed 0.0
+            market=market
+        )
+
+        signals.append({
+            "id": f"sig_{date_str.replace('-','')}_{market}_IDX_{i_symbol}",
+            "theme": "#시장지수",
+            "signal_type": "시황",
+            "short_reason": i_ai_res.get("short_reason", "시장 전체 흐름"),
+            "summary": i_ai_res.get("summary", f"[{i_name}] 마감 지수: {i_val} ({i_change_rate})"),
+            "summary_success": i_ai_res.get("summary_success", False),
+            "is_index": True,
+            "main_stock": {
+                "name": i_name,
+                "symbol": i_symbol,
+                "change_rate": i_change_rate,
+                "news_url": ""
+            },
+            "news_articles": i_articles[:5],
+            "related_stocks": [],
+            "timestamp": kst_now.strftime("%Y-%m-%d %H:%M:%S")
+        })
+
+    # 0.6. Get Market Context News
+    print(f"Fetching market news context for {market}...")
+    market_context_text = scrape_market_news(market)
+
     # 1. Get real movers
     movers = get_top_movers(date_str, market=market)
-    
-    signals = []
     
     for idx, stock in enumerate(movers):
         symbol = stock['symbol']
@@ -783,83 +945,71 @@ def generate_daily_json(date_str=None, market="KR"):
         # Filter invalid articles (must be dict with url and title)
         articles = [a for a in articles if isinstance(a, dict) and 'url' in a and 'title' in a]
         
-        # 3. [Tier 1 Skip] Check if the very first news article matches perfectly
-        # Do this BEFORE AI selection/scraping to save time/API
+        # 3. [Tier 1 Smart Skip] Check previous success, same direction, and change_rate delta
         ai_result = None
-        if symbol in existing_signals and articles:
+        if symbol in existing_signals:
             old_signal = existing_signals[symbol]
-            old_articles = old_signal.get('news_articles', [])
-            if old_articles:
-                old_title = old_articles[0].get('title')
-                old_url = old_articles[0].get('url', '').split('&page=')[0]
-                new_title = articles[0].get('title')
-                new_url = articles[0].get('url', '').split('&page=')[0]
-                
-                if old_title == new_title or old_url == new_url:
-                    old_summary = old_signal.get("summary", "")
-                    if "영향으로 상승 마감" in old_summary or "영향으로 하락 마감" in old_summary:
-                        print(f"[{idx+1}/{len(movers)}] [Tier 1] Skipping AI reuse for {name} because old summary was a fallback.")
-                    else:
-                        print(f"[{idx+1}/{len(movers)}] [Tier 1] Skipping AI for {name}: News matches previous signal.")
+            old_success = old_signal.get("summary_success", False)
+            
+            if old_success:
+                try:
+                    old_change_rate_str = old_signal.get("main_stock", {}).get("change_rate", "0%")
+                    old_change_val = float(old_change_rate_str.replace('%', '').replace('+', ''))
+                    
+                    # Ensure both are moving in the same direction (both positive or both negative)
+                    same_direction = (old_change_val * change_val) > 0 or (old_change_val == 0 and change_val == 0)
+                    
+                    # If same direction AND absolute difference in change rate is <= 3.0 percentage points, skip AI.
+                    if same_direction and abs(old_change_val - change_val) <= 3.0:
+                        print(f"[{idx+1}/{len(movers)}] [Tier 1 Skip] Valid prior summary exists, same direction, and change gap (abs({abs(old_change_val - change_val):.2f}%)) <= 3.0%. Skipping AI.")
                         ai_result = {
                             "category": old_signal.get("signal_type", "이슈"),
                             "short_reason": old_signal.get("short_reason", "수급 변화"),
-                            "summary": old_summary
+                            "summary": old_signal.get("summary", ""),
+                            "summary_success": True
                         }
+                except Exception as e:
+                    print(f"Error parsing old change_rate for {symbol}: {e}")
         
-        # 4. If Tier 1 missed, select and scrape impactful info
+        # 4. If not skipped, select impactful info and scrape multiple contents
         if not ai_result and articles:
-            # First, select the "best" article via AI
             best_idx = select_impactful_article(name, articles, change_val)
-            if best_idx != -1 and 0 <= best_idx < len(articles):
-                best_article = articles[best_idx]
-                
-                # 5. [Tier 2 Skip] Check if the SELECTED article matches existing one
-                if symbol in existing_signals:
-                    old_signal = existing_signals[symbol]
-                    old_articles = old_signal.get('news_articles', [])
-                    if old_articles:
-                        old_best_title = old_articles[0].get('title')
-                        old_best_url = old_articles[0].get('url', '').split('&page=')[0]
-                        new_best_title = best_article.get('title')
-                        new_best_url = best_article.get('url', '').split('&page=')[0]
-                        
-                        if old_best_title == new_best_title or old_best_url == new_best_url:
-                            old_summary = old_signal.get("summary", "")
-                            if "영향으로 상승 마감" in old_summary or "영향으로 하락 마감" in old_summary:
-                                print(f"[{idx+1}/{len(movers)}] [Tier 2] Skipping AI reuse for {name} because old summary was a fallback.")
-                            else:
-                                print(f"[{idx+1}/{len(movers)}] [Tier 2] Skipping summarization for {name}: Selected article already summarized.")
-                                ai_result = {
-                                    "category": old_signal.get("signal_type", "이슈"),
-                                    "short_reason": old_signal.get("short_reason", "수급 변화"),
-                                    "summary": old_summary
-                                }
+            if best_idx == -1: best_idx = 0
+            
+            if 0 <= best_idx < len(articles):
+                # Enrich up to 5 articles with content for better context
+                for i in range(min(5, len(articles))):
+                    content = scrape_article_content(articles[i]['url'])[:1500]
+                    # Specific to US: translate content directly
+                    if market == "US" and content:
+                        trans = translate_us_article(articles[i]['title'], content)
+                        articles[i]['content'] = trans
+                    else:
+                        articles[i]['content'] = content
 
-                # 6. If Tier 2 missed, scrape and generate
-                if not ai_result:
-                    target_article = articles.pop(best_idx)
-                    target_article['content'] = scrape_article_content(target_article['url'])[:1500]
-                    articles.insert(0, target_article)
-                    
-                    # 7. Fetch Additional Data
-                    investor_data = None
-                    if market == "KR":
-                        try:
-                            investor_data = get_investor_data(symbol, date_str)
-                        except Exception as e:
-                            print(f"Error fetching investor data: {e}")
+                investor_data = None
+                if market == "KR":
+                    try:
+                        investor_data = get_investor_data(symbol, date_str)
+                    except Exception as e:
+                        print(f"Error fetching investor data: {e}")
 
-                    print(f"[{idx+1}/{len(movers)}] Generating new AI summary for {name} using {get_model_name()}...")
-                    ai_result = generate_summary(
-                        name, articles, change_val, 
-                        best_idx=0, # Already moved to front
-                        investor_data=investor_data, 
-                        market=market
-                    )
+                print(f"[{idx+1}/{len(movers)}] Generating new AI summary for {name}...")
+                ai_result = generate_summary(
+                    name, articles, change_val, 
+                    best_idx=best_idx, 
+                    investor_data=investor_data, 
+                    market=market,
+                    market_context_text=market_context_text
+                )
         elif not ai_result:
             # No articles found case
-            ai_result = {"category": "이슈", "short_reason": "수급 변화", "summary": f"{name}은(는) 시장 수급 변화 등의 영향으로 변동을 보였습니다."}
+            ai_result = {
+                "category": "이슈", 
+                "short_reason": "수급 변화", 
+                "summary": f"{name}은(는) 시장 수급 변화 등의 영향으로 변동을 보였습니다.",
+                "summary_success": False
+            }
 
         # 8. Assemble Signal
         market_data = STOCK_METADATA.get(market, {})
@@ -876,6 +1026,7 @@ def generate_daily_json(date_str=None, market="KR"):
             "signal_type": ai_result.get("category", "이슈"),
             "short_reason": ai_result.get("short_reason", "수급 변화"),
             "summary": ai_result.get("summary", ""),
+            "summary_success": ai_result.get("summary_success", False),
             "main_stock": {
                 "name": name, "symbol": symbol, "change_rate": stock['change_rate'],
                 "news_url": news_url
@@ -885,11 +1036,15 @@ def generate_daily_json(date_str=None, market="KR"):
             "timestamp": kst_now.strftime("%Y-%m-%d %H:%M:%S")
         }
         signals.append(signal_data)
-
-    output_data = {"last_updated": kst_now.strftime("%Y-%m-%d %H:%M:%S"), "signals": signals}
-    os.makedirs(DATA_DIR, exist_ok=True)
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
+        
+        # Incremental save
+        try:
+            output_data = {"last_updated": kst_now.strftime("%Y-%m-%d %H:%M:%S"), "signals": signals}
+            os.makedirs(DATA_DIR, exist_ok=True)
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"Error during incremental save: {e}")
 
     # 6. Final success: Save the latest trading date for the frontend
     try:
