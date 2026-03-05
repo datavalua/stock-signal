@@ -1,4 +1,5 @@
 import os
+print("DEBUG: CRAWLER_VERSION_MARCH_06_V1")
 import json
 import time
 import datetime
