@@ -243,16 +243,53 @@ def get_top_movers(date_str, top_n=10, market="KR"):
     movers = []
     stocks_list = US_MAJOR_STOCKS if market == "US" else MAJOR_STOCKS
     
-    for stock in stocks_list:
-        change = get_stock_change(stock['symbol'], date_str)
-        if abs(change) > 0.01: # Ignore tiny changes
-            movers.append({
-                "symbol": stock['symbol'],
-                "name": stock['name'],
-                "change": change,
-                "change_rate": f"{'+' if change >= 0 else ''}{change:.1f}%",
-                "market": market
-            })
+    if market == "US":
+        # Optimizing US: Batch fetch all symbols at once to avoid 113+ network calls
+        try:
+            import yfinance as yf
+            symbols = [s['symbol'] for s in stocks_list]
+            end_dt = datetime.datetime.strptime(date_str, "%Y-%m-%d")
+            start_dt = end_dt - timedelta(days=7) # Buffer for weekend
+            
+            # Batch download (much faster)
+            data = yf.download(symbols, start=start_dt.strftime("%Y-%m-%d"), end=(end_dt + timedelta(days=1)).strftime("%Y-%m-%d"), progress=False)
+            
+            if not data.empty and 'Close' in data:
+                close_data = data['Close']
+                for stock in stocks_list:
+                    symbol = stock['symbol']
+                    if symbol in close_data.columns:
+                        prices = close_data[symbol].dropna()
+                        if len(prices) >= 2:
+                            prev_close = prices.iloc[-2]
+                            today_close = prices.iloc[-1]
+                            change = ((today_close - prev_close) / prev_close) * 100
+                            
+                            if abs(change) > 0.01:
+                                movers.append({
+                                    "symbol": symbol,
+                                    "name": stock['name'],
+                                    "change": change,
+                                    "change_rate": f"{'+' if change >= 0 else ''}{change:.1f}%",
+                                    "market": market
+                                })
+        except Exception as e:
+            print(f"Error in US batch price fetch: {e}. Falling back to sequential.")
+            # Fallback to sequential if batch fails
+            pass
+
+    # If movers is still empty (e.g. KR market or US batch failed)
+    if not movers:
+        for stock in stocks_list:
+            change = get_stock_change(stock['symbol'], date_str)
+            if abs(change) > 0.01: # Ignore tiny changes
+                movers.append({
+                    "symbol": stock['symbol'],
+                    "name": stock['name'],
+                    "change": change,
+                    "change_rate": f"{'+' if change >= 0 else ''}{change:.1f}%",
+                    "market": market
+                })
     
     # Sort by absolute change value descending
     movers.sort(key=lambda x: abs(x['change']), reverse=True)
