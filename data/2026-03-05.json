@@ -1,8 +1,70 @@
 {
-  "last_updated": "2026-03-05 13:53:54",
+  "last_updated": "2026-03-05 15:00:31",
   "signals": [
     {
       "id": "sig_20260305_KR_001",
+      "theme": "#이차전지소재",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "에코프로은(는) 에코프로, 인터배터리에서 하이니켈 삼원계 및 전고체 소재 공개 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "에코프로",
+        "symbol": "086520",
+        "change_rate": "+24.7%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=086520"
+      },
+      "news_articles": [
+        {
+          "title": "에코프로, 인터배터리에서 하이니켈 삼원계 및 전고체 소재 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005325629&office_id=008&code=086520&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 09:59",
+          "source": "머니투데이",
+          "has_name": true,
+          "content": "에코프로는 '인터배터리 2026'를 통해 미래 전기차와 휴머노이드 시대를 이끌 하이니켈 중심의 삼원계 및 전고체 배터리 소재 라인업을 공개한다고 5일 밝혔다. 오는 11~13일 서울 강남구 코엑스에서 열리는 이 행사는 국내 최대 규모 배터리 전시회다.\n에코프로는 '완벽한 체인, 가치의 연결(Perfect Chain, Connected Value)'을 주제로 총 4개의 전시 존을 선보이기로 했다. 존1의 콘셉트는 '글로벌 네트워크'다. 인도네시아 니켈 제련사업, 헝가리 공장 등 삼원계 양극재 경쟁력 확보를 위해 구축한 글로벌 공급망을 소개한다.\n존2에서는 '차별화된 경쟁력'을 앞세운다. 하이니켈 양극재를 비롯해 중저가 배터리 소재인 미드니켈 양극재, 나트륨이온배터리(SIB) 양극재, 리튬망간리치(LMR) 양극재 등 고객 맞춤형 제품 라인업을 한눈에 확인할 수 있다. 에너지저장장치(ESS) 시장에 대응할 리튬인산철(LFP) 양극소재도 공개한다.\n존3는 '미래 혁신'을 주제로 휴머노이드 시대를 이끌 전고체 소재 기술력과 개발 현황을 전시한다. 이번 전시를 통해 고객사와 함께 2027년 양산을 목표로 개발 중인 고체 전해질을 비롯해 전고체용 양극재, 리튬 메탈 음극재의 면면을 소개할 계획이다. 존4는 '배터리를 넘어서'를 콘셉트로 배터리 생애 주기 관리체계, 리사이클 기술력 등 미래 신사업을 전시대에 올린다.\n이번 전시회에서는 특히 '기술의 에코프로'를 구현할 오창 R&D 미래캠퍼스(가칭)를 건설하기 위한 로드맵도 밝힐 예정이다. 에코프로 관계자는 \"글로벌 넘버1 하이니켈 기술력을 바탕으로 휴머노이드 시대를 대비한 전고체 소재까지 풀라인업을 전시했다\" 며 \"높은 에너지 밀도와 출력을 구현하는데 적합한 삼원계 배터리 기술력을 더욱 고도화해 나갈 계획\"이라고 말했다.\n한편 이번 인터배터리 전시회에는 에코프로와 에코프로비엠의 잡페어 부스가 함께 설치된다. 에코프로 인사 담당자들이 구직자들을 대상으로 1대1 면담을 진행하며, 기업 설명 및 채용 상담을 병행할 예정이다."
+        },
+        {
+          "title": "에코프로, 로봇시대 겨냥…전고체 배터리 소재 라인업 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003404625&office_id=030&code=086520&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:35",
+          "source": "전자신문",
+          "has_name": true
+        },
+        {
+          "title": "에코프로, 하이니켈 중심 삼원계·전고체 배터리 소재 라인업 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000478188&office_id=629&code=086520&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 11:05",
+          "source": "더팩트",
+          "has_name": true
+        },
+        {
+          "title": "에코프로, 인터배터리 2026 참가…차세대 배터리 소재 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001010492&office_id=031&code=086520&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 10:19",
+          "source": "아이뉴스24",
+          "has_name": true
+        },
+        {
+          "title": "K배터리 '유럽 텃밭' 되찾는다 …전기차는 변수로",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001244027&office_id=215&code=086520&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 14:36",
+          "source": "한국경제TV",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[이차전지소재] 에코프로비엠",
+          "change_rate": "+21.4%"
+        },
+        {
+          "name": "[이차전지소재] 포스코퓨처엠",
+          "change_rate": "+13.1%"
+        }
+      ],
+      "timestamp": "2026-03-05 15:00:31"
+    },
+    {
+      "id": "sig_20260305_KR_002",
       "theme": "#로봇",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -10,10 +72,18 @@
       "main_stock": {
         "name": "레인보우로보틱스",
         "symbol": "277810",
-        "change_rate": "+23.7%",
+        "change_rate": "+23.0%",
         "news_url": "https://finance.naver.com/item/news.naver?code=277810"
       },
       "news_articles": [
+        {
+          "title": "프리마켓서 삼전·하닉 10% 이상 급상승…낙폭 회복하나 [코주부]",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004595902&office_id=011&code=277810&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 08:23",
+          "source": "서울경제",
+          "has_name": false,
+          "content": "프리마켓서 삼성전자 11.61% 상승\nSK하이닉스도 11.54% 올라 반등\n전날 급락했던 코스피 주요 종목들이 프리마켓에서 일제히 반등하며 낙폭 회복 기대감이 커지고 있다. 미국 증시 반등의 영향으로 반도체와 자동차 등 대형주 중심의 저가 매수세가 유입되는 모습이다.\n5일 넥스트트레이드에 따르면 오전 8시 15분 기준 프리마켓에서 삼성전자는 전일 대비 11.61% 오른 19만 2200원에 거래되고 있다. SK하이닉스 역시 11.54% 상승한 94만 7000원을 기록하며 반도체 대형주가 나란히 10%를 넘는 강세를 보이고 있다.\n반도체 외에도 주요 시가총액 상위 종목들의 반등이 두드러진다. 현대차는 13.37% 오른 56만 8000원에 거래되고 있으며 두산에너빌리티(13.28%), SK스퀘어(11.64%), 기아(10.47%), HD현대중공업(9.0%) 등도 강세다. LG에너지솔루션(9.5%), 삼성바이오로직스(6.86%), KB금융(9.08%), 삼성물산(8.82%) 등 주요 대형주 역시 상승 흐름을 나타내고 있다.\n코스닥 시장에서도 바이오 종목 중심으로 상승세가 이어지고 있다. 알테오젠(8.13%), 에코프로(13.15%), 에코프로비엠(12.56%), 레인보우로보틱스(9.66%) 등이 일제히 상승하며 낙폭 회복 흐름을 보이고 있다.\n이 같은 반등 흐름은 간밤 미국 증시가 상승 마감한 영향으로 풀이된다. 미국 증시는 다우지수는 0.5%, 스탠더드앤드푸어스(S&P)500은 0.8%, 나스닥은 1.3% 오르며 기술주 중심의 반등세가 나타났다. 엔비디아가 1.6% 상승한 가운데 마이크론은 5.5% 급등했고 브로드컴도 1.2% 오르며 상승 흐름을 이어갔다.\n증권가에서는 최근 코스피 급락이 과도했던 만큼 기술적 반등 가능성에 주목하고 있다. 한지영 키움증권 연구원은 “서킷 브레이커까지 발동될 정도의 폭락을 대부분 시장 참여자들이 저가 매수세의 기회로 인식하며 증시에 회복력을 부여했다”고 설명했다."
+        },
         {
           "title": "[서울데이터랩]원익IPS 26.70% 상승하며 강세",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0003623174&office_id=081&code=277810&page=1&sm=title_entity_id.basic",
@@ -41,95 +111,27 @@
           "date": "2026.03.05 09:48",
           "source": "아시아경제",
           "has_name": false
-        },
-        {
-          "title": "프리마켓서 삼전·하닉 10% 이상 급상승…낙폭 회복하나 [코주부]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004595902&office_id=011&code=277810&page=2&sm=title_entity_id.basic",
-          "date": "2026.03.05 08:23",
-          "source": "서울경제",
-          "has_name": false
         }
       ],
       "related_stocks": [
         {
           "name": "[로봇] 두산로보틱스",
-          "change_rate": "+13.9%"
+          "change_rate": "+13.3%"
         },
         {
           "name": "[반도체] 삼성전자",
-          "change_rate": "+11.9%"
+          "change_rate": "+11.6%"
         },
         {
           "name": "[로봇] 로보티즈",
-          "change_rate": "+10.2%"
+          "change_rate": "+9.9%"
         },
         {
           "name": "[로봇] 뉴로메카",
-          "change_rate": "+8.1%"
+          "change_rate": "+8.6%"
         }
       ],
-      "timestamp": "2026-03-05 13:53:54"
-    },
-    {
-      "id": "sig_20260305_KR_002",
-      "theme": "#이차전지소재",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "에코프로은(는) 에코프로, 인터배터리에서 하이니켈 삼원계 및 전고체 소재 공개 등의 영향으로 상승 마감했습니다.",
-      "main_stock": {
-        "name": "에코프로",
-        "symbol": "086520",
-        "change_rate": "+21.4%",
-        "news_url": "https://finance.naver.com/item/news.naver?code=086520"
-      },
-      "news_articles": [
-        {
-          "title": "에코프로, 로봇시대 겨냥…전고체 배터리 소재 라인업 공개",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003404625&office_id=030&code=086520&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 13:35",
-          "source": "전자신문",
-          "has_name": true
-        },
-        {
-          "title": "에코프로, 하이니켈 중심 삼원계·전고체 배터리 소재 라인업 공개",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000478188&office_id=629&code=086520&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 11:05",
-          "source": "더팩트",
-          "has_name": true
-        },
-        {
-          "title": "에코프로, 인터배터리 2026 참가…차세대 배터리 소재 공개",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001010492&office_id=031&code=086520&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 10:19",
-          "source": "아이뉴스24",
-          "has_name": true
-        },
-        {
-          "title": "에코프로, 인터배터리에서 하이니켈 삼원계 및 전고체 소재 공개",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005325629&office_id=008&code=086520&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 09:59",
-          "source": "머니투데이",
-          "has_name": true
-        },
-        {
-          "title": "“손절·존버 갈피 못잡겠어요” 개미들...관건은 ‘빚투’",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002775001&office_id=021&code=086520&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 12:07",
-          "source": "문화일보",
-          "has_name": false
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[이차전지소재] 에코프로비엠",
-          "change_rate": "+20.4%"
-        },
-        {
-          "name": "[이차전지소재] 포스코퓨처엠",
-          "change_rate": "+12.6%"
-        }
-      ],
-      "timestamp": "2026-03-05 13:53:54"
+      "timestamp": "2026-03-05 15:00:31"
     },
     {
       "id": "sig_20260305_KR_003",
@@ -140,10 +142,18 @@
       "main_stock": {
         "name": "에코프로비엠",
         "symbol": "247540",
-        "change_rate": "+20.2%",
+        "change_rate": "+22.3%",
         "news_url": "https://finance.naver.com/item/news.naver?code=247540"
       },
       "news_articles": [
+        {
+          "title": "프리마켓서 삼전·하닉 10% 이상 급상승…낙폭 회복하나 [코주부]",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004595902&office_id=011&code=247540&page=3&sm=title_entity_id.basic",
+          "date": "2026.03.05 08:23",
+          "source": "서울경제",
+          "has_name": false,
+          "content": "프리마켓서 삼성전자 11.61% 상승\nSK하이닉스도 11.54% 올라 반등\n전날 급락했던 코스피 주요 종목들이 프리마켓에서 일제히 반등하며 낙폭 회복 기대감이 커지고 있다. 미국 증시 반등의 영향으로 반도체와 자동차 등 대형주 중심의 저가 매수세가 유입되는 모습이다.\n5일 넥스트트레이드에 따르면 오전 8시 15분 기준 프리마켓에서 삼성전자는 전일 대비 11.61% 오른 19만 2200원에 거래되고 있다. SK하이닉스 역시 11.54% 상승한 94만 7000원을 기록하며 반도체 대형주가 나란히 10%를 넘는 강세를 보이고 있다.\n반도체 외에도 주요 시가총액 상위 종목들의 반등이 두드러진다. 현대차는 13.37% 오른 56만 8000원에 거래되고 있으며 두산에너빌리티(13.28%), SK스퀘어(11.64%), 기아(10.47%), HD현대중공업(9.0%) 등도 강세다. LG에너지솔루션(9.5%), 삼성바이오로직스(6.86%), KB금융(9.08%), 삼성물산(8.82%) 등 주요 대형주 역시 상승 흐름을 나타내고 있다.\n코스닥 시장에서도 바이오 종목 중심으로 상승세가 이어지고 있다. 알테오젠(8.13%), 에코프로(13.15%), 에코프로비엠(12.56%), 레인보우로보틱스(9.66%) 등이 일제히 상승하며 낙폭 회복 흐름을 보이고 있다.\n이 같은 반등 흐름은 간밤 미국 증시가 상승 마감한 영향으로 풀이된다. 미국 증시는 다우지수는 0.5%, 스탠더드앤드푸어스(S&P)500은 0.8%, 나스닥은 1.3% 오르며 기술주 중심의 반등세가 나타났다. 엔비디아가 1.6% 상승한 가운데 마이크론은 5.5% 급등했고 브로드컴도 1.2% 오르며 상승 흐름을 이어갔다.\n증권가에서는 최근 코스피 급락이 과도했던 만큼 기술적 반등 가능성에 주목하고 있다. 한지영 키움증권 연구원은 “서킷 브레이커까지 발동될 정도의 폭락을 대부분 시장 참여자들이 저가 매수세의 기회로 인식하며 증시에 회복력을 부여했다”고 설명했다."
+        },
         {
           "title": "[서울데이터랩]원익IPS 26.70% 상승하며 강세",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0003623174&office_id=081&code=247540&page=1&sm=title_entity_id.basic",
@@ -171,34 +181,27 @@
           "date": "2026.03.05 09:59",
           "source": "머니투데이",
           "has_name": false
-        },
-        {
-          "title": "프리마켓서 삼전·하닉 10% 이상 급상승…낙폭 회복하나 [코주부]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004595902&office_id=011&code=247540&page=3&sm=title_entity_id.basic",
-          "date": "2026.03.05 08:23",
-          "source": "서울경제",
-          "has_name": false
         }
       ],
       "related_stocks": [
         {
           "name": "[이차전지소재] 에코프로",
-          "change_rate": "+21.4%"
+          "change_rate": "+23.6%"
         },
         {
           "name": "[이차전지소재] 포스코퓨처엠",
-          "change_rate": "+12.6%"
+          "change_rate": "+13.1%"
         },
         {
           "name": "[화학] LG화학",
-          "change_rate": "+7.2%"
+          "change_rate": "+6.4%"
         },
         {
           "name": "[이차전지] LG에너지솔루션",
           "change_rate": "+7.8%"
         }
       ],
-      "timestamp": "2026-03-05 13:53:54"
+      "timestamp": "2026-03-05 15:00:31"
     },
     {
       "id": "sig_20260305_KR_004",
@@ -209,10 +212,18 @@
       "main_stock": {
         "name": "키움증권",
         "symbol": "039490",
-        "change_rate": "+20.1%",
+        "change_rate": "+18.9%",
         "news_url": "https://finance.naver.com/item/news.naver?code=039490"
       },
       "news_articles": [
+        {
+          "title": "키움증권 \"티씨케이, AI수혜에 따른 깜짝실적 예상…목표가↑\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015938732&office_id=001&code=039490&page=4&sm=title_entity_id.basic",
+          "date": "2026.03.05 08:36",
+          "source": "연합뉴스",
+          "has_name": true,
+          "content": "(서울=연합뉴스) 김유향 기자 = 키움증권은 티씨케이의 올해 1분기 영업이익이 시장 기대치를 크게 웃돌 것이라며 5일 목표주가를 기존 30만원에서 32만원으로 상향했다. 투자 의견은 '매수'로 유지했다.\n박유악 연구원은 올해 인공지능(AI)을 위한 기업용 솔리드 스테이트 드라이브(eSSD) 수요가 확대됨에 따라 티씨케이 제품 판매량 급증이 예상된다며 올해 1분기 영업이익을 전 분기 대비 59% 늘어난 294억원으로 예상했다.\n구체적으로는 \"eSSD 수요가 늘어나고 고객사들이 9세대 낸드 제품 양산을 본격화하며 실리콘카바이드(SiC) 포커스링의 수요가 성장하기 시작했다\"고 설명했다.\nSiC링은 반도체 제조 공정 시 웨이퍼를 잡아주는 링 형태의 소모성 부품이다.\n이어 HBM4e(7세대 고대역폭 메모리)의 16단 제품부터 적용될 것으로 예상되는 하이브리드 코퍼 본딩(HCB) 공정에 티씨케이의 SiC 포커스링이 적용됨에 따라 AI 산업의 큰 수혜를 보기 시작할 것이라고 내다봤다.\n아울러 \"티씨케이가 올해 1분기에 중국 장비 업체를 신규 고객으로 확보해 중장기적 실적 성장 동력을 추가로 마련했다\"고 덧붙였다.\n박 연구원은 티씨케이를 업종 최선호주로 유지하며 \"전쟁 우려 등으로 급락한 현재 상황을 티씨케이에 대한 비중 확대 기회\"로 분석했다.\n현재 코스닥시장에서 티씨케이의 주가는 전날 종가 기준 19만9천500원이다.\nwillow@yna.co.kr"
+        },
         {
           "title": "키움증권, 여전한 브로커리지 의존…호실적에 가려진 '아킬레스건'",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080324&office_id=293&code=039490&page=3&sm=title_entity_id.basic",
@@ -222,47 +233,180 @@
         },
         {
           "title": "키움증권 \"티씨케이, AI수혜에 따른 깜짝실적 예상…목표가↑\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015938732&office_id=001&code=039490&page=4&sm=title_entity_id.basic",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015938732&office_id=001&code=039490&page=5&sm=title_entity_id.basic",
           "date": "2026.03.05 08:36",
           "source": "연합뉴스",
           "has_name": true
         },
         {
-          "title": "\"모바일 칩 흐름 탔다\"…삼성전자, ‘엑시노스 2700’으로 판 흔들까",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013803490&office_id=003&code=039490&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 13:10",
-          "source": "뉴시스",
+          "title": "중동發 리스크에 롤러코스터 탄 코스피…왜 한국만 더 출렁였을까",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000123692&office_id=586&code=039490&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 15:00",
+          "source": "시사저널",
           "has_name": false
         },
         {
-          "title": "“한 달만 버티면 되는 거였다고?”…전쟁 쇼크에 손절 버튼 누른 개.....",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004596045&office_id=011&code=039490&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 12:35",
-          "source": "서울경제",
-          "has_name": false
-        },
-        {
-          "title": "“육천피 다시” 이란 전쟁에 ‘정유’ ‘방산’ ‘조선’ 웃는다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002774955&office_id=021&code=039490&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 11:49",
-          "source": "문화일보",
+          "title": "ETN 10개 중 1개는 월 100만원도 거래 안 된 '좀비 상품'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080355&office_id=293&code=039490&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 14:40",
+          "source": "블로터",
           "has_name": false
         }
       ],
       "related_stocks": [
         {
           "name": "[금융] 미래에셋증권",
-          "change_rate": "+17.2%"
+          "change_rate": "+16.8%"
         },
         {
           "name": "[금융] NH투자증권",
-          "change_rate": "+12.2%"
+          "change_rate": "+11.6%"
         }
       ],
-      "timestamp": "2026-03-05 13:53:54"
+      "timestamp": "2026-03-05 15:00:31"
     },
     {
       "id": "sig_20260305_KR_005",
+      "theme": "#금융",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "미래에셋증권은(는) [특징주]증시 급반등에 증권주 '불기둥'…SK증권 23%대↑ 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "미래에셋증권",
+        "symbol": "006800",
+        "change_rate": "+17.3%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=006800"
+      },
+      "news_articles": [
+        {
+          "title": "[특징주]증시 급반등에 증권주 '불기둥'…SK증권 23%대↑",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005729662&office_id=277&code=006800&page=3&sm=title_entity_id.basic",
+          "date": "2026.03.05 09:58",
+          "source": "아시아경제",
+          "has_name": false,
+          "content": "이란 사태로 급락했던 코스피·코스닥이 반등하면서 5일 오전 국내 증시에서 SK증권을 비롯한 증권관련주가 일제히 강세를 나타내고 있다.\n이날 오전 9시48분 현재 SK증권의 주가는 전장 대비 23.84% 오른 주당 1839원에 거래되고 있다. 미래에셋증권과 상상인증권 역시 각각 20.53%, 20.26% 치솟았다. 한화투자증권(18.12%), 키움증권(14.77%), NH투자증권(13.54%), 삼성증권(10.57%) 등 주요 증권주들도 오름세를 보이고 있다.\n이는 미국의 이란 공습 이후 이틀 연속 급락했던 증시가 이날 반등한 데 따른 여파로 풀이된다. 이날 장이 시작되자마자 코스피·코스닥 모두 매수 사이드카가 발동했고, 삼성전자를 비롯한 시가총액상위 종목 대부분이 강세를 나타내고 있다.\n최근 증시 급락과 반등으로 거래대금이 늘어난 것 역시 증권주 매수 배경이 됐다. 유가증권시장, 코스닥 시장, 코넥스 시장의 총 거래대금은 지난 3일 69조6990억원, 4일 79조4720억원으로 집계됐다. 이는 올해 일평균 거래대금(45조3500억원)을 훨씬 상회하는 수준이다."
+        },
+        {
+          "title": "어제 증시 폭락하는데…미래에셋증권, ETF 급락 알람 지연 발송",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000840720&office_id=422&code=006800&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 14:32",
+          "source": "연합뉴스TV",
+          "has_name": true
+        },
+        {
+          "title": "[서울데이터랩]미래에셋증권 17.35% 상승 급등세 기록",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003623175&office_id=081&code=006800&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:39",
+          "source": "서울신문",
+          "has_name": true
+        },
+        {
+          "title": "[단독] 장 끝났는데 ‘ETF 급락 알림’ 우르르…미래에셋증권 MTS...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003013992&office_id=029&code=006800&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 11:29",
+          "source": "디지털타임스",
+          "has_name": true
+        },
+        {
+          "title": "미래에셋증권 \"삼성전자, 급락에도 목표가 유지…펀더멘털 훼손 없어...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013802374&office_id=003&code=006800&page=5&sm=title_entity_id.basic",
+          "date": "2026.03.05 08:40",
+          "source": "뉴시스",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[금융] NH투자증권",
+          "change_rate": "+11.6%"
+        },
+        {
+          "name": "[금융] 삼성증권",
+          "change_rate": "+9.0%"
+        },
+        {
+          "name": "[금융] 키움증권",
+          "change_rate": "+18.9%"
+        }
+      ],
+      "timestamp": "2026-03-05 15:00:31"
+    },
+    {
+      "id": "sig_20260305_KR_006",
+      "theme": "#정유",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "SK이노베이션은(는) SK·한수원 투자 '테라파워', 美 최초 상업용 SMR 건설 승인 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "SK이노베이션",
+        "symbol": "096770",
+        "change_rate": "+16.7%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=096770"
+      },
+      "news_articles": [
+        {
+          "title": "SK·한수원 투자 '테라파워', 美 최초 상업용 SMR 건설 승인",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001010599&office_id=031&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:52",
+          "source": "아이뉴스24",
+          "has_name": false,
+          "content": "테라파워, SMR 건설 착수...2030년 실증로 가동 목표\nSK·한수원·테라파워 SMR 시장 공략 본격화\nSK이노베이션은 한국수력원자력(한수원)과 투자한 미국 차세대 소형모듈원전(SMR) 기업 테라파워가 미국 원자력규제위원회(NRC)로부터 상업용 첨단 원자력 발전소 건설을 승인받았다고 5일 밝혔다.\nNRC가 신규 상업용 원전 건설을 허가한 것은 10년 만이며, SMR과 같은 첨단 원전의 건설 승인은 미국 내 최초 사례다.\n이번 승인으로 테라파워는 미국 와이오밍주에 세계 최초 상업용 SMR 플랜트 건설에 본격 착수하고 2030년 실증로 가동을 목표로 개발을 추진할 예정이다. SK이노베이션·한수원과 글로벌 SMR 시장 진출을 본격화할 전망이다.\n이번 NRC의 건설 승인은 테라파워가 보유한 차세대 SMR 기술의 안전성과 기술적 완성도를 규제기관에서 공식적으로 인정했다는 의미다.\n테라파워는 빌 게이츠가 2008년 설립한 차세대 SMR 선두기업으로, 액체 나트륨 냉각 기술을 활용해 기존 원전에 비해 발전 효율과 안전성을 크게 높였다. 끓는 점이 880도에 달하는 액체 나트륨 냉각재는 더 많은 열을 흡수해 발전 출력을 높이고, 사용후 핵연료 발생량도 기존 대비 10% 수준으로 줄일 수 있다는 점에서 친환경성과 경제성을 동시에 확보했다.\n특히 테라파워의 SMR 기술은 에너지저장장치를 활용해 전력 수요에 따라 발전량을 유연하게 조절할 수 있는 부하 추종 운전이 가능하다. 이로 인해 변동성이 큰 재생에너지와 보완적 시너지가 크다는 점에서 타 SMR 기술 대비 뚜렷한 강점을 지니고 있다.\nSK㈜와 SK이노베이션은 지난 2022년 8월 공동으로 테라파워에 2억 5000만 달러를 투자해 2대 주주가 됐고, 테라파워 SMR 기술 상용화와 글로벌 사업 확장 추진 등 협력을 지속해왔다. 이어 SK이노베이션과 한수원, 테라파워는 2023년 3월 차세대 SMR 개발 및 사업화를 위한 업무협약을 체결했고, 테라파워가 개발중인 소듐냉각고속로(Sodium-cooled Fast Reactor, SFR) 기반 4세대 SMR의 실증과 상업용 원자로 개발 등에 협력해 왔다.\nSK이노베이션은 에너지·소재 분야에서 축적한 경쟁력과 한수원이 보유한 원전 건설·운영 노하우를 결합해, 국내외 데이터센터 등 다양한 산업 현장에 SMR 생태계를 구축한다는 방침이다.\n최태원 SK그룹 회장은 지난달 미국 워싱턴DC에서 진행된 최종현학술원 주최 ‘트랜스퍼시픽 다이얼로그 2026’ 환영사에서 AI산업의 성패를 가를 핵심 변수로 에너지확보의 중요성을 언급하며 “SK는 AI 데이터센터와 발전소를 함께 짓는 새로운 설루션을 준비하고 있다”고 강조했다. 또 AI산업이 창출하는 막대한 신규 에너지 수요에 대응하기 위해 SMR과 같은 ‘새로운 에너지 소스’가 필요하다고 덧붙였다.\n지난해 8월에는 최 회장이 빌 게이츠(Bill Gates) 게이츠재단 이사장과 서울에서 만나 만찬 회동을 갖고 SMR 등 에너지 사업 분야에서 사업협력과 전략적 파트너십을 한층 강화하기로 한 바 있다. 게이츠 이사장은 지난 2008"
+        },
+        {
+          "title": "'SK 투자' 테라파워, 미국 첫 상업용 SMR 승인",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001244031&office_id=215&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 14:47",
+          "source": "한국경제TV",
+          "has_name": false
+        },
+        {
+          "title": "‘SK·한수원 투자’ 테라파워, 美 최초 상업용 SMR 건설 승인",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001146053&office_id=366&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:49",
+          "source": "조선비즈",
+          "has_name": false
+        },
+        {
+          "title": "EU 산업가속화법 공개에 업계 '희비'…배터리는 기대, 車수출은 긴장",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005729746&office_id=277&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 10:46",
+          "source": "아시아경제",
+          "has_name": false
+        },
+        {
+          "title": "[MWC라이브] 정석근 SKT CTO가 짚은 AI 경쟁 변수 '인프라'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080320&office_id=293&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 08:05",
+          "source": "블로터",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[정유] S-Oil",
+          "change_rate": "+3.5%"
+        },
+        {
+          "name": "[이차전지] LG에너지솔루션",
+          "change_rate": "+7.9%"
+        },
+        {
+          "name": "[그룹사] SK",
+          "change_rate": "+9.5%"
+        },
+        {
+          "name": "[그룹사] SK하이닉스",
+          "change_rate": "+12.8%"
+        },
+        {
+          "name": "[그룹사] SK텔레콤",
+          "change_rate": "+10.4%"
+        }
+      ],
+      "timestamp": "2026-03-05 15:00:31"
+    },
+    {
+      "id": "sig_20260305_KR_007",
       "theme": "#물류",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
@@ -270,10 +414,18 @@
       "main_stock": {
         "name": "현대글로비스",
         "symbol": "011210",
-        "change_rate": "+19.4%",
+        "change_rate": "+16.5%",
         "news_url": "https://finance.naver.com/item/news.naver?code=011210"
       },
       "news_articles": [
+        {
+          "title": "배터리 3사, 전기차 넘어 ESS-로봇 경쟁",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003700747&office_id=020&code=011210&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 00:31",
+          "source": "동아일보",
+          "has_name": false,
+          "content": "내주 개막 ‘인터배터리’ 총출동\n차세대 기술-신시장 전략 공개\nLG에너지솔루션, 삼성SDI, SK온 등 국내 배터리 3사는 11∼13일 서울 강남구 코엑스에서 열리는 국내 최대 배터리 전시회 ‘인터배터리 2026’에 참가해 차세대 배터리 기술과 신시장 전략을 공개한다고 2일 밝혔다. 올해 인터배터리에서는 기업들이 전기차(EV)뿐만 아니라 인공지능(AI) 데이터센터용 에너지저장장치(ESS), 로봇, 드론 등과 관련된 미래 기술을 선보이는 것이 특징이다.\nLG에너지솔루션은 국내 전력 인프라에 최적화한 ESS 솔루션인 ‘JF2 DC 링크 5.0’을 전시한다. 5월부터 본격 생산에 들어가는 해당 솔루션은 LG에너지솔루션의 리튬인산철(LFP) 배터리인 JF2를 기반으로 제작된다. 화재 안전성을 강화하고 설치 및 운용의 효율성을 높였다고 회사는 강조했다. LG에너지솔루션은 또 성장 잠재력이 높은 로보틱스 및 드론 영역에서도 자사 배터리가 탑재된 사례를 소개한다. LG전자의 홈로봇 ‘LG 클로이드’와 베어로보틱스의 자율주행 로봇 ‘카티(Carti)100’ 등을 전시할 예정이다.\n삼성SDI는 AI 데이터센터의 전력 공백을 최소화시키는 초고출력 배터리를 전면에 내세운다. 대표적으로 각형 배터리 ‘U8A1’을 기반으로 한 무정전 전원장치(UPS)와 고출력·고용량 원통형 배터리를 적용한 배터리백업유닛(BBU) 솔루션 등을 선보인다. ESS용 일체형 배터리 솔루션인 ‘삼성배터리박스(SBB)’도 선보인다. 아울러 내년 양산 목표인 전고체 배터리가 로봇에 탑재된 ‘피지컬 AI’ 사례도 소개할 예정이다.\nSK온은 ESS를 중점 사업으로 내세운다. 높은 에너지 밀도를 자랑하는 LFP 파우치형 배터리와 안정성을 강화한 컨테이너형 ESS 솔루션을 선보인다. 로봇 분야에서는 니켈 함량이 높아 에너지 밀도가 높은 하이니켈 삼원계 배터리 기반의 현대위아 물류로봇(AMR)을 전시한다. 이 로봇은 현대자동차그룹 메타플랜트 아메리카(HMGMA) 등 산업 현장에 활용되고 있다."
+        },
         {
           "title": "중동 전운에 코스피 요동…방산·정유 '급등' vs 항공·여행 '추락'",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0000093867&office_id=243&code=011210&page=1&sm=title_entity_id.basic",
@@ -301,19 +453,12 @@
           "date": "2026.03.03 07:44",
           "source": "헤럴드경제",
           "has_name": false
-        },
-        {
-          "title": "혁신으로 캐즘 뚫는다… K배터리사 ‘ESS·로봇·AI 정조준",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004109635&office_id=022&code=011210&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.03 06:02",
-          "source": "세계일보",
-          "has_name": false
         }
       ],
       "related_stocks": [
         {
           "name": "[그룹사] 현대차",
-          "change_rate": "+11.0%"
+          "change_rate": "+10.6%"
         },
         {
           "name": "[해운] HMM",
@@ -321,150 +466,18 @@
         },
         {
           "name": "[그룹사] 현대모비스",
-          "change_rate": "+9.0%"
+          "change_rate": "+8.6%"
         },
         {
           "name": "[그룹사] 현대해상",
-          "change_rate": "+5.1%"
+          "change_rate": "+5.3%"
         },
         {
           "name": "[그룹사] 현대건설",
-          "change_rate": "+12.4%"
+          "change_rate": "+12.1%"
         }
       ],
-      "timestamp": "2026-03-05 13:53:54"
-    },
-    {
-      "id": "sig_20260305_KR_006",
-      "theme": "#정유",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "SK이노베이션은(는) ‘100% 재생 플라스틱’ 친환경 우산… 통째로 버려도 재활용 가능 등의 영향으로 상승 마감했습니다.",
-      "main_stock": {
-        "name": "SK이노베이션",
-        "symbol": "096770",
-        "change_rate": "+18.8%",
-        "news_url": "https://finance.naver.com/item/news.naver?code=096770"
-      },
-      "news_articles": [
-        {
-          "title": "‘100% 재생 플라스틱’ 친환경 우산… 통째로 버려도 재활용 가능",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003701509&office_id=020&code=096770&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 04:34",
-          "source": "동아일보",
-          "has_name": false,
-          "content": "[행복 나눔] 친환경 우산 만드는 ‘에이트린’\n원단부터 살대까지 소재 단일화\n부품 120→24개로 대폭 줄이고\n고장나면 해당 부품만 교체 가능\n우산 1개당 탄소 배출량 770g↓\n“국내 연간 우산 폐기량은 약 4000만 개로 추산되는데, 국민 대다수가 1년에 1개 정도 우산을 버리는 셈입니다. 사용할 때뿐만 아니라 버릴 때도 환경에 유해하지 않도록 설계된 우산을 만들고 싶었습니다.”\n친환경 우산을 만드는 소셜벤처 기업 ‘에이트린(8reen)’의 정우재 대표(32)는 “3년 전만 해도 아무도 친환경 우산을 제작하려고 하지 않았다”며 “세상을 긍정적으로 바꾸는 데 기여하기 위해 다니던 직장을 그만두고 창업했다”며 이같이 말했다. 2023년 ‘재생 플라스틱 단일 소재화를 통한 우산의 자원 순환 구현’을 목표로 설립된 에이트린은 폐기할 때 분해할 필요가 없고 재활용이 가능한 친환경 우산을 제작하고 있다.\n● 재생 플라스틱으로 친환경 우산 제작\n정 대표는 망가진 우산을 버리다 폐기물 발생의 심각성을 알게 됐다. 우산 손잡이는 보통 플라스틱으로 만들고 살대는 금속, 원단은 폴리에스터 등 다양한 소재로 제작된다. 또 강력 접착제, 나사 등을 사용해서 쉽게 분리되지 않도록 한다. 하지만 수명을 다하고 버릴 때는 소재별로 분리되지 않아 재활용하기 어렵고 대부분 소각하거나 매립하고 있다. 환경에 악영향을 미치는 것이다. 또 1만 원 이하 저가형 우산 위주로 보급돼 우산을 일회용품처럼 인식하고 쉽게 사고 쉽게 버리는 소비문화도 형성됐다. 그는 “우산도 분해해서 버려야 하는데, 다양한 소재로 만들고 접착제 등으로 강하게 고정돼 제대로 분해하려면 30분 정도 걸린다”며 “소비자들은 종량제 봉투에 그냥 버릴 때가 많아 재활용률이 0%에 가까울 정도로 낮다”고 말했다.\n에이트린은 원단, 살대, 손잡이 등 모든 부품을 재생 플라스틱을 활용해 제작하기로 했다. 또 소재를 단일화해 소비자가 우산을 분리하지 않고 버려도 재활용이 가능하도록 설계했다. 보통 우산 부품은 120개 정도인데 에이트린은 24개 정도로 대폭 줄였다. 별도 도구 없이 손으로 30초 만에 모든 부품을 분리할 수 있도록 했고, 고장이 나면 해당 부품만 교체해 다시 사용할 수 있도록 만들었다. 나사 없이 결합된 부품을 개별 교체하는 방식이다. 에이트린은 이와 관련해 특허와 디자인권 등 15개의 지식재산권을 보유하고 있다.\n에이트린의 친환경 우산 판매량은 2023년 3300개, 2024년 6400개, 지난해 9000개로 꾸준히 늘고 있다. 지난해 9월 자원 순환성 향상 및 유해 물질 저감 등에 기여한 점을 인정받아 국내 최초로 우산 부문 환경표지 기후에너지환경부 인증을 받았다. 정 대표는 “소비자가 우산 부품을 구입해 쉽게 수리하고 조립할 수 있는 환경을 만들고 싶다”며 “올해 상반기 우산 부품과 조립 키트 등을 출시할 계획”이라고 말했다.\n● 친환경 우산 판매량은 성장세\n에이트린은 국내 우산 시장의 근본적인 변화를 도모했다. 정 대표는 “우산의 부품 종류와 개수를 줄이고 조립 과정을 간소화해 기존 우산 "
-        },
-        {
-          "title": "SK·한수원 투자 '테라파워', 美 최초 상업용 SMR 건설 승인",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001010599&office_id=031&code=096770&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 13:52",
-          "source": "아이뉴스24",
-          "has_name": false
-        },
-        {
-          "title": "EU 산업가속화법 공개에 업계 '희비'…배터리는 기대, 車수출은 긴장",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005729746&office_id=277&code=096770&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 10:46",
-          "source": "아시아경제",
-          "has_name": false
-        },
-        {
-          "title": "[MWC라이브] 정석근 SKT CTO가 짚은 AI 경쟁 변수 '인프라'",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080320&office_id=293&code=096770&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 08:05",
-          "source": "블로터",
-          "has_name": false
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[정유] S-Oil",
-          "change_rate": "+2.1%"
-        },
-        {
-          "name": "[이차전지] LG에너지솔루션",
-          "change_rate": "+7.8%"
-        },
-        {
-          "name": "[그룹사] SK",
-          "change_rate": "+10.3%"
-        },
-        {
-          "name": "[그룹사] SK하이닉스",
-          "change_rate": "+12.5%"
-        },
-        {
-          "name": "[그룹사] SK텔레콤",
-          "change_rate": "+10.0%"
-        }
-      ],
-      "timestamp": "2026-03-05 13:53:54"
-    },
-    {
-      "id": "sig_20260305_KR_007",
-      "theme": "#금융",
-      "signal_type": "이슈",
-      "short_reason": "수급 변화, 업황 변동",
-      "summary": "미래에셋증권은(는) [특징주]증시 급반등에 증권주 '불기둥'…SK증권 23%대↑ 등의 영향으로 상승 마감했습니다.",
-      "main_stock": {
-        "name": "미래에셋증권",
-        "symbol": "006800",
-        "change_rate": "+17.2%",
-        "news_url": "https://finance.naver.com/item/news.naver?code=006800"
-      },
-      "news_articles": [
-        {
-          "title": "[서울데이터랩]미래에셋증권 17.35% 상승 급등세 기록",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003623175&office_id=081&code=006800&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 13:39",
-          "source": "서울신문",
-          "has_name": true
-        },
-        {
-          "title": "[단독] 장 끝났는데 ‘ETF 급락 알림’ 우르르…미래에셋증권 MTS ...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003013992&office_id=029&code=006800&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 11:29",
-          "source": "디지털타임스",
-          "has_name": true
-        },
-        {
-          "title": "미래에셋증권 \"삼성전자, 급락에도 목표가 유지…펀더멘털 훼손 없어...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013802374&office_id=003&code=006800&page=5&sm=title_entity_id.basic",
-          "date": "2026.03.05 08:40",
-          "source": "뉴시스",
-          "has_name": true
-        },
-        {
-          "title": "미래에셋증권 “삼성전자, 3일 동안 20% 급락했어도 사라”…이유는?",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005645420&office_id=009&code=006800&page=5&sm=title_entity_id.basic",
-          "date": "2026.03.05 07:49",
-          "source": "매일경제",
-          "has_name": true
-        },
-        {
-          "title": "구글 플레이, 인앱 결제 수수료 인하…게임주 수혜 볼까",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005645627&office_id=009&code=006800&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 12:53",
-          "source": "매일경제",
-          "has_name": false
-        }
-      ],
-      "related_stocks": [
-        {
-          "name": "[금융] NH투자증권",
-          "change_rate": "+12.2%"
-        },
-        {
-          "name": "[금융] 삼성증권",
-          "change_rate": "+9.9%"
-        },
-        {
-          "name": "[금융] 키움증권",
-          "change_rate": "+20.0%"
-        }
-      ],
-      "timestamp": "2026-03-05 13:53:54"
+      "timestamp": "2026-03-05 15:00:31"
     },
     {
       "id": "sig_20260305_KR_008",
@@ -475,21 +488,22 @@
       "main_stock": {
         "name": "HD현대일렉트릭",
         "symbol": "322000",
-        "change_rate": "+16.7%",
+        "change_rate": "+15.9%",
         "news_url": "https://finance.naver.com/item/news.naver?code=322000"
       },
       "news_articles": [
         {
-          "title": "태양광 산업 밸류체인 바꾼다..HD현대엔솔의 탠덤셀 승부수",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324224&office_id=008&code=322000&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.03 05:50",
-          "source": "머니투데이",
-          "has_name": false
-        },
-        {
           "title": "K태양광, 새로운 밸류체인 밝힌다",
           "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324196&office_id=008&code=322000&page=1&sm=title_entity_id.basic",
           "date": "2026.03.03 04:03",
+          "source": "머니투데이",
+          "has_name": false,
+          "content": "[R&D인사이드] HD현대엔솔 '페로브스카이트-실리콘 탠덤셀'\n습식 아닌 건식공법 키포인트\n기존 전지대비 40%효율 기대\n대면적화·내구성 확보 등 집중\n\"탠덤 태양전지는 기존 중국 중심의 기술과 공급망에서 일정 부분 벗어나 국내에 태양광산업 밸류체인을 새로 구축할 수 있는 소자입니다.\"\n지난달 13일 경기 성남시 분당구의 HD현대 글로벌R&D(연구·개발)센터(GRC)에서 만난 김태준 HD현대에너지솔루션 R&D부문장(사진)은 차세대 태양전지 '페로브스카이트-실리콘 탠덤셀(HJT)'의 의미를 이렇게 정의한 뒤 \"페로브스카이트는 반도체·전자재료에 쓰이는 소재로 해당 산업에 강점을 보유한 한국이 독립적인 공급망과 기술력을 확보할 수 있을 것\"이라고 밝혔다.\n태양광 공급망의 '게임체인저'를 개발하고 있다는 자신감과 자부심이 그대로 전해졌다. 현재 시중에 설치된 태양광 패널의 90% 이상은 실리콘 태양전지를 사용하는데 여기에 신소재 페로브스카이트를 더하면 성능이 극대화될 수 있을 것으로 보고 있다.\n김 부문장은 \"이 탠덤셀은 쉽게 말해 태양전지를 두 층으로 쌓는 개념\"이라며 \"위층이 먼저 강한 빛을 흡수하고 아래층이 남은 빛을 다시 흡수한다\"고 설명했다. 이어 \"기존 실리콘 중심 셀을 아래에 두고 그 위에 신소재 페로브스카이트를 쌓으면 이론적으로 40%가 넘는 효율을 낼 수 있다\"고 말했다.\nHD현대에너지솔루션은 2023년부터 이미 보유한 고효율 HJT(헤테로정션) 실리콘셀에 페로브스카이트를 접목하는 방식으로 탠덤셀 개발에 돌입했다. 초기에는 실리콘셀 위에 페로브스카이트를 안정적으로 쌓는 공정이 관건이었다. 당시 대다수 기업은 페로브스카이트를 액체상태로 만들어 실리콘셀 위에 도포하는 '습식공정'을 활용했기 때문이다. HD현대에너지솔루션이 선택한 해법은 발상의 전환이었다. 액체를 바르는 대신 진공상태에서 재료를 뿌리는 '건식공정'(진공증착)으로 눈을 돌렸다.\n김 부문장은 \"실리콘 태양전지는 표면에 미세한 요철구조가 있어 습식공정으로는 넓은 면적에서 균일한 막을 형성하는 데 한계가 있다\"며 \"HD현대에너지솔루션이 디스플레이패널 양산경험은 없지만 페로브스카이트가 디스플레이 소자와 같은 준반도체 소자라는 점에 착안해 건식공법을 태양전지 생산에 적용했다\"고 소개했다.\n현재는 '페로브스카이트-실리콘 탠덤셀'의 대면적화와 내구성 확보에 공을 들인다. 김 부문장은 \"탠덤기술은 한 기업만의 힘으로 완성할 수 없는 측면이 있어 소재와 장비, 셀 제조업체가 함께 성장해야 관련 산업이 열릴 것\"이라며 \"이번 기술이 국내 태양광산업이 다시 한번 도약하는 계기가 되길 바란다\"고 덧붙였다."
+        },
+        {
+          "title": "태양광 산업 밸류체인 바꾼다..HD현대엔솔의 탠덤셀 승부수",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324224&office_id=008&code=322000&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 05:50",
           "source": "머니투데이",
           "has_name": false
         }
@@ -497,91 +511,100 @@
       "related_stocks": [
         {
           "name": "[전력기기] LS ELECTRIC",
-          "change_rate": "+14.9%"
+          "change_rate": "+13.6%"
         },
         {
           "name": "[전력기기] 효성중공업",
-          "change_rate": "+9.4%"
+          "change_rate": "+8.7%"
         },
         {
           "name": "[지주사] LS",
-          "change_rate": "+8.4%"
+          "change_rate": "+8.2%"
         },
         {
           "name": "[그룹사] HD한국조선해양",
-          "change_rate": "+8.0%"
+          "change_rate": "+7.9%"
         },
         {
           "name": "[유틸리티] 한국전력",
-          "change_rate": "+7.1%"
+          "change_rate": "+6.5%"
         }
       ],
-      "timestamp": "2026-03-05 13:53:54"
+      "timestamp": "2026-03-05 15:00:31"
     },
     {
       "id": "sig_20260305_KR_009",
-      "theme": "#금융",
+      "theme": "#조선",
       "signal_type": "이슈",
       "short_reason": "수급 변화, 업황 변동",
-      "summary": "카카오페이은(는) [증권사 실적분석]토스증권, 외화증권 편중 리스크 등의 영향으로 상승 마감했습니다.",
+      "summary": "삼성중공업은(는) 부산에서 'K-조선·해운의 길'을 묻다... '2026 fn조선해양포럼... 등의 영향으로 상승 마감했습니다.",
       "main_stock": {
-        "name": "카카오페이",
-        "symbol": "377300",
-        "change_rate": "+16.1%",
-        "news_url": "https://finance.naver.com/item/news.naver?code=377300"
+        "name": "삼성중공업",
+        "symbol": "010140",
+        "change_rate": "+15.7%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=010140"
       },
       "news_articles": [
         {
-          "title": "마이크로소프트, 3월 26일 코엑스서 ‘AI 투어 서울’ 연다",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006229000&office_id=018&code=377300&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 12:07",
-          "source": "이데일리",
+          "title": "부산에서 'K-조선·해운의 길'을 묻다... '2026 fn조선해양포럼...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005486372&office_id=014&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 06:00",
+          "source": "파이낸셜뉴스",
+          "has_name": false,
+          "content": "[파이낸셜뉴스] '한미 조선협력 프로젝트 마스가(MASGA)의 넥스트 스텝은 무엇일까.' '현실화되고 있는 북극항로 개척을 위한 선결과제는 무엇인가.'\n대한민국을 넘어 '글로벌 조선해양 허브'를 향한 길을 개척하고 있는 부산에서 국내 대표 기업들과 석학들, 전문가가 이같은 질문에 대한 해답을 제시한다. 파이낸셜뉴스와 부산파이낸셜뉴스가 오는 17일 부산항국제전시컨벤션센터에서 개최하는 '2026 fn조선해양포럼'은 산업통상부, 해양수산부, 한국조선해양플랜트협회, 한국해운협회, 국립한국해양대학교 RISE 사업단, 한국해양수산개발원, 한국해양진흥공사, 부산항만공사, 한국선급, 한국산업은행, 한국수출입은행, IBK기업은행이 후원한다.\n'조선·해양 혁신을 위한 글로벌 동맹'을 주제로 열리는 이번 포럼은 HD현대중공업, 한화오션, 삼성중공업, HJ중공업 등 K-조선 대표 조선사와 국내 석학, 조선·해운 전문가들이 한자리에 모여 격동하는 조선해운 산업의 방향성을 모색한다.\n도널드 트럼프 미국 대통령의 취임 전부터 화제가 됐던 한미 조선협력 프로젝트 '마스가'는 최근 미국 해양 행동계획(MAP)을 통해 세부 로드맵이 공개되면서 윤곽이 구체화되고 있다. 유럽과 아시아를 잇는 기회의 바다를 개척하는 '북극항로' 사업은 해양수산부 이전이라는 첫 걸음을 떼며 속도를 내고 있다. fn조선해양포럼에서는 조선과 해운의 '원팀 전략'을 통한 시너지 창출을 통해 미래 성장 전략을 모색한다.\n이날 행사는 전재호 파이낸셜뉴스 회장의 개막사와 김정관 산업통상부 장관과 김성범 해양수산부 차관의 환영사를 시작으로 막을 올린다.\n첫번째 세션은 'K-조선해양 글로벌 동맹 시대 연다'를 주제로 준비된다. 이상균 한국조선해양플랜트협회 회장은 'K-조선의 글로벌 진출 전략'이라는 주제로 기조연설 무대에 오른다. 양창호 한국해운협회 상근부회장은 'K-조선해운 동맹과 글로벌 물류 협력'을 주제로 강연에 나선다.\n안해성 대한조선학회 회장은 국내 빅4 조선사들과 'K-조선 전략'에 대해 대담을 나눈다. 이 자리에서는 마스가, 해외 거점 확대, 정부 지원 등 K-조선의 현황과 풀어야 할 과제들에 대한 해법을 논의한다.\n두번째 세션은 '조선해양 기회와 위기, 그리고 북극항로'를 주제로 참가자들에게 미래 전망을 제시한다.\n박찬우 IMM Credit Solutions 최고경영자(CEO)는 '조선업 투자 이유와 앞으로의 기회'를, 최재성 클락슨코리아 대표는 '최근 선박 발주 및 해운 시사점'을 주제로 강연에 나선다.\n노동일 파이낸셜뉴스 주필은 김태희 한국산업은행 해양산업금융본부장, 김형준 한국해양진흥공사 해양전략본부장과 '북극항로가 가져올 기회&신사업 진출'을 주제로 패널토론을 진행한다.\n안해성 대한조선학회 회장은 \"한미 조선 협력의 새로운 전기를 맞아 K-조선의 글로벌 전략을 산업계와 함께 심도 있게 논의할 수 있는 자리가 마련된 것을 뜻깊게 생각한다\"며 \"이번 포럼에서 나누는 논의가 우리 조선해양 산업의 미래 경쟁력을 높이고 대한민국 수출 산업의 새로운 도약을 이끄는 실질적인 청사진이 되길 기대한다"
+        },
+        {
+          "title": "중진공, 삼성중공업 협력사 91곳과 간담회",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243930&office_id=215&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 07:32",
+          "source": "한국경제TV",
+          "has_name": true
+        },
+        {
+          "title": "[로펌ON] 광장, 이현동 전 삼성물산 준법지원인 부사장 영입",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080346&office_id=293&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:44",
+          "source": "블로터",
           "has_name": false
         },
         {
-          "title": "[증권사 실적분석]토스증권, 외화증권 편중 리스크",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001010562&office_id=031&code=377300&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 11:23",
+          "title": "중진공, K-조선 중소기업 현장 찾아 간담회 개최",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002413003&office_id=092&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 12:37",
+          "source": "지디넷코리아",
+          "has_name": false
+        },
+        {
+          "title": "에이로봇 엄윤설 대표, IFR 선정 '2026 로봇 공학계 여성 리더 ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001010521&office_id=031&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 10:43",
           "source": "아이뉴스24",
-          "has_name": false
-        },
-        {
-          "title": "MS, 한국 AI 생태계 공략 나선다…'글로벌 AI 투어' 서울 행사...",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008807768&office_id=421&code=377300&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 10:29",
-          "source": "뉴스1",
-          "has_name": false
-        },
-        {
-          "title": "티니핑·포켓몬에 얼먹 젤리까지…편의점, 화이트데이 경쟁",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005325594&office_id=008&code=377300&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 09:28",
-          "source": "머니투데이",
-          "has_name": false
-        },
-        {
-          "title": "이찬진 \"저축銀, 핀테크 수수료 합리화 발맞춰 대출금리 인하를\"",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005325482&office_id=008&code=377300&page=1&sm=title_entity_id.basic",
-          "date": "2026.03.05 04:10",
-          "source": "머니투데이",
           "has_name": false
         }
       ],
       "related_stocks": [
         {
-          "name": "[그룹사] 카카오",
-          "change_rate": "+10.1%"
+          "name": "[조선] HD한국조선해양",
+          "change_rate": "+7.9%"
         },
         {
-          "name": "[금융] 카카오뱅크",
-          "change_rate": "+9.2%"
+          "name": "[조선] HD현대중공업",
+          "change_rate": "+9.4%"
         },
         {
-          "name": "[그룹사] 카카오게임즈",
-          "change_rate": "+5.0%"
+          "name": "[조선] 한화오션",
+          "change_rate": "+12.4%"
+        },
+        {
+          "name": "[그룹사] 삼성전자",
+          "change_rate": "+11.6%"
+        },
+        {
+          "name": "[그룹사] 삼성바이오로직스",
+          "change_rate": "+8.6%"
         }
       ],
-      "timestamp": "2026-03-05 13:53:54"
+      "timestamp": "2026-03-05 15:00:31"
     },
     {
       "id": "sig_20260305_KR_010",
@@ -592,17 +615,16 @@
       "main_stock": {
         "name": "알테오젠",
         "symbol": "196170",
-        "change_rate": "+15.5%",
+        "change_rate": "+15.2%",
         "news_url": "https://finance.naver.com/item/news.naver?code=196170"
       },
       "news_articles": [
         {
-          "title": "프리마켓서 삼전·하닉 10% 이상 급상승…낙폭 회복하나 [코주부]",
-          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004595902&office_id=011&code=196170&page=2&sm=title_entity_id.basic",
-          "date": "2026.03.05 08:23",
-          "source": "서울경제",
-          "has_name": false,
-          "content": "프리마켓서 삼성전자 11.61% 상승\nSK하이닉스도 11.54% 올라 반등\n전날 급락했던 코스피 주요 종목들이 프리마켓에서 일제히 반등하며 낙폭 회복 기대감이 커지고 있다. 미국 증시 반등의 영향으로 반도체와 자동차 등 대형주 중심의 저가 매수세가 유입되는 모습이다.\n5일 넥스트트레이드에 따르면 오전 8시 15분 기준 프리마켓에서 삼성전자는 전일 대비 11.61% 오른 19만 2200원에 거래되고 있다. SK하이닉스 역시 11.54% 상승한 94만 7000원을 기록하며 반도체 대형주가 나란히 10%를 넘는 강세를 보이고 있다.\n반도체 외에도 주요 시가총액 상위 종목들의 반등이 두드러진다. 현대차는 13.37% 오른 56만 8000원에 거래되고 있으며 두산에너빌리티(13.28%), SK스퀘어(11.64%), 기아(10.47%), HD현대중공업(9.0%) 등도 강세다. LG에너지솔루션(9.5%), 삼성바이오로직스(6.86%), KB금융(9.08%), 삼성물산(8.82%) 등 주요 대형주 역시 상승 흐름을 나타내고 있다.\n코스닥 시장에서도 바이오 종목 중심으로 상승세가 이어지고 있다. 알테오젠(8.13%), 에코프로(13.15%), 에코프로비엠(12.56%), 레인보우로보틱스(9.66%) 등이 일제히 상승하며 낙폭 회복 흐름을 보이고 있다.\n이 같은 반등 흐름은 간밤 미국 증시가 상승 마감한 영향으로 풀이된다. 미국 증시는 다우지수는 0.5%, 스탠더드앤드푸어스(S&P)500은 0.8%, 나스닥은 1.3% 오르며 기술주 중심의 반등세가 나타났다. 엔비디아가 1.6% 상승한 가운데 마이크론은 5.5% 급등했고 브로드컴도 1.2% 오르며 상승 흐름을 이어갔다.\n증권가에서는 최근 코스피 급락이 과도했던 만큼 기술적 반등 가능성에 주목하고 있다. 한지영 키움증권 연구원은 “서킷 브레이커까지 발동될 정도의 폭락을 대부분 시장 참여자들이 저가 매수세의 기회로 인식하며 증시에 회복력을 부여했다”고 설명했다."
+          "title": "6시간 맞던 주사, 5분만에 끝…암부터 치매까지 '피하주사' 전환 봇물",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005325881&office_id=008&code=196170&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 14:58",
+          "source": "머니투데이",
+          "has_name": false
         },
         {
           "title": "[서울데이터랩]원익IPS 26.70% 상승하며 강세",
@@ -636,18 +658,18 @@
       "related_stocks": [
         {
           "name": "[바이오] 삼성바이오로직스",
-          "change_rate": "+9.2%"
+          "change_rate": "+8.6%"
         },
         {
           "name": "[바이오] 셀트리온",
-          "change_rate": "+7.6%"
+          "change_rate": "+7.1%"
         },
         {
           "name": "[바이오] HLB",
-          "change_rate": "+13.6%"
+          "change_rate": "+13.3%"
         }
       ],
-      "timestamp": "2026-03-05 13:53:54"
+      "timestamp": "2026-03-05 15:00:31"
     }
   ]
 }
