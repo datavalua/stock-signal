@@ -76,7 +76,7 @@ def call_gemini_with_fallback(prompt, config_kwargs=None, max_retries_per_model=
     """
     Execute Gemini API call with fallback models and RPM-aware sleep.
     """
-    if not GENAI_CLIENT:
+    if not get_genai_client():
         return None
         
     models = get_model_chain()
