@@ -601,7 +601,7 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
     direction = "상승" if change_val >= 0 else "하락"
     api_key = os.getenv("GEMINI_API_KEY")
     
-    if api_key and api_key != "your_api_key_here" and GENAI_CLIENT:
+    if api_key and api_key != "your_api_key_here" and get_genai_client():
         try:
             # Re-order articles to put the "best" one first for Gemini
             reordered = list(articles)
