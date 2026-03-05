@@ -409,6 +409,9 @@ def show_admin():
         with st.spinner("데이터 수집 및 생성 중..."):
             if crawler.generate_daily_json(c_d.strftime("%Y-%m-%d"), market=c_m):
                 st.success("데이터 생성 완료!")
+                safe_clear_cache()
+                st.session_state["just_crawled"] = True
+                safe_rerun()
             else: st.error("데이터 생성 중 오류가 발생했습니다.")
             
     st.markdown("---")
@@ -422,6 +425,7 @@ def show_admin():
                 st.success("종목 정보 확장이 완료되었습니다! 이제 풍부한 관련 주식 정보를 보실 수 있습니다.")
                 # Reload metadata after update
                 safe_clear_cache()
+                safe_rerun()
             except Exception as e:
                 st.error(f"확장 중 오류 발생: {e}")
 
