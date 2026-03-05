@@ -630,9 +630,10 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
             for i, article in enumerate(reordered[:5]):
                 title = article.get("title", "")
                 content = article.get("content", "")
-                # Format differently based on market (US is pre-translated)
-                context_label = "원문 번역" if market == "US" else "내용"
-                articles_text += f"기사 {i+1}: {title}\n{context_label}: {content[:1500]}\n\n"
+                # US articles are passed in original English; KR are in Korean.
+                # Gemini will handle multilingual context.
+                lang_label = "(English)" if market == "US" else "(Korean)"
+                articles_text += f"기사 {i+1} {lang_label}: {title}\n내용: {content[:1500]}\n\n"
                 
             if market == "KR" and investor_data:
                 articles_text += f"**오늘 수급 데이터 (개인/외국인/기관):** {investor_data.get('개인','-')} / {investor_data.get('외국인','-')} / {investor_data.get('기관','-')}\n\n"
@@ -641,13 +642,18 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                 
             market_context_prompt = f"**오늘의 핵심 시황 (참고용):**\n{market_context_text}\n" if market_context_text else ""
 
+            if market == "US":
+                target_instruction = "제공된 영어 기사들을 정독하고 분석하여, 한국인 독자를 위해 한국어로 자연스러운 리포트를 작성하세요."
+            else:
+                target_instruction = "주요 내용을 종합하여 2~3문장으로 요약하세요."
+
             prompt = (
                 f"당신은 금융 시장을 분석하는 최상급 AI 리포터입니다. {stock_name} ({direction})에 관한 최신 개별 종목 기사들과 오늘의 전체 시황 뉴스를 읽고 분석 리포트를 작성하세요.\n"
                 f"**분석용 뉴스 데이터**\n"
                 f"{articles_text}"
                 f"{market_context_prompt}"
                 f"**작성 가이드라인 (반드시 준수):**\n"
-                f"1. **한국어 요약 (summary)**: 주요 내용을 종합하여 2~3문장으로 요약하세요. 시장 전체 흐름(시황)의 영향이 컸다면 이를 함께 엮어서 설명하고, 단순 사실 나열이 아닌 한국 독자가 이해하기 편한 리포트 어조를 사용하세요.\n"
+                f"1. **한국어 요약 (summary)**: {target_instruction} 시장 전체 흐름(시황)의 영향이 컸다면 이를 함께 엮어서 설명하고, 단순 사실 나열이 아닌 한국 독자가 이해하기 편한 리포트 어조를 사용하세요.\n"
                 f"2. **키워드 압축 (short_reason)**: 위 '요약(summary)'의 핵심을 **2~3개의 명사구/단어**로만 압축하세요. (예: '매출 성장세 지속, 전체 시장 하락세 동조'). 문장이나 마침표를 사용하지 마세요.\n"
                 f"3. **카테고리 분류 (category)**: '실적', '수급', '이슈', '거시경제', '빅테크' 중 하나를 선택하세요.\n"
                 f"4. **금지 사항**: '{stock_name}은(는) ~로 인해 주가가 상승했습니다' 처럼 주가가 올랐다는 단순 서술어는 피하세요.\n"
@@ -1006,13 +1012,12 @@ def generate_daily_json(date_str=None, market="KR"):
             if 0 <= best_idx < len(articles):
                 # Enrich up to 5 articles with content for better context
                 for i in range(min(5, len(articles))):
-                    content = scrape_article_content(articles[i]['url'])[:1500]
-                    # Specific to US: translate content directly
-                    if market == "US" and content:
-                        trans = translate_us_article(articles[i]['title'], content)
-                        articles[i]['content'] = trans
-                    else:
+                    try:
+                        content = scrape_article_content(articles[i]['url'])[:1500]
                         articles[i]['content'] = content
+                    except Exception as e:
+                        print(f"Error scraping content for {articles[i]['url']}: {e}")
+                        articles[i]['content'] = ""
 
                 investor_data = None
                 if market == "KR":
