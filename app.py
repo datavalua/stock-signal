@@ -418,6 +418,7 @@ def trigger_github_action(market):
         workflow_id = "cron_crawler_kr.yml" if market == "KR" else "cron_crawler_us.yml"
     
     url = f"https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches"
+    headers = {
         "Authorization": f"Bearer {pat}",
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28"
