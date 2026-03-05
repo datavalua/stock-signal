@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from backend import crawler
 import pandas as pd
 import FinanceDataReader as fdr
+import requests
 from dotenv import load_dotenv
 
 # --- Compatibility Wrapper ---
@@ -395,6 +396,33 @@ def show_search():
             except Exception as e:
                 st.error(f"조회 중 오류 발생: {e}")
 
+def trigger_github_action(market):
+    """Trigger GitHub Action workflow via Workflow Dispatch API."""
+    pat = st.secrets.get("GITHUB_PAT")
+    if not pat:
+        return "ERROR_MISSING_PAT"
+        
+    owner = "datavalua"
+    repo = "stock-signal"
+    workflow_id = "cron_crawler_kr.yml" if market == "KR" else "cron_crawler_us.yml"
+    
+    url = f"https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches"
+    headers = {
+        "Authorization": f"Bearer {pat}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28"
+    }
+    data = {"ref": "main"}
+    
+    try:
+        res = requests.post(url, headers=headers, json=data)
+        if res.status_code == 204:
+            return "SUCCESS"
+        else:
+            return f"API_ERROR: {res.status_code}"
+    except Exception as e:
+        return f"EXCEPTION: {str(e)}"
+
 def show_admin():
     st.header("⚙️ 관리자 도구")
     if st.button("🔄 종목 메타데이터 캐시 초기화"):
@@ -413,6 +441,19 @@ def show_admin():
                 st.session_state["just_crawled"] = True
                 safe_rerun()
             else: st.error("데이터 생성 중 오류가 발생했습니다.")
+            
+    st.info("💡 **팁**: 위 버튼은 지금 현재 사이트에만 즉시 반영됩니다. 데이터를 GitHub 저장소에 영구 보관하려면 아래 **[GitHub Actions 실행]** 버튼을 권장합니다.")
+    
+    if st.button("🚀 GitHub Actions에서 즉시 실행 (영구 저장용)"):
+        with st.spinner("GitHub Actions를 깨우는 중..."):
+            res = trigger_github_action(c_m)
+            if res == "SUCCESS":
+                st.balloons()
+                st.success(f"✅ GitHub Actions ({c_m}) 실행 요청 성공! 약 2~3분 뒤 데이터가 자동 업데이트됩니다.")
+            elif res == "ERROR_MISSING_PAT":
+                st.error("🔑 GITHUB_PAT이 설정되지 않았습니다. Streamlit Secrets에 토큰을 등록해주세요.")
+            else:
+                st.error(f"❌ GitHub 호출 실패: {res}")
             
     st.markdown("---")
     st.subheader("🌐 글로벌 종목 정보 자동 확장 (AI Bootstrap)")
