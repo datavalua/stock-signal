@@ -5,6 +5,8 @@ on:
     # 23:00~06:00 KST (14:00~21:00 UTC) during weekdays (Mon-Fri)
     # Run every 20 minutes (e.g., 7, 27, 47 to avoid GH Actions delay)
     - cron: '7,27,47 14-21 * * 1-5'
+  push:
+    branches: [main]
   workflow_dispatch: # Allow manual trigger
 
 permissions:
