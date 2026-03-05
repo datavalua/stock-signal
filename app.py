@@ -441,54 +441,27 @@ def show_admin():
         st.success("캐시가 초기화되었습니다.")
     
     st.markdown("---")
-    st.subheader("🚀 데이터 수집 및 업데이트")
+    st.subheader("🚀 데이터 수집 및 업데이트 (GitHub Actions)")
+    st.info("데이터를 GitHub 저장소에 영구히 기록하고 실시간 앱에 반영합니다. 실행 후 완료까지 약 2~3분이 소요됩니다.")
+    
     c_m = st.selectbox("시장 선택", ["KR", "US"])
-    c_d = st.date_input("기준 날짜", datetime.datetime.now().date())
     
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.write("### 1️⃣ 영구 저장 (권장)")
-        st.write("GitHub Actions를 통해 실행하며, 결과가 깃허브 저장소에 영구히 기록됩니다.")
-        if st.button("GitHub Actions에서 실행"):
-            with st.spinner("GitHub Actions를 깨우는 중..."):
-                res = trigger_github_action(c_m)
-                if res == "SUCCESS":
-                    st.balloons()
-                    st.success(f"✅ GitHub Actions ({c_m}) 실행 요청 성공! 약 2~3분 뒤 데이터가 자동 업데이트됩니다.")
-                elif res == "ERROR_MISSING_PAT":
-                    st.error("🔑 GITHUB_PAT이 설정되지 않았습니다. Streamlit Secrets에 토큰을 등록해주세요.")
-                else:
-                    st.error(f"❌ GitHub 호출 실패: {res}")
-                    
-    with col2:
-        st.write("### 2️⃣ 즉시 반영 (임시)")
-        st.write("지금 현재 사이트에만 즉시 반영되지만, GitHub에는 저장되지 않습니다.")
-        if st.button("현재 서버에서 즉시 실행"):
-            with st.spinner("데이터 수집 및 생성 중..."):
-                if crawler.generate_daily_json(c_d.strftime("%Y-%m-%d"), market=c_m):
-                    st.success("데이터 생성 완료! (임시 반영)")
-                    safe_clear_cache()
-                    st.session_state["just_crawled"] = True
-                    safe_rerun()
-                else: st.error("데이터 생성 중 오류가 발생했습니다.")
+    if st.button("GitHub Actions에서 크롤링 실행"):
+        with st.spinner("GitHub Actions를 깨우는 중..."):
+            res = trigger_github_action(c_m)
+            if res == "SUCCESS":
+                st.balloons()
+                st.success(f"✅ GitHub Actions ({c_m}) 실행 요청 성공! 잠시 후 데이터가 자동 업데이트됩니다.")
+            elif res == "ERROR_MISSING_PAT":
+                st.error("🔑 GITHUB_PAT이 설정되지 않았습니다. Streamlit Secrets에 토큰을 등록해주세요.")
+            else:
+                st.error(f"❌ GitHub 호출 실패: {res}")
             
     st.markdown("---")
     st.subheader("🌐 글로벌 종목 정보 자동 확장 (AI Bootstrap)")
-    st.info("S&P500, NASDAQ, KOSPI, KOSDAQ 종목의 산업군 및 경쟁사 정보를 AI가 자동으로 수집합니다. (API 할당량 준수를 위해 인덱스별 상위 20개씩 우선 처리)")
-    if st.button("🚀 전체 종목 정보 확장 시작"):
-        from backend import bootstrap_metadata
-        with st.spinner("AI가 전 세계 종목 정보를 분석 중입니다... (약 1~2분 소요)"):
-            try:
-                bootstrap_metadata.run_bootstrap(limit_per_index=20)
-                st.success("종목 정보 확장이 완료되었습니다! 이제 풍부한 관련 주식 정보를 보실 수 있습니다.")
-                # Reload metadata after update
-                safe_clear_cache()
-                safe_rerun()
-            except Exception as e:
-                st.error(f"확장 중 오류 발생: {e}")
+    st.info("S&P500, NASDAQ, KOSPI, KOSDAQ 전 종목의 산업군 및 경쟁사 정보를 AI가 자동으로 정밀 분석합니다. 결과는 GitHub 저장소에 영구 저장됩니다.")
                 
-    if st.button("🚀 GitHub Actions에서 자동 확장 (영구 저장용)"):
+    if st.button("GitHub Actions에서 자동 확장 시작"):
         with st.spinner("GitHub Actions를 깨우는 중..."):
             res = trigger_github_action("BOOTSTRAP")
             if res == "SUCCESS":
