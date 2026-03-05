@@ -22,17 +22,28 @@ except Exception as e:
     GENAI_AVAILABLE = False
     print(f"Error loading Gemini SDK: {e}")
 
-GENAI_CLIENT = None
-if GENAI_AVAILABLE:
-    import streamlit as st
+GENAI_CLIENT_INITIALIZED = False
+
+def get_genai_client():
+    """Initialize Gemini client lazily using Streamlit secrets or env var.
+    Returns True if client is ready, False otherwise.
+    """
+    global GENAI_CLIENT_INITIALIZED
+    if not GENAI_AVAILABLE:
+        return False
+    if GENAI_CLIENT_INITIALIZED:
+        return True
+    api_key = None
     try:
+        import streamlit as st
         api_key = st.secrets.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
     except Exception:
         api_key = os.getenv("GEMINI_API_KEY")
-        
     if api_key:
         genai.configure(api_key=api_key)
-        GENAI_CLIENT = True
+        GENAI_CLIENT_INITIALIZED = True
+        return True
+    return False
 
 try:
     import holidays
