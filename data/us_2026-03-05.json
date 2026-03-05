@@ -1,0 +1,668 @@
+{
+  "last_updated": "2026-03-05 07:01:37",
+  "signals": [
+    {
+      "id": "sig_20260305_US_001",
+      "theme": "#Financials",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Coinbase은(는) Bitcoin Jumps With ETF Flows, Trump Blames Banks For Clarity Delay 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Coinbase",
+        "symbol": "COIN",
+        "change_rate": "+14.6%",
+        "news_url": "https://finance.yahoo.com/quote/COIN"
+      },
+      "news_articles": [
+        {
+          "title": "Bitcoin Jumps With ETF Flows, Trump Blames Banks For Clarity Delay",
+          "url": "https://finance.yahoo.com/m/91c3549a-f81c-3979-a2ed-4eda1b83473d/bitcoin-jumps-with-etf-flows%2C.html?.tsrc=rss",
+          "date": "03.05 06:27",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Why Coinbase (COIN) Stock Is Trading Up Today",
+          "url": "https://finance.yahoo.com/news/why-coinbase-coin-stock-trading-213542410.html?.tsrc=rss",
+          "date": "03.05 06:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Sector Update: Financial Stocks Higher Late Afternoon",
+          "url": "https://finance.yahoo.com/news/sector-financial-stocks-higher-afternoon-205635932.html?.tsrc=rss",
+          "date": "03.05 05:56",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stocks to Watch Wednesday: Coinbase, Meta, Gitlab, Bath & Body Works",
+          "url": "https://finance.yahoo.com/m/1942f052-539b-3280-92f6-4004760d01ae/stocks-to-watch-wednesday%3A.html?.tsrc=rss",
+          "date": "03.05 04:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Sector Update: Financial Stocks Increase Wednesday Afternoon",
+          "url": "https://finance.yahoo.com/news/sector-financial-stocks-increase-wednesday-185250012.html?.tsrc=rss",
+          "date": "03.05 03:52",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Software] MicroStrategy",
+          "change_rate": "+10.4%"
+        },
+        {
+          "name": "[Payments] PayPal",
+          "change_rate": "+0.8%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    },
+    {
+      "id": "sig_20260305_US_002",
+      "theme": "#Software",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "MicroStrategy은(는) MicroStrategy, Robinhood surge as Bitcoin nears $73K 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "MicroStrategy",
+        "symbol": "MSTR",
+        "change_rate": "+10.4%",
+        "news_url": "https://finance.yahoo.com/quote/MSTR"
+      },
+      "news_articles": [
+        {
+          "title": "Sector Update: Financial Stocks Higher Late Afternoon",
+          "url": "https://finance.yahoo.com/news/sector-financial-stocks-higher-afternoon-205635932.html?.tsrc=rss",
+          "date": "03.05 05:56",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Why Is Strategy (MSTR) Stock Rocketing Higher Today",
+          "url": "https://finance.yahoo.com/news/why-strategy-mstr-stock-rocketing-204542978.html?.tsrc=rss",
+          "date": "03.05 05:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "These Stocks Are Today’s Movers: Moderna, Coinbase, Strategy, CoreWeave, Micron, Sandisk, GitLab, and More",
+          "url": "https://finance.yahoo.com/m/777575cc-6e32-39e6-b1de-d82434987839/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
+          "date": "03.05 04:29",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stocks to Watch Wednesday: Coinbase, Meta, Gitlab, Bath & Body Works",
+          "url": "https://finance.yahoo.com/m/1942f052-539b-3280-92f6-4004760d01ae/stocks-to-watch-wednesday%3A.html?.tsrc=rss",
+          "date": "03.05 04:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Benchmark Stays Bullish on Strategy Inc (MSTR) With a High Price Target",
+          "url": "https://finance.yahoo.com/news/benchmark-stays-bullish-strategy-inc-190007783.html?.tsrc=rss",
+          "date": "03.05 04:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Financials] Coinbase",
+          "change_rate": "+14.6%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    },
+    {
+      "id": "sig_20260305_US_003",
+      "theme": "#E-commerce",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Shopify은(는) Shopify AI Push And Market Share Gains Test Investor Confidence 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Shopify",
+        "symbol": "SHOP",
+        "change_rate": "+6.4%",
+        "news_url": "https://finance.yahoo.com/quote/SHOP"
+      },
+      "news_articles": [
+        {
+          "title": "Shopify AI Push And Market Share Gains Test Investor Confidence",
+          "url": "https://finance.yahoo.com/news/shopify-ai-push-market-share-201010766.html?.tsrc=rss",
+          "date": "03.05 05:10",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "E-commerce startup Cart.com raises $180M to support growth plans",
+          "url": "https://finance.yahoo.com/news/e-commerce-startup-cart-com-191046522.html?.tsrc=rss",
+          "date": "03.05 04:10",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "1 Growth Stock Down 25% in 2026 to Buy and Hold",
+          "url": "https://www.fool.com/investing/2026/03/04/1-growth-stock-down-25-in-2026-to-buy-and-hold/?.tsrc=rss",
+          "date": "03.04 21:40",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Dotdigital Group plc acquires Alia Software Inc. to power smarter audience growth and accelerate Shopify expansion",
+          "url": "https://finance.yahoo.com/news/dotdigital-group-plc-acquires-alia-123000256.html?.tsrc=rss",
+          "date": "03.04 21:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "TopDawg Ranked #1 U.S. Dropshipping Supplier for 2026 by USA Today, Leading the Shift to Domestic Fulfillment and Automation",
+          "url": "https://finance.yahoo.com/news/topdawg-ranked-1-u-dropshipping-133000402.html?.tsrc=rss",
+          "date": "03.03 22:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[E-commerce] Amazon",
+          "change_rate": "+3.9%"
+        },
+        {
+          "name": "[Retail] Walmart",
+          "change_rate": "-0.1%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    },
+    {
+      "id": "sig_20260305_US_004",
+      "theme": "#Semiconductors",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "AMD은(는) The University of Toronto and AMD Launch Major AI & Computing R&D Lab, Positioning Canada on Global Innovation Stage 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "AMD",
+        "symbol": "AMD",
+        "change_rate": "+5.8%",
+        "news_url": "https://finance.yahoo.com/quote/AMD"
+      },
+      "news_articles": [
+        {
+          "title": "Piper Sandler and Jefferies Stay Bullish on Advanced Micro Devices, Inc. (AMD) After Meta Deal",
+          "url": "https://finance.yahoo.com/news/piper-sandler-jefferies-stay-bullish-190029504.html?.tsrc=rss",
+          "date": "03.05 04:00",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Micron: Why the Recent Pullback is an Opportunity",
+          "url": "https://finance.yahoo.com/news/micron-why-recent-pullback-opportunity-185200276.html?.tsrc=rss",
+          "date": "03.05 03:52",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "CPUs are back en vogue in the data center",
+          "url": "https://finance.yahoo.com/news/cpus-are-back-en-vogue-in-the-data-center-184504720.html?.tsrc=rss",
+          "date": "03.05 03:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Deal between AMD and Meta could bring greater innovation to GenAI market",
+          "url": "https://www.verdict.co.uk/deal-amd-meta-genai-market/?.tsrc=rss",
+          "date": "03.05 01:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "The University of Toronto and AMD Launch Major AI & Computing R&D Lab, Positioning Canada on Global Innovation Stage",
+          "url": "https://finance.yahoo.com/news/university-toronto-amd-launch-major-163000856.html?.tsrc=rss",
+          "date": "03.05 01:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "+1.7%"
+        },
+        {
+          "name": "[Semiconductors] Intel",
+          "change_rate": "+5.8%"
+        },
+        {
+          "name": "[IP] ARM",
+          "change_rate": "+2.0%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "+1.2%"
+        },
+        {
+          "name": "[Software] Microsoft",
+          "change_rate": "+0.3%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    },
+    {
+      "id": "sig_20260305_US_005",
+      "theme": "#Semiconductors",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Intel은(는) Why Plug Power Stock Keeps Going Up 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Intel",
+        "symbol": "INTC",
+        "change_rate": "+5.8%",
+        "news_url": "https://finance.yahoo.com/quote/INTC"
+      },
+      "news_articles": [
+        {
+          "title": "Why Plug Power Stock Keeps Going Up",
+          "url": "https://www.fool.com/investing/2026/03/04/why-plug-power-stock-keeps-going-up/?.tsrc=rss",
+          "date": "03.05 06:26",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Why Ross Stores Stock Jumped Today",
+          "url": "https://www.fool.com/investing/2026/03/04/why-ross-stores-stock-is-up-today/?.tsrc=rss",
+          "date": "03.05 06:55",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is Sweetgreen Stock Going to $10?",
+          "url": "https://www.fool.com/investing/2026/03/04/is-sweetgreen-stock-going-to-10/?.tsrc=rss",
+          "date": "03.05 06:45",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Could Investing $10,000 in Warren Buffett's Berkshire Hathaway Stock (BRKB) Make You a Millionaire?",
+          "url": "https://www.fool.com/investing/2026/03/04/could-investing-in-warren-buffetts-berkshire-brkb/?.tsrc=rss",
+          "date": "03.05 06:37",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "2 Artificial Intelligence (AI) Stocks That Wall Street Loves but Most Investors Haven't Heard Of",
+          "url": "https://www.fool.com/investing/2026/03/04/2-artificial-intelligence-stocks-that-wall-street/?.tsrc=rss",
+          "date": "03.05 06:27",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] AMD",
+          "change_rate": "+5.8%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "+1.7%"
+        },
+        {
+          "name": "[Foundry] TSMC",
+          "change_rate": "+1.2%"
+        },
+        {
+          "name": "[Semiconductors] Qualcomm",
+          "change_rate": "+1.0%"
+        },
+        {
+          "name": "[Semiconductors] Texas Instruments",
+          "change_rate": "-0.1%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    },
+    {
+      "id": "sig_20260305_US_006",
+      "theme": "#Semiconductors",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Micron은(는) Micron: Why the Recent Pullback is an Opportunity 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Micron",
+        "symbol": "MU",
+        "change_rate": "+5.6%",
+        "news_url": "https://finance.yahoo.com/quote/MU"
+      },
+      "news_articles": [
+        {
+          "title": "Dow Jones Futures: Stock Market Rebounds But Below Key Levels; Broadcom Earnings Top",
+          "url": "https://finance.yahoo.com/m/e7f427f9-4931-39e5-9087-319f06cded0d/dow-jones-futures%3A-stock.html?.tsrc=rss",
+          "date": "03.05 06:48",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Western Digital, Seagate Stocks Rebound. How AI Video Could Boost Storage Demand.",
+          "url": "https://finance.yahoo.com/m/ffe3c66d-7c42-3190-a787-dc05dab91e92/western-digital%2C-seagate.html?.tsrc=rss",
+          "date": "03.05 06:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Micron Deepens AI Memory Push With New India Facility And DRAM Launch",
+          "url": "https://finance.yahoo.com/news/micron-deepens-ai-memory-push-200829235.html?.tsrc=rss",
+          "date": "03.05 05:08",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "These Stocks Are Today’s Movers: Moderna, Coinbase, Strategy, CoreWeave, Micron, Sandisk, GitLab, and More",
+          "url": "https://finance.yahoo.com/m/777575cc-6e32-39e6-b1de-d82434987839/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
+          "date": "03.05 04:29",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Is Micron Stock Going to $500?",
+          "url": "https://www.fool.com/investing/2026/03/04/is-micron-stock-going-to-500/?.tsrc=rss",
+          "date": "03.05 04:25",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductors] Intel",
+          "change_rate": "+5.8%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "+1.7%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    },
+    {
+      "id": "sig_20260305_US_007",
+      "theme": "#Pharma",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Novo Nordisk은(는) Novo Nordisk Gets FDA Warning Over Ozempic Ad 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Novo Nordisk",
+        "symbol": "NVO",
+        "change_rate": "+5.0%",
+        "news_url": "https://finance.yahoo.com/quote/NVO"
+      },
+      "news_articles": [
+        {
+          "title": "Hims & Hers Slips as FDA Targets GLP-1 Compounders",
+          "url": "https://finance.yahoo.com/news/hims-hers-slips-fda-targets-171821410.html?.tsrc=rss",
+          "date": "03.05 02:18",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Novo Nordisk Gets FDA Warning Over Ozempic Ad",
+          "url": "https://finance.yahoo.com/news/novo-nordisk-gets-fda-warning-171656108.html?.tsrc=rss",
+          "date": "03.05 02:16",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Potential Middle East Diplomacy Reports",
+          "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135045787.html?.tsrc=rss",
+          "date": "03.04 22:50",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Assessing Novo Nordisk (NYSE:NVO) Valuation After Recent Share Price Weakness",
+          "url": "https://finance.yahoo.com/news/assessing-novo-nordisk-nyse-nvo-100708350.html?.tsrc=rss",
+          "date": "03.04 19:07",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Canaccord Lowers Hims & Hers Health, Inc. (HIMS) Price Target Patent Amid Dispute and FDA Scrutiny",
+          "url": "https://finance.yahoo.com/news/canaccord-lowers-hims-hers-health-073036108.html?.tsrc=rss",
+          "date": "03.04 16:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Pharma] Eli Lilly",
+          "change_rate": "-0.4%"
+        },
+        {
+          "name": "[Pharma] Johnson & Johnson",
+          "change_rate": "-0.6%"
+        },
+        {
+          "name": "[Bio] AbbVie",
+          "change_rate": "+1.0%"
+        },
+        {
+          "name": "[Pharma] Merck",
+          "change_rate": "+0.4%"
+        },
+        {
+          "name": "[Pharma] Pfizer",
+          "change_rate": "+0.2%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    },
+    {
+      "id": "sig_20260305_US_008",
+      "theme": "#Cybersecurity",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "CrowdStrike은(는) CrowdStrike Forecasts Up to $1.364B Revenue as AI Cyber Threats Rise 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "CrowdStrike",
+        "symbol": "CRWD",
+        "change_rate": "+4.2%",
+        "news_url": "https://finance.yahoo.com/quote/CRWD"
+      },
+      "news_articles": [
+        {
+          "title": "CrowdStrike Forecasts Up to $1.364B Revenue as AI Cyber Threats Rise",
+          "url": "https://finance.yahoo.com/news/crowdstrike-forecasts-1-364b-revenue-195945275.html?.tsrc=rss",
+          "date": "03.05 04:59",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Earnings live: Broadcom stock edges higher as earnings beat doesn't wow investors, Okta stock climbs",
+          "url": "https://finance.yahoo.com/news/live/earnings-live-broadcom-stock-edges-higher-as-earnings-beat-doesnt-wow-investors-okta-stock-climbs-213517323.html?.tsrc=rss",
+          "date": "03.05 06:35",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+          "url": "https://finance.yahoo.com/news/sector-tech-stocks-rise-afternoon-204451469.html?.tsrc=rss",
+          "date": "03.05 05:44",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "HubSpot and Other Software Stocks Are Bouncing Back. Their Next Move Could Come Soon.",
+          "url": "https://finance.yahoo.com/m/19d5d289-874c-3be1-8a1a-08e658c5d5f5/hubspot-and-other-software.html?.tsrc=rss",
+          "date": "03.05 05:16",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stocks to Watch Wednesday: Coinbase, Meta, Gitlab, Bath & Body Works",
+          "url": "https://finance.yahoo.com/m/1942f052-539b-3280-92f6-4004760d01ae/stocks-to-watch-wednesday%3A.html?.tsrc=rss",
+          "date": "03.05 04:13",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Cybersecurity] Palo Alto Networks",
+          "change_rate": "+1.6%"
+        },
+        {
+          "name": "[Software] Microsoft",
+          "change_rate": "+0.3%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    },
+    {
+      "id": "sig_20260305_US_009",
+      "theme": "#AI",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Palantir은(는) Palantir faces challenge to remove Anthropic from Pentagon's AI software 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Palantir",
+        "symbol": "PLTR",
+        "change_rate": "+4.1%",
+        "news_url": "https://finance.yahoo.com/quote/PLTR"
+      },
+      "news_articles": [
+        {
+          "title": "Palantir faces challenge to remove Anthropic from Pentagon's AI software",
+          "url": "https://finance.yahoo.com/news/palantir-faces-challenge-remove-anthropic-213655364.html?.tsrc=rss",
+          "date": "03.05 06:36",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Dow Jones Futures: Stock Market Rebounds But Below Key Levels; Broadcom Earnings Top",
+          "url": "https://finance.yahoo.com/m/e7f427f9-4931-39e5-9087-319f06cded0d/dow-jones-futures%3A-stock.html?.tsrc=rss",
+          "date": "03.05 06:48",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Palantir faces challenge to remove Anthropic from Pentagon's AI software",
+          "url": "https://finance.yahoo.com/news/palantir-faces-challenge-remove-anthropic-213754143.html?.tsrc=rss",
+          "date": "03.05 06:37",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Palantir Stock Technical Ratings Improve Amid Defense Sector Rally",
+          "url": "https://finance.yahoo.com/m/9a542401-cba8-39ad-a8f8-cbb891a50a40/palantir-stock-technical.html?.tsrc=rss",
+          "date": "03.05 06:21",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "HubSpot and Other Software Stocks Are Bouncing Back. Their Next Move Could Come Soon.",
+          "url": "https://finance.yahoo.com/m/19d5d289-874c-3be1-8a1a-08e658c5d5f5/hubspot-and-other-software.html?.tsrc=rss",
+          "date": "03.05 05:16",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Software] Microsoft",
+          "change_rate": "+0.3%"
+        },
+        {
+          "name": "[Data] Snowflake",
+          "change_rate": "+1.5%"
+        },
+        {
+          "name": "[Cybersecurity] CrowdStrike",
+          "change_rate": "+4.2%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    },
+    {
+      "id": "sig_20260305_US_010",
+      "theme": "#E-commerce",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "Amazon은(는) Amazon (AMZN) Stock Trades Up, Here Is Why 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "Amazon",
+        "symbol": "AMZN",
+        "change_rate": "+3.9%",
+        "news_url": "https://finance.yahoo.com/quote/AMZN"
+      },
+      "news_articles": [
+        {
+          "title": "Amazon (AMZN) Stock Trades Up, Here Is Why",
+          "url": "https://finance.yahoo.com/news/amazon-amzn-stock-trades-why-205542043.html?.tsrc=rss",
+          "date": "03.05 05:55",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": ""
+        },
+        {
+          "title": "Amazon cuts more jobs; this time in robotics unit",
+          "url": "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html?.tsrc=rss",
+          "date": "03.05 06:32",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Stock Market Today: Dow, Nasdaq Higher Amid Jobs, Iran, Tariffs; Nvidia Rises (Live Coverage)",
+          "url": "https://finance.yahoo.com/m/69885568-120b-32ce-8274-0b59522d7129/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+          "date": "03.05 06:24",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Broadcom sees revenue above estimates as AI fuels custom chip demand",
+          "url": "https://finance.yahoo.com/news/broadcom-forecasts-second-quarter-revenue-211818853.html?.tsrc=rss",
+          "date": "03.05 06:18",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Amazon Drone Strikes Expose Physical Risks In AWS Cloud Growth Story",
+          "url": "https://finance.yahoo.com/news/amazon-drone-strikes-expose-physical-210951868.html?.tsrc=rss",
+          "date": "03.05 06:09",
+          "source": "Yahoo Finance",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Retail] Walmart",
+          "change_rate": "-0.1%"
+        },
+        {
+          "name": "[Software] Microsoft",
+          "change_rate": "+0.3%"
+        },
+        {
+          "name": "[Search] Alphabet",
+          "change_rate": "-0.1%"
+        },
+        {
+          "name": "[E-commerce] Shopify",
+          "change_rate": "+6.4%"
+        },
+        {
+          "name": "[Retail] Costco",
+          "change_rate": "-0.1%"
+        }
+      ],
+      "timestamp": "2026-03-05 07:01:37"
+    }
+  ]
+}

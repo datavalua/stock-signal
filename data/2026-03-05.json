@@ -1,0 +1,679 @@
+{
+  "last_updated": "2026-03-05 16:08:03",
+  "signals": [
+    {
+      "id": "sig_20260305_KR_001",
+      "theme": "#이차전지소재",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "에코프로은(는) 에코프로, 인터배터리 2026 참가…차세대 배터리 소재 공개 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "에코프로",
+        "symbol": "086520",
+        "change_rate": "+20.2%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=086520"
+      },
+      "news_articles": [
+        {
+          "title": "에코프로, 인터배터리 2026 참가…차세대 배터리 소재 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001010492&office_id=031&code=086520&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 10:19",
+          "source": "아이뉴스24",
+          "has_name": true,
+          "content": "삼원계 경쟁력 및 전고체 배터리 소재 풀 밸류체인 소개\n에코프로가 국내 최대 규모의 배터리 전시회인 '인터배터리(INTERBATTERY) 2026'에 참가해 미래 전기차와 휴머노이드 등 로봇 시대를 이끌 하이니켈 중심의 삼원계 및 전고체 배터리 소재 라인업을 공개한다고 5일 밝혔다.\n배터리 생애 주기 전반을 관리하고 사업화하는 배터리 자산관리 시장 진출 계획과 미래 첨단 소재 기술을 구현할 오창 R&D 미래캠퍼스에 대한 청사진도 공개한다.\n에코프로는 이달 11일부터 13일까지 서울 강남구 코엑스에서 열리는 ‘인터배터리 2026’에 참여해 '퍼펙트 체인 커넥티트 밸류'(Perfect Chain, Connected Value)를 주제로 총 4개의 전시 존을 선보인다.\n존1에서는 ‘글로벌 네트워크(Global Network)’를 주제로 인니 니켈 제련사업을 필두로 유럽 역내 규제에 대한 차별화한 대응력을 갖춘 헝가리 공장 등 삼원계 양극재 경쟁력 확보를 위해 구축한 글로벌 공급망을 소개한다.\n존2에서는 '컴패티브니스 밸류'(competitiveness Value)를 주제로 하이니켈 양극재를 비롯해 중저가 배터리 소재인 미드니켈 양극재, 나트륨이온배터리(SIB) 양극재, 리튬망간리치(LMR) 양극재 등 고객 맞춤형 제품 라인업을 공개한다.\n또  에너지저장장치(ESS) 시장에 대응할 LFP 양극소재도 공개한다.\n존3에서는 '퓨처 이노베이션'(Future Innovation)을 주제로 휴머노이드 시대를 이끌 전고체 소재 기술력과 개발 현황을 선보인다. 인터배터리를 통해 고객사와 함께 2027년 양산을 목표로 개발 중인 고체 전해질을 비롯해 전고체용 양극재, 리튬 메탈 음극재의 면면을 소개할 계획이다.\n존4는 '비욘드 배터리'(Beyond Battery)를 주제로 에코프로의 미래 신사업을 공개한다. 배터리 소재 회사에서 배터리 생애 주기 관리자로 발돋움하려는 에코프로의 미래 청사진을 확인할 수 있다.\n에코프로는 차별화한 리사이클 기술력을 바탕으로 양극소재 생산부터 전기차 등에서 발생하는 사용 후 배터리의 재사용과 재활용으로 이어지는 배터리 생애주기 관리 체계를 통해 새로운 부가가치를 창출해내는 방안을 구상 중이다.\n미래 기술 및 신사업을 뒷받침해 ‘기술의 에코프로’를 구현할 오창 R&D 미래캠퍼스(가칭)를 건설하기 위한 로드맵도 공개될 예정이다.\n에코프로 관계자는 \"글로벌 넘버1 하이니켈 기술력을 바탕으로 휴머노이드 시대를 대비한 전고체 소재까지 풀라인업을 전시했다\"며 \"높은 에너지 밀도와 출력을 구현하는데 적합한 삼원계 배터리 기술력을 더욱 고도화해 나갈 계획\"이라고 말했다."
+        },
+        {
+          "title": "에코프로, 로봇시대 겨냥…전고체 배터리 소재 라인업 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003404625&office_id=030&code=086520&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:35",
+          "source": "전자신문",
+          "has_name": true
+        },
+        {
+          "title": "에코프로, 하이니켈 중심 삼원계·전고체 배터리 소재 라인업 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000478188&office_id=629&code=086520&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 11:05",
+          "source": "더팩트",
+          "has_name": true
+        },
+        {
+          "title": "에코프로, 인터배터리 2026 참가…차세대 배터리 소재 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001010492&office_id=031&code=086520&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 10:19",
+          "source": "아이뉴스24",
+          "has_name": true
+        },
+        {
+          "title": "에코프로, 인터배터리에서 하이니켈 삼원계 및 전고체 소재 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005325629&office_id=008&code=086520&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 09:59",
+          "source": "머니투데이",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[이차전지소재] 에코프로비엠",
+          "change_rate": "+18.0%"
+        },
+        {
+          "name": "[이차전지소재] 포스코퓨처엠",
+          "change_rate": "+12.3%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    },
+    {
+      "id": "sig_20260305_KR_002",
+      "theme": "#로봇",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "레인보우로보틱스은(는) 프리마켓서 삼전·하닉 10% 이상 급상승…낙폭 회복하나 [코주부] 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "레인보우로보틱스",
+        "symbol": "277810",
+        "change_rate": "+18.9%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=277810"
+      },
+      "news_articles": [
+        {
+          "title": "코스피, 폭락 이틀만에 극적 반등…중동 리스크 일부 해소에 강세 마.....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005645779&office_id=009&code=277810&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 16:08",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "코스피, 9.63% 급등…코스닥은 역대 최고 상승률",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005729984&office_id=277&code=277810&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 15:56",
+          "source": "아시아경제",
+          "has_name": false
+        },
+        {
+          "title": "[서울데이터랩]원익IPS 26.70% 상승하며 강세",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003623174&office_id=081&code=277810&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:39",
+          "source": "서울신문",
+          "has_name": false
+        },
+        {
+          "title": "이틀간 폭락 후 분위기 반전…코스피 10%대 폭등세",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005258532&office_id=015&code=277810&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 11:52",
+          "source": "한국경제",
+          "has_name": false
+        },
+        {
+          "title": "하루 만에 돌아온 증시…코스피 급등에 5700선 회복 [시황]",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003065567&office_id=119&code=277810&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 10:18",
+          "source": "데일리안",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[로봇] 두산로보틱스",
+          "change_rate": "+12.4%"
+        },
+        {
+          "name": "[반도체] 삼성전자",
+          "change_rate": "+11.3%"
+        },
+        {
+          "name": "[로봇] 로보티즈",
+          "change_rate": "+6.1%"
+        },
+        {
+          "name": "[로봇] 뉴로메카",
+          "change_rate": "+7.7%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    },
+    {
+      "id": "sig_20260305_KR_003",
+      "theme": "#금융",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "키움증권은(는) 키움증권, 여전한 브로커리지 의존…호실적에 가려진 '아킬레스건' 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "키움증권",
+        "symbol": "039490",
+        "change_rate": "+18.4%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=039490"
+      },
+      "news_articles": [
+        {
+          "title": "키움증권, 여전한 브로커리지 의존…호실적에 가려진 '아킬레스건'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080324&office_id=293&code=039490&page=3&sm=title_entity_id.basic",
+          "date": "2026.03.05 09:36",
+          "source": "블로터",
+          "has_name": true,
+          "content": "키움증권이 주식시장 호황에 힘입어 처음으로 연간 순이익 1조 클럽에 들어섰다. 다만 주식 중개 수수료에 지나치게 의존하는 구조는 여전히 아킬레스건으로 남아 있다. 불과 3년 전 증시가 휘청이자 실적 부진에 직면했던 경험이 있는 만큼, 사업 포트폴리오 다각화를 둘러싼 키움증권의 고민은 계속될 것으로 보인다.\n26일 금융투자협회 전자공시시스템에 따르면 키움증권의 지난해 별도 기준 당기순이익은 1조994억원으로 전년 대비 34.9% 증가했다.\n증시 활황으로 브로커리지 부문 실적이 1700억원 넘게 늘며 실적 개선을 이끌었다. 키움증권의 주식과 파생상품 거래 서비스 중개를 통해 취득한 위탁매매 수수료는 8877억원으로 같은 기간 24.3%(1738억원) 증가했다.\n기업금융 부문에서도 수익 확대 흐름이 나타났다. 프로젝트파이낸싱과 각종 딜에 참여하며 투자은행(IB) 수수료 수익은 32.3% 늘어난 2770억원으로 집계됐다.\n다만 수익 구조가 여전히 위탁매매에 편중된 점은 부담 요인으로 남는다. 키움증권의 지난해 전체 수수료 수익에서 위탁매매 수수료 비중은 66.9%를 차지한다.\n비슷한 자기자본 규모의 증권사들과 견주면 편중 정도는 더욱 뚜렷하다. 자기자본 4조원을 넘기며 최근 단기금융업 인가를 받은 신한투자증권의 위탁매매 수수료 비중은 59.7% 수준이며 하나증권은 39.7%에 그친다.\n키움증권은 2000년 출범한 국내 최초의 온라인 전업 증권사다. 오프라인 점포 확장에 나섰던 기존 증권사들과 달리 설립 초기부터 지점 없이 온라인 플랫폼에 역량을 집중해왔다. 그 결과 지난해 말 기준 계좌 수는 1620만좌에 이르며 개인투자자 거래 기반을 빠르게 넓혔다.\n문제는 이러한 구조가 시장 환경 변화에 민감하다는 점이다. 투자 열기가 식었던 2022년 키움증권의 별도 기준 당기순이익은 4931억원으로 전년보다 36.2% 줄었다. 같은 기간 위탁매매 수수료 역시 25.8% 감소하며 실적 둔화로 직결됐다.\n신용평가사도 사업 포트폴리오의 집중도를 주요 위험 요인으로 보고 있다. 한국신용평가는 '증권산업 평가방법론' 보고서에서 \"사업 포트폴리오가 특정 업종·지역·판매채널·고객 등에 과도하게 편중될 경우 경기나 업황 악화 시 실적 변동성이 크게 확대돼 신용도에 부정적인 영향을 미칠 수 있다\"고 지적했다.\n현업에서도 이 같은 인식은 공통적이다. 증권업계 관계자는 \"증권사를 평가할 때 특정 사업에 수익이 과도하게 집중된 구조는 시장 변동 시 실적이 크게 흔들릴 수 있다는 점에서 부담으로 작용한다\"며 \"여러 사업 부문에서 고르게 수익을 내는 구조여야 신용도와 실적의 안정성을 함께 확보할 수 있다\"고 말했다."
+        },
+        {
+          "title": "키움증권, 여전한 브로커리지 의존…호실적에 가려진 '아킬레스건'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080324&office_id=293&code=039490&page=4&sm=title_entity_id.basic",
+          "date": "2026.03.05 09:36",
+          "source": "블로터",
+          "has_name": true
+        },
+        {
+          "title": "키움증권 \"티씨케이, AI수혜에 따른 깜짝실적 예상…목표가↑\"",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015938732&office_id=001&code=039490&page=5&sm=title_entity_id.basic",
+          "date": "2026.03.05 08:36",
+          "source": "연합뉴스",
+          "has_name": true
+        },
+        {
+          "title": "코스피, 폭락장 딛고 반등...5500선 안착",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003404759&office_id=030&code=039490&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 16:08",
+          "source": "전자신문",
+          "has_name": false
+        },
+        {
+          "title": "[특징주] 증권株, '현기증 장세'에 거래대금 늘자 급등(종합)",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0015940566&office_id=001&code=039490&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 15:57",
+          "source": "연합뉴스",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[금융] 미래에셋증권",
+          "change_rate": "+15.4%"
+        },
+        {
+          "name": "[금융] NH투자증권",
+          "change_rate": "+11.3%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    },
+    {
+      "id": "sig_20260305_KR_004",
+      "theme": "#이차전지소재",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "에코프로비엠은(는) 에코프로, 인터배터리에서 하이니켈 삼원계 및 전고체 소재 공개 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "에코프로비엠",
+        "symbol": "247540",
+        "change_rate": "+18.0%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=247540"
+      },
+      "news_articles": [
+        {
+          "title": "에코프로, 인터배터리에서 하이니켈 삼원계 및 전고체 소재 공개",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005325629&office_id=008&code=247540&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 09:59",
+          "source": "머니투데이",
+          "has_name": false,
+          "content": "에코프로는 '인터배터리 2026'를 통해 미래 전기차와 휴머노이드 시대를 이끌 하이니켈 중심의 삼원계 및 전고체 배터리 소재 라인업을 공개한다고 5일 밝혔다. 오는 11~13일 서울 강남구 코엑스에서 열리는 이 행사는 국내 최대 규모 배터리 전시회다.\n에코프로는 '완벽한 체인, 가치의 연결(Perfect Chain, Connected Value)'을 주제로 총 4개의 전시 존을 선보이기로 했다. 존1의 콘셉트는 '글로벌 네트워크'다. 인도네시아 니켈 제련사업, 헝가리 공장 등 삼원계 양극재 경쟁력 확보를 위해 구축한 글로벌 공급망을 소개한다.\n존2에서는 '차별화된 경쟁력'을 앞세운다. 하이니켈 양극재를 비롯해 중저가 배터리 소재인 미드니켈 양극재, 나트륨이온배터리(SIB) 양극재, 리튬망간리치(LMR) 양극재 등 고객 맞춤형 제품 라인업을 한눈에 확인할 수 있다. 에너지저장장치(ESS) 시장에 대응할 리튬인산철(LFP) 양극소재도 공개한다.\n존3는 '미래 혁신'을 주제로 휴머노이드 시대를 이끌 전고체 소재 기술력과 개발 현황을 전시한다. 이번 전시를 통해 고객사와 함께 2027년 양산을 목표로 개발 중인 고체 전해질을 비롯해 전고체용 양극재, 리튬 메탈 음극재의 면면을 소개할 계획이다. 존4는 '배터리를 넘어서'를 콘셉트로 배터리 생애 주기 관리체계, 리사이클 기술력 등 미래 신사업을 전시대에 올린다.\n이번 전시회에서는 특히 '기술의 에코프로'를 구현할 오창 R&D 미래캠퍼스(가칭)를 건설하기 위한 로드맵도 밝힐 예정이다. 에코프로 관계자는 \"글로벌 넘버1 하이니켈 기술력을 바탕으로 휴머노이드 시대를 대비한 전고체 소재까지 풀라인업을 전시했다\" 며 \"높은 에너지 밀도와 출력을 구현하는데 적합한 삼원계 배터리 기술력을 더욱 고도화해 나갈 계획\"이라고 말했다.\n한편 이번 인터배터리 전시회에는 에코프로와 에코프로비엠의 잡페어 부스가 함께 설치된다. 에코프로 인사 담당자들이 구직자들을 대상으로 1대1 면담을 진행하며, 기업 설명 및 채용 상담을 병행할 예정이다."
+        },
+        {
+          "title": "코스피, 폭락 이틀만에 극적 반등…중동 리스크 일부 해소에 강세 마.....",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005645779&office_id=009&code=247540&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 16:08",
+          "source": "매일경제",
+          "has_name": false
+        },
+        {
+          "title": "코스피, 9.63% 급등…코스닥은 역대 최고 상승률",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005729984&office_id=277&code=247540&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 15:56",
+          "source": "아시아경제",
+          "has_name": false
+        },
+        {
+          "title": "[서울데이터랩]원익IPS 26.70% 상승하며 강세",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003623174&office_id=081&code=247540&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:39",
+          "source": "서울신문",
+          "has_name": false
+        },
+        {
+          "title": "이틀간 폭락 후 분위기 반전…코스피 10%대 폭등세",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005258532&office_id=015&code=247540&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 11:52",
+          "source": "한국경제",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[이차전지소재] 에코프로",
+          "change_rate": "+20.2%"
+        },
+        {
+          "name": "[이차전지소재] 포스코퓨처엠",
+          "change_rate": "+12.3%"
+        },
+        {
+          "name": "[화학] LG화학",
+          "change_rate": "+5.7%"
+        },
+        {
+          "name": "[이차전지] LG에너지솔루션",
+          "change_rate": "+6.9%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    },
+    {
+      "id": "sig_20260305_KR_005",
+      "theme": "#물류",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "현대글로비스은(는) 배터리 3사, 전기차 넘어 ESS-로봇 경쟁 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "현대글로비스",
+        "symbol": "011210",
+        "change_rate": "+16.1%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=011210"
+      },
+      "news_articles": [
+        {
+          "title": "중동 전운에 코스피 요동…방산·정유 '급등' vs 항공·여행 '추락'",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000093867&office_id=243&code=011210&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 11:30",
+          "source": "이코노미스트",
+          "has_name": false
+        },
+        {
+          "title": "\"미-이란 전쟁에 유가 급등\"…방산·에너지주↑ 항공·여행주↓",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013797383&office_id=003&code=011210&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 10:09",
+          "source": "뉴시스",
+          "has_name": false
+        },
+        {
+          "title": "K배터리 3사, 사업 다각화… 데이터센터·피지컬 AI 전면에",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003962091&office_id=023&code=011210&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 09:15",
+          "source": "조선일보",
+          "has_name": false
+        },
+        {
+          "title": "“포트폴리오 확장 가속”…K-배터리 3사, 인터배터리서 미래 혁신 기...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002607204&office_id=016&code=011210&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 07:44",
+          "source": "헤럴드경제",
+          "has_name": false
+        },
+        {
+          "title": "혁신으로 캐즘 뚫는다… K배터리사 ‘ESS·로봇·AI 정조준",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004109635&office_id=022&code=011210&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 06:02",
+          "source": "세계일보",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[그룹사] 현대차",
+          "change_rate": "+9.4%"
+        },
+        {
+          "name": "[해운] HMM",
+          "change_rate": "+3.7%"
+        },
+        {
+          "name": "[그룹사] 현대모비스",
+          "change_rate": "+8.3%"
+        },
+        {
+          "name": "[그룹사] 현대해상",
+          "change_rate": "+5.1%"
+        },
+        {
+          "name": "[그룹사] 현대건설",
+          "change_rate": "+13.5%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    },
+    {
+      "id": "sig_20260305_KR_006",
+      "theme": "#정유",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "SK이노베이션은(는) ‘SK·한수원 투자’ 테라파워, 美 최초 상업용 SMR 건설 승인 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "SK이노베이션",
+        "symbol": "096770",
+        "change_rate": "+16.1%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=096770"
+      },
+      "news_articles": [
+        {
+          "title": "‘SK·한수원 투자’ 테라파워, 美 최초 상업용 SMR 건설 승인",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001146053&office_id=366&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:49",
+          "source": "조선비즈",
+          "has_name": false,
+          "content": "SK이노베이션은 한국수력원자력과 함께 투자한 미국 차세대 소형모듈원자로(SMR) 기업 테라파워가 미국 원자력규제위원회(NRC)로부터 상업용 첨단 원자력발전소 건설을 승인받았다고 5일 발표했다.\nNRC가 신규 상업용 원전 건설을 허가한 것은 10년 만이며, SMR과 같은 첨단 원전의 건설을 승인한 것은 미국 내에서 이번이 최초다. 이번 승인으로 테라파워는 세계 최초 상업용 SMR 플랜트 건설에 본격 착수한다. 테라파워는 2027년 말 혹은 2028년 초에 원전 운영 허가를 신청한 후 2031년경 상업 운전을 시작할 계획이다.\n테라파워는 빌 게이츠가 2008년 설립한 차세대 SMR 기업이다. 테라파워는 액체 나트륨 냉각 기술을 활용해 기존 원전에 비해 발전 효율과 안전성을 높였다. 끓는 점이 880도에 달하는 액체 나트륨 냉각재는 더 많은 열을 흡수해 발전 출력을 높이고, 사용 후 핵연료 발생량도 기존 대비 10% 수준으로 줄일 수 있다는 점에서 친환경성과 경제성을 동시에 확보했다는 평가를 받는다.\n앞서 SK㈜와 SK이노베이션은 지난 2022년 8월 공동으로 테라파워에 2억5000만달러를 투자해 2대 주주가 됐고, 테라파워 SMR 기술 상용화와 글로벌 사업 확장 추진 등 협력을 이어왔다. 이어 SK이노베이션과 한수원, 테라파워는 2023년 3월 차세대 SMR 개발 및 사업화를 위한 업무협약을 체결했고, 테라파워가 개발 중인 소듐냉각고속로(SFR) 기반 4세대 SMR의 실증과 상업용 원자로 개발 등에 협력해 왔다.\nSK이노베이션은 에너지·소재 분야에서 축적한 경쟁력과 한수원이 보유한 세계 최고 수준 원전 건설·운영 노하우를 결합해, 국내외 데이터센터 등 산업 현장에 SMR 생태계를 구축하고 전력 수급 문제 해결을 위한 맞춤형 통합 에너지설루션을 제공할 방침이다.\n크리스 르베크 테라파워 최고경영자(CEO)는 “오늘은 미국 원자력산업에 있어 역사적인 날”이라며 “테라파워는 이달 내 상업용 SMR 플랜트 건설을 시작할 예정”이라고 밝혔다.\n김무환 SK이노베이션 에너지설루션 사업단장은 “미국에서 최초로 4세대 SMR 건설이 승인된 것은 글로벌 에너지 산업의 역사적 전환점”이라며 “SK이노베이션은 한수원과 함께 테라파워와의 전략적 협력을 바탕으로 세계 최초 상업용 SMR 플랜트 건설과 글로벌 SMR 공급망 확대에 나설 계획”이라고 말했다."
+        },
+        {
+          "title": "[서울데이터랩]마감 직후 인기 검색 종목 20選",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003623249&office_id=081&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 15:52",
+          "source": "서울신문",
+          "has_name": false
+        },
+        {
+          "title": "'SK 투자' 테라파워, 미국 첫 상업용 SMR 승인",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001244031&office_id=215&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 14:47",
+          "source": "한국경제TV",
+          "has_name": false
+        },
+        {
+          "title": "‘SK 투자’ 테라파워, 美서 세계 첫 상업용 SMR 승인 ‘쾌거’",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003014025&office_id=029&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:32",
+          "source": "디지털타임스",
+          "has_name": false
+        },
+        {
+          "title": "EU 산업가속화법 공개에 업계 '희비'…배터리는 기대, 車수출은 긴장",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005729746&office_id=277&code=096770&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 10:46",
+          "source": "아시아경제",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[정유] S-Oil",
+          "change_rate": "+6.5%"
+        },
+        {
+          "name": "[이차전지] LG에너지솔루션",
+          "change_rate": "+6.9%"
+        },
+        {
+          "name": "[그룹사] SK",
+          "change_rate": "+8.9%"
+        },
+        {
+          "name": "[그룹사] SK하이닉스",
+          "change_rate": "+10.8%"
+        },
+        {
+          "name": "[그룹사] SK텔레콤",
+          "change_rate": "+10.8%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    },
+    {
+      "id": "sig_20260305_KR_007",
+      "theme": "#전력기기",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "HD현대일렉트릭은(는) K태양광, 새로운 밸류체인 밝힌다 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "HD현대일렉트릭",
+        "symbol": "322000",
+        "change_rate": "+15.8%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=322000"
+      },
+      "news_articles": [
+        {
+          "title": "태양광 산업 밸류체인 바꾼다..HD현대엔솔의 탠덤셀 승부수",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324224&office_id=008&code=322000&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 05:50",
+          "source": "머니투데이",
+          "has_name": false
+        },
+        {
+          "title": "K태양광, 새로운 밸류체인 밝힌다",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005324196&office_id=008&code=322000&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.03 04:03",
+          "source": "머니투데이",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[전력기기] LS ELECTRIC",
+          "change_rate": "+12.0%"
+        },
+        {
+          "name": "[전력기기] 효성중공업",
+          "change_rate": "+8.1%"
+        },
+        {
+          "name": "[지주사] LS",
+          "change_rate": "+7.1%"
+        },
+        {
+          "name": "[그룹사] HD한국조선해양",
+          "change_rate": "+7.4%"
+        },
+        {
+          "name": "[유틸리티] 한국전력",
+          "change_rate": "+5.8%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    },
+    {
+      "id": "sig_20260305_KR_008",
+      "theme": "#조선",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "삼성중공업은(는) 부산에서 'K-조선·해운의 길'을 묻다... '2026 fn조선해양포럼... 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "삼성중공업",
+        "symbol": "010140",
+        "change_rate": "+15.7%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=010140"
+      },
+      "news_articles": [
+        {
+          "title": "중진공, 삼성중공업 협력사 91곳과 간담회",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001243930&office_id=215&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 07:32",
+          "source": "한국경제TV",
+          "has_name": true
+        },
+        {
+          "title": "[로펌ON] 광장, 이현동 전 삼성물산 준법지원인 부사장 영입",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000080346&office_id=293&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:44",
+          "source": "블로터",
+          "has_name": false
+        },
+        {
+          "title": "중진공, K-조선 중소기업 현장 찾아 간담회 개최",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002413003&office_id=092&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 12:37",
+          "source": "지디넷코리아",
+          "has_name": false
+        },
+        {
+          "title": "에이로봇 엄윤설 대표, IFR 선정 '2026 로봇 공학계 여성 리더 ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001010521&office_id=031&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 10:43",
+          "source": "아이뉴스24",
+          "has_name": false
+        },
+        {
+          "title": "법무법인 광장, 이현동 전 삼성물산 준법지원인 부사장 영입",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002378857&office_id=123&code=010140&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 09:39",
+          "source": "조세일보",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[조선] HD한국조선해양",
+          "change_rate": "+7.4%"
+        },
+        {
+          "name": "[조선] HD현대중공업",
+          "change_rate": "+9.4%"
+        },
+        {
+          "name": "[조선] 한화오션",
+          "change_rate": "+12.5%"
+        },
+        {
+          "name": "[그룹사] 삼성전자",
+          "change_rate": "+11.3%"
+        },
+        {
+          "name": "[그룹사] 삼성바이오로직스",
+          "change_rate": "+8.6%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    },
+    {
+      "id": "sig_20260305_KR_009",
+      "theme": "#금융",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "미래에셋증권은(는) [특징주]증시 급반등에 증권주 '불기둥'…SK증권 23%대↑ 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "미래에셋증권",
+        "symbol": "006800",
+        "change_rate": "+15.4%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=006800"
+      },
+      "news_articles": [
+        {
+          "title": "어제 증시 폭락하는데…미래에셋증권, ETF 급락 알람 지연 발송",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000840720&office_id=422&code=006800&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 14:32",
+          "source": "연합뉴스TV",
+          "has_name": true
+        },
+        {
+          "title": "[서울데이터랩]미래에셋증권 17.35% 상승 급등세 기록",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003623175&office_id=081&code=006800&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:39",
+          "source": "서울신문",
+          "has_name": true
+        },
+        {
+          "title": "[단독] 장 끝났는데 ‘ETF 급락 알림’ 우르르…미래에셋증권 MTS...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003013992&office_id=029&code=006800&page=2&sm=title_entity_id.basic",
+          "date": "2026.03.05 11:29",
+          "source": "디지털타임스",
+          "has_name": true
+        },
+        {
+          "title": "미래에셋증권 \"삼성전자, 급락에도 목표가 유지…펀더멘털 훼손 없어...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013802374&office_id=003&code=006800&page=6&sm=title_entity_id.basic",
+          "date": "2026.03.05 08:40",
+          "source": "뉴시스",
+          "has_name": true
+        },
+        {
+          "title": "미래에셋증권 “삼성전자, 3일 동안 20% 급락했어도 사라”…이유는?",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005645420&office_id=009&code=006800&page=4&sm=title_entity_id.basic",
+          "date": "2026.03.05 07:49",
+          "source": "매일경제",
+          "has_name": true
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[금융] NH투자증권",
+          "change_rate": "+11.3%"
+        },
+        {
+          "name": "[금융] 삼성증권",
+          "change_rate": "+8.2%"
+        },
+        {
+          "name": "[금융] 키움증권",
+          "change_rate": "+18.4%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    },
+    {
+      "id": "sig_20260305_KR_010",
+      "theme": "#건설",
+      "signal_type": "이슈",
+      "short_reason": "수급 변화, 업황 변동",
+      "summary": "현대건설은(는) 현대건설, 압구정 3·5구역 수주 위해 17개 금융기관 협력 등의 영향으로 상승 마감했습니다.",
+      "main_stock": {
+        "name": "현대건설",
+        "symbol": "000720",
+        "change_rate": "+13.5%",
+        "news_url": "https://finance.naver.com/item/news.naver?code=000720"
+      },
+      "news_articles": [
+        {
+          "title": "현대건설, 압구정 3·5구역 수주 위해 17개 금융기관 협력",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003014088&office_id=029&code=000720&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 15:48",
+          "source": "디지털타임스",
+          "has_name": true,
+          "content": "현대건설은 서울 강남구 압구정 3·5구역 재건축 정비사업의 안정적 자금 조달과 조합원 금융 부담 완화를 위해 하나은행 등 17개 금융기관과 금융 협력 업무협약을 체결했다고 5일 밝혔다.\n협약에 따라 현대건설은 재건축 단계별로 사업비, 이주비(추가이주비 포함), 중도금, 조합원 분담금, 입주 시 잔금 등 사업 단계별로 최적의 금융상품을 협약 참여 금융기관에 요청하고, 기관은 맞춤형 금융상품과 지원 프로그램을 제시할 예정이다.\n아울러 양측은 고객 편의를 높일 수 있는 신규 금융 설루션 공동 개발에도 협력하기로 했다. 이를 통해 사업 추진 과정에서 발생할 수 있는 금융 리스크를 선제적으로 관리하고, 조합원의 금융 부담과 시장 변동성 관련 우려를 낮추고자 전 과정 금융지원 프로그램인 ‘H-금융 솔루션’ 체계를 구축한다.\n또 앞서 시공사로 선정된 압구정2구역에 이어 3·5구역까지 금융 안정망을 확장해 ‘압구정 현대’를 하나의 유기적 사업 권역으로 관리하겠다고 현대건설은 밝혔다.\n현대건설 관계자는 “압구정 2구역에서 시작된 금융 협력 모델을 3구역과 5구역까지 확장해 고객이 느끼는 불확실성과 부담을 줄이고, 시공을 넘어 금융 안정까지 책임지는 현대건설만의 ‘안심 금융 체계’를 구축해 나가겠다”고 말했다."
+        },
+        {
+          "title": "압구정 3·5 총력…현대건설, 조합원 부담 완화 '안심 금융 체계' ...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013803946&office_id=003&code=000720&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 14:56",
+          "source": "뉴시스",
+          "has_name": true
+        },
+        {
+          "title": "\"디에이치' 말고 다른 이름\"…현대건설, 광천동 재개발에 새 브랜드 제...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000478065&office_id=629&code=000720&page=3&sm=title_entity_id.basic",
+          "date": "2026.03.05 00:01",
+          "source": "더팩트",
+          "has_name": true
+        },
+        {
+          "title": "'SK·한수원 투자' 테라파워, 美 최초 상업용 SMR 건설 승인",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005729832&office_id=277&code=000720&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 13:00",
+          "source": "아시아경제",
+          "has_name": false
+        },
+        {
+          "title": "코스피 10% 급등…수익률 상위 투자자는 ‘S-Oil’ 선택 [주식 초...",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004596028&office_id=011&code=000720&page=1&sm=title_entity_id.basic",
+          "date": "2026.03.05 11:39",
+          "source": "서울경제",
+          "has_name": false
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[지주사] 삼성물산",
+          "change_rate": "+7.7%"
+        },
+        {
+          "name": "[건설] GS건설",
+          "change_rate": "+4.3%"
+        },
+        {
+          "name": "[그룹사] 현대차",
+          "change_rate": "+9.4%"
+        },
+        {
+          "name": "[그룹사] 현대모비스",
+          "change_rate": "+8.3%"
+        },
+        {
+          "name": "[그룹사] 현대해상",
+          "change_rate": "+5.1%"
+        }
+      ],
+      "timestamp": "2026-03-05 16:08:03"
+    }
+  ]
+}
