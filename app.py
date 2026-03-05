@@ -398,7 +398,14 @@ def show_search():
 
 def trigger_github_action(market):
     """Trigger GitHub Action workflow via Workflow Dispatch API."""
-    pat = st.secrets.get("GITHUB_PAT")
+    try:
+        pat = st.secrets.get("GITHUB_PAT")
+    except Exception:
+        pat = None
+        
+    if not pat:
+        pat = os.environ.get("GITHUB_PAT")
+        
     if not pat:
         return "ERROR_MISSING_PAT"
         
