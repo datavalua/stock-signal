@@ -411,10 +411,13 @@ def trigger_github_action(market):
         
     owner = "datavalua"
     repo = "stock-signal"
-    workflow_id = "cron_crawler_kr.yml" if market == "KR" else "cron_crawler_us.yml"
+    
+    if market == "BOOTSTRAP":
+        workflow_id = "bootstrap_metadata.yml"
+    else:
+        workflow_id = "cron_crawler_kr.yml" if market == "KR" else "cron_crawler_us.yml"
     
     url = f"https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches"
-    headers = {
         "Authorization": f"Bearer {pat}",
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28"
@@ -476,6 +479,17 @@ def show_admin():
                 safe_rerun()
             except Exception as e:
                 st.error(f"확장 중 오류 발생: {e}")
+                
+    if st.button("🚀 GitHub Actions에서 자동 확장 (영구 저장용)"):
+        with st.spinner("GitHub Actions를 깨우는 중..."):
+            res = trigger_github_action("BOOTSTRAP")
+            if res == "SUCCESS":
+                st.balloons()
+                st.success("✅ AI Bootstrap 가동 성공! 약 2~3분 뒤 정보가 영구 업데이트됩니다.")
+            elif res == "ERROR_MISSING_PAT":
+                st.error("🔑 GITHUB_PAT이 설정되지 않았습니다.")
+            else:
+                st.error(f"❌ GitHub 호출 실패: {res}")
 
 # --- Main App Flow ---
 def main():
