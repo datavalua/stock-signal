@@ -17,7 +17,7 @@ try:
     GENAI_AVAILABLE = True
 except ImportError:
     GENAI_AVAILABLE = False
-    print("Warning: google-genai package not found. AI summaries will be disabled.")
+    print("Warning: google-generativeai package not found. AI summaries will be disabled.")
 except Exception as e:
     GENAI_AVAILABLE = False
     print(f"Error loading Gemini SDK: {e}")
