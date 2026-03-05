@@ -429,8 +429,12 @@ def trigger_github_action(market):
         res = requests.post(url, headers=headers, json=data)
         if res.status_code == 204:
             return "SUCCESS"
+        elif res.status_code == 404:
+            return f"Error 404: Workflow or Repo not found. (ID: {workflow_id})"
+        elif res.status_code == 403:
+            return f"Error 403: Permission Denied. Check your GITHUB_PAT permissions."
         else:
-            return f"API_ERROR: {res.status_code}"
+            return f"API_ERROR: {res.status_code} - {res.text}"
     except Exception as e:
         return f"EXCEPTION: {str(e)}"
 

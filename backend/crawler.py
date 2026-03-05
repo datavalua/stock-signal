@@ -56,6 +56,21 @@ except ImportError:
 # Constants
 DATA_DIR = "data"
 
+class RateLimiter:
+    """Ensures a minimum interval between calls to stay within RPM limits."""
+    def __init__(self, rpm=15):
+        self.interval = 60.0 / rpm
+        self.last_call_time = 0
+
+    def wait(self):
+        elapsed = time.time() - self.last_call_time
+        if elapsed < self.interval:
+            time.sleep(self.interval - elapsed)
+        self.last_call_time = time.time()
+
+# Global rate limiter instance (14 RPM for safety)
+AI_LIMITER = RateLimiter(rpm=14)
+
 def load_stock_metadata():
     """Load stock metadata from JSON file."""
     metadata_path = os.path.join(DATA_DIR, "stock_metadata.json")
@@ -84,8 +99,8 @@ def call_gemini_with_fallback(prompt, config_kwargs=None, max_retries_per_model=
     config = types.GenerationConfig(**(config_kwargs or {}))
     
     for model_name in models:
-        # Give some breathing room to respect RPM limits (e.g. 15 RPM ~ 4s spacing)
-        time.sleep(4.5)
+        # Use smarter rate limiting instead of fixed sleep
+        AI_LIMITER.wait()
         for attempt in range(max_retries_per_model):
             try:
                 model = genai.GenerativeModel(model_name)
