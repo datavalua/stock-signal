@@ -680,7 +680,7 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
             market_context_prompt = f"**오늘의 핵심 시황 (참고용):**\n{market_context_text}\n" if market_context_text else ""
 
             if market == "US":
-                target_instruction = "제공된 영어 기사들을 정독하고 분석하여, 한국인 독자를 위해 한국어로 자연스러운 리포트를 작성하세요."
+                target_instruction = "제공된 영어 기사들을 정독하고 분석하여, 한국인 독자를 위해 모든 항목(summary 및 short_reason)을 한국어로 자연스럽게 작성하세요."
             else:
                 target_instruction = "주요 내용을 종합하여 2~3문장으로 요약하세요."
 
@@ -690,12 +690,12 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
                 f"{articles_text}"
                 f"{market_context_prompt}"
                 f"**작성 가이드라인 (반드시 준수):**\n"
-                f"1. **한국어 요약 (summary)**: {target_instruction} 시장 전체 흐름(시황)의 영향이 컸다면 이를 함께 엮어서 설명하고, 단순 사실 나열이 아닌 한국 독자가 이해하기 편한 리포트 어조를 사용하세요.\n"
-                f"2. **키워드 압축 (short_reason)**: 위 '요약(summary)'의 핵심을 **2~3개의 명사구/단어**로만 압축하세요. (예: '매출 성장세 지속, 전체 시장 하락세 동조'). 문장이나 마침표를 사용하지 마세요.\n"
+                f"1. **한국어 요약 (summary)**: {target_instruction} 기사 내용을 통해 주가 혹은 지수 변동에 대한 정확한 이유를 파악하여 요약하세요. 특별한 이유를 발견할 수 없다면 '알 수 없음' 혹은 '뚜렷한 원인 부재' 등으로 명시하거나, 전체 지수와 방향이 같다면 시장 흐름에 동조했다는 점을 서술하세요. 단순 사실 나열은 피하세요.\n"
+                f"2. **명사구/어절 단위 (short_reason)**: 위 '요약(summary)'의 핵심을 문맥이 이어지는 2~4어절의 단일 구/절 단위로 작성하세요 (예: '외국인 대규모 매수세로 상승', '특별한 요인 없는 시장 동조화', '호실적 발표에 따른 기대감'). 쉼표(,)를 사용한 단순 단어 나열은 절대 금지합니다. 미국 주식의 경우에도 반드시 한국어로 번역하여 작성해야 합니다.\n"
                 f"3. **카테고리 분류 (category)**: '실적', '수급', '이슈', '거시경제', '빅테크' 중 하나를 선택하세요.\n"
-                f"4. **금지 사항**: '{stock_name}은(는) ~로 인해 주가가 상승했습니다' 처럼 주가가 올랐다는 단순 서술어는 피하세요.\n"
+                f"4. **금지 사항**: '~등의 영향으로 상승 마감했습니다', '{stock_name}은(는) ~로 인해 주가가 상승/하락 했습니다' 등 기계적이고 뻔한 문장 구조는 절대 쓰지 마세요.\n"
                 f"5. **출력 형식**: 아래 JSON 구조로만 응답하세요. 다른 설명이나 텍스트를 절대 포함하지 마세요.\n"
-                f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 키워드\", \"summary\": \"규칙을 준수한 자연스러운 요약 리포트\"}}"
+                f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 이유 어절 단위\", \"summary\": \"규칙을 준수한 자연스러운 요약 리포트\"}}"
             )
             
             response = call_gemini_with_fallback(
@@ -717,24 +717,30 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
     
     # Fallback logic
     news_titles = [a["title"] for a in articles if "title" in a]
-    main_news = news_titles[best_idx] if (news_titles and 0 <= best_idx < len(news_titles)) else "시장 수급 변화"
+    main_news = news_titles[best_idx] if (news_titles and 0 <= best_idx < len(news_titles)) else ""
     
     if market == "US":
         main_news = "외신 보도 및 주요 지표 변화"
         
+    fallback_reason = "시장 상황에 따른 변동"
+    if main_news:
+        fallback_summary = f"뚜렷한 개별 요인보다는 시장 상황을 따랐거나, '{main_news}' 관련 이슈의 영향을 받았을 수 있습니다."
+    else:
+        fallback_summary = f"기사 내용만으로는 명확한 변동 요인을 알 수 없으며, 시장 전반의 흐름에 동조했을 가능성이 있습니다."
+
     return {
         "category": "이슈", 
-        "short_reason": "수급 변화, 업황 변동", 
-        "summary": f"{stock_name}은(는) {main_news} 등의 영향으로 {direction} 마감했습니다.",
+        "short_reason": fallback_reason, 
+        "summary": fallback_summary,
         "summary_success": False
     }
 
 def generate_short_reason(stock_name, articles, change_val, best_idx=0, translated_title=None):
     if translated_title:
         words = [w for w in translated_title.split() if len(w) > 1]
-        return f"{words[0]}, {words[1]}" if len(words) >= 2 else "업황 변동, 수급 변화"
+        return f"{words[0]} 관련 이슈로 변동" if len(words) >= 1 else "시장 흐름 동조"
     
-    return "업황 변동, 수급 변화"
+    return "시장 전반 흐름에 따른 변동"
 
 def get_related_stocks(symbol, name, date_str, theme=None, market="KR"):
     """
@@ -1015,7 +1021,15 @@ def generate_daily_json(date_str=None, market="KR"):
         # Filter invalid articles (must be dict with url and title)
         articles = [a for a in articles if isinstance(a, dict) and 'url' in a and 'title' in a]
         
-        # 3. [Tier 1 Smart Skip] Check previous success, same direction, and change_rate delta
+        # 3. Fetch Investor Data (KR Only, No Paid API used)
+        investor_data = None
+        if market == "KR":
+            try:
+                investor_data = get_investor_data(symbol, date_str)
+            except Exception as e:
+                print(f"Error fetching investor data: {e}")
+
+        # 4. [Tier 1 Smart Skip] Check previous success, same direction, and change_rate delta
         ai_result = None
         if symbol in existing_signals:
             old_signal = existing_signals[symbol]
@@ -1034,7 +1048,7 @@ def generate_daily_json(date_str=None, market="KR"):
                         print(f"[{idx+1}/{len(movers)}] [Tier 1 Skip] Valid prior summary exists, same direction, and change gap (abs({abs(old_change_val - change_val):.2f}%)) <= 3.0%. Skipping AI.")
                         ai_result = {
                             "category": old_signal.get("signal_type", "이슈"),
-                            "short_reason": old_signal.get("short_reason", "수급 변화"),
+                            "short_reason": old_signal.get("short_reason", "시장 흐름 동조"),
                             "summary": old_signal.get("summary", ""),
                             "summary_success": True
                         }
@@ -1056,13 +1070,6 @@ def generate_daily_json(date_str=None, market="KR"):
                         print(f"Error scraping content for {articles[i]['url']}: {e}")
                         articles[i]['content'] = ""
 
-                investor_data = None
-                if market == "KR":
-                    try:
-                        investor_data = get_investor_data(symbol, date_str)
-                    except Exception as e:
-                        print(f"Error fetching investor data: {e}")
-
                 print(f"[{idx+1}/{len(movers)}] Generating new AI summary for {name}...")
                 ai_result = generate_summary(
                     name, articles, change_val, 
@@ -1075,8 +1082,8 @@ def generate_daily_json(date_str=None, market="KR"):
             # No articles found case
             ai_result = {
                 "category": "이슈", 
-                "short_reason": "수급 변화", 
-                "summary": f"{name}은(는) 시장 수급 변화 등의 영향으로 변동을 보였습니다.",
+                "short_reason": "알 수 없음", 
+                "summary": "관련 기사를 찾지 못해 뚜렷한 변동 이유를 파악할 수 없습니다. 전체적인 지수 흐름에 동조했을 가능성이 큽니다.",
                 "summary_success": False
             }
 
