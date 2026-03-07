@@ -1,34 +1,39 @@
 # 📈 Stock Signal: Real-time Market Intelligence
 
-> **토스증권 시그널 클론** - 실시간 시장 급등주의 원인을 AI로 분석하고 연관 테마를 시각화하는 지능형 대시보드입니다.
+> **Toss Securities Signal Clone** - An intelligent dashboard that analyzes the causes of real-time market surges using AI and visualizes related themes with a premium, user-centric interface.
 
-[![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/Backend-Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://streamlit.io/)
+[![Gemini](https://img.shields.io/badge/AI-Google_Gemini-8E75B2?style=flat-square&logo=google-gemini)](https://deepmind.google/technologies/gemini/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
 
 ## ✨ 핵심 기능 (Key Features)
 
-- **🚀 실시간 핫이슈 포착**: KOSPI, KOSDAQ, S&P 500, NASDAQ 시장의 급등주를 실시간으로 트래킹합니다.
-- **🤖 AI 뉴스 인사이트**: Google Gemini API를 활용하여 파편화된 뉴스를 "왜 올랐는지"에 초점을 맞춰 한 줄로 요약합니다.
-- **🔗 지능형 테마 매핑**: 단순히 한 종목만 보여주는 것이 아니라, 해당 이슈로 인해 함께 움직이는 **경쟁사 및 공급망 기업**을 자동으로 연결합니다.
-- **📅 히스토리 타임라인**: 과거 날짜의 시그널을 조회하여 시장의 흐름이 어떻게 변화했는지 복기할 수 있습니다.
+- **🚀 Real-time Market Tracking**: KOSPI, KOSDAQ, S&P 500, and NASDAQ 시장의 급등주 및 테마를 실시간(20분 단위)으로 트래킹합니다.
+- **🤖 AI-Powered Insights**: Google Gemini AI를 활용하여 파편화된 뉴스를 분석, "왜 주가가 움직였는지"에 대한 핵심 이유를 자연스러운 문장으로 요약합니다.
+- **🔍 Intelligent Short Reasons**: 단순 키워드 나열이 아닌, 문맥이 담긴 명사구/어절 단위의 한 줄 요약을 제공하여 가독성을 극대화했습니다.
+- **🔗 Contextual Theme Mapping**: 개별 종목의 이슈뿐만 아니라, 동일한 재료로 함께 움직이는 연관 테마와 기업들을 지능적으로 연결합니다.
+- **📅 Historical Archive**: 과거 특정 날짜의 시장 시그널을 조회하여 과거 트렌드와 복기(Backtesting) 기능을 지원합니다.
+- **⚖️ Smart Data Management**: 중복 데이터 수집을 방지하고 API 쿼리를 최적화하는 'Smart Skip' 로직 및 로컬용 'Force Regeneration' 모드를 탑재했습니다.
 
 ---
 
 ## 🛠️ 기술 스택 (Tech Stack)
 
-### **Frontend**
-- **Streamlit**: 파이썬 기반의 빠르고 직관적인 데이터 대시보드 UI.
-- **Custom CSS**: 토스 스타일의 깔끔한 디자인을 위한 스타일 커스텀 적용.
+### **Frontend & UI/UX**
+- **Streamlit**: 데이터 중심의 빠르고 인터랙티브한 대시보드 환경 구축.
+- **Custom Design System**: 토스의 'Super App' 감성을 로컬화한 프리미엄 CSS 테마 및 마이크로 애니메이션 적용.
 
-### **Backend & Data**
-- **Python 3.10**: 데이터 크롤링 및 분석 코어 로직.
-- **Google Gemini 2.0 Pro/Flash**: 뉴스 분석 및 의미론적 요약. (환경에 따른 모델 이원화 적용)
-- **GitHub Actions**: 20분 단위 자동 데이터 수집 파이프라인.
-- **Smart Skip Logic**: 중복 뉴스에 대한 AI 호출을 방지하는 Tiered Skip 시스템 탑재.
-- **Holidays**: 한/미 휴장일 자동 감지 및 예외 처리.
+### **Intelligence Engine**
+- **Google Gemini 2.0 Pro / Flash**: 정교한 텍스트 분석 및 다국어(영어/한국어) 요약/번역 엔진.
+- **Natural Language Processing**: 도메인 특화 프롬프트 엔지니어링을 통한 고품질 금융 리포트 생성.
+
+### **Automated Infrastructure**
+- **Python 3.9+**: 데이터 수집, 가공 및 자동화 파이프라인 코어.
+- **GitHub Actions**: 24/7 무중단 자동 크롤링 및 배포 자동화.
+- **Incremental Data Store**: JSON 기반의 경량화된 증분 데이터 저장 시스템.
 
 ---
 
@@ -36,35 +41,38 @@
 
 ```text
 /
-├── backend/            # 데이터 수집 및 AI 분석 코어 로직
-│   ├── crawler.py      # 뉴스 크롤링 및 Gemini 연동 (Smart Skip 포함)
-│   └── bootstrap_*.py  # 종목 메타데이터 초기 구축 스크립트
-├── data/               # 실시간/과거 시그널 데이터 (JSON)
-├── posts/              # 프로젝트 개발 일지 (Devlog)
-├── tests/              # 단위 테스트 및 검증 스크립트
-├── app.py              # Streamlit 대시보드 메인 실행 파일
-├── requirements.txt    # 의존성 패키지 목록
-└── README.md
+├── backend/            # Data collection & AI Intelligence Core
+│   ├── crawler.py      # Core engine for scraping, AI summary, and logic
+│   └── bootstrap_*.py  # Metadata & Infrastructure setup scripts
+├── data/               # Daily Signal JSON artifacts
+├── posts/              # Product Devlogs and project history
+├── tests/              # Validation & Quality assurance scripts
+├── app.py              # Streamlit Presentation layer
+└── requirements.txt    # System dependencies
 ```
 
 ---
 
 ## 🚦 시작하기 (Getting Started)
 
-### 1. 환경 설정
-`.env` 파일(로컬) 또는 Streamlit Secrets(클라우드)에 아래 변수를 설정합니다.
+### 1. 전제 조건
+- Python 3.9 이상
+- Google Gemini API Key
+
+### 2. 환경 설정
+`.env` 파일에 아래 변수를 설정합니다.
 ```env
-GEMINI_API_KEY=your_gemini_api_key
-ADMIN_PASSWORD=your_admin_password
-GEMINI_MODEL=optional_model_override  # 예: gemini-2.0-flash
+GEMINI_API_KEY=your_key_here
+ADMIN_PASSWORD=your_password
 ```
 
-### 2. 데이터 수집 실행
+### 3. 수집 엔진 가동 (Local Force Mode)
 ```bash
-python backend/crawler.py --market KR
+# 특정 날짜의 데이터를 강제로 최신 프롬프트로 재생성
+python backend/crawler.py --date 2026-03-06 --market KR --force
 ```
 
-### 3. 대시보드 실행
+### 4. 대시보드 런칭
 ```bash
 streamlit run app.py
 ```
@@ -72,16 +80,17 @@ streamlit run app.py
 ---
 
 ## 🗺️ 로드맵 (Roadmap)
-- [x] Python 기반 데이터 파이프라인 및 AI 요약 엔진 구축
-- [x] GitHub Actions 자동화 시스템 완료
-- [ ] **Next.js 기반 모던 프론트엔드 전환 (진행 중)**
-- [ ] Google AdSense 및 SEO 최적화 적용
-- [ ] 실시간 알림 시스템 (Telegram/Discord) 연동
+- [x] AI 정밀 요약 엔진 및 프롬프트 고도화
+- [x] GitHub Actions 자동 스케줄링 시스템 구축
+- [x] 로컬 데이터 강제 갱신(--force) 인프라 완료
+- [ ] **Modern Web Frontend (Next.js/React) 전환**
+- [ ] 실시간 알림 서비스 연동 (Webhook)
+- [ ] 다국어 지원 엔진 확장
 
 ---
 
 ## 📄 라이선스 (License)
-이 프로젝트는 MIT 라이선스를 따릅니다.
+This project is licensed under the MIT License.
 
 ---
-**Developed by [datavalua](https://github.com/datavalua)**
+**Crafted with Passion by [datavalua](https://github.com/datavalua)**

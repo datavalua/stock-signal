@@ -684,16 +684,18 @@ def generate_summary(stock_name, articles, change_val, best_idx=0, investor_data
             else:
                 target_instruction = "주요 내용을 종합하여 2~3문장으로 요약하세요."
 
+            is_index_prompt = "시장 지수" if any(idx in stock_name.upper() for idx in ["KOSPI", "KOSDAQ", "NASDAQ", "S&P", "SP500"]) else "개별 종목"
+            
             prompt = (
-                f"당신은 금융 시장을 분석하는 최상급 AI 리포터입니다. {stock_name} ({direction})에 관한 최신 개별 종목 기사들과 오늘의 전체 시황 뉴스를 읽고 분석 리포트를 작성하세요.\n"
+                f"당신은 금융 시장을 분석하는 최상급 AI 리포터입니다. {stock_name} ({direction}, {is_index_prompt})에 관한 최신 기사들과 오늘의 전체 시황 뉴스를 읽고 분석 리포트를 작성하세요.\n"
                 f"**분석용 뉴스 데이터**\n"
                 f"{articles_text}"
-                f"{market_context_prompt}"
+                f"{market_context_prompt}\n"
                 f"**작성 가이드라인 (반드시 준수):**\n"
-                f"1. **한국어 요약 (summary)**: {target_instruction} 기사 내용을 통해 주가 혹은 지수 변동에 대한 정확한 이유를 파악하여 요약하세요. 특별한 이유를 발견할 수 없다면 '알 수 없음' 혹은 '뚜렷한 원인 부재' 등으로 명시하거나, 전체 지수와 방향이 같다면 시장 흐름에 동조했다는 점을 서술하세요. 단순 사실 나열은 피하세요.\n"
+                f"1. **한국어 요약 (summary)**: {target_instruction} 기사 내용을 통해 {is_index_prompt} 변동에 대한 정확한 이유를 파악하여 요약하세요. 특별한 이유를 발견할 수 없다면 '알 수 없음' 혹은 '뚜렷한 원인 부재' 등으로 명시하거나, 전체 지수와 방향이 같다면 시장 흐름에 동조했다는 점을 서술하세요. 단순 사실 나열은 피하세요.\n"
                 f"2. **명사구/어절 단위 (short_reason)**: 위 '요약(summary)'의 핵심을 문맥이 이어지는 2~4어절의 단일 구/절 단위로 작성하세요 (예: '외국인 대규모 매수세로 상승', '특별한 요인 없는 시장 동조화', '호실적 발표에 따른 기대감'). 쉼표(,)를 사용한 단순 단어 나열은 절대 금지합니다. 미국 주식의 경우에도 반드시 한국어로 번역하여 작성해야 합니다.\n"
                 f"3. **카테고리 분류 (category)**: '실적', '수급', '이슈', '거시경제', '빅테크' 중 하나를 선택하세요.\n"
-                f"4. **금지 사항**: '~등의 영향으로 상승 마감했습니다', '{stock_name}은(는) ~로 인해 주가가 상승/하락 했습니다' 등 기계적이고 뻔한 문장 구조는 절대 쓰지 마세요.\n"
+                f"4. **금지 사항**: '~등의 영향으로 상승 마감했습니다', '{stock_name}은(는) ~로 인해 주가가 상승/하락 했습니다' 등 기계적이고 뻔한 문장 구조는 절대 쓰지 마세오.\n"
                 f"5. **출력 형식**: 아래 JSON 구조로만 응답하세요. 다른 설명이나 텍스트를 절대 포함하지 마세요.\n"
                 f"{{\"category\": \"카테고리\", \"short_reason\": \"핵심 이유 어절 단위\", \"summary\": \"규칙을 준수한 자연스러운 요약 리포트\"}}"
             )
@@ -868,7 +870,7 @@ def get_last_trading_day(target_date_str=None, market="KR"):
         
     return check_date.strftime("%Y-%m-%d")
 
-def generate_daily_json(date_str=None, market="KR"):
+def generate_daily_json(date_str=None, market="KR", force=False):
     if date_str is None: 
         date_str = get_last_trading_day(market=market)
     print(f"Generating data for {date_str} ({market} market)...")
@@ -960,10 +962,24 @@ def generate_daily_json(date_str=None, market="KR"):
              i_articles[k]['content'] = c_content
 
         print(f"Generating AI summary for Index: {i_name}...")
-        i_ai_res = generate_summary(
-            i_name, i_articles, 0.0, # Change value not strictly needed for index summary but passed 0.0
-            market=market
-        )
+        
+        # Check if we can reuse existing signal for index
+        i_ai_res = None
+        if not force and i_symbol in existing_signals:
+            old_idx_sig = existing_signals[i_symbol]
+            if old_idx_sig.get("summary_success", False):
+                print(f"Reusing existing AI summary for index {i_name} (force=False)")
+                i_ai_res = {
+                    "short_reason": old_idx_sig.get("short_reason", ""),
+                    "summary": old_idx_sig.get("summary", ""),
+                    "summary_success": True
+                }
+
+        if not i_ai_res:
+            i_ai_res = generate_summary(
+                i_name, i_articles, 0.0, # Change value not strictly needed for index summary but passed 0.0
+                market=market
+            )
 
         signals.append({
             "id": f"sig_{date_str.replace('-','')}_{market}_IDX_{i_symbol}",
@@ -1030,8 +1046,9 @@ def generate_daily_json(date_str=None, market="KR"):
                 print(f"Error fetching investor data: {e}")
 
         # 4. [Tier 1 Smart Skip] Check previous success, same direction, and change_rate delta
+        # Only skip if NOT forced and NOT in Tier 1 Skip condition
         ai_result = None
-        if symbol in existing_signals:
+        if not force and symbol in existing_signals:
             old_signal = existing_signals[symbol]
             old_success = old_signal.get("summary_success", False)
             
@@ -1150,7 +1167,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Toss Signal Crawler")
     parser.add_argument("--date", type=str, default=None, help="Target date YYYY-MM-DD")
     parser.add_argument("--market", type=str, choices=["KR", "US"], default="KR", help="Market to crawl (KR or US)")
+    parser.add_argument("--force", action="store_true", help="Force regenerate all AI summaries")
     args = parser.parse_args()
     
     target_day = args.date if args.date else get_last_trading_day()
-    generate_daily_json(target_day, market=args.market)
+    generate_daily_json(target_day, market=args.market, force=args.force)
