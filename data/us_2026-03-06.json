@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07 17:15:51",
+  "last_updated": "2026-03-07 17:37:29",
   "signals": [
     {
       "id": "sig_20260306_US_IDX_SP500",
@@ -26,7 +26,7 @@
         }
       ],
       "related_stocks": [],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_IDX_NASDAQ",
@@ -53,7 +53,7 @@
         }
       ],
       "related_stocks": [],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_001",
@@ -74,40 +74,35 @@
           "url": "https://finance.yahoo.com/news/marvell-technology-mrvl-rockets-18-063326248.html?.tsrc=rss",
           "date": "03.07 15:33",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Marvell Technology (MRVL) Rockets 18% on Billion-Dollar Profitability\nAngelica Ballesteros\nSat, March 7, 2026 at 3:33 PM GMT+9\nMarvell Technology Inc. (NASDAQ:MRVL) is one of the\nMarvell Technology soared by 18.35 percent on Friday to close at $89.57 apiece, as investors took heart from its strong earnings performance for the full fiscal year 2026, swinging to billions of profits from hundred millions of net losses a year earlier.\nIn an updated report, Marvell Technology Inc. (NASDAQ:MRVL) said that it incurred a $2.67 billion net income in the full fiscal year ending January 31, reversing an $885 million net loss in fiscal 2025.\nPhoto from Marvell website\nNet revenues jumped by 42 percent to $8.2 billion from $5.77 billion year-on-year.\nIn the fourth quarter alone, net income stood at $396.1 million, nearly double the $200.2 million in the same period a year earlier. Net revenues increased by 22 percent to $2.2 billion from $1.8 billion year-on-year.\nMarvell Technology Inc. (NASDAQ:MRVL) Chairman and CEO Matt Murphy attributed the company���s strong performance from the robust AI demand.\nLooking ahead, the company is targeting net revenues for the first quarter of fiscal year 2027 at a midpoint of $2.4 billion, or a 27 percent jump from the $1.895 billion reported in the same period a year earlier.\nGAAP diluted earnings per share are targeted at $0.31, plus or minus $0.05, versus $0.20 year-on-year.\nWhile we acknowledge the potential of MRVL as an investment, our conviction "
+          "has_name": true
         },
         {
           "title": "Why Marvell Stock Soared Today",
           "url": "https://www.fool.com/investing/2026/03/06/why-marvell-stock-is-up-today/?.tsrc=rss",
           "date": "03.07 08:44",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Feb 25, 2026"
+          "has_name": true
         },
         {
           "title": "Stocks to Watch Friday Recap: Marvell, Costco, Gap",
           "url": "https://finance.yahoo.com/m/72aaee79-070b-3241-bb92-dd0eeac49cf9/stocks-to-watch-friday-recap%3A.html?.tsrc=rss",
           "date": "03.07 07:56",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Stocks to Watch Friday Recap: Marvell, Costco, Gap\nStocks to Watch Friday Recap: Marvell, Costco, Gap\nThe Wall Street Journal\nSat, March 7, 2026 at 7:56 AM GMT+9\n���� Costco (COST): The warehouse retailer posted strong quarterly results, boosted by both product sales and membership fees. Shares added 1.6% Friday. ���截� Marvell Technology (MRVL): The semiconductor company posted strong quarterly earnings, driven by AI demand, plus upbeat revenue projections."
+          "has_name": true
         },
         {
           "title": "Equities Fall Following Jobs Miss, US Crude Weekly Gain Biggest on Record",
           "url": "https://finance.yahoo.com/news/equities-fall-following-jobs-miss-220850849.html?.tsrc=rss",
           "date": "03.07 07:08",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Equities Fall Following Jobs Miss, US Crude Weekly Gain Biggest on Record\nMT Newswires\nSat, March 7, 2026 at 7:08 AM GMT+9\nEquities fell Friday following a surprise drop in nonfarm payrolls, while US crude futures marked th\nUpgrade to read this MT Newswires article and get so much more.\nA Silver or Gold subscription plan is required to access premium news articles."
+          "has_name": true
         },
         {
           "title": "These Stocks Are Today’s Movers: Marvell, Gap, Trade Desk, United Airlines, Corning, BlackRock, Tesla, Presidio, and More",
           "url": "https://finance.yahoo.com/m/b5c4f785-50c0-33f4-8fa2-b8d3da2bb2de/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
           "date": "03.07 06:30",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "These Stocks Are Today���s Movers: Marvell, Gap, Trade Desk, United Airlines, Corning, BlackRock, Tesla, Presidio, and More\nThese Stocks Are Today���s Movers: Marvell, Gap, Trade Desk, United Airlines, Corning, BlackRock, Tesla, Presidio, and More\nGeorge Glover\nSat, March 7, 2026 at 6:30 AM GMT+9\nMarvell shares jump after the chip maker beats analysts��� fourth-quarter earnings estimates and issues solid guidance."
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -120,7 +115,7 @@
           "change_rate": "-1.8%"
         }
       ],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_002",
@@ -141,40 +136,35 @@
           "url": "https://finance.yahoo.com/news/2-lesser-discussed-ai-stocks-224400414.html?.tsrc=rss",
           "date": "03.07 07:44",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "2 Lesser Discussed AI Stocks Worth Keeping a Close Eye On\nDerek Lewis\nSat, March 7, 2026 at 7:44 AM GMT+9\nWe���ve all become adjusted to a few of the mega-popular stocks involved in the broader AI trade, namely NVIDIA, Palantir, and Vertiv, to just name a small trio. But there are still several other companies that stand to benefit nicely from all the spending, including Photronics PLAB, and Teradyne TER.\nPLAB���s Critical AI Role\nPhotronics, a current Zacks Rank #2 (Buy), is a global market leader in photomasks (stencils used to print tiny circuits onto semiconductor wafers) for lithographic imaging in semiconductor and flat panel display production.\nPLAB shares broke out near the end of February after some consolidation, but the strength didn���t last very long. While the failed breakout is certainly not what you want to see from a sentiment standpoint, the company still plays a critical role in the AI frenzy, particularly in the chip-making supply chain.\nNonetheless, EPS revisions for its current fiscal year still remain highly positive, with a big positive revision hitting the tape near the end of Feb, as shown below.\nZacks Investment Research\nPLAB���s latest release showed record-high-end (advanced chips) revenue, with noted strength in the United States. Importantly, as AI chips become more complex, PLAB���s top line is poised to benefit significantly given its critical role in the broader industry.\nThe company���s CapEx has also grown significantly as it looks to expan"
+          "has_name": true
         },
         {
           "title": "Teradyne Rides AI Test Demand And 5G Growth But Valuation Questions Rise",
           "url": "https://finance.yahoo.com/news/teradyne-rides-ai-test-demand-170807796.html?.tsrc=rss",
           "date": "03.07 02:08",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Teradyne Rides AI Test Demand And 5G Growth But Valuation Questions Rise\nSimply Wall St\nSat, March 7, 2026 at 2:08 AM GMT+9\nand cut through the noise. Over 7 million investors trust Simply Wall St to stay informed where it matters for FREE.\nTeradyne (NasdaqGS:TER) reported strong Q4 2025 results, with earnings and revenue above prior expectations.\nThe company guided to higher activity in Q1 2026, supported by demand for semiconductor test equipment linked to AI chip production.\nTeradyne and its subsidiary LitePoint agreed to work with Aethertek and Metanoia to support 5G Open RAN ecosystem deployments.\nThe combination of AI related chip orders and 5G collaboration highlights fresh demand drivers for Teradyne's test and measurement solutions.\nTeradyne, a key supplier of semiconductor test equipment, is seeing strong interest as AI related chip production ramps and chipmakers invest in capacity. Its tools sit in the middle of that build out, checking that advanced processors meet performance and reliability requirements before they ship. At the same time, the new 5G Open RAN collaboration puts NasdaqGS:TER closer to customers building the next wave of wireless networks.\nFor investors, the mix of AI centric test demand and new 5G activity indicates that Teradyne is connected to several active spending cycles rather than a single product theme. Upcoming quarters will show how durable that order flow is and how efficiently the company converts it into cash and potential reinvestme"
+          "has_name": true
         },
         {
           "title": "Flex (FLEX) Up 5.6% Since Last Earnings Report: Can It Continue?",
           "url": "https://finance.yahoo.com/news/flex-flex-5-6-since-163010894.html?.tsrc=rss",
           "date": "03.07 01:30",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Flex (FLEX) Up 5.6% Since Last Earnings Report: Can It Continue?\nZacks Equity Research\nSat, March 7, 2026 at 1:30 AM GMT+9\nA month has gone by since the last earnings report for Flex (FLEX). Shares have added about 5.6% in that time frame, outperforming the S&P 500.\nWill the recent positive trend continue leading up to its next earnings release, or is Flex due for a pullback? Before we dive into how investors and analysts have reacted as of late, let's take a quick look at its latest earnings report in order to get a better handle on the important catalysts.\nFlex's Q3 Earnings Surpass Estimates\nFlex reported third-quarter fiscal 2026 adjusted earnings per share (EPS) of 87 cents, which surpassed the Zacks Consensus Estimate by 10.1%. The bottom line compared favorably with 77 cents posted in the prior-year quarter.\nRevenues increased 7.7% year over year to $7.1 billion. Also, it beat the consensus mark by 3.6%. The uptick was driven by robust AI demand.\nManagement highlighted that the company’s strong momentum continued into the third quarter, with results surpassing guidance across all key metrics. This outperformance underscores the resilience and breadth of its diversified business model across multiple end markets, including data center. Looking ahead, the company remains confident in its ability to act as a strategic partner to its customers, helping them navigate an increasingly complex and dynamic operating environment.\nManagement highlighted that the company’s discipl"
+          "has_name": true
         },
         {
           "title": "Is Teradyne (TER) Pricing In Too Much Optimism After Its 191% One Year Surge?",
           "url": "https://finance.yahoo.com/news/teradyne-ter-pricing-too-much-011118312.html?.tsrc=rss",
           "date": "03.06 10:11",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Is Teradyne (TER) Pricing In Too Much Optimism After Its 191% One Year Surge?\nSimply Wall St\nFri, March 6, 2026 at 10:11 AM GMT+9\nfrom the global community of over 7 million individual investors at Simply Wall St.\nIf you are wondering whether Teradyne's share price still reflects fair value after a strong run, you are not alone. That is exactly what this article will unpack.\nThe stock last closed at US$305.58, with returns of 8.0% over 30 days, 47.2% year to date, 191.0% over 1 year and 202.9% over 3 years. These figures can change how investors think about both upside and risk.\nRecent coverage around Teradyne has focused on its role in the semiconductor space and how investors are reassessing companies linked to testing and automation, which ties into these sharp moves in the share price. This context matters because expectations that get baked into the price can be very different from what traditional valuation models might suggest.\nOn our valuation checks Teradyne currently scores\nfor being undervalued. Next we will walk through what standard valuation approaches say about that result, and then finish with a different way of thinking about fair value that can put those models into perspective.\nTeradyne scores just 0/6 on our valuation checks. See what other red flags we found in the\n.\nApproach 1: Teradyne Discounted Cash Flow (DCF) Analysis\nA Discounted Cash Flow model projects a company���s future cash flows and then discounts those projections back to today using a requi"
+          "has_name": true
         },
         {
           "title": "3 Red Hot AI Stocks Sporting Favorable Zacks Ranks: SNDK, WDC, TER",
           "url": "https://finance.yahoo.com/news/3-red-hot-ai-stocks-231100396.html?.tsrc=rss",
           "date": "03.06 08:11",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "3 Red Hot AI Stocks Sporting Favorable Zacks Ranks: SNDK, WDC, TER\nDerek Lewis\nFri, March 6, 2026 at 8:11 AM GMT+9\nThough it may not feel like it amid recent concerns surrounding technology, particularly in software and some other stocks tied to the broader AI frenzy, many in the trade are still crushing it in the new year, delivering big-time gains.\nAnd concerning the all-star performers, three stocks that sport the highly-coveted Zacks Rank #1 (Strong Buy), SanDisk SNDK, Western Digital WDC, and Teradyne TER reflect top-performing S&P 500 stocks in 2026. What���s been driving the positivity?\nSanDisk Soars\nSanDisk shares have been melting higher in 2026 months as its role in the broader AI frenzy finally comes into focus. The stock is up nearly 140% in the new year alone, by far reflecting one of the strongest moves we���ve seen.\nAI is driving a huge surge in storage demand, which is where SanDisk comes in. NAND prices are rising rapidly, with AI data centers, cloud providers, and edge devices all needing more high-speed storage. The company���s revenue acceleration is evident in recent quarterly releases, with sales of $2.3 billion climbing 22% year-over-year throughout its latest period.\nBelow is an image illustrating the company���s favorable EPS outlook.\nZacks Investment Research\nWestern Digital\nWDC shares impressively reflected one of 2025���s top-performing S&P 500 stocks as well, with the fresh year already looking bright again. Western Digital provides scalable, sust"
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -191,7 +181,7 @@
           "change_rate": "-3.1%"
         }
       ],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_003",
@@ -208,44 +198,39 @@
       },
       "news_articles": [
         {
+          "title": "BlackRock Sticks to Redemption Minimum on Credit Fund, Sends Shares Lower",
+          "url": "https://finance.yahoo.com/m/b836346d-14ac-3d97-9674-c1ab570c2cce/blackrock-sticks-to.html?.tsrc=rss",
+          "date": "03.07 16:33",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Equities Fall Following Jobs Miss, US Crude Weekly Gain Biggest on Record",
           "url": "https://finance.yahoo.com/news/equities-fall-following-jobs-miss-220850849.html?.tsrc=rss",
           "date": "03.07 07:08",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Equities Fall Following Jobs Miss, US Crude Weekly Gain Biggest on Record\nMT Newswires\nSat, March 7, 2026 at 7:08 AM GMT+9\nEquities fell Friday following a surprise drop in nonfarm payrolls, while US crude futures marked th\nUpgrade to read this MT Newswires article and get so much more.\nA Silver or Gold subscription plan is required to access premium news articles."
-        },
-        {
-          "title": "BlackRock Sticks to Redemption Minimum on Credit Fund, Sends Shares Lower",
-          "url": "https://finance.yahoo.com/m/b836346d-14ac-3d97-9674-c1ab570c2cce/blackrock-sticks-to.html?.tsrc=rss",
-          "date": "03.07 06:49",
-          "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "BlackRock Sticks to Redemption Minimum on Credit Fund, Sends Shares Lower\nBlackRock Sticks to Redemption Minimum on Credit Fund, Sends Shares Lower\nJack Pitcher\nSat, March 7, 2026 at 4:33 PM GMT+9\nA BlackRock fund said it would not buy back more than 5% from investors. Facing a similar situation, rival Blackstone took the opposite stance."
+          "has_name": true
         },
         {
           "title": "Sector Update: Financial Stocks Decline Late Afternoon",
           "url": "https://finance.yahoo.com/news/sector-financial-stocks-decline-afternoon-205423144.html?.tsrc=rss",
           "date": "03.07 05:54",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Sector Update: Financial Stocks Decline Late Afternoon\nMT Newswires\nSat, March 7, 2026 at 5:54 AM GMT+9\nFinancial stocks were lower in late Friday trading, with the NYSE Financial Index dropping 1.5% and\nUpgrade to read this MT Newswires article and get so much more.\nA Silver or Gold subscription plan is required to access premium news articles."
+          "has_name": true
         },
         {
           "title": "BlackRock Stock Tumbles as Flagship Private Credit Firm Limits Redemptions",
           "url": "https://finance.yahoo.com/m/eb87279e-3265-3e31-82e9-d1e25b236710/blackrock-stock-tumbles-as.html?.tsrc=rss",
           "date": "03.07 04:57",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "BlackRock Stock Tumbles as Flagship Private Credit Firm Limits Redemptions\nBlackRock Stock Tumbles as Flagship Private Credit Firm Limits Redemptions\nMackenzie Tatananni\nSat, March 7, 2026 at 4:57 AM GMT+9\nThe HPS Corporate Lending Fund says it has received requests to repurchase 9.3% of shares outstanding, above the 5% limit."
+          "has_name": true
         },
         {
           "title": "Sector Update: Financial Stocks Fall Friday Afternoon",
           "url": "https://finance.yahoo.com/news/sector-financial-stocks-fall-friday-185625053.html?.tsrc=rss",
           "date": "03.07 03:56",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Sector Update: Financial Stocks Fall Friday Afternoon\nMT Newswires\nSat, March 7, 2026 at 3:56 AM GMT+9\nFinancial stocks were lower in Friday afternoon trading, with the NYSE Financial Index dropping 1.9%\nUpgrade to read this MT Newswires article and get so much more.\nA Silver or Gold subscription plan is required to access premium news articles."
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -262,7 +247,7 @@
           "change_rate": "-3.0%"
         }
       ],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_004",
@@ -283,40 +268,35 @@
           "url": "https://finance.yahoo.com/m/33f0ef2c-6fa4-3f23-ac62-90a1bde91945/nvidia-tied-ai-stocks-vertiv%2C.html?.tsrc=rss",
           "date": "03.07 10:16",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Nvidia-Tied AI Stocks Vertiv, Lumentum, Coherent To Join S&P 500 Index\nNvidia-Tied AI Stocks Vertiv, Lumentum, Coherent To Join S&P 500 Index\nED CARSON\nSat, March 7, 2026 at 10:16 AM GMT+9\nAI stocks Vertiv, Lumentum and Coherent, all with strong Nvidia ties, will join the S&P 500 before the open on March 23, along with EchoStar."
+          "has_name": true
         },
         {
           "title": "Vertiv Holdings, Lumentum Holdings, Coherent, and EchoStar Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600",
           "url": "https://finance.yahoo.com/news/vertiv-holdings-lumentum-holdings-coherent-233900125.html?.tsrc=rss",
           "date": "03.07 08:39",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "This is a paid press release. Contact the press release distributor directly with any inquiries.\nVertiv Holdings, Lumentum Holdings, Coherent, and EchoStar Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600\nPR Newswire\nSat, March 7, 2026 at 8:39 AM GMT+9\n,\n/PRNewswire/ -- S&P Dow Jones Indices (\"S&P DJI\") will make the following changes to the S&P 100, S&P 500, S&P MidCap 400, and S&P SmallCap 600 indices:\nNAPCO Security Technologies Inc. (NASD: NSSC) will replace Alexander & Baldwin Inc. (NYSE: ALEX) in the S&P SmallCap 600 effective prior to the opening of trading on Friday, March 13. An investor group comprised of MW Group and funds affiliated with DivcoWest and Blackstone Real Estate is acquiring Alexander & Baldwin in a deal that is expected to close soon, pending final closing conditions.\nThe following changes to the S&P 100, S&P 500, S&P MidCap 400, and S&P SmallCap 600 will take effect before the market opens on Monday, March 23, as part of the quarterly rebalance. The changes ensure that each index is more representative of its market���capitalization range. The companies being removed from the S&P SmallCap 600 are no longer representative of the small���cap market space.\nFollowing is a summary of the changes that will take place prior to the open of trading on the effective date:\nABOUT S&P DOW JONES INDICES\nS&P Dow Jones Indices is the largest global resource for essential index-based concepts, data and research, and home to iconic fin"
+          "has_name": true
         },
         {
           "title": "MU, LRCX, AMAT, GEV All Added to the S&P 100 As AI Stocks Gain Influence",
           "url": "https://247wallst.com/investing/2026/03/06/mu-lrcx-amat-gev-all-added-to-the-sp-100-as-ai-stocks-gain-influence/?.tsrc=rss",
           "date": "03.07 08:05",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "It’s the Super Bowl of index rebalancing tonight! The biggest news was the S&P 500 adding Vertiv (VRT), Lumentum (LITE), Coherent (COHR), and EchoStar (SATS). However, S&P Dow Jones Indices also rebalanced other indexes like the S&P 100 and S&P MidCap 400.\nFour stocks were added to the S&P 100 on the evening of March 6, 2026, as part of the index’s quarterly rebalancing: Micron Technology (MU), Lam Research (LRCX), Applied Materials (AMAT), and GE Vernova (GEV). The move, detailed in the\n, is a clear signal of how completely AI infrastructure has reshaped the landscape of America’s largest public companies.\nFour AI stocks were added, and PayPal, American International Group, Metflife, and Target were removed.\nWhat S&P 100 Inclusion Actually Means\nThe S&P 100 is not just a prestige list. It tracks the 100 largest U.S. companies by market cap, and inclusion triggers mandatory buying from every index fund and ETF that tracks it. The\nholds $29.4 billion in assets and must now add all four stocks to its holdings. That’s automatic, price-insensitive demand. For stocks already under pressure this week, that represents automatic, price-insensitive demand from index funds.\nTo be clear, that $29.4 billion number is a\nfraction\nof the funds that follow the S&P 500. However, the S&P 100 is a major stamp of approval and an exclusive club.\nIt’s also worth noting that Information Technology already makes up 39.4% of OEF’s weighting, with NVIDIA alone sitting at 10.76% of the fund. These four"
+          "has_name": true
         },
         {
           "title": "Why Is Qualcomm (QCOM) Up 0.5% Since Last Earnings Report?",
           "url": "https://finance.yahoo.com/news/why-qualcomm-qcom-0-5-163015807.html?.tsrc=rss",
           "date": "03.07 01:30",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Why Is Qualcomm (QCOM) Up 0.5% Since Last Earnings Report?\nZacks Equity Research\nSat, March 7, 2026 at 1:30 AM GMT+9\nA month has gone by since the last earnings report for Qualcomm (QCOM). Shares have added about 0.5% in that time frame, outperforming the S&P 500.\nBut investors have to be wondering, will the recent positive trend continue leading up to its next earnings release, or is Qualcomm due for a pullback? Well, first let's take a quick look at the most recent earnings report in order to get a better handle on the recent drivers for QUALCOMM Incorporated before we dive into how investors and analysts have reacted as of late.\nQualcomm Surpasses Q1 Earnings Estimates on Record Revenues\nQualcomm reported strong first-quarter fiscal 2026 results, with record revenues driven by healthy demand trends in IoT and automotive businesses. Adjusted earnings exceeded the Zacks Consensus Estimate, led by the strength of its business model, diversification initiatives and its ability to respond proactively to the evolving market scenario. However, revenues missed the consensus estimate despite increasing year over year.\nNet Income\nOn a GAAP basis, net income in the December quarter was $3 billion or $2.78 per share compared with $3.18 billion or $2.83 per share in the prior-year quarter. Despite healthy revenue growth, the bottom line declined primarily due to higher operating costs.\nNon-GAAP net income for the reported quarter came in at $3.78 billion or $3.50 per share compared wit"
+          "has_name": true
         },
         {
           "title": "Is It Worth Investing in Lam Research (LRCX) Based on Wall Street's Bullish Views?",
           "url": "https://finance.yahoo.com/news/worth-investing-lam-research-lrcx-143004192.html?.tsrc=rss",
           "date": "03.06 23:30",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Is It Worth Investing in Lam Research (LRCX) Based on Wall Street's Bullish Views?\nZacks Equity Research\nFri, March 6, 2026 at 11:30 PM GMT+9\nWhen deciding whether to buy, sell, or hold a stock, investors often rely on analyst recommendations. Media reports about rating changes by these brokerage-firm-employed (or sell-side) analysts often influence a stock's price, but are they really important?\nBefore we discuss the reliability of brokerage recommendations and how to use them to your advantage, let's see what these Wall Street heavyweights think about\nLam Research\n(LRCX).\nLam Research currently has an average brokerage recommendation (ABR) of 1.52, on a scale of 1 to 5 (Strong Buy to Strong Sell), calculated based on the actual recommendations (Buy, Hold, Sell, etc.) made by 33 brokerage firms. An ABR of 1.52 approximates between Strong Buy and Buy.\nOf the 33 recommendations that derive the current ABR, 23 are Strong Buy and three are Buy. Strong Buy and Buy respectively account for 69.7% and 9.1% of all recommendations.\nBrokerage Recommendation Trends for LRCX\nBroker Rating Breakdown Chart for LRCX\nCheck price target & stock forecast for Lam Research here>>>\nThe ABR suggests buying Lam Research, but making an investment decision solely on the basis of this information might not be a good idea. According to several studies, brokerage recommendations have little to no success guiding investors to choose stocks with the most potential for price appreciation.\nDo you wonder why"
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -337,7 +317,7 @@
           "change_rate": "+0.2%"
         }
       ],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_005",
@@ -358,40 +338,35 @@
           "url": "https://finance.yahoo.com/m/33f0ef2c-6fa4-3f23-ac62-90a1bde91945/nvidia-tied-ai-stocks-vertiv%2C.html?.tsrc=rss",
           "date": "03.07 10:16",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Nvidia-Tied AI Stocks Vertiv, Lumentum, Coherent To Join S&P 500 Index\nNvidia-Tied AI Stocks Vertiv, Lumentum, Coherent To Join S&P 500 Index\nED CARSON\nSat, March 7, 2026 at 10:16 AM GMT+9\nAI stocks Vertiv, Lumentum and Coherent, all with strong Nvidia ties, will join the S&P 500 before the open on March 23, along with EchoStar."
+          "has_name": true
         },
         {
           "title": "Vertiv Holdings, Lumentum Holdings, Coherent, and EchoStar Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600",
           "url": "https://finance.yahoo.com/news/vertiv-holdings-lumentum-holdings-coherent-233900125.html?.tsrc=rss",
           "date": "03.07 08:39",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "This is a paid press release. Contact the press release distributor directly with any inquiries.\nVertiv Holdings, Lumentum Holdings, Coherent, and EchoStar Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600\nPR Newswire\nSat, March 7, 2026 at 8:39 AM GMT+9\n,\n/PRNewswire/ -- S&P Dow Jones Indices (\"S&P DJI\") will make the following changes to the S&P 100, S&P 500, S&P MidCap 400, and S&P SmallCap 600 indices:\nNAPCO Security Technologies Inc. (NASD: NSSC) will replace Alexander & Baldwin Inc. (NYSE: ALEX) in the S&P SmallCap 600 effective prior to the opening of trading on Friday, March 13. An investor group comprised of MW Group and funds affiliated with DivcoWest and Blackstone Real Estate is acquiring Alexander & Baldwin in a deal that is expected to close soon, pending final closing conditions.\nThe following changes to the S&P 100, S&P 500, S&P MidCap 400, and S&P SmallCap 600 will take effect before the market opens on Monday, March 23, as part of the quarterly rebalance. The changes ensure that each index is more representative of its market���capitalization range. The companies being removed from the S&P SmallCap 600 are no longer representative of the small���cap market space.\nFollowing is a summary of the changes that will take place prior to the open of trading on the effective date:\nABOUT S&P DOW JONES INDICES\nS&P Dow Jones Indices is the largest global resource for essential index-based concepts, data and research, and home to iconic fin"
+          "has_name": true
         },
         {
           "title": "Vertiv and EchoStar lead tech surge in S&P 500 rebalance",
           "url": "https://finance.yahoo.com/news/vertiv-echostar-lead-tech-surge-230634408.html?.tsrc=rss",
           "date": "03.07 08:06",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Vertiv and EchoStar lead tech surge in S&P 500 rebalance\nLuke Juricic\nSat, March 7, 2026 at 8:06 AM GMT+9\nInvesting.com -- S&P Dow Jones Indices announced a sweeping overhaul of its benchmark tracking on Friday, propelling several technology and industrial firms into the prestigious S&P 500. Shares of Vertiv Holdings Co (NYSE:VRT) surged 5.6% in after-hours trading following the news, while EchoStar Corporation (NASDAQ:SATS) and Lumentum Holdings Inc (NASDAQ:LITE) also saw significant gains.\nThe quarterly reshuffle is designed to maintain the integrity of the market���s most-watched gauges. S&P DJI stated that \"The changes ensure that each index is more representative of its market���capitalization range\" across the large, mid, and small-cap tiers.\nVertiv, Lumentum, Coherent Inc (NYSE:COHR), and\nwill officially join the S&P 500 prior to the opening of trading on Monday, March 23. To make room for these additions, the index will remove Match Group Inc (NASDAQ:MTCH), Molina Healthcare Inc (NYSE:MOH), Lamb Weston Holdings Inc (NYSE:LW), and Paycom (NYSE:PAYC).\nHigher up the ladder, the S&P 100 will see a notable influx of semiconductor and industrial heavyweights, including Micron Technology Inc (NASDAQ:MU) and GE Vernova LLC (NYSE:GEV). These moves come at the expense of veteran financial firms like PayPal Holdings Inc (NASDAQ:PYPL) and American International Group Inc (NYSE:AIG), which are exiting the blue-chip 100-member club.\nInvestors expect these adjustments to trigger bil"
+          "has_name": true
         },
         {
           "title": "MU, LRCX, AMAT, GEV All Added to the S&P 100 As AI Stocks Gain Influence",
           "url": "https://247wallst.com/investing/2026/03/06/mu-lrcx-amat-gev-all-added-to-the-sp-100-as-ai-stocks-gain-influence/?.tsrc=rss",
           "date": "03.07 08:05",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "It’s the Super Bowl of index rebalancing tonight! The biggest news was the S&P 500 adding Vertiv (VRT), Lumentum (LITE), Coherent (COHR), and EchoStar (SATS). However, S&P Dow Jones Indices also rebalanced other indexes like the S&P 100 and S&P MidCap 400.\nFour stocks were added to the S&P 100 on the evening of March 6, 2026, as part of the index’s quarterly rebalancing: Micron Technology (MU), Lam Research (LRCX), Applied Materials (AMAT), and GE Vernova (GEV). The move, detailed in the\n, is a clear signal of how completely AI infrastructure has reshaped the landscape of America’s largest public companies.\nFour AI stocks were added, and PayPal, American International Group, Metflife, and Target were removed.\nWhat S&P 100 Inclusion Actually Means\nThe S&P 100 is not just a prestige list. It tracks the 100 largest U.S. companies by market cap, and inclusion triggers mandatory buying from every index fund and ETF that tracks it. The\nholds $29.4 billion in assets and must now add all four stocks to its holdings. That’s automatic, price-insensitive demand. For stocks already under pressure this week, that represents automatic, price-insensitive demand from index funds.\nTo be clear, that $29.4 billion number is a\nfraction\nof the funds that follow the S&P 500. However, the S&P 100 is a major stamp of approval and an exclusive club.\nIt’s also worth noting that Information Technology already makes up 39.4% of OEF’s weighting, with NVIDIA alone sitting at 10.76% of the fund. These four"
+          "has_name": true
         },
         {
           "title": "Micron (MU) Ships Industry-First 256GB SOCAMM2 Samples for AI Infrastructure",
           "url": "https://finance.yahoo.com/news/micron-mu-ships-industry-first-194348895.html?.tsrc=rss",
           "date": "03.07 04:43",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Micron (MU) Ships Industry-First 256GB SOCAMM2 Samples for AI Infrastructure\nMaham Fatima\nSat, March 7, 2026 at 4:43 AM GMT+9\nMicron Technology Inc. (NASDAQ:\n) is one of the\n. On March 3, Micron Technology set a new industry benchmark by shipping customer samples of the 256GB SOCAMM2, the world���s highest-capacity LPDRAM module. Powered by the industry���s first monolithic 32Gb LPDDR5X die, this modular solution is designed to overcome the power and thermal constraints of modern AI infrastructure.\nBy delivering 1.33x more capacity than previous versions, the SOCAMM2 allows for up to 2TB of LPDRAM per 8-channel server CPU, providing the massive memory footprint required for long-context LLM inference and HPC. The SOCAMM2 offers a transformational shift in data center efficiency, consuming only one-third of the power and occupying one-third of the footprint compared to standard RDIMMs. This drastic reduction in energy use and size enables significantly higher rack density and a lower total cost of ownership for operators.\nPerformance-wise, the module delivers a 2.3x faster time to first token for real-time LLM inference and 3x better performance-per-watt in standalone CPU applications, addressing the primary bottlenecks in AI reasoning and data-intensive core compute. To accelerate industry adoption, Micron Technology Inc. (NASDAQ:MU) is collaborating with Nvidia to co-design memory solutions tailored for next-gen AI CPUs. The SOCAMM2���s modular design not only improves servi"
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -404,7 +379,7 @@
           "change_rate": "+0.2%"
         }
       ],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_006",
@@ -425,40 +400,35 @@
           "url": "https://finance.yahoo.com/news/semiconductor-corporation-attracting-investor-attention-140004566.html?.tsrc=rss",
           "date": "03.04 23:00",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "ON Semiconductor Corporation (ON) is Attracting Investor Attention: Here is What You Should Know\nZacks Equity Research\nWed, March 4, 2026 at 11:00 PM GMT+9\nON Semiconductor Corp.\n(ON) has recently been on Zacks.com's list of the most searched stocks. Therefore, you might want to consider some of the key factors that could influence the stock's performance in the near future.\nShares of this semiconductor components maker have returned +6.7% over the past month versus the Zacks S&P 500 composite's -1.3% change. The Zacks Semiconductor - Analog and Mixed industry, to which ON Semiconductor Corp. belongs, has gained 2.8% over this period. Now the key question is: Where could the stock be headed in the near term?\nAlthough media reports or rumors about a significant change in a company's business prospects usually cause its stock to trend and lead to an immediate price change, there are always certain fundamental factors that ultimately drive the buy-and-hold decision.\nEarnings Estimate Revisions\nRather than focusing on anything else, we at Zacks prioritize evaluating the change in a company's earnings projection. This is because we believe the fair value for its stock is determined by the present value of its future stream of earnings.\nOur analysis is essentially based on how sell-side analysts covering the stock are revising their earnings estimates to take the latest business trends into account. When earnings estimates for a company go up, the fair value for its stock goes up a"
+          "has_name": true
         },
         {
           "title": "Deutsche Bank Highlights Positive Momentum in ON Semiconductor Corporation (ON) Q4 Performance",
           "url": "https://finance.yahoo.com/news/deutsche-bank-highlights-positive-momentum-174402332.html?.tsrc=rss",
           "date": "03.03 02:44",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Deutsche Bank Highlights Positive Momentum in ON Semiconductor Corporation (ON) Q4 Performance\nLaiba Immad\nTue, March 3, 2026 at 2:44 AM GMT+9\nON Semiconductor Corporation (NASDAQ:\n)\nDeutsche Bank Highlights Positive Momentum in ON Semiconductor Corporation (ON) Q4 Performance\nON Semiconductor Corporation (NASDAQ:ON) is one of the\nmost promising stocks.\nTheFly reported on February 13 that Deutsche Bank raised its price target on ON to $75 from $65 and maintained a Buy rating. The firm noted that the company���s Q4 results are improving, albeit gradually.\nOn February 9, ON Semiconductor Corporation (NASDAQ:ON) released its full-year results and recorded $1.53 billion in revenue for the fourth quarter of 2025. The company's gross margins for the fourth quarter were 36.0% and 38.2%, with GAAP and non-GAAP operating margins of 13.1% and 19.8%, respectively. GAAP diluted earnings per share were $0.45, while non-GAAP diluted earnings per share were $0.64. Over the course of the year, ON generated $1.8 billion in cash from operations and $1.4 billion in free cash flow, resulting in a record-high free cash flow margin of 24%.\nIn order to spur growth in automotive, industrial, and AI data center applications, the business emphasized investments in intelligent power and sensor technologies while highlighting operational discipline and stabilization in important markets. Through share repurchases, ON gave back all of its yearly free cash flow to shareholders. It also keeps fortifying it"
+          "has_name": true
         },
         {
           "title": "ON Semiconductor Corporation (ON): A Bull Case Theory",
           "url": "https://finance.yahoo.com/news/semiconductor-corporation-bull-case-theory-182914908.html?.tsrc=rss",
           "date": "03.01 03:29",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "ON Semiconductor Corporation (ON): A Bull Case Theory\nRicardo Pillai\nSun, March 1, 2026 at 3:29 AM GMT+9\nWe came across a\non ON Semiconductor Corporation on X.com by @MoneyShow. In this article, we will summarize the bulls��� thesis on ON. ON Semiconductor Corporation's share was trading at $69.68 as of February 25th. ON���s trailing and forward P/E were 46.42 and 17.01, respectively according to Yahoo Finance.\nBroadcom Inc. (AVGO) Draws Mixed Analyst Views as AI ASIC Momentum Faces Hyperscaler Risks\nPhoto by JESHOOTS.COM on Unsplash\nON Semiconductor Corporation provides intelligent sensing and power solutions in Hong Kong, Singapore, the United Kingdom, the United States, and internationally. ON is positioned as a differentiated semiconductor leader through its focus on gallium nitride (GaN) and silicon carbide (SiC) technologies rather than traditional silicon-based chips.\nThese advanced materials enable higher voltage tolerance, greater thermal performance, and superior power density, making ON���s solutions critical for intelligent power management, sensing, and high-efficiency systems across electric vehicles, industrial automation, and energy infrastructure. SiC, in particular, is becoming foundational in advanced image sensors, robotics, medical imaging, smart grids, and next-generation power systems, while adoption in data centers and networking continues accelerating, with AI-driven demand adding further momentum.\nDespite cyclical softness in 2025 among automakers, r"
+          "has_name": true
         },
         {
           "title": "ON Semiconductor Refocuses On Higher Margin Growth And Cash Generation",
           "url": "https://finance.yahoo.com/news/semiconductor-refocuses-higher-margin-growth-160942909.html?.tsrc=rss",
           "date": "03.01 01:09",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "ON Semiconductor Refocuses On Higher Margin Growth And Cash Generation\nSimply Wall St\nSun, March 1, 2026 at 1:09 AM GMT+9\nin any market cycle. Join 7 million investors using Simply Wall St's investing ideas for FREE.\nON Semiconductor (NasdaqGS:ON) is shifting capital and resources toward higher margin segments such as silicon carbide and AI data center power solutions.\nThe company is tightening capital discipline and prioritizing projects that target stronger returns on investment.\nThis repositioning comes as demand cools in core markets including electric vehicles and smartphones.\nON Semiconductor, a key supplier of power and sensing chips, is recalibrating its business mix as parts of the automotive and consumer electronics markets face softer demand. Management is leaning into areas like silicon carbide, which is used in power electronics, and solutions for AI data centers where power efficiency is a core requirement. At the same time, the company is putting more scrutiny on how and where it deploys capital.\nFor you as an investor, an important consideration is how this shift toward higher margin projects and tighter spending could influence the company���s earnings quality and free cash flow over time. The coming quarters will help clarify how quickly the new focus areas scale and how effectively ON Semiconductor manages ongoing sector headwinds.\nStay updated on the most important news stories for\nby adding it to your\nor\n. Alternatively, explore our\nto discover new perspe"
+          "has_name": true
         },
         {
           "title": "Assessing ON Semiconductor (NasdaqGS:ON) Valuation After Recent Share Price Pullback And Longer Term Gains",
           "url": "https://finance.yahoo.com/news/assessing-semiconductor-nasdaqgs-valuation-recent-231308561.html?.tsrc=rss",
           "date": "02.28 08:13",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Assessing ON Semiconductor (NasdaqGS:ON) Valuation After Recent Share Price Pullback And Longer Term Gains\nSimply Wall St\nFebruary 28, 2026\nin any market cycle. Join 7 million investors using Simply Wall St's investing ideas for FREE.\nON Semiconductor (ON) has drawn fresh interest after investors digested its recent share performance, with the stock showing mixed short term moves but stronger gains over the past 3 months and year.\nON Semiconductor's share price has cooled in the very short term, with a 1 day share price return of a 2.42% decline and a 7 day share price return of a 3.77% decline. However, the 90 day share price return of 32.38% and 1 year total shareholder return of 41.36% show that momentum has been building over a longer period, even as the 3 year total shareholder return of a 15.75% decline contrasts with the 5 year total shareholder return of 71.37%.\nIf ON's recent rebound has you thinking about where else growth and risk could be shifting, it might be worth scanning\nas another way to source ideas.\nWith ON trading near its analyst price target, recent revenue and net income growth on the table, and only a modest intrinsic discount indicated, you have to ask: Is there still a buying opportunity here, or is future growth already priced in?\nMost Popular Narrative: 2.5% Undervalued\nON Semiconductor's most followed narrative pegs fair value at $68.20, just above the last close of $66.51, which implies only a modest valuation gap.\nThe analysts have a consensus p"
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -479,7 +449,7 @@
           "change_rate": "-3.0%"
         }
       ],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_007",
@@ -500,40 +470,35 @@
           "url": "https://finance.yahoo.com/m/33f0ef2c-6fa4-3f23-ac62-90a1bde91945/nvidia-tied-ai-stocks-vertiv%2C.html?.tsrc=rss",
           "date": "03.07 10:16",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Nvidia-Tied AI Stocks Vertiv, Lumentum, Coherent To Join S&P 500 Index\nNvidia-Tied AI Stocks Vertiv, Lumentum, Coherent To Join S&P 500 Index\nED CARSON\nSat, March 7, 2026 at 10:16 AM GMT+9\nAI stocks Vertiv, Lumentum and Coherent, all with strong Nvidia ties, will join the S&P 500 before the open on March 23, along with EchoStar."
+          "has_name": true
         },
         {
           "title": "Vertiv Holdings, Lumentum Holdings, Coherent, and EchoStar Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600",
           "url": "https://finance.yahoo.com/news/vertiv-holdings-lumentum-holdings-coherent-233900125.html?.tsrc=rss",
           "date": "03.07 08:39",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "This is a paid press release. Contact the press release distributor directly with any inquiries.\nVertiv Holdings, Lumentum Holdings, Coherent, and EchoStar Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600\nPR Newswire\nSat, March 7, 2026 at 8:39 AM GMT+9\n,\n/PRNewswire/ -- S&P Dow Jones Indices (\"S&P DJI\") will make the following changes to the S&P 100, S&P 500, S&P MidCap 400, and S&P SmallCap 600 indices:\nNAPCO Security Technologies Inc. (NASD: NSSC) will replace Alexander & Baldwin Inc. (NYSE: ALEX) in the S&P SmallCap 600 effective prior to the opening of trading on Friday, March 13. An investor group comprised of MW Group and funds affiliated with DivcoWest and Blackstone Real Estate is acquiring Alexander & Baldwin in a deal that is expected to close soon, pending final closing conditions.\nThe following changes to the S&P 100, S&P 500, S&P MidCap 400, and S&P SmallCap 600 will take effect before the market opens on Monday, March 23, as part of the quarterly rebalance. The changes ensure that each index is more representative of its market���capitalization range. The companies being removed from the S&P SmallCap 600 are no longer representative of the small���cap market space.\nFollowing is a summary of the changes that will take place prior to the open of trading on the effective date:\nABOUT S&P DOW JONES INDICES\nS&P Dow Jones Indices is the largest global resource for essential index-based concepts, data and research, and home to iconic fin"
+          "has_name": true
         },
         {
           "title": "MU, LRCX, AMAT, GEV All Added to the S&P 100 As AI Stocks Gain Influence",
           "url": "https://247wallst.com/investing/2026/03/06/mu-lrcx-amat-gev-all-added-to-the-sp-100-as-ai-stocks-gain-influence/?.tsrc=rss",
           "date": "03.07 08:05",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "It’s the Super Bowl of index rebalancing tonight! The biggest news was the S&P 500 adding Vertiv (VRT), Lumentum (LITE), Coherent (COHR), and EchoStar (SATS). However, S&P Dow Jones Indices also rebalanced other indexes like the S&P 100 and S&P MidCap 400.\nFour stocks were added to the S&P 100 on the evening of March 6, 2026, as part of the index’s quarterly rebalancing: Micron Technology (MU), Lam Research (LRCX), Applied Materials (AMAT), and GE Vernova (GEV). The move, detailed in the\n, is a clear signal of how completely AI infrastructure has reshaped the landscape of America’s largest public companies.\nFour AI stocks were added, and PayPal, American International Group, Metflife, and Target were removed.\nWhat S&P 100 Inclusion Actually Means\nThe S&P 100 is not just a prestige list. It tracks the 100 largest U.S. companies by market cap, and inclusion triggers mandatory buying from every index fund and ETF that tracks it. The\nholds $29.4 billion in assets and must now add all four stocks to its holdings. That’s automatic, price-insensitive demand. For stocks already under pressure this week, that represents automatic, price-insensitive demand from index funds.\nTo be clear, that $29.4 billion number is a\nfraction\nof the funds that follow the S&P 500. However, the S&P 100 is a major stamp of approval and an exclusive club.\nIt’s also worth noting that Information Technology already makes up 39.4% of OEF’s weighting, with NVIDIA alone sitting at 10.76% of the fund. These four"
+          "has_name": true
         },
         {
           "title": "Stock Futures Fall, Oil Jumps as Middle East War Continues; Key Jobs Report on Deck",
           "url": "https://finance.yahoo.com/news/stock-futures-fall-oil-jumps-123158570.html?.tsrc=rss",
           "date": "03.06 21:31",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Stock Futures Fall, Oil Jumps as Middle East War Continues; Key Jobs Report on Deck\nMT Newswires\nFri, March 6, 2026 at 9:31 PM GMT+9\nThe benchmark US stock measures were down before the open Friday while oil prices continued to rise\nUpgrade to read this MT Newswires article and get so much more.\nA Silver or Gold subscription plan is required to access premium news articles."
+          "has_name": true
         },
         {
           "title": "Semiconductor Opportunity Is Here",
           "url": "https://finance.yahoo.com/news/semiconductor-opportunity-111753607.html?.tsrc=rss",
           "date": "03.06 20:17",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Semiconductor Opportunity Is Here\nLucas Downey\nFri, March 6, 2026 at 8:17 PM GMT+9\nOf course, that means the AI trade. You may have heard that it���s dead. I���m here to tell you it���s not.\nA Lot More Room to Run\nLast year, pretty much anything associated with AI (or maybe even mentioning the technology) went up in value. This year that���s not the case.\nSome technology stocks have suffered this year. But not all AI-related firms are lumped in with that group.\nIn fact, I think many companies directly in the AI mix have a lot more room to run. It���s clear when you examine the fundamentals. Plus, many large semiconductor firms are trading below analyst price targets.\nThat all means semiconductor opportunity is here.\nApplied Materials\nApplied Materials, Inc. (\n) is a nearly $300 billion market cap chip manufacturer. Its shares have been on a huge run, gaining 39% so far this year.\nThe company���s first-quarter fiscal 2026 earnings report was solid, with $7 billion in revenue and non-GAAP per-share earnings of $2.38. More importantly, the company���s quarterly revenue guidance called for $7.65 billion (9.1% above consensus), with EPS guidance of up to $2.84 (15.8% above expectations).\nThe fundamental picture is strong:\n1-year EPS estimate (+26.3%)\n3-year EPS growth rate (+5.2%)\nProfit margin (+24.7%)\nSource: FactSet\nWhen earnings are projected to soar, the stock has nowhere to go but up:\nLine graph showing Applied Materials (AMAT) EPS estimates from August 2025 to February 2026"
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -558,7 +523,7 @@
           "change_rate": "-1.0%"
         }
       ],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_008",
@@ -579,40 +544,35 @@
           "url": "https://www.fool.com/investing/2026/03/06/better-nuclear-energy-stock-smr-vs-oklo/?.tsrc=rss",
           "date": "03.07 03:54",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Mar 6, 2026"
+          "has_name": true
         },
         {
           "title": "Oklo Meta Deal Links Early Nuclear Funding To Future Data Center Demand",
           "url": "https://finance.yahoo.com/news/oklo-meta-deal-links-early-231736686.html?.tsrc=rss",
           "date": "03.05 08:17",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Oklo Meta Deal Links Early Nuclear Funding To Future Data Center Demand\nSimply Wall St\nThu, March 5, 2026 at 8:17 AM GMT+9\nwith Simply Wall St's easy, visual tools that give you a competitive edge.\nOklo (NYSE:OKLO) has signed a prepayment power agreement with Meta Platforms for electricity from its planned Ohio nuclear plant.\nThe arrangement is intended to fund the initial stages of the project, including pre construction and site characterization work targeted for 2026.\nThe deal links Oklo's planned small modular reactor output to future energy needs for Meta's operations, including data centers.\nOklo is developing small modular nuclear reactors aimed at providing reliable, carbon free power, and this agreement with Meta puts a tech company directly in the customer seat. For investors, it ties a young nuclear developer to the growing electricity demand from data centers and AI infrastructure. It also gives NYSE:OKLO a defined commercial pathway for part of its planned Ohio capacity.\nLooking ahead, the prepayment structure may help Oklo address early project costs and reduce some funding uncertainty around site work in 2026. For you as an investor, the key questions now center on how Oklo executes on permits, construction readiness, and future offtake agreements as the Ohio project progresses.\nStay updated on the most important news stories for\nby adding it to your\nor\n. Alternatively, explore our\nto discover new perspectives on Oklo.\nNYSE:OKLO 1-Year Stock Price Chart\nThis pr"
+          "has_name": true
         },
         {
           "title": "Where Will Oklo Be in 5 Years -- and How Much Income Could It Be Paying by Then?",
           "url": "https://www.fool.com/investing/2026/03/04/where-will-oklo-be-in-5-years-and-how-much-income/?.tsrc=rss",
           "date": "03.05 07:25",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Mar 3, 2026"
+          "has_name": true
         },
         {
           "title": "Here's Everything Investors Need to Know About Oklo's Meta Deal",
           "url": "https://www.fool.com/investing/2026/03/03/investors-need-to-know-about-oklo-meta-deal/?.tsrc=rss",
           "date": "03.04 04:49",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Mar 4, 2026"
+          "has_name": true
         },
         {
           "title": "Down 67% From Its 52-Week High, Is Oklo Stock a Steal of a Deal Right Now?",
           "url": "https://www.fool.com/investing/down-67-from-its-52-week-high-is-oklo-stock-a-stea/?.tsrc=rss",
           "date": "03.04 02:20",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Feb 11, 2026"
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -629,7 +589,7 @@
           "change_rate": "+2.5%"
         }
       ],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
     },
     {
       "id": "sig_20260306_US_009",
@@ -650,40 +610,35 @@
           "url": "https://finance.yahoo.com/news/stocks-making-big-moves-week-173437581.html?.tsrc=rss",
           "date": "03.07 02:34",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Stocks making big moves this week: C3.ai, ADT, Xerox, Corning, and KLA Corporation\nStocks making big moves this week: C3.ai, ADT, Xerox, Corning, and KLA Corporation\nAdam Hejl\nSat, March 7, 2026 at 2:34 AM GMT+9\nCheck out the companies making headlines this week:\nC3.ai (NYSE:AI):\nEnterprise AI software company C3.ai (NYSE:AI) rose by 7.8% on Monday after the company's position as a specialized defense contractor gained attention amid escalating geopolitical tensions in the Middle East.\nIs now the time to buy C3.ai?\nADT (NYSE:ADT):\nSecurity technology and services company ADT (NYSE:ADT) fell by 10.3% on Monday after it reported mixed fourth-quarter 2025 results that included a revenue miss and a lackluster outlook.\nIs now the time to buy ADT?\nXerox (NASDAQ:XRX):\nDocument technology company Xerox (NASDAQ:XRX) rose by 7.1% on Thursday after the company expanded its unified market approach following its acquisition of Lexmark, a move aimed at driving growth.\nIs now the time to buy Xerox?\nCorning (NYSE:GLW):\nGlass and electronic component manufacturer Corning (NYSE:GLW) rose by 3.5% on Monday after the company announced the launch of its new Corning짰 Gorilla짰 Glass Ceramic 3, designed for enhanced durability.\nIs now the time to buy Corning?\nKLA Corporation (NASDAQ:KLAC):\nSemiconductor manufacturing equipment maker KLA Corporation (NASDAQ:KLAC) fell by 5.1% on Tuesday after a broad sell-off in the semiconductor sector was sparked by geopolitical tensions in Iran.\nIs now the time to"
+          "has_name": true
         },
         {
           "title": "3 High-Flying Stocks Worth Investigating",
           "url": "https://finance.yahoo.com/news/3-high-flying-stocks-worth-125937851.html?.tsrc=rss",
           "date": "03.06 21:59",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "3 High-Flying Stocks Worth Investigating\n3 High-Flying Stocks Worth Investigating\nAdam Hejl\nFri, March 6, 2026 at 9:59 PM GMT+9\n\"You get what you pay for\" often applies to expensive stocks with best-in-class business models and execution. While their quality can sometimes justify the premium, they typically experience elevated volatility during market downturns when expectations change.\nFinding the right balance between price and quality can challenge even the most skilled investors. Luckily for you, we started StockStory to help you identify the real opportunities. That said, here are three high-flying stocks expanding their competitive advantages.\nKLA Corporation (KLAC)\nForward P/E Ratio: 35.8x\nFormed by the 1997 merger of the two leading semiconductor yield management companies, KLA Corporation (NASDAQ:KLAC) is the leading supplier of equipment used to measure and inspect semiconductor chips.\nWhy Will KLAC Outperform?\nAnnual revenue growth of 16% over the last five years was superb and indicates its market share increased during this cycle\nOfferings are mission-critical for businesses and result in a best-in-class gross margin of 60.7%\nImpressive free cash flow profitability enables the company to fund new investments or reward investors with share buybacks/dividends, and its improved cash conversion implies it���s becoming a less capital-intensive business\nAt $1,435 per share, KLA Corporation trades at 35.8x forward P/E. Is now the time to initiate a position?\n.\nDutch Bro"
+          "has_name": true
         },
         {
           "title": "Where is KLA Corporation (KLAC) Headed According to the Street?",
           "url": "https://finance.yahoo.com/news/where-kla-corporation-klac-headed-100955542.html?.tsrc=rss",
           "date": "03.06 19:09",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Where is KLA Corporation (KLAC) Headed According to the Street?\nNoor Ul Ain Rehman\nFri, March 6, 2026 at 7:09 PM GMT+9\nKLA Corporation (NASDAQ:\n)\nWhere is KLA Corporation (KLAC) Headed According to the Street?\nKLA Corporation (NASDAQ:KLAC) received several rating updates in February. On February 26, Citi opened an ���upside 30-day catalyst watch��� on KLA Corporation (NASDAQ:KLAC) and maintained a Buy rating on the shares, setting a price target of $1,800. The firm believes that the company will issue 2030 targets that can reach $24 billion in revenue and $68 in earnings per share.\nOn February 24, Morgan Stanley lifted the price target on KLA Corporation (NASDAQ:KLAC) to $1,809 from $1,751 while maintaining an Overweight rating on the shares. The firm told investors in a research note that it raised its 2026 and 2027 wafer fab equipment market growth forecasts to 23% and 27% from 13% and 19%, respectively, driven by DRAM memory spending.\nKLA Corporation (NASDAQ:KLAC) also received a rating update from Jefferies on February 12. The firm lifted the price target on the stock to $520 from $390 on February 12, maintaining a Buy rating on the shares and telling investors that the company���s low-double digit WFE growth outlook is more in line with KLA Corp���s view than the higher Lam Research forecast. Jefferies also believes that the outlook offered by Nova is \"on the conservative end and there is room for upside\".\nKLA Corporation (NASDAQ:KLAC) is involved in the supply of proces"
+          "has_name": true
         },
         {
           "title": "Why KLA (KLAC) Is Down 6.2% After Iran-Linked Chip Sell-Off Ahead Of Investor Day",
           "url": "https://finance.yahoo.com/news/why-kla-klac-down-6-020952887.html?.tsrc=rss",
           "date": "03.06 11:09",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Why KLA (KLAC) Is Down 6.2% After Iran-Linked Chip Sell-Off Ahead Of Investor Day\nSimply Wall St\nFri, March 6, 2026 at 11:09 AM GMT+9\nIn recent days, KLA Corporation has been caught up in a broad semiconductor sector sell-off linked to geopolitical tensions in Iran that pressured chipmakers globally.\nAt the same time, KLA remains a focus for investors ahead of its March 12 Investor Day, where updated long-term goals and product plans are expected to be outlined.\nAgainst this backdrop of geopolitically driven sector volatility, we���ll examine how renewed attention on KLA���s process-control franchise could influence its investment narrative.\nExplore\nleading the revolution in next-gen technology and shaping the future with breakthroughs in quantum algorithms, superconducting qubits, and cutting-edge research.\nKLA Investment Narrative Recap\nTo own KLA, you need to believe that process control remains mission���critical as chips get more complex, and that KLA can keep monetizing that intensity despite tariff, China, and capex risks. The recent geopolitically driven sell���off looks more sentiment���driven than thesis���breaking, while the near term spotlight stays firmly on the March 12 Investor Day as the key catalyst, with the main risk still centered on policy and demand shocks in core markets like China.\nCiti���s decision to place KLA on a 30���day positive Catalyst Watch ahead of Investor Day ties directly into this setup, highlighting how much weight the market is putting "
+          "has_name": true
         },
         {
           "title": "Here's Why KLA (KLAC) Fell More Than Broader Market",
           "url": "https://finance.yahoo.com/news/heres-why-kla-klac-fell-230003274.html?.tsrc=rss",
           "date": "03.06 08:00",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Here's Why KLA (KLAC) Fell More Than Broader Market\nZacks Equity Research\nFri, March 6, 2026 at 8:00 AM GMT+9\nIn the latest trading session, KLA (KLAC) closed at $1,426.14, marking a -3.37% move from the previous day. This change lagged the S&P 500's 0.57% loss on the day. At the same time, the Dow lost 1.61%, and the tech-heavy Nasdaq lost 0.26%.\nThe stock of maker of equipment for manufacturing semiconductors has risen by 12.9% in the past month, leading the Computer and Technology sector's loss of 0.64% and the S&P 500's loss of 0.15%.\nMarket participants will be closely following the financial results of KLA in its upcoming release. The company is predicted to post an EPS of $9.12, indicating a 8.44% growth compared to the equivalent quarter last year. Simultaneously, our latest consensus estimate expects the revenue to be $3.37 billion, showing a 9.9% escalation compared to the year-ago quarter.\nFor the annual period, the Zacks Consensus Estimates anticipate earnings of $36.58 per share and a revenue of $13.39 billion, signifying shifts of +9.92% and +10.12%, respectively, from the last year.\nIt is also important to note the recent changes to analyst estimates for KLA. These recent revisions tend to reflect the evolving nature of short-term business trends. Therefore, positive revisions in estimates convey analysts' confidence in the business performance and profit potential.\nResearch indicates that these estimate revisions are directly correlated with near-term share pr"
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -704,7 +659,86 @@
           "change_rate": "+0.1%"
         }
       ],
-      "timestamp": "2026-03-07 17:15:51"
+      "timestamp": "2026-03-07 17:37:29"
+    },
+    {
+      "id": "sig_20260306_US_010",
+      "theme": "#Semiconductor Equipment",
+      "signal_type": "이슈",
+      "short_reason": "AI 칩 확장 및 밸류에이션 우려",
+      "summary": "ASML은 AI 칩 관련 첨단 패키징 장비 출하를 시작하며 사업 영역을 EUV 핵심 기술을 넘어 확장하고 있으며, 인도 시장 진출 계획도 밝혔습니다. 이는 장기적인 성장 동력으로 해석되지만, 최근 주가 상승에 따른 높은 밸류에이션에 대한 투자자들의 경계심도 동시에 작용하고 있습니다. 또한, 지정학적 압력과 2026년 수요 불확실성 우려로 인해 금요일 주가는 약 3% 하락했습니다. 전반적으로 유럽 증시가 지정학적 불안정으로 약세를 보인 가운데, 반도체 섹터 전반의 하락세에 동조하는 모습도 나타났습니다.",
+      "summary_success": true,
+      "main_stock": {
+        "name": "ASML",
+        "symbol": "ASML",
+        "change_rate": "-5.5%",
+        "news_url": "https://finance.yahoo.com/quote/ASML"
+      },
+      "news_articles": [
+        {
+          "title": "ASML Expands AI Chip Capabilities While Valuation Premium Draws Investor Scrutiny",
+          "url": "https://finance.yahoo.com/news/asml-expands-ai-chip-capabilities-002236914.html?.tsrc=rss",
+          "date": "03.07 09:22",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": "ASML Expands AI Chip Capabilities While Valuation Premium Draws Investor Scrutiny\nSimply Wall St\nFri, March 6, 2026 at 7:22 PM EST\nwith Simply Wall St's easy, visual tools that give you a competitive edge.\nASML Holding has shipped its first advanced packaging lithography system for AI focused chips, expanding its activity beyond core EUV tools.\nThe company reports progress in EUV light source technology that could support higher throughput for chipmakers.\nASML plans to open a support office in India to help the country build out its semiconductor manufacturing base.\nASML Holding (ENXTAM:ASML) is drawing attention as it moves into advanced packaging equipment at a time when AI hardware demand remains a key theme. The shares recently traded around ���1,147.0, with a 1 year return of 73.8% and a 5 year return of 169.0%. This performance helps explain how closely investors watch shifts in the company���s direction. In this context, its decision to extend beyond core EUV systems into packaging tools adds another angle for investors to track.\nFor you as an investor, the focus here is less on a single tool shipment and more on how ASML is positioning around AI workloads and new manufacturing hubs such as India. The company���s expanded support footprint and EUV light source work could influence where and how capacity is added across the industry. These developments may affect how investors view ASML���s role in the broader semiconductor equipment segment over time.\nStay updated on t"
+        },
+        {
+          "title": "European Stocks Fall in Friday Trading Amid Mideast Turmoil, Rising Oil Prices; Semiconductor, Mining Stocks Tumble",
+          "url": "https://finance.yahoo.com/news/european-stocks-fall-friday-trading-173709413.html?.tsrc=rss",
+          "date": "03.07 02:37",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": "European Stocks Fall in Friday Trading Amid Mideast Turmoil, Rising Oil Prices; Semiconductor, Mining Stocks Tumble\nMT Newswires\nFri, March 6, 2026 at 12:37 PM EST\nThe European stock markets closed lower in Friday trading as war in the Middle East has caused oil p\nUpgrade to read this MT Newswires article and get so much more.\nA Silver or Gold subscription plan is required to access premium news articles."
+        },
+        {
+          "title": "What's Going On With ASML Stock Friday",
+          "url": "https://finance.yahoo.com/news/whats-going-asml-stock-friday-173430365.html?.tsrc=rss",
+          "date": "03.07 02:34",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": "What's Going On With ASML Stock Friday\nNauman Khan\nFri, March 6, 2026 at 12:34 PM EST\nThis article first appeared on\n.\nShares of ASML Holding N.V. (\n) dipped about 3% on Friday as investors weighed a mix of demand uncertainty for 2026 and ongoing geopolitical pressures affecting the semiconductor equipment sector, according to market reports.\nMarket commentary\nthat some analysts and investors were concerned ASML may struggle to sustain the strong momentum seen in previous quarters, with softer guidance and potential moderation in orders prompting reevaluation of forecasts. A few brokerages have trimmed expectations for the company's performance, citing less favorable sales outlooks and reduced revenue projections, which weighed on sentiment.\nGeopolitical developments also played a role, especially heightened focus on possible tighter export controls for advanced semiconductor technology. Reports indicate that proposed changes to U.S. export rules for key AI chip components and ongoing restrictions on shipments to certain regions have added to uncertainty around ASML's ability to deliver equipment into key markets.\nTrading ASML shares eased as the technology industry fell into a downturn, with investors balancing high demand for AI chip tools in the long term with worries of policy challenges and short-term returns."
+        },
+        {
+          "title": "Google Grabs Attention, But Funds Go Crazy For This 'Pick-And-Shovel' AI Stock",
+          "url": "https://finance.yahoo.com/m/f47230d8-b19a-31a8-aaa5-bd69487306ef/google-grabs-attention%2C-but.html?.tsrc=rss",
+          "date": "03.07 00:27",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": "Google Grabs Attention, But Funds Go Crazy For This 'Pick-And-Shovel' AI Stock\nGoogle Grabs Attention, But Funds Go Crazy For This 'Pick-And-Shovel' AI Stock\nMATTHEW GALGANI\nFri, March 6, 2026 at 10:27 AM EST\nBest mutual funds continued to bet big on Google and other AI stocks while pouring eye-popping sums in this unique leader."
+        },
+        {
+          "title": "ASML Holding (ASML) Plans to Expand Beyond Their Core EUV Lithography",
+          "url": "https://finance.yahoo.com/news/asml-holding-asml-plans-expand-134738321.html?.tsrc=rss",
+          "date": "03.06 22:47",
+          "source": "Yahoo Finance",
+          "has_name": true,
+          "content": "ASML Holding (ASML) Plans to Expand Beyond Their Core EUV Lithography\nTalha Qureshi\nFri, March 6, 2026 at 8:47 AM EST\nASML Holding N.V. (NASDAQ:\n) is one of the\n. On March 3, UBS analyst Francois Xavier Bouvignies maintained a Buy rating on the stock with a price target of ���1,500.\nA day earlier, on March 2, ASML Chief Technology Officer Marco Pieters told Reuters that they plan to expand beyond their core EUV lithography technology into the booming AI chip market. Pieters said:\n���We look, not just for the next five years, we look at the next 10, maybe 15 years, (We look at) what are potential directions the industry could take, and what would it require in terms of packaging, bonding, etc.?���\nThe report highlighted that ASML holds a monopoly on extreme ultraviolet (EUV) lithography machines, which are essential for producing the most advanced AI chips by companies like TSMC and Intel. The firm has invested billions over a decade, with a next-generation EUV product nearing production and the third generation in research.\nLooking ahead, ASML Holding N.V. (NASDAQ:ASML) plans to develop tools for gluing and connecting multiple specialized chips, a process called advanced packaging critical for AI processors and high-bandwidth memory.\nASML Holding (ASML) Plans to Expand Beyond Their Core EUV Lithography\nClose-up of Silicon Die are being Extracted from Semiconductor Wafer and Attached to Substrate by Pick and Place Machine. Computer Chip Manufacturing at Fab. Semiconductor Pack"
+        }
+      ],
+      "related_stocks": [
+        {
+          "name": "[Semiconductor Equipment] Applied Materials",
+          "change_rate": "-3.1%"
+        },
+        {
+          "name": "[Semiconductor Equipment] Lam Research",
+          "change_rate": "-3.7%"
+        },
+        {
+          "name": "[Semiconductor Equipment] KLA",
+          "change_rate": "-3.2%"
+        },
+        {
+          "name": "[Robotics] Teradyne",
+          "change_rate": "+0.1%"
+        },
+        {
+          "name": "[Semiconductors] NVIDIA",
+          "change_rate": "+0.2%"
+        }
+      ],
+      "timestamp": "2026-03-07 17:37:29"
     }
   ]
 }
