@@ -19,6 +19,7 @@ import pandas as pd
 import FinanceDataReader as fdr
 import requests
 from dotenv import load_dotenv
+from streamlit_autorefresh import st_autorefresh
 
 # --- Compatibility Wrapper ---
 def safe_rerun():
@@ -223,7 +224,7 @@ def render_main_header():
     view = st.session_state.get("current_view", "주식 시그널")
     if view == "주식 시그널":
         st.markdown("##### 🔍 조회 설정")
-        col_m, col_d, col_spacer = st.columns([2, 2, 4])
+        col_m, col_d, col_refresh, col_spacer = st.columns([2, 2, 2, 2])
         
         # Initialize selected date if not set
         if "selected_date" not in st.session_state:
@@ -242,6 +243,16 @@ def render_main_header():
                 safe_rerun()
                 
             date_str = st.session_state["selected_date"].strftime("%Y-%m-%d")
+            
+        with col_refresh:
+            st.write("") # Alignment spacing
+            st.write("")
+            auto_refresh = st.checkbox("🔄 5분 자동 새로고침", value=False)
+            
+        if auto_refresh:
+            # Run every 5 minutes (300,000 milliseconds)
+            st_autorefresh(interval=5 * 60 * 1000, key="data_autorefresh")
+            
         return market, date_str
     return None, None
 
