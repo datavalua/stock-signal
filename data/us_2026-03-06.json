@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07 17:37:29",
+  "last_updated": "2026-03-08 00:46:06",
   "signals": [
     {
       "id": "sig_20260306_US_IDX_SP500",
@@ -26,7 +26,7 @@
         }
       ],
       "related_stocks": [],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_IDX_NASDAQ",
@@ -53,7 +53,7 @@
         }
       ],
       "related_stocks": [],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_001",
@@ -69,6 +69,13 @@
         "news_url": "https://finance.yahoo.com/quote/MRVL"
       },
       "news_articles": [
+        {
+          "title": "Marvell price target raised to $135 from $130 at B. Riley",
+          "url": "https://finance.yahoo.com/news/marvell-price-target-raised-135-133619482.html?.tsrc=rss",
+          "date": "03.07 22:36",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "Marvell Technology (MRVL) Rockets 18% on Billion-Dollar Profitability",
           "url": "https://finance.yahoo.com/news/marvell-technology-mrvl-rockets-18-063326248.html?.tsrc=rss",
@@ -96,13 +103,6 @@
           "date": "03.07 07:08",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "These Stocks Are Today’s Movers: Marvell, Gap, Trade Desk, United Airlines, Corning, BlackRock, Tesla, Presidio, and More",
-          "url": "https://finance.yahoo.com/m/b5c4f785-50c0-33f4-8fa2-b8d3da2bb2de/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
-          "date": "03.07 06:30",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -115,7 +115,7 @@
           "change_rate": "-1.8%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_002",
@@ -131,6 +131,13 @@
         "news_url": "https://finance.yahoo.com/quote/TER"
       },
       "news_articles": [
+        {
+          "title": "Teradyne, Inc. (TER) a Moderate Buy, Say Analysts",
+          "url": "https://finance.yahoo.com/news/teradyne-inc-ter-moderate-buy-121112673.html?.tsrc=rss",
+          "date": "03.07 21:11",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
         {
           "title": "2 Lesser Discussed AI Stocks Worth Keeping a Close Eye On",
           "url": "https://finance.yahoo.com/news/2-lesser-discussed-ai-stocks-224400414.html?.tsrc=rss",
@@ -158,13 +165,6 @@
           "date": "03.06 10:11",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "3 Red Hot AI Stocks Sporting Favorable Zacks Ranks: SNDK, WDC, TER",
-          "url": "https://finance.yahoo.com/news/3-red-hot-ai-stocks-231100396.html?.tsrc=rss",
-          "date": "03.06 08:11",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -181,7 +181,7 @@
           "change_rate": "-3.1%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_003",
@@ -205,6 +205,13 @@
           "has_name": true
         },
         {
+          "title": "Nobel laureate Joe Stiglitz says not only can AI take your job, it’ll make the ‘tech bro’ class richer while doing so",
+          "url": "https://finance.yahoo.com/news/nobel-laureate-joe-stiglitz-says-223443428.html?.tsrc=rss",
+          "date": "03.07 07:34",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Equities Fall Following Jobs Miss, US Crude Weekly Gain Biggest on Record",
           "url": "https://finance.yahoo.com/news/equities-fall-following-jobs-miss-220850849.html?.tsrc=rss",
           "date": "03.07 07:08",
@@ -224,13 +231,6 @@
           "date": "03.07 04:57",
           "source": "Yahoo Finance",
           "has_name": true
-        },
-        {
-          "title": "Sector Update: Financial Stocks Fall Friday Afternoon",
-          "url": "https://finance.yahoo.com/news/sector-financial-stocks-fall-friday-185625053.html?.tsrc=rss",
-          "date": "03.07 03:56",
-          "source": "Yahoo Finance",
-          "has_name": true
         }
       ],
       "related_stocks": [
@@ -247,7 +247,7 @@
           "change_rate": "-3.0%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_004",
@@ -317,7 +317,7 @@
           "change_rate": "+0.2%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_005",
@@ -334,6 +334,27 @@
       },
       "news_articles": [
         {
+          "title": "Meet the Artificial Intelligence (AI) ETF With 20% of Its Portfolio Parked in Alphabet, Nvidia, Micron, and Amazon",
+          "url": "https://www.fool.com/investing/2026/03/07/meet-ai-etf-portfolio-alphabet-nvidia-micron-chat/?.tsrc=rss",
+          "date": "03.07 22:42",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Micron Joins S&P 100 As AI DRAM Launch Shapes Valuation Debate",
+          "url": "https://finance.yahoo.com/news/micron-joins-p-100-ai-121047522.html?.tsrc=rss",
+          "date": "03.07 21:10",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
+          "title": "Investing.com’s stocks of the week",
+          "url": "https://finance.yahoo.com/news/investing-com-stocks-week-093002493.html?.tsrc=rss",
+          "date": "03.07 18:30",
+          "source": "Yahoo Finance",
+          "has_name": true
+        },
+        {
           "title": "Nvidia-Tied AI Stocks Vertiv, Lumentum, Coherent To Join S&P 500 Index",
           "url": "https://finance.yahoo.com/m/33f0ef2c-6fa4-3f23-ac62-90a1bde91945/nvidia-tied-ai-stocks-vertiv%2C.html?.tsrc=rss",
           "date": "03.07 10:16",
@@ -344,27 +365,6 @@
           "title": "Vertiv Holdings, Lumentum Holdings, Coherent, and EchoStar Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600",
           "url": "https://finance.yahoo.com/news/vertiv-holdings-lumentum-holdings-coherent-233900125.html?.tsrc=rss",
           "date": "03.07 08:39",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Vertiv and EchoStar lead tech surge in S&P 500 rebalance",
-          "url": "https://finance.yahoo.com/news/vertiv-echostar-lead-tech-surge-230634408.html?.tsrc=rss",
-          "date": "03.07 08:06",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "MU, LRCX, AMAT, GEV All Added to the S&P 100 As AI Stocks Gain Influence",
-          "url": "https://247wallst.com/investing/2026/03/06/mu-lrcx-amat-gev-all-added-to-the-sp-100-as-ai-stocks-gain-influence/?.tsrc=rss",
-          "date": "03.07 08:05",
-          "source": "Yahoo Finance",
-          "has_name": true
-        },
-        {
-          "title": "Micron (MU) Ships Industry-First 256GB SOCAMM2 Samples for AI Infrastructure",
-          "url": "https://finance.yahoo.com/news/micron-mu-ships-industry-first-194348895.html?.tsrc=rss",
-          "date": "03.07 04:43",
           "source": "Yahoo Finance",
           "has_name": true
         }
@@ -379,7 +379,7 @@
           "change_rate": "+0.2%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_006",
@@ -449,7 +449,7 @@
           "change_rate": "-3.0%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_007",
@@ -523,7 +523,7 @@
           "change_rate": "-1.0%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_008",
@@ -589,7 +589,7 @@
           "change_rate": "+2.5%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_009",
@@ -659,7 +659,7 @@
           "change_rate": "+0.1%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     },
     {
       "id": "sig_20260306_US_010",
@@ -680,40 +680,35 @@
           "url": "https://finance.yahoo.com/news/asml-expands-ai-chip-capabilities-002236914.html?.tsrc=rss",
           "date": "03.07 09:22",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "ASML Expands AI Chip Capabilities While Valuation Premium Draws Investor Scrutiny\nSimply Wall St\nFri, March 6, 2026 at 7:22 PM EST\nwith Simply Wall St's easy, visual tools that give you a competitive edge.\nASML Holding has shipped its first advanced packaging lithography system for AI focused chips, expanding its activity beyond core EUV tools.\nThe company reports progress in EUV light source technology that could support higher throughput for chipmakers.\nASML plans to open a support office in India to help the country build out its semiconductor manufacturing base.\nASML Holding (ENXTAM:ASML) is drawing attention as it moves into advanced packaging equipment at a time when AI hardware demand remains a key theme. The shares recently traded around ���1,147.0, with a 1 year return of 73.8% and a 5 year return of 169.0%. This performance helps explain how closely investors watch shifts in the company���s direction. In this context, its decision to extend beyond core EUV systems into packaging tools adds another angle for investors to track.\nFor you as an investor, the focus here is less on a single tool shipment and more on how ASML is positioning around AI workloads and new manufacturing hubs such as India. The company���s expanded support footprint and EUV light source work could influence where and how capacity is added across the industry. These developments may affect how investors view ASML���s role in the broader semiconductor equipment segment over time.\nStay updated on t"
+          "has_name": true
         },
         {
           "title": "European Stocks Fall in Friday Trading Amid Mideast Turmoil, Rising Oil Prices; Semiconductor, Mining Stocks Tumble",
           "url": "https://finance.yahoo.com/news/european-stocks-fall-friday-trading-173709413.html?.tsrc=rss",
           "date": "03.07 02:37",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "European Stocks Fall in Friday Trading Amid Mideast Turmoil, Rising Oil Prices; Semiconductor, Mining Stocks Tumble\nMT Newswires\nFri, March 6, 2026 at 12:37 PM EST\nThe European stock markets closed lower in Friday trading as war in the Middle East has caused oil p\nUpgrade to read this MT Newswires article and get so much more.\nA Silver or Gold subscription plan is required to access premium news articles."
+          "has_name": true
         },
         {
           "title": "What's Going On With ASML Stock Friday",
           "url": "https://finance.yahoo.com/news/whats-going-asml-stock-friday-173430365.html?.tsrc=rss",
           "date": "03.07 02:34",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "What's Going On With ASML Stock Friday\nNauman Khan\nFri, March 6, 2026 at 12:34 PM EST\nThis article first appeared on\n.\nShares of ASML Holding N.V. (\n) dipped about 3% on Friday as investors weighed a mix of demand uncertainty for 2026 and ongoing geopolitical pressures affecting the semiconductor equipment sector, according to market reports.\nMarket commentary\nthat some analysts and investors were concerned ASML may struggle to sustain the strong momentum seen in previous quarters, with softer guidance and potential moderation in orders prompting reevaluation of forecasts. A few brokerages have trimmed expectations for the company's performance, citing less favorable sales outlooks and reduced revenue projections, which weighed on sentiment.\nGeopolitical developments also played a role, especially heightened focus on possible tighter export controls for advanced semiconductor technology. Reports indicate that proposed changes to U.S. export rules for key AI chip components and ongoing restrictions on shipments to certain regions have added to uncertainty around ASML's ability to deliver equipment into key markets.\nTrading ASML shares eased as the technology industry fell into a downturn, with investors balancing high demand for AI chip tools in the long term with worries of policy challenges and short-term returns."
+          "has_name": true
         },
         {
           "title": "Google Grabs Attention, But Funds Go Crazy For This 'Pick-And-Shovel' AI Stock",
           "url": "https://finance.yahoo.com/m/f47230d8-b19a-31a8-aaa5-bd69487306ef/google-grabs-attention%2C-but.html?.tsrc=rss",
           "date": "03.07 00:27",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "Google Grabs Attention, But Funds Go Crazy For This 'Pick-And-Shovel' AI Stock\nGoogle Grabs Attention, But Funds Go Crazy For This 'Pick-And-Shovel' AI Stock\nMATTHEW GALGANI\nFri, March 6, 2026 at 10:27 AM EST\nBest mutual funds continued to bet big on Google and other AI stocks while pouring eye-popping sums in this unique leader."
+          "has_name": true
         },
         {
           "title": "ASML Holding (ASML) Plans to Expand Beyond Their Core EUV Lithography",
           "url": "https://finance.yahoo.com/news/asml-holding-asml-plans-expand-134738321.html?.tsrc=rss",
           "date": "03.06 22:47",
           "source": "Yahoo Finance",
-          "has_name": true,
-          "content": "ASML Holding (ASML) Plans to Expand Beyond Their Core EUV Lithography\nTalha Qureshi\nFri, March 6, 2026 at 8:47 AM EST\nASML Holding N.V. (NASDAQ:\n) is one of the\n. On March 3, UBS analyst Francois Xavier Bouvignies maintained a Buy rating on the stock with a price target of ���1,500.\nA day earlier, on March 2, ASML Chief Technology Officer Marco Pieters told Reuters that they plan to expand beyond their core EUV lithography technology into the booming AI chip market. Pieters said:\n���We look, not just for the next five years, we look at the next 10, maybe 15 years, (We look at) what are potential directions the industry could take, and what would it require in terms of packaging, bonding, etc.?���\nThe report highlighted that ASML holds a monopoly on extreme ultraviolet (EUV) lithography machines, which are essential for producing the most advanced AI chips by companies like TSMC and Intel. The firm has invested billions over a decade, with a next-generation EUV product nearing production and the third generation in research.\nLooking ahead, ASML Holding N.V. (NASDAQ:ASML) plans to develop tools for gluing and connecting multiple specialized chips, a process called advanced packaging critical for AI processors and high-bandwidth memory.\nASML Holding (ASML) Plans to Expand Beyond Their Core EUV Lithography\nClose-up of Silicon Die are being Extracted from Semiconductor Wafer and Attached to Substrate by Pick and Place Machine. Computer Chip Manufacturing at Fab. Semiconductor Pack"
+          "has_name": true
         }
       ],
       "related_stocks": [
@@ -738,7 +733,7 @@
           "change_rate": "+0.2%"
         }
       ],
-      "timestamp": "2026-03-07 17:37:29"
+      "timestamp": "2026-03-08 00:46:06"
     }
   ]
 }
